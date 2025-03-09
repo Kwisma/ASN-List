@@ -1,0 +1,31 @@
+# Tor 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
+# 最后更新： CST 2025-03-09 22:11:03
+# 由 Kwisma 制作，保留所有权利。
+
+payload:
+  - IP-ASN,44270 # ASN
+  - IP-CIDR,94.243.240.0/20 # Route
+  - IP-CIDR,79.173.112.0/21 # Route
+  - IP-CIDR,79.173.112.0/20 # Route
+  - IP-CIDR,45.158.232.0/22 # Route
+  - IP-CIDR,45.136.154.0/24 # Route
+  - IP-CIDR,37.19.212.0/23 # Route
+  - IP-CIDR,37.19.211.0/24 # Route
+  - IP-CIDR,37.19.209.0/24 # Route
+  - IP-CIDR6,2a05:dfc1:cd2::/48 # Route
+  - IP-CIDR6,2a02:6ea0:de00::/40 # Route
+  - IP-CIDR6,2a02:6ea0:2e00::/40 # Route
+  - IP-CIDR6,2607:9000:6000::/36 # Route
+  - IP-CIDR,204.8.99.0/24 # Route
+  - IP-CIDR,198.54.132.0/24 # Route
+  - IP-CIDR,198.44.140.0/24 # Route
+  - IP-CIDR,185.24.9.0/24 # Route
+  - IP-CIDR,185.156.47.0/24 # Route
+  - IP-CIDR,185.129.61.0/24 # Route
+  - IP-CIDR,178.249.214.0/24 # Route
+  - IP-CIDR,169.150.219.0/24 # Route
+  - IP-CIDR,169.150.204.0/24 # Route
+  - IP-CIDR,143.244.43.0/24 # Route
+  - IP-CIDR,138.199.57.0/24 # Route
+  - IP-CIDR,138.199.48.0/24 # Route
+  - IP-CIDR,103.138.56.0/23 # Route
