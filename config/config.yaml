@@ -1,0 +1,254 @@
+namelist:
+  - Facebook
+  - Fastly
+  - Netflix
+  - Telegram
+  - Twitter
+  - Tor
+  - Google
+  - Amazon
+  - Cloudflare
+  - Microsoft
+
+country:
+  - US # United States
+  - BR # Brazil
+  - CN # China
+  - RU # Russian Federation
+  - IN # India
+  - GB # United Kingdom
+  - ID # Indonesia
+  - DE # Germany
+  - AU # Australia
+  - PL # Poland
+  - CA # Canada
+  - UA # Ukraine
+  - FR # France
+  - BD # Bangladesh
+  - NL # Netherlands
+  - IT # Italy
+  - HK # Hong Kong
+  - RO # Romania
+  - ES # Spain
+  - AR # Argentina
+  - JP # Japan
+  - CH # Switzerland
+  - KR # Korea, Republic of
+  - TR # Turkey
+  - SE # Sweden
+  - VN # Viet Nam
+  - ZA # South Africa
+  - IR # Iran, Islamic Republic of
+  - BG # Bulgaria
+  - AT # Austria
+  - NZ # New Zealand
+  - MX # Mexico
+  - CZ # Czech Republic
+  - SG # Singapore
+  - PH # Philippines
+  - TH # Thailand
+  - CO # Colombia
+  - DK # Denmark
+  - TW # Taiwan
+  - NO # Norway
+  - BE # Belgium
+  - CL # Chile
+  - FI # Finland
+  - PK # Pakistan
+  - IL # Israel
+  - MY # Malaysia
+  - EU # European Union
+  - LV # Latvia
+  - HU # Hungary
+  - IE # Ireland
+  - NG # Nigeria
+  - SI # Slovenia
+  - GR # Greece
+  - EC # Ecuador
+  - KE # Kenya
+  - VE # Venezuela, Bolivarian Republic of
+  - SK # Slovakia
+  - LT # Lithuania
+  - EE # Estonia
+  - IQ # Iraq
+  - MD # Moldova, Republic of
+  - PE # Peru
+  - KZ # Kazakhstan
+  - RS # Serbia
+  - SA # Saudi Arabia
+  - NP # Nepal
+  - HR # Croatia
+  - DO # Dominican Republic
+  - LB # Lebanon
+  - CY # Cyprus
+  - PT # Portugal
+  - AE # United Arab Emirates
+  - PA # Panama
+  - MM # Myanmar
+  - GE # Georgia
+  - KH # Cambodia
+  - BY # Belarus
+  - LU # Luxembourg
+  - AM # Armenia
+  - GH # Ghana
+  - AL # Albania
+  - TZ # Tanzania, United Republic of
+  - CR # Costa Rica
+  - HN # Honduras
+  - UZ # Uzbekistan
+  - PR # Puerto Rico
+  - EG # Egypt
+  - PY # Paraguay
+  - SC # Seychelles
+  - IS # Iceland
+  - AZ # Azerbaijan
+  - GT # Guatemala
+  - KW # Kuwait
+  - AO # Angola
+  - AF # Afghanistan
+  - MN # Mongolia
+  - PS # Palestine
+  - UG # Uganda
+  - KG # Kyrgyzstan
+  - BO # Bolivia, Plurinational State of
+  - MK # Macedonia, The Former Yugoslav Republic of
+  - MU # Mauritius
+  - MT # Malta
+  - CD # Congo, The Democratic Republic of the
+  - BA # Bosnia and Herzegovina
+  - SV # El Salvador
+  - JO # Jordan
+  - VG # Virgin Islands, British
+  - UY # Uruguay
+  - PG # Papua New Guinea
+  - LA # Lao Peoples Democratic Republic
+  - BZ # Belize
+  - ZW # Zimbabwe
+  - MZ # Mozambique
+  - CW # Curaçao
+  - CM # Cameroon
+  - MW # Malawi
+  - BW # Botswana
+  - RW # Rwanda
+  - NI # Nicaragua
+  - BT # Bhutan
+  - TJ # Tajikistan
+  - LY # Libya
+  - GI # Gibraltar
+  - BF # Burkina Faso
+  - MA # Morocco
+  - LK # Sri Lanka
+  - ZM # Zambia
+  - TN # Tunisia
+  - CI # Côte dIvoire
+  - ME # Montenegro
+  - BH # Bahrain
+  - LI # Liechtenstein
+  - SS # South Sudan
+  - IM # Isle of Man
+  - SL # Sierra Leone
+  - QA # Qatar
+  - SO # Somalia
+  - BM # Bermuda
+  - BJ # Benin
+  - OM # Oman
+  - GN # Guinea
+  - DZ # Algeria
+  - CG # Congo
+  - TD # Chad
+  - SN # Senegal
+  - NC # New Caledonia
+  - NA # Namibia
+  - GA # Gabon
+  - FJ # Fiji
+  - TT # Trinidad and Tobago
+  - MV # Maldives
+  - LR # Liberia
+  - AG # Antigua and Barbuda
+  - KY # Cayman Islands
+  - SZ # Swaziland
+  - MO # Macao
+  - HT # Haiti
+  - BS # Bahamas
+  - VU # Vanuatu
+  - TL # Timor-Leste
+  - SD # Sudan
+  - JM # Jamaica
+  - VI # Virgin Islands, U.S.
+  - SM # San Marino
+  - MG # Madagascar
+  - JE # Jersey
+  - GM # Gambia
+  - SB # Solomon Islands
+  - ML # Mali
+  - BI # Burundi
+  - WS # Samoa
+  - LS # Lesotho
+  - GU # Guam
+  - GG # Guernsey
+  - GD # Grenada
+  - CV # Cape Verde
+  - TG # Togo
+  - RE # RÉUNION
+  - NE # Niger
+  - FO # Faroe Islands
+  - BN # Brunei Darussalam
+  - BB # Barbados
+  - MR # Mauritania
+  - GP # Guadeloupe
+  - ET # Ethiopia
+  - SR # Suriname
+  - LC # Saint Lucia
+  - KN # Saint Kitts and Nevis
+  - GQ # Equatorial Guinea
+  - DM # Dominica
+  - TM # Turkmenistan
+  - SY # Syrian Arab Republic
+  - MH # Marshall Islands
+  - GY # Guyana
+  - GF # French Guiana
+  - CU # Cuba
+  - YE # Yemen
+  - PF # French Polynesia
+  - MQ # Martinique
+  - MF # Saint Martin (French part)
+  - FM # Micronesia, Federated States of
+  - DJ # Djibouti
+  - BQ # Bonaire, Sint Eustatius and Saba
+  - TO # Tonga
+  - PW # Palau
+  - NR # Nauru
+  - AW # Aruba
+  - AI # Anguilla
+  - VC # Saint Vincent and the Grenadines
+  - SX # Sint Maarten (Dutch part)
+  - KI # Kiribati
+  - CF # Central African Republic
+  - BL # Saint Barthélemy
+  - VA # Holy See (Vatican City State)
+  - TV # Tuvalu
+  - TK # Tokelau
+  - MC # Monaco
+  - AS # American Samoa
+  - AD # Andorra
+  - TC # Turks and Caicos Islands
+  - ST # Sao Tome and Principe
+  - NF # Norfolk Island
+  - MP # Northern Mariana Islands
+  - KM # Comoros
+  - GW # Guinea-Bissau
+  - FK # Falkland Islands (Malvinas)
+  - CK # Cook Islands
+  - AP # 
+  - YT # Mayotte
+  - WF # Wallis and Futuna
+  - UK # United Kingdom
+  - PM # Saint Pierre and Miquelon
+  - NU # Niue
+  - MS # Montserrat
+  - KP # Korea, Democratic Peoples Republic of
+  - IO # British Indian Ocean Territory
+  - GL # Greenland
+  - ER # Eritrea
+  - AX # Åland Islands
+  - AN # Netherlands Antilles

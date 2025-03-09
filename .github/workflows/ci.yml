@@ -1,0 +1,29 @@
+name: Update ASN and IP List
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 16 * * *"
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install -P
+
+      - name: Update ASN and IP List
+        run: |
+          node scripts/ASN.js
+          node scripts/ASNList.js
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update IP List
