@@ -1,5 +1,5 @@
 # Telegram 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-10 13:08:40
+# 最后更新： CST 2025-03-10 16:49:45
 # 总数: 21
 # ASN: 5
 # IP-CIDR: 16
@@ -13,19 +13,19 @@ payload:
   - IP-ASN,59930
   - IP-ASN,44907
   - IP-ASN,211157
-  - IP-CIDR,95.161.64.0/20
-  - IP-CIDR,91.108.56.0/23
-  - IP-CIDR,91.108.56.0/22
-  - IP-CIDR,91.108.4.0/22
-  - IP-CIDR,91.105.192.0/23
-  - IP-CIDR6,2a0e:97c1:e7::/48
-  - IP-CIDR6,2a0a:f280::/29
-  - IP-CIDR6,2a0a:f280:203::/48
-  - IP-CIDR6,2001:b28:f23f::/48
-  - IP-CIDR6,2001:b28:f23d::/48
-  - IP-CIDR6,2001:67c:4e8::/48
-  - IP-CIDR,185.76.151.0/24
-  - IP-CIDR,149.154.166.0/23
-  - IP-CIDR,149.154.164.0/23
-  - IP-CIDR,149.154.162.0/23
-  - IP-CIDR,109.239.140.0/24
+  - IP-CIDR,95.161.64.0/20,no-resolve
+  - IP-CIDR,91.108.56.0/23,no-resolve
+  - IP-CIDR,91.108.56.0/22,no-resolve
+  - IP-CIDR,91.108.4.0/22,no-resolve
+  - IP-CIDR,91.105.192.0/23,no-resolve
+  - IP-CIDR6,2a0e:97c1:e7::/48,no-resolve
+  - IP-CIDR6,2a0a:f280::/29,no-resolve
+  - IP-CIDR6,2a0a:f280:203::/48,no-resolve
+  - IP-CIDR6,2001:b28:f23f::/48,no-resolve
+  - IP-CIDR6,2001:b28:f23d::/48,no-resolve
+  - IP-CIDR6,2001:67c:4e8::/48,no-resolve
+  - IP-CIDR,185.76.151.0/24,no-resolve
+  - IP-CIDR,149.154.166.0/23,no-resolve
+  - IP-CIDR,149.154.164.0/23,no-resolve
+  - IP-CIDR,149.154.162.0/23,no-resolve
+  - IP-CIDR,109.239.140.0/24,no-resolve

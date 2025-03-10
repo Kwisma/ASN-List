@@ -1,5 +1,5 @@
 # Tor 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-10 13:08:40
+# 最后更新： CST 2025-03-10 16:49:45
 # 总数: 26
 # ASN: 1
 # IP-CIDR: 25
@@ -9,28 +9,28 @@
 
 payload:
   - IP-ASN,44270
-  - IP-CIDR,94.243.240.0/20
-  - IP-CIDR,79.173.112.0/21
-  - IP-CIDR,79.173.112.0/20
-  - IP-CIDR,45.158.232.0/22
-  - IP-CIDR,45.136.154.0/24
-  - IP-CIDR,37.19.212.0/23
-  - IP-CIDR,37.19.211.0/24
-  - IP-CIDR,37.19.209.0/24
-  - IP-CIDR6,2a05:dfc1:cd2::/48
-  - IP-CIDR6,2a02:6ea0:de00::/40
-  - IP-CIDR6,2a02:6ea0:2e00::/40
-  - IP-CIDR6,2607:9000:6000::/36
-  - IP-CIDR,204.8.99.0/24
-  - IP-CIDR,198.54.132.0/24
-  - IP-CIDR,198.44.140.0/24
-  - IP-CIDR,185.24.9.0/24
-  - IP-CIDR,185.156.47.0/24
-  - IP-CIDR,185.129.61.0/24
-  - IP-CIDR,178.249.214.0/24
-  - IP-CIDR,169.150.219.0/24
-  - IP-CIDR,169.150.204.0/24
-  - IP-CIDR,143.244.43.0/24
-  - IP-CIDR,138.199.57.0/24
-  - IP-CIDR,138.199.48.0/24
-  - IP-CIDR,103.138.56.0/23
+  - IP-CIDR,94.243.240.0/20,no-resolve
+  - IP-CIDR,79.173.112.0/21,no-resolve
+  - IP-CIDR,79.173.112.0/20,no-resolve
+  - IP-CIDR,45.158.232.0/22,no-resolve
+  - IP-CIDR,45.136.154.0/24,no-resolve
+  - IP-CIDR,37.19.212.0/23,no-resolve
+  - IP-CIDR,37.19.211.0/24,no-resolve
+  - IP-CIDR,37.19.209.0/24,no-resolve
+  - IP-CIDR6,2a05:dfc1:cd2::/48,no-resolve
+  - IP-CIDR6,2a02:6ea0:de00::/40,no-resolve
+  - IP-CIDR6,2a02:6ea0:2e00::/40,no-resolve
+  - IP-CIDR6,2607:9000:6000::/36,no-resolve
+  - IP-CIDR,204.8.99.0/24,no-resolve
+  - IP-CIDR,198.54.132.0/24,no-resolve
+  - IP-CIDR,198.44.140.0/24,no-resolve
+  - IP-CIDR,185.24.9.0/24,no-resolve
+  - IP-CIDR,185.156.47.0/24,no-resolve
+  - IP-CIDR,185.129.61.0/24,no-resolve
+  - IP-CIDR,178.249.214.0/24,no-resolve
+  - IP-CIDR,169.150.219.0/24,no-resolve
+  - IP-CIDR,169.150.204.0/24,no-resolve
+  - IP-CIDR,143.244.43.0/24,no-resolve
+  - IP-CIDR,138.199.57.0/24,no-resolve
+  - IP-CIDR,138.199.48.0/24,no-resolve
+  - IP-CIDR,103.138.56.0/23,no-resolve
