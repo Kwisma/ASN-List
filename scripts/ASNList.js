@@ -203,13 +203,13 @@ async function saveLatestASN(name) {
             }
             if (asnName === 'Route') {
                 if (!asnNumber.includes(':')) {
-                    const asnInfo = `IP-CIDR,${asnNumber}\n`;
-                    payload.push(`IP-CIDR,${asnNumber}`);
+                    const asnInfo = `IP-CIDR,${asnNumber},no-resolve\n`;
+                    payload.push(`IP-CIDR,${asnNumber},no-resolve`);
                     fs.appendFileSync(`./data/${name}/ASN.${name}.list`, asnInfo, { encoding: 'utf8' });
                     // logger.info(`处理 ASN #${index + 1}: ${asnNumber}`);
                 } else {
-                    const asnInfo = `IP-CIDR6,${asnNumber}\n`;
-                    payload.push(`IP-CIDR6,${asnNumber}`);
+                    const asnInfo = `IP-CIDR6,${asnNumber},no-resolve\n`;
+                    payload.push(`IP-CIDR6,${asnNumber},no-resolve`);
                     fs.appendFileSync(`./data/${name}/ASN.${name}.list`, asnInfo, { encoding: 'utf8' });
                     // logger.info(`处理 ASN #${index + 1}: ${asnNumber}`);
                 }
