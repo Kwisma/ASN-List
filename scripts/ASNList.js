@@ -8,7 +8,9 @@ import yaml from 'js-yaml'
 // 读取外部的 config.yaml 文件
 const config = yaml.load(fs.readFileSync('./config/config.yaml', 'utf8'));
 const namelist = config.namelist;
-
+const rulelist = {};
+const rulenum = {};
+const nameASN = [];
 // 获取当前函数名
 function getFunctionName() {
     const stack = new Error().stack;
@@ -67,9 +69,11 @@ function initFile(name) {
     const localTime = getChinaTime();
     const header = `# ${name} 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)\n`;
     const lastUpdated = `# 最后更新： CST ${localTime}\n`;
-    const footer = "# 由 Kwisma 制作，保留所有权利。\n\n";
-    const fileContent = header + lastUpdated + footer;
-    const mdhr = `
+    const fileContent = header + lastUpdated;
+    rulelist[`ASN${name}`] = { type: 'http', behavior: 'classical', url: `https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/${name}/ASN.${name}.yaml`, path: `./ruleset/ASN.${name}.yaml`, interval: 86400, format: 'yaml' };
+    rulenum[`ASN${name}`] = { '<<': '*classical', url: `https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/${name}/ASN.${name}.yaml`, path: `./ruleset/ASN.${name}.yaml` };
+    nameASN.push(name);
+    const filemd = `
 # ASN-List
 
 实时更新 ${name} 的 ASN 和 IP 数据库。
@@ -85,12 +89,23 @@ mihomo(clash.meta)
 
 <pre><code class="language-javascript">
 rule-providers:
-  reject:
+  ASN${name}:
     type: http
     behavior: classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/${name}/ASN.${name}.yaml"
     path: ./ruleset/ASN.${name}.yaml
     interval: 86400
+    format: yaml
+</code></pre>
+
+或者
+
+<pre><code class="language-javascript">
+rule-providers:
+  ASN${name}:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/${name}/ASN.${name}.yaml"
+    path: ./ruleset/ASN.${name}.yaml
 </code></pre>
 
 Surge
@@ -115,16 +130,31 @@ https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/${name}/A
         fs.mkdirSync(dir, { recursive: true });
     }
     const files = [`./data/${name}/ASN.${name}.list`, `./data/${name}/ASN.${name}.yaml`];
-    const mdfiles = [`./data/${name}/README.md`];
+    const filesmd = [`./data/${name}/README.md`];
     logger.info("初始化文件...");
     // 遍历文件列表并写入内容
     files.forEach((file) => {
         fs.writeFileSync(file, fileContent, { encoding: 'utf8' });
     });
-    mdfiles.forEach((file) => {
-        fs.writeFileSync(file, mdhr, { encoding: 'utf8' });
+    filesmd.forEach((file) => {
+        fs.writeFileSync(file, filemd, { encoding: 'utf8' });
     });
     logger.info("文件初始化完成！");
+}
+
+function asnInfo(name, asnNumber, asnCount, routeCount4, routeCount6) {
+    const fileunm = `# 总数: ${asnNumber}\n`;
+    const fileasn = `# ASN: ${asnCount}\n`;
+    const fileroute = `# IP-CIDR: ${routeCount4 + routeCount6}\n`;
+    const fileroute4 = `# IP-CIDR4: ${routeCount4}\n`;
+    const fileroute6 = `# IP-CIDR6: ${routeCount6}\n`;
+    const footer = "# 由 Kwisma 制作，保留所有权利。\n\n";
+    const fileContent = fileunm + fileasn + fileroute + fileroute4 + fileroute6 + footer;
+    const files = [`./data/${name}/ASN.${name}.list`, `./data/${name}/ASN.${name}.yaml`];
+    // 遍历文件列表并写入内容
+    files.forEach((file) => {
+        fs.appendFileSync(file, fileContent, { encoding: 'utf8' });
+    });
 }
 
 async function saveLatestASN(name) {
@@ -141,38 +171,96 @@ async function saveLatestASN(name) {
         logger.info("数据请求成功！");
         const $ = cheerio.load(data);
         const asns = $('table.w100p tbody tr');
+        let asnCount = 0;
+        let routeCount4 = 0;
+        let routeCount6 = 0;
+        asns.each((index, asn) => {
+            const asnNumber = $(asn).find('td:nth-child(1) a').text().replace('AS', '').trim();
+            const asnName = $(asn).find('td:nth-child(2)').text().trim();
+            if (asnName === 'ASN') {
+                asnCount++;
+            }
+            if (asnName === 'Route') {
+                if (!asnNumber.includes(':')) {
+                    routeCount4++;
+                } else {
+                    routeCount6++;
+                }
+            }
+        });
         logger.info(`共找到 ${asns.length} 个 ASN 条目，开始写入文件...`);
+        asnInfo(name, asns.length, asnCount, routeCount4, routeCount6);
         let payload = [];
 
         asns.each((index, asn) => {
             const asnNumber = $(asn).find('td:nth-child(1) a').text().replace('AS', '').trim();
             const asnName = $(asn).find('td:nth-child(2)').text().trim();
             if (asnName === 'ASN') {
-                const asnInfo = `IP-ASN,${asnNumber} # ${asnName}\n`;
-                payload.push(`IP-ASN,${asnNumber} # ${asnName}`);
+                const asnInfo = `IP-ASN,${asnNumber}\n`;
+                payload.push(`IP-ASN,${asnNumber}`);
                 fs.appendFileSync(`./data/${name}/ASN.${name}.list`, asnInfo, { encoding: 'utf8' });
-                logger.info(`处理 ASN #${index + 1}: ${asnNumber} # ${asnName}`);
+                // logger.info(`处理 ASN #${index + 1}: ${asnNumber}`);
             }
             if (asnName === 'Route') {
                 if (!asnNumber.includes(':')) {
-                    const asnInfo = `IP-CIDR,${asnNumber} # ${asnName}\n`;
-                    payload.push(`IP-CIDR,${asnNumber} # ${asnName}`);
+                    const asnInfo = `IP-CIDR,${asnNumber}\n`;
+                    payload.push(`IP-CIDR,${asnNumber}`);
                     fs.appendFileSync(`./data/${name}/ASN.${name}.list`, asnInfo, { encoding: 'utf8' });
-                    logger.info(`处理 ASN #${index + 1}: ${asnNumber} # ${asnName}`);
+                    // logger.info(`处理 ASN #${index + 1}: ${asnNumber}`);
                 } else {
-                    const asnInfo = `IP-CIDR6,${asnNumber} # ${asnName}\n`;
-                    payload.push(`IP-CIDR6,${asnNumber} # ${asnName}`);
+                    const asnInfo = `IP-CIDR6,${asnNumber}\n`;
+                    payload.push(`IP-CIDR6,${asnNumber}`);
                     fs.appendFileSync(`./data/${name}/ASN.${name}.list`, asnInfo, { encoding: 'utf8' });
-                    logger.info(`处理 ASN #${index + 1}: ${asnNumber} # ${asnName}`);
+                    // logger.info(`处理 ASN #${index + 1}: ${asnNumber}`);
                 }
             }
         });
+
         const output = {
             payload: payload
         };
-        let yamlString = yaml.dump(output, { lineWidth: -1 });
-        yamlString = yamlString.replace(/'/g, '');
-        fs.appendFileSync(`./data/${name}/ASN.${name}.yaml`, yamlString, { encoding: 'utf8' });
+        const ruleput = {
+            'rule-providers': rulelist
+        }
+        const rulenumset = {
+            'rule-providers': rulenum
+        }
+        const ruleget = yaml.dump(ruleput, { lineWidth: -1 });
+        const ruleString = ruleget.replace(/'/g, '');
+        const rulenumget = yaml.dump(rulenumset, { lineWidth: -1 });
+        const rulenumString = rulenumget.replace(/'/g, '');
+        const ASNListItems = nameASN.map(name => `- ASN-${name}`).join('\n');
+        const datamd = `
+# ASN-List
+
+实时更新的 ASN 和 IP 数据库。
+data 目录ASN如下：
+${ASNListItems}
+
+country 目录是各个国家的 ASN
+
+## 特征
+
+- 每日自动更新
+- 可靠且准确的来源
+
+## 在代理应用中使用
+## 常规配置
+
+<pre><code class="language-javascript">
+${ruleString}
+</code></pre>
+
+# 高级配置
+
+<pre><code class="language-javascript">
+${rulenumString}
+</code></pre>
+        `;
+        fs.writeFileSync(`README.md`, datamd, { encoding: 'utf8' });
+        const outputget = yaml.dump(output, { lineWidth: -1 });
+        const outputString = outputget.replace(/'/g, '');
+        fs.appendFileSync(`./data/${name}/ASN.${name}.yaml`, outputString, { encoding: 'utf8' });
         logger.info("ASN 数据写入成功！");
     } catch (error) {
         logger.error('请求 ASN 数据失败:', error);
@@ -181,6 +269,5 @@ async function saveLatestASN(name) {
 
 // 运行保存最新 ASN 数据
 namelist.forEach(item => {
-    logger.info(`开始序号：${item}`)
     saveLatestASN(item);
 });
