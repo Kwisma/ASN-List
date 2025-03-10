@@ -1,10 +1,10 @@
 # Fastly 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-10 16:49:45
-# 总数: 1207
+# 最后更新： CST 2025-03-11 00:10:40
+# 总数: 1208
 # ASN: 4
-# IP-CIDR: 1203
+# IP-CIDR: 1204
 # IP-CIDR4: 392
-# IP-CIDR6: 811
+# IP-CIDR6: 812
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -808,6 +808,7 @@ payload:
   - IP-CIDR6,2a04:4e40:1020::/48,no-resolve
   - IP-CIDR6,2a04:4e40:1010::/48,no-resolve
   - IP-CIDR6,2a04:4e40:1000::/48,no-resolve
+  - IP-CIDR6,2620:11a:c024::/48,no-resolve
   - IP-CIDR6,2620:11a:c020::/48,no-resolve
   - IP-CIDR6,2620:11a:c01a::/48,no-resolve
   - IP-CIDR6,2620:11a:c019::/48,no-resolve

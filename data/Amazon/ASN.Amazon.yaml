@@ -1,9 +1,9 @@
 # Amazon 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-10 16:49:45
-# 总数: 11970
+# 最后更新： CST 2025-03-11 00:10:40
+# 总数: 11973
 # ASN: 27
-# IP-CIDR: 11941
-# IP-CIDR4: 8477
+# IP-CIDR: 11944
+# IP-CIDR4: 8480
 # IP-CIDR6: 3464
 # 由 Kwisma 制作，保留所有权利。
 
@@ -3286,6 +3286,7 @@ payload:
   - IP-CIDR,35.71.102.0/24,no-resolve
   - IP-CIDR,35.71.101.0/24,no-resolve
   - IP-CIDR,35.71.100.0/24,no-resolve
+  - IP-CIDR,35.54.16.0/20,no-resolve
   - IP-CIDR,35.50.236.0/24,no-resolve
   - IP-CIDR,35.50.214.0/24,no-resolve
   - IP-CIDR,35.182.0.0/15,no-resolve
@@ -9634,6 +9635,7 @@ payload:
   - IP-CIDR,16.24.0.0/15,no-resolve
   - IP-CIDR,16.24.0.0/13,no-resolve
   - IP-CIDR,16.209.0.0/16,no-resolve
+  - IP-CIDR,16.206.0.0/16,no-resolve
   - IP-CIDR,16.20.253.0/24,no-resolve
   - IP-CIDR,16.20.248.0/22,no-resolve
   - IP-CIDR,16.20.244.0/22,no-resolve
@@ -10419,6 +10421,7 @@ payload:
   - IP-CIDR,148.91.0.0/16,no-resolve
   - IP-CIDR,148.73.0.0/16,no-resolve
   - IP-CIDR,148.65.0.0/16,no-resolve
+  - IP-CIDR,148.154.0.0/16,no-resolve
   - IP-CIDR,147.108.16.0/24,no-resolve
   - IP-CIDR,147.106.64.0/18,no-resolve
   - IP-CIDR,146.9.0.0/16,no-resolve
