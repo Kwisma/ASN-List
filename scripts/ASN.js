@@ -4,7 +4,6 @@ import path from 'path';
 import * as cheerio from 'cheerio';
 import winston from 'winston';
 import yaml from 'js-yaml'
-import { createUnzip } from 'zlib';
 
 // 读取外部的 config.yaml 文件
 const config = yaml.load(fs.readFileSync('./config/config.yaml', 'utf8'));
