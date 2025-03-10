@@ -14,12 +14,23 @@ mihomo(clash.meta)
 
 <pre><code class="language-javascript">
 rule-providers:
-  reject:
+  ASNCloudflare:
     type: http
     behavior: classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Cloudflare/ASN.Cloudflare.yaml"
     path: ./ruleset/ASN.Cloudflare.yaml
     interval: 86400
+    format: yaml
+</code></pre>
+
+或者
+
+<pre><code class="language-javascript">
+rule-providers:
+  ASNCloudflare:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Cloudflare/ASN.Cloudflare.yaml"
+    path: ./ruleset/ASN.Cloudflare.yaml
 </code></pre>
 
 Surge

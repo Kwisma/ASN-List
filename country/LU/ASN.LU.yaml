@@ -1,107 +1,108 @@
 # LU 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-10 00:08:45
+# 最后更新： CST 2025-03-10 13:08:19
+# ASN: 102
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,199524 # G-Core Labs S.A.
-  - IP-ASN,56665 # Proximus Luxembourg S.A.
-  - IP-ASN,34655 # JWE S.a r.l.
-  - IP-ASN,12684 # SES ASTRA S.A.
-  - IP-ASN,29467 # LUXNETWORK S.A.
-  - IP-ASN,6661 # POST Luxembourg
-  - IP-ASN,8632 # Luxembourg Online S.A.
-  - IP-ASN,15965 # CEGECOM S.A.
-  - IP-ASN,197692 # Conostix S.A.
-  - IP-ASN,198290 # Global IT Services PSF SA
-  - IP-ASN,60725 # SES ASTRA S.A.
-  - IP-ASN,24611 # Datacenter Luxembourg S.A.
-  - IP-ASN,9008 # Visual Online S.A.
-  - IP-ASN,2602 # Fondation RESTENA
-  - IP-ASN,204403 # HOTCITY SA
-  - IP-ASN,60497 # Uwe Zeidler
-  - IP-ASN,49813 # Innova Co S.A.R.L.
-  - IP-ASN,44295 # Lab Luxembourg S.A.
-  - IP-ASN,200129 # LHISP S.A.
-  - IP-ASN,25273 # Broadcasting Center Europe (an RTL Group Company)
-  - IP-ASN,206610 # Mixvoip S.A.
-  - IP-ASN,213216 # LuxChan S.A R.L.-S
-  - IP-ASN,210834 # LU-CIX Management GIE
-  - IP-ASN,204279 # Eltrona Interdiffusion S.A.
-  - IP-ASN,50754 # C2D System House Luxembourg SA
-  - IP-ASN,204025 # Centre de Telecommunications et Teleinformatiques Luxembourgeois s.a.
-  - IP-ASN,25094 # Centre des technologies de linformation de lEtat
-  - IP-ASN,197869 # Luxembourg House of Cybersecurity
-  - IP-ASN,15814 # Clearstream Services S.A.
-  - IP-ASN,47944 # Chambre des Deputes Luxembourg
-  - IP-ASN,34683 # TELKEA TELECOM SA
-  - IP-ASN,212630 # Societe de laeroport de Luxembourg SA
-  - IP-ASN,211999 # LuxProvide S.A.
-  - IP-ASN,211018 # Administration Communale Luxemberg
-  - IP-ASN,202438 # Encevo S.A
-  - IP-ASN,201973 # European Court of Justice
-  - IP-ASN,203143 # Banque et Caisse dEpargne de lEtat Luxembourg
-  - IP-ASN,208374 # LU-CIX Management GIE
-  - IP-ASN,61327 # MTX Connect S. a r.l.
-  - IP-ASN,212882 # dnx network sarl
-  - IP-ASN,203055 # Datacenter Luxembourg S.A.
-  - IP-ASN,5577 # root SA
-  - IP-ASN,51497 # Innova Co S.A.R.L.
-  - IP-ASN,209333 # Osy Technologies S.a r.l.
-  - IP-ASN,201710 # DATA4 LUXEMBOURG s.a r.l
-  - IP-ASN,60752 # AOSSIA S.A.
-  - IP-ASN,60391 # Papa-Razzi Media Group A.s.b.l.
-  - IP-ASN,20501 # BANQUE DE LUXEMBOURG SA
-  - IP-ASN,202422 # G-Core Labs S.A.
-  - IP-ASN,6891 # Infeurope S.A.
-  - IP-ASN,62285 # Canal+ Luxembourg Sarl
-  - IP-ASN,60288 # Eurobase GmbH
-  - IP-ASN,51405 # Voipgate S.A.
-  - IP-ASN,47137 # CHAMP Cargosystems S.A.
-  - IP-ASN,44708 # PAUL WURTH S.A.
-  - IP-ASN,42848 # European Commission
-  - IP-ASN,41273 # Antenne Collective Ettelbruck ASBL
-  - IP-ASN,35446 # Netcompany - Intrasoft S.A.
-  - IP-ASN,25367 # Proximus Luxembourg S.A.
-  - IP-ASN,214004 # Deloitte General Services sarl
-  - IP-ASN,212218 # Dennemeyer TechSys S.A.
-  - IP-ASN,21179 # Logwin AG
-  - IP-ASN,207188 # Clearstream Services S.A.
-  - IP-ASN,206504 # RCARRE S.A.
-  - IP-ASN,204299 # KPMG Audit S.a r.l.
-  - IP-ASN,203944 # NTT Luxembourg PSF S.A.
-  - IP-ASN,203793 # OPG Online Personals Group AG
-  - IP-ASN,203398 # Rotarex S.A.
-  - IP-ASN,201740 # SODRU S.A.
-  - IP-ASN,200331 # IQ EQ (Luxembourg) S.A.
-  - IP-ASN,198095 # POST Telecom S.A.
-  - IP-ASN,197415 # CROSSING TELECOM SARL
-  - IP-ASN,13088 # Proximus Luxembourg S.A.
-  - IP-ASN,60525 # Innova Co S.A.R.L.
-  - IP-ASN,58049 # MTX Services Sarl
-  - IP-ASN,57644 # GhiShin S.A.
-  - IP-ASN,57231 # Innova Co S.A.R.L.
-  - IP-ASN,57205 # Telkea Soft S.A.
-  - IP-ASN,51966 # Fondation RESTENA
-  - IP-ASN,43719 # Kyndryl Luxembourg Sarl
-  - IP-ASN,43375 # EUROPEAN PARLIAMENT
-  - IP-ASN,41589 # Lux Green Technologies Sarl
-  - IP-ASN,34769 # Orange Communications Luxembourg S.A
-  - IP-ASN,3347 # Worldline Financial Services (Europe) S.A.
-  - IP-ASN,215667 # Cyclop S.a r.l.
-  - IP-ASN,214418 # ITech28 S.a.r.l.
-  - IP-ASN,211719 # CA Indosuez Wealth (Europe) S.A.
-  - IP-ASN,211093 # Zitro International SARL
-  - IP-ASN,210145 # Societe de la Bourse de Luxembourg S.A.
-  - IP-ASN,207870 # Epic Games International S.a r.l.
-  - IP-ASN,207845 # Epic Games International S.a r.l.
-  - IP-ASN,204803 # Societe Generale Luxembourg S.A.
-  - IP-ASN,201554 # SES ASTRA S.A.
-  - IP-ASN,201507 # Sardina Systems Sarl
-  - IP-ASN,201441 # European Investment Bank
-  - IP-ASN,201187 # TELEDISTRIBUTION WALFERDANGE ASBL
-  - IP-ASN,200617 # CEBI International SA
-  - IP-ASN,200126 # Epic Games International S.a r.l.
-  - IP-ASN,199245 # PricewaterhouseCoopers Societe cooperative
-  - IP-ASN,15780 # Luxembourg Amateur Radio Union, A.s.b.l.
-  - IP-ASN,214587 # Rulx Alexis
-  - IP-ASN,212568 # David Moes
+  - IP-ASN,199524
+  - IP-ASN,56665
+  - IP-ASN,34655
+  - IP-ASN,12684
+  - IP-ASN,29467
+  - IP-ASN,6661
+  - IP-ASN,8632
+  - IP-ASN,15965
+  - IP-ASN,197692
+  - IP-ASN,198290
+  - IP-ASN,60725
+  - IP-ASN,9008
+  - IP-ASN,24611
+  - IP-ASN,2602
+  - IP-ASN,204403
+  - IP-ASN,60497
+  - IP-ASN,49813
+  - IP-ASN,44295
+  - IP-ASN,200129
+  - IP-ASN,206610
+  - IP-ASN,25273
+  - IP-ASN,213216
+  - IP-ASN,210834
+  - IP-ASN,204279
+  - IP-ASN,50754
+  - IP-ASN,204025
+  - IP-ASN,25094
+  - IP-ASN,197869
+  - IP-ASN,15814
+  - IP-ASN,47944
+  - IP-ASN,34683
+  - IP-ASN,212630
+  - IP-ASN,211999
+  - IP-ASN,211018
+  - IP-ASN,202438
+  - IP-ASN,201973
+  - IP-ASN,203143
+  - IP-ASN,208374
+  - IP-ASN,61327
+  - IP-ASN,212882
+  - IP-ASN,203055
+  - IP-ASN,5577
+  - IP-ASN,51497
+  - IP-ASN,209333
+  - IP-ASN,201710
+  - IP-ASN,60752
+  - IP-ASN,60391
+  - IP-ASN,20501
+  - IP-ASN,202422
+  - IP-ASN,6891
+  - IP-ASN,62285
+  - IP-ASN,60288
+  - IP-ASN,51405
+  - IP-ASN,47137
+  - IP-ASN,44708
+  - IP-ASN,42848
+  - IP-ASN,41273
+  - IP-ASN,35446
+  - IP-ASN,25367
+  - IP-ASN,214004
+  - IP-ASN,212218
+  - IP-ASN,21179
+  - IP-ASN,207188
+  - IP-ASN,206504
+  - IP-ASN,204299
+  - IP-ASN,203944
+  - IP-ASN,203793
+  - IP-ASN,203398
+  - IP-ASN,201740
+  - IP-ASN,200331
+  - IP-ASN,198095
+  - IP-ASN,197415
+  - IP-ASN,13088
+  - IP-ASN,60525
+  - IP-ASN,58049
+  - IP-ASN,57644
+  - IP-ASN,57231
+  - IP-ASN,57205
+  - IP-ASN,51966
+  - IP-ASN,43719
+  - IP-ASN,43375
+  - IP-ASN,41589
+  - IP-ASN,34769
+  - IP-ASN,3347
+  - IP-ASN,215667
+  - IP-ASN,214418
+  - IP-ASN,211719
+  - IP-ASN,211093
+  - IP-ASN,210145
+  - IP-ASN,207870
+  - IP-ASN,207845
+  - IP-ASN,204803
+  - IP-ASN,201554
+  - IP-ASN,201507
+  - IP-ASN,201441
+  - IP-ASN,201187
+  - IP-ASN,200617
+  - IP-ASN,200126
+  - IP-ASN,199245
+  - IP-ASN,15780
+  - IP-ASN,214587
+  - IP-ASN,212568

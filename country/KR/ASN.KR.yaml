@@ -1,845 +1,846 @@
 # KR 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-10 00:08:45
+# 最后更新： CST 2025-03-10 13:08:19
+# ASN: 840
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,4766 # Korea Telecom
-  - IP-ASN,3786 # LG DACOM Corporation
-  - IP-ASN,9318 # SK Broadband Co Ltd
-  - IP-ASN,23576 # NAVER Cloud Corp.
-  - IP-ASN,10158 # Kakao Corp
-  - IP-ASN,9957 # KINX
-  - IP-ASN,9848 # SEJONG NETWORKS
-  - IP-ASN,6619 # SamsungSDS Inc.
-  - IP-ASN,38090 # pearlabyss
-  - IP-ASN,9457 # DREAMLINE CO.
-  - IP-ASN,149522 # OneCubit Co., Ltd.
-  - IP-ASN,1237 # KISTI
-  - IP-ASN,17579 # KISTI
-  - IP-ASN,9286 # KINX
-  - IP-ASN,9270 # National Infomation Society Agency
-  - IP-ASN,38091 # LG HelloVision Corp.
-  - IP-ASN,138195 # MOACK.Co.LTD
-  - IP-ASN,7562 # HCN Dongjak
-  - IP-ASN,45974 # NHNCLOUD
-  - IP-ASN,45400 # Korea Telecom
-  - IP-ASN,18302 # SK Telecom
-  - IP-ASN,4670 # Shinbiro
-  - IP-ASN,23600 # Korea Internet Security Agency
-  - IP-ASN,139648 # PacketStream Korea
-  - IP-ASN,10036 # DLIVE
-  - IP-ASN,9858 # Korea Internet Security Agency
-  - IP-ASN,9842 # LOTTE INNOVATE Co.,Ltd
-  - IP-ASN,38661 # abcle
-  - IP-ASN,10171 # SKTelink
-  - IP-ASN,9950 # DACOM-PUBNETPLUS
-  - IP-ASN,9946 # KCTV JEJU BROADCASTING
-  - IP-ASN,45361 # Ulsan Jung-Ang Broadcasting Network
-  - IP-ASN,17841 # NATIONAL INFORMATION RESOURCES SERVICE
-  - IP-ASN,139281 # Equinix Korea LLC
-  - IP-ASN,131094 # HYUNDAI MOTOR CO
-  - IP-ASN,10052 # Kyungpook National University
-  - IP-ASN,10049 # SK Co.,
-  - IP-ASN,9959 # KOREA STOCK EXCHANGE
-  - IP-ASN,9694 # Seokyung Cable Television Co.. Ltd.
-  - IP-ASN,9686 # SungKyunKwan University (SKKU)
-  - IP-ASN,9577 # KYOBO SECURITIES
-  - IP-ASN,9526 # KOSCOM
-  - IP-ASN,9488 # Seoul National University
-  - IP-ASN,7560 # Jeonbuk National University
-  - IP-ASN,4668 # LG CNS
-  - IP-ASN,45374 # CCS
-  - IP-ASN,38107 # CDNetworks
-  - IP-ASN,23908 # IIAC
-  - IP-ASN,23599 # Korea Internet Security Agency
-  - IP-ASN,23596 # Korea Internet Security Agency
-  - IP-ASN,23575 # SK Broadband Co Ltd
-  - IP-ASN,18305 # POSCO DX
-  - IP-ASN,18298 # Chungnam National University
-  - IP-ASN,18026 # JEJU NATIONAL UNIVERSITY
-  - IP-ASN,17878 # DREAMMARK1
-  - IP-ASN,1781 # Korea Advanced Institute of Science and Technology
-  - IP-ASN,17592 # Industrial Bank of Korea
-  - IP-ASN,17583 # Keumgang Cable Network
-  - IP-ASN,17574 # Seoul Metropolitan Government Computer Center
-  - IP-ASN,131833 # Kia Corporation
-  - IP-ASN,10197 # Chonnam National University
-  - IP-ASN,9978 # The University of Seoul
-  - IP-ASN,9976 # Namincheon Brodcasting Co., Ltd.
-  - IP-ASN,9967 # kbcard
-  - IP-ASN,9949 # Hoseo  University
-  - IP-ASN,9871 # Gyeong Sang Buk-Do Office of Education
-  - IP-ASN,9868 # Catholic University of DAEGU
-  - IP-ASN,9866 # Shinhan card
-  - IP-ASN,9856 # WOORI Investment @ Securities
-  - IP-ASN,9852 # Samil PwC
-  - IP-ASN,9845 # LG HelloVision Corp.
-  - IP-ASN,9784 # kbcard
-  - IP-ASN,9781 # GREEN CABLE TELEVISION STATION
-  - IP-ASN,9776 # KOOKMIN BANK
-  - IP-ASN,9709 # KIS Information Communication,Inc
-  - IP-ASN,9699 # Standard Chartered
-  - IP-ASN,9647 # Seoul Metropolitan Government
-  - IP-ASN,9638 # National Agricultural Cooperative federation
-  - IP-ASN,9634 # Shinhan Securities Co.,Ltd.
-  - IP-ASN,9578 # Cheiljedang.Co.Inc.
-  - IP-ASN,9530 # SHINSEGAE I C Co., Ltd.
-  - IP-ASN,9524 # Hyundai Autoever Corp.
-  - IP-ASN,9522 # Shinhan Securities Co.,Ltd.
-  - IP-ASN,9493 # HMC SECURITIES CO., LTD.
-  - IP-ASN,9317 # INHA UNIVERSITY
-  - IP-ASN,7558 # Korean Broadcasting System (KBS)
-  - IP-ASN,55616 # DGIST
-  - IP-ASN,4665 # Yonsei University
-  - IP-ASN,45996 # DAOU TECHNOLOGY
-  - IP-ASN,45560 # TOPNET. IP Transit AS
-  - IP-ASN,45401 # NICEPAYMENTS.CO
-  - IP-ASN,45382 # Hostcenter
-  - IP-ASN,38686 # Tmoney co., ltd
-  - IP-ASN,38667 # KakaoBank Corp.
-  - IP-ASN,38428 # Korea Information Communicaions Co.
-  - IP-ASN,38424 # KOREA CABLE TELECOM
-  - IP-ASN,38131 # Mokpo National Maritime University
-  - IP-ASN,38125 # Korea Expressway Corporation
-  - IP-ASN,38098 # NICEPAYMENTS.CO
-  - IP-ASN,38089 # kbank
-  - IP-ASN,3784 # Pohang University of Science and Technology
-  - IP-ASN,2385 # KRIBB(Korea Research Institute of Bioscience Biotechnology)
-  - IP-ASN,23588 # KAKAO Enterprise
-  - IP-ASN,23554 # Shinhan Bank
-  - IP-ASN,215343 # Minjae Kim
-  - IP-ASN,18373 # KOOKMIN BANK
-  - IP-ASN,18326 # Sports Toto Korea
-  - IP-ASN,18317 # SHINHAN DS
-  - IP-ASN,18314 # Hana Card
-  - IP-ASN,18303 # SMARTRO
-  - IP-ASN,18164 # Mokpo University
-  - IP-ASN,18158 # CHUNGBUK NATIONAL UNIVERSITY
-  - IP-ASN,18034 # Gangneung-Wonju National University
-  - IP-ASN,17862 # Kangwon National University
-  - IP-ASN,17837 # NHN KCP Corp.
-  - IP-ASN,17834 # WOORICARD
-  - IP-ASN,17608 # ABN
-  - IP-ASN,17588 # The Daegu Bank, Ltd
-  - IP-ASN,151349 # Yuki Network Ltd
-  - IP-ASN,131866 # Digital Edge Korea
-  - IP-ASN,131792 # The Daegu Bank, Ltd
-  - IP-ASN,10196 # KOOKMIN BANK
-  - IP-ASN,10185 # Hana Bank Co.
-  - IP-ASN,10179 # Daehan Investment Trust Securities
-  - IP-ASN,10173 # KSNET.Inc
-  - IP-ASN,10167 # HANVIT BANK
-  - IP-ASN,10162 # SNUH
-  - IP-ASN,10073 # Korea National Open University
-  - IP-ASN,10063 # Korea Meteorological Administration
-  - IP-ASN,10058 # NACUFOK
-  - IP-ASN,10056 # Hyundai Marin   Fire Insurance
-  - IP-ASN,9980 # LOTTE INNOVATE Co.,Ltd
-  - IP-ASN,9974 # Korea Racing Association
-  - IP-ASN,9972 # INTMANAGEMENT Corp.,
-  - IP-ASN,9970 # Korea University of Technology and Education
-  - IP-ASN,9969 # Korea National University of Cultural Heritage
-  - IP-ASN,9968 # KYOBO Life Insurance Co., Ltd.
-  - IP-ASN,9966 # TaeguTec
-  - IP-ASN,9962 # Sunchon National University
-  - IP-ASN,9960 # The Daegu Bank, Ltd
-  - IP-ASN,9955 # Baekseok University
-  - IP-ASN,9954 # Kunsan National University (KNU)
-  - IP-ASN,9952 # Hostway IDC
-  - IP-ASN,9948 # NICE TCM
-  - IP-ASN,9944 # LG Home shopping Inc.
-  - IP-ASN,9943 # KangNam CableTV
-  - IP-ASN,9861 # Vi Asset Management Co., Ltd
-  - IP-ASN,9860 # National Health Insurance Service
-  - IP-ASN,9857 # KOREA GAS CORPORATION
-  - IP-ASN,9855 # Korean Federation of Community Credit Cooperatives
-  - IP-ASN,9854 # KTO
-  - IP-ASN,9850 # WOW-TV
-  - IP-ASN,9849 # Office of the president
-  - IP-ASN,9847 # Korea Securities Finance Corporation
-  - IP-ASN,9843 # NHINFORMATIONSYSTEM
-  - IP-ASN,9841 # Korea Financial Investment Association
-  - IP-ASN,9840 # INPIRE Entertainment Resort
-  - IP-ASN,9782 # WooSong University
-  - IP-ASN,9777 # Gyeongju University
-  - IP-ASN,9773 # HancomWITH
-  - IP-ASN,9772 # Jeonbuk Bank
-  - IP-ASN,9767 # DB Inc.
-  - IP-ASN,9766 # SHINHAN LIFE INSURANCE CO.,LTD.
-  - IP-ASN,9763 # KIC for Agriculture
-  - IP-ASN,9761 # ASIANAIDT
-  - IP-ASN,9759 # HIINVESTMENT SECURITIES CO., LTD
-  - IP-ASN,9757 # CMB DONDAEMOON BROADCASTING
-  - IP-ASN,9754 # CHOSUN UNIVERSITY
-  - IP-ASN,9753 # Dong-A Universirty
-  - IP-ASN,9707 # Korea Employment Information Management Agency
-  - IP-ASN,9704 # Korea Investment Trust Management   Securities Co.,LTD
-  - IP-ASN,9703 # Shinhan Bank
-  - IP-ASN,9696 # Oscar Enterprise
-  - IP-ASN,9693 # KFTC
-  - IP-ASN,9692 # Hanwha Investment   Securities Co., Ltd.
-  - IP-ASN,9689 # SK Broadband Co Ltd
-  - IP-ASN,9684 # HANWHA Corp. Information Service div.
-  - IP-ASN,9683 # Seoul Facilities Corporation
-  - IP-ASN,9646 # eGIOS
-  - IP-ASN,9645 # NEXT SECURITIES CORPORATION
-  - IP-ASN,9644 # SK Telecom
-  - IP-ASN,9643 # KICA
-  - IP-ASN,9642 # Korea Internet Security Agency
-  - IP-ASN,9641 # Korea Development Bank
-  - IP-ASN,9640 # Korea Internet Security Agency
-  - IP-ASN,9635 # Pusan University of Foreign Studies
-  - IP-ASN,9631 # youngsan university
-  - IP-ASN,9630 # SK Securities Limited
-  - IP-ASN,9629 # HYUNDAICARD CO.
-  - IP-ASN,9628 # TONGYANG LIFE INSURANCE CO., LTD.
-  - IP-ASN,9579 # Shinyoung Securities CO ., LTD.
-  - IP-ASN,9575 # KCTC
-  - IP-ASN,9574 # Teachers Pension
-  - IP-ASN,9571 # INICIS Co., Ltd
-  - IP-ASN,9532 # Daewoo Securities Co., Ltd.
-  - IP-ASN,9527 # VP
-  - IP-ASN,9523 # Mokwon University
-  - IP-ASN,9491 # NICE
-  - IP-ASN,9490 # Oscar Enterprise
-  - IP-ASN,9489 # Korea Aerospace Research Institute
-  - IP-ASN,9459 # Konkuk University
-  - IP-ASN,9458 # Public Officials Benefit Association
-  - IP-ASN,9455 # KERIS
-  - IP-ASN,9454 # Watch Tower Bible and Tract Society of Korea
-  - IP-ASN,9323 # DONGGUK University
-  - IP-ASN,9320 # Supreme Court of Korea
-  - IP-ASN,9275 # Korea Astronomy Observatory
-  - IP-ASN,9273 # ITCENENTEC CO.,LTD.
-  - IP-ASN,7627 # Seoul Broadcasting System
-  - IP-ASN,7626 # SCOURTFAMILY
-  - IP-ASN,7564 # Korea Atomic Energy Research Institute
-  - IP-ASN,7557 # Korea Trade Network
-  - IP-ASN,55633 # pundang jesaeng general hospital
-  - IP-ASN,55630 # KSNET.Inc
-  - IP-ASN,55628 # Incheon Free Economic Zone
-  - IP-ASN,55624 # DAELIM
-  - IP-ASN,55622 # CNUE
-  - IP-ASN,55621 # Jeonju National University Of Education
-  - IP-ASN,55620 # KNOC
-  - IP-ASN,55617 # The Kwangju Bank Ltd.
-  - IP-ASN,55615 # DOUZONEBIZON
-  - IP-ASN,55613 # KOREA APPRAISAL BOARD
-  - IP-ASN,55611 # kyungmin university
-  - IP-ASN,55610 # KAIT
-  - IP-ASN,55609 # Financial Security Institute
-  - IP-ASN,55608 # KB Life Insurance Co., Ltd.
-  - IP-ASN,55606 # Hanwha Ocean Co., Ltd.
-  - IP-ASN,55605 # daewonpharm
-  - IP-ASN,55604 # KOMSCO
-  - IP-ASN,55599 # namyang
-  - IP-ASN,55598 # Korea Environmental Technology Industry Institute
-  - IP-ASN,55594 # KOOKMIN BANK
-  - IP-ASN,55591 # Korea Institute for Curriculum and Evaluation
-  - IP-ASN,55589 # Korea Institute of Industrial Technology
-  - IP-ASN,55584 # Korea Power Exchange
-  - IP-ASN,4961 # Daewoo Information Systems
-  - IP-ASN,4793 # Hyundai Heavy Industries
-  - IP-ASN,4790 # Chosun ilbo Inc.
-  - IP-ASN,4756 # Korea National Police University
-  - IP-ASN,4663 # ELIMNET, INC.
-  - IP-ASN,46010 # SAMJUNG DATA SERVICE
-  - IP-ASN,46009 # YABESK
-  - IP-ASN,46003 # CONNECTWAVE
-  - IP-ASN,46000 # KB Insurance
-  - IP-ASN,45993 # SHINBUNDANG RAILROAD
-  - IP-ASN,45989 # KL-Net Corp.
-  - IP-ASN,45988 # KOREA CREDIT GUARANTEE FUND
-  - IP-ASN,45979 # KB DATA SYSTEMS
-  - IP-ASN,45978 # KIS Information Communication,Inc
-  - IP-ASN,45971 # Financial Security Institute
-  - IP-ASN,45969 # INICIS Co., Ltd
-  - IP-ASN,45968 # KONAI
-  - IP-ASN,45964 # Edwards korea Limited
-  - IP-ASN,45963 # KIRAMS (Korea Institute of Radiological   Medical Sciences)
-  - IP-ASN,45409 # KBCAPITAL
-  - IP-ASN,45408 # KOSAF
-  - IP-ASN,45406 # AJU Internet Technology
-  - IP-ASN,45404 # SHINHAN LIFE INSURANCE CO.,LTD.
-  - IP-ASN,45399 # Hanjin Information Systems Telecommunication Co., Ltd
-  - IP-ASN,45397 # KOREA ADVANCING SCHOOLS FOUNDATION
-  - IP-ASN,45394 # KERIS
-  - IP-ASN,45393 # SFS
-  - IP-ASN,45391 # American Home Assurance Korea
-  - IP-ASN,45389 # Jeollabukdo Office Of Education Future Education Research Institute
-  - IP-ASN,45384 # Korea trade insurance corporation
-  - IP-ASN,45381 # Seoul Housing Communities Corporation
-  - IP-ASN,45380 # MMAAC C
-  - IP-ASN,45379 # Ulsan National Institute of Science and Technology
-  - IP-ASN,45376 # HL Holdings Corporation
-  - IP-ASN,45375 # Firstfire   Marine Insurance
-  - IP-ASN,45372 # ULNetworks Co., Ltd.
-  - IP-ASN,45370 # BROADBANDIDC
-  - IP-ASN,45368 # KYONGNAMBANK
-  - IP-ASN,45366 # cyberlogitec
-  - IP-ASN,45364 # YTN
-  - IP-ASN,45363 # SunMoon University
-  - IP-ASN,45360 # SSANGYONG CEMENT INDUSTRY CO.,LTD
-  - IP-ASN,4202 # ottogi.co.kr
-  - IP-ASN,4040 # Korea Telecom
-  - IP-ASN,3976 # I.Net Technologies Inc.
-  - IP-ASN,38708 # EXPORT-IMPORT BANK OF KOREA
-  - IP-ASN,38702 # Hana Bank Co.
-  - IP-ASN,38701 # Piranha Systems
-  - IP-ASN,38698 # UBASE
-  - IP-ASN,38697 # Hankyong National Univercity
-  - IP-ASN,38696 # Korea Brain Research Institute
-  - IP-ASN,38695 # bucheon university
-  - IP-ASN,38694 # CHEONGJU NATIONAL UNIVERSITY OF EDCATION
-  - IP-ASN,38693 # Korea Transportation Safety Authority
-  - IP-ASN,38692 # Jeollabukdo Office Of Education Future Education Research Institute
-  - IP-ASN,38690 # HyosungITX
-  - IP-ASN,38688 # GSNeotek
-  - IP-ASN,38684 # CMB Daejeon Broadcasting Co,.Ltd
-  - IP-ASN,38683 # National Electoin Commission
-  - IP-ASN,38680 # CMB
-  - IP-ASN,38677 # SMHiplus Corporation
-  - IP-ASN,38676 # flexnetworks
-  - IP-ASN,38674 # NLCS Jeju
-  - IP-ASN,38673 # Korea Cable TV Kwangju Broadcasting
-  - IP-ASN,38671 # S-OIL Corp., Ltd
-  - IP-ASN,38668 # Konkuk University Hospital
-  - IP-ASN,38663 # NICEINFOMATIONSERVICE
-  - IP-ASN,38660 # KHNP
-  - IP-ASN,38434 # POLARISOFFICE
-  - IP-ASN,38433 # Korea Fund Administration Compliance
-  - IP-ASN,38431 # KB Insurance
-  - IP-ASN,38429 # Boryung Pharmaceutical Co.,Ltd.
-  - IP-ASN,38427 # FORCETEC Co., LTD.
-  - IP-ASN,38422 # Seowon University
-  - IP-ASN,38421 # Mirae Asset Investment Management Co., Ltd.
-  - IP-ASN,38420 # BCCARD
-  - IP-ASN,38418 # KOREA APPRAISAL BOARD
-  - IP-ASN,38387 # CMB Sejong Broadcasting Co,.Ltd
-  - IP-ASN,38135 # KDB Life Insurance Co.,Ltd
-  - IP-ASN,38133 # CMB
-  - IP-ASN,38130 # SamsungSDS Inc.
-  - IP-ASN,38129 # S1 CORPORATION
-  - IP-ASN,38126 # Seoul Credit Rating   Information Inc
-  - IP-ASN,38124 # iM DS Co.,Ltd.
-  - IP-ASN,38122 # Seoul Guarantee Insurance Company
-  - IP-ASN,38113 # KUMC
-  - IP-ASN,38112 # Korea Housing   Urban Guarantee Corporation
-  - IP-ASN,38111 # HANA TI
-  - IP-ASN,38110 # Chungwoon University
-  - IP-ASN,38106 # Korea Security Technology Co., Ltd.
-  - IP-ASN,38105 # SOON CHUN HYANG UNIVERSITY
-  - IP-ASN,38104 # Hyejeon University
-  - IP-ASN,38102 # SCOURTFAMILY
-  - IP-ASN,38101 # Yulchon LLC
-  - IP-ASN,38100 # INICIS Co., Ltd
-  - IP-ASN,38087 # BUSANBANK
-  - IP-ASN,3748 # Electronics and Telecommunications Research Institute
-  - IP-ASN,3608 # Korea Rural Community Corporation
-  - IP-ASN,2563 # Seoul Christain University
-  - IP-ASN,24027 # Chinju National University of Education
-  - IP-ASN,24026 # KOREA INSTITUTE OF FUSION ENERGY
-  - IP-ASN,23983 # Daejeon University
-  - IP-ASN,23980 # Yeungnam University
-  - IP-ASN,23971 # CHUGYE UNIVERSITY FOR THE ARTS
-  - IP-ASN,23714 # Keimyung University
-  - IP-ASN,23668 # KOREA POLYTECHNIC UNIVERSITY
-  - IP-ASN,23601 # tsis
-  - IP-ASN,23593 # bkl LLC
-  - IP-ASN,23591 # LS ITC
-  - IP-ASN,23590 # IBKCapital
-  - IP-ASN,23587 # Korea Credit Bureau
-  - IP-ASN,23586 # Korean Council for University Education
-  - IP-ASN,23582 # Doosan Corporation Digital Innovation
-  - IP-ASN,23581 # Hynix Semiconductor Inc.
-  - IP-ASN,23580 # DAILY SPORTSWORLD
-  - IP-ASN,23573 # OCI Information Communication
-  - IP-ASN,23572 # American International Assurance Company Korea
-  - IP-ASN,23570 # UNIVERSITY OF INCHEON
-  - IP-ASN,23569 # SEOJEONG COLLEGE
-  - IP-ASN,23568 # CycleBoat Racing Business Division
-  - IP-ASN,23564 # Citibank Korea
-  - IP-ASN,23560 # MetLife Korea
-  - IP-ASN,23556 # INITECH
-  - IP-ASN,23555 # Shinhan Bank
-  - IP-ASN,18401 # DAEGU UNIVERSITY
-  - IP-ASN,18343 # Daegu Technical College
-  - IP-ASN,18341 # Gumi College
-  - IP-ASN,18338 # DAOUDATA
-  - IP-ASN,18337 # KyungSan University
-  - IP-ASN,18332 # postopia
-  - IP-ASN,18331 # Daejeon Institute of Science and Technology
-  - IP-ASN,18325 # Korea Christian University
-  - IP-ASN,18324 # Masan College
-  - IP-ASN,18323 # Seoul National University Bundang Hospital
-  - IP-ASN,18322 # KUMHO TIRE
-  - IP-ASN,18315 # Sorabol College
-  - IP-ASN,18309 # Korea VAn Service Co.LTD
-  - IP-ASN,18308 # POONGSAN
-  - IP-ASN,18307 # SR
-  - IP-ASN,18300 # KEPCO
-  - IP-ASN,18295 # ABL Life Insurance Co., Ltd.
-  - IP-ASN,18294 # SUHYUP BANK
-  - IP-ASN,18169 # MEMC Korea
-  - IP-ASN,18168 # CMB TAEGU BROADCAST SUSEONG
-  - IP-ASN,18038 # Korea National University of Education
-  - IP-ASN,18035 # HANSEO UNIVERSITY
-  - IP-ASN,18033 # CMB TAEGU BROADCASTING
-  - IP-ASN,18032 # SHINHAN DS
-  - IP-ASN,18028 # GyeongSang National University
-  - IP-ASN,18027 # Namseoul university
-  - IP-ASN,18023 # Korea Maritime and Ocean University
-  - IP-ASN,17881 # Inet Hosting, Inc.
-  - IP-ASN,17877 # KX NexG Co., LTD
-  - IP-ASN,17876 # Ahnlab, Inc.
-  - IP-ASN,17873 # Daewoo Securities Co., Ltd.
-  - IP-ASN,17870 # Kyung Hee University
-  - IP-ASN,17866 # Korea Institute of Science and Technology
-  - IP-ASN,17863 # Yonhap News Agency
-  - IP-ASN,17860 # Webzen Inc.
-  - IP-ASN,17859 # NICEINFOMATIONSERVICE
-  - IP-ASN,17855 # HANNET Co.,Ltd.
-  - IP-ASN,17851 # KPETRO
-  - IP-ASN,17845 # Gyeonggi Technopark
-  - IP-ASN,17844 # National Pension Service
-  - IP-ASN,17840 # KECA, Inc.
-  - IP-ASN,17838 # HYUNDAI HOMESHOPPING
-  - IP-ASN,17836 # IBK Securities
-  - IP-ASN,17616 # barofn
-  - IP-ASN,17615 # Chongju University
-  - IP-ASN,17614 # Geumgang University
-  - IP-ASN,17611 # Korea Housing Finance Corporation
-  - IP-ASN,17603 # Kum oh National University of Technology (KNUT)
-  - IP-ASN,17602 # CRETEC CHEGIM
-  - IP-ASN,17600 # KOREA RESOURCES RECOVERY AND REUTILIZATION CORPORATION
-  - IP-ASN,17596 # PINE ASSET SERVICE
-  - IP-ASN,17594 # SMBS
-  - IP-ASN,17593 # NDS Coporation
-  - IP-ASN,17591 # National Research Foundation of Korea
-  - IP-ASN,17590 # KOCCA
-  - IP-ASN,17589 # GABIA Inc.
-  - IP-ASN,17587 # HANSOL GYOYOOK
-  - IP-ASN,17582 # Korea Investment Corporation
-  - IP-ASN,17581 # Daewoo Securities Co., Ltd.
-  - IP-ASN,17580 # National Pension Service
-  - IP-ASN,17578 # CHEJU HALLA UNIVERSITY
-  - IP-ASN,17576 # National Research Foundation of Korea
-  - IP-ASN,17567 # Airport Railroad Co ltd
-  - IP-ASN,1704 # Korea Advanced Institute of Science and Technology
-  - IP-ASN,152671 # SPARCS
-  - IP-ASN,152227 # Korea Internet & Security Agency (KISA)
-  - IP-ASN,152226 # Korea Internet & Security Agency (KISA)
-  - IP-ASN,152225 # VNTG
-  - IP-ASN,152224 # HYUNDAI COMMERCIAL INC.
-  - IP-ASN,152223 # Korea Internet & Security Agency (KISA)
-  - IP-ASN,152222 # Korea Internet & Security Agency (KISA)
-  - IP-ASN,152220 # Hanwha Asset Management
-  - IP-ASN,152216 # Korea Insurance Development Instute
-  - IP-ASN,152215 # Korea Insurance Development Instute
-  - IP-ASN,152214 # Korean Air Lines
-  - IP-ASN,152213 # MogSoft Co., Ltd.
-  - IP-ASN,152211 # Toss Securities Co., Ltd.
-  - IP-ASN,152210 # HyosungITX
-  - IP-ASN,152207 # KART, KIDI
-  - IP-ASN,152203 # KOREA SOUTH EAST POWER
-  - IP-ASN,152200 # SMBS
-  - IP-ASN,152198 # Gangwon State University
-  - IP-ASN,152197 # Busan Port Authority
-  - IP-ASN,142273 # Digital Realty Korea Ltd.
-  - IP-ASN,138380 # VOLVO GROUP KOREA CO LTD, Construction Equipment Seoul
-  - IP-ASN,131890 # Tmoney co., ltd
-  - IP-ASN,131873 # HARIM
-  - IP-ASN,131872 # IITP
-  - IP-ASN,131870 # KSPO
-  - IP-ASN,131868 # SeoulEnergyCorporation
-  - IP-ASN,131864 # Firstfire   Marine Insurance
-  - IP-ASN,131862 # Nonghyup Property and Casualty Insurance Co.,Ltd
-  - IP-ASN,131860 # Nonghyup Property and Casualty Insurance Co.,Ltd
-  - IP-ASN,131858 # kakaopay insurance
-  - IP-ASN,131856 # WONJU SEVERANCE CHRISTIAN HOSPITAL
-  - IP-ASN,131855 # viva republica
-  - IP-ASN,131852 # EUGENE INVESTMENT FUTURES Co.,Ltd.
-  - IP-ASN,131850 # Teachiworld Auto Insurance
-  - IP-ASN,131848 # YUHAN
-  - IP-ASN,131845 # KOREA INVESTMENT VALUE ASSET MANAGEMENT Co., Ltd.
-  - IP-ASN,131844 # Nonghyup Property and Casualty Insurance Co.,Ltd
-  - IP-ASN,131843 # Korea Investment Management CO.
-  - IP-ASN,131842 # Office of the president
-  - IP-ASN,131841 # Pulmuone
-  - IP-ASN,131838 # eBEST INVESTMENTSECURITIES
-  - IP-ASN,131836 # Firstfire Marine Insurance
-  - IP-ASN,131832 # HD HYUNDAI INFRACORE CO., LTD.
-  - IP-ASN,131828 # KAKAO Enterprise
-  - IP-ASN,131827 # jejubank
-  - IP-ASN,131826 # hy
-  - IP-ASN,131821 # Korea Investment Real Asset Management Co., Ltd
-  - IP-ASN,131820 # HMM
-  - IP-ASN,131819 # Doosan Engineering Construction Co.,Ltd
-  - IP-ASN,131817 # Hecto Innovation Co., Ltd
-  - IP-ASN,131816 # IBK Insurance
-  - IP-ASN,131815 # Nonghyup Property and Casualty Insurance Co.,Ltd
-  - IP-ASN,131814 # Presbyterian Medical Center
-  - IP-ASN,131811 # KOOKMIN BANK
-  - IP-ASN,131810 # KOOKMIN BANK
-  - IP-ASN,131808 # KOREA WESTERN POWER
-  - IP-ASN,131805 # NHSAVINGSBANK
-  - IP-ASN,131804 # Seoul Regional Correction Headquarters
-  - IP-ASN,131802 # NongHyup Life Insurance
-  - IP-ASN,131794 # KYOBO AXA INVESTMENT MANAGERS Co., Ltd.
-  - IP-ASN,131101 # BNK SYSTEM
-  - IP-ASN,131096 # Master Motors Management
-  - IP-ASN,131095 # HanwhalifeFinancialService
-  - IP-ASN,131093 # viva republica
-  - IP-ASN,10195 # HAIonNet
-  - IP-ASN,10194 # Doosan Enerbility co., LTD.
-  - IP-ASN,10193 # BUSANBANK
-  - IP-ASN,10192 # kiwoom Securities.co.,Ltd
-  - IP-ASN,10191 # SEEGENE MEDICAL FOUNDATION
-  - IP-ASN,10190 # Joongbu University
-  - IP-ASN,10188 # Songdo Chadwick international School
-  - IP-ASN,10187 # Korea Information Society Developement Institute
-  - IP-ASN,10184 # Korean Federation of Community Credit Cooperatives
-  - IP-ASN,10183 # Korea Culture Information Service Agency
-  - IP-ASN,10180 # Duksung Womens University
-  - IP-ASN,10177 # FUBON HYUNDAI LIFE INSURANCE CO.,LTD
-  - IP-ASN,10174 # Munhwa Broadcasting Corporation
-  - IP-ASN,10172 # KYOBO BOOK CENTER
-  - IP-ASN,10170 # The Bank of Korea
-  - IP-ASN,10168 # Standard Chartered
-  - IP-ASN,10165 # KOREA CUSTOMS SERVICE
-  - IP-ASN,10161 # QIA
-  - IP-ASN,10159 # Korea Aerospace University
-  - IP-ASN,10088 # KWANGWOON UNIVERSITY
-  - IP-ASN,10072 # Shinhan Bank
-  - IP-ASN,10071 # anyang University
-  - IP-ASN,10069 # Seoul Metro
-  - IP-ASN,10065 # NICE TCM
-  - IP-ASN,10062 # Branksome Hall Asia
-  - IP-ASN,10060 # YONSEI UNIVERSITY HEALTH SYSTEM
-  - IP-ASN,10055 # Korean National Railroad Administration
-  - IP-ASN,10054 # CMB Kwangju Broadcasting
-  - IP-ASN,10053 # yeonsung University
-  - IP-ASN,10051 # Korea Post Information Center
-  - IP-ASN,10045 # Hanbat National University
-  - IP-ASN,10044 # Rural Development Administration (RDA)
-  - IP-ASN,10043 # Ministry of Science and ICT
-  - IP-ASN,10040 # NICE Information   Telecommunication, Inc
-  - IP-ASN,10039 # Korea Health Industry Development Institute
-  - IP-ASN,10037 # EUGENE INVESTMENT FUTURES Co.,Ltd.
-  - IP-ASN,10035 # Hyundai Department Store Co., Ltd.
-  - IP-ASN,10034 # SEOUL AGRICULTURAL   MARINE PRODUCTS CORP.
-  - IP-ASN,9982 # PAICHAI UNIVERSITY
-  - IP-ASN,9981 # Saero Network Service LTD
-  - IP-ASN,9977 # Korea Internet Security Agency
-  - IP-ASN,9975 # Gyeongsangbuk-do Education Research Institute
-  - IP-ASN,9973 # BSITC
-  - IP-ASN,9971 # SK Broadband Co Ltd
-  - IP-ASN,9958 # kakaogames
-  - IP-ASN,9953 # Hyundai Engineering   Construction Co., Ltd.(HDEC)
-  - IP-ASN,9951 # AMWAYKOREA
-  - IP-ASN,9870 # DONG-EUI UNIVERSITY
-  - IP-ASN,9867 # VISION College of Jeonju
-  - IP-ASN,9864 # Korea Securities Depository
-  - IP-ASN,9863 # Hana Insurance Co., Ltd.
-  - IP-ASN,9862 # GORayNet
-  - IP-ASN,9859 # ChungCheong University
-  - IP-ASN,9853 # GORayNet
-  - IP-ASN,9851 # KOREA UNIVERSITY OF MEDIA ARTS
-  - IP-ASN,9846 # FDIK
-  - IP-ASN,9844 # Duruan
-  - IP-ASN,9783 # KoROAD
-  - IP-ASN,9780 # INJE UNIVERSITY
-  - IP-ASN,9778 # DAEJIN UNIVERSITY
-  - IP-ASN,9775 # Hannam University
-  - IP-ASN,9774 # Dongseo University
-  - IP-ASN,9771 # Media Synnara
-  - IP-ASN,9770 # LG HelloVision Corp.
-  - IP-ASN,9769 # Sejong University
-  - IP-ASN,9764 # Kakao Corp
-  - IP-ASN,9762 # HYUNDAI COMMUNICATIONS   NETWORK
-  - IP-ASN,9756 # SK Broadband Co Ltd
-  - IP-ASN,9755 # Korea Internet Security Agency
-  - IP-ASN,9712 # INet Technologies Co., Ltd.
-  - IP-ASN,9711 # Kyonggi provin educational information research institute
-  - IP-ASN,9708 # Pukyong National University
-  - IP-ASN,9706 # BUSAN EDUCATION RESEARCH & INFORMATION INSTITUTE
-  - IP-ASN,9701 # viaweb
-  - IP-ASN,9700 # Korea Internet Security Agency
-  - IP-ASN,9698 # LG HelloVision Corp.
-  - IP-ASN,9697 # LG HelloVision Corp.
-  - IP-ASN,9695 # KISTI
-  - IP-ASN,9691 # KYUNGSUNG UNIVERSITY
-  - IP-ASN,9690 # SMARTRO
-  - IP-ASN,9688 # LG DACOM Corporation
-  - IP-ASN,9685 # KOAT
-  - IP-ASN,9639 # Artist United Inc.
-  - IP-ASN,9637 # Korea Basic Science Institute
-  - IP-ASN,9636 # NHNPayco
-  - IP-ASN,9633 # SUDOKWON Landfill Site Management Corp
-  - IP-ASN,9632 # SEOUL DAIRY CO-OP.
-  - IP-ASN,9572 # Hankuk University of Foreign Studies Computer Center
-  - IP-ASN,9569 # SEOCHO CABLE SYSTEMS CO., LTD.
-  - IP-ASN,9568 # KOREA INSTITUTE OF MACHINERY   MATERIALS (KIMM)
-  - IP-ASN,9531 # Gwangju Education Research Information Service
-  - IP-ASN,9529 # hyundaicapital
-  - IP-ASN,9528 # Taejon Institute of Education Science
-  - IP-ASN,9525 # DB Financial Investment Co.,Ltd.
-  - IP-ASN,9521 # Korea Automotive Technology Institute
-  - IP-ASN,9494 # National Infomation Society Agency
-  - IP-ASN,9492 # Maeil Business Newspaper
-  - IP-ASN,9487 # Korea Technology Finance Corporation
-  - IP-ASN,9452 # Korea University
-  - IP-ASN,9322 # Institute of Information and Computing, EWHA WOMANS UNIV.
-  - IP-ASN,9321 # Hanyang University
-  - IP-ASN,9319 # HCN CHUNGBUK CABLE TV SYSTEMS
-  - IP-ASN,9316 # DACOM-PUBNETPLUS
-  - IP-ASN,9277 # SK Broadband Co Ltd
-  - IP-ASN,9276 # JT Chinae Savings Bank
-  - IP-ASN,9274 # Pusan National University
-  - IP-ASN,9271 # Wonkwang University
-  - IP-ASN,7625 # Kakao Corp
-  - IP-ASN,7624 # jeonju university
-  - IP-ASN,7623 # Gyeongbuk Cable TV
-  - IP-ASN,7622 # Korea Advanced Institute of Science and Technology
-  - IP-ASN,7621 # Kyonggi University
-  - IP-ASN,7559 # donga.com
-  - IP-ASN,55632 # Hansol High School
-  - IP-ASN,55629 # TMON
-  - IP-ASN,55627 # Dongduk Womens University
-  - IP-ASN,55626 # Kyungin Womens college
-  - IP-ASN,55625 # Chungwoon University
-  - IP-ASN,55623 # Korea Insurance Development Instute
-  - IP-ASN,55618 # UNIVERSITY OF ULSAN
-  - IP-ASN,55614 # danal.co
-  - IP-ASN,55601 # Electric Contractors Financial Cooperative
-  - IP-ASN,55597 # National Cancer Center
-  - IP-ASN,55596 # Gachon University Gil Hospital
-  - IP-ASN,55593 # netmarble
-  - IP-ASN,55592 # Korea Data Telecommunication Co., Ltd.
-  - IP-ASN,55586 # THE CATHOLIC UNIVERSITY OF KOREA SONGSIM
-  - IP-ASN,55585 # CAPE Investment Securitie Co., Ltd.
-  - IP-ASN,4792 # SK communications
-  - IP-ASN,4791 # JoongAng Ilbo
-  - IP-ASN,4669 # SOOP Co., Ltd
-  - IP-ASN,4664 # Shinbiro
-  - IP-ASN,46012 # Induk University
-  - IP-ASN,46011 # LX
-  - IP-ASN,46007 # RXN
-  - IP-ASN,46004 # SK Broadband Co Ltd
-  - IP-ASN,46002 # PHIS
-  - IP-ASN,45999 # Korea Transportation Safety Authority
-  - IP-ASN,45998 # National Medical Center
-  - IP-ASN,45992 # Construction Guarantee Cooperative
-  - IP-ASN,45991 # Kakao Corp
-  - IP-ASN,45990 # Health Insurance Review Assessment Service
-  - IP-ASN,45987 # Dongwha Enterprise Co. Ltd.
-  - IP-ASN,45985 # SamsungSDS Inc.
-  - IP-ASN,45984 # Dongnam Institute of Radiologycal Sciences
-  - IP-ASN,45977 # CANON KOREA INC.
-  - IP-ASN,45973 # KOTRA
-  - IP-ASN,45972 # KOREA LAND AND GEOSPATIAL INFORMATIX CORPORATION
-  - IP-ASN,45407 # null
-  - IP-ASN,45403 # INCHEON TECHNOPARK
-  - IP-ASN,45398 # HiLine Internet Service Inc.
-  - IP-ASN,45387 # KOCES
-  - IP-ASN,45385 # Daelim Co.,Ltd.
-  - IP-ASN,45377 # Jeju Special Self Governing Provincial office of Education
-  - IP-ASN,45373 # Korea Finance for Construction
-  - IP-ASN,45365 # LG HelloVision Corp.
-  - IP-ASN,45362 # TRUSTONASSET
-  - IP-ASN,38707 # Tosspayments
-  - IP-ASN,38705 # KOREA DATA
-  - IP-ASN,38704 # IDIS powertel
-  - IP-ASN,38700 # SMILESERV
-  - IP-ASN,38682 # National Institute of Environmental Research
-  - IP-ASN,38681 # Jeollanamdo Educational Research Information Institute
-  - IP-ASN,38679 # FDIK
-  - IP-ASN,38678 # Kakao Corp
-  - IP-ASN,38669 # LG HelloVision Corp.
-  - IP-ASN,38430 # Shinhan card
-  - IP-ASN,38426 # KOREA RURAL ECONOMIC INSTITUTE
-  - IP-ASN,38425 # SEJONG NETWORKS
-  - IP-ASN,38417 # Gyeonggi Province Gapyeong office of Education
-  - IP-ASN,38416 # Gyeonggi Yeoncheon Office of Education
-  - IP-ASN,38415 # Guri Namyangju Office Of Education
-  - IP-ASN,38414 # Gyeonggi  siheung office of education
-  - IP-ASN,38412 # Gyeonggi-Do Icheon office of Education
-  - IP-ASN,38411 # Yongin office of education
-  - IP-ASN,38410 # Pocheon Office of Education
-  - IP-ASN,38409 # Dongducheonyangju office of Education
-  - IP-ASN,38408 # GYEONGGI PROVINCIAL ANYANG OFFICE OF EDUCATION
-  - IP-ASN,38407 # Gyeonggi-Do Ansan Office of Education
-  - IP-ASN,38406 # Kyeonggi-Do Hwaseong Office of Education
-  - IP-ASN,38405 # Gwang Myeong Office of Education
-  - IP-ASN,38404 # Gyeonggi Provincial Bucheon Office of Education
-  - IP-ASN,38403 # GunpoUiwang Office of Education
-  - IP-ASN,38402 # Gyeonggi Provincial Suwon Office of Education
-  - IP-ASN,38401 # Gyeonggi Provincial Anseong Office of Education
-  - IP-ASN,38400 # Gyeonggi-do Pyongtaek Office Education
-  - IP-ASN,38399 # Gyeonggi-do Yeoju Office of Education
-  - IP-ASN,38398 # Gyeonggi Uijeongbu office of Education
-  - IP-ASN,38396 # Paju office of Education Gyeonggi Province
-  - IP-ASN,38395 # GwangJuHaNam Office of Education
-  - IP-ASN,38394 # Gyeonggido Seongnam Office of Education
-  - IP-ASN,38393 # Homeplus Co., Ltd.
-  - IP-ASN,38392 # KYONGGI YANGPYEONG OFFICE OF EDUCATION
-  - IP-ASN,38391 # Gyeonggi provincial gimpo office of education
-  - IP-ASN,38390 # Goyang Office of Education
-  - IP-ASN,38389 # FAMOUS WORKER
-  - IP-ASN,38388 # Korea Copyright Protection Agency
-  - IP-ASN,3813 # Sogang University
-  - IP-ASN,38123 # asan medical center
-  - IP-ASN,38121 # LG HelloVision Corp.
-  - IP-ASN,38120 # LG HelloVision Corp.
-  - IP-ASN,38119 # WITHSYSTEMS
-  - IP-ASN,38117 # jin san cable net company ltd
-  - IP-ASN,38114 # Shinjin Network
-  - IP-ASN,38109 # SK Broadband Co Ltd
-  - IP-ASN,38103 # SK Broadband Co Ltd
-  - IP-ASN,38099 # Kakao Corp
-  - IP-ASN,38097 # SK Broadband Co Ltd
-  - IP-ASN,38096 # SK Broadband Co Ltd
-  - IP-ASN,38095 # SK Broadband Co Ltd
-  - IP-ASN,38093 # HANATI
-  - IP-ASN,38088 # KOREA EAST-WEST POWER
-  - IP-ASN,24509 # Xpedite Systems Electronic document distribution and data messaging service provider Seoul, Korea
-  - IP-ASN,23990 # MigumCableNetwork
-  - IP-ASN,23975 # Yonam Institute of Technology
-  - IP-ASN,23972 # HANA INVESTOR SERVICES
-  - IP-ASN,23743 # KOREA MIDLAND POWER
-  - IP-ASN,23594 # YKK KOREA CO., LTD.
-  - IP-ASN,23589 # KERIS
-  - IP-ASN,23585 # Ministry of Justice
-  - IP-ASN,23584 # PUSAN CABLE TV SYSTEM CO., LTD.
-  - IP-ASN,23579 # Seoul Metropolitan Office Of Education
-  - IP-ASN,23578 # SK Broadband Co Ltd
-  - IP-ASN,23574 # KISPricing
-  - IP-ASN,23571 # Gangwon State Office of Education
-  - IP-ASN,23563 # SK Broadband Co Ltd
-  - IP-ASN,23561 # Yongin University
-  - IP-ASN,23558 # KepcoNF
-  - IP-ASN,23553 # National IT Industry Promotion Agency
-  - IP-ASN,23552 # Korea Nazarene University
-  - IP-ASN,214189 # Doyeon Lee
-  - IP-ASN,212388 # Auraz Corporation Co.,Ltd.
-  - IP-ASN,210576 # Sangmin Lee trading as YAGUMYAGUM
-  - IP-ASN,18336 # Korea Institute of Oriental Medicine
-  - IP-ASN,18334 # Gyounggidongbu cable tv co., Ltd.
-  - IP-ASN,18333 # at(Korea Argo-Fisheries   Food Trade Corporation)
-  - IP-ASN,18330 # HONGIK UNIVERSITY
-  - IP-ASN,18329 # Sangmyung University
-  - IP-ASN,18328 # Dotname Korea Corp
-  - IP-ASN,18321 # KRAFTON INC
-  - IP-ASN,18320 # Kwangju National University of Education
-  - IP-ASN,18319 # YeungNam College of Science Technology
-  - IP-ASN,18318 # LG HelloVision Corp.
-  - IP-ASN,18313 # LG HelloVision Corp.
-  - IP-ASN,18312 # Korea Asset Management COrporation
-  - IP-ASN,18310 # SK Broadband Co Ltd
-  - IP-ASN,18299 # BNK Securities Co.,Ltd
-  - IP-ASN,18297 # K-JIST
-  - IP-ASN,18176 # KOOKMIN UNIVERSITY
-  - IP-ASN,18175 # KPS
-  - IP-ASN,18160 # Kakao Corp
-  - IP-ASN,18031 # Sangmyung University
-  - IP-ASN,18029 # Daejeon Helath Sciences College
-  - IP-ASN,17875 # ec-bank
-  - IP-ASN,17874 # National Pension Corporation
-  - IP-ASN,17869 # Supreme Court of Korea
-  - IP-ASN,17868 # Hyupsung University
-  - IP-ASN,17867 # KOREA BANKING INSTITUTE
-  - IP-ASN,17865 # Supreme Court of Korea
-  - IP-ASN,17864 # SK Broadband Co Ltd
-  - IP-ASN,17861 # KyungNam College of Information   Technology
-  - IP-ASN,17858 # LG POWERCOMM
-  - IP-ASN,17857 # SK Broadband Co Ltd
-  - IP-ASN,17856 # Konyang University
-  - IP-ASN,17854 # SK Broadband Co Ltd
-  - IP-ASN,17853 # LGTELECOM
-  - IP-ASN,17852 # HANWHALIFE
-  - IP-ASN,17850 # Korea Federation of Banks
-  - IP-ASN,17849 # SK Broadband Co Ltd
-  - IP-ASN,17847 # Financial Supervisory Service
-  - IP-ASN,17846 # SK Broadband Co Ltd
-  - IP-ASN,17843 # Sahmyook University
-  - IP-ASN,17842 # Kangwon Land,Inc.
-  - IP-ASN,17839 # LG HelloVision Corp.
-  - IP-ASN,17833 # NCOM ltd.
-  - IP-ASN,17613 # KTE Information and Communications
-  - IP-ASN,17609 # Silla Univ
-  - IP-ASN,17607 # Mirae Asset Life Insurance Co., Ltd
-  - IP-ASN,17606 # SM LINE CORPORATION
-  - IP-ASN,17605 # KTNG Coporation
-  - IP-ASN,17601 # KOREA CREDIT GUARANTEE FUND
-  - IP-ASN,17598 # LG HelloVision Corp.
-  - IP-ASN,17597 # SK Broadband Co Ltd
-  - IP-ASN,17595 # Korea Institute of Nuclear Safety
-  - IP-ASN,17586 # LG HelloVision Corp.
-  - IP-ASN,17585 # Public Procurement Service The Republic of Korea
-  - IP-ASN,17584 # Inchon Metropolitan Office Of Education
-  - IP-ASN,17577 # LG HelloVision Corp.
-  - IP-ASN,17575 # Chung-Ang University
-  - IP-ASN,17573 # SK Broadband Co Ltd
-  - IP-ASN,17570 # SK Global co., Ltd
-  - IP-ASN,152221 # YonhapnewsTV
-  - IP-ASN,152218 # HANA CAPITAL
-  - IP-ASN,152212 # Korea Institute of Science and Technology Evaluation and Planning
-  - IP-ASN,152209 # Eromnet Inc
-  - IP-ASN,152208 # KART, KIDI
-  - IP-ASN,152205 # imobi inc,
-  - IP-ASN,152204 # JW Holdings
-  - IP-ASN,152202 # NCIDS
-  - IP-ASN,152201 # NongHyup Agribusiness Group inc.
-  - IP-ASN,152199 # Kakao Corp
-  - IP-ASN,140322 # Truenetworks Ltd.
-  - IP-ASN,131882 # Chungnam National University Hospital
-  - IP-ASN,131878 # HYUNDAICARD CO.
-  - IP-ASN,131871 # HYUNDAICARD CO.
-  - IP-ASN,131869 # UST
-  - IP-ASN,131851 # Teachiworld Auto Insurance
-  - IP-ASN,131847 # Korea District Heating Corporation
-  - IP-ASN,131846 # GYEONGGI-DO FIRE SERVICES
-  - IP-ASN,131839 # mmaa
-  - IP-ASN,131835 # samyangfoods.co
-  - IP-ASN,131834 # LeeKo
-  - IP-ASN,131830 # Institute for Basic Science
-  - IP-ASN,131829 # SBI SAVINGS BANK
-  - IP-ASN,131824 # OKDATASYSTEM
-  - IP-ASN,131822 # Korea National University of Transportation
-  - IP-ASN,131812 # Humax Networks, INC.
-  - IP-ASN,131799 # korea workers compensation welfare service
-  - IP-ASN,131798 # Sangsang Networks Co., Ltd.
-  - IP-ASN,131795 # KOREA INSTITUTE OF ENERGY RESEARCH
-  - IP-ASN,131100 # Korea Internet Security Agency
-  - IP-ASN,131099 # Korea Internet Security Agency
-  - IP-ASN,131098 # Korea Internet Security Agency
-  - IP-ASN,131097 # KEAD
-  - IP-ASN,10198 # Catholic University of Pusan
-  - IP-ASN,10189 # Hyundai Movex
-  - IP-ASN,10186 # Korean Red Cross
-  - IP-ASN,10176 # Daejon Metropolitan Office of Education
-  - IP-ASN,10175 # Kumho Cable
-  - IP-ASN,10166 # Korea Water Resources Corporation
-  - IP-ASN,10164 # SK Broadband Co Ltd
-  - IP-ASN,10160 # KDDI KOREA
-  - IP-ASN,10157 # NHN Bugs
-  - IP-ASN,10156 # Seoul National University of Education
-  - IP-ASN,10155 # KOSME
-  - IP-ASN,10070 # KRISS SubDAEJONnetworks connected to backbone
-  - IP-ASN,10066 # LG HelloVision Corp.
-  - IP-ASN,10050 # The National Library of Korea
-  - IP-ASN,10046 # HOWON UNIVERSITY
-  - IP-ASN,10042 # SUSEONG COLLEGE
-  - IP-ASN,10038 # NHNCLOUD
-  - IP-ASN,4671 # KTOA
-  - IP-ASN,3559 # Korea Telecom
-  - IP-ASN,215087 # Dongwon Lee
-  - IP-ASN,214510 # Rhajune Park
-  - IP-ASN,203040 # Sangmyoung Lee
-  - IP-ASN,202002 # Jihun Lee
-  - IP-ASN,200965 # Dongmin Lee
-  - IP-ASN,150805 # A-FIN KOREA CORP
-  - IP-ASN,150414 # OneCubit Co., Ltd.
-  - IP-ASN,147036 # HANARIN LTD
-  - IP-ASN,139311 # Stella IT
-  - IP-ASN,135605 # MOACK.Co.LTD
+  - IP-ASN,4766
+  - IP-ASN,3786
+  - IP-ASN,9318
+  - IP-ASN,23576
+  - IP-ASN,10158
+  - IP-ASN,9957
+  - IP-ASN,9848
+  - IP-ASN,6619
+  - IP-ASN,38090
+  - IP-ASN,9457
+  - IP-ASN,149522
+  - IP-ASN,1237
+  - IP-ASN,17579
+  - IP-ASN,9286
+  - IP-ASN,9270
+  - IP-ASN,38091
+  - IP-ASN,138195
+  - IP-ASN,7562
+  - IP-ASN,45974
+  - IP-ASN,45400
+  - IP-ASN,18302
+  - IP-ASN,4670
+  - IP-ASN,23600
+  - IP-ASN,139648
+  - IP-ASN,10036
+  - IP-ASN,9858
+  - IP-ASN,9842
+  - IP-ASN,38661
+  - IP-ASN,10171
+  - IP-ASN,9950
+  - IP-ASN,9946
+  - IP-ASN,45361
+  - IP-ASN,17841
+  - IP-ASN,139281
+  - IP-ASN,131094
+  - IP-ASN,10052
+  - IP-ASN,10049
+  - IP-ASN,9959
+  - IP-ASN,9694
+  - IP-ASN,9686
+  - IP-ASN,9577
+  - IP-ASN,9526
+  - IP-ASN,9488
+  - IP-ASN,7560
+  - IP-ASN,4668
+  - IP-ASN,45374
+  - IP-ASN,38107
+  - IP-ASN,23908
+  - IP-ASN,23599
+  - IP-ASN,23596
+  - IP-ASN,23575
+  - IP-ASN,18305
+  - IP-ASN,18298
+  - IP-ASN,18026
+  - IP-ASN,17878
+  - IP-ASN,1781
+  - IP-ASN,17592
+  - IP-ASN,17583
+  - IP-ASN,17574
+  - IP-ASN,131833
+  - IP-ASN,10197
+  - IP-ASN,9978
+  - IP-ASN,9976
+  - IP-ASN,9967
+  - IP-ASN,9949
+  - IP-ASN,9871
+  - IP-ASN,9868
+  - IP-ASN,9866
+  - IP-ASN,9856
+  - IP-ASN,9852
+  - IP-ASN,9845
+  - IP-ASN,9784
+  - IP-ASN,9781
+  - IP-ASN,9776
+  - IP-ASN,9709
+  - IP-ASN,9699
+  - IP-ASN,9647
+  - IP-ASN,9638
+  - IP-ASN,9634
+  - IP-ASN,9578
+  - IP-ASN,9530
+  - IP-ASN,9524
+  - IP-ASN,9522
+  - IP-ASN,9493
+  - IP-ASN,9317
+  - IP-ASN,7558
+  - IP-ASN,55616
+  - IP-ASN,4665
+  - IP-ASN,45996
+  - IP-ASN,45560
+  - IP-ASN,45401
+  - IP-ASN,45382
+  - IP-ASN,38686
+  - IP-ASN,38667
+  - IP-ASN,38428
+  - IP-ASN,38424
+  - IP-ASN,38131
+  - IP-ASN,38125
+  - IP-ASN,38098
+  - IP-ASN,38089
+  - IP-ASN,3784
+  - IP-ASN,2385
+  - IP-ASN,23588
+  - IP-ASN,23554
+  - IP-ASN,215343
+  - IP-ASN,18373
+  - IP-ASN,18326
+  - IP-ASN,18317
+  - IP-ASN,18314
+  - IP-ASN,18303
+  - IP-ASN,18164
+  - IP-ASN,18158
+  - IP-ASN,18034
+  - IP-ASN,17862
+  - IP-ASN,17837
+  - IP-ASN,17834
+  - IP-ASN,17608
+  - IP-ASN,17588
+  - IP-ASN,151349
+  - IP-ASN,131866
+  - IP-ASN,131792
+  - IP-ASN,10196
+  - IP-ASN,10185
+  - IP-ASN,10179
+  - IP-ASN,10173
+  - IP-ASN,10167
+  - IP-ASN,10162
+  - IP-ASN,10073
+  - IP-ASN,10063
+  - IP-ASN,10058
+  - IP-ASN,10056
+  - IP-ASN,9980
+  - IP-ASN,9974
+  - IP-ASN,9972
+  - IP-ASN,9970
+  - IP-ASN,9969
+  - IP-ASN,9968
+  - IP-ASN,9966
+  - IP-ASN,9962
+  - IP-ASN,9960
+  - IP-ASN,9955
+  - IP-ASN,9954
+  - IP-ASN,9952
+  - IP-ASN,9948
+  - IP-ASN,9944
+  - IP-ASN,9943
+  - IP-ASN,9861
+  - IP-ASN,9860
+  - IP-ASN,9857
+  - IP-ASN,9855
+  - IP-ASN,9854
+  - IP-ASN,9850
+  - IP-ASN,9849
+  - IP-ASN,9847
+  - IP-ASN,9843
+  - IP-ASN,9841
+  - IP-ASN,9840
+  - IP-ASN,9782
+  - IP-ASN,9777
+  - IP-ASN,9773
+  - IP-ASN,9772
+  - IP-ASN,9767
+  - IP-ASN,9766
+  - IP-ASN,9763
+  - IP-ASN,9761
+  - IP-ASN,9759
+  - IP-ASN,9757
+  - IP-ASN,9754
+  - IP-ASN,9753
+  - IP-ASN,9707
+  - IP-ASN,9704
+  - IP-ASN,9703
+  - IP-ASN,9696
+  - IP-ASN,9693
+  - IP-ASN,9692
+  - IP-ASN,9689
+  - IP-ASN,9684
+  - IP-ASN,9683
+  - IP-ASN,9646
+  - IP-ASN,9645
+  - IP-ASN,9644
+  - IP-ASN,9643
+  - IP-ASN,9642
+  - IP-ASN,9641
+  - IP-ASN,9640
+  - IP-ASN,9635
+  - IP-ASN,9631
+  - IP-ASN,9630
+  - IP-ASN,9629
+  - IP-ASN,9628
+  - IP-ASN,9579
+  - IP-ASN,9575
+  - IP-ASN,9574
+  - IP-ASN,9571
+  - IP-ASN,9532
+  - IP-ASN,9527
+  - IP-ASN,9523
+  - IP-ASN,9491
+  - IP-ASN,9490
+  - IP-ASN,9489
+  - IP-ASN,9459
+  - IP-ASN,9458
+  - IP-ASN,9455
+  - IP-ASN,9454
+  - IP-ASN,9323
+  - IP-ASN,9320
+  - IP-ASN,9275
+  - IP-ASN,9273
+  - IP-ASN,7627
+  - IP-ASN,7626
+  - IP-ASN,7564
+  - IP-ASN,7557
+  - IP-ASN,55633
+  - IP-ASN,55630
+  - IP-ASN,55628
+  - IP-ASN,55624
+  - IP-ASN,55622
+  - IP-ASN,55621
+  - IP-ASN,55620
+  - IP-ASN,55617
+  - IP-ASN,55615
+  - IP-ASN,55613
+  - IP-ASN,55611
+  - IP-ASN,55610
+  - IP-ASN,55609
+  - IP-ASN,55608
+  - IP-ASN,55606
+  - IP-ASN,55605
+  - IP-ASN,55604
+  - IP-ASN,55599
+  - IP-ASN,55598
+  - IP-ASN,55594
+  - IP-ASN,55591
+  - IP-ASN,55589
+  - IP-ASN,55584
+  - IP-ASN,4961
+  - IP-ASN,4793
+  - IP-ASN,4790
+  - IP-ASN,4756
+  - IP-ASN,4663
+  - IP-ASN,46010
+  - IP-ASN,46009
+  - IP-ASN,46003
+  - IP-ASN,46000
+  - IP-ASN,45993
+  - IP-ASN,45989
+  - IP-ASN,45988
+  - IP-ASN,45979
+  - IP-ASN,45978
+  - IP-ASN,45971
+  - IP-ASN,45969
+  - IP-ASN,45968
+  - IP-ASN,45964
+  - IP-ASN,45963
+  - IP-ASN,45409
+  - IP-ASN,45408
+  - IP-ASN,45406
+  - IP-ASN,45404
+  - IP-ASN,45399
+  - IP-ASN,45397
+  - IP-ASN,45394
+  - IP-ASN,45393
+  - IP-ASN,45391
+  - IP-ASN,45389
+  - IP-ASN,45384
+  - IP-ASN,45381
+  - IP-ASN,45380
+  - IP-ASN,45379
+  - IP-ASN,45376
+  - IP-ASN,45375
+  - IP-ASN,45372
+  - IP-ASN,45370
+  - IP-ASN,45368
+  - IP-ASN,45366
+  - IP-ASN,45364
+  - IP-ASN,45363
+  - IP-ASN,45360
+  - IP-ASN,4202
+  - IP-ASN,4040
+  - IP-ASN,3976
+  - IP-ASN,38708
+  - IP-ASN,38702
+  - IP-ASN,38701
+  - IP-ASN,38698
+  - IP-ASN,38697
+  - IP-ASN,38696
+  - IP-ASN,38695
+  - IP-ASN,38694
+  - IP-ASN,38693
+  - IP-ASN,38692
+  - IP-ASN,38690
+  - IP-ASN,38688
+  - IP-ASN,38684
+  - IP-ASN,38683
+  - IP-ASN,38680
+  - IP-ASN,38677
+  - IP-ASN,38676
+  - IP-ASN,38674
+  - IP-ASN,38673
+  - IP-ASN,38671
+  - IP-ASN,38668
+  - IP-ASN,38663
+  - IP-ASN,38660
+  - IP-ASN,38434
+  - IP-ASN,38433
+  - IP-ASN,38431
+  - IP-ASN,38429
+  - IP-ASN,38427
+  - IP-ASN,38422
+  - IP-ASN,38421
+  - IP-ASN,38420
+  - IP-ASN,38418
+  - IP-ASN,38387
+  - IP-ASN,38135
+  - IP-ASN,38133
+  - IP-ASN,38130
+  - IP-ASN,38129
+  - IP-ASN,38126
+  - IP-ASN,38124
+  - IP-ASN,38122
+  - IP-ASN,38113
+  - IP-ASN,38112
+  - IP-ASN,38111
+  - IP-ASN,38110
+  - IP-ASN,38106
+  - IP-ASN,38105
+  - IP-ASN,38104
+  - IP-ASN,38102
+  - IP-ASN,38101
+  - IP-ASN,38100
+  - IP-ASN,38087
+  - IP-ASN,3748
+  - IP-ASN,3608
+  - IP-ASN,2563
+  - IP-ASN,24027
+  - IP-ASN,24026
+  - IP-ASN,23983
+  - IP-ASN,23980
+  - IP-ASN,23971
+  - IP-ASN,23714
+  - IP-ASN,23668
+  - IP-ASN,23601
+  - IP-ASN,23593
+  - IP-ASN,23591
+  - IP-ASN,23590
+  - IP-ASN,23587
+  - IP-ASN,23586
+  - IP-ASN,23582
+  - IP-ASN,23581
+  - IP-ASN,23580
+  - IP-ASN,23573
+  - IP-ASN,23572
+  - IP-ASN,23570
+  - IP-ASN,23569
+  - IP-ASN,23568
+  - IP-ASN,23564
+  - IP-ASN,23560
+  - IP-ASN,23556
+  - IP-ASN,23555
+  - IP-ASN,18401
+  - IP-ASN,18343
+  - IP-ASN,18341
+  - IP-ASN,18338
+  - IP-ASN,18337
+  - IP-ASN,18332
+  - IP-ASN,18331
+  - IP-ASN,18325
+  - IP-ASN,18324
+  - IP-ASN,18323
+  - IP-ASN,18322
+  - IP-ASN,18315
+  - IP-ASN,18309
+  - IP-ASN,18308
+  - IP-ASN,18307
+  - IP-ASN,18300
+  - IP-ASN,18295
+  - IP-ASN,18294
+  - IP-ASN,18169
+  - IP-ASN,18168
+  - IP-ASN,18038
+  - IP-ASN,18035
+  - IP-ASN,18033
+  - IP-ASN,18032
+  - IP-ASN,18028
+  - IP-ASN,18027
+  - IP-ASN,18023
+  - IP-ASN,17881
+  - IP-ASN,17877
+  - IP-ASN,17876
+  - IP-ASN,17873
+  - IP-ASN,17870
+  - IP-ASN,17866
+  - IP-ASN,17863
+  - IP-ASN,17860
+  - IP-ASN,17859
+  - IP-ASN,17855
+  - IP-ASN,17851
+  - IP-ASN,17845
+  - IP-ASN,17844
+  - IP-ASN,17840
+  - IP-ASN,17838
+  - IP-ASN,17836
+  - IP-ASN,17616
+  - IP-ASN,17615
+  - IP-ASN,17614
+  - IP-ASN,17611
+  - IP-ASN,17603
+  - IP-ASN,17602
+  - IP-ASN,17600
+  - IP-ASN,17596
+  - IP-ASN,17594
+  - IP-ASN,17593
+  - IP-ASN,17591
+  - IP-ASN,17590
+  - IP-ASN,17589
+  - IP-ASN,17587
+  - IP-ASN,17582
+  - IP-ASN,17581
+  - IP-ASN,17580
+  - IP-ASN,17578
+  - IP-ASN,17576
+  - IP-ASN,17567
+  - IP-ASN,1704
+  - IP-ASN,152671
+  - IP-ASN,152227
+  - IP-ASN,152226
+  - IP-ASN,152225
+  - IP-ASN,152224
+  - IP-ASN,152223
+  - IP-ASN,152222
+  - IP-ASN,152220
+  - IP-ASN,152216
+  - IP-ASN,152215
+  - IP-ASN,152214
+  - IP-ASN,152213
+  - IP-ASN,152211
+  - IP-ASN,152210
+  - IP-ASN,152207
+  - IP-ASN,152203
+  - IP-ASN,152200
+  - IP-ASN,152198
+  - IP-ASN,152197
+  - IP-ASN,142273
+  - IP-ASN,138380
+  - IP-ASN,131890
+  - IP-ASN,131873
+  - IP-ASN,131872
+  - IP-ASN,131870
+  - IP-ASN,131868
+  - IP-ASN,131864
+  - IP-ASN,131862
+  - IP-ASN,131860
+  - IP-ASN,131858
+  - IP-ASN,131856
+  - IP-ASN,131855
+  - IP-ASN,131852
+  - IP-ASN,131850
+  - IP-ASN,131848
+  - IP-ASN,131845
+  - IP-ASN,131844
+  - IP-ASN,131843
+  - IP-ASN,131842
+  - IP-ASN,131841
+  - IP-ASN,131838
+  - IP-ASN,131836
+  - IP-ASN,131832
+  - IP-ASN,131828
+  - IP-ASN,131827
+  - IP-ASN,131826
+  - IP-ASN,131821
+  - IP-ASN,131820
+  - IP-ASN,131819
+  - IP-ASN,131817
+  - IP-ASN,131816
+  - IP-ASN,131815
+  - IP-ASN,131814
+  - IP-ASN,131811
+  - IP-ASN,131810
+  - IP-ASN,131808
+  - IP-ASN,131805
+  - IP-ASN,131804
+  - IP-ASN,131802
+  - IP-ASN,131798
+  - IP-ASN,131794
+  - IP-ASN,131101
+  - IP-ASN,131096
+  - IP-ASN,131095
+  - IP-ASN,131093
+  - IP-ASN,10195
+  - IP-ASN,10194
+  - IP-ASN,10193
+  - IP-ASN,10192
+  - IP-ASN,10191
+  - IP-ASN,10190
+  - IP-ASN,10188
+  - IP-ASN,10187
+  - IP-ASN,10184
+  - IP-ASN,10183
+  - IP-ASN,10180
+  - IP-ASN,10177
+  - IP-ASN,10174
+  - IP-ASN,10172
+  - IP-ASN,10170
+  - IP-ASN,10168
+  - IP-ASN,10165
+  - IP-ASN,10161
+  - IP-ASN,10159
+  - IP-ASN,10088
+  - IP-ASN,10072
+  - IP-ASN,10071
+  - IP-ASN,10069
+  - IP-ASN,10065
+  - IP-ASN,10062
+  - IP-ASN,10060
+  - IP-ASN,10055
+  - IP-ASN,10054
+  - IP-ASN,10053
+  - IP-ASN,10051
+  - IP-ASN,10045
+  - IP-ASN,10044
+  - IP-ASN,10043
+  - IP-ASN,10040
+  - IP-ASN,10039
+  - IP-ASN,10037
+  - IP-ASN,10035
+  - IP-ASN,10034
+  - IP-ASN,9982
+  - IP-ASN,9981
+  - IP-ASN,9977
+  - IP-ASN,9975
+  - IP-ASN,9973
+  - IP-ASN,9971
+  - IP-ASN,9958
+  - IP-ASN,9953
+  - IP-ASN,9951
+  - IP-ASN,9870
+  - IP-ASN,9867
+  - IP-ASN,9864
+  - IP-ASN,9863
+  - IP-ASN,9862
+  - IP-ASN,9859
+  - IP-ASN,9853
+  - IP-ASN,9851
+  - IP-ASN,9846
+  - IP-ASN,9844
+  - IP-ASN,9783
+  - IP-ASN,9780
+  - IP-ASN,9778
+  - IP-ASN,9775
+  - IP-ASN,9774
+  - IP-ASN,9771
+  - IP-ASN,9770
+  - IP-ASN,9769
+  - IP-ASN,9764
+  - IP-ASN,9762
+  - IP-ASN,9756
+  - IP-ASN,9755
+  - IP-ASN,9712
+  - IP-ASN,9711
+  - IP-ASN,9708
+  - IP-ASN,9706
+  - IP-ASN,9701
+  - IP-ASN,9700
+  - IP-ASN,9698
+  - IP-ASN,9697
+  - IP-ASN,9695
+  - IP-ASN,9691
+  - IP-ASN,9690
+  - IP-ASN,9688
+  - IP-ASN,9685
+  - IP-ASN,9639
+  - IP-ASN,9637
+  - IP-ASN,9636
+  - IP-ASN,9633
+  - IP-ASN,9632
+  - IP-ASN,9572
+  - IP-ASN,9569
+  - IP-ASN,9568
+  - IP-ASN,9531
+  - IP-ASN,9529
+  - IP-ASN,9528
+  - IP-ASN,9525
+  - IP-ASN,9521
+  - IP-ASN,9494
+  - IP-ASN,9492
+  - IP-ASN,9487
+  - IP-ASN,9452
+  - IP-ASN,9322
+  - IP-ASN,9321
+  - IP-ASN,9319
+  - IP-ASN,9316
+  - IP-ASN,9277
+  - IP-ASN,9276
+  - IP-ASN,9274
+  - IP-ASN,9271
+  - IP-ASN,7625
+  - IP-ASN,7624
+  - IP-ASN,7623
+  - IP-ASN,7622
+  - IP-ASN,7621
+  - IP-ASN,7559
+  - IP-ASN,55632
+  - IP-ASN,55629
+  - IP-ASN,55627
+  - IP-ASN,55626
+  - IP-ASN,55625
+  - IP-ASN,55623
+  - IP-ASN,55618
+  - IP-ASN,55614
+  - IP-ASN,55601
+  - IP-ASN,55597
+  - IP-ASN,55596
+  - IP-ASN,55593
+  - IP-ASN,55592
+  - IP-ASN,55586
+  - IP-ASN,55585
+  - IP-ASN,4792
+  - IP-ASN,4791
+  - IP-ASN,4669
+  - IP-ASN,4664
+  - IP-ASN,46012
+  - IP-ASN,46011
+  - IP-ASN,46007
+  - IP-ASN,46004
+  - IP-ASN,46002
+  - IP-ASN,45999
+  - IP-ASN,45998
+  - IP-ASN,45992
+  - IP-ASN,45991
+  - IP-ASN,45990
+  - IP-ASN,45987
+  - IP-ASN,45985
+  - IP-ASN,45984
+  - IP-ASN,45977
+  - IP-ASN,45973
+  - IP-ASN,45972
+  - IP-ASN,45407
+  - IP-ASN,45403
+  - IP-ASN,45398
+  - IP-ASN,45387
+  - IP-ASN,45385
+  - IP-ASN,45377
+  - IP-ASN,45373
+  - IP-ASN,45365
+  - IP-ASN,45362
+  - IP-ASN,38707
+  - IP-ASN,38705
+  - IP-ASN,38704
+  - IP-ASN,38700
+  - IP-ASN,38682
+  - IP-ASN,38681
+  - IP-ASN,38679
+  - IP-ASN,38678
+  - IP-ASN,38669
+  - IP-ASN,38430
+  - IP-ASN,38426
+  - IP-ASN,38425
+  - IP-ASN,38417
+  - IP-ASN,38416
+  - IP-ASN,38415
+  - IP-ASN,38414
+  - IP-ASN,38412
+  - IP-ASN,38411
+  - IP-ASN,38410
+  - IP-ASN,38409
+  - IP-ASN,38408
+  - IP-ASN,38407
+  - IP-ASN,38406
+  - IP-ASN,38405
+  - IP-ASN,38404
+  - IP-ASN,38403
+  - IP-ASN,38402
+  - IP-ASN,38401
+  - IP-ASN,38400
+  - IP-ASN,38399
+  - IP-ASN,38398
+  - IP-ASN,38396
+  - IP-ASN,38395
+  - IP-ASN,38394
+  - IP-ASN,38393
+  - IP-ASN,38392
+  - IP-ASN,38391
+  - IP-ASN,38390
+  - IP-ASN,38389
+  - IP-ASN,38388
+  - IP-ASN,3813
+  - IP-ASN,38123
+  - IP-ASN,38121
+  - IP-ASN,38120
+  - IP-ASN,38119
+  - IP-ASN,38117
+  - IP-ASN,38114
+  - IP-ASN,38109
+  - IP-ASN,38103
+  - IP-ASN,38099
+  - IP-ASN,38097
+  - IP-ASN,38096
+  - IP-ASN,38095
+  - IP-ASN,38093
+  - IP-ASN,38088
+  - IP-ASN,24509
+  - IP-ASN,23990
+  - IP-ASN,23975
+  - IP-ASN,23972
+  - IP-ASN,23743
+  - IP-ASN,23594
+  - IP-ASN,23589
+  - IP-ASN,23585
+  - IP-ASN,23584
+  - IP-ASN,23579
+  - IP-ASN,23578
+  - IP-ASN,23574
+  - IP-ASN,23571
+  - IP-ASN,23563
+  - IP-ASN,23561
+  - IP-ASN,23558
+  - IP-ASN,23553
+  - IP-ASN,23552
+  - IP-ASN,214189
+  - IP-ASN,212388
+  - IP-ASN,210576
+  - IP-ASN,18336
+  - IP-ASN,18334
+  - IP-ASN,18333
+  - IP-ASN,18330
+  - IP-ASN,18329
+  - IP-ASN,18328
+  - IP-ASN,18321
+  - IP-ASN,18320
+  - IP-ASN,18319
+  - IP-ASN,18318
+  - IP-ASN,18313
+  - IP-ASN,18312
+  - IP-ASN,18310
+  - IP-ASN,18299
+  - IP-ASN,18297
+  - IP-ASN,18176
+  - IP-ASN,18175
+  - IP-ASN,18160
+  - IP-ASN,18031
+  - IP-ASN,18029
+  - IP-ASN,17875
+  - IP-ASN,17874
+  - IP-ASN,17869
+  - IP-ASN,17868
+  - IP-ASN,17867
+  - IP-ASN,17865
+  - IP-ASN,17864
+  - IP-ASN,17861
+  - IP-ASN,17858
+  - IP-ASN,17857
+  - IP-ASN,17856
+  - IP-ASN,17854
+  - IP-ASN,17853
+  - IP-ASN,17852
+  - IP-ASN,17850
+  - IP-ASN,17849
+  - IP-ASN,17847
+  - IP-ASN,17846
+  - IP-ASN,17843
+  - IP-ASN,17842
+  - IP-ASN,17839
+  - IP-ASN,17833
+  - IP-ASN,17613
+  - IP-ASN,17609
+  - IP-ASN,17607
+  - IP-ASN,17606
+  - IP-ASN,17605
+  - IP-ASN,17601
+  - IP-ASN,17598
+  - IP-ASN,17597
+  - IP-ASN,17595
+  - IP-ASN,17586
+  - IP-ASN,17585
+  - IP-ASN,17584
+  - IP-ASN,17577
+  - IP-ASN,17575
+  - IP-ASN,17573
+  - IP-ASN,17570
+  - IP-ASN,152221
+  - IP-ASN,152218
+  - IP-ASN,152212
+  - IP-ASN,152209
+  - IP-ASN,152208
+  - IP-ASN,152205
+  - IP-ASN,152204
+  - IP-ASN,152202
+  - IP-ASN,152201
+  - IP-ASN,152199
+  - IP-ASN,140322
+  - IP-ASN,131882
+  - IP-ASN,131878
+  - IP-ASN,131871
+  - IP-ASN,131869
+  - IP-ASN,131851
+  - IP-ASN,131847
+  - IP-ASN,131846
+  - IP-ASN,131839
+  - IP-ASN,131835
+  - IP-ASN,131834
+  - IP-ASN,131830
+  - IP-ASN,131829
+  - IP-ASN,131824
+  - IP-ASN,131822
+  - IP-ASN,131812
+  - IP-ASN,131799
+  - IP-ASN,131795
+  - IP-ASN,131100
+  - IP-ASN,131099
+  - IP-ASN,131098
+  - IP-ASN,131097
+  - IP-ASN,10198
+  - IP-ASN,10189
+  - IP-ASN,10186
+  - IP-ASN,10176
+  - IP-ASN,10175
+  - IP-ASN,10166
+  - IP-ASN,10164
+  - IP-ASN,10160
+  - IP-ASN,10157
+  - IP-ASN,10156
+  - IP-ASN,10155
+  - IP-ASN,10070
+  - IP-ASN,10066
+  - IP-ASN,10050
+  - IP-ASN,10046
+  - IP-ASN,10042
+  - IP-ASN,10038
+  - IP-ASN,4671
+  - IP-ASN,3559
+  - IP-ASN,215087
+  - IP-ASN,214510
+  - IP-ASN,203040
+  - IP-ASN,202002
+  - IP-ASN,200965
+  - IP-ASN,150805
+  - IP-ASN,150414
+  - IP-ASN,147036
+  - IP-ASN,139311
+  - IP-ASN,135605

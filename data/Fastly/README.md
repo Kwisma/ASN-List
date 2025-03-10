@@ -14,12 +14,23 @@ mihomo(clash.meta)
 
 <pre><code class="language-javascript">
 rule-providers:
-  reject:
+  ASNFastly:
     type: http
     behavior: classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Fastly/ASN.Fastly.yaml"
     path: ./ruleset/ASN.Fastly.yaml
     interval: 86400
+    format: yaml
+</code></pre>
+
+或者
+
+<pre><code class="language-javascript">
+rule-providers:
+  ASNFastly:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Fastly/ASN.Fastly.yaml"
+    path: ./ruleset/ASN.Fastly.yaml
 </code></pre>
 
 Surge

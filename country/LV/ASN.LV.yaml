@@ -1,250 +1,251 @@
 # LV 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-10 00:08:45
+# 最后更新： CST 2025-03-10 13:08:19
+# ASN: 245
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,12578 # SIA Tet
-  - IP-ASN,24589 # Telenet SIA
-  - IP-ASN,58061 # Scalaxy B.V.
-  - IP-ASN,42532 # SIA VEESP
-  - IP-ASN,2588 # SIA "BITE Latvija"
-  - IP-ASN,12993 # SIA Digitalas Ekonomikas Attistibas Centrs
-  - IP-ASN,212911 # SIA Network Operations Center
-  - IP-ASN,8194 # VAS "Latvijas Valsts radio un televizijas centrs"
-  - IP-ASN,5518 # SIA Tet
-  - IP-ASN,5538 # Institute of Mathematics and Computer Science of University of Latvia
-  - IP-ASN,43317 # SIA VEESP
-  - IP-ASN,24651 # JSC BALTICOM
-  - IP-ASN,199103 # SIA Maklaut
-  - IP-ASN,8285 # Versija SIA
-  - IP-ASN,58269 # CloudHosting SIA
-  - IP-ASN,43513 # Sia Nano IT
-  - IP-ASN,34073 # LR Izglitibas un zinatnes ministrija
-  - IP-ASN,35407 # Santa Monica Networks SIA
-  - IP-ASN,12847 # Latvijas Mobilais Telefons SIA
-  - IP-ASN,20910 # SIA "BITE Latvija"
-  - IP-ASN,6747 # SIA Tet
-  - IP-ASN,29600 # AS "Latvenergo"
-  - IP-ASN,51955 # Institute of Mathematics and Computer Science of University of Latvia
-  - IP-ASN,39845 # 2 Cloud Ltd.
-  - IP-ASN,209372 # SIA "Singularity Telecom"
-  - IP-ASN,202221 # Lailio Solutions SIA
-  - IP-ASN,9029 # SIA "HomeTV Pro"
-  - IP-ASN,61127 # SIA "RD Consult"
-  - IP-ASN,52048 # SIA RixHost
-  - IP-ASN,51548 # SIA "DOLPHNET"
-  - IP-ASN,48798 # SIA "BITE Latvija"
-  - IP-ASN,47485 # Starnet LTD
-  - IP-ASN,42979 # SIA Globalcom
-  - IP-ASN,207066 # SOK, SIA
-  - IP-ASN,206902 # NOLAN, sia
-  - IP-ASN,15721 # C.T.CO. Ltd.
-  - IP-ASN,60066 # Tele2 SIA
-  - IP-ASN,49549 # Standart AG, LLC
-  - IP-ASN,41898 # SIA "Datu Tehnologiju Grupa"
-  - IP-ASN,41726 # Creditreform Latvija SIA
-  - IP-ASN,41563 # OSTKOM SIA
-  - IP-ASN,39900 # SIA GOOD
-  - IP-ASN,215712 # Printful Latvia AS
-  - IP-ASN,215329 # SIA "RXTX Baltija"
-  - IP-ASN,213601 # SIA "SOFTTECH"
-  - IP-ASN,213166 # UA-Hosting SIA
-  - IP-ASN,212132 # Evolution Latvia SIA
-  - IP-ASN,211381 # Podaon SIA
-  - IP-ASN,210886 # AS Magnetiq Bank
-  - IP-ASN,206600 # Ministry of foreign affairs of the Republic of Latvia
-  - IP-ASN,205680 # Travel Communication SIA
-  - IP-ASN,203866 # Versija SIA
-  - IP-ASN,203339 # SIA Network Operations Center
-  - IP-ASN,202920 # DataClub S.A.
-  - IP-ASN,199558 # MEDIA PARTNERS SIA
-  - IP-ASN,16062 # Latvijas tikli, SIA
-  - IP-ASN,15483 # SIA "NESS"
-  - IP-ASN,13244 # Rietumu banka AS
-  - IP-ASN,12509 # LATVIJAS BANKA
-  - IP-ASN,8605 # University of Latvia
-  - IP-ASN,8538 # iLink ltd
-  - IP-ASN,6832 # Daugavpils university
-  - IP-ASN,64421 # SERTEX SIA
-  - IP-ASN,62436 # RIGAS AUSTRUMU KLINISKA UNIVERSITATES SLIMNICA
-  - IP-ASN,61277 # ScienceSoft SIA
-  - IP-ASN,60324 # VSIA "Latvijas Televizija"
-  - IP-ASN,59615 # SIA Serverum
-  - IP-ASN,51894 # Mikrotikls SIA
-  - IP-ASN,51763 # IntechSystems SIA
-  - IP-ASN,51338 # SIA Latvijas Propana gaze
-  - IP-ASN,51268 # Joint Stock Company LPB Bank
-  - IP-ASN,51249 # SIA "SILKO serviss"
-  - IP-ASN,51109 # Sia Nano IT
-  - IP-ASN,47371 # XOmobile Ltd.
-  - IP-ASN,44575 # SIA MWTV
-  - IP-ASN,42663 # SIA LATVIJAS TALRUNIS
-  - IP-ASN,42480 # SIA BITE Latvija
-  - IP-ASN,42099 # SIA NETVISION
-  - IP-ASN,42078 # XOTEL SIA
-  - IP-ASN,41679 # Cadence SIA
-  - IP-ASN,41424 # Valsts akciju sabiedriba "Latvijas dzelzcels"
-  - IP-ASN,41376 # Jurmalas pilsetas dome
-  - IP-ASN,35373 # Valsts akciju sadiedriba Latvijas Pasts
-  - IP-ASN,34326 # CSC Telecom SIA
-  - IP-ASN,33867 # AIR BALTIC CORPORATION AS
-  - IP-ASN,3281 # 2CLOUD SIA
-  - IP-ASN,29345 # Institute of Mathematics and Computer Science of University of Latvia
-  - IP-ASN,2877 # LSC SIA
-  - IP-ASN,24972 # SIA LURSOFT IT
-  - IP-ASN,212676 # SIA Decta
-  - IP-ASN,212496 # SIA GOOD
-  - IP-ASN,210817 # Carmine Red IT, SIA
-  - IP-ASN,210668 # SIA Spotrix
-  - IP-ASN,21061 # Telegrupa Baltija SIA
-  - IP-ASN,209895 # NBI SIA
-  - IP-ASN,206541 # Kreiss, sia
-  - IP-ASN,206362 # SIA OSS Networks
-  - IP-ASN,205370 # Telenet SIA
-  - IP-ASN,20509 # Elko Grupa as
-  - IP-ASN,204391 # NBI SIA
-  - IP-ASN,204130 # DLV, sia
-  - IP-ASN,202280 # NBI SIA
-  - IP-ASN,201897 # Freeport of Riga Authority
-  - IP-ASN,201611 # SmartLynx Airlines
-  - IP-ASN,201315 # SIA BFA
-  - IP-ASN,199663 # Valsts Kase
-  - IP-ASN,199577 # Digimoney-SIA
-  - IP-ASN,199029 # World Registry of Internet Domains LTD
-  - IP-ASN,198343 # Telenet SIA
-  - IP-ASN,197870 # S.I.A.IBANPAY
-  - IP-ASN,197616 # Optrix SIA
-  - IP-ASN,197325 # SIA Immobilarium
-  - IP-ASN,15684 # OPTICOM SIA
-  - IP-ASN,13070 # SIA Electronic Solutions
-  - IP-ASN,9091 # Swedbank AS
-  - IP-ASN,6851 # C3 SIA
-  - IP-ASN,62220 # State Regional Development Agency
-  - IP-ASN,60567 # SIA RixHost
-  - IP-ASN,59967 # SIA EVOLUTION LATVIA
-  - IP-ASN,59658 # SIA "Defendix"
-  - IP-ASN,57956 # RP SIA "Rigas Satiksme"
-  - IP-ASN,57946 # RPH Business Support AS
-  - IP-ASN,57841 # Telenet SIA
-  - IP-ASN,57223 # NOVA SIA
-  - IP-ASN,57058 # Valsts akciju sabiedriba "Celu satiksmes drosibas direkcija"
-  - IP-ASN,56938 # MAGNUM MEDICAL SIA
-  - IP-ASN,56454 # Tilde SIA
-  - IP-ASN,56323 # Eco Baltia AS
-  - IP-ASN,52173 # Sia Nano IT
-  - IP-ASN,51610 # Signet Bank AS
-  - IP-ASN,51347 # SMS solutions SIA
-  - IP-ASN,50893 # LR Labklajibas Ministrija
-  - IP-ASN,50731 # PRO-9 SIA
-  - IP-ASN,50485 # Belam - Riga SIA
-  - IP-ASN,49667 # Create & Develop BDR
-  - IP-ASN,49036 # SIA "Euro Live Technologies"
-  - IP-ASN,48870 # Telenet SIA
-  - IP-ASN,48867 # Akciju sabiedriba Regionala Investiciju Banka
-  - IP-ASN,48546 # SIA LETA
-  - IP-ASN,48113 # SIA PRIME TECHNOLOGY
-  - IP-ASN,47922 # Latvian Geospatial Information Agency
-  - IP-ASN,47814 # SIA "BITE Latvija"
-  - IP-ASN,47570 # SIA Tet
-  - IP-ASN,47499 # SIA ILVA Ltd.
-  - IP-ASN,47284 # Biedriba Latvijas Transportlidzeklu apdrosinataju birojs
-  - IP-ASN,44698 # Chancery of the President of Latvia
-  - IP-ASN,44624 # SIA "RD Consult"
-  - IP-ASN,44483 # Elektrons K SIA
-  - IP-ASN,44105 # LF Dati SIA
-  - IP-ASN,43956 # Latvijas Finieris A/S
-  - IP-ASN,43877 # Teleglobal SIA
-  - IP-ASN,43615 # Corporate Solutions SIA
-  - IP-ASN,43188 # V/A Lauksaimniecibas Datu Centrs
-  - IP-ASN,43162 # OLIMP LLC
-  - IP-ASN,43123 # SIA Lexico Telecom LTD
-  - IP-ASN,43104 # SJSC RIGA International Airport
-  - IP-ASN,43028 # Ventspils city municipality institution Ventspils Digital Center
-  - IP-ASN,42936 # SPX SIA
-  - IP-ASN,41390 # SIA SOCKS
-  - IP-ASN,39675 # State Joint Stock Company "Latvian Development Finance Institution Altum"
-  - IP-ASN,35809 # SIA "DIVI Grupa"
-  - IP-ASN,35734 # SIA "PNB Print"
-  - IP-ASN,35636 # SIA Worldline Latvia
-  - IP-ASN,35484 # SIA "ALSO Latvia"
-  - IP-ASN,35333 # SIA NETVISION
-  - IP-ASN,35302 # AS "Latvenergo"
-  - IP-ASN,35108 # EMERGN AS
-  - IP-ASN,35036 # Akciju sabiedriba "RD ALFA"
-  - IP-ASN,34620 # Mikronet SIA
-  - IP-ASN,34417 # BluOr Bank AS
-  - IP-ASN,34354 # JSC BALTICOM
-  - IP-ASN,34001 # SIA LIVAS NET
-  - IP-ASN,3241 # Elektronikas un Datorzinatnu Instituts
-  - IP-ASN,29466 # Valsts Ienemumu Dienests
-  - IP-ASN,28699 # SIA "BITE Latvija"
-  - IP-ASN,25444 # Headquarters of National Armed Forces Republic of Latvia
-  - IP-ASN,25241 # Information Centre of the Ministry of the Interior
-  - IP-ASN,25107 # AS "Industra Bank"
-  - IP-ASN,24921 # Latvijas Mobilais Telefons SIA
-  - IP-ASN,24620 # Rigas Tehniska Universitate
-  - IP-ASN,215702 # REDAM SIA
-  - IP-ASN,215537 # E-karte SIA
-  - IP-ASN,214507 # SIA "Puces datorsistemas"
-  - IP-ASN,214360 # SIA Network Operations Center
-  - IP-ASN,21325 # Tiesu Namu Agentura SIA
-  - IP-ASN,213022 # SIA DPD Latvija
-  - IP-ASN,212717 # Tietoevry Banking Latvia SIA
-  - IP-ASN,212197 # SIA Infrastrukturas Attistibas Uznemums
-  - IP-ASN,211885 # Prodimpekss Logistikas Grupa SIA
-  - IP-ASN,211838 # SIA "Aizdevums.lv"
-  - IP-ASN,211527 # SIA "Orkla Latvija"
-  - IP-ASN,211424 # SIA "LSK Studios"
-  - IP-ASN,210895 # Podaon SIA
-  - IP-ASN,210591 # VAS "Latvijas Valsts radio un televizijas centrs"
-  - IP-ASN,210556 # NBI SIA
-  - IP-ASN,210213 # VAS Latvijas Valsts radio un televizijas centrs
-  - IP-ASN,21016 # SIA "BITE Latvija"
-  - IP-ASN,210130 # NBI SIA
-  - IP-ASN,208996 # NBI SIA
-  - IP-ASN,208938 # RIGAS PIENA KOMBINATS AS
-  - IP-ASN,208783 # SIA "AVELACOM"
-  - IP-ASN,208284 # Valsts sabiedriba ar ierobezotu atbildibu Latvijas Vides, geologijas un meteorologijas centrs
-  - IP-ASN,208030 # SIA BITE Latvija
-  - IP-ASN,20777 # Infoserv-Riga Ltd
-  - IP-ASN,207689 # SIA TEIKUMS
-  - IP-ASN,207377 # Evolution Latvia SIA
-  - IP-ASN,206297 # SIA Global Cloud
-  - IP-ASN,205821 # SIA Arena Riga
-  - IP-ASN,205625 # WSoft SIA
-  - IP-ASN,205568 # NBI SIA
-  - IP-ASN,20548 # Latvijas Republikas Saeima
-  - IP-ASN,205045 # NBI SIA
-  - IP-ASN,204427 # Proact IT Latvia, SIA
-  - IP-ASN,204380 # SIA Starbridge
-  - IP-ASN,203557 # SIA RixHost
-  - IP-ASN,202863 # OPTIBET LTD
-  - IP-ASN,202589 # TestDevLab-SIA
-  - IP-ASN,202555 # SIA Tamro
-  - IP-ASN,201673 # Verifone Baltic SIA
-  - IP-ASN,201574 # LATVIJAS LOTO VAS
-  - IP-ASN,201547 # National Library of Latvia
-  - IP-ASN,200676 # Svens Jansons
-  - IP-ASN,199300 # The State Agency of Medicines of Latvia
-  - IP-ASN,199034 # SIA "Baltic project group"
-  - IP-ASN,199031 # SIA Amberbit
-  - IP-ASN,198620 # Bralu Jurjanu biedriba
-  - IP-ASN,198285 # SIA Datakom
-  - IP-ASN,197466 # SIA 3ENITH
-  - IP-ASN,197446 # SIA Vitol Terminal Latvia
-  - IP-ASN,196948 # Ventspils Augstskola
-  - IP-ASN,16279 # AS "Citadele banka"
-  - IP-ASN,15899 # ERNIS SIA
-  - IP-ASN,15827 # SIA "Biznesa augstskola Turiba"
-  - IP-ASN,15818 # LATVIJAS GAZE AS
-  - IP-ASN,15392 # Elvim SIA
-  - IP-ASN,13242 # Latvijas Biozinatnu un tehnologiju universitaete
-  - IP-ASN,12965 # AS "SEB banka"
-  - IP-ASN,12525 # INTERNET Ltd.
-  - IP-ASN,12443 # Finance Department of Riga State City Municipality
-  - IP-ASN,56925 # SIA "L.A.T"
-  - IP-ASN,50755 # Svens Jansons
-  - IP-ASN,34535 # Standart AG, LLC
-  - IP-ASN,214129 # UGO JERCUMS trading as SV GO-SYSTEM LATVIJA
-  - IP-ASN,203199 # UNUM SIA
-  - IP-ASN,201504 # Alberts Saulitis
+  - IP-ASN,12578
+  - IP-ASN,24589
+  - IP-ASN,58061
+  - IP-ASN,42532
+  - IP-ASN,2588
+  - IP-ASN,12993
+  - IP-ASN,212911
+  - IP-ASN,8194
+  - IP-ASN,5518
+  - IP-ASN,5538
+  - IP-ASN,43317
+  - IP-ASN,24651
+  - IP-ASN,199103
+  - IP-ASN,8285
+  - IP-ASN,58269
+  - IP-ASN,43513
+  - IP-ASN,34073
+  - IP-ASN,35407
+  - IP-ASN,12847
+  - IP-ASN,20910
+  - IP-ASN,6747
+  - IP-ASN,29600
+  - IP-ASN,51955
+  - IP-ASN,39845
+  - IP-ASN,209372
+  - IP-ASN,202221
+  - IP-ASN,9029
+  - IP-ASN,61127
+  - IP-ASN,52048
+  - IP-ASN,51548
+  - IP-ASN,48798
+  - IP-ASN,47485
+  - IP-ASN,42979
+  - IP-ASN,207066
+  - IP-ASN,206902
+  - IP-ASN,15721
+  - IP-ASN,60066
+  - IP-ASN,49549
+  - IP-ASN,41898
+  - IP-ASN,41726
+  - IP-ASN,41563
+  - IP-ASN,39900
+  - IP-ASN,215712
+  - IP-ASN,215329
+  - IP-ASN,213601
+  - IP-ASN,213166
+  - IP-ASN,212132
+  - IP-ASN,211381
+  - IP-ASN,210886
+  - IP-ASN,206600
+  - IP-ASN,205680
+  - IP-ASN,203866
+  - IP-ASN,203339
+  - IP-ASN,202920
+  - IP-ASN,199558
+  - IP-ASN,16062
+  - IP-ASN,15483
+  - IP-ASN,13244
+  - IP-ASN,12509
+  - IP-ASN,8605
+  - IP-ASN,8538
+  - IP-ASN,6832
+  - IP-ASN,64421
+  - IP-ASN,62436
+  - IP-ASN,61277
+  - IP-ASN,60324
+  - IP-ASN,59615
+  - IP-ASN,51894
+  - IP-ASN,51763
+  - IP-ASN,51338
+  - IP-ASN,51268
+  - IP-ASN,51249
+  - IP-ASN,51109
+  - IP-ASN,47371
+  - IP-ASN,44575
+  - IP-ASN,42663
+  - IP-ASN,42480
+  - IP-ASN,42099
+  - IP-ASN,42078
+  - IP-ASN,41679
+  - IP-ASN,41424
+  - IP-ASN,41376
+  - IP-ASN,35373
+  - IP-ASN,34326
+  - IP-ASN,33867
+  - IP-ASN,3281
+  - IP-ASN,29345
+  - IP-ASN,2877
+  - IP-ASN,24972
+  - IP-ASN,212676
+  - IP-ASN,212496
+  - IP-ASN,210817
+  - IP-ASN,210668
+  - IP-ASN,21061
+  - IP-ASN,209895
+  - IP-ASN,206541
+  - IP-ASN,206362
+  - IP-ASN,205370
+  - IP-ASN,20509
+  - IP-ASN,204391
+  - IP-ASN,204130
+  - IP-ASN,202280
+  - IP-ASN,201897
+  - IP-ASN,201611
+  - IP-ASN,201315
+  - IP-ASN,199663
+  - IP-ASN,199577
+  - IP-ASN,199029
+  - IP-ASN,198343
+  - IP-ASN,197870
+  - IP-ASN,197616
+  - IP-ASN,197325
+  - IP-ASN,15684
+  - IP-ASN,13070
+  - IP-ASN,9091
+  - IP-ASN,6851
+  - IP-ASN,62220
+  - IP-ASN,60567
+  - IP-ASN,59967
+  - IP-ASN,59658
+  - IP-ASN,57956
+  - IP-ASN,57946
+  - IP-ASN,57841
+  - IP-ASN,57223
+  - IP-ASN,57058
+  - IP-ASN,56938
+  - IP-ASN,56454
+  - IP-ASN,56323
+  - IP-ASN,52173
+  - IP-ASN,51610
+  - IP-ASN,51347
+  - IP-ASN,50893
+  - IP-ASN,50731
+  - IP-ASN,50485
+  - IP-ASN,49667
+  - IP-ASN,49036
+  - IP-ASN,48870
+  - IP-ASN,48867
+  - IP-ASN,48546
+  - IP-ASN,48113
+  - IP-ASN,47922
+  - IP-ASN,47814
+  - IP-ASN,47570
+  - IP-ASN,47499
+  - IP-ASN,47284
+  - IP-ASN,44698
+  - IP-ASN,44624
+  - IP-ASN,44483
+  - IP-ASN,44105
+  - IP-ASN,43956
+  - IP-ASN,43877
+  - IP-ASN,43615
+  - IP-ASN,43188
+  - IP-ASN,43162
+  - IP-ASN,43123
+  - IP-ASN,43104
+  - IP-ASN,43028
+  - IP-ASN,42936
+  - IP-ASN,41390
+  - IP-ASN,39675
+  - IP-ASN,35809
+  - IP-ASN,35734
+  - IP-ASN,35636
+  - IP-ASN,35484
+  - IP-ASN,35333
+  - IP-ASN,35302
+  - IP-ASN,35108
+  - IP-ASN,35036
+  - IP-ASN,34620
+  - IP-ASN,34417
+  - IP-ASN,34354
+  - IP-ASN,34001
+  - IP-ASN,3241
+  - IP-ASN,29466
+  - IP-ASN,28699
+  - IP-ASN,25444
+  - IP-ASN,25241
+  - IP-ASN,25107
+  - IP-ASN,24921
+  - IP-ASN,24620
+  - IP-ASN,215702
+  - IP-ASN,215537
+  - IP-ASN,214507
+  - IP-ASN,214360
+  - IP-ASN,21325
+  - IP-ASN,213022
+  - IP-ASN,212717
+  - IP-ASN,212197
+  - IP-ASN,211885
+  - IP-ASN,211838
+  - IP-ASN,211527
+  - IP-ASN,211424
+  - IP-ASN,210895
+  - IP-ASN,210591
+  - IP-ASN,210556
+  - IP-ASN,210213
+  - IP-ASN,21016
+  - IP-ASN,210130
+  - IP-ASN,208996
+  - IP-ASN,208938
+  - IP-ASN,208783
+  - IP-ASN,208284
+  - IP-ASN,208030
+  - IP-ASN,20777
+  - IP-ASN,207689
+  - IP-ASN,207377
+  - IP-ASN,206297
+  - IP-ASN,205821
+  - IP-ASN,205625
+  - IP-ASN,205568
+  - IP-ASN,20548
+  - IP-ASN,205045
+  - IP-ASN,204427
+  - IP-ASN,204380
+  - IP-ASN,203557
+  - IP-ASN,202863
+  - IP-ASN,202589
+  - IP-ASN,202555
+  - IP-ASN,201673
+  - IP-ASN,201574
+  - IP-ASN,201547
+  - IP-ASN,200676
+  - IP-ASN,199300
+  - IP-ASN,199034
+  - IP-ASN,199031
+  - IP-ASN,198620
+  - IP-ASN,198285
+  - IP-ASN,197466
+  - IP-ASN,197446
+  - IP-ASN,196948
+  - IP-ASN,16279
+  - IP-ASN,15899
+  - IP-ASN,15827
+  - IP-ASN,15818
+  - IP-ASN,15392
+  - IP-ASN,13242
+  - IP-ASN,12965
+  - IP-ASN,12525
+  - IP-ASN,12443
+  - IP-ASN,56925
+  - IP-ASN,50755
+  - IP-ASN,34535
+  - IP-ASN,214129
+  - IP-ASN,203199
+  - IP-ASN,201504

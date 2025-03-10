@@ -14,12 +14,23 @@ mihomo(clash.meta)
 
 <pre><code class="language-javascript">
 rule-providers:
-  reject:
+  ASNTwitter:
     type: http
     behavior: classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Twitter/ASN.Twitter.yaml"
     path: ./ruleset/ASN.Twitter.yaml
     interval: 86400
+    format: yaml
+</code></pre>
+
+或者
+
+<pre><code class="language-javascript">
+rule-providers:
+  ASNTwitter:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Twitter/ASN.Twitter.yaml"
+    path: ./ruleset/ASN.Twitter.yaml
 </code></pre>
 
 Surge

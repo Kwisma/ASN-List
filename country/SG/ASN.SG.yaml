@@ -1,434 +1,435 @@
 # SG 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-10 00:08:45
+# 最后更新： CST 2025-03-10 13:08:19
+# ASN: 432
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,24482 # SG.GS
-  - IP-ASN,18106 # Viewqwest Pte Ltd
-  - IP-ASN,132337 # Axclusive
-  - IP-ASN,38001 # NewMedia Express Pte Ltd
-  - IP-ASN,24115 # Equinix
-  - IP-ASN,4657 # StarHub Ltd
-  - IP-ASN,133210 # EN Technologies Pte Ltd
-  - IP-ASN,139341 # ACE
-  - IP-ASN,139057 # Edgenext Legend Dynasty Pte. Ltd.
-  - IP-ASN,7473 # Singapore Telecommunications Ltd
-  - IP-ASN,64049 # Reliance Jio Infocomm Pte Ltd Singapore
-  - IP-ASN,63949 # Akamai Connected Cloud
-  - IP-ASN,10122 # NETSTAR (SG) PTE. LTD.
-  - IP-ASN,132132 # MyRepublic Ltd.
-  - IP-ASN,137182 # BLUE WIRELESS PTE LTD
-  - IP-ASN,137831 # SEA IX
-  - IP-ASN,17819 # Equinix Asia Pacific
-  - IP-ASN,3758 # SingNet
-  - IP-ASN,134078 # NETPLUZ HOLDINGS PRIVATE LIMITED
-  - IP-ASN,17547 # M1 NET LTD
-  - IP-ASN,151326 # DCConnect Communication Pte. Ltd.
-  - IP-ASN,56308 # TELEKOMUNIKASI INDONESIA INTERNATIONAL, PTE.LTD
-  - IP-ASN,4773 # MobileOne Ltd. Mobile/Internet Service Provider Singapore
-  - IP-ASN,140577 # Ahrefs Pte Ltd
-  - IP-ASN,23855 # Singapore Advanced Research and Education Network
-  - IP-ASN,138699 # TIKTOK PTE. LTD.
-  - IP-ASN,150436 # Byteplus Pte. Ltd.
-  - IP-ASN,152144 # LIGHTSTORM ASIA PTE. LTD.
-  - IP-ASN,131219 # Indosat Singapore Pte. Ltd.
-  - IP-ASN,4628 # Pacific Internet Pte Ltd
-  - IP-ASN,4844 # SuperInternet ACCESS Pte Ltd
-  - IP-ASN,23856 # SPTEL PTE. LTD.
-  - IP-ASN,149290 # Cloud Telecommunications (S) PTE. LTD.
-  - IP-ASN,137991 # Lifeway Singapore Pte. Ltd.
-  - IP-ASN,134363 # EZIT Solutions Pte Ltd
-  - IP-ASN,139225 # Whatbox Inc.
-  - IP-ASN,134187 # InterCloud
-  - IP-ASN,140719 # 201309973N
-  - IP-ASN,138552 # RTB HOUSE PTE. LTD.
-  - IP-ASN,134148 # SingAREN
-  - IP-ASN,142160 # JOYO TECHNOLOGY PTE. LTD.
-  - IP-ASN,7387 # ONBOARDCLOUD PTE. LTD.
-  - IP-ASN,132829 # Nevigate Communications (S) Pte Ltd
-  - IP-ASN,7595 # Readyspace Cloud Services
-  - IP-ASN,60021 # Edge Cloud (SG) Pte. Ltd.
-  - IP-ASN,55518 # Singapore Internet Exchange Limited
-  - IP-ASN,141995 # Contabo Asia Private Limited
-  - IP-ASN,135066 # Schroders Investment Management (Singapore) Limited
-  - IP-ASN,133959 # OWENTIS
-  - IP-ASN,9255 # Singapore Telecom
-  - IP-ASN,10024 # LGA International
-  - IP-ASN,139883 # SPTEL PTE. LTD.
-  - IP-ASN,4817 # Simba Telecom Pte Ltd
-  - IP-ASN,141389 # GOIP BUSINESS SOLUTION PTE. LTD.
-  - IP-ASN,9989 # Equinix Singapore Pte Ltd
-  - IP-ASN,58436 # SECUREAX PTE LTD
-  - IP-ASN,135409 # Kacific Broadband Satellites Pte Ltd
-  - IP-ASN,9664 # ALOI PTE. LTD.
-  - IP-ASN,9419 # Nanyang Technological University
-  - IP-ASN,151358 # Finovy Pte. Ltd.
-  - IP-ASN,9226 # 1-Net Singapore Pte Ltd
-  - IP-ASN,931 # Hyonix
-  - IP-ASN,56172 # Agora Communications Pte Ltd
-  - IP-ASN,17645 # ASN - NTT SINGAPORE PTE LTD
-  - IP-ASN,132816 # SimplerCloud Pte Ltd
-  - IP-ASN,132696 # Singapore Internet Exchange Limited
-  - IP-ASN,141384 # Internet Society Asia Limited
-  - IP-ASN,24319 # Akamai Technologies Tokyo ASN
-  - IP-ASN,64010 # BasicBrix LLP
-  - IP-ASN,37989 # DCS1 Pte Ltd, at DC02
-  - IP-ASN,136041 # Singapore Telecom, ConnectPlus
-  - IP-ASN,134190 # IPDC SOLUTIONS PTE LTD
-  - IP-ASN,135014 # Crosspoint Telecom PTE. LTD.
-  - IP-ASN,59253 # LEASEWEB SINGAPORE PTE. LTD.
-  - IP-ASN,45166 # PACIFIC INTERNET (S) PTE. LTD.
-  - IP-ASN,24331 # eBay Inc ASIA ASN eCommerce San Jose
-  - IP-ASN,141190 # Jindun Technology PTE. Ltd.
-  - IP-ASN,139190 # Google Asia Pacific Pte. Ltd.
-  - IP-ASN,963 # Asia Pacific Network Information Centre
-  - IP-ASN,4765 # Pacific Internet Pte Ltd
-  - IP-ASN,197537 # WISDOM CLOUD INTERNET TECHNOLOGY PTE. LTD.
-  - IP-ASN,149020 # WebHorizon Internet Services
-  - IP-ASN,135354 # NAVER BUSINESS PLATFORM ASIA PACIFIC PTE. LTD.
-  - IP-ASN,133748 # CORETEL NETWORKS (INTERNATIONAL) PTE LTD
-  - IP-ASN,7610 # NUS Gigapop
-  - IP-ASN,138608 # Cloud Host Pte Ltd
-  - IP-ASN,136785 # TOFFS TECHNOLOGIES PTE LTD
-  - IP-ASN,134963 # Alibaba Cloud (Singapore) Private Limited
-  - IP-ASN,10146 # Ford Motor Company
-  - IP-ASN,56300 # MyRepublic Ltd.
-  - IP-ASN,23767 # A-STAR
-  - IP-ASN,208959 # SlashN Services Pte. Ltd.
-  - IP-ASN,149981 # Edgenext Legend Dynasty Pte. Ltd.
-  - IP-ASN,137962 # GREYPANEL PTE LTD
-  - IP-ASN,136733 # Racks Central Pte Ltd
-  - IP-ASN,133735 # McKinsey & Company
-  - IP-ASN,9649 # Information Technology Office
-  - IP-ASN,59345 # CME Group Singapore Operations Pte Ldt.
-  - IP-ASN,58521 # Garena Online Pte Ltd
-  - IP-ASN,56197 # KDDI ASIA PACIFIC PTE. LTD.
-  - IP-ASN,45938 # 3 Tai Seng drive # 04-00
-  - IP-ASN,38325 # WTP
-  - IP-ASN,213122 # Krixe Pte. Ltd.
-  - IP-ASN,151610 # HUAWEI INTERNATIONAL PTE. LTD.
-  - IP-ASN,151609 # GREYWOLF NETWORKS PTE. LTD.
-  - IP-ASN,151495 # Lelantos Pte Ltd
-  - IP-ASN,141180 # HUAWEI INTERNATIONAL PTE. LTD.
-  - IP-ASN,140592 # GOVERNMENT TECHNOLOGY AGENCY
-  - IP-ASN,139070 # Google Asia Pacific Pte. Ltd.
-  - IP-ASN,138433 # GMO GlobalSign Pte Ltd
-  - IP-ASN,138341 # SHOPEE SINGAPORE PRIVATE LIMITED
-  - IP-ASN,137563 # Flow Traders Asia Pte. Ltd.
-  - IP-ASN,136202 # Freepoint Commodities Singapore Pte. Ltd.
-  - IP-ASN,135530 # Acronis Asia Pte. Ltd
-  - IP-ASN,134677 # Dromatics Systems Pte Ltd
-  - IP-ASN,132016 # IRESS Market Technology Ltd
-  - IP-ASN,131244 # Invisalign Singapore Pte. Ltd.
-  - IP-ASN,9874 # StarHub Ltd
-  - IP-ASN,9234 # Sol One Application Delivery Network
-  - IP-ASN,63930 # Ready Server Pte Ltd
-  - IP-ASN,59241 # Goldman Sachs (Asia) L.L.C.
-  - IP-ASN,56039 # SPH Media Limited
-  - IP-ASN,55348 # Symbio Networks Pty Ltd
-  - IP-ASN,4907 # BGPNET PTE. LTD.
-  - IP-ASN,45445 # General Motors Korea, Bupyeong
-  - IP-ASN,38862 # TullettPrebon Singapore multihoming ISP connection AS
-  - IP-ASN,38532 # Exabytes Network (Singapore) Pte. Ltd.
-  - IP-ASN,24546 # BP Pte Limited, Energy Company, Singapore
-  - IP-ASN,24467 # Deutsche Bank APAC RHO in Singapore Internet AS
-  - IP-ASN,209792 # Daan van Gorkum
-  - IP-ASN,205142 # Flex Ltd.
-  - IP-ASN,202736 # WISDOM CLOUD INTERNET TECHNOLOGY PTE. LTD.
-  - IP-ASN,1825 # SetClear Pte. Ltd.
-  - IP-ASN,17617 # Nanyang Polytechnic
-  - IP-ASN,152700 # NUUK COMMUNICATIONS PTE. LTD.
-  - IP-ASN,152589 # LUXURIATE YOUR LIFE PTE. LTD.
-  - IP-ASN,152475 # BGPNET PTE. LTD.
-  - IP-ASN,151804 # S NOTION PTE. LTD
-  - IP-ASN,150423 # Server Galactic Private Limited
-  - IP-ASN,149813 # LightEdge Solutions LLC
-  - IP-ASN,149493 # HRT SG PTE. LTD.
-  - IP-ASN,142002 # Scloud Pte Ltd
-  - IP-ASN,140929 # T20025
-  - IP-ASN,140928 # T20025
-  - IP-ASN,140610 # Bayer (South East Asia) Pte Ltd
-  - IP-ASN,139896 # Kim Chuan Telecommunications Complex
-  - IP-ASN,139291 # INFINITIUM HOLDINGS PTE. LTD.
-  - IP-ASN,138481 # Lear Corporation
-  - IP-ASN,138463 # Interactive Brokers Singapore Pte. Ltd
-  - IP-ASN,138199 # Transatel
-  - IP-ASN,136968 # SingAREN
-  - IP-ASN,136169 # DBS Bank Ltd
-  - IP-ASN,135525 # Exoduspoint Capital Management Singapore, Pte. Ltd.
-  - IP-ASN,135002 # Singapore Exchange Limited
-  - IP-ASN,134469 # Digital Singapore 2 Pte Ltd
-  - IP-ASN,133794 # ABN Amro Clearing Sydney Pty Ltd
-  - IP-ASN,133426 # Northtelecom PTE LTD
-  - IP-ASN,133136 # MYREPUBLIC LIMITED
-  - IP-ASN,132204 # CORETEL NETWORKS (INTERNATIONAL) PTE LTD
-  - IP-ASN,131582 # QUAPE PTE LTD
-  - IP-ASN,10031 # WEBSATMEDIA PTE LTD, Satellite Over IP, Singapore
-  - IP-ASN,9892 # Iconz-Webvisions Pte. Ltd.
-  - IP-ASN,9890 # ATOS Information Technology (Singapore) Pte Ltd
-  - IP-ASN,9877 # Ngee Ann Polytechnic Computer Center
-  - IP-ASN,9656 # T-SYSTEMS SINGAPORE PTE LTD
-  - IP-ASN,9506 # Singtel Fibre Broadband
-  - IP-ASN,9292 # 21 Tampines Avenue 1
-  - IP-ASN,64086 # Australia and New Zealand Banking Group Limited (ANZ)
-  - IP-ASN,64003 # UOB Kay Hian Private Limited
-  - IP-ASN,63834 # PrimeXM Networks (Singapore) PTE. LTD
-  - IP-ASN,59364 # vHost Holdings Pte Ltd
-  - IP-ASN,59326 # DSO National Laboratories
-  - IP-ASN,59258 # IIJ Global Soltuions Singapore Pte. Ltd.
-  - IP-ASN,59210 # PhoenixNAP
-  - IP-ASN,56289 # DBS Bank Ltd
-  - IP-ASN,56274 # GM Asia Pacific, Singapore
-  - IP-ASN,56122 # Vale S.A
-  - IP-ASN,55919 # 20 Dover Drive Singapore 138682
-  - IP-ASN,55855 # PLAYPARK PTE. LTD.
-  - IP-ASN,55781 # Fujitsu Asia Pte. Ltd.
-  - IP-ASN,55487 # 60 Woodlands Industrial Park D Street 2
-  - IP-ASN,55426 # Amphenol FCI Asia Pte Ltd
-  - IP-ASN,55415 # 4 Shenton Way
-  - IP-ASN,45736 # eSys Technologies Pte Ltd
-  - IP-ASN,45634 # Sparkstation Pte Ltd
-  - IP-ASN,45470 # 8 to Infinity Pte Ltd
-  - IP-ASN,45139 # Microsoft Corp
-  - IP-ASN,45133 # Singapore Polytechnic
-  - IP-ASN,43081 # World News PTE. LTD
-  - IP-ASN,399114 # Hyonix
-  - IP-ASN,38258 # Sony - ASN for Asia Pacific
-  - IP-ASN,24038 # Fujitsu Asia Pte Ltd, NOC and RIM
-  - IP-ASN,23920 # Asia Mediatel Pte Ltd
-  - IP-ASN,23864 # Singapre Advance Research and Education Network - National Grid Office - IHPC
-  - IP-ASN,23728 # Republic Polytechnic. Multihoming AS Singapore
-  - IP-ASN,23703 # RigNet, Communication to remote locations in Asia/Pacific.
-  - IP-ASN,23653 # BNP Paribas SG, Transit AS, Singapore
-  - IP-ASN,202430 # Alarislabs Pte Ltd
-  - IP-ASN,18402 # NATIONAL LIBRARY BOARD
-  - IP-ASN,18228 # NCS IDC in Singapore
-  - IP-ASN,18224 # Singapore Network Services
-  - IP-ASN,18113 # Pfizer Pte Ltd Singapore dual homed
-  - IP-ASN,17886 # Matrix Networks Pte Ltd
-  - IP-ASN,17733 # Office of Communications & IT
-  - IP-ASN,151830 # Siemens Pte Ltd.
-  - IP-ASN,151469 # CrimsonLogic Pte Ltd
-  - IP-ASN,150347 # Planisware Singapore Pte. Ltd
-  - IP-ASN,150183 # Infineon Technologies Asia Pacific Pte Ltd
-  - IP-ASN,150003 # RETN PTE. LTD.
-  - IP-ASN,149431 # PricewaterhouseCoopers IT Services (Singapore) Pte. Ltd.
-  - IP-ASN,147003 # ALLIANCE INTELLIGENT TECHNOLOGIES PTE. LTD.
-  - IP-ASN,142066 # Northern Point Technology Private Limited
-  - IP-ASN,142036 # Hosteons Pte. Ltd.
-  - IP-ASN,141760 # Mercedes-Benz Singapore Pte. Ltd.
-  - IP-ASN,141678 # Private Limited Company
-  - IP-ASN,141469 # Cargill Asia Pacific Holdings Pte Ltd
-  - IP-ASN,141379 # iShine Cloud Limited
-  - IP-ASN,141367 # Bayer (South East Asia) Pte Ltd
-  - IP-ASN,141364 # Bayer (South East Asia) Pte Ltd
-  - IP-ASN,141042 # DECATHLON SINGAPORE PTE. LTD.
-  - IP-ASN,140939 # Tenpage Pte Ltd
-  - IP-ASN,140920 # HICLOUDS (SINGAPORE) PTE.LTD.
-  - IP-ASN,140899 # Agora Lab, Inc.
-  - IP-ASN,140845 # Threadneedle Investments Singapore (pte.) limited
-  - IP-ASN,140666 # ANY DIGITAL PTE. LTD.
-  - IP-ASN,140362 # DIGISIGMA PTE. LTD.
-  - IP-ASN,139895 # Air Liquide Industrial Services Pte Ltd
-  - IP-ASN,139829 # RigNet Pte Ltd
-  - IP-ASN,139690 # DBS Bank Ltd
-  - IP-ASN,139349 # Diebold Nixdorf Singapore PTE. LTD.
-  - IP-ASN,139028 # Singapore Technologies Engineering Ltd
-  - IP-ASN,138610 # SAP SE
-  - IP-ASN,138606 # Suga Pte. Ltd
-  - IP-ASN,138459 # NEC ASIA PACIFIC PTE LTD
-  - IP-ASN,138458 # NEC ASIA PACIFIC PTE LTD
-  - IP-ASN,137948 # Diebold Nixdorf Singapore PTE. LTD.
-  - IP-ASN,137932 # IPDC SOLUTIONS PTE LTD
-  - IP-ASN,137904 # Black & Veatch (SEA) PTE LTD
-  - IP-ASN,137567 # Campana Group Pte. Ltd.
-  - IP-ASN,137468 # SPTEL PTE. LTD.
-  - IP-ASN,137272 # PSiDEO (Singapore) Pte Ltd
-  - IP-ASN,137269 # Novartis Singapore Pte Ltd
-  - IP-ASN,137190 # STRAITDEER PTE. LTD.
-  - IP-ASN,137061 # Flextronics International Ltd.
-  - IP-ASN,136601 # GOVERNMENT TECHNOLOGY AGENCY
-  - IP-ASN,136537 # SQUAREPOINT OPERATIONS PRIVATE LIMITED
-  - IP-ASN,136464 # Pacific Internet Pte Ltd
-  - IP-ASN,135600 # Whiz Communications Pte Ltd
-  - IP-ASN,135048 # Singapore Pools (Private) Limited
-  - IP-ASN,135008 # GOVERNMENT TECHNOLOGY AGENCY
-  - IP-ASN,134998 # Green Packet Global Pte. Ltd.
-  - IP-ASN,134981 # UBER SINGAPORE TECHNOLOGY PTE. LTD
-  - IP-ASN,134594 # AVNET ASIA PTE LTD
-  - IP-ASN,134534 # AT&T Japan K.K.
-  - IP-ASN,134457 # BMC Software Asia Pacific Pte Ltd
-  - IP-ASN,134407 # MediaCorp Pte Ltd
-  - IP-ASN,134349 # Panduit Singapore Pte Ltd
-  - IP-ASN,133891 # Fidessa ltd
-  - IP-ASN,133622 # Bottomline Technologies Pte. Ltd.
-  - IP-ASN,133587 # Bain and Company
-  - IP-ASN,133471 # SYNAPXE PTE. LTD.
-  - IP-ASN,133470 # SYNAPXE PTE. LTD.
-  - IP-ASN,133466 # Robert Bosch GmbH
-  - IP-ASN,133462 # Texas Instruments, Inc.
-  - IP-ASN,133327 # Flextronics International Ltd.
-  - IP-ASN,133134 # AION TECHNOLOGIES PTE LTD
-  - IP-ASN,133025 # InMobi Pte. Ltd.
-  - IP-ASN,133013 # AbbVie, Inc.
-  - IP-ASN,132739 # Scaffnet Pte Ltd
-  - IP-ASN,132690 # Network For Electronic Transfers (Singapore) Pte Ltd
-  - IP-ASN,132398 # Science and Engineering Institutes
-  - IP-ASN,132356 # Changi Airport Group (Singapore) Pte Ltd
-  - IP-ASN,132277 # X-TRA Communication Pte Ltd
-  - IP-ASN,132265 # Singapore Airlines Limited
-  - IP-ASN,132253 # 79 Robinson Road
-  - IP-ASN,132242 # Hogarth Worldwide Pte
-  - IP-ASN,132236 # NEC ASIA PACIFIC PTE LTD
-  - IP-ASN,132142 # ZONE Telecom Pte Ltd
-  - IP-ASN,131475 # Singapore Institute of Technology
-  - IP-ASN,131236 # Genworx Pte Ltd
-  - IP-ASN,131217 # 8 Kallang Sector
-  - IP-ASN,131195 # SIM Headquarters
-  - IP-ASN,10102 # 1Asia Communication Pte Ltd
-  - IP-ASN,10074 # iBasis Singapore ICO
-  - IP-ASN,9827 # Agilent Technologies Asia-Pacific Zone
-  - IP-ASN,9465 # AGOTOZ PTE. LTD.
-  - IP-ASN,9247 # National Institute of Education
-  - IP-ASN,7700 # SINGAPORE TELECOMMUNICATIONS LTD
-  - IP-ASN,7472 # NUS Information Technology
-  - IP-ASN,59211 # OneAsiaHost
-  - IP-ASN,58982 # DataPipe
-  - IP-ASN,58885 # IQON GLOBAL PTE LTD
-  - IP-ASN,58867 # SG.GS Anycast AS
-  - IP-ASN,58795 # 1 North Bridge, Road # 19-09,
-  - IP-ASN,58722 # 51 JALAN LANJUT
-  - IP-ASN,58621 # Vodien Internet Solutions Pte Ltd
-  - IP-ASN,58562 # 5 Ang Mo Kio Street 62
-  - IP-ASN,56175 # Merit Medical Singapore Pte. Ltd.
-  - IP-ASN,56173 # internet content provider
-  - IP-ASN,56114 # ATOS Information Technology (Singapore) Pte Ltd
-  - IP-ASN,56094 # ITENET:wq
-  - IP-ASN,55854 # 3 Killiney Road # 09-01/06
-  - IP-ASN,55843 # Acclivis Technologies and Solutions Pte Ltd
-  - IP-ASN,55743 # UBISOFT SINGAPORE PTE. LTD.
-  - IP-ASN,55562 # 5 Temasek Boulevard
-  - IP-ASN,55504 # BP Australia
-  - IP-ASN,55430 # Starhub Ltd
-  - IP-ASN,4631 # United Techinologies Corp.
-  - IP-ASN,4620 # Sol One Anycast Delivery Network
-  - IP-ASN,46078 # Dimension Data AP Kaki Bukit Singapore
-  - IP-ASN,45941 # DOCOMO interTouch - Philippines CC
-  - IP-ASN,45794 # NTT Singapore - IP Network (RFC 2270)
-  - IP-ASN,45566 # Google Singapore Pte. Ltd.
-  - IP-ASN,45505 # T-Global Pte Ltd
-  - IP-ASN,45501 # Yahoo Corp Network
-  - IP-ASN,45477 # AP TRANSIT PTE LTD
-  - IP-ASN,45241 # General Motors Tech Center India. Bangalore
-  - IP-ASN,45143 # SINGTEL MOBILE INTERNET SERVICE PROVIDER Singapore
-  - IP-ASN,4352 # EMERSON ASIA PACIFIC PRIVATE LIMITED
-  - IP-ASN,400061 # Hyonix
-  - IP-ASN,38321 # DOCOMO interTouch - Headquarter
-  - IP-ASN,38028 # MCKINSEY-AP
-  - IP-ASN,24030 # Schenker (Asia Pacific) Pte Ltd
-  - IP-ASN,214766 # NUUK COMMUNICATIONS PTE. LTD.
-  - IP-ASN,213845 # Cylix Pte. Ltd.
-  - IP-ASN,211103 # BUNGATEL Pte. Ltd.
-  - IP-ASN,210205 # WIRKOLA PTE. LTD
-  - IP-ASN,204936 # WISDOM CLOUD INTERNET TECHNOLOGY PTE. LTD.
-  - IP-ASN,153599 # New Pos Network (S) Pte Ltd
-  - IP-ASN,153560 # 202208375N
-  - IP-ASN,153454 # BYIO SINGAPORE PTE. LTD.
-  - IP-ASN,153325 # Next Era Pte. Ltd.
-  - IP-ASN,153305 # Broadside Quanta Pte Ltd
-  - IP-ASN,152903 # PSA Corporation Ltd
-  - IP-ASN,152719 # UIT GLOBAL PTE. LTD.
-  - IP-ASN,152339 # EDGE CLOUD (SG) PTE. LTD.
-  - IP-ASN,151958 # Sorb Security PTE. LTD.
-  - IP-ASN,151361 # THE CUBICLEREBELS PTE LTD 100 PECK SEAH STREET, # 08-14, PS100, SINGAPORE 079333
-  - IP-ASN,151334 # Land Transport Authority
-  - IP-ASN,151059 # Etiqa Insurance Pte. Ltd
-  - IP-ASN,150378 # THE ADVENTUS CONSULTANTS PTE LTD
-  - IP-ASN,150171 # DIGISIGMA PTE. LTD.
-  - IP-ASN,150157 # Cartrack
-  - IP-ASN,146962 # GATEWAY TECHNOLOGY DEVELOPMENT PTE. LTD.
-  - IP-ASN,142636 # SynOption Pte. Ltd.
-  - IP-ASN,142565 # Bangmod Cloud Pte. Ltd.
-  - IP-ASN,142275 # INCUBATEC Srl
-  - IP-ASN,142146 # SANDHILL SOLUTION PTE. LTD.
-  - IP-ASN,142119 # NEX CORPORATEIT PTE LTD
-  - IP-ASN,142110 # Northern Point Technology Private Limited
-  - IP-ASN,141883 # BGPNET PTE. LTD.
-  - IP-ASN,141753 # CBC TECH INTERNATIONAL LTD.
-  - IP-ASN,141697 # CrimsonLogic Pte Ltd
-  - IP-ASN,141466 # DIGISIGMA PTE. LTD.
-  - IP-ASN,141235 # PrimeXM Networks (Singapore) PTE. LTD
-  - IP-ASN,141205 # Maybank Securities Pte Ltd
-  - IP-ASN,140982 # eSys Technologies Pte Ltd
-  - IP-ASN,140661 # PSA Corporation Ltd
-  - IP-ASN,140629 # Antarex Cyber Pte. Ltd.
-  - IP-ASN,140605 # ShareInvestor Pte Ltd
-  - IP-ASN,140578 # BNP Paribas India Solutions Pvt. Ltd
-  - IP-ASN,139739 # Hsin Yi Pte Ltd
-  - IP-ASN,139709 # EZSVS SINGAPORE(PTE.) LTD.
-  - IP-ASN,139617 # ISEAS Yusof Ishak Institute
-  - IP-ASN,138626 # AVALOQ SOURCING ASIA PACIFIC (SINGAPORE) PTE. LTD.
-  - IP-ASN,138593 # Diebold Nixdorf Singapore PTE. LTD.
-  - IP-ASN,138588 # Diebold Nixdorf Singapore PTE. LTD.
-  - IP-ASN,138539 # Jewel Changi Airport Trustee Pte. Ltd.
-  - IP-ASN,138419 # Pico (Singapore) Pte. Ltd.
-  - IP-ASN,138345 # StarHub Ltd
-  - IP-ASN,137870 # IHNetworks, LLC
-  - IP-ASN,137825 # UniCredit Business Integrated Solutions S.C.P.A Singapore Branch
-  - IP-ASN,137476 # Cargill Asia Pacific Holdings Pte Ltd
-  - IP-ASN,137456 # BHP, MBFC Tower 2, Singapore
-  - IP-ASN,137003 # INSEAD
-  - IP-ASN,136736 # NEOLINK TECHNOLOGY PTE. LTD.
-  - IP-ASN,136606 # Crystal Net Pte Ltd
-  - IP-ASN,136599 # IEC Telecom Singapore Pte Ltd
-  - IP-ASN,136553 # 3i Network Pte Ltd
-  - IP-ASN,136511 # Toku Pte.Ltd
-  - IP-ASN,136459 # F12 DATA PTE LTD
-  - IP-ASN,136439 # Defence Science Technology Agency
-  - IP-ASN,136261 # VERTIV (SINGAPORE) PTE. LTD.
-  - IP-ASN,136149 # MediaCorp Pte Ltd
-  - IP-ASN,135577 # SAP
-  - IP-ASN,135531 # Global Integrated Communications Pte Ltd
-  - IP-ASN,135418 # Computer Analysts And Recovery Experts Pte. Ltd.
-  - IP-ASN,135411 # Red Grapes Pte Ltd
-  - IP-ASN,135134 # Soon Keat Neo
-  - IP-ASN,135009 # Singapore Exchange Limited
-  - IP-ASN,134842 # PGAS TELECOMMUNICATIONS INTERNATIONAL PTE. LTD
-  - IP-ASN,134546 # Maybank Singapore Limited
-  - IP-ASN,134474 # Micro Cloud Technology Pte. Ltd.
-  - IP-ASN,134193 # SkyLab Holding Pte. Ltd.
-  - IP-ASN,133757 # Telecom Italia Sparkle Singapore Pte Ltd
-  - IP-ASN,133728 # Chubb Asia Pacific Pte Ltd
-  - IP-ASN,133600 # ESSEC
-  - IP-ASN,133541 # SIPPE-SG
-  - IP-ASN,133535 # PRIMABANANEN PTE. LTD.
-  - IP-ASN,133456 # ALAGAS NETWORK PTE. LTD.
-  - IP-ASN,133449 # VASTSPACE PTE. LTD.
-  - IP-ASN,133422 # Aviva Asia Pte Ltd
-  - IP-ASN,133411 # Mediamind Technologies LTD
-  - IP-ASN,133391 # SYSNETPRO SOLUTION PTE LTD
-  - IP-ASN,133151 # Garena Online Pte Ltd
-  - IP-ASN,132824 # Beyotta Network LLP
-  - IP-ASN,132805 # Singapore Telecommunications Limited
-  - IP-ASN,132804 # Singapore Telecommunications Limited
-  - IP-ASN,132708 # VNG Singapore PTE. LTD.
-  - IP-ASN,132699 # Siemens Pte Ltd.
-  - IP-ASN,132526 # ZONE TELECOM PTE LTD
-  - IP-ASN,132472 # 70 Bendemeer Road
-  - IP-ASN,132399 # SITA Cloud APAC
-  - IP-ASN,132396 # Federal Express Corporation Hong Kong Branch
-  - IP-ASN,132281 # China Unicom (Singapore) Operations Pte Ltd
-  - IP-ASN,132053 # Qualcomm Inc
-  - IP-ASN,131790 # 6 Raffles Quay # 18-00
-  - IP-ASN,131444 # Huawei IT Data Center in AP
-  - IP-ASN,10230 # internet content provider
-  - IP-ASN,23936 # 151 Lorong Chuan
-  - IP-ASN,212995 # HockWoo Tan
-  - IP-ASN,210260 # YANG JIANYU
-  - IP-ASN,153344 # NETFUTURE TECHNOLOGY LLC
-  - IP-ASN,139264 # Zhongfu Li
-  - IP-ASN,139062 # Synamedia Asia Private Ltd
-  - IP-ASN,135103 # Alex Neo
-  - IP-ASN,133442 # SOUTHEAST ASIA TELECOM(SG) PTE. LTD.
-  - IP-ASN,132915 # M1 Limited/ Next Generation Broadband Network
-  - IP-ASN,131259 # QOXY PTE LTD
+  - IP-ASN,24482
+  - IP-ASN,18106
+  - IP-ASN,132337
+  - IP-ASN,38001
+  - IP-ASN,24115
+  - IP-ASN,4657
+  - IP-ASN,133210
+  - IP-ASN,139341
+  - IP-ASN,139057
+  - IP-ASN,7473
+  - IP-ASN,64049
+  - IP-ASN,63949
+  - IP-ASN,10122
+  - IP-ASN,137182
+  - IP-ASN,137831
+  - IP-ASN,17819
+  - IP-ASN,3758
+  - IP-ASN,134078
+  - IP-ASN,132132
+  - IP-ASN,17547
+  - IP-ASN,56308
+  - IP-ASN,151326
+  - IP-ASN,4773
+  - IP-ASN,140577
+  - IP-ASN,23855
+  - IP-ASN,150436
+  - IP-ASN,138699
+  - IP-ASN,131219
+  - IP-ASN,152144
+  - IP-ASN,4628
+  - IP-ASN,4844
+  - IP-ASN,23856
+  - IP-ASN,149290
+  - IP-ASN,137991
+  - IP-ASN,134363
+  - IP-ASN,139225
+  - IP-ASN,134187
+  - IP-ASN,140719
+  - IP-ASN,138552
+  - IP-ASN,134148
+  - IP-ASN,142160
+  - IP-ASN,7387
+  - IP-ASN,132829
+  - IP-ASN,7595
+  - IP-ASN,60021
+  - IP-ASN,141995
+  - IP-ASN,133959
+  - IP-ASN,9255
+  - IP-ASN,55518
+  - IP-ASN,135066
+  - IP-ASN,10024
+  - IP-ASN,139883
+  - IP-ASN,4817
+  - IP-ASN,141389
+  - IP-ASN,9989
+  - IP-ASN,58436
+  - IP-ASN,135409
+  - IP-ASN,9664
+  - IP-ASN,9419
+  - IP-ASN,151358
+  - IP-ASN,9226
+  - IP-ASN,931
+  - IP-ASN,56172
+  - IP-ASN,17645
+  - IP-ASN,132816
+  - IP-ASN,132696
+  - IP-ASN,141384
+  - IP-ASN,24319
+  - IP-ASN,64010
+  - IP-ASN,136041
+  - IP-ASN,134190
+  - IP-ASN,135014
+  - IP-ASN,59253
+  - IP-ASN,45166
+  - IP-ASN,24331
+  - IP-ASN,141190
+  - IP-ASN,139190
+  - IP-ASN,963
+  - IP-ASN,4765
+  - IP-ASN,197537
+  - IP-ASN,149020
+  - IP-ASN,135354
+  - IP-ASN,133748
+  - IP-ASN,7610
+  - IP-ASN,136785
+  - IP-ASN,134963
+  - IP-ASN,10146
+  - IP-ASN,56300
+  - IP-ASN,23767
+  - IP-ASN,208959
+  - IP-ASN,149981
+  - IP-ASN,138608
+  - IP-ASN,137962
+  - IP-ASN,136733
+  - IP-ASN,133735
+  - IP-ASN,9649
+  - IP-ASN,59345
+  - IP-ASN,58521
+  - IP-ASN,56197
+  - IP-ASN,45938
+  - IP-ASN,38325
+  - IP-ASN,213122
+  - IP-ASN,151610
+  - IP-ASN,151609
+  - IP-ASN,151495
+  - IP-ASN,141180
+  - IP-ASN,140592
+  - IP-ASN,139070
+  - IP-ASN,138433
+  - IP-ASN,138341
+  - IP-ASN,137563
+  - IP-ASN,136202
+  - IP-ASN,135530
+  - IP-ASN,134677
+  - IP-ASN,132016
+  - IP-ASN,131244
+  - IP-ASN,9874
+  - IP-ASN,9234
+  - IP-ASN,63930
+  - IP-ASN,59241
+  - IP-ASN,56039
+  - IP-ASN,4907
+  - IP-ASN,45445
+  - IP-ASN,38862
+  - IP-ASN,38532
+  - IP-ASN,24546
+  - IP-ASN,24467
+  - IP-ASN,209792
+  - IP-ASN,205142
+  - IP-ASN,1825
+  - IP-ASN,17617
+  - IP-ASN,152700
+  - IP-ASN,152589
+  - IP-ASN,152475
+  - IP-ASN,151804
+  - IP-ASN,150423
+  - IP-ASN,149813
+  - IP-ASN,149493
+  - IP-ASN,142002
+  - IP-ASN,140929
+  - IP-ASN,140928
+  - IP-ASN,140610
+  - IP-ASN,139896
+  - IP-ASN,139291
+  - IP-ASN,138481
+  - IP-ASN,138463
+  - IP-ASN,138199
+  - IP-ASN,136968
+  - IP-ASN,136169
+  - IP-ASN,135525
+  - IP-ASN,135002
+  - IP-ASN,134469
+  - IP-ASN,133794
+  - IP-ASN,133426
+  - IP-ASN,133136
+  - IP-ASN,132204
+  - IP-ASN,131582
+  - IP-ASN,10031
+  - IP-ASN,9892
+  - IP-ASN,9890
+  - IP-ASN,9877
+  - IP-ASN,9656
+  - IP-ASN,9506
+  - IP-ASN,9292
+  - IP-ASN,64086
+  - IP-ASN,64003
+  - IP-ASN,63834
+  - IP-ASN,59364
+  - IP-ASN,59326
+  - IP-ASN,59258
+  - IP-ASN,59210
+  - IP-ASN,56289
+  - IP-ASN,56274
+  - IP-ASN,56122
+  - IP-ASN,55919
+  - IP-ASN,55855
+  - IP-ASN,55781
+  - IP-ASN,55487
+  - IP-ASN,55426
+  - IP-ASN,55415
+  - IP-ASN,55348
+  - IP-ASN,45736
+  - IP-ASN,45634
+  - IP-ASN,45470
+  - IP-ASN,45139
+  - IP-ASN,45133
+  - IP-ASN,43081
+  - IP-ASN,399114
+  - IP-ASN,38258
+  - IP-ASN,37989
+  - IP-ASN,24038
+  - IP-ASN,23920
+  - IP-ASN,23864
+  - IP-ASN,23728
+  - IP-ASN,23703
+  - IP-ASN,23653
+  - IP-ASN,202736
+  - IP-ASN,202430
+  - IP-ASN,18402
+  - IP-ASN,18228
+  - IP-ASN,18224
+  - IP-ASN,18113
+  - IP-ASN,17886
+  - IP-ASN,17733
+  - IP-ASN,151830
+  - IP-ASN,151469
+  - IP-ASN,150347
+  - IP-ASN,150183
+  - IP-ASN,150003
+  - IP-ASN,149431
+  - IP-ASN,147003
+  - IP-ASN,142066
+  - IP-ASN,142036
+  - IP-ASN,141760
+  - IP-ASN,141678
+  - IP-ASN,141469
+  - IP-ASN,141379
+  - IP-ASN,141367
+  - IP-ASN,141364
+  - IP-ASN,141042
+  - IP-ASN,140939
+  - IP-ASN,140920
+  - IP-ASN,140899
+  - IP-ASN,140845
+  - IP-ASN,140666
+  - IP-ASN,140578
+  - IP-ASN,140362
+  - IP-ASN,139895
+  - IP-ASN,139829
+  - IP-ASN,139690
+  - IP-ASN,139349
+  - IP-ASN,139028
+  - IP-ASN,138610
+  - IP-ASN,138606
+  - IP-ASN,138459
+  - IP-ASN,138458
+  - IP-ASN,137948
+  - IP-ASN,137932
+  - IP-ASN,137904
+  - IP-ASN,137567
+  - IP-ASN,137468
+  - IP-ASN,137272
+  - IP-ASN,137269
+  - IP-ASN,137190
+  - IP-ASN,137061
+  - IP-ASN,136601
+  - IP-ASN,136464
+  - IP-ASN,135600
+  - IP-ASN,135048
+  - IP-ASN,135008
+  - IP-ASN,134998
+  - IP-ASN,134981
+  - IP-ASN,134594
+  - IP-ASN,134534
+  - IP-ASN,134457
+  - IP-ASN,134407
+  - IP-ASN,134349
+  - IP-ASN,133891
+  - IP-ASN,133622
+  - IP-ASN,133587
+  - IP-ASN,133471
+  - IP-ASN,133470
+  - IP-ASN,133466
+  - IP-ASN,133462
+  - IP-ASN,133327
+  - IP-ASN,133134
+  - IP-ASN,133025
+  - IP-ASN,133013
+  - IP-ASN,132739
+  - IP-ASN,132690
+  - IP-ASN,132398
+  - IP-ASN,132356
+  - IP-ASN,132277
+  - IP-ASN,132265
+  - IP-ASN,132253
+  - IP-ASN,132242
+  - IP-ASN,132236
+  - IP-ASN,132142
+  - IP-ASN,131475
+  - IP-ASN,131236
+  - IP-ASN,131217
+  - IP-ASN,131195
+  - IP-ASN,10102
+  - IP-ASN,10074
+  - IP-ASN,9827
+  - IP-ASN,9465
+  - IP-ASN,9247
+  - IP-ASN,7700
+  - IP-ASN,7472
+  - IP-ASN,59211
+  - IP-ASN,58982
+  - IP-ASN,58885
+  - IP-ASN,58867
+  - IP-ASN,58795
+  - IP-ASN,58722
+  - IP-ASN,58621
+  - IP-ASN,58562
+  - IP-ASN,56175
+  - IP-ASN,56173
+  - IP-ASN,56114
+  - IP-ASN,56094
+  - IP-ASN,55854
+  - IP-ASN,55843
+  - IP-ASN,55743
+  - IP-ASN,55562
+  - IP-ASN,55504
+  - IP-ASN,55430
+  - IP-ASN,4631
+  - IP-ASN,4620
+  - IP-ASN,46078
+  - IP-ASN,45941
+  - IP-ASN,45794
+  - IP-ASN,45566
+  - IP-ASN,45505
+  - IP-ASN,45501
+  - IP-ASN,45477
+  - IP-ASN,45241
+  - IP-ASN,45143
+  - IP-ASN,4352
+  - IP-ASN,400061
+  - IP-ASN,38321
+  - IP-ASN,38028
+  - IP-ASN,24030
+  - IP-ASN,214766
+  - IP-ASN,213845
+  - IP-ASN,211103
+  - IP-ASN,210205
+  - IP-ASN,204936
+  - IP-ASN,153599
+  - IP-ASN,153560
+  - IP-ASN,153454
+  - IP-ASN,153325
+  - IP-ASN,153305
+  - IP-ASN,152903
+  - IP-ASN,152719
+  - IP-ASN,152339
+  - IP-ASN,151958
+  - IP-ASN,151361
+  - IP-ASN,151334
+  - IP-ASN,151059
+  - IP-ASN,150378
+  - IP-ASN,150171
+  - IP-ASN,150157
+  - IP-ASN,146962
+  - IP-ASN,142636
+  - IP-ASN,142565
+  - IP-ASN,142275
+  - IP-ASN,142146
+  - IP-ASN,142119
+  - IP-ASN,142110
+  - IP-ASN,141883
+  - IP-ASN,141753
+  - IP-ASN,141697
+  - IP-ASN,141466
+  - IP-ASN,141235
+  - IP-ASN,141205
+  - IP-ASN,140982
+  - IP-ASN,140661
+  - IP-ASN,140629
+  - IP-ASN,140605
+  - IP-ASN,139739
+  - IP-ASN,139709
+  - IP-ASN,139617
+  - IP-ASN,138626
+  - IP-ASN,138593
+  - IP-ASN,138588
+  - IP-ASN,138539
+  - IP-ASN,138419
+  - IP-ASN,138345
+  - IP-ASN,137870
+  - IP-ASN,137825
+  - IP-ASN,137476
+  - IP-ASN,137456
+  - IP-ASN,137003
+  - IP-ASN,136736
+  - IP-ASN,136606
+  - IP-ASN,136599
+  - IP-ASN,136553
+  - IP-ASN,136537
+  - IP-ASN,136511
+  - IP-ASN,136459
+  - IP-ASN,136439
+  - IP-ASN,136261
+  - IP-ASN,136149
+  - IP-ASN,135577
+  - IP-ASN,135531
+  - IP-ASN,135418
+  - IP-ASN,135411
+  - IP-ASN,135134
+  - IP-ASN,135009
+  - IP-ASN,134842
+  - IP-ASN,134546
+  - IP-ASN,134474
+  - IP-ASN,134193
+  - IP-ASN,133757
+  - IP-ASN,133728
+  - IP-ASN,133600
+  - IP-ASN,133541
+  - IP-ASN,133535
+  - IP-ASN,133456
+  - IP-ASN,133449
+  - IP-ASN,133422
+  - IP-ASN,133411
+  - IP-ASN,133391
+  - IP-ASN,133151
+  - IP-ASN,132824
+  - IP-ASN,132805
+  - IP-ASN,132804
+  - IP-ASN,132708
+  - IP-ASN,132699
+  - IP-ASN,132526
+  - IP-ASN,132472
+  - IP-ASN,132399
+  - IP-ASN,132396
+  - IP-ASN,132281
+  - IP-ASN,132053
+  - IP-ASN,131790
+  - IP-ASN,131444
+  - IP-ASN,10230
+  - IP-ASN,23936
+  - IP-ASN,212995
+  - IP-ASN,210260
+  - IP-ASN,153344
+  - IP-ASN,139264
+  - IP-ASN,139062
+  - IP-ASN,135103
+  - IP-ASN,133442
+  - IP-ASN,132915
+  - IP-ASN,131259

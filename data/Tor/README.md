@@ -14,12 +14,23 @@ mihomo(clash.meta)
 
 <pre><code class="language-javascript">
 rule-providers:
-  reject:
+  ASNTor:
     type: http
     behavior: classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Tor/ASN.Tor.yaml"
     path: ./ruleset/ASN.Tor.yaml
     interval: 86400
+    format: yaml
+</code></pre>
+
+或者
+
+<pre><code class="language-javascript">
+rule-providers:
+  ASNTor:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Tor/ASN.Tor.yaml"
+    path: ./ruleset/ASN.Tor.yaml
 </code></pre>
 
 Surge
