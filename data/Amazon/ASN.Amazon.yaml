@@ -1,10 +1,10 @@
 # Amazon 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-11 00:10:40
-# 总数: 11973
+# 最后更新： CST 2025-03-12 00:13:37
+# 总数: 11985
 # ASN: 27
-# IP-CIDR: 11944
-# IP-CIDR4: 8480
-# IP-CIDR6: 3464
+# IP-CIDR: 11956
+# IP-CIDR4: 8491
+# IP-CIDR6: 3465
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -938,6 +938,7 @@ payload:
   - IP-CIDR,63.243.0.0/17,no-resolve
   - IP-CIDR,63.176.0.0/12,no-resolve
   - IP-CIDR,57.196.0.0/16,no-resolve
+  - IP-CIDR,57.193.0.0/16,no-resolve
   - IP-CIDR,57.180.0.0/14,no-resolve
   - IP-CIDR,56.9.0.0/16,no-resolve
   - IP-CIDR,56.68.0.0/15,no-resolve
@@ -1366,6 +1367,7 @@ payload:
   - IP-CIDR,54.224.0.0/11,no-resolve
   - IP-CIDR,54.221.0.0/16,no-resolve
   - IP-CIDR,54.220.0.0/16,no-resolve
+  - IP-CIDR,54.220.0.0/15,no-resolve
   - IP-CIDR,54.219.192.0/18,no-resolve
   - IP-CIDR,54.219.128.0/18,no-resolve
   - IP-CIDR,54.219.0.0/17,no-resolve
@@ -3218,6 +3220,7 @@ payload:
   - IP-CIDR,43.250.193.0/24,no-resolve
   - IP-CIDR,43.250.192.0/24,no-resolve
   - IP-CIDR,43.224.76.0/22,no-resolve
+  - IP-CIDR,43.224.144.0/22,no-resolve
   - IP-CIDR,43.218.0.0/16,no-resolve
   - IP-CIDR,43.216.0.0/15,no-resolve
   - IP-CIDR,43.208.0.0/13,no-resolve
@@ -3685,6 +3688,7 @@ payload:
   - IP-CIDR,3.171.104.0/22,no-resolve
   - IP-CIDR,3.170.96.0/21,no-resolve
   - IP-CIDR,3.170.72.0/22,no-resolve
+  - IP-CIDR,3.170.63.0/24,no-resolve
   - IP-CIDR,3.170.224.0/21,no-resolve
   - IP-CIDR,3.170.220.0/23,no-resolve
   - IP-CIDR,3.170.216.0/22,no-resolve
@@ -4009,6 +4013,7 @@ payload:
   - IP-CIDR,3.162.80.0/21,no-resolve
   - IP-CIDR,3.162.8.0/23,no-resolve
   - IP-CIDR,3.162.76.0/22,no-resolve
+  - IP-CIDR,3.162.48.0/21,no-resolve
   - IP-CIDR,3.162.44.0/23,no-resolve
   - IP-CIDR,3.162.40.0/22,no-resolve
   - IP-CIDR,3.162.4.0/22,no-resolve
@@ -4512,6 +4517,7 @@ payload:
   - IP-CIDR6,2600:9000:2842::/48,no-resolve
   - IP-CIDR6,2600:9000:2841::/48,no-resolve
   - IP-CIDR6,2600:9000:2834::/48,no-resolve
+  - IP-CIDR6,2600:9000:2831::/48,no-resolve
   - IP-CIDR6,2600:9000:281f::/48,no-resolve
   - IP-CIDR6,2600:9000:281b::/48,no-resolve
   - IP-CIDR6,2600:9000:2819::/48,no-resolve
@@ -8383,6 +8389,7 @@ payload:
   - IP-CIDR,18.35.98.0/24,no-resolve
   - IP-CIDR,18.35.97.0/24,no-resolve
   - IP-CIDR,18.35.96.0/24,no-resolve
+  - IP-CIDR,18.35.96.0/21,no-resolve
   - IP-CIDR,18.35.90.0/24,no-resolve
   - IP-CIDR,18.35.89.0/24,no-resolve
   - IP-CIDR,18.35.88.0/24,no-resolve
@@ -9083,6 +9090,7 @@ payload:
   - IP-CIDR,18.172.208.0/21,no-resolve
   - IP-CIDR,18.172.206.0/23,no-resolve
   - IP-CIDR,18.172.204.0/23,no-resolve
+  - IP-CIDR,18.172.200.0/22,no-resolve
   - IP-CIDR,18.172.192.0/21,no-resolve
   - IP-CIDR,18.172.191.0/24,no-resolve
   - IP-CIDR,18.172.190.0/24,no-resolve
@@ -9966,6 +9974,7 @@ payload:
   - IP-CIDR,15.242.0.0/16,no-resolve
   - IP-CIDR,15.241.0.0/16,no-resolve
   - IP-CIDR,15.236.0.0/15,no-resolve
+  - IP-CIDR,15.236.0.0/14,no-resolve
   - IP-CIDR,15.232.0.0/15,no-resolve
   - IP-CIDR,15.230.61.0/24,no-resolve
   - IP-CIDR,15.230.32.0/24,no-resolve
@@ -10796,6 +10805,7 @@ payload:
   - IP-CIDR,13.54.0.0/15,no-resolve
   - IP-CIDR,13.53.0.0/16,no-resolve
   - IP-CIDR,13.52.0.0/16,no-resolve
+  - IP-CIDR,13.52.0.0/14,no-resolve
   - IP-CIDR,13.51.0.0/16,no-resolve
   - IP-CIDR,13.50.0.0/16,no-resolve
   - IP-CIDR,13.48.0.0/15,no-resolve
@@ -11056,6 +11066,7 @@ payload:
   - IP-CIDR,13.249.208.0/24,no-resolve
   - IP-CIDR,13.249.200.0/21,no-resolve
   - IP-CIDR,13.249.20.0/22,no-resolve
+  - IP-CIDR,13.249.2.0/23,no-resolve
   - IP-CIDR,13.249.193.0/24,no-resolve
   - IP-CIDR,13.249.184.0/21,no-resolve
   - IP-CIDR,13.249.180.0/22,no-resolve
@@ -11390,6 +11401,7 @@ payload:
   - IP-CIDR,129.17.0.0/16,no-resolve
   - IP-CIDR,128.81.0.0/16,no-resolve
   - IP-CIDR,128.21.0.0/16,no-resolve
+  - IP-CIDR,128.181.0.0/16,no-resolve
   - IP-CIDR,128.167.0.0/16,no-resolve
   - IP-CIDR,128.125.0.0/16,no-resolve
   - IP-CIDR,128.11.0.0/16,no-resolve

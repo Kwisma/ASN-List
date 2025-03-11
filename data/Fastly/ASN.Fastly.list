@@ -1,10 +1,10 @@
 # Fastly 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-11 00:10:40
-# 总数: 1208
+# 最后更新： CST 2025-03-12 00:13:37
+# 总数: 1211
 # ASN: 4
-# IP-CIDR: 1204
-# IP-CIDR4: 392
-# IP-CIDR6: 812
+# IP-CIDR: 1207
+# IP-CIDR4: 391
+# IP-CIDR6: 816
 # 由 Kwisma 制作，保留所有权利。
 
 IP-ASN,895
@@ -60,6 +60,7 @@ IP-CIDR6,2a04:4e42:84::/48,no-resolve
 IP-CIDR6,2a04:4e42:83::/48,no-resolve
 IP-CIDR6,2a04:4e42:82::/48,no-resolve
 IP-CIDR6,2a04:4e42:80::/48,no-resolve
+IP-CIDR6,2a04:4e42:8000::/36,no-resolve
 IP-CIDR6,2a04:4e42:7f::/48,no-resolve
 IP-CIDR6,2a04:4e42:7e::/48,no-resolve
 IP-CIDR6,2a04:4e42:7d::/48,no-resolve
@@ -330,6 +331,7 @@ IP-CIDR6,2a04:4e40:ee00::/48,no-resolve
 IP-CIDR6,2a04:4e40:eaf0::/48,no-resolve
 IP-CIDR6,2a04:4e40:ea01::/48,no-resolve
 IP-CIDR6,2a04:4e40:ea00::/48,no-resolve
+IP-CIDR6,2a04:4e40:e840::/44,no-resolve
 IP-CIDR6,2a04:4e40:e820::/44,no-resolve
 IP-CIDR6,2a04:4e40:e800::/48,no-resolve
 IP-CIDR6,2a04:4e40:e6f0::/48,no-resolve
@@ -370,6 +372,7 @@ IP-CIDR6,2a04:4e40:e000::/48,no-resolve
 IP-CIDR6,2a04:4e40:de00::/48,no-resolve
 IP-CIDR6,2a04:4e40:dcf0::/48,no-resolve
 IP-CIDR6,2a04:4e40:dc50::/48,no-resolve
+IP-CIDR6,2a04:4e40:dc40::/48,no-resolve
 IP-CIDR6,2a04:4e40:dc30::/48,no-resolve
 IP-CIDR6,2a04:4e40:dc20::/48,no-resolve
 IP-CIDR6,2a04:4e40:dc00::/48,no-resolve
@@ -622,6 +625,7 @@ IP-CIDR6,2a04:4e40:6640::/48,no-resolve
 IP-CIDR6,2a04:4e40:6640::/44,no-resolve
 IP-CIDR6,2a04:4e40:6630::/48,no-resolve
 IP-CIDR6,2a04:4e40:6630::/44,no-resolve
+IP-CIDR6,2a04:4e40:6611::/48,no-resolve
 IP-CIDR6,2a04:4e40:6610::/48,no-resolve
 IP-CIDR6,2a04:4e40:6610::/44,no-resolve
 IP-CIDR6,2a04:4e40:6600::/48,no-resolve
@@ -1045,7 +1049,6 @@ IP-CIDR,146.75.60.0/22,no-resolve
 IP-CIDR,146.75.56.0/22,no-resolve
 IP-CIDR,146.75.48.0/22,no-resolve
 IP-CIDR,146.75.44.0/22,no-resolve
-IP-CIDR,146.75.4.0/22,no-resolve
 IP-CIDR,146.75.36.0/22,no-resolve
 IP-CIDR,146.75.28.0/22,no-resolve
 IP-CIDR,146.75.252.0/22,no-resolve
