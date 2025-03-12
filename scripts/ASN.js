@@ -127,7 +127,12 @@ https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/${name
     if (!fs.existsSync(dir)) {
         fs.mkdirSync(dir, { recursive: true });
     }
-    const files = [`./country/${name}/ASN.${name}.list`, `./country/${name}/ASN.${name}.yaml`];
+    const files = [
+        `./country/${name}/ASN.${name}.list`,
+        `./country/${name}/ASN.${name}.yaml`,
+        `./country/${name}/CIDR.${name}.yaml`,
+        `./country/${name}/CIDR.${name}.list`
+    ];
     const filesmd = [`./country/${name}/README.md`];
     logger.info("初始化文件...");
     // 遍历文件列表并写入内容
