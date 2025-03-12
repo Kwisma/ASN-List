@@ -1,3 +1,5 @@
+# LT 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
+# 最后更新： CST 2025-03-13 03:31:10
 # ASN: 182
 # 由 Kwisma 制作，保留所有权利。
 
@@ -35,44 +37,3 @@ payload:
   - IP-CIDR6,2a04:280::/29,no-resolve
   - IP-CIDR6,2a11:ca40::/29,no-resolve
   - IP-CIDR6,2a11:ca40:beef::/48,no-resolve
-# ASN: 182
-# 由 Kwisma 制作，保留所有权利。
-
-payload:
-  - IP-CIDR,45.199.190.0/24,no-resolve
-  - IP-CIDR,46.44.0.0/18,no-resolve
-  - IP-CIDR,62.140.224.0/19,no-resolve
-  - IP-CIDR,62.140.250.0/24,no-resolve
-  - IP-CIDR,62.140.255.0/24,no-resolve
-  - IP-CIDR,80.77.160.0/20,no-resolve
-  - IP-CIDR,80.77.162.0/23,no-resolve
-  - IP-CIDR,80.77.169.0/24,no-resolve
-  - IP-CIDR,80.77.172.0/22,no-resolve
-  - IP-CIDR,82.194.244.0/22,no-resolve
-  - IP-CIDR,89.188.164.0/22,no-resolve
-  - IP-CIDR,89.188.176.0/22,no-resolve
-  - IP-CIDR,91.209.127.0/24,no-resolve
-  - IP-CIDR,91.239.132.0/22,no-resolve
-  - IP-CIDR,91.247.185.0/24,no-resolve
-  - IP-CIDR,93.191.8.0/21,no-resolve
-  - IP-CIDR,93.191.11.0/24,no-resolve
-  - IP-CIDR,93.191.12.0/23,no-resolve
-  - IP-CIDR,185.16.116.0/22,no-resolve
-  - IP-CIDR,185.221.44.0/22,no-resolve
-  - IP-CIDR,194.15.126.0/23,no-resolve
-  - IP-CIDR,194.190.2.0/23,no-resolve
-  - IP-CIDR6,2001:67c:1484::/48,no-resolve
-  - IP-CIDR6,2a02:2518::/29,no-resolve
-  - IP-CIDR6,2a02:2518::/32,no-resolve
-  - IP-CIDR6,2a02:2518:3::/48,no-resolve
-  - IP-CIDR6,2a02:2518:11::/48,no-resolve
-  - IP-CIDR6,2a02:2518:13::/48,no-resolve
-  - IP-CIDR6,2a02:2518:14::/48,no-resolve
-  - IP-CIDR6,2a02:251b::/32,no-resolve
-  - IP-CIDR6,2a04:280::/29,no-resolve
-  - IP-CIDR6,2a11:ca40::/29,no-resolve
-  - IP-CIDR6,2a11:ca40:beef::/48,no-resolve
-# ASN: 182
-# 由 Kwisma 制作，保留所有权利。
-
-payload:

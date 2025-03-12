@@ -1,12 +1,5 @@
-# ASN: 113
-# 由 Kwisma 制作，保留所有权利。
-
-payload:
-  - IP-CIDR,80.79.13.0/24,no-resolve
-  - IP-CIDR,87.120.100.0/22,no-resolve
-  - IP-CIDR,93.187.110.0/24,no-resolve
-  - IP-CIDR,185.161.184.0/23,no-resolve
-  - IP-CIDR6,2a13:1540::/29,no-resolve
+# AL 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
+# 最后更新： CST 2025-03-13 03:31:10
 # ASN: 113
 # 由 Kwisma 制作，保留所有权利。
 
@@ -99,7 +92,36 @@ payload:
   - IP-CIDR6,2a05:fdc2:7000::/36,no-resolve
   - IP-CIDR6,2a05:fdc2:8000::/36,no-resolve
   - IP-CIDR6,2a05:fdc2:9000::/36,no-resolve
-# ASN: 113
-# 由 Kwisma 制作，保留所有权利。
-
-payload:
+  - IP-CIDR,31.44.64.0/20,no-resolve
+  - IP-CIDR,31.44.68.0/22,no-resolve
+  - IP-CIDR,31.44.72.0/22,no-resolve
+  - IP-CIDR,77.242.16.0/20,no-resolve
+  - IP-CIDR,77.242.18.0/23,no-resolve
+  - IP-CIDR,77.242.20.0/24,no-resolve
+  - IP-CIDR,77.242.21.0/24,no-resolve
+  - IP-CIDR,77.242.22.0/23,no-resolve
+  - IP-CIDR,77.242.24.0/24,no-resolve
+  - IP-CIDR,77.242.25.0/24,no-resolve
+  - IP-CIDR,77.242.26.0/24,no-resolve
+  - IP-CIDR,77.242.28.0/22,no-resolve
+  - IP-CIDR,77.242.29.0/24,no-resolve
+  - IP-CIDR,77.242.30.0/24,no-resolve
+  - IP-CIDR,77.242.31.0/24,no-resolve
+  - IP-CIDR,80.91.112.0/20,no-resolve
+  - IP-CIDR,80.91.116.0/24,no-resolve
+  - IP-CIDR,80.91.117.0/24,no-resolve
+  - IP-CIDR,80.91.120.0/21,no-resolve
+  - IP-CIDR,80.91.122.0/24,no-resolve
+  - IP-CIDR,80.91.123.0/24,no-resolve
+  - IP-CIDR,80.91.124.0/24,no-resolve
+  - IP-CIDR,80.91.126.0/24,no-resolve
+  - IP-CIDR,80.91.127.0/24,no-resolve
+  - IP-CIDR,92.60.16.0/20,no-resolve
+  - IP-CIDR,109.236.32.0/20,no-resolve
+  - IP-CIDR,185.9.44.0/22,no-resolve
+  - IP-CIDR,185.9.44.0/24,no-resolve
+  - IP-CIDR,185.55.148.0/22,no-resolve
+  - IP-CIDR,185.55.149.0/24,no-resolve
+  - IP-CIDR6,2a01:4f00::/32,no-resolve
+  - IP-CIDR6,2a01:4f00::/48,no-resolve
+  - IP-CIDR6,2a01:4f00:2233::/48,no-resolve
