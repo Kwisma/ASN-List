@@ -16,3 +16,21 @@ payload:
   - IP-CIDR,156.38.16.0/20,no-resolve
   - IP-CIDR6,2c0f:f250::/32,no-resolve
   - IP-CIDR6,2c0f:f718::/32,no-resolve
+# ASN: 27
+# 由 Kwisma 制作，保留所有权利。
+
+payload:
+  - IP-CIDR,41.76.240.0/21,no-resolve
+  - IP-CIDR,41.191.216.0/22,no-resolve
+  - IP-CIDR,41.191.216.0/23,no-resolve
+  - IP-CIDR,41.191.217.0/24,no-resolve
+  - IP-CIDR,41.191.218.0/24,no-resolve
+  - IP-CIDR,41.191.219.0/24,no-resolve
+  - IP-CIDR,41.216.208.0/21,no-resolve
+  - IP-CIDR,41.223.195.0/24,no-resolve
+  - IP-CIDR,83.143.24.0/21,no-resolve
+  - IP-CIDR,129.205.192.0/18,no-resolve
+  - IP-CIDR,129.205.244.0/24,no-resolve
+  - IP-CIDR,156.38.16.0/20,no-resolve
+  - IP-CIDR6,2c0f:f250::/32,no-resolve
+  - IP-CIDR6,2c0f:f718::/32,no-resolve

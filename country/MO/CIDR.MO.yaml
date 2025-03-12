@@ -2,3 +2,66 @@
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
+# ASN: 12
+# 由 Kwisma 制作，保留所有权利。
+
+payload:
+  - IP-CIDR,43.247.24.0/22,no-resolve
+  - IP-CIDR,43.247.24.0/24,no-resolve
+  - IP-CIDR,43.247.25.0/24,no-resolve
+  - IP-CIDR,43.247.26.0/24,no-resolve
+  - IP-CIDR,43.247.27.0/24,no-resolve
+  - IP-CIDR,103.237.124.0/22,no-resolve
+  - IP-CIDR,103.237.124.0/24,no-resolve
+  - IP-CIDR,103.237.125.0/24,no-resolve
+  - IP-CIDR,103.237.126.0/23,no-resolve
+  - IP-CIDR,103.237.126.0/24,no-resolve
+  - IP-CIDR,103.237.127.0/24,no-resolve
+  - IP-CIDR,149.102.96.0/20,no-resolve
+  - IP-CIDR,149.102.96.0/21,no-resolve
+  - IP-CIDR,149.102.96.0/24,no-resolve
+  - IP-CIDR,149.102.97.0/24,no-resolve
+  - IP-CIDR,149.102.98.0/24,no-resolve
+  - IP-CIDR,149.102.99.0/24,no-resolve
+  - IP-CIDR,149.102.100.0/24,no-resolve
+  - IP-CIDR,149.102.101.0/24,no-resolve
+  - IP-CIDR,149.102.102.0/24,no-resolve
+  - IP-CIDR,149.102.103.0/24,no-resolve
+  - IP-CIDR,149.102.104.0/21,no-resolve
+  - IP-CIDR,149.102.104.0/24,no-resolve
+  - IP-CIDR,149.102.105.0/24,no-resolve
+  - IP-CIDR,149.102.106.0/24,no-resolve
+  - IP-CIDR,149.102.107.0/24,no-resolve
+  - IP-CIDR,149.102.108.0/24,no-resolve
+  - IP-CIDR,149.102.109.0/24,no-resolve
+  - IP-CIDR,149.102.110.0/24,no-resolve
+  - IP-CIDR,149.102.111.0/24,no-resolve
+  - IP-CIDR,154.18.148.0/22,no-resolve
+  - IP-CIDR,154.18.148.0/24,no-resolve
+  - IP-CIDR,154.18.149.0/24,no-resolve
+  - IP-CIDR,154.18.150.0/24,no-resolve
+  - IP-CIDR,154.18.151.0/24,no-resolve
+  - IP-CIDR,205.198.48.0/20,no-resolve
+  - IP-CIDR,205.198.48.0/24,no-resolve
+  - IP-CIDR,205.198.49.0/24,no-resolve
+  - IP-CIDR,205.198.50.0/24,no-resolve
+  - IP-CIDR,205.198.51.0/24,no-resolve
+  - IP-CIDR,205.198.52.0/24,no-resolve
+  - IP-CIDR,205.198.53.0/24,no-resolve
+  - IP-CIDR,205.198.54.0/24,no-resolve
+  - IP-CIDR,205.198.55.0/24,no-resolve
+  - IP-CIDR,205.198.56.0/24,no-resolve
+  - IP-CIDR,205.198.57.0/24,no-resolve
+  - IP-CIDR,205.198.58.0/24,no-resolve
+  - IP-CIDR,205.198.59.0/24,no-resolve
+  - IP-CIDR,205.198.60.0/24,no-resolve
+  - IP-CIDR,205.198.61.0/24,no-resolve
+  - IP-CIDR,205.198.62.0/24,no-resolve
+  - IP-CIDR,205.198.63.0/24,no-resolve
+  - IP-CIDR,206.119.128.0/19,no-resolve
+  - IP-CIDR,206.119.128.0/21,no-resolve
+  - IP-CIDR,206.119.136.0/21,no-resolve
+  - IP-CIDR,206.119.144.0/21,no-resolve
+  - IP-CIDR,206.119.152.0/21,no-resolve
+  - IP-CIDR6,2401:3280:1000::/36,no-resolve
+  - IP-CIDR6,2401:3280:2000::/36,no-resolve

@@ -2,3 +2,34 @@
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
+# ASN: 8
+# 由 Kwisma 制作，保留所有权利。
+
+payload:
+  - IP-CIDR,101.99.128.0/17,no-resolve
+  - IP-CIDR,101.99.128.0/18,no-resolve
+  - IP-CIDR,101.99.145.0/24,no-resolve
+  - IP-CIDR,101.99.192.0/18,no-resolve
+  - IP-CIDR,121.55.192.0/18,no-resolve
+  - IP-CIDR,121.55.192.0/19,no-resolve
+  - IP-CIDR,121.55.224.0/19,no-resolve
+  - IP-CIDR,182.173.192.0/18,no-resolve
+  - IP-CIDR,182.173.192.0/19,no-resolve
+  - IP-CIDR,182.173.224.0/19,no-resolve
+  - IP-CIDR,198.81.233.0/24,no-resolve
+  - IP-CIDR,202.128.0.0/19,no-resolve
+  - IP-CIDR,202.128.0.0/20,no-resolve
+  - IP-CIDR,202.128.16.0/20,no-resolve
+  - IP-CIDR,202.128.64.0/19,no-resolve
+  - IP-CIDR,202.128.64.0/20,no-resolve
+  - IP-CIDR,202.128.78.0/24,no-resolve
+  - IP-CIDR,202.128.80.0/20,no-resolve
+  - IP-CIDR,202.128.86.0/24,no-resolve
+  - IP-CIDR,202.131.160.0/19,no-resolve
+  - IP-CIDR,202.131.160.0/20,no-resolve
+  - IP-CIDR,202.131.176.0/20,no-resolve
+  - IP-CIDR,204.44.188.0/22,no-resolve
+  - IP-CIDR,208.245.168.0/21,no-resolve
+  - IP-CIDR6,2404:8c00::/32,no-resolve
+  - IP-CIDR6,2404:8c00::/33,no-resolve
+  - IP-CIDR6,2404:8c00:8000::/33,no-resolve

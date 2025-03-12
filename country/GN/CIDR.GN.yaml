@@ -2,3 +2,9 @@
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
+# ASN: 15
+# 由 Kwisma 制作，保留所有权利。
+
+payload:
+  - IP-CIDR,45.220.52.0/22,no-resolve
+  - IP-CIDR6,2c0f:5b80::/32,no-resolve

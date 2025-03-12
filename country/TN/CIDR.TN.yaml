@@ -35,3 +35,40 @@ payload:
   - IP-CIDR6,2a01:c9c0:c040::/48,no-resolve
   - IP-CIDR6,2a01:c9c0:c062::/48,no-resolve
   - IP-CIDR6,2a01:c9c0:c080::/48,no-resolve
+# ASN: 24
+# 由 Kwisma 制作，保留所有权利。
+
+payload:
+  - IP-CIDR,80.15.228.0/24,no-resolve
+  - IP-CIDR,80.15.229.0/24,no-resolve
+  - IP-CIDR,80.15.230.0/24,no-resolve
+  - IP-CIDR,80.15.231.0/24,no-resolve
+  - IP-CIDR,80.15.232.0/24,no-resolve
+  - IP-CIDR,80.15.233.0/24,no-resolve
+  - IP-CIDR,80.15.235.0/24,no-resolve
+  - IP-CIDR,80.15.243.0/24,no-resolve
+  - IP-CIDR,80.15.246.0/24,no-resolve
+  - IP-CIDR,80.15.247.0/24,no-resolve
+  - IP-CIDR,80.15.248.0/24,no-resolve
+  - IP-CIDR,80.15.250.0/24,no-resolve
+  - IP-CIDR,80.15.251.0/24,no-resolve
+  - IP-CIDR,80.15.252.0/24,no-resolve
+  - IP-CIDR,80.15.253.0/24,no-resolve
+  - IP-CIDR,80.15.255.0/24,no-resolve
+  - IP-CIDR,90.84.153.0/24,no-resolve
+  - IP-CIDR,197.29.122.0/24,no-resolve
+  - IP-CIDR,197.29.126.0/24,no-resolve
+  - IP-CIDR6,2a01:c9c0:c000::/48,no-resolve
+  - IP-CIDR6,2a01:c9c0:c002::/48,no-resolve
+  - IP-CIDR6,2a01:c9c0:c004::/48,no-resolve
+  - IP-CIDR6,2a01:c9c0:c006::/48,no-resolve
+  - IP-CIDR6,2a01:c9c0:c008::/48,no-resolve
+  - IP-CIDR6,2a01:c9c0:c009::/48,no-resolve
+  - IP-CIDR6,2a01:c9c0:c00c::/48,no-resolve
+  - IP-CIDR6,2a01:c9c0:c012::/48,no-resolve
+  - IP-CIDR6,2a01:c9c0:c018::/48,no-resolve
+  - IP-CIDR6,2a01:c9c0:c01c::/48,no-resolve
+  - IP-CIDR6,2a01:c9c0:c022::/48,no-resolve
+  - IP-CIDR6,2a01:c9c0:c040::/48,no-resolve
+  - IP-CIDR6,2a01:c9c0:c062::/48,no-resolve
+  - IP-CIDR6,2a01:c9c0:c080::/48,no-resolve

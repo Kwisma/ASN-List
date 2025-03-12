@@ -16,3 +16,21 @@ payload:
   - IP-CIDR,193.109.62.0/24,no-resolve
   - IP-CIDR6,2a13:1fc0::/48,no-resolve
   - IP-CIDR6,2a13:1fc0:1::/48,no-resolve
+# ASN: 295
+# 由 Kwisma 制作，保留所有权利。
+
+payload:
+  - IP-CIDR,31.216.58.0/24,no-resolve
+  - IP-CIDR,84.38.249.0/24,no-resolve
+  - IP-CIDR,87.236.33.0/24,no-resolve
+  - IP-CIDR,87.238.226.0/24,no-resolve
+  - IP-CIDR,89.42.52.0/23,no-resolve
+  - IP-CIDR,89.47.38.0/23,no-resolve
+  - IP-CIDR,91.238.237.0/24,no-resolve
+  - IP-CIDR,94.139.34.0/23,no-resolve
+  - IP-CIDR,94.139.38.0/24,no-resolve
+  - IP-CIDR,185.39.9.0/24,no-resolve
+  - IP-CIDR,185.185.230.0/24,no-resolve
+  - IP-CIDR,193.109.62.0/24,no-resolve
+  - IP-CIDR6,2a13:1fc0::/48,no-resolve
+  - IP-CIDR6,2a13:1fc0:1::/48,no-resolve

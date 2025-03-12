@@ -968,3 +968,59 @@ payload:
   - IP-CIDR6,2a06:a005:2640::/44,no-resolve
   - IP-CIDR6,2a06:a005:2650::/44,no-resolve
   - IP-CIDR6,2a06:a005:2660::/44,no-resolve
+# ASN: 125
+# 由 Kwisma 制作，保留所有权利。
+
+payload:
+  - IP-CIDR,82.215.71.0/24,no-resolve
+  - IP-CIDR,103.243.124.0/22,no-resolve
+  - IP-CIDR,103.243.124.0/24,no-resolve
+  - IP-CIDR,103.243.125.0/24,no-resolve
+  - IP-CIDR,103.243.126.0/24,no-resolve
+  - IP-CIDR,103.243.127.0/24,no-resolve
+  - IP-CIDR,146.19.95.0/24,no-resolve
+  - IP-CIDR,146.19.249.0/24,no-resolve
+  - IP-CIDR,185.112.251.0/24,no-resolve
+  - IP-CIDR,185.162.183.0/24,no-resolve
+  - IP-CIDR,185.166.144.0/24,no-resolve
+  - IP-CIDR,188.93.196.0/24,no-resolve
+  - IP-CIDR,188.93.197.0/24,no-resolve
+  - IP-CIDR,188.93.198.0/24,no-resolve
+  - IP-CIDR,188.93.199.0/24,no-resolve
+  - IP-CIDR,193.107.13.0/24,no-resolve
+  - IP-CIDR,193.109.184.0/21,no-resolve
+  - IP-CIDR,193.109.184.0/24,no-resolve
+  - IP-CIDR,193.109.186.0/24,no-resolve
+  - IP-CIDR,193.109.187.0/24,no-resolve
+  - IP-CIDR,193.109.188.0/24,no-resolve
+  - IP-CIDR,193.109.191.0/24,no-resolve
+  - IP-CIDR,193.163.151.0/24,no-resolve
+  - IP-CIDR,212.52.23.0/24,no-resolve
+  - IP-CIDR6,2001:b18::/32,no-resolve
+  - IP-CIDR6,2001:b18:a::/48,no-resolve
+  - IP-CIDR6,2001:b18:b::/48,no-resolve
+  - IP-CIDR6,2001:b18:1000::/48,no-resolve
+  - IP-CIDR6,2001:b18:1001::/48,no-resolve
+  - IP-CIDR6,2001:b18:1002::/48,no-resolve
+  - IP-CIDR6,2001:b18:1005::/48,no-resolve
+  - IP-CIDR6,2001:b18:1008::/48,no-resolve
+  - IP-CIDR6,2001:b18:1012::/48,no-resolve
+  - IP-CIDR6,2001:b18:1016::/48,no-resolve
+  - IP-CIDR6,2001:b18:1018::/48,no-resolve
+  - IP-CIDR6,2001:b18:1020::/48,no-resolve
+  - IP-CIDR6,2001:b18:1031::/48,no-resolve
+  - IP-CIDR6,2001:b18:1049::/48,no-resolve
+  - IP-CIDR6,2001:b18:1091::/48,no-resolve
+  - IP-CIDR6,2001:b18:1b44::/48,no-resolve
+  - IP-CIDR6,2a0b:e740::/29,no-resolve
+  - IP-CIDR6,2a0d:82c0::/29,no-resolve
+  - IP-CIDR6,2a0d:82c0::/32,no-resolve
+  - IP-CIDR6,2a0d:82c7:d::/48,no-resolve
+  - IP-CIDR6,2a0e:5f00::/29,no-resolve
+  - IP-CIDR6,2a0e:5f00::/32,no-resolve
+  - IP-CIDR6,2a0f:7700::/29,no-resolve
+  - IP-CIDR6,2a0f:8900::/29,no-resolve
+  - IP-CIDR6,2a0f:d300::/29,no-resolve
+  - IP-CIDR6,2a10:ee40::/29,no-resolve
+  - IP-CIDR6,2a11:c00::/29,no-resolve
+  - IP-CIDR6,2a12:c1c0::/29,no-resolve

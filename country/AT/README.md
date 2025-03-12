@@ -1,51 +1,50 @@
 
-    # ASN-List
+# ASN-List
     
-    实时更新 AT 的 ASN 和 IP 数据库。
+实时更新 AT 的 ASN 和 IP 数据库。
     
-    ## 特征
+## 特征
     
-    - 每日自动更新
-    - 可靠且准确的来源
+- 每日自动更新
+- 可靠且准确的来源
     
-    ## 在代理应用中使用
+## 在代理应用中使用
     
-    mihomo(clash.meta)
+mihomo(clash.meta)
    
-    <pre><code class="language-javascript">
-    rule-providers:
-      ASNAT:
-        type: http
-        behavior: classical
-        url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AT/ASN.AT.yaml"
-        path: ./ruleset/ASN.AT.yaml
-        interval: 86400
-        format: yaml
-    </code></pre>
+<pre><code class="language-javascript">
+rule-providers:
+  ASNAT:
+  type: http
+  behavior: classical
+  url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AT/ASN.AT.yaml"
+  path: ./ruleset/ASN.AT.yaml
+  interval: 86400
+  format: yaml
+</code></pre>
 
-    或者
+或者
 
-    <pre><code class="language-javascript">
-    rule-providers:
-      ASNAT:
-        <<: *classical
-        url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AT/ASN.AT.yaml"
-        path: ./ruleset/ASN.AT.yaml
-    </code></pre>
+<pre><code class="language-javascript">
+rule-providers:
+  ASNAT:
+  <<: *classical
+  url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AT/ASN.AT.yaml"
+  path: ./ruleset/ASN.AT.yaml
+</code></pre>
     
-    Surge
+Surge
     
-    <pre><code class="language-javascript">
-    [Rule]
-    # > AT ASN List
-    RULE-SET, https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AT/ASN.AT.list, Direct
-    </code></pre>
+<pre><code class="language-javascript">
+[Rule]
+# > AT ASN List
+RULE-SET, https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AT/ASN.AT.list, Direct
+</code></pre>
     
-    Quantumult X
+Quantumult X
     
-    <pre><code class="language-javascript">
-    [filter_remote]
-    # AT ASN List
-    https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AT/ASN.AT.list, tag=ATASN, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
-    </code></pre>
-    
+<pre><code class="language-javascript">
+[filter_remote]
+# AT ASN List
+https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AT/ASN.AT.list, tag=ATASN, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
+</code></pre>

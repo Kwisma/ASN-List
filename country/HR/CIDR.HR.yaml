@@ -11,3 +11,31 @@ payload:
   - IP-CIDR,213.186.23.0/24,no-resolve
   - IP-CIDR,213.186.25.0/24,no-resolve
   - IP-CIDR6,2a02:2608::/32,no-resolve
+# ASN: 143
+# 由 Kwisma 制作，保留所有权利。
+
+payload:
+  - IP-CIDR,91.199.77.0/24,no-resolve
+  - IP-CIDR,213.186.0.0/20,no-resolve
+  - IP-CIDR,213.186.1.0/24,no-resolve
+  - IP-CIDR,213.186.16.0/23,no-resolve
+  - IP-CIDR,213.186.18.0/24,no-resolve
+  - IP-CIDR,213.186.22.0/24,no-resolve
+  - IP-CIDR,213.186.23.0/24,no-resolve
+  - IP-CIDR,213.186.25.0/24,no-resolve
+  - IP-CIDR6,2a02:2608::/32,no-resolve
+  - IP-CIDR,83.139.67.0/24,no-resolve
+  - IP-CIDR,83.139.70.0/24,no-resolve
+  - IP-CIDR,83.139.120.0/24,no-resolve
+  - IP-CIDR,188.129.9.0/24,no-resolve
+  - IP-CIDR,188.129.12.0/22,no-resolve
+  - IP-CIDR,188.129.76.0/22,no-resolve
+  - IP-CIDR,188.129.80.0/22,no-resolve
+  - IP-CIDR,188.129.126.0/24,no-resolve
+  - IP-CIDR,188.252.196.0/22,no-resolve
+  - IP-CIDR,194.146.109.0/24,no-resolve
+  - IP-CIDR,213.149.41.0/24,no-resolve
+  - IP-CIDR,213.149.51.0/24,no-resolve
+  - IP-CIDR,213.149.61.0/24,no-resolve
+  - IP-CIDR,213.149.62.0/24,no-resolve
+  - IP-CIDR6,2a00:dd8:1::/48,no-resolve

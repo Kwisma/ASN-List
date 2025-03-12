@@ -2,3 +2,17 @@
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
+# ASN: 8
+# 由 Kwisma 制作，保留所有权利。
+
+payload:
+  - IP-CIDR,91.223.220.0/24,no-resolve
+  - IP-CIDR,91.234.215.0/24,no-resolve
+  - IP-CIDR,94.232.112.0/21,no-resolve
+  - IP-CIDR,185.168.168.0/24,no-resolve
+  - IP-CIDR,185.168.169.0/24,no-resolve
+  - IP-CIDR,194.0.215.0/24,no-resolve
+  - IP-CIDR6,2001:67c:174::/48,no-resolve
+  - IP-CIDR6,2001:67c:15b8::/48,no-resolve
+  - IP-CIDR6,2001:67c:28d8::/48,no-resolve
+  - IP-CIDR6,2a0e:d340::/48,no-resolve

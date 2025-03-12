@@ -9,3 +9,14 @@ payload:
   - IP-CIDR,185.48.240.0/22,no-resolve
   - IP-CIDR6,2a00:cc40:1::/48,no-resolve
   - IP-CIDR6,2a00:cc40:2::/48,no-resolve
+# ASN: 110
+# 由 Kwisma 制作，保留所有权利。
+
+payload:
+  - IP-CIDR,46.36.124.0/22,no-resolve
+  - IP-CIDR,46.36.124.0/24,no-resolve
+  - IP-CIDR,46.162.220.0/22,no-resolve
+  - IP-CIDR,178.78.184.0/21,no-resolve
+  - IP-CIDR,185.48.240.0/22,no-resolve
+  - IP-CIDR6,2a00:cc40:1::/48,no-resolve
+  - IP-CIDR6,2a00:cc40:2::/48,no-resolve
