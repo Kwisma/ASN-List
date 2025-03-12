@@ -155,6 +155,7 @@ function asnInfo(name, asnNumber) {
         fs.appendFileSync(file, fileContent, { encoding: 'utf8' });
     });
     fs.appendFileSync(`./country/${name}/ASN.${name}.yaml`, `payload:\n`, { encoding: 'utf8' });
+    fs.appendFileSync(`./country/${name}/CIDR.${name}.yaml`, `payload:\n`, { encoding: 'utf8' });
 }
 
 async function fetchWithRetry(url, options, retries = 3) {
