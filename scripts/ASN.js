@@ -72,56 +72,56 @@ function initFile(name) {
     const lastUpdated = `# 最后更新： CST ${localTime}\n`;
     const fileContent = header + lastUpdated;
     const filemd = `
-    # ASN-List
+# ASN-List
     
-    实时更新 ${name} 的 ASN 和 IP 数据库。
+实时更新 ${name} 的 ASN 和 IP 数据库。
     
-    ## 特征
+## 特征
     
-    - 每日自动更新
-    - 可靠且准确的来源
+- 每日自动更新
+- 可靠且准确的来源
     
-    ## 在代理应用中使用
+## 在代理应用中使用
     
-    mihomo(clash.meta)
+mihomo(clash.meta)
    
-    <pre><code class="language-javascript">
-    rule-providers:
-      ASN${name}:
-        type: http
-        behavior: classical
-        url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/${name}/ASN.${name}.yaml"
-        path: ./ruleset/ASN.${name}.yaml
-        interval: 86400
-        format: yaml
-    </code></pre>
+<pre><code class="language-javascript">
+rule-providers:
+  ASN${name}:
+  type: http
+  behavior: classical
+  url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/${name}/ASN.${name}.yaml"
+  path: ./ruleset/ASN.${name}.yaml
+  interval: 86400
+  format: yaml
+</code></pre>
 
-    或者
+或者
 
-    <pre><code class="language-javascript">
-    rule-providers:
-      ASN${name}:
-        <<: *classical
-        url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/${name}/ASN.${name}.yaml"
-        path: ./ruleset/ASN.${name}.yaml
-    </code></pre>
+<pre><code class="language-javascript">
+rule-providers:
+  ASN${name}:
+  <<: *classical
+  url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/${name}/ASN.${name}.yaml"
+  path: ./ruleset/ASN.${name}.yaml
+</code></pre>
     
-    Surge
+Surge
     
-    <pre><code class="language-javascript">
-    [Rule]
-    # > ${name} ASN List
-    RULE-SET, https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/${name}/ASN.${name}.list, Direct
-    </code></pre>
+<pre><code class="language-javascript">
+[Rule]
+# > ${name} ASN List
+RULE-SET, https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/${name}/ASN.${name}.list, Direct
+</code></pre>
     
-    Quantumult X
+Quantumult X
     
-    <pre><code class="language-javascript">
-    [filter_remote]
-    # ${name} ASN List
-    https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/${name}/ASN.${name}.list, tag=${name}ASN, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
-    </code></pre>
-    `;
+<pre><code class="language-javascript">
+[filter_remote]
+# ${name} ASN List
+https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/${name}/ASN.${name}.list, tag=${name}ASN, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
+</code></pre>
+`;
     // 创建以 name 命名的文件夹，所有文件都保存到该目录下
     const dir = path.join('./', 'country', name);
     if (!fs.existsSync(dir)) {
