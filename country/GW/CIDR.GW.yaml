@@ -12,3 +12,17 @@ payload:
   - IP-CIDR,154.73.61.0/24,no-resolve
   - IP-CIDR,154.73.62.0/24,no-resolve
   - IP-CIDR,154.73.63.0/24,no-resolve
+# ASN: 2
+# 由 Kwisma 制作，保留所有权利。
+
+payload:
+  - IP-CIDR,102.219.174.0/23,no-resolve
+  - IP-CIDR,154.73.60.0/22,no-resolve
+  - IP-CIDR,154.73.60.0/24,no-resolve
+  - IP-CIDR,154.73.61.0/24,no-resolve
+  - IP-CIDR,154.73.62.0/24,no-resolve
+  - IP-CIDR,154.73.63.0/24,no-resolve
+  - IP-CIDR,197.214.80.0/21,no-resolve
+  - IP-CIDR,197.214.88.0/21,no-resolve
+  - IP-CIDR,197.214.91.0/24,no-resolve
+  - IP-CIDR,197.214.95.0/24,no-resolve

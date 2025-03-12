@@ -6,3 +6,32 @@ payload:
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
+# ASN: 6
+# 由 Kwisma 制作，保留所有权利。
+
+payload:
+  - IP-CIDR,199.21.164.0/22,no-resolve
+  - IP-CIDR,204.16.8.0/22,no-resolve
+  - IP-CIDR,204.19.200.0/22,no-resolve
+  - IP-CIDR,204.137.192.0/19,no-resolve
+  - IP-CIDR,208.70.92.0/22,no-resolve
+  - IP-CIDR,208.72.230.0/24,no-resolve
+  - IP-CIDR,208.81.160.0/22,no-resolve
+  - IP-CIDR,208.87.144.0/22,no-resolve
+  - IP-CIDR,185.193.124.0/24,no-resolve
+  - IP-CIDR6,2001:67c:235c::/48,no-resolve
+  - IP-CIDR,38.57.108.0/22,no-resolve
+  - IP-CIDR,38.87.225.0/24,no-resolve
+  - IP-CIDR,38.131.5.0/24,no-resolve
+  - IP-CIDR,23.131.208.0/24,no-resolve
+  - IP-CIDR6,2620:6b:2000::/48,no-resolve
+  - IP-CIDR,23.137.40.0/24,no-resolve
+  - IP-CIDR6,2602:fb78:80::/41,no-resolve
+  - IP-CIDR,216.211.197.0/24,no-resolve
+  - IP-CIDR6,2602:fb78:10::/44,no-resolve
+  - IP-CIDR6,2602:fb78:20::/44,no-resolve
+  - IP-CIDR6,2602:fb78:30::/44,no-resolve
+  - IP-CIDR6,2602:fb78:40::/44,no-resolve
+  - IP-CIDR6,2602:fb78:50::/44,no-resolve
+  - IP-CIDR6,2602:fb78:60::/44,no-resolve
+  - IP-CIDR6,2602:fb78:70::/44,no-resolve

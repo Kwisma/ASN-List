@@ -6,3 +6,12 @@ payload:
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
+# ASN: 1
+# 由 Kwisma 制作，保留所有权利。
+
+payload:
+  - IP-CIDR,196.200.96.0/20,no-resolve
+  - IP-CIDR,196.200.96.0/21,no-resolve
+  - IP-CIDR,196.200.104.0/21,no-resolve
+  - IP-CIDR,196.200.108.0/24,no-resolve
+  - IP-CIDR,196.200.110.0/24,no-resolve

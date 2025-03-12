@@ -46,3 +46,47 @@ payload:
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
+# ASN: 5009
+# 由 Kwisma 制作，保留所有权利。
+
+payload:
+  - IP-CIDR,46.149.110.0/24,no-resolve
+  - IP-CIDR,87.239.24.0/21,no-resolve
+  - IP-CIDR,87.239.24.0/22,no-resolve
+  - IP-CIDR,87.239.24.0/23,no-resolve
+  - IP-CIDR,87.239.26.0/23,no-resolve
+  - IP-CIDR,87.239.28.0/22,no-resolve
+  - IP-CIDR,87.239.28.0/23,no-resolve
+  - IP-CIDR,87.239.30.0/23,no-resolve
+  - IP-CIDR,91.211.80.0/22,no-resolve
+  - IP-CIDR,91.211.80.0/23,no-resolve
+  - IP-CIDR,91.211.80.0/24,no-resolve
+  - IP-CIDR,91.211.82.0/23,no-resolve
+  - IP-CIDR,176.99.128.0/17,no-resolve
+  - IP-CIDR,176.99.128.0/18,no-resolve
+  - IP-CIDR,176.99.128.0/19,no-resolve
+  - IP-CIDR,176.99.160.0/19,no-resolve
+  - IP-CIDR,176.99.192.0/18,no-resolve
+  - IP-CIDR,176.99.192.0/19,no-resolve
+  - IP-CIDR,176.99.224.0/19,no-resolve
+  - IP-CIDR,194.26.209.0/24,no-resolve
+  - IP-CIDR,194.26.210.0/24,no-resolve
+  - IP-CIDR,194.187.204.0/22,no-resolve
+  - IP-CIDR,194.187.204.0/23,no-resolve
+  - IP-CIDR,194.187.204.0/24,no-resolve
+  - IP-CIDR,194.187.205.0/24,no-resolve
+  - IP-CIDR,194.187.206.0/23,no-resolve
+  - IP-CIDR,194.187.206.0/24,no-resolve
+  - IP-CIDR,194.187.207.0/24,no-resolve
+  - IP-CIDR6,2001:504:36::/64,no-resolve
+  - IP-CIDR6,2001:7f8:d:fe::/64,no-resolve
+  - IP-CIDR6,2001:7f8:d:ff::/64,no-resolve
+  - IP-CIDR6,2001:7f8:21:9::/64,no-resolve
+  - IP-CIDR6,2620:107:4008:3c3::/64,no-resolve
+  - IP-CIDR6,2620:107:4008:3c4::/64,no-resolve
+  - IP-CIDR6,2620:107:4008:123d::/64,no-resolve
+  - IP-CIDR6,2a01:62e0:f001:2ba::/64,no-resolve
+  - IP-CIDR6,2a01:62e0:f001:2bb::/64,no-resolve
+  - IP-CIDR6,2a01:62e0:f001:4d0::/64,no-resolve
+  - IP-CIDR6,2a10:180::/64,no-resolve
+  - IP-CIDR6,2a10:3100::/29,no-resolve
