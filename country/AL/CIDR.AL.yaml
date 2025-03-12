@@ -1,0 +1,9 @@
+# ASN: 113
+# 由 Kwisma 制作，保留所有权利。
+
+payload:
+  - IP-CIDR,80.79.13.0/24,no-resolve
+  - IP-CIDR,87.120.100.0/22,no-resolve
+  - IP-CIDR,93.187.110.0/24,no-resolve
+  - IP-CIDR,185.161.184.0/23,no-resolve
+  - IP-CIDR6,2a13:1540::/29,no-resolve

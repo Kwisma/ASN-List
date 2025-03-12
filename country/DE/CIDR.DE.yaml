@@ -1,0 +1,38 @@
+# ASN: 2440
+# 由 Kwisma 制作，保留所有权利。
+
+payload:
+  - IP-CIDR,45.153.81.0/24,no-resolve
+  - IP-CIDR,45.153.82.0/23,no-resolve
+  - IP-CIDR,91.247.160.0/24,no-resolve
+  - IP-CIDR,94.103.180.0/24,no-resolve
+  - IP-CIDR,185.134.66.0/24,no-resolve
+  - IP-CIDR6,2a11:4140::/29,no-resolve
+  - IP-CIDR6,2a11:4140:1000::/36,no-resolve
+  - IP-CIDR6,2a11:4140:2000::/36,no-resolve
+  - IP-CIDR6,2a11:4140:3000::/36,no-resolve
+  - IP-CIDR6,2a11:4140:4000::/36,no-resolve
+  - IP-CIDR6,2a11:4140:5000::/36,no-resolve
+  - IP-CIDR6,2a11:4140:6000::/36,no-resolve
+  - IP-CIDR6,2a11:4140:7000::/36,no-resolve
+  - IP-CIDR6,2a11:4140:8000::/36,no-resolve
+  - IP-CIDR6,2a11:4140:9000::/36,no-resolve
+  - IP-CIDR6,2a11:4140:a000::/36,no-resolve
+  - IP-CIDR6,2a11:4140:b000::/36,no-resolve
+  - IP-CIDR6,2a11:4140:c000::/36,no-resolve
+  - IP-CIDR6,2a11:4140:d000::/36,no-resolve
+  - IP-CIDR6,2a11:4140:e000::/36,no-resolve
+  - IP-CIDR6,2a11:4140:f000::/36,no-resolve
+  - IP-CIDR6,2a11:4141::/36,no-resolve
+  - IP-CIDR6,2a11:4141:1000::/36,no-resolve
+  - IP-CIDR6,2a11:4141:2000::/36,no-resolve
+  - IP-CIDR6,2a11:4141:3000::/36,no-resolve
+  - IP-CIDR6,2a11:4141:4000::/36,no-resolve
+  - IP-CIDR6,2a11:4141:5000::/36,no-resolve
+  - IP-CIDR6,2a11:4141:6000::/36,no-resolve
+  - IP-CIDR6,2a11:4141:7000::/36,no-resolve
+  - IP-CIDR6,2a11:4141:8000::/36,no-resolve
+  - IP-CIDR6,2a11:4142::/36,no-resolve
+  - IP-CIDR6,2a11:4142:1000::/36,no-resolve
+  - IP-CIDR6,2a11:4146:8000::/36,no-resolve
+  - IP-CIDR6,2a11:4147:d000::/36,no-resolve

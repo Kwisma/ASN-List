@@ -1,9 +1,9 @@
 # Google 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-12 00:13:37
-# 总数: 4474
+# 最后更新： CST 2025-03-12 21:33:45
+# 总数: 4475
 # ASN: 38
-# IP-CIDR: 4434
-# IP-CIDR4: 3980
+# IP-CIDR: 4435
+# IP-CIDR4: 3981
 # IP-CIDR6: 454
 # 由 Kwisma 制作，保留所有权利。
 
@@ -2145,6 +2145,7 @@ payload:
   - IP-CIDR,34.13.80.0/23,no-resolve
   - IP-CIDR,34.13.68.0/22,no-resolve
   - IP-CIDR,34.13.67.0/24,no-resolve
+  - IP-CIDR,34.13.66.0/24,no-resolve
   - IP-CIDR,34.13.64.0/23,no-resolve
   - IP-CIDR,34.13.0.0/18,no-resolve
   - IP-CIDR,34.129.96.0/20,no-resolve

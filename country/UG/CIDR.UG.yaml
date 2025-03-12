@@ -1,0 +1,17 @@
+# ASN: 44
+# 由 Kwisma 制作，保留所有权利。
+
+payload:
+  - IP-CIDR,41.84.192.0/19,no-resolve
+  - IP-CIDR,41.84.192.0/22,no-resolve
+  - IP-CIDR,41.84.193.0/24,no-resolve
+  - IP-CIDR,41.84.196.0/22,no-resolve
+  - IP-CIDR,41.84.199.0/24,no-resolve
+  - IP-CIDR,41.84.204.0/24,no-resolve
+  - IP-CIDR,41.84.208.0/22,no-resolve
+  - IP-CIDR,41.84.210.0/23,no-resolve
+  - IP-CIDR,41.84.213.0/24,no-resolve
+  - IP-CIDR,41.84.223.0/24,no-resolve
+  - IP-CIDR6,2c0f:ffa0::/32,no-resolve
+  - IP-CIDR6,2c0f:ffa0:2::/48,no-resolve
+  - IP-CIDR6,2c0f:ffa0:4::/48,no-resolve

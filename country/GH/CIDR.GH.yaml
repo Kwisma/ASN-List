@@ -1,0 +1,11 @@
+# ASN: 89
+# 由 Kwisma 制作，保留所有权利。
+
+payload:
+  - IP-CIDR,41.242.112.0/22,no-resolve
+  - IP-CIDR,41.242.112.0/24,no-resolve
+  - IP-CIDR,41.242.114.0/24,no-resolve
+  - IP-CIDR,41.242.115.0/24,no-resolve
+  - IP-CIDR,169.239.188.0/22,no-resolve
+  - IP-CIDR,169.239.188.0/24,no-resolve
+  - IP-CIDR,169.239.189.0/24,no-resolve
