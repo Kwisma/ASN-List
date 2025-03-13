@@ -229,6 +229,7 @@ async function saveLatestASN(name) {
                 fs.appendFileSync(`./country/${name}/ASN.${name}.list`, asnInfo, { encoding: 'utf8' });
                 fs.appendFileSync(`./country/${name}/ASN.${name}.yaml`, yamlString, { encoding: 'utf8' });
                 logger.info(`开始处理 ASN #${index + 1}: ${asnNumber}`);
+                index++;
                 const url = `https://bgp.he.net/AS${asnNumber}`;
                 if (scanning) {
                     try {
@@ -247,6 +248,7 @@ async function saveLatestASN(name) {
                                 fs.appendFileSync(`./country/${name}/CIDR.${name}.list`, asnInfo, { encoding: 'utf8' });
                                 fs.appendFileSync(`./country/${name}/CIDR.${name}.yaml`, yamlString, { encoding: 'utf8' });
                                 logger.info(`处理 CIDR #${index4 + 1}: ${cidrNumber}`);
+                                index4++;
                             }
                         }
                         const cidrs6 = $('#table_prefixes6 tbody tr');
@@ -260,6 +262,7 @@ async function saveLatestASN(name) {
                                 fs.appendFileSync(`./country/${name}/CIDR.${name}.list`, asnInfo, { encoding: 'utf8' });
                                 fs.appendFileSync(`./country/${name}/CIDR.${name}.yaml`, yamlString, { encoding: 'utf8' });
                                 logger.info(`处理 CIDR6 #${index6 + 1}: ${cidrNumber}`);
+                                index6++;
                             }
 
                         }
