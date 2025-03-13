@@ -1,5 +1,5 @@
 # VN 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-13 20:03:23
+# 最后更新： CST 2025-03-14 00:12:45
 # ASN: 536
 # 由 Kwisma 制作，保留所有权利。
 
@@ -68,7 +68,6 @@ payload:
   - IP-ASN,55311,no-resolve
   - IP-ASN,55306,no-resolve
   - IP-ASN,45901,no-resolve
-  - IP-ASN,45894,no-resolve
   - IP-ASN,45552,no-resolve
   - IP-ASN,45544,no-resolve
   - IP-ASN,45541,no-resolve
@@ -129,7 +128,9 @@ payload:
   - IP-ASN,55312,no-resolve
   - IP-ASN,55310,no-resolve
   - IP-ASN,55308,no-resolve
+  - IP-ASN,55307,no-resolve
   - IP-ASN,45902,no-resolve
+  - IP-ASN,45894,no-resolve
   - IP-ASN,45556,no-resolve
   - IP-ASN,45554,no-resolve
   - IP-ASN,45553,no-resolve
@@ -182,7 +183,6 @@ payload:
   - IP-ASN,140761,no-resolve
   - IP-ASN,140759,no-resolve
   - IP-ASN,140758,no-resolve
-  - IP-ASN,140750,no-resolve
   - IP-ASN,140748,no-resolve
   - IP-ASN,140739,no-resolve
   - IP-ASN,135982,no-resolve
@@ -246,6 +246,7 @@ payload:
   - IP-ASN,131342,no-resolve
   - IP-ASN,131131,no-resolve
   - IP-ASN,131130,no-resolve
+  - IP-ASN,131129,no-resolve
   - IP-ASN,131128,no-resolve
   - IP-ASN,131125,no-resolve
   - IP-ASN,131124,no-resolve
@@ -267,7 +268,6 @@ payload:
   - IP-ASN,56156,no-resolve
   - IP-ASN,56142,no-resolve
   - IP-ASN,55322,no-resolve
-  - IP-ASN,55307,no-resolve
   - IP-ASN,55305,no-resolve
   - IP-ASN,45900,no-resolve
   - IP-ASN,45542,no-resolve
@@ -460,6 +460,7 @@ payload:
   - IP-ASN,140762,no-resolve
   - IP-ASN,140757,no-resolve
   - IP-ASN,140751,no-resolve
+  - IP-ASN,140750,no-resolve
   - IP-ASN,140747,no-resolve
   - IP-ASN,140745,no-resolve
   - IP-ASN,140742,no-resolve
@@ -527,7 +528,6 @@ payload:
   - IP-ASN,131352,no-resolve
   - IP-ASN,131349,no-resolve
   - IP-ASN,131344,no-resolve
-  - IP-ASN,131129,no-resolve
   - IP-ASN,206439,no-resolve
   - IP-ASN,200250,no-resolve
   - IP-ASN,153428,no-resolve

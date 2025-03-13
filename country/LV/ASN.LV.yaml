@@ -1,5 +1,5 @@
 # LV 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-13 20:03:23
+# 最后更新： CST 2025-03-14 00:12:45
 # ASN: 245
 # 由 Kwisma 制作，保留所有权利。
 
@@ -9,16 +9,16 @@ payload:
   - IP-ASN,2588,no-resolve
   - IP-ASN,58061,no-resolve
   - IP-ASN,42532,no-resolve
-  - IP-ASN,212911,no-resolve
   - IP-ASN,12993,no-resolve
+  - IP-ASN,212911,no-resolve
   - IP-ASN,8194,no-resolve
   - IP-ASN,5518,no-resolve
-  - IP-ASN,5538,no-resolve
   - IP-ASN,43317,no-resolve
+  - IP-ASN,5538,no-resolve
   - IP-ASN,24651,no-resolve
-  - IP-ASN,199103,no-resolve
   - IP-ASN,8285,no-resolve
   - IP-ASN,58269,no-resolve
+  - IP-ASN,199103,no-resolve
   - IP-ASN,43513,no-resolve
   - IP-ASN,35407,no-resolve
   - IP-ASN,34073,no-resolve
@@ -47,17 +47,22 @@ payload:
   - IP-ASN,41563,no-resolve
   - IP-ASN,39900,no-resolve
   - IP-ASN,34326,no-resolve
+  - IP-ASN,215712,no-resolve
   - IP-ASN,215329,no-resolve
+  - IP-ASN,213601,no-resolve
   - IP-ASN,213166,no-resolve
   - IP-ASN,212496,no-resolve
-  - IP-ASN,212132,no-resolve
   - IP-ASN,211381,no-resolve
+  - IP-ASN,210886,no-resolve
   - IP-ASN,206600,no-resolve
   - IP-ASN,205680,no-resolve
   - IP-ASN,203866,no-resolve
   - IP-ASN,203339,no-resolve
+  - IP-ASN,202920,no-resolve
   - IP-ASN,201611,no-resolve
+  - IP-ASN,199558,no-resolve
   - IP-ASN,16062,no-resolve
+  - IP-ASN,15483,no-resolve
   - IP-ASN,13244,no-resolve
   - IP-ASN,12509,no-resolve
   - IP-ASN,8605,no-resolve
@@ -97,11 +102,9 @@ payload:
   - IP-ASN,29345,no-resolve
   - IP-ASN,2877,no-resolve
   - IP-ASN,24972,no-resolve
-  - IP-ASN,215712,no-resolve
-  - IP-ASN,213601,no-resolve
   - IP-ASN,212676,no-resolve
+  - IP-ASN,212132,no-resolve
   - IP-ASN,211424,no-resolve
-  - IP-ASN,210886,no-resolve
   - IP-ASN,210817,no-resolve
   - IP-ASN,210668,no-resolve
   - IP-ASN,21061,no-resolve
@@ -109,18 +112,15 @@ payload:
   - IP-ASN,206541,no-resolve
   - IP-ASN,206362,no-resolve
   - IP-ASN,205821,no-resolve
-  - IP-ASN,205625,no-resolve
   - IP-ASN,205370,no-resolve
   - IP-ASN,20509,no-resolve
   - IP-ASN,204391,no-resolve
   - IP-ASN,204130,no-resolve
-  - IP-ASN,202920,no-resolve
   - IP-ASN,202280,no-resolve
   - IP-ASN,201897,no-resolve
   - IP-ASN,201315,no-resolve
   - IP-ASN,199663,no-resolve
   - IP-ASN,199577,no-resolve
-  - IP-ASN,199558,no-resolve
   - IP-ASN,199029,no-resolve
   - IP-ASN,198343,no-resolve
   - IP-ASN,197870,no-resolve
@@ -130,7 +130,6 @@ payload:
   - IP-ASN,16279,no-resolve
   - IP-ASN,15818,no-resolve
   - IP-ASN,15684,no-resolve
-  - IP-ASN,15483,no-resolve
   - IP-ASN,15392,no-resolve
   - IP-ASN,13070,no-resolve
   - IP-ASN,9091,no-resolve
@@ -217,6 +216,7 @@ payload:
   - IP-ASN,207689,no-resolve
   - IP-ASN,207377,no-resolve
   - IP-ASN,206297,no-resolve
+  - IP-ASN,205625,no-resolve
   - IP-ASN,205568,no-resolve
   - IP-ASN,20548,no-resolve
   - IP-ASN,205045,no-resolve
