@@ -1,10 +1,11 @@
 # Facebook 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-13 04:57:38
-# 总数: 0
-# ASN: 0
-# IP-CIDR: 0
-# IP-CIDR4: 0
-# IP-CIDR6: 0
+# 最后更新： CST 2025-03-13 20:03:41
+# ASN: 227
 # 由 Kwisma 制作，保留所有权利。
 
-payload: []
+payload:
+  - IP-ASN,63293,no-resolve
+  - IP-ASN,54115,no-resolve
+  - IP-ASN,34825,no-resolve
+  - IP-ASN,32934,no-resolve
+  - IP-ASN,149642,no-resolve

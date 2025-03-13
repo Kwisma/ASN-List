@@ -1,33 +1,6 @@
 # MH 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-13 03:31:10
+# 最后更新： CST 2025-03-13 20:03:23
 # ASN: 3
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-CIDR,45.155.89.0/24,no-resolve
-  - IP-CIDR,45.156.220.0/24,no-resolve
-  - IP-CIDR,81.163.208.0/24,no-resolve
-  - IP-CIDR,81.163.209.0/24,no-resolve
-  - IP-CIDR,81.163.213.0/24,no-resolve
-  - IP-CIDR,81.163.215.0/24,no-resolve
-  - IP-CIDR,193.227.113.0/24,no-resolve
-  - IP-CIDR6,2a13:2380::/29,no-resolve
-  - IP-CIDR6,2a13:2380:11::/48,no-resolve
-  - IP-CIDR,156.238.192.0/20,no-resolve
-  - IP-CIDR,156.238.200.0/24,no-resolve
-  - IP-CIDR,64.86.23.0/24,no-resolve
-  - IP-CIDR,64.86.76.0/24,no-resolve
-  - IP-CIDR,103.202.149.0/24,no-resolve
-  - IP-CIDR,117.103.88.0/21,no-resolve
-  - IP-CIDR,117.103.89.0/24,no-resolve
-  - IP-CIDR,117.103.90.0/23,no-resolve
-  - IP-CIDR,117.103.92.0/24,no-resolve
-  - IP-CIDR,117.103.93.0/24,no-resolve
-  - IP-CIDR,117.103.94.0/24,no-resolve
-  - IP-CIDR,117.103.95.0/24,no-resolve
-  - IP-CIDR,203.78.152.0/24,no-resolve
-  - IP-CIDR,203.78.153.0/24,no-resolve
-  - IP-CIDR,203.78.154.0/24,no-resolve
-  - IP-CIDR,203.78.155.0/24,no-resolve
-  - IP-CIDR6,2405:400::/32,no-resolve
-  - IP-CIDR6,2405:400:8000::/33,no-resolve

@@ -1,13 +1,13 @@
 # BI 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-13 03:31:10
+# 最后更新： CST 2025-03-13 20:03:23
 # ASN: 8
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,37545
-  - IP-ASN,327799
-  - IP-ASN,37336
-  - IP-ASN,327798
-  - IP-ASN,25429
-  - IP-ASN,37429
-  - IP-ASN,327734
+  - IP-ASN,37545,no-resolve
+  - IP-ASN,327799,no-resolve
+  - IP-ASN,37336,no-resolve
+  - IP-ASN,327798,no-resolve
+  - IP-ASN,25429,no-resolve
+  - IP-ASN,37429,no-resolve
+  - IP-ASN,327734,no-resolve

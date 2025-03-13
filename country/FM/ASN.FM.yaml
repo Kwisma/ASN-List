@@ -1,12 +1,12 @@
 # FM 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-13 03:31:10
+# 最后更新： CST 2025-03-13 20:03:23
 # ASN: 6
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,10130
-  - IP-ASN,139759
-  - IP-ASN,142139
-  - IP-ASN,58524
-  - IP-ASN,45193
-  - IP-ASN,38875
+  - IP-ASN,10130,no-resolve
+  - IP-ASN,139759,no-resolve
+  - IP-ASN,142139,no-resolve
+  - IP-ASN,58524,no-resolve
+  - IP-ASN,45193,no-resolve
+  - IP-ASN,38875,no-resolve

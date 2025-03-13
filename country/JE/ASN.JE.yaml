@@ -1,15 +1,15 @@
 # JE 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-13 03:31:10
+# 最后更新： CST 2025-03-13 20:03:23
 # ASN: 9
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,8681
-  - IP-ASN,13208
-  - IP-ASN,39498
-  - IP-ASN,204648
-  - IP-ASN,200348
-  - IP-ASN,25040
-  - IP-ASN,211875
-  - IP-ASN,206084
-  - IP-ASN,61143
+  - IP-ASN,8681,no-resolve
+  - IP-ASN,13208,no-resolve
+  - IP-ASN,39498,no-resolve
+  - IP-ASN,204648,no-resolve
+  - IP-ASN,200348,no-resolve
+  - IP-ASN,25040,no-resolve
+  - IP-ASN,211875,no-resolve
+  - IP-ASN,206084,no-resolve
+  - IP-ASN,61143,no-resolve

@@ -1,10 +1,10 @@
 # PW 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-13 03:31:10
+# 最后更新： CST 2025-03-13 20:03:23
 # ASN: 4
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,17893
-  - IP-ASN,58932
-  - IP-ASN,133897
-  - IP-ASN,214652
+  - IP-ASN,17893,no-resolve
+  - IP-ASN,58932,no-resolve
+  - IP-ASN,133897,no-resolve
+  - IP-ASN,214652,no-resolve

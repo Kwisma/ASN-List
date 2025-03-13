@@ -1,11 +1,11 @@
 # BQ 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-13 03:31:10
+# 最后更新： CST 2025-03-13 20:03:23
 # ASN: 5
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,52389
-  - IP-ASN,27694
-  - IP-ASN,28104
-  - IP-ASN,27745
-  - IP-ASN,262188
+  - IP-ASN,52389,no-resolve
+  - IP-ASN,27694,no-resolve
+  - IP-ASN,28104,no-resolve
+  - IP-ASN,27745,no-resolve
+  - IP-ASN,262188,no-resolve
