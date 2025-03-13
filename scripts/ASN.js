@@ -11,6 +11,7 @@ const namelist = config.country;
 const nameASN = [];
 const ruleput = [];
 const rulenumset = [];
+const ruleset = [];
 
 // 获取当前函数名
 function getFunctionName() {
@@ -201,11 +202,12 @@ async function saveLatestASN(name) {
         logger.info(`共找到 ${asns.length} 个 ASN 条目，开始写入文件...`);
         nameASN.push(name + ' ' + getFullName(name));
         asnInfo(name, asns.length);
+        ruleset.push(`  - RULE-SET,ASN${name},Proxy\n`);
         ruleput.push(`
   ASN${name}:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/${name}/ASN.${name}.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/${name}/ASN.${name}.yaml"
     path: ./ruleset/ASN.${name}.yaml
     interval: 86400
     format: yaml
@@ -213,7 +215,7 @@ async function saveLatestASN(name) {
         rulenumset.push(`
   ASN${name}:
     <<: *classical
-    url: https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/${name}/ASN.${name}.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/${name}/ASN.${name}.yaml"
     path: ./ruleset/ASN.${name}.yaml
 `)
         asns.each(async (index, asn) => {
@@ -273,18 +275,26 @@ ${ASNListItems}
 - 可靠且准确的来源
 
 ## 在代理应用中使用
+
+## mihomo规则
+
+<pre><code class="language-javascript">
+rules:
+${ruleset.map(item => item.toString()).join('')}
+</code></pre>
+
 ## 常规配置
 
 <pre><code class="language-javascript">
 rule-providers:
-${ruleput.map(item => item.toString().replace(/,/g, '')).join('')}
+${ruleput.map(item => item.toString()).join('')}
 </code></pre>
 
 # 高级配置
 
 <pre><code class="language-javascript">
 rule-providers:
-${rulenumset.map(item => item.toString().replace(/,/g, '')).join('')}
+${rulenumset.map(item => item.toString()).join('')}
 </code></pre>
 `;
         fs.writeFileSync(`README-ry.md`, datamd, { encoding: 'utf8' });

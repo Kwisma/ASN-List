@@ -11,6 +11,7 @@ const namelist = config.namelist;
 const nameASN = [];
 const ruleput = [];
 const rulenumset = [];
+const ruleset = [];
 // 获取当前函数名
 function getFunctionName() {
     const stack = new Error().stack;
@@ -201,20 +202,21 @@ async function saveLatestASN(name) {
         logger.info(`共找到 ${asns.length} 个 ASN 条目，开始写入文件...`);
         nameASN.push(name + ' ' + getFullName(name));
         asnInfo(name, asns.length);
+        ruleset.push(`  - RULE-SET,ASN${name},Proxy\n`);
         ruleput.push(`
-ASN${name}:
-  type: http
-  behavior: classical
-  url: https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/${name}/ASN.${name}.yaml
-  path: ./ruleset/ASN.${name}.yaml
-  interval: 86400
-  format: yaml
+  ASN${name}:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/${name}/ASN.${name}.yaml"
+    path: ./ruleset/ASN.${name}.yaml
+    interval: 86400
+    format: yaml
 `)
         rulenumset.push(`
-ASN${name}:
-  <<: *classical
-  url: https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/${name}/ASN.${name}.yaml
-  path: ./ruleset/ASN.${name}.yaml
+  ASN${name}:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/${name}/ASN.${name}.yaml"
+    path: ./ruleset/ASN.${name}.yaml
 `)
         asns.each(async (index, asn) => {
             const asnNumber = $(asn).find('td:nth-child(1) a').text().replace('AS', '').trim();
@@ -273,16 +275,26 @@ country 目录是各个国家的 ASN
 - 可靠且准确的来源
 
 ## 在代理应用中使用
+
+## mihomo规则
+
+<pre><code class="language-javascript">
+rules:
+${ruleset.map(item => item.toString()).join('')}
+</code></pre>
+
 ## 常规配置
 
 <pre><code class="language-javascript">
-${ruleput.map(item => item.toString().replace(/,/g, '')).join('')}
+rule-providers:
+${ruleput.map(item => item.toString()).join('')}
 </code></pre>
 
 # 高级配置
 
 <pre><code class="language-javascript">
-${rulenumset.map(item => item.toString().replace(/,/g, '')).join('')}
+rule-providers:
+${rulenumset.map(item => item.toString()).join('')}
 </code></pre>
         `;
         fs.writeFileSync(`README.md`, datamd, { encoding: 'utf8' });
