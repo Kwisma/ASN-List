@@ -12,6 +12,7 @@ const nameASN = [];
 const ruleput = [];
 const rulenumset = [];
 const ruleset = [];
+const scanning = false;
 // 获取当前函数名
 function getFunctionName() {
     const stack = new Error().stack;
@@ -229,39 +230,41 @@ async function saveLatestASN(name) {
                 fs.appendFileSync(`./data/${name}/ASN.${name}.list`, asnInfo, { encoding: 'utf8' });
                 logger.info(`开始处理 ASN #${index + 1}: ${asnNumber}`);
                 const url = `https://bgp.he.net/AS${asnNumber}`;
-                try {
-                    logger.info("开始请求 CIDR 数据...");
-                    const { data } = await fetchWithRetry(url, { headers });
-                    logger.info("CIDR 数据请求成功！");
-                    const $ = cheerio.load(data);
-                    const cidrs = $('#table_prefixes4 tbody tr');
-                    logger.info(`共找到 ${cidrs.length} 个 CIDR 条目，开始写入文件...`);
-                    let index4 = 0;
-                    for (let cidr of cidrs) {
-                        const cidrNumber = $(cidr).find('td:nth-child(1)').text().trim();
-                        if (cidrNumber && !cidrNumber.includes(':')) {
-                            const asnInfo = `IP-CIDR,${cidrNumber},no-resolve\n`;
-                            const yamlString = `  - IP-CIDR,${cidrNumber},no-resolve\n`
-                            fs.appendFileSync(`./data/${name}/CIDR.${name}.list`, asnInfo, { encoding: 'utf8' });
-                            fs.appendFileSync(`./data/${name}/CIDR.${name}.yaml`, yamlString, { encoding: 'utf8' });
-                            logger.info(`处理 CIDR #${index4 + 1}: ${cidrNumber}`);
+                if (scanning) {
+                    try {
+                        logger.info("开始请求 CIDR 数据...");
+                        const { data } = await fetchWithRetry(url, { headers });
+                        logger.info("CIDR 数据请求成功！");
+                        const $ = cheerio.load(data);
+                        const cidrs = $('#table_prefixes4 tbody tr');
+                        logger.info(`共找到 ${cidrs.length} 个 CIDR 条目，开始写入文件...`);
+                        let index4 = 0;
+                        for (let cidr of cidrs) {
+                            const cidrNumber = $(cidr).find('td:nth-child(1)').text().trim();
+                            if (cidrNumber && !cidrNumber.includes(':')) {
+                                const asnInfo = `IP-CIDR,${cidrNumber},no-resolve\n`;
+                                const yamlString = `  - IP-CIDR,${cidrNumber},no-resolve\n`
+                                fs.appendFileSync(`./data/${name}/CIDR.${name}.list`, asnInfo, { encoding: 'utf8' });
+                                fs.appendFileSync(`./data/${name}/CIDR.${name}.yaml`, yamlString, { encoding: 'utf8' });
+                                logger.info(`处理 CIDR #${index4 + 1}: ${cidrNumber}`);
+                            }
                         }
-                    }
-                    const cidrs6 = $('#table_prefixes6 tbody tr');
-                    logger.info(`共找到 ${cidrs6.length} 个 CIDR 条目，开始写入文件...`);
-                    let index6 = 0;
-                    for (let cidr of cidrs6) {
-                        const cidrNumber = $(cidr).find('td:nth-child(1)').text().trim();
-                        if (cidrNumber && cidrNumber.includes(':')) {
-                            const asnInfo = `IP-CIDR6,${cidrNumber},no-resolve\n`;
-                            const yamlString = `  - IP-CIDR6,${cidrNumber},no-resolve\n`
-                            fs.appendFileSync(`./data/${name}/CIDR.${name}.list`, asnInfo, { encoding: 'utf8' });
-                            fs.appendFileSync(`./data/${name}/CIDR.${name}.yaml`, yamlString, { encoding: 'utf8' });
-                            logger.info(`处理 CIDR6 #${index6 + 1}: ${cidrNumber}`);
+                        const cidrs6 = $('#table_prefixes6 tbody tr');
+                        logger.info(`共找到 ${cidrs6.length} 个 CIDR 条目，开始写入文件...`);
+                        let index6 = 0;
+                        for (let cidr of cidrs6) {
+                            const cidrNumber = $(cidr).find('td:nth-child(1)').text().trim();
+                            if (cidrNumber && cidrNumber.includes(':')) {
+                                const asnInfo = `IP-CIDR6,${cidrNumber},no-resolve\n`;
+                                const yamlString = `  - IP-CIDR6,${cidrNumber},no-resolve\n`
+                                fs.appendFileSync(`./data/${name}/CIDR.${name}.list`, asnInfo, { encoding: 'utf8' });
+                                fs.appendFileSync(`./data/${name}/CIDR.${name}.yaml`, yamlString, { encoding: 'utf8' });
+                                logger.info(`处理 CIDR6 #${index6 + 1}: ${cidrNumber}`);
+                            }
                         }
+                    } catch (error) {
+                        logger.error('请求 CIDR 数据失败:', error);
                     }
-                } catch (error) {
-                    logger.error('请求 CIDR 数据失败:', error);
                 }
             }
         }
