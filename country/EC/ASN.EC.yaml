@@ -1,12 +1,12 @@
 # EC 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-15 00:11:42
+# 最后更新： CST 2025-03-16 00:10:09
 # ASN: 210
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,27947,no-resolve
-  - IP-ASN,22724,no-resolve
   - IP-ASN,19114,no-resolve
+  - IP-ASN,22724,no-resolve
   - IP-ASN,263238,no-resolve
   - IP-ASN,61468,no-resolve
   - IP-ASN,14522,no-resolve
@@ -23,6 +23,7 @@ payload:
   - IP-ASN,264668,no-resolve
   - IP-ASN,52274,no-resolve
   - IP-ASN,269831,no-resolve
+  - IP-ASN,267931,no-resolve
   - IP-ASN,264851,no-resolve
   - IP-ASN,264836,no-resolve
   - IP-ASN,264746,no-resolve
@@ -166,7 +167,6 @@ payload:
   - IP-ASN,269790,no-resolve
   - IP-ASN,269761,no-resolve
   - IP-ASN,269728,no-resolve
-  - IP-ASN,267931,no-resolve
   - IP-ASN,267924,no-resolve
   - IP-ASN,267916,no-resolve
   - IP-ASN,267787,no-resolve

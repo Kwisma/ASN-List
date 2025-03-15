@@ -1,6 +1,6 @@
 # SA 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-15 00:11:42
-# ASN: 157
+# 最后更新： CST 2025-03-16 00:10:09
+# ASN: 158
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -19,10 +19,10 @@ payload:
   - IP-ASN,48695,no-resolve
   - IP-ASN,50999,no-resolve
   - IP-ASN,41176,no-resolve
-  - IP-ASN,58250,no-resolve
   - IP-ASN,42943,no-resolve
   - IP-ASN,29690,no-resolve
   - IP-ASN,60161,no-resolve
+  - IP-ASN,58250,no-resolve
   - IP-ASN,48932,no-resolve
   - IP-ASN,42838,no-resolve
   - IP-ASN,42428,no-resolve
@@ -43,7 +43,6 @@ payload:
   - IP-ASN,203268,no-resolve
   - IP-ASN,202105,no-resolve
   - IP-ASN,201771,no-resolve
-  - IP-ASN,198795,no-resolve
   - IP-ASN,197989,no-resolve
   - IP-ASN,61268,no-resolve
   - IP-ASN,61073,no-resolve
@@ -73,7 +72,6 @@ payload:
   - IP-ASN,42067,no-resolve
   - IP-ASN,42028,no-resolve
   - IP-ASN,35681,no-resolve
-  - IP-ASN,35629,no-resolve
   - IP-ASN,35338,no-resolve
   - IP-ASN,3311,no-resolve
   - IP-ASN,31699,no-resolve
@@ -91,8 +89,10 @@ payload:
   - IP-ASN,203116,no-resolve
   - IP-ASN,201484,no-resolve
   - IP-ASN,200025,no-resolve
+  - IP-ASN,198795,no-resolve
   - IP-ASN,198406,no-resolve
   - IP-ASN,62452,no-resolve
+  - IP-ASN,62415,no-resolve
   - IP-ASN,61398,no-resolve
   - IP-ASN,60621,no-resolve
   - IP-ASN,58277,no-resolve
@@ -118,6 +118,7 @@ payload:
   - IP-ASN,39891,no-resolve
   - IP-ASN,39370,no-resolve
   - IP-ASN,39064,no-resolve
+  - IP-ASN,35629,no-resolve
   - IP-ASN,35427,no-resolve
   - IP-ASN,34426,no-resolve
   - IP-ASN,34400,no-resolve
