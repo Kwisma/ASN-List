@@ -6,8 +6,8 @@ data 目录ASN如下：
 - ASN-Telegram null
 - ASN-Tor null
 - ASN-Twitter null
-- ASN-Facebook null
 - ASN-Netflix null
+- ASN-Facebook null
 - ASN-Microsoft null
 - ASN-Fastly null
 - ASN-Cloudflare null
@@ -30,8 +30,8 @@ rules:
   - RULE-SET,ASNTelegram,Proxy
   - RULE-SET,ASNTor,Proxy
   - RULE-SET,ASNTwitter,Proxy
-  - RULE-SET,ASNFacebook,Proxy
   - RULE-SET,ASNNetflix,Proxy
+  - RULE-SET,ASNFacebook,Proxy
   - RULE-SET,ASNMicrosoft,Proxy
   - RULE-SET,ASNFastly,Proxy
   - RULE-SET,ASNCloudflare,Proxy
@@ -69,19 +69,19 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNFacebook:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Facebook/ASN.Facebook.yaml"
-    path: ./ruleset/ASN.Facebook.yaml
-    interval: 86400
-    format: yaml
-
   ASNNetflix:
     type: http
     behavior: classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Netflix/ASN.Netflix.yaml"
     path: ./ruleset/ASN.Netflix.yaml
+    interval: 86400
+    format: yaml
+
+  ASNFacebook:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Facebook/ASN.Facebook.yaml"
+    path: ./ruleset/ASN.Facebook.yaml
     interval: 86400
     format: yaml
 
@@ -147,15 +147,15 @@ rule-providers:
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Twitter/ASN.Twitter.yaml"
     path: ./ruleset/ASN.Twitter.yaml
 
-  ASNFacebook:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Facebook/ASN.Facebook.yaml"
-    path: ./ruleset/ASN.Facebook.yaml
-
   ASNNetflix:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Netflix/ASN.Netflix.yaml"
     path: ./ruleset/ASN.Netflix.yaml
+
+  ASNFacebook:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Facebook/ASN.Facebook.yaml"
+    path: ./ruleset/ASN.Facebook.yaml
 
   ASNMicrosoft:
     <<: *classical
