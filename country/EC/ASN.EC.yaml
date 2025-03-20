@@ -1,5 +1,5 @@
 # EC 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-20 00:12:23
+# 最后更新： CST 2025-03-21 00:12:43
 # ASN: 210
 # 由 Kwisma 制作，保留所有权利。
 
@@ -9,8 +9,8 @@ payload:
   - IP-ASN,22724,no-resolve
   - IP-ASN,263238,no-resolve
   - IP-ASN,61468,no-resolve
-  - IP-ASN,14522,no-resolve
   - IP-ASN,267699,no-resolve
+  - IP-ASN,14522,no-resolve
   - IP-ASN,23487,no-resolve
   - IP-ASN,23031,no-resolve
   - IP-ASN,26613,no-resolve
@@ -18,10 +18,10 @@ payload:
   - IP-ASN,28006,no-resolve
   - IP-ASN,265629,no-resolve
   - IP-ASN,271936,no-resolve
-  - IP-ASN,271929,no-resolve
   - IP-ASN,264788,no-resolve
   - IP-ASN,264668,no-resolve
   - IP-ASN,52274,no-resolve
+  - IP-ASN,271929,no-resolve
   - IP-ASN,269831,no-resolve
   - IP-ASN,264851,no-resolve
   - IP-ASN,264836,no-resolve
@@ -43,13 +43,14 @@ payload:
   - IP-ASN,263792,no-resolve
   - IP-ASN,52458,no-resolve
   - IP-ASN,52345,no-resolve
-  - IP-ASN,52331,no-resolve
   - IP-ASN,52238,no-resolve
   - IP-ASN,28025,no-resolve
   - IP-ASN,27998,no-resolve
   - IP-ASN,27902,no-resolve
   - IP-ASN,27784,no-resolve
   - IP-ASN,273233,no-resolve
+  - IP-ASN,273163,no-resolve
+  - IP-ASN,273140,no-resolve
   - IP-ASN,273081,no-resolve
   - IP-ASN,273035,no-resolve
   - IP-ASN,272877,no-resolve
@@ -91,6 +92,7 @@ payload:
   - IP-ASN,52417,no-resolve
   - IP-ASN,52377,no-resolve
   - IP-ASN,52343,no-resolve
+  - IP-ASN,52331,no-resolve
   - IP-ASN,52257,no-resolve
   - IP-ASN,28058,no-resolve
   - IP-ASN,28027,no-resolve
@@ -112,9 +114,7 @@ payload:
   - IP-ASN,273219,no-resolve
   - IP-ASN,273190,no-resolve
   - IP-ASN,273177,no-resolve
-  - IP-ASN,273163,no-resolve
   - IP-ASN,273141,no-resolve
-  - IP-ASN,273140,no-resolve
   - IP-ASN,273123,no-resolve
   - IP-ASN,273098,no-resolve
   - IP-ASN,273068,no-resolve
@@ -127,6 +127,7 @@ payload:
   - IP-ASN,272914,no-resolve
   - IP-ASN,272910,no-resolve
   - IP-ASN,272889,no-resolve
+  - IP-ASN,272827,no-resolve
   - IP-ASN,272819,no-resolve
   - IP-ASN,272817,no-resolve
   - IP-ASN,272147,no-resolve
@@ -210,7 +211,6 @@ payload:
   - IP-ASN,272972,no-resolve
   - IP-ASN,272966,no-resolve
   - IP-ASN,272890,no-resolve
-  - IP-ASN,272827,no-resolve
   - IP-ASN,272811,no-resolve
   - IP-ASN,272101,no-resolve
   - IP-ASN,266679,no-resolve

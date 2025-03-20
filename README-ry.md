@@ -6,245 +6,245 @@ data 目录是各个服务商的 ASN
 
 country 目录ASN如下：
 
-- ASN-EU European Union
-- ASN-GI Gibraltar
-- ASN-QA Qatar
-- ASN-ZM Zambia
-- ASN-RW Rwanda
-- ASN-LY Libya
-- ASN-NP Nepal
-- ASN-CM Cameroon
-- ASN-BY Belarus
-- ASN-EC Ecuador
-- ASN-BH Bahrain
-- ASN-PT Portugal
-- ASN-LB Lebanon
-- ASN-TN Tunisia
-- ASN-VE Venezuela, Bolivarian Republic of
-- ASN-GN Guinea
-- ASN-KE Kenya
-- ASN-IQ Iraq
-- ASN-IM Isle of Man
-- ASN-AM Armenia
-- ASN-DZ Algeria
-- ASN-SA Saudi Arabia
-- ASN-AL Albania
-- ASN-HR Croatia
-- ASN-HK Hong Kong
-- ASN-SI Slovenia
-- ASN-PA Panama
-- ASN-GR Greece
-- ASN-DK Denmark
-- ASN-NO Norway
-- ASN-PH Philippines
-- ASN-DO Dominican Republic
-- ASN-CZ Czech Republic
-- ASN-KH Cambodia
-- ASN-AE United Arab Emirates
-- ASN-SK Slovakia
-- ASN-MM Myanmar
-- ASN-LU Luxembourg
-- ASN-SG Singapore
-- ASN-RS Serbia
-- ASN-TZ Tanzania, United Republic of
-- ASN-BE Belgium
-- ASN-CO Colombia
-- ASN-PK Pakistan
-- ASN-HN Honduras
-- ASN-CL Chile
-- ASN-ZA South Africa
-- ASN-NG Nigeria
-- ASN-PS Palestine
-- ASN-GE Georgia
-- ASN-BO Bolivia, Plurinational State of
-- ASN-PR Puerto Rico
-- ASN-CG Congo
-- ASN-MT Malta
-- ASN-LV Latvia
-- ASN-CW Curaçao
-- ASN-IL Israel
-- ASN-KZ Kazakhstan
-- ASN-MY Malaysia
-- ASN-LT Lithuania
-- ASN-TW Taiwan
-- ASN-PE Peru
-- ASN-SN Senegal
-- ASN-TH Thailand
-- ASN-GH Ghana
-- ASN-BD Bangladesh
 - ASN-IE Ireland
-- ASN-AR Argentina
-- ASN-ES Spain
-- ASN-SE Sweden
-- ASN-RO Romania
-- ASN-AU Australia
-- ASN-FR France
-- ASN-GB United Kingdom
-- ASN-TD Chad
-- ASN-UG Uganda
-- ASN-BA Bosnia and Herzegovina
-- ASN-MW Malawi
-- ASN-SV El Salvador
-- ASN-BJ Benin
-- ASN-CD Congo, The Democratic Republic of the
-- ASN-MZ Mozambique
-- ASN-ZW Zimbabwe
-- ASN-FI Finland
-- ASN-MX Mexico
-- ASN-CH Switzerland
-- ASN-IN India
-- ASN-RU Russian Federation
-- ASN-PL Poland
-- ASN-DE Germany
-- ASN-ID Indonesia
-- ASN-IT Italy
-- ASN-UA Ukraine
-- ASN-NL Netherlands
-- ASN-JP Japan
-- ASN-TR Turkey
-- ASN-CA Canada
-- ASN-HU Hungary
-- ASN-IR Iran, Islamic Republic of
-- ASN-BG Bulgaria
-- ASN-MD Moldova, Republic of
-- ASN-VN Viet Nam
-- ASN-NZ New Zealand
-- ASN-EG Egypt
-- ASN-EE Estonia
-- ASN-KR Korea, Republic of
-- ASN-CN China
-- ASN-AT Austria
-- ASN-FJ Fiji
+- ASN-PH Philippines
 - ASN-CR Costa Rica
-- ASN-UZ Uzbekistan
-- ASN-CY Cyprus
-- ASN-IS Iceland
-- ASN-AZ Azerbaijan
-- ASN-PY Paraguay
-- ASN-KW Kuwait
-- ASN-AG Antigua and Barbuda
-- ASN-SC Seychelles
-- ASN-AF Afghanistan
-- ASN-HT Haiti
-- ASN-MN Mongolia
+- ASN-TH Thailand
+- ASN-HR Croatia
+- ASN-SA Saudi Arabia
+- ASN-IL Israel
+- ASN-MY Malaysia
+- ASN-FI Finland
+- ASN-EU European Union
+- ASN-CL Chile
+- ASN-PK Pakistan
+- ASN-NO Norway
+- ASN-RO Romania
+- ASN-EC Ecuador
+- ASN-SE Sweden
+- ASN-BE Belgium
+- ASN-LV Latvia
+- ASN-HU Hungary
+- ASN-IT Italy
+- ASN-CZ Czech Republic
+- ASN-SI Slovenia
+- ASN-TR Turkey
 - ASN-GT Guatemala
-- ASN-MO Macao
-- ASN-AO Angola
-- ASN-MK Macedonia, The Former Yugoslav Republic of
-- ASN-VI Virgin Islands, U.S.
-- ASN-JM Jamaica
+- ASN-CY Cyprus
+- ASN-AR Argentina
+- ASN-AM Armenia
+- ASN-KH Cambodia
+- ASN-GH Ghana
+- ASN-KE Kenya
+- ASN-PT Portugal
+- ASN-VE Venezuela, Bolivarian Republic of
+- ASN-NG Nigeria
+- ASN-MD Moldova, Republic of
+- ASN-EE Estonia
+- ASN-GR Greece
+- ASN-AL Albania
+- ASN-TW Taiwan
+- ASN-AZ Azerbaijan
+- ASN-BY Belarus
+- ASN-HN Honduras
+- ASN-PR Puerto Rico
+- ASN-CO Colombia
+- ASN-LT Lithuania
+- ASN-DK Denmark
+- ASN-PY Paraguay
+- ASN-AF Afghanistan
 - ASN-KG Kyrgyzstan
-- ASN-MU Mauritius
-- ASN-SD Sudan
-- ASN-SM San Marino
-- ASN-JO Jordan
-- ASN-BI Burundi
-- ASN-PG Papua New Guinea
-- ASN-VG Virgin Islands, British
-- ASN-GU Guam
-- ASN-LA Lao People's Democratic Republic
-- ASN-GG Guernsey
+- ASN-JP Japan
+- ASN-CH Switzerland
+- ASN-MX Mexico
+- ASN-IN India
+- ASN-BD Bangladesh
+- ASN-GB United Kingdom
+- ASN-FR France
+- ASN-ES Spain
+- ASN-IR Iran, Islamic Republic of
+- ASN-KR Korea, Republic of
+- ASN-ZA South Africa
+- ASN-NZ New Zealand
+- ASN-AU Australia
+- ASN-VN Viet Nam
+- ASN-AT Austria
+- ASN-UA Ukraine
+- ASN-BG Bulgaria
+- ASN-SG Singapore
+- ASN-HK Hong Kong
+- ASN-NL Netherlands
+- ASN-PL Poland
+- ASN-CN China
+- ASN-ID Indonesia
+- ASN-DE Germany
+- ASN-RU Russian Federation
+- ASN-IQ Iraq
+- ASN-CD Congo, The Democratic Republic of the
+- ASN-KZ Kazakhstan
 - ASN-UY Uruguay
-- ASN-NE Niger
+- ASN-RS Serbia
+- ASN-BA Bosnia and Herzegovina
+- ASN-PE Peru
+- ASN-NP Nepal
+- ASN-LB Lebanon
+- ASN-DO Dominican Republic
+- ASN-VG Virgin Islands, British
+- ASN-AE United Arab Emirates
+- ASN-PA Panama
 - ASN-BZ Belize
-- ASN-ET Ethiopia
+- ASN-MM Myanmar
 - ASN-BW Botswana
 - ASN-BT Bhutan
-- ASN-SR Suriname
-- ASN-NI Nicaragua
-- ASN-TJ Tajikistan
-- ASN-BF Burkina Faso
-- ASN-LC Saint Lucia
-- ASN-DM Dominica
+- ASN-GE Georgia
+- ASN-RW Rwanda
+- ASN-TN Tunisia
 - ASN-MA Morocco
 - ASN-LK Sri Lanka
-- ASN-BR Brazil
-- ASN-UK United Kingdom
-- ASN-KP Korea, Democratic People's Republic of
-- ASN-MH Marshall Islands
-- ASN-GY Guyana
-- ASN-MQ Martinique
-- ASN-YE Yemen
-- ASN-CI Côte d'Ivoire
+- ASN-LU Luxembourg
 - ASN-ME Montenegro
-- ASN-PF French Polynesia
-- ASN-SS South Sudan
-- ASN-MF Saint Martin (French part)
-- ASN-LI Liechtenstein
-- ASN-TO Tonga
-- ASN-NR Nauru
-- ASN-SO Somalia
-- ASN-DJ Djibouti
-- ASN-VA Holy See (Vatican City State)
-- ASN-SL Sierra Leone
-- ASN-VC Saint Vincent and the Grenadines
-- ASN-BL Saint Barthélemy
-- ASN-AI Anguilla
-- ASN-BM Bermuda
-- ASN-PW Palau
-- ASN-SX Sint Maarten (Dutch part)
-- ASN-KI Kiribati
+- ASN-SC Seychelles
+- ASN-TZ Tanzania, United Republic of
 - ASN-OM Oman
-- ASN-TK Tokelau
-- ASN-TC Turks and Caicos Islands
-- ASN-MV Maldives
-- ASN-NC New Caledonia
-- ASN-NA Namibia
-- ASN-AS American Samoa
-- ASN-LR Liberia
-- ASN-CK Cook Islands
+- ASN-BM Bermuda
+- ASN-EG Egypt
+- ASN-BO Bolivia, Plurinational State of
+- ASN-MN Mongolia
+- ASN-TD Chad
+- ASN-UZ Uzbekistan
+- ASN-IS Iceland
+- ASN-BJ Benin
+- ASN-SN Senegal
+- ASN-CG Congo
+- ASN-KW Kuwait
 - ASN-GA Gabon
-- ASN-KY Cayman Islands
-- ASN-KM Comoros
-- ASN-MP Northern Mariana Islands
-- ASN-PM Saint Pierre and Miquelon
-- ASN-TT Trinidad and Tobago
-- ASN-AP 
 - ASN-SZ Swaziland
-- ASN-NU Niue
-- ASN-VU Vanuatu
-- ASN-TL Timor-Leste
+- ASN-UG Uganda
+- ASN-MV Maldives
+- ASN-NA Namibia
+- ASN-AG Antigua and Barbuda
+- ASN-SV El Salvador
+- ASN-KY Cayman Islands
+- ASN-MT Malta
+- ASN-SD Sudan
+- ASN-SM San Marino
+- ASN-MZ Mozambique
+- ASN-JO Jordan
+- ASN-JM Jamaica
+- ASN-VI Virgin Islands, U.S.
+- ASN-PG Papua New Guinea
+- ASN-ZW Zimbabwe
+- ASN-CM Cameroon
+- ASN-CA Canada
+- ASN-PS Palestine
+- ASN-AO Angola
+- ASN-MK Macedonia, The Former Yugoslav Republic of
+- ASN-MU Mauritius
+- ASN-SK Slovakia
+- ASN-BR Brazil
+- ASN-TT Trinidad and Tobago
+- ASN-MF Saint Martin (French part)
+- ASN-PF French Polynesia
+- ASN-FJ Fiji
+- ASN-FM Micronesia, Federated States of
+- ASN-LR Liberia
+- ASN-TO Tonga
+- ASN-BQ Bonaire, Sint Eustatius and Saba
+- ASN-HT Haiti
+- ASN-PW Palau
+- ASN-NR Nauru
+- ASN-AI Anguilla
+- ASN-MO Macao
 - ASN-BS Bahamas
-- ASN-JE Jersey
-- ASN-GD Grenada
-- ASN-WS Samoa
-- ASN-LS Lesotho
-- ASN-ML Mali
-- ASN-TG Togo
+- ASN-KI Kiribati
+- ASN-VU Vanuatu
+- ASN-BL Saint Barthélemy
+- ASN-TK Tokelau
+- ASN-GG Guernsey
+- ASN-TL Timor-Leste
 - ASN-MG Madagascar
-- ASN-MR Mauritania
-- ASN-CV Cape Verde
-- ASN-RE RÉUNION
-- ASN-FO Faroe Islands
-- ASN-GP Guadeloupe
+- ASN-AS American Samoa
 - ASN-SB Solomon Islands
-- ASN-GM Gambia
-- ASN-BB Barbados
+- ASN-WS Samoa
+- ASN-NF Norfolk Island
 - ASN-BN Brunei Darussalam
-- ASN-KN Saint Kitts and Nevis
+- ASN-ML Mali
+- ASN-TC Turks and Caicos Islands
+- ASN-MP Northern Mariana Islands
+- ASN-UK United Kingdom
+- ASN-BB Barbados
+- ASN-LS Lesotho
+- ASN-TG Togo
+- ASN-GD Grenada
+- ASN-GW Guinea-Bissau
+- ASN-PM Saint Pierre and Miquelon
+- ASN-NU Niue
 - ASN-GQ Equatorial Guinea
+- ASN-KP Korea, Democratic People's Republic of
+- ASN-BF Burkina Faso
+- ASN-CW Curaçao
+- ASN-NI Nicaragua
+- ASN-MW Malawi
+- ASN-JE Jersey
+- ASN-GM Gambia
+- ASN-GU Guam
+- ASN-BI Burundi
+- ASN-LA Lao People's Democratic Republic
+- ASN-TJ Tajikistan
+- ASN-GI Gibraltar
+- ASN-FO Faroe Islands
+- ASN-RE RÉUNION
+- ASN-LY Libya
+- ASN-NE Niger
+- ASN-MR Mauritania
+- ASN-BH Bahrain
+- ASN-CI Côte d'Ivoire
+- ASN-CV Cape Verde
+- ASN-SR Suriname
+- ASN-ZM Zambia
+- ASN-IM Isle of Man
+- ASN-LI Liechtenstein
+- ASN-SO Somalia
+- ASN-ET Ethiopia
+- ASN-KN Saint Kitts and Nevis
+- ASN-SS South Sudan
+- ASN-QA Qatar
+- ASN-LC Saint Lucia
+- ASN-SL Sierra Leone
+- ASN-GY Guyana
+- ASN-DZ Algeria
+- ASN-NC New Caledonia
+- ASN-GN Guinea
+- ASN-MQ Martinique
+- ASN-GP Guadeloupe
+- ASN-MH Marshall Islands
+- ASN-YE Yemen
+- ASN-DM Dominica
+- ASN-TM Turkmenistan
+- ASN-DJ Djibouti
+- ASN-SX Sint Maarten (Dutch part)
+- ASN-GF French Guiana
+- ASN-CF Central African Republic
+- ASN-VC Saint Vincent and the Grenadines
 - ASN-CU Cuba
 - ASN-SY Syrian Arab Republic
-- ASN-TM Turkmenistan
-- ASN-GF French Guiana
-- ASN-FM Micronesia, Federated States of
-- ASN-BQ Bonaire, Sint Eustatius and Saba
 - ASN-AW Aruba
-- ASN-TV Tuvalu
-- ASN-CF Central African Republic
-- ASN-MC Monaco
-- ASN-AD Andorra
+- ASN-VA Holy See (Vatican City State)
+- ASN-CK Cook Islands
 - ASN-ST Sao Tome and Principe
+- ASN-TV Tuvalu
+- ASN-AD Andorra
+- ASN-KM Comoros
+- ASN-MC Monaco
 - ASN-IO British Indian Ocean Territory
-- ASN-NF Norfolk Island
-- ASN-FK Falkland Islands (Malvinas)
-- ASN-GW Guinea-Bissau
-- ASN-GL Greenland
 - ASN-YT Mayotte
 - ASN-WF Wallis and Futuna
+- ASN-AP 
+- ASN-FK Falkland Islands (Malvinas)
 - ASN-MS Montserrat
-- ASN-AN Netherlands Antilles
 - ASN-AX Åland Islands
+- ASN-GL Greenland
+- ASN-AN Netherlands Antilles
 - ASN-ER Eritrea
 - ASN-US United States
 
@@ -259,245 +259,245 @@ country 目录ASN如下：
 
 <pre><code class="language-javascript">
 rules:
-  - RULE-SET,ASNEU,Proxy
-  - RULE-SET,ASNGI,Proxy
-  - RULE-SET,ASNQA,Proxy
-  - RULE-SET,ASNZM,Proxy
-  - RULE-SET,ASNRW,Proxy
-  - RULE-SET,ASNLY,Proxy
-  - RULE-SET,ASNNP,Proxy
-  - RULE-SET,ASNCM,Proxy
-  - RULE-SET,ASNBY,Proxy
-  - RULE-SET,ASNEC,Proxy
-  - RULE-SET,ASNBH,Proxy
-  - RULE-SET,ASNPT,Proxy
-  - RULE-SET,ASNLB,Proxy
-  - RULE-SET,ASNTN,Proxy
-  - RULE-SET,ASNVE,Proxy
-  - RULE-SET,ASNGN,Proxy
-  - RULE-SET,ASNKE,Proxy
-  - RULE-SET,ASNIQ,Proxy
-  - RULE-SET,ASNIM,Proxy
-  - RULE-SET,ASNAM,Proxy
-  - RULE-SET,ASNDZ,Proxy
-  - RULE-SET,ASNSA,Proxy
-  - RULE-SET,ASNAL,Proxy
-  - RULE-SET,ASNHR,Proxy
-  - RULE-SET,ASNHK,Proxy
-  - RULE-SET,ASNSI,Proxy
-  - RULE-SET,ASNPA,Proxy
-  - RULE-SET,ASNGR,Proxy
-  - RULE-SET,ASNDK,Proxy
-  - RULE-SET,ASNNO,Proxy
-  - RULE-SET,ASNPH,Proxy
-  - RULE-SET,ASNDO,Proxy
-  - RULE-SET,ASNCZ,Proxy
-  - RULE-SET,ASNKH,Proxy
-  - RULE-SET,ASNAE,Proxy
-  - RULE-SET,ASNSK,Proxy
-  - RULE-SET,ASNMM,Proxy
-  - RULE-SET,ASNLU,Proxy
-  - RULE-SET,ASNSG,Proxy
-  - RULE-SET,ASNRS,Proxy
-  - RULE-SET,ASNTZ,Proxy
-  - RULE-SET,ASNBE,Proxy
-  - RULE-SET,ASNCO,Proxy
-  - RULE-SET,ASNPK,Proxy
-  - RULE-SET,ASNHN,Proxy
-  - RULE-SET,ASNCL,Proxy
-  - RULE-SET,ASNZA,Proxy
-  - RULE-SET,ASNNG,Proxy
-  - RULE-SET,ASNPS,Proxy
-  - RULE-SET,ASNGE,Proxy
-  - RULE-SET,ASNBO,Proxy
-  - RULE-SET,ASNPR,Proxy
-  - RULE-SET,ASNCG,Proxy
-  - RULE-SET,ASNMT,Proxy
-  - RULE-SET,ASNLV,Proxy
-  - RULE-SET,ASNCW,Proxy
-  - RULE-SET,ASNIL,Proxy
-  - RULE-SET,ASNKZ,Proxy
-  - RULE-SET,ASNMY,Proxy
-  - RULE-SET,ASNLT,Proxy
-  - RULE-SET,ASNTW,Proxy
-  - RULE-SET,ASNPE,Proxy
-  - RULE-SET,ASNSN,Proxy
-  - RULE-SET,ASNTH,Proxy
-  - RULE-SET,ASNGH,Proxy
-  - RULE-SET,ASNBD,Proxy
   - RULE-SET,ASNIE,Proxy
-  - RULE-SET,ASNAR,Proxy
-  - RULE-SET,ASNES,Proxy
-  - RULE-SET,ASNSE,Proxy
-  - RULE-SET,ASNRO,Proxy
-  - RULE-SET,ASNAU,Proxy
-  - RULE-SET,ASNFR,Proxy
-  - RULE-SET,ASNGB,Proxy
-  - RULE-SET,ASNTD,Proxy
-  - RULE-SET,ASNUG,Proxy
-  - RULE-SET,ASNBA,Proxy
-  - RULE-SET,ASNMW,Proxy
-  - RULE-SET,ASNSV,Proxy
-  - RULE-SET,ASNBJ,Proxy
-  - RULE-SET,ASNCD,Proxy
-  - RULE-SET,ASNMZ,Proxy
-  - RULE-SET,ASNZW,Proxy
-  - RULE-SET,ASNFI,Proxy
-  - RULE-SET,ASNMX,Proxy
-  - RULE-SET,ASNCH,Proxy
-  - RULE-SET,ASNIN,Proxy
-  - RULE-SET,ASNRU,Proxy
-  - RULE-SET,ASNPL,Proxy
-  - RULE-SET,ASNDE,Proxy
-  - RULE-SET,ASNID,Proxy
-  - RULE-SET,ASNIT,Proxy
-  - RULE-SET,ASNUA,Proxy
-  - RULE-SET,ASNNL,Proxy
-  - RULE-SET,ASNJP,Proxy
-  - RULE-SET,ASNTR,Proxy
-  - RULE-SET,ASNCA,Proxy
-  - RULE-SET,ASNHU,Proxy
-  - RULE-SET,ASNIR,Proxy
-  - RULE-SET,ASNBG,Proxy
-  - RULE-SET,ASNMD,Proxy
-  - RULE-SET,ASNVN,Proxy
-  - RULE-SET,ASNNZ,Proxy
-  - RULE-SET,ASNEG,Proxy
-  - RULE-SET,ASNEE,Proxy
-  - RULE-SET,ASNKR,Proxy
-  - RULE-SET,ASNCN,Proxy
-  - RULE-SET,ASNAT,Proxy
-  - RULE-SET,ASNFJ,Proxy
+  - RULE-SET,ASNPH,Proxy
   - RULE-SET,ASNCR,Proxy
-  - RULE-SET,ASNUZ,Proxy
-  - RULE-SET,ASNCY,Proxy
-  - RULE-SET,ASNIS,Proxy
-  - RULE-SET,ASNAZ,Proxy
-  - RULE-SET,ASNPY,Proxy
-  - RULE-SET,ASNKW,Proxy
-  - RULE-SET,ASNAG,Proxy
-  - RULE-SET,ASNSC,Proxy
-  - RULE-SET,ASNAF,Proxy
-  - RULE-SET,ASNHT,Proxy
-  - RULE-SET,ASNMN,Proxy
+  - RULE-SET,ASNTH,Proxy
+  - RULE-SET,ASNHR,Proxy
+  - RULE-SET,ASNSA,Proxy
+  - RULE-SET,ASNIL,Proxy
+  - RULE-SET,ASNMY,Proxy
+  - RULE-SET,ASNFI,Proxy
+  - RULE-SET,ASNEU,Proxy
+  - RULE-SET,ASNCL,Proxy
+  - RULE-SET,ASNPK,Proxy
+  - RULE-SET,ASNNO,Proxy
+  - RULE-SET,ASNRO,Proxy
+  - RULE-SET,ASNEC,Proxy
+  - RULE-SET,ASNSE,Proxy
+  - RULE-SET,ASNBE,Proxy
+  - RULE-SET,ASNLV,Proxy
+  - RULE-SET,ASNHU,Proxy
+  - RULE-SET,ASNIT,Proxy
+  - RULE-SET,ASNCZ,Proxy
+  - RULE-SET,ASNSI,Proxy
+  - RULE-SET,ASNTR,Proxy
   - RULE-SET,ASNGT,Proxy
-  - RULE-SET,ASNMO,Proxy
-  - RULE-SET,ASNAO,Proxy
-  - RULE-SET,ASNMK,Proxy
-  - RULE-SET,ASNVI,Proxy
-  - RULE-SET,ASNJM,Proxy
+  - RULE-SET,ASNCY,Proxy
+  - RULE-SET,ASNAR,Proxy
+  - RULE-SET,ASNAM,Proxy
+  - RULE-SET,ASNKH,Proxy
+  - RULE-SET,ASNGH,Proxy
+  - RULE-SET,ASNKE,Proxy
+  - RULE-SET,ASNPT,Proxy
+  - RULE-SET,ASNVE,Proxy
+  - RULE-SET,ASNNG,Proxy
+  - RULE-SET,ASNMD,Proxy
+  - RULE-SET,ASNEE,Proxy
+  - RULE-SET,ASNGR,Proxy
+  - RULE-SET,ASNAL,Proxy
+  - RULE-SET,ASNTW,Proxy
+  - RULE-SET,ASNAZ,Proxy
+  - RULE-SET,ASNBY,Proxy
+  - RULE-SET,ASNHN,Proxy
+  - RULE-SET,ASNPR,Proxy
+  - RULE-SET,ASNCO,Proxy
+  - RULE-SET,ASNLT,Proxy
+  - RULE-SET,ASNDK,Proxy
+  - RULE-SET,ASNPY,Proxy
+  - RULE-SET,ASNAF,Proxy
   - RULE-SET,ASNKG,Proxy
-  - RULE-SET,ASNMU,Proxy
-  - RULE-SET,ASNSD,Proxy
-  - RULE-SET,ASNSM,Proxy
-  - RULE-SET,ASNJO,Proxy
-  - RULE-SET,ASNBI,Proxy
-  - RULE-SET,ASNPG,Proxy
-  - RULE-SET,ASNVG,Proxy
-  - RULE-SET,ASNGU,Proxy
-  - RULE-SET,ASNLA,Proxy
-  - RULE-SET,ASNGG,Proxy
+  - RULE-SET,ASNJP,Proxy
+  - RULE-SET,ASNCH,Proxy
+  - RULE-SET,ASNMX,Proxy
+  - RULE-SET,ASNIN,Proxy
+  - RULE-SET,ASNBD,Proxy
+  - RULE-SET,ASNGB,Proxy
+  - RULE-SET,ASNFR,Proxy
+  - RULE-SET,ASNES,Proxy
+  - RULE-SET,ASNIR,Proxy
+  - RULE-SET,ASNKR,Proxy
+  - RULE-SET,ASNZA,Proxy
+  - RULE-SET,ASNNZ,Proxy
+  - RULE-SET,ASNAU,Proxy
+  - RULE-SET,ASNVN,Proxy
+  - RULE-SET,ASNAT,Proxy
+  - RULE-SET,ASNUA,Proxy
+  - RULE-SET,ASNBG,Proxy
+  - RULE-SET,ASNSG,Proxy
+  - RULE-SET,ASNHK,Proxy
+  - RULE-SET,ASNNL,Proxy
+  - RULE-SET,ASNPL,Proxy
+  - RULE-SET,ASNCN,Proxy
+  - RULE-SET,ASNID,Proxy
+  - RULE-SET,ASNDE,Proxy
+  - RULE-SET,ASNRU,Proxy
+  - RULE-SET,ASNIQ,Proxy
+  - RULE-SET,ASNCD,Proxy
+  - RULE-SET,ASNKZ,Proxy
   - RULE-SET,ASNUY,Proxy
-  - RULE-SET,ASNNE,Proxy
+  - RULE-SET,ASNRS,Proxy
+  - RULE-SET,ASNBA,Proxy
+  - RULE-SET,ASNPE,Proxy
+  - RULE-SET,ASNNP,Proxy
+  - RULE-SET,ASNLB,Proxy
+  - RULE-SET,ASNDO,Proxy
+  - RULE-SET,ASNVG,Proxy
+  - RULE-SET,ASNAE,Proxy
+  - RULE-SET,ASNPA,Proxy
   - RULE-SET,ASNBZ,Proxy
-  - RULE-SET,ASNET,Proxy
+  - RULE-SET,ASNMM,Proxy
   - RULE-SET,ASNBW,Proxy
   - RULE-SET,ASNBT,Proxy
-  - RULE-SET,ASNSR,Proxy
-  - RULE-SET,ASNNI,Proxy
-  - RULE-SET,ASNTJ,Proxy
-  - RULE-SET,ASNBF,Proxy
-  - RULE-SET,ASNLC,Proxy
-  - RULE-SET,ASNDM,Proxy
+  - RULE-SET,ASNGE,Proxy
+  - RULE-SET,ASNRW,Proxy
+  - RULE-SET,ASNTN,Proxy
   - RULE-SET,ASNMA,Proxy
   - RULE-SET,ASNLK,Proxy
-  - RULE-SET,ASNBR,Proxy
-  - RULE-SET,ASNUK,Proxy
-  - RULE-SET,ASNKP,Proxy
-  - RULE-SET,ASNMH,Proxy
-  - RULE-SET,ASNGY,Proxy
-  - RULE-SET,ASNMQ,Proxy
-  - RULE-SET,ASNYE,Proxy
-  - RULE-SET,ASNCI,Proxy
+  - RULE-SET,ASNLU,Proxy
   - RULE-SET,ASNME,Proxy
-  - RULE-SET,ASNPF,Proxy
-  - RULE-SET,ASNSS,Proxy
-  - RULE-SET,ASNMF,Proxy
-  - RULE-SET,ASNLI,Proxy
-  - RULE-SET,ASNTO,Proxy
-  - RULE-SET,ASNNR,Proxy
-  - RULE-SET,ASNSO,Proxy
-  - RULE-SET,ASNDJ,Proxy
-  - RULE-SET,ASNVA,Proxy
-  - RULE-SET,ASNSL,Proxy
-  - RULE-SET,ASNVC,Proxy
-  - RULE-SET,ASNBL,Proxy
-  - RULE-SET,ASNAI,Proxy
-  - RULE-SET,ASNBM,Proxy
-  - RULE-SET,ASNPW,Proxy
-  - RULE-SET,ASNSX,Proxy
-  - RULE-SET,ASNKI,Proxy
+  - RULE-SET,ASNSC,Proxy
+  - RULE-SET,ASNTZ,Proxy
   - RULE-SET,ASNOM,Proxy
-  - RULE-SET,ASNTK,Proxy
-  - RULE-SET,ASNTC,Proxy
-  - RULE-SET,ASNMV,Proxy
-  - RULE-SET,ASNNC,Proxy
-  - RULE-SET,ASNNA,Proxy
-  - RULE-SET,ASNAS,Proxy
-  - RULE-SET,ASNLR,Proxy
-  - RULE-SET,ASNCK,Proxy
+  - RULE-SET,ASNBM,Proxy
+  - RULE-SET,ASNEG,Proxy
+  - RULE-SET,ASNBO,Proxy
+  - RULE-SET,ASNMN,Proxy
+  - RULE-SET,ASNTD,Proxy
+  - RULE-SET,ASNUZ,Proxy
+  - RULE-SET,ASNIS,Proxy
+  - RULE-SET,ASNBJ,Proxy
+  - RULE-SET,ASNSN,Proxy
+  - RULE-SET,ASNCG,Proxy
+  - RULE-SET,ASNKW,Proxy
   - RULE-SET,ASNGA,Proxy
-  - RULE-SET,ASNKY,Proxy
-  - RULE-SET,ASNKM,Proxy
-  - RULE-SET,ASNMP,Proxy
-  - RULE-SET,ASNPM,Proxy
-  - RULE-SET,ASNTT,Proxy
-  - RULE-SET,ASNAP,Proxy
   - RULE-SET,ASNSZ,Proxy
-  - RULE-SET,ASNNU,Proxy
-  - RULE-SET,ASNVU,Proxy
-  - RULE-SET,ASNTL,Proxy
+  - RULE-SET,ASNUG,Proxy
+  - RULE-SET,ASNMV,Proxy
+  - RULE-SET,ASNNA,Proxy
+  - RULE-SET,ASNAG,Proxy
+  - RULE-SET,ASNSV,Proxy
+  - RULE-SET,ASNKY,Proxy
+  - RULE-SET,ASNMT,Proxy
+  - RULE-SET,ASNSD,Proxy
+  - RULE-SET,ASNSM,Proxy
+  - RULE-SET,ASNMZ,Proxy
+  - RULE-SET,ASNJO,Proxy
+  - RULE-SET,ASNJM,Proxy
+  - RULE-SET,ASNVI,Proxy
+  - RULE-SET,ASNPG,Proxy
+  - RULE-SET,ASNZW,Proxy
+  - RULE-SET,ASNCM,Proxy
+  - RULE-SET,ASNCA,Proxy
+  - RULE-SET,ASNPS,Proxy
+  - RULE-SET,ASNAO,Proxy
+  - RULE-SET,ASNMK,Proxy
+  - RULE-SET,ASNMU,Proxy
+  - RULE-SET,ASNSK,Proxy
+  - RULE-SET,ASNBR,Proxy
+  - RULE-SET,ASNTT,Proxy
+  - RULE-SET,ASNMF,Proxy
+  - RULE-SET,ASNPF,Proxy
+  - RULE-SET,ASNFJ,Proxy
+  - RULE-SET,ASNFM,Proxy
+  - RULE-SET,ASNLR,Proxy
+  - RULE-SET,ASNTO,Proxy
+  - RULE-SET,ASNBQ,Proxy
+  - RULE-SET,ASNHT,Proxy
+  - RULE-SET,ASNPW,Proxy
+  - RULE-SET,ASNNR,Proxy
+  - RULE-SET,ASNAI,Proxy
+  - RULE-SET,ASNMO,Proxy
   - RULE-SET,ASNBS,Proxy
-  - RULE-SET,ASNJE,Proxy
-  - RULE-SET,ASNGD,Proxy
-  - RULE-SET,ASNWS,Proxy
-  - RULE-SET,ASNLS,Proxy
-  - RULE-SET,ASNML,Proxy
-  - RULE-SET,ASNTG,Proxy
+  - RULE-SET,ASNKI,Proxy
+  - RULE-SET,ASNVU,Proxy
+  - RULE-SET,ASNBL,Proxy
+  - RULE-SET,ASNTK,Proxy
+  - RULE-SET,ASNGG,Proxy
+  - RULE-SET,ASNTL,Proxy
   - RULE-SET,ASNMG,Proxy
-  - RULE-SET,ASNMR,Proxy
-  - RULE-SET,ASNCV,Proxy
-  - RULE-SET,ASNRE,Proxy
-  - RULE-SET,ASNFO,Proxy
-  - RULE-SET,ASNGP,Proxy
+  - RULE-SET,ASNAS,Proxy
   - RULE-SET,ASNSB,Proxy
-  - RULE-SET,ASNGM,Proxy
-  - RULE-SET,ASNBB,Proxy
+  - RULE-SET,ASNWS,Proxy
+  - RULE-SET,ASNNF,Proxy
   - RULE-SET,ASNBN,Proxy
-  - RULE-SET,ASNKN,Proxy
+  - RULE-SET,ASNML,Proxy
+  - RULE-SET,ASNTC,Proxy
+  - RULE-SET,ASNMP,Proxy
+  - RULE-SET,ASNUK,Proxy
+  - RULE-SET,ASNBB,Proxy
+  - RULE-SET,ASNLS,Proxy
+  - RULE-SET,ASNTG,Proxy
+  - RULE-SET,ASNGD,Proxy
+  - RULE-SET,ASNGW,Proxy
+  - RULE-SET,ASNPM,Proxy
+  - RULE-SET,ASNNU,Proxy
   - RULE-SET,ASNGQ,Proxy
+  - RULE-SET,ASNKP,Proxy
+  - RULE-SET,ASNBF,Proxy
+  - RULE-SET,ASNCW,Proxy
+  - RULE-SET,ASNNI,Proxy
+  - RULE-SET,ASNMW,Proxy
+  - RULE-SET,ASNJE,Proxy
+  - RULE-SET,ASNGM,Proxy
+  - RULE-SET,ASNGU,Proxy
+  - RULE-SET,ASNBI,Proxy
+  - RULE-SET,ASNLA,Proxy
+  - RULE-SET,ASNTJ,Proxy
+  - RULE-SET,ASNGI,Proxy
+  - RULE-SET,ASNFO,Proxy
+  - RULE-SET,ASNRE,Proxy
+  - RULE-SET,ASNLY,Proxy
+  - RULE-SET,ASNNE,Proxy
+  - RULE-SET,ASNMR,Proxy
+  - RULE-SET,ASNBH,Proxy
+  - RULE-SET,ASNCI,Proxy
+  - RULE-SET,ASNCV,Proxy
+  - RULE-SET,ASNSR,Proxy
+  - RULE-SET,ASNZM,Proxy
+  - RULE-SET,ASNIM,Proxy
+  - RULE-SET,ASNLI,Proxy
+  - RULE-SET,ASNSO,Proxy
+  - RULE-SET,ASNET,Proxy
+  - RULE-SET,ASNKN,Proxy
+  - RULE-SET,ASNSS,Proxy
+  - RULE-SET,ASNQA,Proxy
+  - RULE-SET,ASNLC,Proxy
+  - RULE-SET,ASNSL,Proxy
+  - RULE-SET,ASNGY,Proxy
+  - RULE-SET,ASNDZ,Proxy
+  - RULE-SET,ASNNC,Proxy
+  - RULE-SET,ASNGN,Proxy
+  - RULE-SET,ASNMQ,Proxy
+  - RULE-SET,ASNGP,Proxy
+  - RULE-SET,ASNMH,Proxy
+  - RULE-SET,ASNYE,Proxy
+  - RULE-SET,ASNDM,Proxy
+  - RULE-SET,ASNTM,Proxy
+  - RULE-SET,ASNDJ,Proxy
+  - RULE-SET,ASNSX,Proxy
+  - RULE-SET,ASNGF,Proxy
+  - RULE-SET,ASNCF,Proxy
+  - RULE-SET,ASNVC,Proxy
   - RULE-SET,ASNCU,Proxy
   - RULE-SET,ASNSY,Proxy
-  - RULE-SET,ASNTM,Proxy
-  - RULE-SET,ASNGF,Proxy
-  - RULE-SET,ASNFM,Proxy
-  - RULE-SET,ASNBQ,Proxy
   - RULE-SET,ASNAW,Proxy
-  - RULE-SET,ASNTV,Proxy
-  - RULE-SET,ASNCF,Proxy
-  - RULE-SET,ASNMC,Proxy
-  - RULE-SET,ASNAD,Proxy
+  - RULE-SET,ASNVA,Proxy
+  - RULE-SET,ASNCK,Proxy
   - RULE-SET,ASNST,Proxy
+  - RULE-SET,ASNTV,Proxy
+  - RULE-SET,ASNAD,Proxy
+  - RULE-SET,ASNKM,Proxy
+  - RULE-SET,ASNMC,Proxy
   - RULE-SET,ASNIO,Proxy
-  - RULE-SET,ASNNF,Proxy
-  - RULE-SET,ASNFK,Proxy
-  - RULE-SET,ASNGW,Proxy
-  - RULE-SET,ASNGL,Proxy
   - RULE-SET,ASNYT,Proxy
   - RULE-SET,ASNWF,Proxy
+  - RULE-SET,ASNAP,Proxy
+  - RULE-SET,ASNFK,Proxy
   - RULE-SET,ASNMS,Proxy
-  - RULE-SET,ASNAN,Proxy
   - RULE-SET,ASNAX,Proxy
+  - RULE-SET,ASNGL,Proxy
+  - RULE-SET,ASNAN,Proxy
   - RULE-SET,ASNER,Proxy
   - RULE-SET,ASNUS,Proxy
 
@@ -508,243 +508,11 @@ rules:
 <pre><code class="language-javascript">
 rule-providers:
 
-  ASNEU:
+  ASNIE:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/EU/ASN.EU.yaml"
-    path: ./ruleset/ASN.EU.yaml
-    interval: 86400
-    format: yaml
-
-  ASNGI:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GI/ASN.GI.yaml"
-    path: ./ruleset/ASN.GI.yaml
-    interval: 86400
-    format: yaml
-
-  ASNQA:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/QA/ASN.QA.yaml"
-    path: ./ruleset/ASN.QA.yaml
-    interval: 86400
-    format: yaml
-
-  ASNZM:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ZM/ASN.ZM.yaml"
-    path: ./ruleset/ASN.ZM.yaml
-    interval: 86400
-    format: yaml
-
-  ASNRW:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RW/ASN.RW.yaml"
-    path: ./ruleset/ASN.RW.yaml
-    interval: 86400
-    format: yaml
-
-  ASNLY:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LY/ASN.LY.yaml"
-    path: ./ruleset/ASN.LY.yaml
-    interval: 86400
-    format: yaml
-
-  ASNNP:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NP/ASN.NP.yaml"
-    path: ./ruleset/ASN.NP.yaml
-    interval: 86400
-    format: yaml
-
-  ASNCM:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CM/ASN.CM.yaml"
-    path: ./ruleset/ASN.CM.yaml
-    interval: 86400
-    format: yaml
-
-  ASNBY:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BY/ASN.BY.yaml"
-    path: ./ruleset/ASN.BY.yaml
-    interval: 86400
-    format: yaml
-
-  ASNEC:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/EC/ASN.EC.yaml"
-    path: ./ruleset/ASN.EC.yaml
-    interval: 86400
-    format: yaml
-
-  ASNBH:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BH/ASN.BH.yaml"
-    path: ./ruleset/ASN.BH.yaml
-    interval: 86400
-    format: yaml
-
-  ASNPT:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PT/ASN.PT.yaml"
-    path: ./ruleset/ASN.PT.yaml
-    interval: 86400
-    format: yaml
-
-  ASNLB:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LB/ASN.LB.yaml"
-    path: ./ruleset/ASN.LB.yaml
-    interval: 86400
-    format: yaml
-
-  ASNTN:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TN/ASN.TN.yaml"
-    path: ./ruleset/ASN.TN.yaml
-    interval: 86400
-    format: yaml
-
-  ASNVE:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VE/ASN.VE.yaml"
-    path: ./ruleset/ASN.VE.yaml
-    interval: 86400
-    format: yaml
-
-  ASNGN:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GN/ASN.GN.yaml"
-    path: ./ruleset/ASN.GN.yaml
-    interval: 86400
-    format: yaml
-
-  ASNKE:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KE/ASN.KE.yaml"
-    path: ./ruleset/ASN.KE.yaml
-    interval: 86400
-    format: yaml
-
-  ASNIQ:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IQ/ASN.IQ.yaml"
-    path: ./ruleset/ASN.IQ.yaml
-    interval: 86400
-    format: yaml
-
-  ASNIM:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IM/ASN.IM.yaml"
-    path: ./ruleset/ASN.IM.yaml
-    interval: 86400
-    format: yaml
-
-  ASNAM:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AM/ASN.AM.yaml"
-    path: ./ruleset/ASN.AM.yaml
-    interval: 86400
-    format: yaml
-
-  ASNDZ:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DZ/ASN.DZ.yaml"
-    path: ./ruleset/ASN.DZ.yaml
-    interval: 86400
-    format: yaml
-
-  ASNSA:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SA/ASN.SA.yaml"
-    path: ./ruleset/ASN.SA.yaml
-    interval: 86400
-    format: yaml
-
-  ASNAL:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AL/ASN.AL.yaml"
-    path: ./ruleset/ASN.AL.yaml
-    interval: 86400
-    format: yaml
-
-  ASNHR:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/HR/ASN.HR.yaml"
-    path: ./ruleset/ASN.HR.yaml
-    interval: 86400
-    format: yaml
-
-  ASNHK:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/HK/ASN.HK.yaml"
-    path: ./ruleset/ASN.HK.yaml
-    interval: 86400
-    format: yaml
-
-  ASNSI:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SI/ASN.SI.yaml"
-    path: ./ruleset/ASN.SI.yaml
-    interval: 86400
-    format: yaml
-
-  ASNPA:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PA/ASN.PA.yaml"
-    path: ./ruleset/ASN.PA.yaml
-    interval: 86400
-    format: yaml
-
-  ASNGR:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GR/ASN.GR.yaml"
-    path: ./ruleset/ASN.GR.yaml
-    interval: 86400
-    format: yaml
-
-  ASNDK:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DK/ASN.DK.yaml"
-    path: ./ruleset/ASN.DK.yaml
-    interval: 86400
-    format: yaml
-
-  ASNNO:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NO/ASN.NO.yaml"
-    path: ./ruleset/ASN.NO.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IE/ASN.IE.yaml"
+    path: ./ruleset/ASN.IE.yaml
     interval: 86400
     format: yaml
 
@@ -756,259 +524,11 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNDO:
+  ASNCR:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DO/ASN.DO.yaml"
-    path: ./ruleset/ASN.DO.yaml
-    interval: 86400
-    format: yaml
-
-  ASNCZ:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CZ/ASN.CZ.yaml"
-    path: ./ruleset/ASN.CZ.yaml
-    interval: 86400
-    format: yaml
-
-  ASNKH:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KH/ASN.KH.yaml"
-    path: ./ruleset/ASN.KH.yaml
-    interval: 86400
-    format: yaml
-
-  ASNAE:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AE/ASN.AE.yaml"
-    path: ./ruleset/ASN.AE.yaml
-    interval: 86400
-    format: yaml
-
-  ASNSK:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SK/ASN.SK.yaml"
-    path: ./ruleset/ASN.SK.yaml
-    interval: 86400
-    format: yaml
-
-  ASNMM:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MM/ASN.MM.yaml"
-    path: ./ruleset/ASN.MM.yaml
-    interval: 86400
-    format: yaml
-
-  ASNLU:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LU/ASN.LU.yaml"
-    path: ./ruleset/ASN.LU.yaml
-    interval: 86400
-    format: yaml
-
-  ASNSG:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SG/ASN.SG.yaml"
-    path: ./ruleset/ASN.SG.yaml
-    interval: 86400
-    format: yaml
-
-  ASNRS:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RS/ASN.RS.yaml"
-    path: ./ruleset/ASN.RS.yaml
-    interval: 86400
-    format: yaml
-
-  ASNTZ:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TZ/ASN.TZ.yaml"
-    path: ./ruleset/ASN.TZ.yaml
-    interval: 86400
-    format: yaml
-
-  ASNBE:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BE/ASN.BE.yaml"
-    path: ./ruleset/ASN.BE.yaml
-    interval: 86400
-    format: yaml
-
-  ASNCO:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CO/ASN.CO.yaml"
-    path: ./ruleset/ASN.CO.yaml
-    interval: 86400
-    format: yaml
-
-  ASNPK:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PK/ASN.PK.yaml"
-    path: ./ruleset/ASN.PK.yaml
-    interval: 86400
-    format: yaml
-
-  ASNHN:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/HN/ASN.HN.yaml"
-    path: ./ruleset/ASN.HN.yaml
-    interval: 86400
-    format: yaml
-
-  ASNCL:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CL/ASN.CL.yaml"
-    path: ./ruleset/ASN.CL.yaml
-    interval: 86400
-    format: yaml
-
-  ASNZA:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ZA/ASN.ZA.yaml"
-    path: ./ruleset/ASN.ZA.yaml
-    interval: 86400
-    format: yaml
-
-  ASNNG:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NG/ASN.NG.yaml"
-    path: ./ruleset/ASN.NG.yaml
-    interval: 86400
-    format: yaml
-
-  ASNPS:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PS/ASN.PS.yaml"
-    path: ./ruleset/ASN.PS.yaml
-    interval: 86400
-    format: yaml
-
-  ASNGE:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GE/ASN.GE.yaml"
-    path: ./ruleset/ASN.GE.yaml
-    interval: 86400
-    format: yaml
-
-  ASNBO:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BO/ASN.BO.yaml"
-    path: ./ruleset/ASN.BO.yaml
-    interval: 86400
-    format: yaml
-
-  ASNPR:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PR/ASN.PR.yaml"
-    path: ./ruleset/ASN.PR.yaml
-    interval: 86400
-    format: yaml
-
-  ASNCG:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CG/ASN.CG.yaml"
-    path: ./ruleset/ASN.CG.yaml
-    interval: 86400
-    format: yaml
-
-  ASNMT:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MT/ASN.MT.yaml"
-    path: ./ruleset/ASN.MT.yaml
-    interval: 86400
-    format: yaml
-
-  ASNLV:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LV/ASN.LV.yaml"
-    path: ./ruleset/ASN.LV.yaml
-    interval: 86400
-    format: yaml
-
-  ASNCW:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CW/ASN.CW.yaml"
-    path: ./ruleset/ASN.CW.yaml
-    interval: 86400
-    format: yaml
-
-  ASNIL:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IL/ASN.IL.yaml"
-    path: ./ruleset/ASN.IL.yaml
-    interval: 86400
-    format: yaml
-
-  ASNKZ:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KZ/ASN.KZ.yaml"
-    path: ./ruleset/ASN.KZ.yaml
-    interval: 86400
-    format: yaml
-
-  ASNMY:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MY/ASN.MY.yaml"
-    path: ./ruleset/ASN.MY.yaml
-    interval: 86400
-    format: yaml
-
-  ASNLT:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LT/ASN.LT.yaml"
-    path: ./ruleset/ASN.LT.yaml
-    interval: 86400
-    format: yaml
-
-  ASNTW:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TW/ASN.TW.yaml"
-    path: ./ruleset/ASN.TW.yaml
-    interval: 86400
-    format: yaml
-
-  ASNPE:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PE/ASN.PE.yaml"
-    path: ./ruleset/ASN.PE.yaml
-    interval: 86400
-    format: yaml
-
-  ASNSN:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SN/ASN.SN.yaml"
-    path: ./ruleset/ASN.SN.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CR/ASN.CR.yaml"
+    path: ./ruleset/ASN.CR.yaml
     interval: 86400
     format: yaml
 
@@ -1020,155 +540,35 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNGH:
+  ASNHR:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GH/ASN.GH.yaml"
-    path: ./ruleset/ASN.GH.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/HR/ASN.HR.yaml"
+    path: ./ruleset/ASN.HR.yaml
     interval: 86400
     format: yaml
 
-  ASNBD:
+  ASNSA:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BD/ASN.BD.yaml"
-    path: ./ruleset/ASN.BD.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SA/ASN.SA.yaml"
+    path: ./ruleset/ASN.SA.yaml
     interval: 86400
     format: yaml
 
-  ASNIE:
+  ASNIL:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IE/ASN.IE.yaml"
-    path: ./ruleset/ASN.IE.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IL/ASN.IL.yaml"
+    path: ./ruleset/ASN.IL.yaml
     interval: 86400
     format: yaml
 
-  ASNAR:
+  ASNMY:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AR/ASN.AR.yaml"
-    path: ./ruleset/ASN.AR.yaml
-    interval: 86400
-    format: yaml
-
-  ASNES:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ES/ASN.ES.yaml"
-    path: ./ruleset/ASN.ES.yaml
-    interval: 86400
-    format: yaml
-
-  ASNSE:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SE/ASN.SE.yaml"
-    path: ./ruleset/ASN.SE.yaml
-    interval: 86400
-    format: yaml
-
-  ASNRO:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RO/ASN.RO.yaml"
-    path: ./ruleset/ASN.RO.yaml
-    interval: 86400
-    format: yaml
-
-  ASNAU:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AU/ASN.AU.yaml"
-    path: ./ruleset/ASN.AU.yaml
-    interval: 86400
-    format: yaml
-
-  ASNFR:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FR/ASN.FR.yaml"
-    path: ./ruleset/ASN.FR.yaml
-    interval: 86400
-    format: yaml
-
-  ASNGB:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GB/ASN.GB.yaml"
-    path: ./ruleset/ASN.GB.yaml
-    interval: 86400
-    format: yaml
-
-  ASNTD:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TD/ASN.TD.yaml"
-    path: ./ruleset/ASN.TD.yaml
-    interval: 86400
-    format: yaml
-
-  ASNUG:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/UG/ASN.UG.yaml"
-    path: ./ruleset/ASN.UG.yaml
-    interval: 86400
-    format: yaml
-
-  ASNBA:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BA/ASN.BA.yaml"
-    path: ./ruleset/ASN.BA.yaml
-    interval: 86400
-    format: yaml
-
-  ASNMW:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MW/ASN.MW.yaml"
-    path: ./ruleset/ASN.MW.yaml
-    interval: 86400
-    format: yaml
-
-  ASNSV:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SV/ASN.SV.yaml"
-    path: ./ruleset/ASN.SV.yaml
-    interval: 86400
-    format: yaml
-
-  ASNBJ:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BJ/ASN.BJ.yaml"
-    path: ./ruleset/ASN.BJ.yaml
-    interval: 86400
-    format: yaml
-
-  ASNCD:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CD/ASN.CD.yaml"
-    path: ./ruleset/ASN.CD.yaml
-    interval: 86400
-    format: yaml
-
-  ASNMZ:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MZ/ASN.MZ.yaml"
-    path: ./ruleset/ASN.MZ.yaml
-    interval: 86400
-    format: yaml
-
-  ASNZW:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ZW/ASN.ZW.yaml"
-    path: ./ruleset/ASN.ZW.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MY/ASN.MY.yaml"
+    path: ./ruleset/ASN.MY.yaml
     interval: 86400
     format: yaml
 
@@ -1180,107 +580,75 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNMX:
+  ASNEU:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MX/ASN.MX.yaml"
-    path: ./ruleset/ASN.MX.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/EU/ASN.EU.yaml"
+    path: ./ruleset/ASN.EU.yaml
     interval: 86400
     format: yaml
 
-  ASNCH:
+  ASNCL:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CH/ASN.CH.yaml"
-    path: ./ruleset/ASN.CH.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CL/ASN.CL.yaml"
+    path: ./ruleset/ASN.CL.yaml
     interval: 86400
     format: yaml
 
-  ASNIN:
+  ASNPK:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IN/ASN.IN.yaml"
-    path: ./ruleset/ASN.IN.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PK/ASN.PK.yaml"
+    path: ./ruleset/ASN.PK.yaml
     interval: 86400
     format: yaml
 
-  ASNRU:
+  ASNNO:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RU/ASN.RU.yaml"
-    path: ./ruleset/ASN.RU.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NO/ASN.NO.yaml"
+    path: ./ruleset/ASN.NO.yaml
     interval: 86400
     format: yaml
 
-  ASNPL:
+  ASNRO:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PL/ASN.PL.yaml"
-    path: ./ruleset/ASN.PL.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RO/ASN.RO.yaml"
+    path: ./ruleset/ASN.RO.yaml
     interval: 86400
     format: yaml
 
-  ASNDE:
+  ASNEC:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DE/ASN.DE.yaml"
-    path: ./ruleset/ASN.DE.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/EC/ASN.EC.yaml"
+    path: ./ruleset/ASN.EC.yaml
     interval: 86400
     format: yaml
 
-  ASNID:
+  ASNSE:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ID/ASN.ID.yaml"
-    path: ./ruleset/ASN.ID.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SE/ASN.SE.yaml"
+    path: ./ruleset/ASN.SE.yaml
     interval: 86400
     format: yaml
 
-  ASNIT:
+  ASNBE:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IT/ASN.IT.yaml"
-    path: ./ruleset/ASN.IT.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BE/ASN.BE.yaml"
+    path: ./ruleset/ASN.BE.yaml
     interval: 86400
     format: yaml
 
-  ASNUA:
+  ASNLV:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/UA/ASN.UA.yaml"
-    path: ./ruleset/ASN.UA.yaml
-    interval: 86400
-    format: yaml
-
-  ASNNL:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NL/ASN.NL.yaml"
-    path: ./ruleset/ASN.NL.yaml
-    interval: 86400
-    format: yaml
-
-  ASNJP:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/JP/ASN.JP.yaml"
-    path: ./ruleset/ASN.JP.yaml
-    interval: 86400
-    format: yaml
-
-  ASNTR:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TR/ASN.TR.yaml"
-    path: ./ruleset/ASN.TR.yaml
-    interval: 86400
-    format: yaml
-
-  ASNCA:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CA/ASN.CA.yaml"
-    path: ./ruleset/ASN.CA.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LV/ASN.LV.yaml"
+    path: ./ruleset/ASN.LV.yaml
     interval: 86400
     format: yaml
 
@@ -1292,187 +660,35 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNIR:
+  ASNIT:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IR/ASN.IR.yaml"
-    path: ./ruleset/ASN.IR.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IT/ASN.IT.yaml"
+    path: ./ruleset/ASN.IT.yaml
     interval: 86400
     format: yaml
 
-  ASNBG:
+  ASNCZ:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BG/ASN.BG.yaml"
-    path: ./ruleset/ASN.BG.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CZ/ASN.CZ.yaml"
+    path: ./ruleset/ASN.CZ.yaml
     interval: 86400
     format: yaml
 
-  ASNMD:
+  ASNSI:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MD/ASN.MD.yaml"
-    path: ./ruleset/ASN.MD.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SI/ASN.SI.yaml"
+    path: ./ruleset/ASN.SI.yaml
     interval: 86400
     format: yaml
 
-  ASNVN:
+  ASNTR:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VN/ASN.VN.yaml"
-    path: ./ruleset/ASN.VN.yaml
-    interval: 86400
-    format: yaml
-
-  ASNNZ:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NZ/ASN.NZ.yaml"
-    path: ./ruleset/ASN.NZ.yaml
-    interval: 86400
-    format: yaml
-
-  ASNEG:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/EG/ASN.EG.yaml"
-    path: ./ruleset/ASN.EG.yaml
-    interval: 86400
-    format: yaml
-
-  ASNEE:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/EE/ASN.EE.yaml"
-    path: ./ruleset/ASN.EE.yaml
-    interval: 86400
-    format: yaml
-
-  ASNKR:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KR/ASN.KR.yaml"
-    path: ./ruleset/ASN.KR.yaml
-    interval: 86400
-    format: yaml
-
-  ASNCN:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CN/ASN.CN.yaml"
-    path: ./ruleset/ASN.CN.yaml
-    interval: 86400
-    format: yaml
-
-  ASNAT:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AT/ASN.AT.yaml"
-    path: ./ruleset/ASN.AT.yaml
-    interval: 86400
-    format: yaml
-
-  ASNFJ:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FJ/ASN.FJ.yaml"
-    path: ./ruleset/ASN.FJ.yaml
-    interval: 86400
-    format: yaml
-
-  ASNCR:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CR/ASN.CR.yaml"
-    path: ./ruleset/ASN.CR.yaml
-    interval: 86400
-    format: yaml
-
-  ASNUZ:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/UZ/ASN.UZ.yaml"
-    path: ./ruleset/ASN.UZ.yaml
-    interval: 86400
-    format: yaml
-
-  ASNCY:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CY/ASN.CY.yaml"
-    path: ./ruleset/ASN.CY.yaml
-    interval: 86400
-    format: yaml
-
-  ASNIS:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IS/ASN.IS.yaml"
-    path: ./ruleset/ASN.IS.yaml
-    interval: 86400
-    format: yaml
-
-  ASNAZ:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AZ/ASN.AZ.yaml"
-    path: ./ruleset/ASN.AZ.yaml
-    interval: 86400
-    format: yaml
-
-  ASNPY:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PY/ASN.PY.yaml"
-    path: ./ruleset/ASN.PY.yaml
-    interval: 86400
-    format: yaml
-
-  ASNKW:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KW/ASN.KW.yaml"
-    path: ./ruleset/ASN.KW.yaml
-    interval: 86400
-    format: yaml
-
-  ASNAG:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AG/ASN.AG.yaml"
-    path: ./ruleset/ASN.AG.yaml
-    interval: 86400
-    format: yaml
-
-  ASNSC:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SC/ASN.SC.yaml"
-    path: ./ruleset/ASN.SC.yaml
-    interval: 86400
-    format: yaml
-
-  ASNAF:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AF/ASN.AF.yaml"
-    path: ./ruleset/ASN.AF.yaml
-    interval: 86400
-    format: yaml
-
-  ASNHT:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/HT/ASN.HT.yaml"
-    path: ./ruleset/ASN.HT.yaml
-    interval: 86400
-    format: yaml
-
-  ASNMN:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MN/ASN.MN.yaml"
-    path: ./ruleset/ASN.MN.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TR/ASN.TR.yaml"
+    path: ./ruleset/ASN.TR.yaml
     interval: 86400
     format: yaml
 
@@ -1484,43 +700,187 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNMO:
+  ASNCY:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MO/ASN.MO.yaml"
-    path: ./ruleset/ASN.MO.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CY/ASN.CY.yaml"
+    path: ./ruleset/ASN.CY.yaml
     interval: 86400
     format: yaml
 
-  ASNAO:
+  ASNAR:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AO/ASN.AO.yaml"
-    path: ./ruleset/ASN.AO.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AR/ASN.AR.yaml"
+    path: ./ruleset/ASN.AR.yaml
     interval: 86400
     format: yaml
 
-  ASNMK:
+  ASNAM:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MK/ASN.MK.yaml"
-    path: ./ruleset/ASN.MK.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AM/ASN.AM.yaml"
+    path: ./ruleset/ASN.AM.yaml
     interval: 86400
     format: yaml
 
-  ASNVI:
+  ASNKH:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VI/ASN.VI.yaml"
-    path: ./ruleset/ASN.VI.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KH/ASN.KH.yaml"
+    path: ./ruleset/ASN.KH.yaml
     interval: 86400
     format: yaml
 
-  ASNJM:
+  ASNGH:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/JM/ASN.JM.yaml"
-    path: ./ruleset/ASN.JM.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GH/ASN.GH.yaml"
+    path: ./ruleset/ASN.GH.yaml
+    interval: 86400
+    format: yaml
+
+  ASNKE:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KE/ASN.KE.yaml"
+    path: ./ruleset/ASN.KE.yaml
+    interval: 86400
+    format: yaml
+
+  ASNPT:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PT/ASN.PT.yaml"
+    path: ./ruleset/ASN.PT.yaml
+    interval: 86400
+    format: yaml
+
+  ASNVE:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VE/ASN.VE.yaml"
+    path: ./ruleset/ASN.VE.yaml
+    interval: 86400
+    format: yaml
+
+  ASNNG:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NG/ASN.NG.yaml"
+    path: ./ruleset/ASN.NG.yaml
+    interval: 86400
+    format: yaml
+
+  ASNMD:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MD/ASN.MD.yaml"
+    path: ./ruleset/ASN.MD.yaml
+    interval: 86400
+    format: yaml
+
+  ASNEE:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/EE/ASN.EE.yaml"
+    path: ./ruleset/ASN.EE.yaml
+    interval: 86400
+    format: yaml
+
+  ASNGR:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GR/ASN.GR.yaml"
+    path: ./ruleset/ASN.GR.yaml
+    interval: 86400
+    format: yaml
+
+  ASNAL:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AL/ASN.AL.yaml"
+    path: ./ruleset/ASN.AL.yaml
+    interval: 86400
+    format: yaml
+
+  ASNTW:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TW/ASN.TW.yaml"
+    path: ./ruleset/ASN.TW.yaml
+    interval: 86400
+    format: yaml
+
+  ASNAZ:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AZ/ASN.AZ.yaml"
+    path: ./ruleset/ASN.AZ.yaml
+    interval: 86400
+    format: yaml
+
+  ASNBY:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BY/ASN.BY.yaml"
+    path: ./ruleset/ASN.BY.yaml
+    interval: 86400
+    format: yaml
+
+  ASNHN:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/HN/ASN.HN.yaml"
+    path: ./ruleset/ASN.HN.yaml
+    interval: 86400
+    format: yaml
+
+  ASNPR:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PR/ASN.PR.yaml"
+    path: ./ruleset/ASN.PR.yaml
+    interval: 86400
+    format: yaml
+
+  ASNCO:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CO/ASN.CO.yaml"
+    path: ./ruleset/ASN.CO.yaml
+    interval: 86400
+    format: yaml
+
+  ASNLT:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LT/ASN.LT.yaml"
+    path: ./ruleset/ASN.LT.yaml
+    interval: 86400
+    format: yaml
+
+  ASNDK:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DK/ASN.DK.yaml"
+    path: ./ruleset/ASN.DK.yaml
+    interval: 86400
+    format: yaml
+
+  ASNPY:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PY/ASN.PY.yaml"
+    path: ./ruleset/ASN.PY.yaml
+    interval: 86400
+    format: yaml
+
+  ASNAF:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AF/ASN.AF.yaml"
+    path: ./ruleset/ASN.AF.yaml
     interval: 86400
     format: yaml
 
@@ -1532,83 +892,227 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNMU:
+  ASNJP:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MU/ASN.MU.yaml"
-    path: ./ruleset/ASN.MU.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/JP/ASN.JP.yaml"
+    path: ./ruleset/ASN.JP.yaml
     interval: 86400
     format: yaml
 
-  ASNSD:
+  ASNCH:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SD/ASN.SD.yaml"
-    path: ./ruleset/ASN.SD.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CH/ASN.CH.yaml"
+    path: ./ruleset/ASN.CH.yaml
     interval: 86400
     format: yaml
 
-  ASNSM:
+  ASNMX:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SM/ASN.SM.yaml"
-    path: ./ruleset/ASN.SM.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MX/ASN.MX.yaml"
+    path: ./ruleset/ASN.MX.yaml
     interval: 86400
     format: yaml
 
-  ASNJO:
+  ASNIN:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/JO/ASN.JO.yaml"
-    path: ./ruleset/ASN.JO.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IN/ASN.IN.yaml"
+    path: ./ruleset/ASN.IN.yaml
     interval: 86400
     format: yaml
 
-  ASNBI:
+  ASNBD:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BI/ASN.BI.yaml"
-    path: ./ruleset/ASN.BI.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BD/ASN.BD.yaml"
+    path: ./ruleset/ASN.BD.yaml
     interval: 86400
     format: yaml
 
-  ASNPG:
+  ASNGB:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PG/ASN.PG.yaml"
-    path: ./ruleset/ASN.PG.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GB/ASN.GB.yaml"
+    path: ./ruleset/ASN.GB.yaml
     interval: 86400
     format: yaml
 
-  ASNVG:
+  ASNFR:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VG/ASN.VG.yaml"
-    path: ./ruleset/ASN.VG.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FR/ASN.FR.yaml"
+    path: ./ruleset/ASN.FR.yaml
     interval: 86400
     format: yaml
 
-  ASNGU:
+  ASNES:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GU/ASN.GU.yaml"
-    path: ./ruleset/ASN.GU.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ES/ASN.ES.yaml"
+    path: ./ruleset/ASN.ES.yaml
     interval: 86400
     format: yaml
 
-  ASNLA:
+  ASNIR:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LA/ASN.LA.yaml"
-    path: ./ruleset/ASN.LA.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IR/ASN.IR.yaml"
+    path: ./ruleset/ASN.IR.yaml
     interval: 86400
     format: yaml
 
-  ASNGG:
+  ASNKR:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GG/ASN.GG.yaml"
-    path: ./ruleset/ASN.GG.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KR/ASN.KR.yaml"
+    path: ./ruleset/ASN.KR.yaml
+    interval: 86400
+    format: yaml
+
+  ASNZA:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ZA/ASN.ZA.yaml"
+    path: ./ruleset/ASN.ZA.yaml
+    interval: 86400
+    format: yaml
+
+  ASNNZ:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NZ/ASN.NZ.yaml"
+    path: ./ruleset/ASN.NZ.yaml
+    interval: 86400
+    format: yaml
+
+  ASNAU:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AU/ASN.AU.yaml"
+    path: ./ruleset/ASN.AU.yaml
+    interval: 86400
+    format: yaml
+
+  ASNVN:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VN/ASN.VN.yaml"
+    path: ./ruleset/ASN.VN.yaml
+    interval: 86400
+    format: yaml
+
+  ASNAT:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AT/ASN.AT.yaml"
+    path: ./ruleset/ASN.AT.yaml
+    interval: 86400
+    format: yaml
+
+  ASNUA:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/UA/ASN.UA.yaml"
+    path: ./ruleset/ASN.UA.yaml
+    interval: 86400
+    format: yaml
+
+  ASNBG:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BG/ASN.BG.yaml"
+    path: ./ruleset/ASN.BG.yaml
+    interval: 86400
+    format: yaml
+
+  ASNSG:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SG/ASN.SG.yaml"
+    path: ./ruleset/ASN.SG.yaml
+    interval: 86400
+    format: yaml
+
+  ASNHK:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/HK/ASN.HK.yaml"
+    path: ./ruleset/ASN.HK.yaml
+    interval: 86400
+    format: yaml
+
+  ASNNL:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NL/ASN.NL.yaml"
+    path: ./ruleset/ASN.NL.yaml
+    interval: 86400
+    format: yaml
+
+  ASNPL:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PL/ASN.PL.yaml"
+    path: ./ruleset/ASN.PL.yaml
+    interval: 86400
+    format: yaml
+
+  ASNCN:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CN/ASN.CN.yaml"
+    path: ./ruleset/ASN.CN.yaml
+    interval: 86400
+    format: yaml
+
+  ASNID:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ID/ASN.ID.yaml"
+    path: ./ruleset/ASN.ID.yaml
+    interval: 86400
+    format: yaml
+
+  ASNDE:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DE/ASN.DE.yaml"
+    path: ./ruleset/ASN.DE.yaml
+    interval: 86400
+    format: yaml
+
+  ASNRU:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RU/ASN.RU.yaml"
+    path: ./ruleset/ASN.RU.yaml
+    interval: 86400
+    format: yaml
+
+  ASNIQ:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IQ/ASN.IQ.yaml"
+    path: ./ruleset/ASN.IQ.yaml
+    interval: 86400
+    format: yaml
+
+  ASNCD:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CD/ASN.CD.yaml"
+    path: ./ruleset/ASN.CD.yaml
+    interval: 86400
+    format: yaml
+
+  ASNKZ:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KZ/ASN.KZ.yaml"
+    path: ./ruleset/ASN.KZ.yaml
     interval: 86400
     format: yaml
 
@@ -1620,11 +1124,75 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNNE:
+  ASNRS:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NE/ASN.NE.yaml"
-    path: ./ruleset/ASN.NE.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RS/ASN.RS.yaml"
+    path: ./ruleset/ASN.RS.yaml
+    interval: 86400
+    format: yaml
+
+  ASNBA:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BA/ASN.BA.yaml"
+    path: ./ruleset/ASN.BA.yaml
+    interval: 86400
+    format: yaml
+
+  ASNPE:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PE/ASN.PE.yaml"
+    path: ./ruleset/ASN.PE.yaml
+    interval: 86400
+    format: yaml
+
+  ASNNP:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NP/ASN.NP.yaml"
+    path: ./ruleset/ASN.NP.yaml
+    interval: 86400
+    format: yaml
+
+  ASNLB:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LB/ASN.LB.yaml"
+    path: ./ruleset/ASN.LB.yaml
+    interval: 86400
+    format: yaml
+
+  ASNDO:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DO/ASN.DO.yaml"
+    path: ./ruleset/ASN.DO.yaml
+    interval: 86400
+    format: yaml
+
+  ASNVG:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VG/ASN.VG.yaml"
+    path: ./ruleset/ASN.VG.yaml
+    interval: 86400
+    format: yaml
+
+  ASNAE:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AE/ASN.AE.yaml"
+    path: ./ruleset/ASN.AE.yaml
+    interval: 86400
+    format: yaml
+
+  ASNPA:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PA/ASN.PA.yaml"
+    path: ./ruleset/ASN.PA.yaml
     interval: 86400
     format: yaml
 
@@ -1636,11 +1204,11 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNET:
+  ASNMM:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ET/ASN.ET.yaml"
-    path: ./ruleset/ASN.ET.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MM/ASN.MM.yaml"
+    path: ./ruleset/ASN.MM.yaml
     interval: 86400
     format: yaml
 
@@ -1660,51 +1228,27 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNSR:
+  ASNGE:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SR/ASN.SR.yaml"
-    path: ./ruleset/ASN.SR.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GE/ASN.GE.yaml"
+    path: ./ruleset/ASN.GE.yaml
     interval: 86400
     format: yaml
 
-  ASNNI:
+  ASNRW:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NI/ASN.NI.yaml"
-    path: ./ruleset/ASN.NI.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RW/ASN.RW.yaml"
+    path: ./ruleset/ASN.RW.yaml
     interval: 86400
     format: yaml
 
-  ASNTJ:
+  ASNTN:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TJ/ASN.TJ.yaml"
-    path: ./ruleset/ASN.TJ.yaml
-    interval: 86400
-    format: yaml
-
-  ASNBF:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BF/ASN.BF.yaml"
-    path: ./ruleset/ASN.BF.yaml
-    interval: 86400
-    format: yaml
-
-  ASNLC:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LC/ASN.LC.yaml"
-    path: ./ruleset/ASN.LC.yaml
-    interval: 86400
-    format: yaml
-
-  ASNDM:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DM/ASN.DM.yaml"
-    path: ./ruleset/ASN.DM.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TN/ASN.TN.yaml"
+    path: ./ruleset/ASN.TN.yaml
     interval: 86400
     format: yaml
 
@@ -1724,67 +1268,11 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNBR:
+  ASNLU:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BR/ASN.BR.yaml"
-    path: ./ruleset/ASN.BR.yaml
-    interval: 86400
-    format: yaml
-
-  ASNUK:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/UK/ASN.UK.yaml"
-    path: ./ruleset/ASN.UK.yaml
-    interval: 86400
-    format: yaml
-
-  ASNKP:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KP/ASN.KP.yaml"
-    path: ./ruleset/ASN.KP.yaml
-    interval: 86400
-    format: yaml
-
-  ASNMH:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MH/ASN.MH.yaml"
-    path: ./ruleset/ASN.MH.yaml
-    interval: 86400
-    format: yaml
-
-  ASNGY:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GY/ASN.GY.yaml"
-    path: ./ruleset/ASN.GY.yaml
-    interval: 86400
-    format: yaml
-
-  ASNMQ:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MQ/ASN.MQ.yaml"
-    path: ./ruleset/ASN.MQ.yaml
-    interval: 86400
-    format: yaml
-
-  ASNYE:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/YE/ASN.YE.yaml"
-    path: ./ruleset/ASN.YE.yaml
-    interval: 86400
-    format: yaml
-
-  ASNCI:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CI/ASN.CI.yaml"
-    path: ./ruleset/ASN.CI.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LU/ASN.LU.yaml"
+    path: ./ruleset/ASN.LU.yaml
     interval: 86400
     format: yaml
 
@@ -1796,139 +1284,19 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNPF:
+  ASNSC:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PF/ASN.PF.yaml"
-    path: ./ruleset/ASN.PF.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SC/ASN.SC.yaml"
+    path: ./ruleset/ASN.SC.yaml
     interval: 86400
     format: yaml
 
-  ASNSS:
+  ASNTZ:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SS/ASN.SS.yaml"
-    path: ./ruleset/ASN.SS.yaml
-    interval: 86400
-    format: yaml
-
-  ASNMF:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MF/ASN.MF.yaml"
-    path: ./ruleset/ASN.MF.yaml
-    interval: 86400
-    format: yaml
-
-  ASNLI:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LI/ASN.LI.yaml"
-    path: ./ruleset/ASN.LI.yaml
-    interval: 86400
-    format: yaml
-
-  ASNTO:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TO/ASN.TO.yaml"
-    path: ./ruleset/ASN.TO.yaml
-    interval: 86400
-    format: yaml
-
-  ASNNR:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NR/ASN.NR.yaml"
-    path: ./ruleset/ASN.NR.yaml
-    interval: 86400
-    format: yaml
-
-  ASNSO:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SO/ASN.SO.yaml"
-    path: ./ruleset/ASN.SO.yaml
-    interval: 86400
-    format: yaml
-
-  ASNDJ:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DJ/ASN.DJ.yaml"
-    path: ./ruleset/ASN.DJ.yaml
-    interval: 86400
-    format: yaml
-
-  ASNVA:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VA/ASN.VA.yaml"
-    path: ./ruleset/ASN.VA.yaml
-    interval: 86400
-    format: yaml
-
-  ASNSL:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SL/ASN.SL.yaml"
-    path: ./ruleset/ASN.SL.yaml
-    interval: 86400
-    format: yaml
-
-  ASNVC:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VC/ASN.VC.yaml"
-    path: ./ruleset/ASN.VC.yaml
-    interval: 86400
-    format: yaml
-
-  ASNBL:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BL/ASN.BL.yaml"
-    path: ./ruleset/ASN.BL.yaml
-    interval: 86400
-    format: yaml
-
-  ASNAI:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AI/ASN.AI.yaml"
-    path: ./ruleset/ASN.AI.yaml
-    interval: 86400
-    format: yaml
-
-  ASNBM:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BM/ASN.BM.yaml"
-    path: ./ruleset/ASN.BM.yaml
-    interval: 86400
-    format: yaml
-
-  ASNPW:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PW/ASN.PW.yaml"
-    path: ./ruleset/ASN.PW.yaml
-    interval: 86400
-    format: yaml
-
-  ASNSX:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SX/ASN.SX.yaml"
-    path: ./ruleset/ASN.SX.yaml
-    interval: 86400
-    format: yaml
-
-  ASNKI:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KI/ASN.KI.yaml"
-    path: ./ruleset/ASN.KI.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TZ/ASN.TZ.yaml"
+    path: ./ruleset/ASN.TZ.yaml
     interval: 86400
     format: yaml
 
@@ -1940,67 +1308,91 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNTK:
+  ASNBM:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TK/ASN.TK.yaml"
-    path: ./ruleset/ASN.TK.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BM/ASN.BM.yaml"
+    path: ./ruleset/ASN.BM.yaml
     interval: 86400
     format: yaml
 
-  ASNTC:
+  ASNEG:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TC/ASN.TC.yaml"
-    path: ./ruleset/ASN.TC.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/EG/ASN.EG.yaml"
+    path: ./ruleset/ASN.EG.yaml
     interval: 86400
     format: yaml
 
-  ASNMV:
+  ASNBO:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MV/ASN.MV.yaml"
-    path: ./ruleset/ASN.MV.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BO/ASN.BO.yaml"
+    path: ./ruleset/ASN.BO.yaml
     interval: 86400
     format: yaml
 
-  ASNNC:
+  ASNMN:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NC/ASN.NC.yaml"
-    path: ./ruleset/ASN.NC.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MN/ASN.MN.yaml"
+    path: ./ruleset/ASN.MN.yaml
     interval: 86400
     format: yaml
 
-  ASNNA:
+  ASNTD:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NA/ASN.NA.yaml"
-    path: ./ruleset/ASN.NA.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TD/ASN.TD.yaml"
+    path: ./ruleset/ASN.TD.yaml
     interval: 86400
     format: yaml
 
-  ASNAS:
+  ASNUZ:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AS/ASN.AS.yaml"
-    path: ./ruleset/ASN.AS.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/UZ/ASN.UZ.yaml"
+    path: ./ruleset/ASN.UZ.yaml
     interval: 86400
     format: yaml
 
-  ASNLR:
+  ASNIS:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LR/ASN.LR.yaml"
-    path: ./ruleset/ASN.LR.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IS/ASN.IS.yaml"
+    path: ./ruleset/ASN.IS.yaml
     interval: 86400
     format: yaml
 
-  ASNCK:
+  ASNBJ:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CK/ASN.CK.yaml"
-    path: ./ruleset/ASN.CK.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BJ/ASN.BJ.yaml"
+    path: ./ruleset/ASN.BJ.yaml
+    interval: 86400
+    format: yaml
+
+  ASNSN:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SN/ASN.SN.yaml"
+    path: ./ruleset/ASN.SN.yaml
+    interval: 86400
+    format: yaml
+
+  ASNCG:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CG/ASN.CG.yaml"
+    path: ./ruleset/ASN.CG.yaml
+    interval: 86400
+    format: yaml
+
+  ASNKW:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KW/ASN.KW.yaml"
+    path: ./ruleset/ASN.KW.yaml
     interval: 86400
     format: yaml
 
@@ -2012,6 +1404,54 @@ rule-providers:
     interval: 86400
     format: yaml
 
+  ASNSZ:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SZ/ASN.SZ.yaml"
+    path: ./ruleset/ASN.SZ.yaml
+    interval: 86400
+    format: yaml
+
+  ASNUG:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/UG/ASN.UG.yaml"
+    path: ./ruleset/ASN.UG.yaml
+    interval: 86400
+    format: yaml
+
+  ASNMV:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MV/ASN.MV.yaml"
+    path: ./ruleset/ASN.MV.yaml
+    interval: 86400
+    format: yaml
+
+  ASNNA:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NA/ASN.NA.yaml"
+    path: ./ruleset/ASN.NA.yaml
+    interval: 86400
+    format: yaml
+
+  ASNAG:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AG/ASN.AG.yaml"
+    path: ./ruleset/ASN.AG.yaml
+    interval: 86400
+    format: yaml
+
+  ASNSV:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SV/ASN.SV.yaml"
+    path: ./ruleset/ASN.SV.yaml
+    interval: 86400
+    format: yaml
+
   ASNKY:
     type: http
     behavior: classical
@@ -2020,27 +1460,139 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNKM:
+  ASNMT:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KM/ASN.KM.yaml"
-    path: ./ruleset/ASN.KM.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MT/ASN.MT.yaml"
+    path: ./ruleset/ASN.MT.yaml
     interval: 86400
     format: yaml
 
-  ASNMP:
+  ASNSD:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MP/ASN.MP.yaml"
-    path: ./ruleset/ASN.MP.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SD/ASN.SD.yaml"
+    path: ./ruleset/ASN.SD.yaml
     interval: 86400
     format: yaml
 
-  ASNPM:
+  ASNSM:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PM/ASN.PM.yaml"
-    path: ./ruleset/ASN.PM.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SM/ASN.SM.yaml"
+    path: ./ruleset/ASN.SM.yaml
+    interval: 86400
+    format: yaml
+
+  ASNMZ:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MZ/ASN.MZ.yaml"
+    path: ./ruleset/ASN.MZ.yaml
+    interval: 86400
+    format: yaml
+
+  ASNJO:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/JO/ASN.JO.yaml"
+    path: ./ruleset/ASN.JO.yaml
+    interval: 86400
+    format: yaml
+
+  ASNJM:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/JM/ASN.JM.yaml"
+    path: ./ruleset/ASN.JM.yaml
+    interval: 86400
+    format: yaml
+
+  ASNVI:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VI/ASN.VI.yaml"
+    path: ./ruleset/ASN.VI.yaml
+    interval: 86400
+    format: yaml
+
+  ASNPG:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PG/ASN.PG.yaml"
+    path: ./ruleset/ASN.PG.yaml
+    interval: 86400
+    format: yaml
+
+  ASNZW:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ZW/ASN.ZW.yaml"
+    path: ./ruleset/ASN.ZW.yaml
+    interval: 86400
+    format: yaml
+
+  ASNCM:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CM/ASN.CM.yaml"
+    path: ./ruleset/ASN.CM.yaml
+    interval: 86400
+    format: yaml
+
+  ASNCA:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CA/ASN.CA.yaml"
+    path: ./ruleset/ASN.CA.yaml
+    interval: 86400
+    format: yaml
+
+  ASNPS:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PS/ASN.PS.yaml"
+    path: ./ruleset/ASN.PS.yaml
+    interval: 86400
+    format: yaml
+
+  ASNAO:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AO/ASN.AO.yaml"
+    path: ./ruleset/ASN.AO.yaml
+    interval: 86400
+    format: yaml
+
+  ASNMK:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MK/ASN.MK.yaml"
+    path: ./ruleset/ASN.MK.yaml
+    interval: 86400
+    format: yaml
+
+  ASNMU:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MU/ASN.MU.yaml"
+    path: ./ruleset/ASN.MU.yaml
+    interval: 86400
+    format: yaml
+
+  ASNSK:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SK/ASN.SK.yaml"
+    path: ./ruleset/ASN.SK.yaml
+    interval: 86400
+    format: yaml
+
+  ASNBR:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BR/ASN.BR.yaml"
+    path: ./ruleset/ASN.BR.yaml
     interval: 86400
     format: yaml
 
@@ -2052,43 +1604,99 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNAP:
+  ASNMF:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AP/ASN.AP.yaml"
-    path: ./ruleset/ASN.AP.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MF/ASN.MF.yaml"
+    path: ./ruleset/ASN.MF.yaml
     interval: 86400
     format: yaml
 
-  ASNSZ:
+  ASNPF:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SZ/ASN.SZ.yaml"
-    path: ./ruleset/ASN.SZ.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PF/ASN.PF.yaml"
+    path: ./ruleset/ASN.PF.yaml
     interval: 86400
     format: yaml
 
-  ASNNU:
+  ASNFJ:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NU/ASN.NU.yaml"
-    path: ./ruleset/ASN.NU.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FJ/ASN.FJ.yaml"
+    path: ./ruleset/ASN.FJ.yaml
     interval: 86400
     format: yaml
 
-  ASNVU:
+  ASNFM:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VU/ASN.VU.yaml"
-    path: ./ruleset/ASN.VU.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FM/ASN.FM.yaml"
+    path: ./ruleset/ASN.FM.yaml
     interval: 86400
     format: yaml
 
-  ASNTL:
+  ASNLR:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TL/ASN.TL.yaml"
-    path: ./ruleset/ASN.TL.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LR/ASN.LR.yaml"
+    path: ./ruleset/ASN.LR.yaml
+    interval: 86400
+    format: yaml
+
+  ASNTO:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TO/ASN.TO.yaml"
+    path: ./ruleset/ASN.TO.yaml
+    interval: 86400
+    format: yaml
+
+  ASNBQ:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BQ/ASN.BQ.yaml"
+    path: ./ruleset/ASN.BQ.yaml
+    interval: 86400
+    format: yaml
+
+  ASNHT:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/HT/ASN.HT.yaml"
+    path: ./ruleset/ASN.HT.yaml
+    interval: 86400
+    format: yaml
+
+  ASNPW:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PW/ASN.PW.yaml"
+    path: ./ruleset/ASN.PW.yaml
+    interval: 86400
+    format: yaml
+
+  ASNNR:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NR/ASN.NR.yaml"
+    path: ./ruleset/ASN.NR.yaml
+    interval: 86400
+    format: yaml
+
+  ASNAI:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AI/ASN.AI.yaml"
+    path: ./ruleset/ASN.AI.yaml
+    interval: 86400
+    format: yaml
+
+  ASNMO:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MO/ASN.MO.yaml"
+    path: ./ruleset/ASN.MO.yaml
     interval: 86400
     format: yaml
 
@@ -2100,51 +1708,51 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNJE:
+  ASNKI:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/JE/ASN.JE.yaml"
-    path: ./ruleset/ASN.JE.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KI/ASN.KI.yaml"
+    path: ./ruleset/ASN.KI.yaml
     interval: 86400
     format: yaml
 
-  ASNGD:
+  ASNVU:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GD/ASN.GD.yaml"
-    path: ./ruleset/ASN.GD.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VU/ASN.VU.yaml"
+    path: ./ruleset/ASN.VU.yaml
     interval: 86400
     format: yaml
 
-  ASNWS:
+  ASNBL:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/WS/ASN.WS.yaml"
-    path: ./ruleset/ASN.WS.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BL/ASN.BL.yaml"
+    path: ./ruleset/ASN.BL.yaml
     interval: 86400
     format: yaml
 
-  ASNLS:
+  ASNTK:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LS/ASN.LS.yaml"
-    path: ./ruleset/ASN.LS.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TK/ASN.TK.yaml"
+    path: ./ruleset/ASN.TK.yaml
     interval: 86400
     format: yaml
 
-  ASNML:
+  ASNGG:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ML/ASN.ML.yaml"
-    path: ./ruleset/ASN.ML.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GG/ASN.GG.yaml"
+    path: ./ruleset/ASN.GG.yaml
     interval: 86400
     format: yaml
 
-  ASNTG:
+  ASNTL:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TG/ASN.TG.yaml"
-    path: ./ruleset/ASN.TG.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TL/ASN.TL.yaml"
+    path: ./ruleset/ASN.TL.yaml
     interval: 86400
     format: yaml
 
@@ -2156,43 +1764,11 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNMR:
+  ASNAS:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MR/ASN.MR.yaml"
-    path: ./ruleset/ASN.MR.yaml
-    interval: 86400
-    format: yaml
-
-  ASNCV:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CV/ASN.CV.yaml"
-    path: ./ruleset/ASN.CV.yaml
-    interval: 86400
-    format: yaml
-
-  ASNRE:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RE/ASN.RE.yaml"
-    path: ./ruleset/ASN.RE.yaml
-    interval: 86400
-    format: yaml
-
-  ASNFO:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FO/ASN.FO.yaml"
-    path: ./ruleset/ASN.FO.yaml
-    interval: 86400
-    format: yaml
-
-  ASNGP:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GP/ASN.GP.yaml"
-    path: ./ruleset/ASN.GP.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AS/ASN.AS.yaml"
+    path: ./ruleset/ASN.AS.yaml
     interval: 86400
     format: yaml
 
@@ -2204,19 +1780,19 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNGM:
+  ASNWS:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GM/ASN.GM.yaml"
-    path: ./ruleset/ASN.GM.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/WS/ASN.WS.yaml"
+    path: ./ruleset/ASN.WS.yaml
     interval: 86400
     format: yaml
 
-  ASNBB:
+  ASNNF:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BB/ASN.BB.yaml"
-    path: ./ruleset/ASN.BB.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NF/ASN.NF.yaml"
+    path: ./ruleset/ASN.NF.yaml
     interval: 86400
     format: yaml
 
@@ -2228,11 +1804,91 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNKN:
+  ASNML:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KN/ASN.KN.yaml"
-    path: ./ruleset/ASN.KN.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ML/ASN.ML.yaml"
+    path: ./ruleset/ASN.ML.yaml
+    interval: 86400
+    format: yaml
+
+  ASNTC:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TC/ASN.TC.yaml"
+    path: ./ruleset/ASN.TC.yaml
+    interval: 86400
+    format: yaml
+
+  ASNMP:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MP/ASN.MP.yaml"
+    path: ./ruleset/ASN.MP.yaml
+    interval: 86400
+    format: yaml
+
+  ASNUK:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/UK/ASN.UK.yaml"
+    path: ./ruleset/ASN.UK.yaml
+    interval: 86400
+    format: yaml
+
+  ASNBB:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BB/ASN.BB.yaml"
+    path: ./ruleset/ASN.BB.yaml
+    interval: 86400
+    format: yaml
+
+  ASNLS:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LS/ASN.LS.yaml"
+    path: ./ruleset/ASN.LS.yaml
+    interval: 86400
+    format: yaml
+
+  ASNTG:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TG/ASN.TG.yaml"
+    path: ./ruleset/ASN.TG.yaml
+    interval: 86400
+    format: yaml
+
+  ASNGD:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GD/ASN.GD.yaml"
+    path: ./ruleset/ASN.GD.yaml
+    interval: 86400
+    format: yaml
+
+  ASNGW:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GW/ASN.GW.yaml"
+    path: ./ruleset/ASN.GW.yaml
+    interval: 86400
+    format: yaml
+
+  ASNPM:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PM/ASN.PM.yaml"
+    path: ./ruleset/ASN.PM.yaml
+    interval: 86400
+    format: yaml
+
+  ASNNU:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NU/ASN.NU.yaml"
+    path: ./ruleset/ASN.NU.yaml
     interval: 86400
     format: yaml
 
@@ -2241,6 +1897,374 @@ rule-providers:
     behavior: classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GQ/ASN.GQ.yaml"
     path: ./ruleset/ASN.GQ.yaml
+    interval: 86400
+    format: yaml
+
+  ASNKP:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KP/ASN.KP.yaml"
+    path: ./ruleset/ASN.KP.yaml
+    interval: 86400
+    format: yaml
+
+  ASNBF:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BF/ASN.BF.yaml"
+    path: ./ruleset/ASN.BF.yaml
+    interval: 86400
+    format: yaml
+
+  ASNCW:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CW/ASN.CW.yaml"
+    path: ./ruleset/ASN.CW.yaml
+    interval: 86400
+    format: yaml
+
+  ASNNI:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NI/ASN.NI.yaml"
+    path: ./ruleset/ASN.NI.yaml
+    interval: 86400
+    format: yaml
+
+  ASNMW:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MW/ASN.MW.yaml"
+    path: ./ruleset/ASN.MW.yaml
+    interval: 86400
+    format: yaml
+
+  ASNJE:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/JE/ASN.JE.yaml"
+    path: ./ruleset/ASN.JE.yaml
+    interval: 86400
+    format: yaml
+
+  ASNGM:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GM/ASN.GM.yaml"
+    path: ./ruleset/ASN.GM.yaml
+    interval: 86400
+    format: yaml
+
+  ASNGU:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GU/ASN.GU.yaml"
+    path: ./ruleset/ASN.GU.yaml
+    interval: 86400
+    format: yaml
+
+  ASNBI:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BI/ASN.BI.yaml"
+    path: ./ruleset/ASN.BI.yaml
+    interval: 86400
+    format: yaml
+
+  ASNLA:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LA/ASN.LA.yaml"
+    path: ./ruleset/ASN.LA.yaml
+    interval: 86400
+    format: yaml
+
+  ASNTJ:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TJ/ASN.TJ.yaml"
+    path: ./ruleset/ASN.TJ.yaml
+    interval: 86400
+    format: yaml
+
+  ASNGI:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GI/ASN.GI.yaml"
+    path: ./ruleset/ASN.GI.yaml
+    interval: 86400
+    format: yaml
+
+  ASNFO:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FO/ASN.FO.yaml"
+    path: ./ruleset/ASN.FO.yaml
+    interval: 86400
+    format: yaml
+
+  ASNRE:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RE/ASN.RE.yaml"
+    path: ./ruleset/ASN.RE.yaml
+    interval: 86400
+    format: yaml
+
+  ASNLY:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LY/ASN.LY.yaml"
+    path: ./ruleset/ASN.LY.yaml
+    interval: 86400
+    format: yaml
+
+  ASNNE:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NE/ASN.NE.yaml"
+    path: ./ruleset/ASN.NE.yaml
+    interval: 86400
+    format: yaml
+
+  ASNMR:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MR/ASN.MR.yaml"
+    path: ./ruleset/ASN.MR.yaml
+    interval: 86400
+    format: yaml
+
+  ASNBH:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BH/ASN.BH.yaml"
+    path: ./ruleset/ASN.BH.yaml
+    interval: 86400
+    format: yaml
+
+  ASNCI:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CI/ASN.CI.yaml"
+    path: ./ruleset/ASN.CI.yaml
+    interval: 86400
+    format: yaml
+
+  ASNCV:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CV/ASN.CV.yaml"
+    path: ./ruleset/ASN.CV.yaml
+    interval: 86400
+    format: yaml
+
+  ASNSR:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SR/ASN.SR.yaml"
+    path: ./ruleset/ASN.SR.yaml
+    interval: 86400
+    format: yaml
+
+  ASNZM:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ZM/ASN.ZM.yaml"
+    path: ./ruleset/ASN.ZM.yaml
+    interval: 86400
+    format: yaml
+
+  ASNIM:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IM/ASN.IM.yaml"
+    path: ./ruleset/ASN.IM.yaml
+    interval: 86400
+    format: yaml
+
+  ASNLI:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LI/ASN.LI.yaml"
+    path: ./ruleset/ASN.LI.yaml
+    interval: 86400
+    format: yaml
+
+  ASNSO:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SO/ASN.SO.yaml"
+    path: ./ruleset/ASN.SO.yaml
+    interval: 86400
+    format: yaml
+
+  ASNET:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ET/ASN.ET.yaml"
+    path: ./ruleset/ASN.ET.yaml
+    interval: 86400
+    format: yaml
+
+  ASNKN:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KN/ASN.KN.yaml"
+    path: ./ruleset/ASN.KN.yaml
+    interval: 86400
+    format: yaml
+
+  ASNSS:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SS/ASN.SS.yaml"
+    path: ./ruleset/ASN.SS.yaml
+    interval: 86400
+    format: yaml
+
+  ASNQA:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/QA/ASN.QA.yaml"
+    path: ./ruleset/ASN.QA.yaml
+    interval: 86400
+    format: yaml
+
+  ASNLC:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LC/ASN.LC.yaml"
+    path: ./ruleset/ASN.LC.yaml
+    interval: 86400
+    format: yaml
+
+  ASNSL:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SL/ASN.SL.yaml"
+    path: ./ruleset/ASN.SL.yaml
+    interval: 86400
+    format: yaml
+
+  ASNGY:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GY/ASN.GY.yaml"
+    path: ./ruleset/ASN.GY.yaml
+    interval: 86400
+    format: yaml
+
+  ASNDZ:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DZ/ASN.DZ.yaml"
+    path: ./ruleset/ASN.DZ.yaml
+    interval: 86400
+    format: yaml
+
+  ASNNC:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NC/ASN.NC.yaml"
+    path: ./ruleset/ASN.NC.yaml
+    interval: 86400
+    format: yaml
+
+  ASNGN:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GN/ASN.GN.yaml"
+    path: ./ruleset/ASN.GN.yaml
+    interval: 86400
+    format: yaml
+
+  ASNMQ:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MQ/ASN.MQ.yaml"
+    path: ./ruleset/ASN.MQ.yaml
+    interval: 86400
+    format: yaml
+
+  ASNGP:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GP/ASN.GP.yaml"
+    path: ./ruleset/ASN.GP.yaml
+    interval: 86400
+    format: yaml
+
+  ASNMH:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MH/ASN.MH.yaml"
+    path: ./ruleset/ASN.MH.yaml
+    interval: 86400
+    format: yaml
+
+  ASNYE:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/YE/ASN.YE.yaml"
+    path: ./ruleset/ASN.YE.yaml
+    interval: 86400
+    format: yaml
+
+  ASNDM:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DM/ASN.DM.yaml"
+    path: ./ruleset/ASN.DM.yaml
+    interval: 86400
+    format: yaml
+
+  ASNTM:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TM/ASN.TM.yaml"
+    path: ./ruleset/ASN.TM.yaml
+    interval: 86400
+    format: yaml
+
+  ASNDJ:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DJ/ASN.DJ.yaml"
+    path: ./ruleset/ASN.DJ.yaml
+    interval: 86400
+    format: yaml
+
+  ASNSX:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SX/ASN.SX.yaml"
+    path: ./ruleset/ASN.SX.yaml
+    interval: 86400
+    format: yaml
+
+  ASNGF:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GF/ASN.GF.yaml"
+    path: ./ruleset/ASN.GF.yaml
+    interval: 86400
+    format: yaml
+
+  ASNCF:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CF/ASN.CF.yaml"
+    path: ./ruleset/ASN.CF.yaml
+    interval: 86400
+    format: yaml
+
+  ASNVC:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VC/ASN.VC.yaml"
+    path: ./ruleset/ASN.VC.yaml
     interval: 86400
     format: yaml
 
@@ -2260,38 +2284,6 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNTM:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TM/ASN.TM.yaml"
-    path: ./ruleset/ASN.TM.yaml
-    interval: 86400
-    format: yaml
-
-  ASNGF:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GF/ASN.GF.yaml"
-    path: ./ruleset/ASN.GF.yaml
-    interval: 86400
-    format: yaml
-
-  ASNFM:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FM/ASN.FM.yaml"
-    path: ./ruleset/ASN.FM.yaml
-    interval: 86400
-    format: yaml
-
-  ASNBQ:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BQ/ASN.BQ.yaml"
-    path: ./ruleset/ASN.BQ.yaml
-    interval: 86400
-    format: yaml
-
   ASNAW:
     type: http
     behavior: classical
@@ -2300,35 +2292,19 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNTV:
+  ASNVA:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TV/ASN.TV.yaml"
-    path: ./ruleset/ASN.TV.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VA/ASN.VA.yaml"
+    path: ./ruleset/ASN.VA.yaml
     interval: 86400
     format: yaml
 
-  ASNCF:
+  ASNCK:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CF/ASN.CF.yaml"
-    path: ./ruleset/ASN.CF.yaml
-    interval: 86400
-    format: yaml
-
-  ASNMC:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MC/ASN.MC.yaml"
-    path: ./ruleset/ASN.MC.yaml
-    interval: 86400
-    format: yaml
-
-  ASNAD:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AD/ASN.AD.yaml"
-    path: ./ruleset/ASN.AD.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CK/ASN.CK.yaml"
+    path: ./ruleset/ASN.CK.yaml
     interval: 86400
     format: yaml
 
@@ -2340,43 +2316,43 @@ rule-providers:
     interval: 86400
     format: yaml
 
+  ASNTV:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TV/ASN.TV.yaml"
+    path: ./ruleset/ASN.TV.yaml
+    interval: 86400
+    format: yaml
+
+  ASNAD:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AD/ASN.AD.yaml"
+    path: ./ruleset/ASN.AD.yaml
+    interval: 86400
+    format: yaml
+
+  ASNKM:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KM/ASN.KM.yaml"
+    path: ./ruleset/ASN.KM.yaml
+    interval: 86400
+    format: yaml
+
+  ASNMC:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MC/ASN.MC.yaml"
+    path: ./ruleset/ASN.MC.yaml
+    interval: 86400
+    format: yaml
+
   ASNIO:
     type: http
     behavior: classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IO/ASN.IO.yaml"
     path: ./ruleset/ASN.IO.yaml
-    interval: 86400
-    format: yaml
-
-  ASNNF:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NF/ASN.NF.yaml"
-    path: ./ruleset/ASN.NF.yaml
-    interval: 86400
-    format: yaml
-
-  ASNFK:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FK/ASN.FK.yaml"
-    path: ./ruleset/ASN.FK.yaml
-    interval: 86400
-    format: yaml
-
-  ASNGW:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GW/ASN.GW.yaml"
-    path: ./ruleset/ASN.GW.yaml
-    interval: 86400
-    format: yaml
-
-  ASNGL:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GL/ASN.GL.yaml"
-    path: ./ruleset/ASN.GL.yaml
     interval: 86400
     format: yaml
 
@@ -2396,6 +2372,22 @@ rule-providers:
     interval: 86400
     format: yaml
 
+  ASNAP:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AP/ASN.AP.yaml"
+    path: ./ruleset/ASN.AP.yaml
+    interval: 86400
+    format: yaml
+
+  ASNFK:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FK/ASN.FK.yaml"
+    path: ./ruleset/ASN.FK.yaml
+    interval: 86400
+    format: yaml
+
   ASNMS:
     type: http
     behavior: classical
@@ -2404,19 +2396,27 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNAN:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AN/ASN.AN.yaml"
-    path: ./ruleset/ASN.AN.yaml
-    interval: 86400
-    format: yaml
-
   ASNAX:
     type: http
     behavior: classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AX/ASN.AX.yaml"
     path: ./ruleset/ASN.AX.yaml
+    interval: 86400
+    format: yaml
+
+  ASNGL:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GL/ASN.GL.yaml"
+    path: ./ruleset/ASN.GL.yaml
+    interval: 86400
+    format: yaml
+
+  ASNAN:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AN/ASN.AN.yaml"
+    path: ./ruleset/ASN.AN.yaml
     interval: 86400
     format: yaml
 
@@ -2443,715 +2443,445 @@ rule-providers:
 <pre><code class="language-javascript">
 rule-providers:
 
-  ASNEU:
+  ASNIE:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/EU/ASN.EU.yaml"
-    path: ./ruleset/ASN.EU.yaml
-
-  ASNGI:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GI/ASN.GI.yaml"
-    path: ./ruleset/ASN.GI.yaml
-
-  ASNQA:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/QA/ASN.QA.yaml"
-    path: ./ruleset/ASN.QA.yaml
-
-  ASNZM:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ZM/ASN.ZM.yaml"
-    path: ./ruleset/ASN.ZM.yaml
-
-  ASNRW:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RW/ASN.RW.yaml"
-    path: ./ruleset/ASN.RW.yaml
-
-  ASNLY:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LY/ASN.LY.yaml"
-    path: ./ruleset/ASN.LY.yaml
-
-  ASNNP:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NP/ASN.NP.yaml"
-    path: ./ruleset/ASN.NP.yaml
-
-  ASNCM:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CM/ASN.CM.yaml"
-    path: ./ruleset/ASN.CM.yaml
-
-  ASNBY:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BY/ASN.BY.yaml"
-    path: ./ruleset/ASN.BY.yaml
-
-  ASNEC:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/EC/ASN.EC.yaml"
-    path: ./ruleset/ASN.EC.yaml
-
-  ASNBH:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BH/ASN.BH.yaml"
-    path: ./ruleset/ASN.BH.yaml
-
-  ASNPT:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PT/ASN.PT.yaml"
-    path: ./ruleset/ASN.PT.yaml
-
-  ASNLB:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LB/ASN.LB.yaml"
-    path: ./ruleset/ASN.LB.yaml
-
-  ASNTN:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TN/ASN.TN.yaml"
-    path: ./ruleset/ASN.TN.yaml
-
-  ASNVE:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VE/ASN.VE.yaml"
-    path: ./ruleset/ASN.VE.yaml
-
-  ASNGN:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GN/ASN.GN.yaml"
-    path: ./ruleset/ASN.GN.yaml
-
-  ASNKE:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KE/ASN.KE.yaml"
-    path: ./ruleset/ASN.KE.yaml
-
-  ASNIQ:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IQ/ASN.IQ.yaml"
-    path: ./ruleset/ASN.IQ.yaml
-
-  ASNIM:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IM/ASN.IM.yaml"
-    path: ./ruleset/ASN.IM.yaml
-
-  ASNAM:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AM/ASN.AM.yaml"
-    path: ./ruleset/ASN.AM.yaml
-
-  ASNDZ:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DZ/ASN.DZ.yaml"
-    path: ./ruleset/ASN.DZ.yaml
-
-  ASNSA:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SA/ASN.SA.yaml"
-    path: ./ruleset/ASN.SA.yaml
-
-  ASNAL:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AL/ASN.AL.yaml"
-    path: ./ruleset/ASN.AL.yaml
-
-  ASNHR:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/HR/ASN.HR.yaml"
-    path: ./ruleset/ASN.HR.yaml
-
-  ASNHK:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/HK/ASN.HK.yaml"
-    path: ./ruleset/ASN.HK.yaml
-
-  ASNSI:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SI/ASN.SI.yaml"
-    path: ./ruleset/ASN.SI.yaml
-
-  ASNPA:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PA/ASN.PA.yaml"
-    path: ./ruleset/ASN.PA.yaml
-
-  ASNGR:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GR/ASN.GR.yaml"
-    path: ./ruleset/ASN.GR.yaml
-
-  ASNDK:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DK/ASN.DK.yaml"
-    path: ./ruleset/ASN.DK.yaml
-
-  ASNNO:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NO/ASN.NO.yaml"
-    path: ./ruleset/ASN.NO.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IE/ASN.IE.yaml"
+    path: ./ruleset/ASN.IE.yaml
 
   ASNPH:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PH/ASN.PH.yaml"
     path: ./ruleset/ASN.PH.yaml
 
-  ASNDO:
+  ASNCR:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DO/ASN.DO.yaml"
-    path: ./ruleset/ASN.DO.yaml
-
-  ASNCZ:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CZ/ASN.CZ.yaml"
-    path: ./ruleset/ASN.CZ.yaml
-
-  ASNKH:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KH/ASN.KH.yaml"
-    path: ./ruleset/ASN.KH.yaml
-
-  ASNAE:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AE/ASN.AE.yaml"
-    path: ./ruleset/ASN.AE.yaml
-
-  ASNSK:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SK/ASN.SK.yaml"
-    path: ./ruleset/ASN.SK.yaml
-
-  ASNMM:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MM/ASN.MM.yaml"
-    path: ./ruleset/ASN.MM.yaml
-
-  ASNLU:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LU/ASN.LU.yaml"
-    path: ./ruleset/ASN.LU.yaml
-
-  ASNSG:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SG/ASN.SG.yaml"
-    path: ./ruleset/ASN.SG.yaml
-
-  ASNRS:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RS/ASN.RS.yaml"
-    path: ./ruleset/ASN.RS.yaml
-
-  ASNTZ:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TZ/ASN.TZ.yaml"
-    path: ./ruleset/ASN.TZ.yaml
-
-  ASNBE:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BE/ASN.BE.yaml"
-    path: ./ruleset/ASN.BE.yaml
-
-  ASNCO:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CO/ASN.CO.yaml"
-    path: ./ruleset/ASN.CO.yaml
-
-  ASNPK:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PK/ASN.PK.yaml"
-    path: ./ruleset/ASN.PK.yaml
-
-  ASNHN:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/HN/ASN.HN.yaml"
-    path: ./ruleset/ASN.HN.yaml
-
-  ASNCL:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CL/ASN.CL.yaml"
-    path: ./ruleset/ASN.CL.yaml
-
-  ASNZA:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ZA/ASN.ZA.yaml"
-    path: ./ruleset/ASN.ZA.yaml
-
-  ASNNG:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NG/ASN.NG.yaml"
-    path: ./ruleset/ASN.NG.yaml
-
-  ASNPS:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PS/ASN.PS.yaml"
-    path: ./ruleset/ASN.PS.yaml
-
-  ASNGE:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GE/ASN.GE.yaml"
-    path: ./ruleset/ASN.GE.yaml
-
-  ASNBO:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BO/ASN.BO.yaml"
-    path: ./ruleset/ASN.BO.yaml
-
-  ASNPR:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PR/ASN.PR.yaml"
-    path: ./ruleset/ASN.PR.yaml
-
-  ASNCG:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CG/ASN.CG.yaml"
-    path: ./ruleset/ASN.CG.yaml
-
-  ASNMT:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MT/ASN.MT.yaml"
-    path: ./ruleset/ASN.MT.yaml
-
-  ASNLV:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LV/ASN.LV.yaml"
-    path: ./ruleset/ASN.LV.yaml
-
-  ASNCW:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CW/ASN.CW.yaml"
-    path: ./ruleset/ASN.CW.yaml
-
-  ASNIL:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IL/ASN.IL.yaml"
-    path: ./ruleset/ASN.IL.yaml
-
-  ASNKZ:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KZ/ASN.KZ.yaml"
-    path: ./ruleset/ASN.KZ.yaml
-
-  ASNMY:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MY/ASN.MY.yaml"
-    path: ./ruleset/ASN.MY.yaml
-
-  ASNLT:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LT/ASN.LT.yaml"
-    path: ./ruleset/ASN.LT.yaml
-
-  ASNTW:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TW/ASN.TW.yaml"
-    path: ./ruleset/ASN.TW.yaml
-
-  ASNPE:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PE/ASN.PE.yaml"
-    path: ./ruleset/ASN.PE.yaml
-
-  ASNSN:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SN/ASN.SN.yaml"
-    path: ./ruleset/ASN.SN.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CR/ASN.CR.yaml"
+    path: ./ruleset/ASN.CR.yaml
 
   ASNTH:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TH/ASN.TH.yaml"
     path: ./ruleset/ASN.TH.yaml
 
-  ASNGH:
+  ASNHR:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GH/ASN.GH.yaml"
-    path: ./ruleset/ASN.GH.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/HR/ASN.HR.yaml"
+    path: ./ruleset/ASN.HR.yaml
 
-  ASNBD:
+  ASNSA:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BD/ASN.BD.yaml"
-    path: ./ruleset/ASN.BD.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SA/ASN.SA.yaml"
+    path: ./ruleset/ASN.SA.yaml
 
-  ASNIE:
+  ASNIL:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IE/ASN.IE.yaml"
-    path: ./ruleset/ASN.IE.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IL/ASN.IL.yaml"
+    path: ./ruleset/ASN.IL.yaml
 
-  ASNAR:
+  ASNMY:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AR/ASN.AR.yaml"
-    path: ./ruleset/ASN.AR.yaml
-
-  ASNES:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ES/ASN.ES.yaml"
-    path: ./ruleset/ASN.ES.yaml
-
-  ASNSE:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SE/ASN.SE.yaml"
-    path: ./ruleset/ASN.SE.yaml
-
-  ASNRO:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RO/ASN.RO.yaml"
-    path: ./ruleset/ASN.RO.yaml
-
-  ASNAU:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AU/ASN.AU.yaml"
-    path: ./ruleset/ASN.AU.yaml
-
-  ASNFR:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FR/ASN.FR.yaml"
-    path: ./ruleset/ASN.FR.yaml
-
-  ASNGB:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GB/ASN.GB.yaml"
-    path: ./ruleset/ASN.GB.yaml
-
-  ASNTD:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TD/ASN.TD.yaml"
-    path: ./ruleset/ASN.TD.yaml
-
-  ASNUG:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/UG/ASN.UG.yaml"
-    path: ./ruleset/ASN.UG.yaml
-
-  ASNBA:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BA/ASN.BA.yaml"
-    path: ./ruleset/ASN.BA.yaml
-
-  ASNMW:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MW/ASN.MW.yaml"
-    path: ./ruleset/ASN.MW.yaml
-
-  ASNSV:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SV/ASN.SV.yaml"
-    path: ./ruleset/ASN.SV.yaml
-
-  ASNBJ:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BJ/ASN.BJ.yaml"
-    path: ./ruleset/ASN.BJ.yaml
-
-  ASNCD:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CD/ASN.CD.yaml"
-    path: ./ruleset/ASN.CD.yaml
-
-  ASNMZ:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MZ/ASN.MZ.yaml"
-    path: ./ruleset/ASN.MZ.yaml
-
-  ASNZW:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ZW/ASN.ZW.yaml"
-    path: ./ruleset/ASN.ZW.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MY/ASN.MY.yaml"
+    path: ./ruleset/ASN.MY.yaml
 
   ASNFI:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FI/ASN.FI.yaml"
     path: ./ruleset/ASN.FI.yaml
 
-  ASNMX:
+  ASNEU:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MX/ASN.MX.yaml"
-    path: ./ruleset/ASN.MX.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/EU/ASN.EU.yaml"
+    path: ./ruleset/ASN.EU.yaml
 
-  ASNCH:
+  ASNCL:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CH/ASN.CH.yaml"
-    path: ./ruleset/ASN.CH.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CL/ASN.CL.yaml"
+    path: ./ruleset/ASN.CL.yaml
 
-  ASNIN:
+  ASNPK:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IN/ASN.IN.yaml"
-    path: ./ruleset/ASN.IN.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PK/ASN.PK.yaml"
+    path: ./ruleset/ASN.PK.yaml
 
-  ASNRU:
+  ASNNO:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RU/ASN.RU.yaml"
-    path: ./ruleset/ASN.RU.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NO/ASN.NO.yaml"
+    path: ./ruleset/ASN.NO.yaml
 
-  ASNPL:
+  ASNRO:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PL/ASN.PL.yaml"
-    path: ./ruleset/ASN.PL.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RO/ASN.RO.yaml"
+    path: ./ruleset/ASN.RO.yaml
 
-  ASNDE:
+  ASNEC:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DE/ASN.DE.yaml"
-    path: ./ruleset/ASN.DE.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/EC/ASN.EC.yaml"
+    path: ./ruleset/ASN.EC.yaml
 
-  ASNID:
+  ASNSE:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ID/ASN.ID.yaml"
-    path: ./ruleset/ASN.ID.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SE/ASN.SE.yaml"
+    path: ./ruleset/ASN.SE.yaml
 
-  ASNIT:
+  ASNBE:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IT/ASN.IT.yaml"
-    path: ./ruleset/ASN.IT.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BE/ASN.BE.yaml"
+    path: ./ruleset/ASN.BE.yaml
 
-  ASNUA:
+  ASNLV:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/UA/ASN.UA.yaml"
-    path: ./ruleset/ASN.UA.yaml
-
-  ASNNL:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NL/ASN.NL.yaml"
-    path: ./ruleset/ASN.NL.yaml
-
-  ASNJP:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/JP/ASN.JP.yaml"
-    path: ./ruleset/ASN.JP.yaml
-
-  ASNTR:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TR/ASN.TR.yaml"
-    path: ./ruleset/ASN.TR.yaml
-
-  ASNCA:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CA/ASN.CA.yaml"
-    path: ./ruleset/ASN.CA.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LV/ASN.LV.yaml"
+    path: ./ruleset/ASN.LV.yaml
 
   ASNHU:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/HU/ASN.HU.yaml"
     path: ./ruleset/ASN.HU.yaml
 
-  ASNIR:
+  ASNIT:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IR/ASN.IR.yaml"
-    path: ./ruleset/ASN.IR.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IT/ASN.IT.yaml"
+    path: ./ruleset/ASN.IT.yaml
 
-  ASNBG:
+  ASNCZ:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BG/ASN.BG.yaml"
-    path: ./ruleset/ASN.BG.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CZ/ASN.CZ.yaml"
+    path: ./ruleset/ASN.CZ.yaml
 
-  ASNMD:
+  ASNSI:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MD/ASN.MD.yaml"
-    path: ./ruleset/ASN.MD.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SI/ASN.SI.yaml"
+    path: ./ruleset/ASN.SI.yaml
 
-  ASNVN:
+  ASNTR:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VN/ASN.VN.yaml"
-    path: ./ruleset/ASN.VN.yaml
-
-  ASNNZ:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NZ/ASN.NZ.yaml"
-    path: ./ruleset/ASN.NZ.yaml
-
-  ASNEG:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/EG/ASN.EG.yaml"
-    path: ./ruleset/ASN.EG.yaml
-
-  ASNEE:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/EE/ASN.EE.yaml"
-    path: ./ruleset/ASN.EE.yaml
-
-  ASNKR:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KR/ASN.KR.yaml"
-    path: ./ruleset/ASN.KR.yaml
-
-  ASNCN:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CN/ASN.CN.yaml"
-    path: ./ruleset/ASN.CN.yaml
-
-  ASNAT:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AT/ASN.AT.yaml"
-    path: ./ruleset/ASN.AT.yaml
-
-  ASNFJ:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FJ/ASN.FJ.yaml"
-    path: ./ruleset/ASN.FJ.yaml
-
-  ASNCR:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CR/ASN.CR.yaml"
-    path: ./ruleset/ASN.CR.yaml
-
-  ASNUZ:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/UZ/ASN.UZ.yaml"
-    path: ./ruleset/ASN.UZ.yaml
-
-  ASNCY:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CY/ASN.CY.yaml"
-    path: ./ruleset/ASN.CY.yaml
-
-  ASNIS:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IS/ASN.IS.yaml"
-    path: ./ruleset/ASN.IS.yaml
-
-  ASNAZ:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AZ/ASN.AZ.yaml"
-    path: ./ruleset/ASN.AZ.yaml
-
-  ASNPY:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PY/ASN.PY.yaml"
-    path: ./ruleset/ASN.PY.yaml
-
-  ASNKW:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KW/ASN.KW.yaml"
-    path: ./ruleset/ASN.KW.yaml
-
-  ASNAG:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AG/ASN.AG.yaml"
-    path: ./ruleset/ASN.AG.yaml
-
-  ASNSC:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SC/ASN.SC.yaml"
-    path: ./ruleset/ASN.SC.yaml
-
-  ASNAF:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AF/ASN.AF.yaml"
-    path: ./ruleset/ASN.AF.yaml
-
-  ASNHT:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/HT/ASN.HT.yaml"
-    path: ./ruleset/ASN.HT.yaml
-
-  ASNMN:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MN/ASN.MN.yaml"
-    path: ./ruleset/ASN.MN.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TR/ASN.TR.yaml"
+    path: ./ruleset/ASN.TR.yaml
 
   ASNGT:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GT/ASN.GT.yaml"
     path: ./ruleset/ASN.GT.yaml
 
-  ASNMO:
+  ASNCY:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MO/ASN.MO.yaml"
-    path: ./ruleset/ASN.MO.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CY/ASN.CY.yaml"
+    path: ./ruleset/ASN.CY.yaml
 
-  ASNAO:
+  ASNAR:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AO/ASN.AO.yaml"
-    path: ./ruleset/ASN.AO.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AR/ASN.AR.yaml"
+    path: ./ruleset/ASN.AR.yaml
 
-  ASNMK:
+  ASNAM:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MK/ASN.MK.yaml"
-    path: ./ruleset/ASN.MK.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AM/ASN.AM.yaml"
+    path: ./ruleset/ASN.AM.yaml
 
-  ASNVI:
+  ASNKH:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VI/ASN.VI.yaml"
-    path: ./ruleset/ASN.VI.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KH/ASN.KH.yaml"
+    path: ./ruleset/ASN.KH.yaml
 
-  ASNJM:
+  ASNGH:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/JM/ASN.JM.yaml"
-    path: ./ruleset/ASN.JM.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GH/ASN.GH.yaml"
+    path: ./ruleset/ASN.GH.yaml
+
+  ASNKE:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KE/ASN.KE.yaml"
+    path: ./ruleset/ASN.KE.yaml
+
+  ASNPT:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PT/ASN.PT.yaml"
+    path: ./ruleset/ASN.PT.yaml
+
+  ASNVE:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VE/ASN.VE.yaml"
+    path: ./ruleset/ASN.VE.yaml
+
+  ASNNG:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NG/ASN.NG.yaml"
+    path: ./ruleset/ASN.NG.yaml
+
+  ASNMD:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MD/ASN.MD.yaml"
+    path: ./ruleset/ASN.MD.yaml
+
+  ASNEE:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/EE/ASN.EE.yaml"
+    path: ./ruleset/ASN.EE.yaml
+
+  ASNGR:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GR/ASN.GR.yaml"
+    path: ./ruleset/ASN.GR.yaml
+
+  ASNAL:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AL/ASN.AL.yaml"
+    path: ./ruleset/ASN.AL.yaml
+
+  ASNTW:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TW/ASN.TW.yaml"
+    path: ./ruleset/ASN.TW.yaml
+
+  ASNAZ:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AZ/ASN.AZ.yaml"
+    path: ./ruleset/ASN.AZ.yaml
+
+  ASNBY:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BY/ASN.BY.yaml"
+    path: ./ruleset/ASN.BY.yaml
+
+  ASNHN:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/HN/ASN.HN.yaml"
+    path: ./ruleset/ASN.HN.yaml
+
+  ASNPR:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PR/ASN.PR.yaml"
+    path: ./ruleset/ASN.PR.yaml
+
+  ASNCO:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CO/ASN.CO.yaml"
+    path: ./ruleset/ASN.CO.yaml
+
+  ASNLT:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LT/ASN.LT.yaml"
+    path: ./ruleset/ASN.LT.yaml
+
+  ASNDK:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DK/ASN.DK.yaml"
+    path: ./ruleset/ASN.DK.yaml
+
+  ASNPY:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PY/ASN.PY.yaml"
+    path: ./ruleset/ASN.PY.yaml
+
+  ASNAF:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AF/ASN.AF.yaml"
+    path: ./ruleset/ASN.AF.yaml
 
   ASNKG:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KG/ASN.KG.yaml"
     path: ./ruleset/ASN.KG.yaml
 
-  ASNMU:
+  ASNJP:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MU/ASN.MU.yaml"
-    path: ./ruleset/ASN.MU.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/JP/ASN.JP.yaml"
+    path: ./ruleset/ASN.JP.yaml
 
-  ASNSD:
+  ASNCH:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SD/ASN.SD.yaml"
-    path: ./ruleset/ASN.SD.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CH/ASN.CH.yaml"
+    path: ./ruleset/ASN.CH.yaml
 
-  ASNSM:
+  ASNMX:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SM/ASN.SM.yaml"
-    path: ./ruleset/ASN.SM.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MX/ASN.MX.yaml"
+    path: ./ruleset/ASN.MX.yaml
 
-  ASNJO:
+  ASNIN:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/JO/ASN.JO.yaml"
-    path: ./ruleset/ASN.JO.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IN/ASN.IN.yaml"
+    path: ./ruleset/ASN.IN.yaml
 
-  ASNBI:
+  ASNBD:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BI/ASN.BI.yaml"
-    path: ./ruleset/ASN.BI.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BD/ASN.BD.yaml"
+    path: ./ruleset/ASN.BD.yaml
 
-  ASNPG:
+  ASNGB:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PG/ASN.PG.yaml"
-    path: ./ruleset/ASN.PG.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GB/ASN.GB.yaml"
+    path: ./ruleset/ASN.GB.yaml
 
-  ASNVG:
+  ASNFR:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VG/ASN.VG.yaml"
-    path: ./ruleset/ASN.VG.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FR/ASN.FR.yaml"
+    path: ./ruleset/ASN.FR.yaml
 
-  ASNGU:
+  ASNES:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GU/ASN.GU.yaml"
-    path: ./ruleset/ASN.GU.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ES/ASN.ES.yaml"
+    path: ./ruleset/ASN.ES.yaml
 
-  ASNLA:
+  ASNIR:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LA/ASN.LA.yaml"
-    path: ./ruleset/ASN.LA.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IR/ASN.IR.yaml"
+    path: ./ruleset/ASN.IR.yaml
 
-  ASNGG:
+  ASNKR:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GG/ASN.GG.yaml"
-    path: ./ruleset/ASN.GG.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KR/ASN.KR.yaml"
+    path: ./ruleset/ASN.KR.yaml
+
+  ASNZA:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ZA/ASN.ZA.yaml"
+    path: ./ruleset/ASN.ZA.yaml
+
+  ASNNZ:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NZ/ASN.NZ.yaml"
+    path: ./ruleset/ASN.NZ.yaml
+
+  ASNAU:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AU/ASN.AU.yaml"
+    path: ./ruleset/ASN.AU.yaml
+
+  ASNVN:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VN/ASN.VN.yaml"
+    path: ./ruleset/ASN.VN.yaml
+
+  ASNAT:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AT/ASN.AT.yaml"
+    path: ./ruleset/ASN.AT.yaml
+
+  ASNUA:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/UA/ASN.UA.yaml"
+    path: ./ruleset/ASN.UA.yaml
+
+  ASNBG:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BG/ASN.BG.yaml"
+    path: ./ruleset/ASN.BG.yaml
+
+  ASNSG:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SG/ASN.SG.yaml"
+    path: ./ruleset/ASN.SG.yaml
+
+  ASNHK:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/HK/ASN.HK.yaml"
+    path: ./ruleset/ASN.HK.yaml
+
+  ASNNL:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NL/ASN.NL.yaml"
+    path: ./ruleset/ASN.NL.yaml
+
+  ASNPL:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PL/ASN.PL.yaml"
+    path: ./ruleset/ASN.PL.yaml
+
+  ASNCN:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CN/ASN.CN.yaml"
+    path: ./ruleset/ASN.CN.yaml
+
+  ASNID:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ID/ASN.ID.yaml"
+    path: ./ruleset/ASN.ID.yaml
+
+  ASNDE:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DE/ASN.DE.yaml"
+    path: ./ruleset/ASN.DE.yaml
+
+  ASNRU:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RU/ASN.RU.yaml"
+    path: ./ruleset/ASN.RU.yaml
+
+  ASNIQ:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IQ/ASN.IQ.yaml"
+    path: ./ruleset/ASN.IQ.yaml
+
+  ASNCD:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CD/ASN.CD.yaml"
+    path: ./ruleset/ASN.CD.yaml
+
+  ASNKZ:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KZ/ASN.KZ.yaml"
+    path: ./ruleset/ASN.KZ.yaml
 
   ASNUY:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/UY/ASN.UY.yaml"
     path: ./ruleset/ASN.UY.yaml
 
-  ASNNE:
+  ASNRS:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NE/ASN.NE.yaml"
-    path: ./ruleset/ASN.NE.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RS/ASN.RS.yaml"
+    path: ./ruleset/ASN.RS.yaml
+
+  ASNBA:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BA/ASN.BA.yaml"
+    path: ./ruleset/ASN.BA.yaml
+
+  ASNPE:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PE/ASN.PE.yaml"
+    path: ./ruleset/ASN.PE.yaml
+
+  ASNNP:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NP/ASN.NP.yaml"
+    path: ./ruleset/ASN.NP.yaml
+
+  ASNLB:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LB/ASN.LB.yaml"
+    path: ./ruleset/ASN.LB.yaml
+
+  ASNDO:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DO/ASN.DO.yaml"
+    path: ./ruleset/ASN.DO.yaml
+
+  ASNVG:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VG/ASN.VG.yaml"
+    path: ./ruleset/ASN.VG.yaml
+
+  ASNAE:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AE/ASN.AE.yaml"
+    path: ./ruleset/ASN.AE.yaml
+
+  ASNPA:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PA/ASN.PA.yaml"
+    path: ./ruleset/ASN.PA.yaml
 
   ASNBZ:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BZ/ASN.BZ.yaml"
     path: ./ruleset/ASN.BZ.yaml
 
-  ASNET:
+  ASNMM:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ET/ASN.ET.yaml"
-    path: ./ruleset/ASN.ET.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MM/ASN.MM.yaml"
+    path: ./ruleset/ASN.MM.yaml
 
   ASNBW:
     <<: *classical
@@ -3163,35 +2893,20 @@ rule-providers:
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BT/ASN.BT.yaml"
     path: ./ruleset/ASN.BT.yaml
 
-  ASNSR:
+  ASNGE:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SR/ASN.SR.yaml"
-    path: ./ruleset/ASN.SR.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GE/ASN.GE.yaml"
+    path: ./ruleset/ASN.GE.yaml
 
-  ASNNI:
+  ASNRW:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NI/ASN.NI.yaml"
-    path: ./ruleset/ASN.NI.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RW/ASN.RW.yaml"
+    path: ./ruleset/ASN.RW.yaml
 
-  ASNTJ:
+  ASNTN:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TJ/ASN.TJ.yaml"
-    path: ./ruleset/ASN.TJ.yaml
-
-  ASNBF:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BF/ASN.BF.yaml"
-    path: ./ruleset/ASN.BF.yaml
-
-  ASNLC:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LC/ASN.LC.yaml"
-    path: ./ruleset/ASN.LC.yaml
-
-  ASNDM:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DM/ASN.DM.yaml"
-    path: ./ruleset/ASN.DM.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TN/ASN.TN.yaml"
+    path: ./ruleset/ASN.TN.yaml
 
   ASNMA:
     <<: *classical
@@ -3203,330 +2918,630 @@ rule-providers:
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LK/ASN.LK.yaml"
     path: ./ruleset/ASN.LK.yaml
 
-  ASNBR:
+  ASNLU:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BR/ASN.BR.yaml"
-    path: ./ruleset/ASN.BR.yaml
-
-  ASNUK:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/UK/ASN.UK.yaml"
-    path: ./ruleset/ASN.UK.yaml
-
-  ASNKP:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KP/ASN.KP.yaml"
-    path: ./ruleset/ASN.KP.yaml
-
-  ASNMH:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MH/ASN.MH.yaml"
-    path: ./ruleset/ASN.MH.yaml
-
-  ASNGY:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GY/ASN.GY.yaml"
-    path: ./ruleset/ASN.GY.yaml
-
-  ASNMQ:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MQ/ASN.MQ.yaml"
-    path: ./ruleset/ASN.MQ.yaml
-
-  ASNYE:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/YE/ASN.YE.yaml"
-    path: ./ruleset/ASN.YE.yaml
-
-  ASNCI:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CI/ASN.CI.yaml"
-    path: ./ruleset/ASN.CI.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LU/ASN.LU.yaml"
+    path: ./ruleset/ASN.LU.yaml
 
   ASNME:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ME/ASN.ME.yaml"
     path: ./ruleset/ASN.ME.yaml
 
-  ASNPF:
+  ASNSC:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PF/ASN.PF.yaml"
-    path: ./ruleset/ASN.PF.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SC/ASN.SC.yaml"
+    path: ./ruleset/ASN.SC.yaml
 
-  ASNSS:
+  ASNTZ:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SS/ASN.SS.yaml"
-    path: ./ruleset/ASN.SS.yaml
-
-  ASNMF:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MF/ASN.MF.yaml"
-    path: ./ruleset/ASN.MF.yaml
-
-  ASNLI:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LI/ASN.LI.yaml"
-    path: ./ruleset/ASN.LI.yaml
-
-  ASNTO:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TO/ASN.TO.yaml"
-    path: ./ruleset/ASN.TO.yaml
-
-  ASNNR:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NR/ASN.NR.yaml"
-    path: ./ruleset/ASN.NR.yaml
-
-  ASNSO:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SO/ASN.SO.yaml"
-    path: ./ruleset/ASN.SO.yaml
-
-  ASNDJ:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DJ/ASN.DJ.yaml"
-    path: ./ruleset/ASN.DJ.yaml
-
-  ASNVA:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VA/ASN.VA.yaml"
-    path: ./ruleset/ASN.VA.yaml
-
-  ASNSL:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SL/ASN.SL.yaml"
-    path: ./ruleset/ASN.SL.yaml
-
-  ASNVC:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VC/ASN.VC.yaml"
-    path: ./ruleset/ASN.VC.yaml
-
-  ASNBL:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BL/ASN.BL.yaml"
-    path: ./ruleset/ASN.BL.yaml
-
-  ASNAI:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AI/ASN.AI.yaml"
-    path: ./ruleset/ASN.AI.yaml
-
-  ASNBM:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BM/ASN.BM.yaml"
-    path: ./ruleset/ASN.BM.yaml
-
-  ASNPW:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PW/ASN.PW.yaml"
-    path: ./ruleset/ASN.PW.yaml
-
-  ASNSX:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SX/ASN.SX.yaml"
-    path: ./ruleset/ASN.SX.yaml
-
-  ASNKI:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KI/ASN.KI.yaml"
-    path: ./ruleset/ASN.KI.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TZ/ASN.TZ.yaml"
+    path: ./ruleset/ASN.TZ.yaml
 
   ASNOM:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/OM/ASN.OM.yaml"
     path: ./ruleset/ASN.OM.yaml
 
-  ASNTK:
+  ASNBM:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TK/ASN.TK.yaml"
-    path: ./ruleset/ASN.TK.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BM/ASN.BM.yaml"
+    path: ./ruleset/ASN.BM.yaml
 
-  ASNTC:
+  ASNEG:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TC/ASN.TC.yaml"
-    path: ./ruleset/ASN.TC.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/EG/ASN.EG.yaml"
+    path: ./ruleset/ASN.EG.yaml
 
-  ASNMV:
+  ASNBO:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MV/ASN.MV.yaml"
-    path: ./ruleset/ASN.MV.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BO/ASN.BO.yaml"
+    path: ./ruleset/ASN.BO.yaml
 
-  ASNNC:
+  ASNMN:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NC/ASN.NC.yaml"
-    path: ./ruleset/ASN.NC.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MN/ASN.MN.yaml"
+    path: ./ruleset/ASN.MN.yaml
 
-  ASNNA:
+  ASNTD:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NA/ASN.NA.yaml"
-    path: ./ruleset/ASN.NA.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TD/ASN.TD.yaml"
+    path: ./ruleset/ASN.TD.yaml
 
-  ASNAS:
+  ASNUZ:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AS/ASN.AS.yaml"
-    path: ./ruleset/ASN.AS.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/UZ/ASN.UZ.yaml"
+    path: ./ruleset/ASN.UZ.yaml
 
-  ASNLR:
+  ASNIS:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LR/ASN.LR.yaml"
-    path: ./ruleset/ASN.LR.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IS/ASN.IS.yaml"
+    path: ./ruleset/ASN.IS.yaml
 
-  ASNCK:
+  ASNBJ:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CK/ASN.CK.yaml"
-    path: ./ruleset/ASN.CK.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BJ/ASN.BJ.yaml"
+    path: ./ruleset/ASN.BJ.yaml
+
+  ASNSN:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SN/ASN.SN.yaml"
+    path: ./ruleset/ASN.SN.yaml
+
+  ASNCG:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CG/ASN.CG.yaml"
+    path: ./ruleset/ASN.CG.yaml
+
+  ASNKW:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KW/ASN.KW.yaml"
+    path: ./ruleset/ASN.KW.yaml
 
   ASNGA:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GA/ASN.GA.yaml"
     path: ./ruleset/ASN.GA.yaml
 
+  ASNSZ:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SZ/ASN.SZ.yaml"
+    path: ./ruleset/ASN.SZ.yaml
+
+  ASNUG:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/UG/ASN.UG.yaml"
+    path: ./ruleset/ASN.UG.yaml
+
+  ASNMV:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MV/ASN.MV.yaml"
+    path: ./ruleset/ASN.MV.yaml
+
+  ASNNA:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NA/ASN.NA.yaml"
+    path: ./ruleset/ASN.NA.yaml
+
+  ASNAG:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AG/ASN.AG.yaml"
+    path: ./ruleset/ASN.AG.yaml
+
+  ASNSV:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SV/ASN.SV.yaml"
+    path: ./ruleset/ASN.SV.yaml
+
   ASNKY:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KY/ASN.KY.yaml"
     path: ./ruleset/ASN.KY.yaml
 
-  ASNKM:
+  ASNMT:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KM/ASN.KM.yaml"
-    path: ./ruleset/ASN.KM.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MT/ASN.MT.yaml"
+    path: ./ruleset/ASN.MT.yaml
 
-  ASNMP:
+  ASNSD:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MP/ASN.MP.yaml"
-    path: ./ruleset/ASN.MP.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SD/ASN.SD.yaml"
+    path: ./ruleset/ASN.SD.yaml
 
-  ASNPM:
+  ASNSM:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PM/ASN.PM.yaml"
-    path: ./ruleset/ASN.PM.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SM/ASN.SM.yaml"
+    path: ./ruleset/ASN.SM.yaml
+
+  ASNMZ:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MZ/ASN.MZ.yaml"
+    path: ./ruleset/ASN.MZ.yaml
+
+  ASNJO:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/JO/ASN.JO.yaml"
+    path: ./ruleset/ASN.JO.yaml
+
+  ASNJM:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/JM/ASN.JM.yaml"
+    path: ./ruleset/ASN.JM.yaml
+
+  ASNVI:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VI/ASN.VI.yaml"
+    path: ./ruleset/ASN.VI.yaml
+
+  ASNPG:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PG/ASN.PG.yaml"
+    path: ./ruleset/ASN.PG.yaml
+
+  ASNZW:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ZW/ASN.ZW.yaml"
+    path: ./ruleset/ASN.ZW.yaml
+
+  ASNCM:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CM/ASN.CM.yaml"
+    path: ./ruleset/ASN.CM.yaml
+
+  ASNCA:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CA/ASN.CA.yaml"
+    path: ./ruleset/ASN.CA.yaml
+
+  ASNPS:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PS/ASN.PS.yaml"
+    path: ./ruleset/ASN.PS.yaml
+
+  ASNAO:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AO/ASN.AO.yaml"
+    path: ./ruleset/ASN.AO.yaml
+
+  ASNMK:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MK/ASN.MK.yaml"
+    path: ./ruleset/ASN.MK.yaml
+
+  ASNMU:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MU/ASN.MU.yaml"
+    path: ./ruleset/ASN.MU.yaml
+
+  ASNSK:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SK/ASN.SK.yaml"
+    path: ./ruleset/ASN.SK.yaml
+
+  ASNBR:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BR/ASN.BR.yaml"
+    path: ./ruleset/ASN.BR.yaml
 
   ASNTT:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TT/ASN.TT.yaml"
     path: ./ruleset/ASN.TT.yaml
 
-  ASNAP:
+  ASNMF:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AP/ASN.AP.yaml"
-    path: ./ruleset/ASN.AP.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MF/ASN.MF.yaml"
+    path: ./ruleset/ASN.MF.yaml
 
-  ASNSZ:
+  ASNPF:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SZ/ASN.SZ.yaml"
-    path: ./ruleset/ASN.SZ.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PF/ASN.PF.yaml"
+    path: ./ruleset/ASN.PF.yaml
 
-  ASNNU:
+  ASNFJ:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NU/ASN.NU.yaml"
-    path: ./ruleset/ASN.NU.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FJ/ASN.FJ.yaml"
+    path: ./ruleset/ASN.FJ.yaml
 
-  ASNVU:
+  ASNFM:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VU/ASN.VU.yaml"
-    path: ./ruleset/ASN.VU.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FM/ASN.FM.yaml"
+    path: ./ruleset/ASN.FM.yaml
 
-  ASNTL:
+  ASNLR:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TL/ASN.TL.yaml"
-    path: ./ruleset/ASN.TL.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LR/ASN.LR.yaml"
+    path: ./ruleset/ASN.LR.yaml
+
+  ASNTO:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TO/ASN.TO.yaml"
+    path: ./ruleset/ASN.TO.yaml
+
+  ASNBQ:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BQ/ASN.BQ.yaml"
+    path: ./ruleset/ASN.BQ.yaml
+
+  ASNHT:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/HT/ASN.HT.yaml"
+    path: ./ruleset/ASN.HT.yaml
+
+  ASNPW:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PW/ASN.PW.yaml"
+    path: ./ruleset/ASN.PW.yaml
+
+  ASNNR:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NR/ASN.NR.yaml"
+    path: ./ruleset/ASN.NR.yaml
+
+  ASNAI:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AI/ASN.AI.yaml"
+    path: ./ruleset/ASN.AI.yaml
+
+  ASNMO:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MO/ASN.MO.yaml"
+    path: ./ruleset/ASN.MO.yaml
 
   ASNBS:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BS/ASN.BS.yaml"
     path: ./ruleset/ASN.BS.yaml
 
-  ASNJE:
+  ASNKI:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/JE/ASN.JE.yaml"
-    path: ./ruleset/ASN.JE.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KI/ASN.KI.yaml"
+    path: ./ruleset/ASN.KI.yaml
 
-  ASNGD:
+  ASNVU:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GD/ASN.GD.yaml"
-    path: ./ruleset/ASN.GD.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VU/ASN.VU.yaml"
+    path: ./ruleset/ASN.VU.yaml
 
-  ASNWS:
+  ASNBL:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/WS/ASN.WS.yaml"
-    path: ./ruleset/ASN.WS.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BL/ASN.BL.yaml"
+    path: ./ruleset/ASN.BL.yaml
 
-  ASNLS:
+  ASNTK:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LS/ASN.LS.yaml"
-    path: ./ruleset/ASN.LS.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TK/ASN.TK.yaml"
+    path: ./ruleset/ASN.TK.yaml
 
-  ASNML:
+  ASNGG:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ML/ASN.ML.yaml"
-    path: ./ruleset/ASN.ML.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GG/ASN.GG.yaml"
+    path: ./ruleset/ASN.GG.yaml
 
-  ASNTG:
+  ASNTL:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TG/ASN.TG.yaml"
-    path: ./ruleset/ASN.TG.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TL/ASN.TL.yaml"
+    path: ./ruleset/ASN.TL.yaml
 
   ASNMG:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MG/ASN.MG.yaml"
     path: ./ruleset/ASN.MG.yaml
 
-  ASNMR:
+  ASNAS:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MR/ASN.MR.yaml"
-    path: ./ruleset/ASN.MR.yaml
-
-  ASNCV:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CV/ASN.CV.yaml"
-    path: ./ruleset/ASN.CV.yaml
-
-  ASNRE:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RE/ASN.RE.yaml"
-    path: ./ruleset/ASN.RE.yaml
-
-  ASNFO:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FO/ASN.FO.yaml"
-    path: ./ruleset/ASN.FO.yaml
-
-  ASNGP:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GP/ASN.GP.yaml"
-    path: ./ruleset/ASN.GP.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AS/ASN.AS.yaml"
+    path: ./ruleset/ASN.AS.yaml
 
   ASNSB:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SB/ASN.SB.yaml"
     path: ./ruleset/ASN.SB.yaml
 
-  ASNGM:
+  ASNWS:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GM/ASN.GM.yaml"
-    path: ./ruleset/ASN.GM.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/WS/ASN.WS.yaml"
+    path: ./ruleset/ASN.WS.yaml
 
-  ASNBB:
+  ASNNF:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BB/ASN.BB.yaml"
-    path: ./ruleset/ASN.BB.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NF/ASN.NF.yaml"
+    path: ./ruleset/ASN.NF.yaml
 
   ASNBN:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BN/ASN.BN.yaml"
     path: ./ruleset/ASN.BN.yaml
 
-  ASNKN:
+  ASNML:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KN/ASN.KN.yaml"
-    path: ./ruleset/ASN.KN.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ML/ASN.ML.yaml"
+    path: ./ruleset/ASN.ML.yaml
+
+  ASNTC:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TC/ASN.TC.yaml"
+    path: ./ruleset/ASN.TC.yaml
+
+  ASNMP:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MP/ASN.MP.yaml"
+    path: ./ruleset/ASN.MP.yaml
+
+  ASNUK:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/UK/ASN.UK.yaml"
+    path: ./ruleset/ASN.UK.yaml
+
+  ASNBB:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BB/ASN.BB.yaml"
+    path: ./ruleset/ASN.BB.yaml
+
+  ASNLS:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LS/ASN.LS.yaml"
+    path: ./ruleset/ASN.LS.yaml
+
+  ASNTG:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TG/ASN.TG.yaml"
+    path: ./ruleset/ASN.TG.yaml
+
+  ASNGD:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GD/ASN.GD.yaml"
+    path: ./ruleset/ASN.GD.yaml
+
+  ASNGW:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GW/ASN.GW.yaml"
+    path: ./ruleset/ASN.GW.yaml
+
+  ASNPM:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PM/ASN.PM.yaml"
+    path: ./ruleset/ASN.PM.yaml
+
+  ASNNU:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NU/ASN.NU.yaml"
+    path: ./ruleset/ASN.NU.yaml
 
   ASNGQ:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GQ/ASN.GQ.yaml"
     path: ./ruleset/ASN.GQ.yaml
+
+  ASNKP:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KP/ASN.KP.yaml"
+    path: ./ruleset/ASN.KP.yaml
+
+  ASNBF:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BF/ASN.BF.yaml"
+    path: ./ruleset/ASN.BF.yaml
+
+  ASNCW:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CW/ASN.CW.yaml"
+    path: ./ruleset/ASN.CW.yaml
+
+  ASNNI:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NI/ASN.NI.yaml"
+    path: ./ruleset/ASN.NI.yaml
+
+  ASNMW:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MW/ASN.MW.yaml"
+    path: ./ruleset/ASN.MW.yaml
+
+  ASNJE:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/JE/ASN.JE.yaml"
+    path: ./ruleset/ASN.JE.yaml
+
+  ASNGM:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GM/ASN.GM.yaml"
+    path: ./ruleset/ASN.GM.yaml
+
+  ASNGU:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GU/ASN.GU.yaml"
+    path: ./ruleset/ASN.GU.yaml
+
+  ASNBI:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BI/ASN.BI.yaml"
+    path: ./ruleset/ASN.BI.yaml
+
+  ASNLA:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LA/ASN.LA.yaml"
+    path: ./ruleset/ASN.LA.yaml
+
+  ASNTJ:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TJ/ASN.TJ.yaml"
+    path: ./ruleset/ASN.TJ.yaml
+
+  ASNGI:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GI/ASN.GI.yaml"
+    path: ./ruleset/ASN.GI.yaml
+
+  ASNFO:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FO/ASN.FO.yaml"
+    path: ./ruleset/ASN.FO.yaml
+
+  ASNRE:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RE/ASN.RE.yaml"
+    path: ./ruleset/ASN.RE.yaml
+
+  ASNLY:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LY/ASN.LY.yaml"
+    path: ./ruleset/ASN.LY.yaml
+
+  ASNNE:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NE/ASN.NE.yaml"
+    path: ./ruleset/ASN.NE.yaml
+
+  ASNMR:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MR/ASN.MR.yaml"
+    path: ./ruleset/ASN.MR.yaml
+
+  ASNBH:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BH/ASN.BH.yaml"
+    path: ./ruleset/ASN.BH.yaml
+
+  ASNCI:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CI/ASN.CI.yaml"
+    path: ./ruleset/ASN.CI.yaml
+
+  ASNCV:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CV/ASN.CV.yaml"
+    path: ./ruleset/ASN.CV.yaml
+
+  ASNSR:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SR/ASN.SR.yaml"
+    path: ./ruleset/ASN.SR.yaml
+
+  ASNZM:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ZM/ASN.ZM.yaml"
+    path: ./ruleset/ASN.ZM.yaml
+
+  ASNIM:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IM/ASN.IM.yaml"
+    path: ./ruleset/ASN.IM.yaml
+
+  ASNLI:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LI/ASN.LI.yaml"
+    path: ./ruleset/ASN.LI.yaml
+
+  ASNSO:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SO/ASN.SO.yaml"
+    path: ./ruleset/ASN.SO.yaml
+
+  ASNET:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ET/ASN.ET.yaml"
+    path: ./ruleset/ASN.ET.yaml
+
+  ASNKN:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KN/ASN.KN.yaml"
+    path: ./ruleset/ASN.KN.yaml
+
+  ASNSS:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SS/ASN.SS.yaml"
+    path: ./ruleset/ASN.SS.yaml
+
+  ASNQA:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/QA/ASN.QA.yaml"
+    path: ./ruleset/ASN.QA.yaml
+
+  ASNLC:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LC/ASN.LC.yaml"
+    path: ./ruleset/ASN.LC.yaml
+
+  ASNSL:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SL/ASN.SL.yaml"
+    path: ./ruleset/ASN.SL.yaml
+
+  ASNGY:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GY/ASN.GY.yaml"
+    path: ./ruleset/ASN.GY.yaml
+
+  ASNDZ:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DZ/ASN.DZ.yaml"
+    path: ./ruleset/ASN.DZ.yaml
+
+  ASNNC:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NC/ASN.NC.yaml"
+    path: ./ruleset/ASN.NC.yaml
+
+  ASNGN:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GN/ASN.GN.yaml"
+    path: ./ruleset/ASN.GN.yaml
+
+  ASNMQ:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MQ/ASN.MQ.yaml"
+    path: ./ruleset/ASN.MQ.yaml
+
+  ASNGP:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GP/ASN.GP.yaml"
+    path: ./ruleset/ASN.GP.yaml
+
+  ASNMH:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MH/ASN.MH.yaml"
+    path: ./ruleset/ASN.MH.yaml
+
+  ASNYE:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/YE/ASN.YE.yaml"
+    path: ./ruleset/ASN.YE.yaml
+
+  ASNDM:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DM/ASN.DM.yaml"
+    path: ./ruleset/ASN.DM.yaml
+
+  ASNTM:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TM/ASN.TM.yaml"
+    path: ./ruleset/ASN.TM.yaml
+
+  ASNDJ:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DJ/ASN.DJ.yaml"
+    path: ./ruleset/ASN.DJ.yaml
+
+  ASNSX:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SX/ASN.SX.yaml"
+    path: ./ruleset/ASN.SX.yaml
+
+  ASNGF:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GF/ASN.GF.yaml"
+    path: ./ruleset/ASN.GF.yaml
+
+  ASNCF:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CF/ASN.CF.yaml"
+    path: ./ruleset/ASN.CF.yaml
+
+  ASNVC:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VC/ASN.VC.yaml"
+    path: ./ruleset/ASN.VC.yaml
 
   ASNCU:
     <<: *classical
@@ -3538,80 +3553,50 @@ rule-providers:
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SY/ASN.SY.yaml"
     path: ./ruleset/ASN.SY.yaml
 
-  ASNTM:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TM/ASN.TM.yaml"
-    path: ./ruleset/ASN.TM.yaml
-
-  ASNGF:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GF/ASN.GF.yaml"
-    path: ./ruleset/ASN.GF.yaml
-
-  ASNFM:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FM/ASN.FM.yaml"
-    path: ./ruleset/ASN.FM.yaml
-
-  ASNBQ:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BQ/ASN.BQ.yaml"
-    path: ./ruleset/ASN.BQ.yaml
-
   ASNAW:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AW/ASN.AW.yaml"
     path: ./ruleset/ASN.AW.yaml
 
-  ASNTV:
+  ASNVA:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TV/ASN.TV.yaml"
-    path: ./ruleset/ASN.TV.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VA/ASN.VA.yaml"
+    path: ./ruleset/ASN.VA.yaml
 
-  ASNCF:
+  ASNCK:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CF/ASN.CF.yaml"
-    path: ./ruleset/ASN.CF.yaml
-
-  ASNMC:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MC/ASN.MC.yaml"
-    path: ./ruleset/ASN.MC.yaml
-
-  ASNAD:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AD/ASN.AD.yaml"
-    path: ./ruleset/ASN.AD.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CK/ASN.CK.yaml"
+    path: ./ruleset/ASN.CK.yaml
 
   ASNST:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ST/ASN.ST.yaml"
     path: ./ruleset/ASN.ST.yaml
 
+  ASNTV:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TV/ASN.TV.yaml"
+    path: ./ruleset/ASN.TV.yaml
+
+  ASNAD:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AD/ASN.AD.yaml"
+    path: ./ruleset/ASN.AD.yaml
+
+  ASNKM:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KM/ASN.KM.yaml"
+    path: ./ruleset/ASN.KM.yaml
+
+  ASNMC:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MC/ASN.MC.yaml"
+    path: ./ruleset/ASN.MC.yaml
+
   ASNIO:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IO/ASN.IO.yaml"
     path: ./ruleset/ASN.IO.yaml
-
-  ASNNF:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NF/ASN.NF.yaml"
-    path: ./ruleset/ASN.NF.yaml
-
-  ASNFK:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FK/ASN.FK.yaml"
-    path: ./ruleset/ASN.FK.yaml
-
-  ASNGW:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GW/ASN.GW.yaml"
-    path: ./ruleset/ASN.GW.yaml
-
-  ASNGL:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GL/ASN.GL.yaml"
-    path: ./ruleset/ASN.GL.yaml
 
   ASNYT:
     <<: *classical
@@ -3623,20 +3608,35 @@ rule-providers:
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/WF/ASN.WF.yaml"
     path: ./ruleset/ASN.WF.yaml
 
+  ASNAP:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AP/ASN.AP.yaml"
+    path: ./ruleset/ASN.AP.yaml
+
+  ASNFK:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FK/ASN.FK.yaml"
+    path: ./ruleset/ASN.FK.yaml
+
   ASNMS:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MS/ASN.MS.yaml"
     path: ./ruleset/ASN.MS.yaml
 
-  ASNAN:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AN/ASN.AN.yaml"
-    path: ./ruleset/ASN.AN.yaml
-
   ASNAX:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AX/ASN.AX.yaml"
     path: ./ruleset/ASN.AX.yaml
+
+  ASNGL:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GL/ASN.GL.yaml"
+    path: ./ruleset/ASN.GL.yaml
+
+  ASNAN:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AN/ASN.AN.yaml"
+    path: ./ruleset/ASN.AN.yaml
 
   ASNER:
     <<: *classical
