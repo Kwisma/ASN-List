@@ -1,6 +1,6 @@
 # LA 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-21 00:12:43
-# ASN: 24
+# 最后更新： CST 2025-03-22 00:12:15
+# ASN: 25
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -10,10 +10,10 @@ payload:
   - IP-ASN,23900,no-resolve
   - IP-ASN,24337,no-resolve
   - IP-ASN,140635,no-resolve
+  - IP-ASN,140631,no-resolve
   - IP-ASN,139011,no-resolve
   - IP-ASN,132513,no-resolve
   - IP-ASN,55508,no-resolve
-  - IP-ASN,140631,no-resolve
   - IP-ASN,137905,no-resolve
   - IP-ASN,133500,no-resolve
   - IP-ASN,17804,no-resolve
@@ -27,4 +27,5 @@ payload:
   - IP-ASN,45906,no-resolve
   - IP-ASN,153347,no-resolve
   - IP-ASN,138934,no-resolve
+  - IP-ASN,138668,no-resolve
   - IP-ASN,10104,no-resolve
