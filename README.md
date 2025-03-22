@@ -3,15 +3,15 @@
 
 实时更新的 ASN 和 IP 数据库。
 data 目录ASN如下：
-- ASN-Tor null
 - ASN-Telegram null
+- ASN-Tor null
 - ASN-Twitter null
 - ASN-Facebook null
-- ASN-Fastly null
 - ASN-Netflix null
-- ASN-Microsoft null
+- ASN-Fastly null
 - ASN-Cloudflare null
 - ASN-Google null
+- ASN-Microsoft null
 - ASN-Amazon null
 
 country 目录是各个国家的 ASN
@@ -27,15 +27,15 @@ country 目录是各个国家的 ASN
 
 <pre><code class="language-javascript">
 rules:
-  - RULE-SET,ASNTor,Proxy
   - RULE-SET,ASNTelegram,Proxy
+  - RULE-SET,ASNTor,Proxy
   - RULE-SET,ASNTwitter,Proxy
   - RULE-SET,ASNFacebook,Proxy
-  - RULE-SET,ASNFastly,Proxy
   - RULE-SET,ASNNetflix,Proxy
-  - RULE-SET,ASNMicrosoft,Proxy
+  - RULE-SET,ASNFastly,Proxy
   - RULE-SET,ASNCloudflare,Proxy
   - RULE-SET,ASNGoogle,Proxy
+  - RULE-SET,ASNMicrosoft,Proxy
   - RULE-SET,ASNAmazon,Proxy
 
 </code></pre>
@@ -45,19 +45,19 @@ rules:
 <pre><code class="language-javascript">
 rule-providers:
 
-  ASNTor:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Tor/ASN.Tor.yaml"
-    path: ./ruleset/ASN.Tor.yaml
-    interval: 86400
-    format: yaml
-
   ASNTelegram:
     type: http
     behavior: classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Telegram/ASN.Telegram.yaml"
     path: ./ruleset/ASN.Telegram.yaml
+    interval: 86400
+    format: yaml
+
+  ASNTor:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Tor/ASN.Tor.yaml"
+    path: ./ruleset/ASN.Tor.yaml
     interval: 86400
     format: yaml
 
@@ -77,14 +77,6 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNFastly:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Fastly/ASN.Fastly.yaml"
-    path: ./ruleset/ASN.Fastly.yaml
-    interval: 86400
-    format: yaml
-
   ASNNetflix:
     type: http
     behavior: classical
@@ -93,11 +85,11 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNMicrosoft:
+  ASNFastly:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Microsoft/ASN.Microsoft.yaml"
-    path: ./ruleset/ASN.Microsoft.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Fastly/ASN.Fastly.yaml"
+    path: ./ruleset/ASN.Fastly.yaml
     interval: 86400
     format: yaml
 
@@ -114,6 +106,14 @@ rule-providers:
     behavior: classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Google/ASN.Google.yaml"
     path: ./ruleset/ASN.Google.yaml
+    interval: 86400
+    format: yaml
+
+  ASNMicrosoft:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Microsoft/ASN.Microsoft.yaml"
+    path: ./ruleset/ASN.Microsoft.yaml
     interval: 86400
     format: yaml
 
@@ -132,15 +132,15 @@ rule-providers:
 <pre><code class="language-javascript">
 rule-providers:
 
-  ASNTor:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Tor/ASN.Tor.yaml"
-    path: ./ruleset/ASN.Tor.yaml
-
   ASNTelegram:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Telegram/ASN.Telegram.yaml"
     path: ./ruleset/ASN.Telegram.yaml
+
+  ASNTor:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Tor/ASN.Tor.yaml"
+    path: ./ruleset/ASN.Tor.yaml
 
   ASNTwitter:
     <<: *classical
@@ -152,20 +152,15 @@ rule-providers:
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Facebook/ASN.Facebook.yaml"
     path: ./ruleset/ASN.Facebook.yaml
 
-  ASNFastly:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Fastly/ASN.Fastly.yaml"
-    path: ./ruleset/ASN.Fastly.yaml
-
   ASNNetflix:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Netflix/ASN.Netflix.yaml"
     path: ./ruleset/ASN.Netflix.yaml
 
-  ASNMicrosoft:
+  ASNFastly:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Microsoft/ASN.Microsoft.yaml"
-    path: ./ruleset/ASN.Microsoft.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Fastly/ASN.Fastly.yaml"
+    path: ./ruleset/ASN.Fastly.yaml
 
   ASNCloudflare:
     <<: *classical
@@ -176,6 +171,11 @@ rule-providers:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Google/ASN.Google.yaml"
     path: ./ruleset/ASN.Google.yaml
+
+  ASNMicrosoft:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Microsoft/ASN.Microsoft.yaml"
+    path: ./ruleset/ASN.Microsoft.yaml
 
   ASNAmazon:
     <<: *classical
