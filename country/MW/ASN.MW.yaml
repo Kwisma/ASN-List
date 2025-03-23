@@ -1,6 +1,6 @@
 # MW 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-23 00:10:37
-# ASN: 26
+# 最后更新： CST 2025-03-24 00:10:22
+# ASN: 27
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -8,18 +8,18 @@ payload:
   - IP-ASN,37187,no-resolve
   - IP-ASN,37440,no-resolve
   - IP-ASN,37294,no-resolve
-  - IP-ASN,37098,no-resolve
-  - IP-ASN,36913,no-resolve
   - IP-ASN,327941,no-resolve
+  - IP-ASN,36913,no-resolve
+  - IP-ASN,37098,no-resolve
   - IP-ASN,36969,no-resolve
   - IP-ASN,329427,no-resolve
+  - IP-ASN,37713,no-resolve
   - IP-ASN,37215,no-resolve
   - IP-ASN,329434,no-resolve
   - IP-ASN,329220,no-resolve
   - IP-ASN,328949,no-resolve
   - IP-ASN,328811,no-resolve
-  - IP-ASN,328300,no-resolve
-  - IP-ASN,37713,no-resolve
+  - IP-ASN,37712,no-resolve
   - IP-ASN,329483,no-resolve
   - IP-ASN,329335,no-resolve
   - IP-ASN,329333,no-resolve
@@ -30,3 +30,4 @@ payload:
   - IP-ASN,328600,no-resolve
   - IP-ASN,328565,no-resolve
   - IP-ASN,328403,no-resolve
+  - IP-ASN,328300,no-resolve

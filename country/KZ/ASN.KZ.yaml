@@ -1,13 +1,13 @@
 # KZ 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-23 00:10:37
+# 最后更新： CST 2025-03-24 00:10:22
 # ASN: 172
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,9198,no-resolve
   - IP-ASN,41798,no-resolve
-  - IP-ASN,35104,no-resolve
   - IP-ASN,35168,no-resolve
+  - IP-ASN,35104,no-resolve
   - IP-ASN,21299,no-resolve
   - IP-ASN,200590,no-resolve
   - IP-ASN,205516,no-resolve
@@ -28,7 +28,6 @@ payload:
   - IP-ASN,198803,no-resolve
   - IP-ASN,51878,no-resolve
   - IP-ASN,43370,no-resolve
-  - IP-ASN,41124,no-resolve
   - IP-ASN,39318,no-resolve
   - IP-ASN,25534,no-resolve
   - IP-ASN,207446,no-resolve
@@ -42,6 +41,7 @@ payload:
   - IP-ASN,44653,no-resolve
   - IP-ASN,43873,no-resolve
   - IP-ASN,42770,no-resolve
+  - IP-ASN,41124,no-resolve
   - IP-ASN,35673,no-resolve
   - IP-ASN,31525,no-resolve
   - IP-ASN,29046,no-resolve
