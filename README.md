@@ -4,12 +4,12 @@
 实时更新的 ASN 和 IP 数据库。
 data 目录ASN如下：
 - ASN-Telegram null
-- ASN-Tor null
 - ASN-Twitter null
-- ASN-Facebook null
 - ASN-Netflix null
-- ASN-Fastly null
 - ASN-Microsoft null
+- ASN-Fastly null
+- ASN-Tor null
+- ASN-Facebook null
 - ASN-Cloudflare null
 - ASN-Google null
 - ASN-Amazon null
@@ -28,12 +28,12 @@ country 目录是各个国家的 ASN
 <pre><code class="language-javascript">
 rules:
   - RULE-SET,ASNTelegram,Proxy
-  - RULE-SET,ASNTor,Proxy
   - RULE-SET,ASNTwitter,Proxy
-  - RULE-SET,ASNFacebook,Proxy
   - RULE-SET,ASNNetflix,Proxy
-  - RULE-SET,ASNFastly,Proxy
   - RULE-SET,ASNMicrosoft,Proxy
+  - RULE-SET,ASNFastly,Proxy
+  - RULE-SET,ASNTor,Proxy
+  - RULE-SET,ASNFacebook,Proxy
   - RULE-SET,ASNCloudflare,Proxy
   - RULE-SET,ASNGoogle,Proxy
   - RULE-SET,ASNAmazon,Proxy
@@ -53,27 +53,11 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNTor:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Tor/ASN.Tor.yaml"
-    path: ./ruleset/ASN.Tor.yaml
-    interval: 86400
-    format: yaml
-
   ASNTwitter:
     type: http
     behavior: classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Twitter/ASN.Twitter.yaml"
     path: ./ruleset/ASN.Twitter.yaml
-    interval: 86400
-    format: yaml
-
-  ASNFacebook:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Facebook/ASN.Facebook.yaml"
-    path: ./ruleset/ASN.Facebook.yaml
     interval: 86400
     format: yaml
 
@@ -85,6 +69,14 @@ rule-providers:
     interval: 86400
     format: yaml
 
+  ASNMicrosoft:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Microsoft/ASN.Microsoft.yaml"
+    path: ./ruleset/ASN.Microsoft.yaml
+    interval: 86400
+    format: yaml
+
   ASNFastly:
     type: http
     behavior: classical
@@ -93,11 +85,19 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNMicrosoft:
+  ASNTor:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Microsoft/ASN.Microsoft.yaml"
-    path: ./ruleset/ASN.Microsoft.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Tor/ASN.Tor.yaml"
+    path: ./ruleset/ASN.Tor.yaml
+    interval: 86400
+    format: yaml
+
+  ASNFacebook:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Facebook/ASN.Facebook.yaml"
+    path: ./ruleset/ASN.Facebook.yaml
     interval: 86400
     format: yaml
 
@@ -137,35 +137,35 @@ rule-providers:
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Telegram/ASN.Telegram.yaml"
     path: ./ruleset/ASN.Telegram.yaml
 
-  ASNTor:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Tor/ASN.Tor.yaml"
-    path: ./ruleset/ASN.Tor.yaml
-
   ASNTwitter:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Twitter/ASN.Twitter.yaml"
     path: ./ruleset/ASN.Twitter.yaml
-
-  ASNFacebook:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Facebook/ASN.Facebook.yaml"
-    path: ./ruleset/ASN.Facebook.yaml
 
   ASNNetflix:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Netflix/ASN.Netflix.yaml"
     path: ./ruleset/ASN.Netflix.yaml
 
+  ASNMicrosoft:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Microsoft/ASN.Microsoft.yaml"
+    path: ./ruleset/ASN.Microsoft.yaml
+
   ASNFastly:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Fastly/ASN.Fastly.yaml"
     path: ./ruleset/ASN.Fastly.yaml
 
-  ASNMicrosoft:
+  ASNTor:
     <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Microsoft/ASN.Microsoft.yaml"
-    path: ./ruleset/ASN.Microsoft.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Tor/ASN.Tor.yaml"
+    path: ./ruleset/ASN.Tor.yaml
+
+  ASNFacebook:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Facebook/ASN.Facebook.yaml"
+    path: ./ruleset/ASN.Facebook.yaml
 
   ASNCloudflare:
     <<: *classical

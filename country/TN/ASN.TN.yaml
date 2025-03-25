@@ -1,13 +1,13 @@
 # TN 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-25 00:13:12
+# 最后更新： CST 2025-03-26 00:10:47
 # ASN: 24
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,328126,no-resolve
   - IP-ASN,37492,no-resolve
-  - IP-ASN,37693,no-resolve
   - IP-ASN,2609,no-resolve
+  - IP-ASN,37693,no-resolve
   - IP-ASN,5438,no-resolve
   - IP-ASN,327934,no-resolve
   - IP-ASN,37705,no-resolve
@@ -19,6 +19,7 @@ payload:
   - IP-ASN,328880,no-resolve
   - IP-ASN,328853,no-resolve
   - IP-ASN,328307,no-resolve
+  - IP-ASN,327969,no-resolve
   - IP-ASN,31245,no-resolve
   - IP-ASN,37717,no-resolve
   - IP-ASN,37551,no-resolve
@@ -26,4 +27,3 @@ payload:
   - IP-ASN,329071,no-resolve
   - IP-ASN,328897,no-resolve
   - IP-ASN,328414,no-resolve
-  - IP-ASN,327969,no-resolve
