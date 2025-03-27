@@ -1,6 +1,6 @@
 # BE 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-27 00:13:10
-# ASN: 297
+# 最后更新： CST 2025-03-28 00:12:47
+# ASN: 295
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -45,6 +45,7 @@ payload:
   - IP-ASN,48638,no-resolve
   - IP-ASN,5432,no-resolve
   - IP-ASN,48408,no-resolve
+  - IP-ASN,210233,no-resolve
   - IP-ASN,13226,no-resolve
   - IP-ASN,198148,no-resolve
   - IP-ASN,49677,no-resolve
@@ -53,12 +54,12 @@ payload:
   - IP-ASN,216066,no-resolve
   - IP-ASN,35350,no-resolve
   - IP-ASN,202191,no-resolve
+  - IP-ASN,196987,no-resolve
   - IP-ASN,31241,no-resolve
   - IP-ASN,203148,no-resolve
   - IP-ASN,201984,no-resolve
   - IP-ASN,198847,no-resolve
   - IP-ASN,197949,no-resolve
-  - IP-ASN,196987,no-resolve
   - IP-ASN,196755,no-resolve
   - IP-ASN,9166,no-resolve
   - IP-ASN,8221,no-resolve
@@ -85,7 +86,6 @@ payload:
   - IP-ASN,39905,no-resolve
   - IP-ASN,35056,no-resolve
   - IP-ASN,25194,no-resolve
-  - IP-ASN,210233,no-resolve
   - IP-ASN,210017,no-resolve
   - IP-ASN,209550,no-resolve
   - IP-ASN,208725,no-resolve
@@ -194,7 +194,6 @@ payload:
   - IP-ASN,60650,no-resolve
   - IP-ASN,60436,no-resolve
   - IP-ASN,59943,no-resolve
-  - IP-ASN,59889,no-resolve
   - IP-ASN,57948,no-resolve
   - IP-ASN,57265,no-resolve
   - IP-ASN,56369,no-resolve
@@ -300,4 +299,3 @@ payload:
   - IP-ASN,207537,no-resolve
   - IP-ASN,207424,no-resolve
   - IP-ASN,204363,no-resolve
-  - IP-ASN,201894,no-resolve

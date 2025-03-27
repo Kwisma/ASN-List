@@ -1,5 +1,5 @@
 # IR 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-27 00:13:10
+# 最后更新： CST 2025-03-28 00:12:47
 # ASN: 558
 # 由 Kwisma 制作，保留所有权利。
 
@@ -32,19 +32,18 @@ payload:
   - IP-ASN,47376,no-resolve
   - IP-ASN,43395,no-resolve
   - IP-ASN,34918,no-resolve
-  - IP-ASN,200370,no-resolve
   - IP-ASN,198154,no-resolve
   - IP-ASN,61173,no-resolve
   - IP-ASN,59441,no-resolve
   - IP-ASN,44285,no-resolve
   - IP-ASN,213759,no-resolve
   - IP-ASN,21341,no-resolve
-  - IP-ASN,204650,no-resolve
+  - IP-ASN,200370,no-resolve
   - IP-ASN,62442,no-resolve
   - IP-ASN,51431,no-resolve
   - IP-ASN,208555,no-resolve
+  - IP-ASN,204650,no-resolve
   - IP-ASN,204203,no-resolve
-  - IP-ASN,202468,no-resolve
   - IP-ASN,62048,no-resolve
   - IP-ASN,49801,no-resolve
   - IP-ASN,48551,no-resolve
@@ -52,6 +51,7 @@ payload:
   - IP-ASN,34837,no-resolve
   - IP-ASN,208161,no-resolve
   - IP-ASN,204104,no-resolve
+  - IP-ASN,202468,no-resolve
   - IP-ASN,201691,no-resolve
   - IP-ASN,201295,no-resolve
   - IP-ASN,197207,no-resolve
@@ -65,7 +65,6 @@ payload:
   - IP-ASN,25124,no-resolve
   - IP-ASN,211056,no-resolve
   - IP-ASN,206388,no-resolve
-  - IP-ASN,205585,no-resolve
   - IP-ASN,204544,no-resolve
   - IP-ASN,204213,no-resolve
   - IP-ASN,203616,no-resolve
@@ -100,6 +99,7 @@ payload:
   - IP-ASN,21419,no-resolve
   - IP-ASN,211904,no-resolve
   - IP-ASN,206495,no-resolve
+  - IP-ASN,205585,no-resolve
   - IP-ASN,205207,no-resolve
   - IP-ASN,204955,no-resolve
   - IP-ASN,203684,no-resolve
@@ -251,7 +251,6 @@ payload:
   - IP-ASN,200324,no-resolve
   - IP-ASN,200312,no-resolve
   - IP-ASN,200296,no-resolve
-  - IP-ASN,200252,no-resolve
   - IP-ASN,198341,no-resolve
   - IP-ASN,197946,no-resolve
   - IP-ASN,197343,no-resolve
@@ -531,6 +530,7 @@ payload:
   - IP-ASN,200645,no-resolve
   - IP-ASN,200406,no-resolve
   - IP-ASN,200376,no-resolve
+  - IP-ASN,200252,no-resolve
   - IP-ASN,199849,no-resolve
   - IP-ASN,199633,no-resolve
   - IP-ASN,198926,no-resolve
