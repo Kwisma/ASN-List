@@ -1,6 +1,6 @@
 # CN 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-29 00:12:11
-# ASN: 5205
+# 最后更新： CST 2025-03-30 00:10:44
+# ASN: 5204
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -25,8 +25,8 @@ payload:
   - IP-ASN,58879,no-resolve
   - IP-ASN,56048,no-resolve
   - IP-ASN,24400,no-resolve
-  - IP-ASN,139799,no-resolve
   - IP-ASN,9808,no-resolve
+  - IP-ASN,139799,no-resolve
   - IP-ASN,142111,no-resolve
   - IP-ASN,137897,no-resolve
   - IP-ASN,7497,no-resolve
@@ -85,6 +85,7 @@ payload:
   - IP-ASN,24406,no-resolve
   - IP-ASN,150173,no-resolve
   - IP-ASN,136173,no-resolve
+  - IP-ASN,9812,no-resolve
   - IP-ASN,9809,no-resolve
   - IP-ASN,63646,no-resolve
   - IP-ASN,63641,no-resolve
@@ -115,7 +116,6 @@ payload:
   - IP-ASN,137735,no-resolve
   - IP-ASN,134773,no-resolve
   - IP-ASN,133219,no-resolve
-  - IP-ASN,9812,no-resolve
   - IP-ASN,9394,no-resolve
   - IP-ASN,63617,no-resolve
   - IP-ASN,59083,no-resolve
@@ -176,7 +176,6 @@ payload:
   - IP-ASN,63581,no-resolve
   - IP-ASN,63570,no-resolve
   - IP-ASN,63561,no-resolve
-  - IP-ASN,59078,no-resolve
   - IP-ASN,59073,no-resolve
   - IP-ASN,59068,no-resolve
   - IP-ASN,59067,no-resolve
@@ -279,6 +278,7 @@ payload:
   - IP-ASN,63603,no-resolve
   - IP-ASN,63580,no-resolve
   - IP-ASN,63548,no-resolve
+  - IP-ASN,59078,no-resolve
   - IP-ASN,59049,no-resolve
   - IP-ASN,59043,no-resolve
   - IP-ASN,59037,no-resolve
@@ -525,6 +525,7 @@ payload:
   - IP-ASN,209574,no-resolve
   - IP-ASN,205610,no-resolve
   - IP-ASN,199406,no-resolve
+  - IP-ASN,199392,no-resolve
   - IP-ASN,18244,no-resolve
   - IP-ASN,18242,no-resolve
   - IP-ASN,17968,no-resolve
@@ -752,7 +753,6 @@ payload:
   - IP-ASN,199932,no-resolve
   - IP-ASN,199832,no-resolve
   - IP-ASN,199436,no-resolve
-  - IP-ASN,199392,no-resolve
   - IP-ASN,198527,no-resolve
   - IP-ASN,198516,no-resolve
   - IP-ASN,198025,no-resolve
@@ -5204,4 +5204,3 @@ payload:
   - IP-ASN,132623,no-resolve
   - IP-ASN,132479,no-resolve
   - IP-ASN,131521,no-resolve
-  - IP-ASN,131137,no-resolve

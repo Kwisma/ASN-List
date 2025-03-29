@@ -1,13 +1,13 @@
 # VE 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-03-29 00:12:11
+# 最后更新： CST 2025-03-30 00:10:44
 # ASN: 178
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,61461,no-resolve
   - IP-ASN,266809,no-resolve
-  - IP-ASN,267809,no-resolve
   - IP-ASN,272102,no-resolve
+  - IP-ASN,267809,no-resolve
   - IP-ASN,21826,no-resolve
   - IP-ASN,263703,no-resolve
   - IP-ASN,8048,no-resolve
@@ -21,10 +21,10 @@ payload:
   - IP-ASN,272809,no-resolve
   - IP-ASN,11562,no-resolve
   - IP-ASN,28007,no-resolve
+  - IP-ASN,272122,no-resolve
   - IP-ASN,271907,no-resolve
   - IP-ASN,266841,no-resolve
   - IP-ASN,273093,no-resolve
-  - IP-ASN,272122,no-resolve
   - IP-ASN,264778,no-resolve
   - IP-ASN,263806,no-resolve
   - IP-ASN,21980,no-resolve
@@ -45,6 +45,7 @@ payload:
   - IP-ASN,272134,no-resolve
   - IP-ASN,271939,no-resolve
   - IP-ASN,271899,no-resolve
+  - IP-ASN,271855,no-resolve
   - IP-ASN,270026,no-resolve
   - IP-ASN,269879,no-resolve
   - IP-ASN,269749,no-resolve
@@ -84,6 +85,7 @@ payload:
   - IP-ASN,269788,no-resolve
   - IP-ASN,267888,no-resolve
   - IP-ASN,267840,no-resolve
+  - IP-ASN,267813,no-resolve
   - IP-ASN,267811,no-resolve
   - IP-ASN,267789,no-resolve
   - IP-ASN,267701,no-resolve
@@ -139,7 +141,6 @@ payload:
   - IP-ASN,271917,no-resolve
   - IP-ASN,271884,no-resolve
   - IP-ASN,271880,no-resolve
-  - IP-ASN,271855,no-resolve
   - IP-ASN,271816,no-resolve
   - IP-ASN,271812,no-resolve
   - IP-ASN,271793,no-resolve
@@ -160,7 +161,6 @@ payload:
   - IP-ASN,269732,no-resolve
   - IP-ASN,267892,no-resolve
   - IP-ASN,267843,no-resolve
-  - IP-ASN,267813,no-resolve
   - IP-ASN,267783,no-resolve
   - IP-ASN,267781,no-resolve
   - IP-ASN,267722,no-resolve
