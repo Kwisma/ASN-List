@@ -1,5 +1,5 @@
 # IR 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-04-02 00:11:29
+# 最后更新： CST 2025-04-03 00:12:43
 # ASN: 558
 # 由 Kwisma 制作，保留所有权利。
 
@@ -25,10 +25,10 @@ payload:
   - IP-ASN,205647,no-resolve
   - IP-ASN,34636,no-resolve
   - IP-ASN,206065,no-resolve
-  - IP-ASN,48434,no-resolve
-  - IP-ASN,47330,no-resolve
   - IP-ASN,16322,no-resolve
+  - IP-ASN,47330,no-resolve
   - IP-ASN,51889,no-resolve
+  - IP-ASN,48434,no-resolve
   - IP-ASN,47376,no-resolve
   - IP-ASN,43395,no-resolve
   - IP-ASN,34918,no-resolve
@@ -208,7 +208,6 @@ payload:
   - IP-ASN,214922,no-resolve
   - IP-ASN,214526,no-resolve
   - IP-ASN,214361,no-resolve
-  - IP-ASN,213895,no-resolve
   - IP-ASN,213807,no-resolve
   - IP-ASN,213775,no-resolve
   - IP-ASN,212939,no-resolve
@@ -428,6 +427,7 @@ payload:
   - IP-ASN,214088,no-resolve
   - IP-ASN,213960,no-resolve
   - IP-ASN,213953,no-resolve
+  - IP-ASN,213895,no-resolve
   - IP-ASN,213852,no-resolve
   - IP-ASN,213732,no-resolve
   - IP-ASN,213682,no-resolve

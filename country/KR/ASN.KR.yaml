@@ -1,6 +1,6 @@
 # KR 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-04-02 00:11:29
-# ASN: 843
+# 最后更新： CST 2025-04-03 00:12:43
+# ASN: 844
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -36,6 +36,7 @@ payload:
   - IP-ASN,9950,no-resolve
   - IP-ASN,9946,no-resolve
   - IP-ASN,45361,no-resolve
+  - IP-ASN,18305,no-resolve
   - IP-ASN,17841,no-resolve
   - IP-ASN,139281,no-resolve
   - IP-ASN,131094,no-resolve
@@ -55,8 +56,6 @@ payload:
   - IP-ASN,23599,no-resolve
   - IP-ASN,23596,no-resolve
   - IP-ASN,23575,no-resolve
-  - IP-ASN,215343,no-resolve
-  - IP-ASN,18305,no-resolve
   - IP-ASN,18298,no-resolve
   - IP-ASN,18026,no-resolve
   - IP-ASN,17878,no-resolve
@@ -107,6 +106,7 @@ payload:
   - IP-ASN,3784,no-resolve
   - IP-ASN,23588,no-resolve
   - IP-ASN,23554,no-resolve
+  - IP-ASN,215343,no-resolve
   - IP-ASN,18373,no-resolve
   - IP-ASN,18326,no-resolve
   - IP-ASN,18317,no-resolve
@@ -453,7 +453,6 @@ payload:
   - IP-ASN,138380,no-resolve
   - IP-ASN,131890,no-resolve
   - IP-ASN,131873,no-resolve
-  - IP-ASN,131872,no-resolve
   - IP-ASN,131870,no-resolve
   - IP-ASN,131868,no-resolve
   - IP-ASN,131864,no-resolve
@@ -796,6 +795,7 @@ payload:
   - IP-ASN,152199,no-resolve
   - IP-ASN,131882,no-resolve
   - IP-ASN,131878,no-resolve
+  - IP-ASN,131872,no-resolve
   - IP-ASN,131871,no-resolve
   - IP-ASN,131869,no-resolve
   - IP-ASN,131851,no-resolve
@@ -836,6 +836,7 @@ payload:
   - IP-ASN,4671,no-resolve
   - IP-ASN,3559,no-resolve
   - IP-ASN,216294,no-resolve
+  - IP-ASN,216042,no-resolve
   - IP-ASN,215087,no-resolve
   - IP-ASN,214510,no-resolve
   - IP-ASN,211979,no-resolve
