@@ -1,13 +1,13 @@
 # GE 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-04-06 00:10:22
+# 最后更新： CST 2025-04-07 00:10:42
 # ASN: 129
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,198150,no-resolve
   - IP-ASN,35805,no-resolve
-  - IP-ASN,16010,no-resolve
   - IP-ASN,20771,no-resolve
+  - IP-ASN,16010,no-resolve
   - IP-ASN,34797,no-resolve
   - IP-ASN,49628,no-resolve
   - IP-ASN,44327,no-resolve
@@ -40,7 +40,6 @@ payload:
   - IP-ASN,57881,no-resolve
   - IP-ASN,57445,no-resolve
   - IP-ASN,56966,no-resolve
-  - IP-ASN,51841,no-resolve
   - IP-ASN,51142,no-resolve
   - IP-ASN,51010,no-resolve
   - IP-ASN,50647,no-resolve
@@ -90,6 +89,7 @@ payload:
   - IP-ASN,57743,no-resolve
   - IP-ASN,57473,no-resolve
   - IP-ASN,56811,no-resolve
+  - IP-ASN,51841,no-resolve
   - IP-ASN,49129,no-resolve
   - IP-ASN,47575,no-resolve
   - IP-ASN,47282,no-resolve

@@ -1,15 +1,15 @@
 # PY 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-04-06 00:10:22
-# ASN: 90
+# 最后更新： CST 2025-04-07 00:10:42
+# ASN: 91
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,28008,no-resolve
   - IP-ASN,61512,no-resolve
+  - IP-ASN,269783,no-resolve
   - IP-ASN,270052,no-resolve
   - IP-ASN,272021,no-resolve
   - IP-ASN,52455,no-resolve
-  - IP-ASN,269783,no-resolve
   - IP-ASN,23201,no-resolve
   - IP-ASN,273165,no-resolve
   - IP-ASN,28103,no-resolve
@@ -64,6 +64,7 @@ payload:
   - IP-ASN,52418,no-resolve
   - IP-ASN,27866,no-resolve
   - IP-ASN,27727,no-resolve
+  - IP-ASN,274082,no-resolve
   - IP-ASN,273847,no-resolve
   - IP-ASN,273095,no-resolve
   - IP-ASN,273023,no-resolve
