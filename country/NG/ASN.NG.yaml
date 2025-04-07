@@ -1,6 +1,6 @@
 # NG 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-04-07 00:10:42
-# ASN: 219
+# 最后更新： CST 2025-04-08 00:11:37
+# ASN: 216
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -17,8 +17,8 @@ payload:
   - IP-ASN,37480,no-resolve
   - IP-ASN,37088,no-resolve
   - IP-ASN,37018,no-resolve
-  - IP-ASN,37125,no-resolve
   - IP-ASN,30998,no-resolve
+  - IP-ASN,37125,no-resolve
   - IP-ASN,37308,no-resolve
   - IP-ASN,328780,no-resolve
   - IP-ASN,328722,no-resolve
@@ -32,6 +32,7 @@ payload:
   - IP-ASN,36923,no-resolve
   - IP-ASN,328668,no-resolve
   - IP-ASN,328658,no-resolve
+  - IP-ASN,328160,no-resolve
   - IP-ASN,37521,no-resolve
   - IP-ASN,37398,no-resolve
   - IP-ASN,37248,no-resolve
@@ -61,24 +62,21 @@ payload:
   - IP-ASN,329057,no-resolve
   - IP-ASN,328742,no-resolve
   - IP-ASN,328203,no-resolve
-  - IP-ASN,327985,no-resolve
   - IP-ASN,25163,no-resolve
   - IP-ASN,37629,no-resolve
   - IP-ASN,37472,no-resolve
   - IP-ASN,37452,no-resolve
-  - IP-ASN,37001,no-resolve
   - IP-ASN,36970,no-resolve
   - IP-ASN,328585,no-resolve
   - IP-ASN,328556,no-resolve
   - IP-ASN,328457,no-resolve
-  - IP-ASN,328160,no-resolve
   - IP-ASN,327721,no-resolve
   - IP-ASN,37588,no-resolve
   - IP-ASN,37587,no-resolve
-  - IP-ASN,37567,no-resolve
   - IP-ASN,37540,no-resolve
   - IP-ASN,37249,no-resolve
   - IP-ASN,37207,no-resolve
+  - IP-ASN,37001,no-resolve
   - IP-ASN,36922,no-resolve
   - IP-ASN,36872,no-resolve
   - IP-ASN,329275,no-resolve
@@ -92,6 +90,7 @@ payload:
   - IP-ASN,328035,no-resolve
   - IP-ASN,327898,no-resolve
   - IP-ASN,37637,no-resolve
+  - IP-ASN,37567,no-resolve
   - IP-ASN,37522,no-resolve
   - IP-ASN,37506,no-resolve
   - IP-ASN,37286,no-resolve
@@ -110,6 +109,7 @@ payload:
   - IP-ASN,329191,no-resolve
   - IP-ASN,329182,no-resolve
   - IP-ASN,329123,no-resolve
+  - IP-ASN,329083,no-resolve
   - IP-ASN,329054,no-resolve
   - IP-ASN,329001,no-resolve
   - IP-ASN,328945,no-resolve
@@ -141,7 +141,6 @@ payload:
   - IP-ASN,37443,no-resolve
   - IP-ASN,37433,no-resolve
   - IP-ASN,37426,no-resolve
-  - IP-ASN,37420,no-resolve
   - IP-ASN,37405,no-resolve
   - IP-ASN,37404,no-resolve
   - IP-ASN,37345,no-resolve
@@ -152,7 +151,6 @@ payload:
   - IP-ASN,37170,no-resolve
   - IP-ASN,37127,no-resolve
   - IP-ASN,37104,no-resolve
-  - IP-ASN,37077,no-resolve
   - IP-ASN,37025,no-resolve
   - IP-ASN,37005,no-resolve
   - IP-ASN,37004,no-resolve
@@ -174,7 +172,6 @@ payload:
   - IP-ASN,329171,no-resolve
   - IP-ASN,329142,no-resolve
   - IP-ASN,329127,no-resolve
-  - IP-ASN,329083,no-resolve
   - IP-ASN,329050,no-resolve
   - IP-ASN,329022,no-resolve
   - IP-ASN,329019,no-resolve
@@ -196,7 +193,6 @@ payload:
   - IP-ASN,328447,no-resolve
   - IP-ASN,328387,no-resolve
   - IP-ASN,328376,no-resolve
-  - IP-ASN,328362,no-resolve
   - IP-ASN,328324,no-resolve
   - IP-ASN,328309,no-resolve
   - IP-ASN,328305,no-resolve
@@ -209,6 +205,7 @@ payload:
   - IP-ASN,328081,no-resolve
   - IP-ASN,328080,no-resolve
   - IP-ASN,327986,no-resolve
+  - IP-ASN,327985,no-resolve
   - IP-ASN,327924,no-resolve
   - IP-ASN,327895,no-resolve
   - IP-ASN,327891,no-resolve

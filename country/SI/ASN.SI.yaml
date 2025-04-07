@@ -1,13 +1,13 @@
 # SI 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)
-# 最后更新： CST 2025-04-07 00:10:42
+# 最后更新： CST 2025-04-08 00:11:37
 # ASN: 267
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,3212,no-resolve
   - IP-ASN,62255,no-resolve
-  - IP-ASN,9119,no-resolve
   - IP-ASN,5603,no-resolve
+  - IP-ASN,9119,no-resolve
   - IP-ASN,34779,no-resolve
   - IP-ASN,43061,no-resolve
   - IP-ASN,25467,no-resolve
@@ -26,17 +26,16 @@ payload:
   - IP-ASN,42207,no-resolve
   - IP-ASN,2107,no-resolve
   - IP-ASN,28682,no-resolve
-  - IP-ASN,24629,no-resolve
   - IP-ASN,56635,no-resolve
   - IP-ASN,49402,no-resolve
   - IP-ASN,35471,no-resolve
   - IP-ASN,6764,no-resolve
-  - IP-ASN,60973,no-resolve
-  - IP-ASN,60435,no-resolve
-  - IP-ASN,50815,no-resolve
   - IP-ASN,43462,no-resolve
   - IP-ASN,29051,no-resolve
   - IP-ASN,8558,no-resolve
+  - IP-ASN,60973,no-resolve
+  - IP-ASN,60435,no-resolve
+  - IP-ASN,50815,no-resolve
   - IP-ASN,50093,no-resolve
   - IP-ASN,48894,no-resolve
   - IP-ASN,44993,no-resolve
@@ -73,7 +72,6 @@ payload:
   - IP-ASN,48419,no-resolve
   - IP-ASN,48398,no-resolve
   - IP-ASN,48388,no-resolve
-  - IP-ASN,48222,no-resolve
   - IP-ASN,47993,no-resolve
   - IP-ASN,47904,no-resolve
   - IP-ASN,47903,no-resolve
@@ -124,6 +122,7 @@ payload:
   - IP-ASN,25173,no-resolve
   - IP-ASN,25149,no-resolve
   - IP-ASN,25066,no-resolve
+  - IP-ASN,24629,no-resolve
   - IP-ASN,214499,no-resolve
   - IP-ASN,21441,no-resolve
   - IP-ASN,214167,no-resolve
@@ -132,7 +131,6 @@ payload:
   - IP-ASN,212563,no-resolve
   - IP-ASN,212548,no-resolve
   - IP-ASN,211884,no-resolve
-  - IP-ASN,211606,no-resolve
   - IP-ASN,210197,no-resolve
   - IP-ASN,209996,no-resolve
   - IP-ASN,209411,no-resolve
@@ -204,6 +202,7 @@ payload:
   - IP-ASN,49618,no-resolve
   - IP-ASN,49590,no-resolve
   - IP-ASN,48653,no-resolve
+  - IP-ASN,48222,no-resolve
   - IP-ASN,48016,no-resolve
   - IP-ASN,47676,no-resolve
   - IP-ASN,47360,no-resolve
@@ -241,6 +240,7 @@ payload:
   - IP-ASN,212405,no-resolve
   - IP-ASN,212170,no-resolve
   - IP-ASN,211776,no-resolve
+  - IP-ASN,211606,no-resolve
   - IP-ASN,210719,no-resolve
   - IP-ASN,208243,no-resolve
   - IP-ASN,20691,no-resolve
