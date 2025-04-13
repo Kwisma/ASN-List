@@ -6,9 +6,10 @@ data 目录ASN如下：
 - ASN-Tor null
 - ASN-Telegram null
 - ASN-Twitter null
-- ASN-Facebook null
 - ASN-Netflix null
 - ASN-Microsoft null
+- ASN-Alibaba null
+- ASN-Facebook null
 - ASN-Fastly null
 - ASN-Cloudflare null
 - ASN-Google null
@@ -30,9 +31,10 @@ rules:
   - RULE-SET,ASNTor,Proxy
   - RULE-SET,ASNTelegram,Proxy
   - RULE-SET,ASNTwitter,Proxy
-  - RULE-SET,ASNFacebook,Proxy
   - RULE-SET,ASNNetflix,Proxy
   - RULE-SET,ASNMicrosoft,Proxy
+  - RULE-SET,ASNAlibaba,Proxy
+  - RULE-SET,ASNFacebook,Proxy
   - RULE-SET,ASNFastly,Proxy
   - RULE-SET,ASNCloudflare,Proxy
   - RULE-SET,ASNGoogle,Proxy
@@ -69,14 +71,6 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNFacebook:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Facebook/ASN.Facebook.yaml"
-    path: ./ruleset/ASN.Facebook.yaml
-    interval: 86400
-    format: yaml
-
   ASNNetflix:
     type: http
     behavior: classical
@@ -90,6 +84,22 @@ rule-providers:
     behavior: classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Microsoft/ASN.Microsoft.yaml"
     path: ./ruleset/ASN.Microsoft.yaml
+    interval: 86400
+    format: yaml
+
+  ASNAlibaba:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Alibaba/ASN.Alibaba.yaml"
+    path: ./ruleset/ASN.Alibaba.yaml
+    interval: 86400
+    format: yaml
+
+  ASNFacebook:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Facebook/ASN.Facebook.yaml"
+    path: ./ruleset/ASN.Facebook.yaml
     interval: 86400
     format: yaml
 
@@ -147,11 +157,6 @@ rule-providers:
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Twitter/ASN.Twitter.yaml"
     path: ./ruleset/ASN.Twitter.yaml
 
-  ASNFacebook:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Facebook/ASN.Facebook.yaml"
-    path: ./ruleset/ASN.Facebook.yaml
-
   ASNNetflix:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Netflix/ASN.Netflix.yaml"
@@ -161,6 +166,16 @@ rule-providers:
     <<: *classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Microsoft/ASN.Microsoft.yaml"
     path: ./ruleset/ASN.Microsoft.yaml
+
+  ASNAlibaba:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Alibaba/ASN.Alibaba.yaml"
+    path: ./ruleset/ASN.Alibaba.yaml
+
+  ASNFacebook:
+    <<: *classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Facebook/ASN.Facebook.yaml"
+    path: ./ruleset/ASN.Facebook.yaml
 
   ASNFastly:
     <<: *classical
