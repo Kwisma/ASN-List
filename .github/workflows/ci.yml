@@ -14,7 +14,7 @@ jobs:
     strategy:
       matrix:
         script:
-          - ASNList.js
+          - ASN.js
 
     steps:
       - uses: actions/checkout@v3
@@ -29,16 +29,16 @@ jobs:
       - name: Run script
         run: node scripts/${{ matrix.script }}
 
-      - name: Upload country folder
-        if: success() && always()
+      - name: Upload country directory
+        if: success()
         uses: actions/upload-artifact@v4
         with:
           name: country-${{ matrix.script }}
           path: country/
           if-no-files-found: ignore
 
-      - name: Upload data folder
-        if: success() && always()
+      - name: Upload data directory
+        if: success()
         uses: actions/upload-artifact@v4
         with:
           name: data-${{ matrix.script }}
@@ -57,10 +57,10 @@ jobs:
         with:
           path: ./artifacts
 
-      - name: Restore folders to repo
+      - name: Move country and data back into place
         run: |
-          cp -r ./artifacts/*/country/* country/ || true
-          cp -r ./artifacts/*/data/* data/ || true
+          find artifacts -type d -name "country*" -exec cp -r {}/* country/ \; || true
+          find artifacts -type d -name "data*" -exec cp -r {}/* data/ \; || true
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
