@@ -4,344 +4,177 @@ import path from 'path';
 import * as cheerio from 'cheerio';
 import winston from 'winston';
 import yaml from 'js-yaml';
+import readline from 'readline';
 
-// 读取外部的 config.yaml 文件
+const csvFiles = [
+  './Geo/GeoLite2-ASN-Blocks-IPv4.csv',
+  './Geo/GeoLite2-ASN-Blocks-IPv6.csv',
+];
+
 const config = yaml.load(fs.readFileSync('./config/config.yaml', 'utf8'));
-
-// 分别从配置中获取两个列表：
-// config.namelist 用于 data 目录
-// config.country 用于 country 目录
 const namelistData = config.namelist;
 const countryList = config.country;
+const scanning = true;
+const scanningCountry = true;
+const asnMap = new Map();
 
-// 定义两个变量，分别控制不同目录下 CIDR 数据的请求
-const scanning = true;         // 控制 config.namelist (data) 下是否请求 CIDR 数据
-const scanningCountry = false; // 控制 config.country (country) 下是否请求 CIDR 数据
-
-// 全局变量
 const nameASN = [];
 const ruleput = [];
 const rulenumset = [];
 const ruleset = [];
 
-// ------------------------------
-// 增加随机指纹函数
-// ------------------------------
-function getRandomUserAgent() {
-    const userAgentList = [
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15",
-        "Mozilla/5.0 (Linux; Android 10; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Mobile Safari/537.36"
-        // 可继续添加其他浏览器指纹
-    ];
-    return userAgentList[Math.floor(Math.random() * userAgentList.length)];
-}
-
-// 生成随机地理位置（经纬度）示例
-function getRandomGeoLocation() {
-    // 例如，生成全球范围内的随机经纬度
-    const latitude = (Math.random() * 180 - 90).toFixed(6);   // -90 到 90
-    const longitude = (Math.random() * 360 - 180).toFixed(6); // -180 到 180
-    return `${latitude},${longitude}`;
-}
-
-// 生成随机访客 ID，采用简单的 UUID 模拟
-function getRandomVisitorID() {
-    // 生成简单的 UUID（示例用途，不保证安全性）
-    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
-        const r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);
-        return v.toString(16);
-    });
-}
-
-function getRandomFingerprintHeaders() {
-    return {
-        "User-Agent": getRandomUserAgent(),
-        "Accept-Language": "en-US,en;q=0.9",
-        "Sec-Ch-Ua": `"Not.A/Brand";v="8", "Chromium";v="115", "Google Chrome";v="115"`,
-        "Sec-Ch-Ua-Mobile": "?0",
-        "Sec-Ch-Ua-Platform": `"Windows"`,
-        // 附加随机 fingerprint 参数
-        "X-Client-Time": new Date().toISOString(),
-        "X-Geo-Location": getRandomGeoLocation(),
-        "X-Visitor-ID": getRandomVisitorID()
-    };
-}
-// ------------------------------
-
-// 获取当前函数名（用于日志打印）
-function getFunctionName() {
-    const stack = new Error().stack;
-    const stackLines = stack.split('\n');
-    const callerLine = stackLines[3] || stackLines[2];
-    const match = callerLine.match(/at (\w+)/);
-    return match ? match[1] : 'unknown';
-}
-
-// 自定义时间格式化函数
 function formatTimestamp() {
     const now = new Date();
-    const year = now.getFullYear();
-    const month = (now.getMonth() + 1).toString().padStart(2, '0');
-    const day = now.getDate().toString().padStart(2, '0');
-    const hours = now.getHours().toString().padStart(2, '0');
-    const minutes = now.getMinutes().toString().padStart(2, '0');
-    const seconds = now.getSeconds().toString().padStart(2, '0');
-    return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+    const pad = n => n.toString().padStart(2, '0');
+    return `${now.getFullYear()}-${pad(now.getMonth()+1)}-${pad(now.getDate())} ${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`;
 }
 
-// 创建 Logger
 const logger = winston.createLogger({
     level: 'info',
     transports: [
         new winston.transports.Console({
             format: winston.format.combine(
                 winston.format.timestamp({ format: formatTimestamp }),
-                winston.format.printf(({ timestamp, level, message }) => {
-                    const functionName = getFunctionName();
-                    return `${timestamp} [${level}] ${functionName} - ${message}`;
-                })
+                winston.format.printf(({ timestamp, level, message }) => `${timestamp} [${level}] ${message}`)
             ),
         })
     ],
 });
 
-// 获取中国时间（中文格式）
-function getChinaTime() {
-    const options = {
-        timeZone: 'Asia/Shanghai',
-        year: 'numeric',
-        month: '2-digit',
-        day: '2-digit',
-        hour: '2-digit',
-        minute: '2-digit',
-        second: '2-digit',
-        hour12: false
-    };
-    const localTime = new Intl.DateTimeFormat('zh-CN', options).format(new Date());
-    logger.info(`获取时间：${localTime}`);
-    return localTime.replace(/\//g, '-');
+// 加载 ASN → CIDR 映射
+const asnToCIDR = await ASNCIDRMAP(csvFiles)
+async function parseCSV(filePath) {
+  const fileStream = fs.createReadStream(filePath);
+  const rl = readline.createInterface({
+    input: fileStream,
+    crlfDelay: Infinity
+  });
+
+  let isFirstLine = true;
+  for await (const line of rl) {
+    if (isFirstLine) {
+      isFirstLine = false;
+      continue; // 跳过表头
+    }
+    const [network, asnRaw] = line.split(',');
+    const asn = parseInt(asnRaw);
+    if (!isNaN(asn)) {
+      const cidr = network.replace(/"/g, '');
+      if (!asnMap.has(asn)) {
+        asnMap.set(asn, []);
+      }
+      asnMap.get(asn).push(cidr);
+    }
+  }
 }
 
-// 初始化文件，支持传入目录（默认为 'country'）
+async function ASNCIDRMAP(csvFiles) {
+  for (const file of csvFiles) {
+    await parseCSV(file);
+  }  
+  return Object.fromEntries(asnMap);
+}
+
+function getChinaTime() {
+    const options = { timeZone: 'Asia/Shanghai', hour12: false, year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit' };
+    return new Intl.DateTimeFormat('zh-CN', options).format(new Date()).replace(/\//g, '-');
+}
+
+function getFilePaths(name, directory) {
+    const base = `./${directory}/${name}`;
+    return {
+        asnList: `${base}/ASN.${name}.list`,
+        asnYaml: `${base}/ASN.${name}.yaml`,
+        cidrList: `${base}/CIDR.${name}.list`,
+        cidrYaml: `${base}/CIDR.${name}.yaml`,
+        readme: `${base}/README.md`
+    };
+}
+
 function initFile(name, directory = 'country') {
     const localTime = getChinaTime();
-    const header = `# ${name} 的 ASN 信息。 (https://github.com/Kwisma/ASN-List)\n`;
-    const lastUpdated = `# 最后更新： CST ${localTime}\n`;
-    const fileContent = header + lastUpdated;
-    const filemd = `
-# ASN-List
+    const header = `# ${name} 的 ASN 信息\n# 最后更新： CST ${localTime}\n`;
+    const filemd = `\n# ASN-List\n\n实时更新 ${name} 的 ASN 和 IP 数据库。\n\n<pre><code class="language-javascript">\nrule-providers:\n  ASN${name}:\n    type: http\n    behavior: classical\n    url: \"https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/${directory}/${name}/ASN.${name}.yaml\"\n    path: ./ruleset/ASN.${name}.yaml\n    interval: 86400\n    format: yaml\n</code></pre>`;
 
-实时更新 ${name} 的 ASN 和 IP 数据库。
-
-## 特征
-
-- 每日自动更新
-- 可靠且准确的来源
-
-## 在代理应用中使用
-
-mihomo(clash.meta)
-
-<pre><code class="language-javascript">
-rule-providers:
-  ASN${name}:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/${directory}/${name}/ASN.${name}.yaml"
-    path: ./ruleset/ASN.${name}.yaml
-    interval: 86400
-    format: yaml
-</code></pre>
-    `;
     const dir = path.join('./', directory, name);
-    if (!fs.existsSync(dir)) {
-        fs.mkdirSync(dir, { recursive: true });
-    }
-    const files = [
-        `./${directory}/${name}/ASN.${name}.list`,
-        `./${directory}/${name}/ASN.${name}.yaml`,
-        `./${directory}/${name}/CIDR.${name}.list`,
-        `./${directory}/${name}/CIDR.${name}.yaml`,
-    ];
-    const filesmd = [`./${directory}/${name}/README.md`];
-    logger.info("初始化文件...");
-    files.forEach((file) => {
-        fs.writeFileSync(file, fileContent, { encoding: 'utf8' });
-    });
-    filesmd.forEach((file) => {
-        fs.writeFileSync(file, filemd, { encoding: 'utf8' });
-    });
-    logger.info("文件初始化完成！");
+    if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+
+    const files = getFilePaths(name, directory);
+    [files.asnList, files.asnYaml, files.cidrList, files.cidrYaml].forEach(file => fs.writeFileSync(file, header, 'utf8'));
+    fs.writeFileSync(files.readme, filemd, 'utf8');
 }
 
-// 定义 asnInfo 函数，用于写入 ASN 文件头部信息，支持传入目录（默认为 'country'）
 function asnInfo(name, asnNumber, directory = 'country') {
-    const fileasn = `# ASN: ${asnNumber}\n`;
-    const footer = "# 由 Kwisma 制作，保留所有权利。\n\n";
-    const fileContent = fileasn + footer;
-    const files = [
-        `./${directory}/${name}/ASN.${name}.list`,
-        `./${directory}/${name}/ASN.${name}.yaml`,
-        `./${directory}/${name}/CIDR.${name}.list`,
-        `./${directory}/${name}/CIDR.${name}.yaml`,
-    ];
-    files.forEach((file) => {
-        fs.appendFileSync(file, fileContent, { encoding: 'utf8' });
-    });
-    // 在 yaml 文件中添加 payload 标记
-    fs.appendFileSync(`./${directory}/${name}/ASN.${name}.yaml`, `payload:\n`, { encoding: 'utf8' });
-    fs.appendFileSync(`./${directory}/${name}/CIDR.${name}.yaml`, `payload:\n`, { encoding: 'utf8' });
+    const fileasn = `# ASN: ${asnNumber}\n# 由 Kwisma 制作，保留所有权利。\n\n`;
+    const files = getFilePaths(name, directory);
+    [files.asnList, files.asnYaml, files.cidrList, files.cidrYaml].forEach(file => fs.appendFileSync(file, fileasn, 'utf8'));
+    fs.appendFileSync(files.asnYaml, `payload:\n`, 'utf8');
+    fs.appendFileSync(files.cidrYaml, `payload:\n`, 'utf8');
 }
 
-// 请求数据并重试
 async function fetchWithRetry(url, options, retries = 3) {
     for (let i = 0; i < retries; i++) {
         try {
             return await axios.get(url, options);
         } catch (error) {
-            if (i === retries - 1) {
-                throw error;
-            }
+            if (i === retries - 1) throw error;
             logger.warn(`请求失败，重试 ${i + 1}/${retries}...`);
         }
     }
 }
 
-// 获取全称，payload 可根据需要扩展
 function getFullName(name) {
     const entry = payload().find(item => item.name === name);
     return entry ? entry.nametry : null;
 }
 
-// 保存 ASN 数据，支持选择目录（默认为 'country'）
-// 根据目录不同，使用不同的变量控制 CIDR 数据的请求:
-//   - 若目录为 data，则使用 scanning 控制
-//   - 若目录为 country，则使用 scanningCountry 控制
 async function saveLatestASN(name, directory = 'country') {
-    let url;
-    if (directory === 'data') {
-        url = `https://bgp.he.net/search?search[search]=${name}`;
-    } else {
-        url = `https://bgp.he.net/country/${name}`;
-    }
-    const headers = {
-        ...getRandomFingerprintHeaders()
-    };
+    const url = directory === 'data'
+        ? `https://bgp.he.net/search?search[search]=${name}`
+        : `https://bgp.he.net/country/${name}`;
+
     initFile(name, directory);
     try {
         logger.info(`开始请求 ASN 数据 (${name} in ${directory})...`);
-        const { data } = await fetchWithRetry(url, { headers });
-        logger.info("数据请求成功！");
+        const { data } = await fetchWithRetry(url, {});
         const $ = cheerio.load(data);
         const asns = $('#asns tbody tr');
         logger.info(`共找到 ${asns.length} 个 ASN 条目，开始写入文件...`);
+
         nameASN.push(name + ' ' + getFullName(name));
         asnInfo(name, asns.length, directory);
+
         ruleset.push(`  - RULE-SET,ASN${name},Proxy\n`);
-        ruleput.push(`
-  ASN${name}:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/${directory}/${name}/ASN.${name}.yaml"
-    path: ./ruleset/ASN.${name}.yaml
-    interval: 86400
-    format: yaml
-`);
-        rulenumset.push(`
-  ASN${name}:
-    <<: *classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/${directory}/${name}/ASN.${name}.yaml"
-    path: ./ruleset/ASN.${name}.yaml
-`);
-        let index = 0;
+        ruleput.push(`\n  ASN${name}:\n    type: http\n    behavior: classical\n    url: \"https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/${directory}/${name}/ASN.${name}.yaml\"\n    path: ./ruleset/ASN.${name}.yaml\n    interval: 86400\n    format: yaml\n`);
+        rulenumset.push(`\n  ASN${name}:\n    <<: *classical\n    url: \"https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/${directory}/${name}/ASN.${name}.yaml\"\n    path: ./ruleset/ASN.${name}.yaml\n`);
+
+        const files = getFilePaths(name, directory);
         for (let asn of asns) {
             const asnNumber = $(asn).find('td:nth-child(1) a').text().replace('AS', '').trim();
             const asnName = $(asn).find('td:nth-child(2)').text().trim();
             if (asnName) {
-                const asnInfoLine = `IP-ASN,${asnNumber},no-resolve\n`;
-                const yamlString = `  - IP-ASN,${asnNumber},no-resolve\n`;
-                fs.appendFileSync(`./${directory}/${name}/ASN.${name}.list`, asnInfoLine, { encoding: 'utf8' });
-                fs.appendFileSync(`./${directory}/${name}/ASN.${name}.yaml`, yamlString, { encoding: 'utf8' });
-                logger.info(`开始处理 ASN #${index + 1}: ${asnNumber}`);
-                index++;
-            }
-        }
-        
-        // 根据目录判断是否请求 CIDR 数据
-        if ((directory === 'data' && scanning) || (directory === 'country' && scanningCountry)) {
-            try {
-                logger.info("开始请求 CIDR 数据...");
-                const cidrUrl = `https://bgp.he.net/AS${name}`;
-                const { data: cidrData } = await fetchWithRetry(cidrUrl, { headers });
-                logger.info("CIDR 数据请求成功！");
-                const $cidr = cheerio.load(cidrData);
-                const cidrs = $('#table_prefixes4 tbody tr');
-                logger.info(`共找到 ${cidrs.length} 个 CIDR 条目，开始写入文件...`);
-                let index4 = 0;
-                for (let cidr of cidrs) {
-                    const cidrNumber = $cidr(cidr).find('td:nth-child(1)').text().trim();
-                    if (cidrNumber && !cidrNumber.includes(':')) {
-                        const info = `${cidrNumber}\n`;
-                        const yamlString = `  - ${cidrNumber}\n`;
-                        fs.appendFileSync(`./${directory}/${name}/CIDR.${name}.list`, info, { encoding: 'utf8' });
-                        fs.appendFileSync(`./${directory}/${name}/CIDR.${name}.yaml`, yamlString, { encoding: 'utf8' });
-                        logger.info(`处理 CIDR #${index4 + 1}: ${cidrNumber}`);
-                        index4++;
+                fs.appendFileSync(files.asnList, `IP-ASN,${asnNumber},no-resolve\n`, 'utf8');
+                fs.appendFileSync(files.asnYaml, `  - IP-ASN,${asnNumber},no-resolve\n`, 'utf8');
+
+                if ((directory === 'data' && scanning) || (directory === 'country' && scanningCountry)) {
+                    const cidrList = asnToCIDR[asnNumber];
+                    if (cidrList) {
+                        cidrList.forEach(cidr => {
+                            fs.appendFileSync(files.cidrList, `${cidr}\n`, 'utf8');
+                            fs.appendFileSync(files.cidrYaml, `  - ${cidr}\n`, 'utf8');
+                        });
+                        logger.info(`已写入 ${cidrList.length} 个 CIDR (${asnNumber})`);
                     }
                 }
-                const cidrs6 = $('#table_prefixes6 tbody tr');
-                logger.info(`共找到 ${cidrs6.length} 个 CIDR6 条目，开始写入文件...`);
-                let index6 = 0;
-                for (let cidr of cidrs6) {
-                    const cidrNumber = $cidr(cidr).find('td:nth-child(1)').text().trim();
-                    if (cidrNumber && cidrNumber.includes(':')) {
-                        const info = `${cidrNumber}\n`;
-                        const yamlString = `  - ${cidrNumber}\n`;
-                        fs.appendFileSync(`./${directory}/${name}/CIDR.${name}.list`, info, { encoding: 'utf8' });
-                        fs.appendFileSync(`./${directory}/${name}/CIDR.${name}.yaml`, yamlString, { encoding: 'utf8' });
-                        logger.info(`处理 CIDR6 #${index6 + 1}: ${cidrNumber}`);
-                        index6++;
-                    }
-                }
-            } catch (error) {
-                logger.error('请求 CIDR 数据失败:', error);
             }
         }
-        
-        // 写入整合后的 README 信息（示例）
-        const ASNListItems = nameASN.map(item => `- ASN-${item}`).join('\n');
-        const datamd = `
-# ASN-List
 
-实时更新的 ASN 和 IP 数据库。
-
-以下内容整合了来自不同目录的数据：
-
-${ASNListItems}
-
-## 特征
-
-- 每日自动更新
-- 可靠且准确的来源
-
-## 在代理应用中使用
-
-## mihomo规则
-
-<pre><code class="language-javascript">
-rules:
-${ruleset.join('')}
-</code></pre>
-        `;
-        fs.writeFileSync(`README.md`, datamd, { encoding: 'utf8' });
-        logger.info(`ASN 数据写入成功 (${name} in ${directory})！`);
+        logger.info(`ASN 数据写入完成 (${name} in ${directory})`);
     } catch (error) {
-        logger.error(`请求 ASN 数据失败 (${name} in ${directory}):`, error);
+        logger.error(`处理失败 (${name} in ${directory}):`, error);
     }
 }
 
-// 分别处理 data 和 country 目录下的名称
 namelistData.forEach(item => {
     saveLatestASN(item, 'data');
 });
@@ -1317,4 +1150,3 @@ function payload() {
             "nametry": "Netherlands Antilles"
         }];
 }
-
