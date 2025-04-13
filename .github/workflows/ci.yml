@@ -9,7 +9,15 @@ permissions:
   contents: write
 
 jobs:
-  build:
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      node-version: 20
+    steps:
+      - run: echo "Preparing job..."
+
+  run-scripts:
+    needs: prepare
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -30,6 +38,13 @@ jobs:
       - name: Run matrix script
         run: node scripts/${{ matrix.script }}
 
+  commit-changes:
+    needs: run-scripts
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: Update IP List (${{ matrix.script }})
+          commit_message: Update IP List
