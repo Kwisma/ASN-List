@@ -29,20 +29,17 @@ jobs:
       - name: Run script
         run: node scripts/${{ matrix.script }}
 
-      - name: Upload country directory
-        if: success()
-        uses: actions/upload-artifact@v4
-        with:
-          name: country-${{ matrix.script }}
-          path: country/
-          if-no-files-found: ignore
+      - name: Package output
+        run: |
+          mkdir -p output
+          if [ -d country ]; then cp -r country output/; fi
+          if [ -d data ]; then cp -r data output/; fi
 
-      - name: Upload data directory
-        if: success()
+      - name: Upload output as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: data-${{ matrix.script }}
-          path: data/
+          name: output-${{ matrix.script }}
+          path: output/
           if-no-files-found: ignore
 
   commit-changes:
@@ -52,15 +49,15 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Download all artifacts
+      - name: Download artifacts
         uses: actions/download-artifact@v4
         with:
           path: ./artifacts
 
-      - name: Move country and data back into place
+      - name: Move files back to root
         run: |
-          find artifacts -type d -name "country*" -exec cp -r {}/* country/ \; || true
-          find artifacts -type d -name "data*" -exec cp -r {}/* data/ \; || true
+          cp -r artifacts/*/country/* country/ 2>/dev/null || true
+          cp -r artifacts/*/data/* data/ 2>/dev/null || true
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
