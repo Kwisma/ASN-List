@@ -175,12 +175,16 @@ async function saveLatestASN(name, directory = 'country') {
     }
 }
 
-namelistData.forEach(item => {
-    saveLatestASN(item, 'data');
-});
-countryList.forEach(item => {
-    saveLatestASN(item, 'country');
-});
+async function saveWithDelay() {
+    for (let i = 0; i < namelistData.length; i++) {
+        await saveLatestASN(namelistData[i], 'data');
+    }
+    for (let i = 0; i < countryList.length; i++) {
+        await saveLatestASN(countryList[i], 'country');
+    }
+}
+
+saveWithDelay();
 
 // 通用的 payload 数据结构，按需扩展
 function payload() {
