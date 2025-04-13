@@ -9,20 +9,11 @@ permissions:
   contents: write
 
 jobs:
-  prepare:
-    runs-on: ubuntu-latest
-    outputs:
-      node-version: 20
-    steps:
-      - run: echo "Preparing job..."
-
   run-scripts:
-    needs: prepare
     runs-on: ubuntu-latest
     strategy:
       matrix:
         script:
-          - ASN.js
           - ASNList.js
 
     steps:
@@ -35,8 +26,24 @@ jobs:
       - name: Install dependencies
         run: npm install -P
 
-      - name: Run matrix script
+      - name: Run script
         run: node scripts/${{ matrix.script }}
+
+      - name: Upload country folder
+        if: success() && always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: country-${{ matrix.script }}
+          path: country/
+          if-no-files-found: ignore
+
+      - name: Upload data folder
+        if: success() && always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: data-${{ matrix.script }}
+          path: data/
+          if-no-files-found: ignore
 
   commit-changes:
     needs: run-scripts
@@ -44,6 +51,16 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: ./artifacts
+
+      - name: Restore folders to repo
+        run: |
+          cp -r ./artifacts/*/country/* country/ || true
+          cp -r ./artifacts/*/data/* data/ || true
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
