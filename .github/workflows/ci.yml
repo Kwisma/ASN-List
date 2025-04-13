@@ -14,6 +14,7 @@ jobs:
     strategy:
       matrix:
         script:
+          - ASN.js
           - ASNList.js
 
     steps:
@@ -54,10 +55,13 @@ jobs:
         with:
           path: ./artifacts
 
-      - name: Move files back to root
+      - name: Move files back to project root
         run: |
           cp -r artifacts/*/country/* country/ 2>/dev/null || true
           cp -r artifacts/*/data/* data/ 2>/dev/null || true
+
+      - name: Clean up artifacts directory
+        run: rm -rf artifacts
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
