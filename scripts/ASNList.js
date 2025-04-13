@@ -12,7 +12,7 @@ const nameASN = [];
 const ruleput = [];
 const rulenumset = [];
 const ruleset = [];
-const scanning = false;
+const scanning = true;
 // 获取当前函数名
 function getFunctionName() {
     const stack = new Error().stack;
@@ -243,8 +243,8 @@ async function saveLatestASN(name) {
                         for (let cidr of cidrs) {
                             const cidrNumber = $(cidr).find('td:nth-child(1)').text().trim();
                             if (cidrNumber && !cidrNumber.includes(':')) {
-                                const asnInfo = `IP-CIDR,${cidrNumber},no-resolve\n`;
-                                const yamlString = `  - IP-CIDR,${cidrNumber},no-resolve\n`
+                                const asnInfo = `${cidrNumber}\n`;
+                                const yamlString = `  - ${cidrNumber}\n`
                                 fs.appendFileSync(`./data/${name}/CIDR.${name}.list`, asnInfo, { encoding: 'utf8' });
                                 fs.appendFileSync(`./data/${name}/CIDR.${name}.yaml`, yamlString, { encoding: 'utf8' });
                                 logger.info(`处理 CIDR #${index4 + 1}: ${cidrNumber}`);
@@ -257,8 +257,8 @@ async function saveLatestASN(name) {
                         for (let cidr of cidrs6) {
                             const cidrNumber = $(cidr).find('td:nth-child(1)').text().trim();
                             if (cidrNumber && cidrNumber.includes(':')) {
-                                const asnInfo = `IP-CIDR6,${cidrNumber},no-resolve\n`;
-                                const yamlString = `  - IP-CIDR6,${cidrNumber},no-resolve\n`
+                                const asnInfo = `${cidrNumber}\n`;
+                                const yamlString = `  - ${cidrNumber}\n`
                                 fs.appendFileSync(`./data/${name}/CIDR.${name}.list`, asnInfo, { encoding: 'utf8' });
                                 fs.appendFileSync(`./data/${name}/CIDR.${name}.yaml`, yamlString, { encoding: 'utf8' });
                                 logger.info(`处理 CIDR6 #${index6 + 1}: ${cidrNumber}`);
