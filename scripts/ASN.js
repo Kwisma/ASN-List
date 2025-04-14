@@ -205,16 +205,13 @@ async function saveLatestASN(name, directory = "country") {
             `  - IP-ASN,${asnNumber},no-resolve\n`,
             "utf8",
           );
-
-          if (scanning) {
-            const cidrList = asnToCIDR[asnNumber];
-            if (cidrList) {
-              cidrList.forEach((cidr) => {
-                fs.appendFileSync(files.cidrList, `${cidr}\n`, "utf8");
-                fs.appendFileSync(files.cidrYaml, `  - ${cidr}\n`, "utf8");
-              });
-              logger.info(`已写入 ${cidrList.length} 个 CIDR (${asnNumber})`);
-            }
+          logger.info(`已写入 ASN (${asnNumber})`);
+        }
+        if (scanning) {
+          if (asnName === "Route") {
+            fs.appendFileSync(files.cidrList, `${asnNumber}\n`, "utf8");
+            fs.appendFileSync(files.cidrYaml, `  - ${asnNumber}\n`, "utf8");
+            logger.info(`已写入 CIDR (${asnNumber})`);
           }
         }
       }
