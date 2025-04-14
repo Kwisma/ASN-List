@@ -159,14 +159,14 @@ async function saveLatestASN(name, directory = "country") {
     const $ = cheerio.load(data);
     const asns =
       directory === "data" ? $("table.w100p tbody tr") : $("#asns tbody tr");
+
     const asnEntries = Array.from(asns).filter((asn) => {
       const asnText = $(asn).find("td:nth-child(1) a").text().trim();
       return /^AS\d+/.test(asnText);
     });
     logger.info(`共找到 ${asnEntries.length} 个 ASN 条目，开始写入文件...`);
-
     nameASN.push(name + " " + getFullName(name));
-    asnInfo(name, asns.length, directory);
+    asnInfo(name, asnEntries.length, directory);
 
     ruleset.push(`  - RULE-SET,ASN${name},Proxy\n`);
     ruleput.push(
@@ -216,25 +216,27 @@ async function saveLatestASN(name, directory = "country") {
           .text()
           .replace("AS", "")
           .trim();
-        fs.appendFileSync(
-          files.asnList,
-          `IP-ASN,${asnNumber},no-resolve\n`,
-          "utf8",
-        );
-        fs.appendFileSync(
-          files.asnYaml,
-          `  - IP-ASN,${asnNumber},no-resolve\n`,
-          "utf8",
-        );
+        if (asnName) {
+          fs.appendFileSync(
+            files.asnList,
+            `IP-ASN,${asnNumber},no-resolve\n`,
+            "utf8",
+          );
+          fs.appendFileSync(
+            files.asnYaml,
+            `  - IP-ASN,${asnNumber},no-resolve\n`,
+            "utf8",
+          );
 
-        if (scanningCountry) {
-          const cidrList = asnToCIDR[asnNumber];
-          if (cidrList) {
-            cidrList.forEach((cidr) => {
-              fs.appendFileSync(files.cidrList, `${cidr}\n`, "utf8");
-              fs.appendFileSync(files.cidrYaml, `  - ${cidr}\n`, "utf8");
-            });
-            logger.info(`已写入 ${cidrList.length} 个 CIDR (${asnNumber})`);
+          if (scanningCountry) {
+            const cidrList = asnToCIDR[asnNumber];
+            if (cidrList) {
+              cidrList.forEach((cidr) => {
+                fs.appendFileSync(files.cidrList, `${cidr}\n`, "utf8");
+                fs.appendFileSync(files.cidrYaml, `  - ${cidr}\n`, "utf8");
+              });
+              logger.info(`已写入 ${cidrList.length} 个 CIDR (${asnNumber})`);
+            }
           }
         }
       }
