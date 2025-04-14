@@ -4,21 +4,14 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 16 * * *"
-
 permissions:
   contents: write
-
 jobs:
-  run-scripts:
+  build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        script:
-          - ASN.js
 
     steps:
       - uses: actions/checkout@v3
-
       - uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -26,41 +19,8 @@ jobs:
       - name: Install dependencies
         run: npm install -P
 
-      - name: Run script
-        run: node scripts/${{ matrix.script }}
-
-      - name: Package output
-        run: |
-          mkdir -p output
-          if [ -d country ]; then cp -r country output/; fi
-          if [ -d data ]; then cp -r data output/; fi
-
-      - name: Upload output as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: output-${{ matrix.script }}
-          path: output/
-          if-no-files-found: ignore
-
-  commit-changes:
-    needs: run-scripts
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Download artifacts
-        uses: actions/download-artifact@v4
-        with:
-          path: ./artifacts
-
-      - name: Move files back to project root
-        run: |
-          cp -r artifacts/*/country/* country/ 2>/dev/null || true
-          cp -r artifacts/*/data/* data/ 2>/dev/null || true
-
-      - name: Clean up artifacts directory
-        run: rm -rf artifacts
+      - name: Update ASN and IP List country
+        run: node scripts/ASN.js
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
