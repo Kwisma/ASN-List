@@ -138,7 +138,9 @@ async function saveLatestASN(name, directory = 'country') {
         logger.info(`开始请求 ASN 数据 (${name} in ${directory})...`);
         const { data } = await fetchWithRetry(url, {});
         const $ = cheerio.load(data);
-        const asns = $('#asns tbody tr');
+        const asns = directory === 'data' 
+        ? $('table.w100p tbody tr')
+        : $('#asns tbody tr');
         logger.info(`共找到 ${asns.length} 个 ASN 条目，开始写入文件...`);
 
         nameASN.push(name + ' ' + getFullName(name));
