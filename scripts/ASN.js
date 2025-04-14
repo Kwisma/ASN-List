@@ -14,14 +14,22 @@ const csvFiles = [
 const config = yaml.load(fs.readFileSync("./config/config.yaml", "utf8"));
 const namelistData = config.namelist;
 const countryList = config.country;
+const cdn = config.cdn;
 const scanning = true;
 const scanningCountry = true;
 const asnMap = new Map();
-
+// country 目录
 const nameASN = [];
 const ruleput = [];
 const rulenumset = [];
+const rulenumsetcidr = [];
 const ruleset = [];
+// data 目录
+const nameASNdata = [];
+const ruleputdata = [];
+const rulenumsetdata = [];
+const rulenumsetdatacidr = [];
+const rulesetdata = [];
 
 function formatTimestamp() {
   const now = new Date();
@@ -108,7 +116,7 @@ function getFilePaths(name, directory) {
 function initFile(name, directory = "country") {
   const localTime = getChinaTime();
   const header = `# ${name} 的 ASN 信息\n# 最后更新： CST ${localTime}\n`;
-  const filemd = `\n# ASN-List\n\n实时更新 ${name} 的 ASN 和 IP 数据库。\n\n<pre><code class="language-javascript">\nrule-providers:\n  ASN${name}:\n    type: http\n    behavior: classical\n    url: \"https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/${directory}/${name}/ASN.${name}.yaml\"\n    path: ./ruleset/ASN.${name}.yaml\n    interval: 86400\n    format: yaml\n</code></pre>`;
+  const filemd = `\n# ASN-List\n\n实时更新 ${name} 的 ASN 和 IP 数据库。\n\n<pre><code class="language-javascript">\nrule-providers:\n  ASN${name}:\n    type: http\n    behavior: classical\n    url: \"https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/${directory}/${name}/ASN.${name}.yaml\"\n    path: ./ruleset/ASN.${name}.yaml\n    interval: 86400\n    format: yaml\n</code></pre>\n\n<pre><code class="language-javascript">\nrule-providers:\n  ASN${name}:\n    <<: *classical\n    url: \"https://${cdn}/gh/Kwisma/ASN-List@main/${directory}/${name}/ASN.${name}.yaml\"\n    path: ./ruleset/ASN.${name}.yaml\n</code></pre>`;
 
   const dir = path.join("./", directory, name);
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
@@ -165,19 +173,20 @@ async function saveLatestASN(name, directory = "country") {
       return /^AS\d+/.test(asnText);
     });
     logger.info(`共找到 ${asnEntries.length} 个 ASN 条目，开始写入文件...`);
-    nameASN.push(name + " " + getFullName(name));
     asnInfo(name, asnEntries.length, directory);
-
-    ruleset.push(`  - RULE-SET,ASN${name},Proxy\n`);
-    ruleput.push(
-      `\n  ASN${name}:\n    type: http\n    behavior: classical\n    url: \"https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/${directory}/${name}/ASN.${name}.yaml\"\n    path: ./ruleset/ASN.${name}.yaml\n    interval: 86400\n    format: yaml\n`,
-    );
-    rulenumset.push(
-      `\n  ASN${name}:\n    <<: *classical\n    url: \"https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/${directory}/${name}/ASN.${name}.yaml\"\n    path: ./ruleset/ASN.${name}.yaml\n`,
-    );
-
     const files = getFilePaths(name, directory);
     if (directory === "data") {
+      rulesetdata.push(`  - RULE-SET,ASN${name},Proxy\n`);
+      ruleputdata.push(
+        `\n  ASN${name}:\n    type: http\n    behavior: classical\n    url: \"https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/${directory}/${name}/ASN.${name}.yaml\"\n    path: ./ruleset/ASN.${name}.yaml\n    interval: 86400\n    format: yaml\n`,
+      );
+      rulenumsetdata.push(
+        `\n  ASN${name}:\n    <<: *classical\n    url: \"https://${cdn}/gh/Kwisma/ASN-List@main/${directory}/${name}/ASN.${name}.yaml\"\n    path: ./ruleset/ASN.${name}.yaml\n`,
+      );
+      rulenumsetdatacidr.push(
+        `\n  ${name}cidr:\n    <<: *ipcidr\n    url: \"https://${cdn}/gh/Kwisma/ASN-List@main/${directory}/${name}/CIDR.${name}.yaml\"\n    path: ./ruleset/${name}cidr.yaml\n`,
+      );
+      nameASNdata.push(name);
       for (let asn of asns) {
         const asnNumber = $(asn)
           .find("td:nth-child(1) a")
@@ -210,13 +219,24 @@ async function saveLatestASN(name, directory = "country") {
         }
       }
     } else {
+      ruleset.push(`  - RULE-SET,ASN${name},Proxy\n`);
+      ruleput.push(
+        `\n  ASN${name}:\n    type: http\n    behavior: classical\n    url: \"https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/${directory}/${name}/ASN.${name}.yaml\"\n    path: ./ruleset/ASN.${name}.yaml\n    interval: 86400\n    format: yaml\n`,
+      );
+      rulenumset.push(
+        `\n  ASN${name}:\n    <<: *classical\n    url: \"https://${cdn}/gh/Kwisma/ASN-List@main/${directory}/${name}/ASN.${name}.yaml\"\n    path: ./ruleset/ASN.${name}.yaml\n`,
+      );
+      rulenumsetcidr.push(
+        `\n  ${name}cidr:\n    <<: *ipcidr\n    url: \"https://${cdn}/gh/Kwisma/ASN-List@main/${directory}/${name}/CIDR.${name}.yaml\"\n    path: ./ruleset/${name}cidr.yaml\n`,
+      );
+      nameASN.push(name + " " + getFullName(name));
       for (let asn of asns) {
         const asnNumber = $(asn)
           .find("td:nth-child(1) a")
           .text()
           .replace("AS", "")
           .trim();
-        if (asnName) {
+        if (asnNumber) {
           fs.appendFileSync(
             files.asnList,
             `IP-ASN,${asnNumber},no-resolve\n`,
@@ -251,9 +271,15 @@ async function saveWithDelay() {
   for (let i = 0; i < namelistData.length; i++) {
     await saveLatestASN(namelistData[i], "data");
   }
+  const ASNListItemsdata = nameASNdata.map(name => `- ASN-${name}`).join('\n');
+  const data = `# ASN-List\n\n实时更新的 ASN 和 IP 数据库。\ndata 目录ASN如下：\n\n${ASNListItemsdata}\n\n## 特征\n\n- 每日自动更新\n- 可靠且准确的来源\n\n## 在代理应用中使用\n\n## mihomo规则\n\n<pre><code class="language-javascript">\nrules:\n${rulesetdata.map(item => item.toString()).join('')}\n</code></pre>\n\n## 常规配置\n\n<pre><code class="language-javascript">\nrule-providers:\n${ruleputdata.map(item => item.toString()).join('')}\n</code></pre>\n\n## 高级配置ASN\n\n<pre><code class="language-javascript">\nrule-providers:\n${rulenumsetdata.map(item => item.toString()).join('')}\n</code></pre>\n\n## 高级配置CIDR\n\n<pre><code class="language-javascript">\nrule-providers:\n${rulenumsetdatacidr.map(item => item.toString()).join('')}\n</code></pre>`;
+  fs.writeFileSync(`README.md`, data, { encoding: 'utf8' });
   for (let i = 0; i < countryList.length; i++) {
     await saveLatestASN(countryList[i], "country");
   }
+  const ASNListItems = nameASN.map(name => `- ASN-${name}`).join('\n');
+  const datamd = `# ASN-List\n\n实时更新的 ASN 和 IP 数据库。\ncountry 目录ASN如下：\n\n${ASNListItems}\n\n## 特征\n\n- 每日自动更新\n- 可靠且准确的来源\n\n## 在代理应用中使用\n\n## mihomo规则\n\n<pre><code class="language-javascript">\nrules:\n${ruleset.map(item => item.toString()).join('')}\n</code></pre>\n\n## 常规配置\n\n<pre><code class="language-javascript">\nrule-providers:\n${ruleput.map(item => item.toString()).join('')}\n</code></pre>\n\n## 高级配置ASN\n\n<pre><code class="language-javascript">\nrule-providers:\n${rulenumset.map(item => item.toString()).join('')}\n</code></pre>\n\n## 高级配置CIDR\n\n<pre><code class="language-javascript">\nrule-providers:\n${rulenumsetcidr.map(item => item.toString()).join('')}\n</code></pre>`;
+  fs.writeFileSync(`README-ry.md`, datamd, { encoding: 'utf8' });
 }
 
 saveWithDelay();
