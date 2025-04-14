@@ -13,3 +13,19 @@ rule-providers:
     interval: 86400
     format: yaml
 </code></pre>
+
+<pre><code class="language-javascript">
+rule-providers:
+  ASNFastly:
+    <<: *classical
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Fastly/ASN.Fastly.yaml"
+    path: ./ruleset/ASN.Fastly.yaml
+</code></pre>
+
+<pre><code class="language-javascript">
+rule-providers:
+  Fastlycidr:
+    <<: *ipcidr
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Fastly/CIDR.Fastly.yaml"
+    path: ./ruleset/Fastlycidr.yaml
+</code></pre>

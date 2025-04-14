@@ -13,3 +13,19 @@ rule-providers:
     interval: 86400
     format: yaml
 </code></pre>
+
+<pre><code class="language-javascript">
+rule-providers:
+  ASNTwitter:
+    <<: *classical
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Twitter/ASN.Twitter.yaml"
+    path: ./ruleset/ASN.Twitter.yaml
+</code></pre>
+
+<pre><code class="language-javascript">
+rule-providers:
+  Twittercidr:
+    <<: *ipcidr
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Twitter/CIDR.Twitter.yaml"
+    path: ./ruleset/Twittercidr.yaml
+</code></pre>

@@ -13,3 +13,19 @@ rule-providers:
     interval: 86400
     format: yaml
 </code></pre>
+
+<pre><code class="language-javascript">
+rule-providers:
+  ASNCD:
+    <<: *classical
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CD/ASN.CD.yaml"
+    path: ./ruleset/ASN.CD.yaml
+</code></pre>
+
+<pre><code class="language-javascript">
+rule-providers:
+  CDcidr:
+    <<: *ipcidr
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CD/CIDR.CD.yaml"
+    path: ./ruleset/CDcidr.yaml
+</code></pre>

@@ -13,3 +13,19 @@ rule-providers:
     interval: 86400
     format: yaml
 </code></pre>
+
+<pre><code class="language-javascript">
+rule-providers:
+  ASNTelegram:
+    <<: *classical
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Telegram/ASN.Telegram.yaml"
+    path: ./ruleset/ASN.Telegram.yaml
+</code></pre>
+
+<pre><code class="language-javascript">
+rule-providers:
+  Telegramcidr:
+    <<: *ipcidr
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Telegram/CIDR.Telegram.yaml"
+    path: ./ruleset/Telegramcidr.yaml
+</code></pre>
