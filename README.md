@@ -13,7 +13,7 @@ data 目录ASN如下：
 - ASN-Amazon
 - ASN-Cloudflare
 - ASN-Microsoft
-- ASN-Alibaba
+- ASN-Alibaba Cloud
 
 ## 特征
 
@@ -36,7 +36,7 @@ rules:
   - RULE-SET,ASNAmazon,Proxy
   - RULE-SET,ASNCloudflare,Proxy
   - RULE-SET,ASNMicrosoft,Proxy
-  - RULE-SET,ASNAlibaba,Proxy
+  - RULE-SET,ASNAlibaba Cloud,Proxy
 
 </code></pre>
 
@@ -125,11 +125,11 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNAlibaba:
+  ASNAlibaba Cloud:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Alibaba/ASN.Alibaba.yaml"
-    path: ./ruleset/ASN.Alibaba.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Alibaba Cloud/ASN.Alibaba Cloud.yaml"
+    path: ./ruleset/ASN.Alibaba Cloud.yaml
     interval: 86400
     format: yaml
 
@@ -190,10 +190,10 @@ rule-providers:
     url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Microsoft/ASN.Microsoft.yaml"
     path: ./ruleset/ASN.Microsoft.yaml
 
-  ASNAlibaba:
+  ASNAlibaba Cloud:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Alibaba/ASN.Alibaba.yaml"
-    path: ./ruleset/ASN.Alibaba.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Alibaba Cloud/ASN.Alibaba Cloud.yaml"
+    path: ./ruleset/ASN.Alibaba Cloud.yaml
 
 </code></pre>
 
@@ -252,9 +252,9 @@ rule-providers:
     url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Microsoft/CIDR.Microsoft.yaml"
     path: ./ruleset/Microsoftcidr.yaml
 
-  Alibabacidr:
+  Alibaba Cloudcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Alibaba/CIDR.Alibaba.yaml"
-    path: ./ruleset/Alibabacidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Alibaba Cloud/CIDR.Alibaba Cloud.yaml"
+    path: ./ruleset/Alibaba Cloudcidr.yaml
 
 </code></pre>
