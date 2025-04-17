@@ -13,7 +13,9 @@ data 目录ASN如下：
 - ASN-Amazon
 - ASN-Cloudflare
 - ASN-Microsoft
-- ASN-Alibaba Cloud
+- ASN-Alibaba
+- ASN-Leaseweb
+- ASN-Tencent
 
 ## 特征
 
@@ -36,7 +38,9 @@ rules:
   - RULE-SET,ASNAmazon,Proxy
   - RULE-SET,ASNCloudflare,Proxy
   - RULE-SET,ASNMicrosoft,Proxy
-  - RULE-SET,ASNAlibaba Cloud,Proxy
+  - RULE-SET,ASNAlibaba,Proxy
+  - RULE-SET,ASNLeaseweb,Proxy
+  - RULE-SET,ASNTencent,Proxy
 
 </code></pre>
 
@@ -125,11 +129,27 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  ASNAlibaba Cloud:
+  ASNAlibaba:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Alibaba Cloud/ASN.Alibaba Cloud.yaml"
-    path: ./ruleset/ASN.Alibaba Cloud.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Alibaba/ASN.Alibaba.yaml"
+    path: ./ruleset/ASN.Alibaba.yaml
+    interval: 86400
+    format: yaml
+
+  ASNLeaseweb:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Leaseweb/ASN.Leaseweb.yaml"
+    path: ./ruleset/ASN.Leaseweb.yaml
+    interval: 86400
+    format: yaml
+
+  ASNTencent:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Tencent/ASN.Tencent.yaml"
+    path: ./ruleset/ASN.Tencent.yaml
     interval: 86400
     format: yaml
 
@@ -190,10 +210,20 @@ rule-providers:
     url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Microsoft/ASN.Microsoft.yaml"
     path: ./ruleset/ASN.Microsoft.yaml
 
-  ASNAlibaba Cloud:
+  ASNAlibaba:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Alibaba Cloud/ASN.Alibaba Cloud.yaml"
-    path: ./ruleset/ASN.Alibaba Cloud.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Alibaba/ASN.Alibaba.yaml"
+    path: ./ruleset/ASN.Alibaba.yaml
+
+  ASNLeaseweb:
+    <<: *classical
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Leaseweb/ASN.Leaseweb.yaml"
+    path: ./ruleset/ASN.Leaseweb.yaml
+
+  ASNTencent:
+    <<: *classical
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Tencent/ASN.Tencent.yaml"
+    path: ./ruleset/ASN.Tencent.yaml
 
 </code></pre>
 
@@ -252,9 +282,19 @@ rule-providers:
     url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Microsoft/CIDR.Microsoft.yaml"
     path: ./ruleset/Microsoftcidr.yaml
 
-  Alibaba Cloudcidr:
+  Alibabacidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Alibaba Cloud/CIDR.Alibaba Cloud.yaml"
-    path: ./ruleset/Alibaba Cloudcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Alibaba/CIDR.Alibaba.yaml"
+    path: ./ruleset/Alibabacidr.yaml
+
+  Leasewebcidr:
+    <<: *ipcidr
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Leaseweb/CIDR.Leaseweb.yaml"
+    path: ./ruleset/Leasewebcidr.yaml
+
+  Tencentcidr:
+    <<: *ipcidr
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Tencent/CIDR.Tencent.yaml"
+    path: ./ruleset/Tencentcidr.yaml
 
 </code></pre>
