@@ -1,5 +1,5 @@
 # IR 的 ASN 信息
-# 最后更新： CST 2025-04-20 00:11:50
+# 最后更新： CST 2025-04-21 00:11:41
 # ASN: 563
 # 由 Kwisma 制作，保留所有权利。
 
@@ -49,7 +49,6 @@ payload:
   - IP-ASN,200370,no-resolve
   - IP-ASN,62048,no-resolve
   - IP-ASN,49801,no-resolve
-  - IP-ASN,211056,no-resolve
   - IP-ASN,208161,no-resolve
   - IP-ASN,204104,no-resolve
   - IP-ASN,201691,no-resolve
@@ -65,10 +64,10 @@ payload:
   - IP-ASN,44375,no-resolve
   - IP-ASN,34412,no-resolve
   - IP-ASN,25124,no-resolve
-  - IP-ASN,214526,no-resolve
+  - IP-ASN,211056,no-resolve
+  - IP-ASN,206495,no-resolve
   - IP-ASN,206388,no-resolve
   - IP-ASN,205585,no-resolve
-  - IP-ASN,205207,no-resolve
   - IP-ASN,204544,no-resolve
   - IP-ASN,204213,no-resolve
   - IP-ASN,203616,no-resolve
@@ -99,10 +98,11 @@ payload:
   - IP-ASN,29068,no-resolve
   - IP-ASN,216054,no-resolve
   - IP-ASN,215535,no-resolve
+  - IP-ASN,214526,no-resolve
   - IP-ASN,21419,no-resolve
   - IP-ASN,211904,no-resolve
-  - IP-ASN,206495,no-resolve
   - IP-ASN,205837,no-resolve
+  - IP-ASN,205207,no-resolve
   - IP-ASN,204955,no-resolve
   - IP-ASN,203684,no-resolve
   - IP-ASN,202319,no-resolve
@@ -149,6 +149,7 @@ payload:
   - IP-ASN,57687,no-resolve
   - IP-ASN,57577,no-resolve
   - IP-ASN,57563,no-resolve
+  - IP-ASN,57474,no-resolve
   - IP-ASN,57457,no-resolve
   - IP-ASN,57292,no-resolve
   - IP-ASN,57235,no-resolve
@@ -213,6 +214,7 @@ payload:
   - IP-ASN,214922,no-resolve
   - IP-ASN,214515,no-resolve
   - IP-ASN,214361,no-resolve
+  - IP-ASN,213895,no-resolve
   - IP-ASN,213807,no-resolve
   - IP-ASN,213775,no-resolve
   - IP-ASN,212939,no-resolve
@@ -312,7 +314,6 @@ payload:
   - IP-ASN,57986,no-resolve
   - IP-ASN,57816,no-resolve
   - IP-ASN,57745,no-resolve
-  - IP-ASN,57474,no-resolve
   - IP-ASN,57461,no-resolve
   - IP-ASN,57405,no-resolve
   - IP-ASN,57366,no-resolve
@@ -431,7 +432,6 @@ payload:
   - IP-ASN,214088,no-resolve
   - IP-ASN,213960,no-resolve
   - IP-ASN,213953,no-resolve
-  - IP-ASN,213895,no-resolve
   - IP-ASN,213852,no-resolve
   - IP-ASN,213732,no-resolve
   - IP-ASN,213682,no-resolve
