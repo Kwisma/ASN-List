@@ -6,7 +6,6 @@ on:
 # Run monthly, at 00:00 on the 1st day of month.
 permissions:
   contents: read
-  models: write
   deployments: write
 jobs:
   del_runs:
