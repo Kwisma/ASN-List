@@ -24,6 +24,7 @@ permissions:
   pull-requests: write
   security-events: write
   statuses: write
+  delete:workflow: write
 jobs:
   del_runs:
     runs-on: ubuntu-latest
@@ -31,6 +32,6 @@ jobs:
       - name: Delete workflow runs
         uses: GitRML/delete-workflow-runs@main
         with:
-          token: ${{ secrets.AUTH_PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           repository: ${{ github.repository }}
           retain_days: 7
