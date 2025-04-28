@@ -29,6 +29,16 @@ jobs:
       - name: Update ASN and IP List country
         run: node scripts/ASN.js
 
+      - name: Update data and mihomo IP List country
+        run: bash scripts/mihomo.sh
+        env:
+          base_dir: data
+
+      - name: Update country and mihomo IP List country
+        run: bash scripts/mihomo.sh
+        env:
+          base_dir: country
+
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update IP List
