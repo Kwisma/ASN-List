@@ -5,27 +5,27 @@
 
 <pre><code class="language-javascript">
 rule-providers:
-  ASNAU:
+  AUasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AU/ASN.AU.yaml"
-    path: ./ruleset/ASN.AU.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AU/AU_ASN.yaml"
+    path: ./ruleset/AU_ASN.yaml
     interval: 86400
     format: yaml
 </code></pre>
 
 <pre><code class="language-javascript">
 rule-providers:
-  ASNAU:
+  AUasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AU/ASN.AU.yaml"
-    path: ./ruleset/ASN.AU.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AU/AU_ASN.yaml"
+    path: ./ruleset/AU_ASN.yaml
 </code></pre>
 
 <pre><code class="language-javascript">
 rule-providers:
   AUcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AU/CIDR.AU.yaml"
-    path: ./ruleset/AUcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AU/AU_IP.yaml"
+    path: ./ruleset/AU_IP.yaml
 </code></pre>

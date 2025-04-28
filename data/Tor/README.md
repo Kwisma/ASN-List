@@ -5,27 +5,27 @@
 
 <pre><code class="language-javascript">
 rule-providers:
-  ASNTor:
+  Torasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Tor/ASN.Tor.yaml"
-    path: ./ruleset/ASN.Tor.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Tor/Tor_ASN.yaml"
+    path: ./ruleset/Tor_ASN.yaml
     interval: 86400
     format: yaml
 </code></pre>
 
 <pre><code class="language-javascript">
 rule-providers:
-  ASNTor:
+  Torasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Tor/ASN.Tor.yaml"
-    path: ./ruleset/ASN.Tor.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Tor/Tor_ASN.yaml"
+    path: ./ruleset/Tor_ASN.yaml
 </code></pre>
 
 <pre><code class="language-javascript">
 rule-providers:
   Torcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Tor/CIDR.Tor.yaml"
-    path: ./ruleset/Torcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Tor/Tor_IP.yaml"
+    path: ./ruleset/Tor_IP.yaml
 </code></pre>

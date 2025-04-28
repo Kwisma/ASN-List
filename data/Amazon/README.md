@@ -5,27 +5,27 @@
 
 <pre><code class="language-javascript">
 rule-providers:
-  ASNAmazon:
+  Amazonasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Amazon/ASN.Amazon.yaml"
-    path: ./ruleset/ASN.Amazon.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Amazon/Amazon_ASN.yaml"
+    path: ./ruleset/Amazon_ASN.yaml
     interval: 86400
     format: yaml
 </code></pre>
 
 <pre><code class="language-javascript">
 rule-providers:
-  ASNAmazon:
+  Amazonasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Amazon/ASN.Amazon.yaml"
-    path: ./ruleset/ASN.Amazon.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Amazon/Amazon_ASN.yaml"
+    path: ./ruleset/Amazon_ASN.yaml
 </code></pre>
 
 <pre><code class="language-javascript">
 rule-providers:
   Amazoncidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Amazon/CIDR.Amazon.yaml"
-    path: ./ruleset/Amazoncidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Amazon/Amazon_IP.yaml"
+    path: ./ruleset/Amazon_IP.yaml
 </code></pre>

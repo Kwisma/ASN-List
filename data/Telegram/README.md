@@ -5,27 +5,27 @@
 
 <pre><code class="language-javascript">
 rule-providers:
-  ASNTelegram:
+  Telegramasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Telegram/ASN.Telegram.yaml"
-    path: ./ruleset/ASN.Telegram.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Telegram/Telegram_ASN.yaml"
+    path: ./ruleset/Telegram_ASN.yaml
     interval: 86400
     format: yaml
 </code></pre>
 
 <pre><code class="language-javascript">
 rule-providers:
-  ASNTelegram:
+  Telegramasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Telegram/ASN.Telegram.yaml"
-    path: ./ruleset/ASN.Telegram.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Telegram/Telegram_ASN.yaml"
+    path: ./ruleset/Telegram_ASN.yaml
 </code></pre>
 
 <pre><code class="language-javascript">
 rule-providers:
   Telegramcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Telegram/CIDR.Telegram.yaml"
-    path: ./ruleset/Telegramcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Telegram/Telegram_IP.yaml"
+    path: ./ruleset/Telegram_IP.yaml
 </code></pre>

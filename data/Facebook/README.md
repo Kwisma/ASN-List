@@ -5,27 +5,27 @@
 
 <pre><code class="language-javascript">
 rule-providers:
-  ASNFacebook:
+  Facebookasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Facebook/ASN.Facebook.yaml"
-    path: ./ruleset/ASN.Facebook.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Facebook/Facebook_ASN.yaml"
+    path: ./ruleset/Facebook_ASN.yaml
     interval: 86400
     format: yaml
 </code></pre>
 
 <pre><code class="language-javascript">
 rule-providers:
-  ASNFacebook:
+  Facebookasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Facebook/ASN.Facebook.yaml"
-    path: ./ruleset/ASN.Facebook.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Facebook/Facebook_ASN.yaml"
+    path: ./ruleset/Facebook_ASN.yaml
 </code></pre>
 
 <pre><code class="language-javascript">
 rule-providers:
   Facebookcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Facebook/CIDR.Facebook.yaml"
-    path: ./ruleset/Facebookcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Facebook/Facebook_IP.yaml"
+    path: ./ruleset/Facebook_IP.yaml
 </code></pre>

@@ -49,107 +49,107 @@ rules:
 <pre><code class="language-javascript">
 rule-providers:
 
-  ASNFacebook:
+  Facebookasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Facebook/ASN.Facebook.yaml"
-    path: ./ruleset/ASN.Facebook.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Facebook/Facebook_ASN.yaml"
+    path: ./ruleset/Facebook_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNFastly:
+  Fastlyasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Fastly/ASN.Fastly.yaml"
-    path: ./ruleset/ASN.Fastly.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Fastly/Fastly_ASN.yaml"
+    path: ./ruleset/Fastly_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNNetflix:
+  Netflixasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Netflix/ASN.Netflix.yaml"
-    path: ./ruleset/ASN.Netflix.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Netflix/Netflix_ASN.yaml"
+    path: ./ruleset/Netflix_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNTelegram:
+  Telegramasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Telegram/ASN.Telegram.yaml"
-    path: ./ruleset/ASN.Telegram.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Telegram/Telegram_ASN.yaml"
+    path: ./ruleset/Telegram_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNTwitter:
+  Twitterasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Twitter/ASN.Twitter.yaml"
-    path: ./ruleset/ASN.Twitter.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Twitter/Twitter_ASN.yaml"
+    path: ./ruleset/Twitter_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNTor:
+  Torasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Tor/ASN.Tor.yaml"
-    path: ./ruleset/ASN.Tor.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Tor/Tor_ASN.yaml"
+    path: ./ruleset/Tor_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNGoogle:
+  Googleasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Google/ASN.Google.yaml"
-    path: ./ruleset/ASN.Google.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Google/Google_ASN.yaml"
+    path: ./ruleset/Google_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNAmazon:
+  Amazonasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Amazon/ASN.Amazon.yaml"
-    path: ./ruleset/ASN.Amazon.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Amazon/Amazon_ASN.yaml"
+    path: ./ruleset/Amazon_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNCloudflare:
+  Cloudflareasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Cloudflare/ASN.Cloudflare.yaml"
-    path: ./ruleset/ASN.Cloudflare.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Cloudflare/Cloudflare_ASN.yaml"
+    path: ./ruleset/Cloudflare_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNMicrosoft:
+  Microsoftasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Microsoft/ASN.Microsoft.yaml"
-    path: ./ruleset/ASN.Microsoft.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Microsoft/Microsoft_ASN.yaml"
+    path: ./ruleset/Microsoft_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNAlibaba:
+  Alibabaasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Alibaba/ASN.Alibaba.yaml"
-    path: ./ruleset/ASN.Alibaba.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Alibaba/Alibaba_ASN.yaml"
+    path: ./ruleset/Alibaba_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNLeaseweb:
+  Leasewebasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Leaseweb/ASN.Leaseweb.yaml"
-    path: ./ruleset/ASN.Leaseweb.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Leaseweb/Leaseweb_ASN.yaml"
+    path: ./ruleset/Leaseweb_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNTencent:
+  Tencentasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Tencent/ASN.Tencent.yaml"
-    path: ./ruleset/ASN.Tencent.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Tencent/Tencent_ASN.yaml"
+    path: ./ruleset/Tencent_ASN.yaml
     interval: 86400
     format: yaml
 
@@ -160,70 +160,70 @@ rule-providers:
 <pre><code class="language-javascript">
 rule-providers:
 
-  ASNFacebook:
+  Facebookasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Facebook/ASN.Facebook.yaml"
-    path: ./ruleset/ASN.Facebook.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Facebook/Facebook_ASN.yaml"
+    path: ./ruleset/Facebook_ASN.yaml
 
-  ASNFastly:
+  Fastlyasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Fastly/ASN.Fastly.yaml"
-    path: ./ruleset/ASN.Fastly.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Fastly/Fastly_ASN.yaml"
+    path: ./ruleset/Fastly_ASN.yaml
 
-  ASNNetflix:
+  Netflixasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Netflix/ASN.Netflix.yaml"
-    path: ./ruleset/ASN.Netflix.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Netflix/Netflix_ASN.yaml"
+    path: ./ruleset/Netflix_ASN.yaml
 
-  ASNTelegram:
+  Telegramasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Telegram/ASN.Telegram.yaml"
-    path: ./ruleset/ASN.Telegram.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Telegram/Telegram_ASN.yaml"
+    path: ./ruleset/Telegram_ASN.yaml
 
-  ASNTwitter:
+  Twitterasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Twitter/ASN.Twitter.yaml"
-    path: ./ruleset/ASN.Twitter.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Twitter/Twitter_ASN.yaml"
+    path: ./ruleset/Twitter_ASN.yaml
 
-  ASNTor:
+  Torasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Tor/ASN.Tor.yaml"
-    path: ./ruleset/ASN.Tor.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Tor/Tor_ASN.yaml"
+    path: ./ruleset/Tor_ASN.yaml
 
-  ASNGoogle:
+  Googleasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Google/ASN.Google.yaml"
-    path: ./ruleset/ASN.Google.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Google/Google_ASN.yaml"
+    path: ./ruleset/Google_ASN.yaml
 
-  ASNAmazon:
+  Amazonasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Amazon/ASN.Amazon.yaml"
-    path: ./ruleset/ASN.Amazon.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Amazon/Amazon_ASN.yaml"
+    path: ./ruleset/Amazon_ASN.yaml
 
-  ASNCloudflare:
+  Cloudflareasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Cloudflare/ASN.Cloudflare.yaml"
-    path: ./ruleset/ASN.Cloudflare.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Cloudflare/Cloudflare_ASN.yaml"
+    path: ./ruleset/Cloudflare_ASN.yaml
 
-  ASNMicrosoft:
+  Microsoftasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Microsoft/ASN.Microsoft.yaml"
-    path: ./ruleset/ASN.Microsoft.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Microsoft/Microsoft_ASN.yaml"
+    path: ./ruleset/Microsoft_ASN.yaml
 
-  ASNAlibaba:
+  Alibabaasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Alibaba/ASN.Alibaba.yaml"
-    path: ./ruleset/ASN.Alibaba.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Alibaba/Alibaba_ASN.yaml"
+    path: ./ruleset/Alibaba_ASN.yaml
 
-  ASNLeaseweb:
+  Leasewebasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Leaseweb/ASN.Leaseweb.yaml"
-    path: ./ruleset/ASN.Leaseweb.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Leaseweb/Leaseweb_ASN.yaml"
+    path: ./ruleset/Leaseweb_ASN.yaml
 
-  ASNTencent:
+  Tencentasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Tencent/ASN.Tencent.yaml"
-    path: ./ruleset/ASN.Tencent.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Tencent/Tencent_ASN.yaml"
+    path: ./ruleset/Tencent_ASN.yaml
 
 </code></pre>
 
@@ -234,67 +234,67 @@ rule-providers:
 
   Facebookcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Facebook/CIDR.Facebook.yaml"
-    path: ./ruleset/Facebookcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Facebook/Facebook_IP.yaml"
+    path: ./ruleset/Facebook_IP.yaml
 
   Fastlycidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Fastly/CIDR.Fastly.yaml"
-    path: ./ruleset/Fastlycidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Fastly/Fastly_IP.yaml"
+    path: ./ruleset/Fastly_IP.yaml
 
   Netflixcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Netflix/CIDR.Netflix.yaml"
-    path: ./ruleset/Netflixcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Netflix/Netflix_IP.yaml"
+    path: ./ruleset/Netflix_IP.yaml
 
   Telegramcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Telegram/CIDR.Telegram.yaml"
-    path: ./ruleset/Telegramcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Telegram/Telegram_IP.yaml"
+    path: ./ruleset/Telegram_IP.yaml
 
   Twittercidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Twitter/CIDR.Twitter.yaml"
-    path: ./ruleset/Twittercidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Twitter/Twitter_IP.yaml"
+    path: ./ruleset/Twitter_IP.yaml
 
   Torcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Tor/CIDR.Tor.yaml"
-    path: ./ruleset/Torcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Tor/Tor_IP.yaml"
+    path: ./ruleset/Tor_IP.yaml
 
   Googlecidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Google/CIDR.Google.yaml"
-    path: ./ruleset/Googlecidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Google/Google_IP.yaml"
+    path: ./ruleset/Google_IP.yaml
 
   Amazoncidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Amazon/CIDR.Amazon.yaml"
-    path: ./ruleset/Amazoncidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Amazon/Amazon_IP.yaml"
+    path: ./ruleset/Amazon_IP.yaml
 
   Cloudflarecidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Cloudflare/CIDR.Cloudflare.yaml"
-    path: ./ruleset/Cloudflarecidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Cloudflare/Cloudflare_IP.yaml"
+    path: ./ruleset/Cloudflare_IP.yaml
 
   Microsoftcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Microsoft/CIDR.Microsoft.yaml"
-    path: ./ruleset/Microsoftcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Microsoft/Microsoft_IP.yaml"
+    path: ./ruleset/Microsoft_IP.yaml
 
   Alibabacidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Alibaba/CIDR.Alibaba.yaml"
-    path: ./ruleset/Alibabacidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Alibaba/Alibaba_IP.yaml"
+    path: ./ruleset/Alibaba_IP.yaml
 
   Leasewebcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Leaseweb/CIDR.Leaseweb.yaml"
-    path: ./ruleset/Leasewebcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Leaseweb/Leaseweb_IP.yaml"
+    path: ./ruleset/Leaseweb_IP.yaml
 
   Tencentcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Tencent/CIDR.Tencent.yaml"
-    path: ./ruleset/Tencentcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Tencent/Tencent_IP.yaml"
+    path: ./ruleset/Tencent_IP.yaml
 
 </code></pre>

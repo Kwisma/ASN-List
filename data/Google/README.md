@@ -5,27 +5,27 @@
 
 <pre><code class="language-javascript">
 rule-providers:
-  ASNGoogle:
+  Googleasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Google/ASN.Google.yaml"
-    path: ./ruleset/ASN.Google.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Google/Google_ASN.yaml"
+    path: ./ruleset/Google_ASN.yaml
     interval: 86400
     format: yaml
 </code></pre>
 
 <pre><code class="language-javascript">
 rule-providers:
-  ASNGoogle:
+  Googleasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Google/ASN.Google.yaml"
-    path: ./ruleset/ASN.Google.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Google/Google_ASN.yaml"
+    path: ./ruleset/Google_ASN.yaml
 </code></pre>
 
 <pre><code class="language-javascript">
 rule-providers:
   Googlecidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Google/CIDR.Google.yaml"
-    path: ./ruleset/Googlecidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Google/Google_IP.yaml"
+    path: ./ruleset/Google_IP.yaml
 </code></pre>

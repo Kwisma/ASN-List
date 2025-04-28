@@ -5,27 +5,27 @@
 
 <pre><code class="language-javascript">
 rule-providers:
-  ASNCloudflare:
+  Cloudflareasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Cloudflare/ASN.Cloudflare.yaml"
-    path: ./ruleset/ASN.Cloudflare.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Cloudflare/Cloudflare_ASN.yaml"
+    path: ./ruleset/Cloudflare_ASN.yaml
     interval: 86400
     format: yaml
 </code></pre>
 
 <pre><code class="language-javascript">
 rule-providers:
-  ASNCloudflare:
+  Cloudflareasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Cloudflare/ASN.Cloudflare.yaml"
-    path: ./ruleset/ASN.Cloudflare.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Cloudflare/Cloudflare_ASN.yaml"
+    path: ./ruleset/Cloudflare_ASN.yaml
 </code></pre>
 
 <pre><code class="language-javascript">
 rule-providers:
   Cloudflarecidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Cloudflare/CIDR.Cloudflare.yaml"
-    path: ./ruleset/Cloudflarecidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Cloudflare/Cloudflare_IP.yaml"
+    path: ./ruleset/Cloudflare_IP.yaml
 </code></pre>

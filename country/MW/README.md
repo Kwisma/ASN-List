@@ -5,27 +5,27 @@
 
 <pre><code class="language-javascript">
 rule-providers:
-  ASNMW:
+  MWasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MW/ASN.MW.yaml"
-    path: ./ruleset/ASN.MW.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MW/MW_ASN.yaml"
+    path: ./ruleset/MW_ASN.yaml
     interval: 86400
     format: yaml
 </code></pre>
 
 <pre><code class="language-javascript">
 rule-providers:
-  ASNMW:
+  MWasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MW/ASN.MW.yaml"
-    path: ./ruleset/ASN.MW.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MW/MW_ASN.yaml"
+    path: ./ruleset/MW_ASN.yaml
 </code></pre>
 
 <pre><code class="language-javascript">
 rule-providers:
   MWcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MW/CIDR.MW.yaml"
-    path: ./ruleset/MWcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MW/MW_IP.yaml"
+    path: ./ruleset/MW_IP.yaml
 </code></pre>

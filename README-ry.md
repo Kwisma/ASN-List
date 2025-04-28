@@ -505,1931 +505,1931 @@ rules:
 <pre><code class="language-javascript">
 rule-providers:
 
-  ASNUS:
+  USasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/US/ASN.US.yaml"
-    path: ./ruleset/ASN.US.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/US/US_ASN.yaml"
+    path: ./ruleset/US_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNBR:
+  BRasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BR/ASN.BR.yaml"
-    path: ./ruleset/ASN.BR.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BR/BR_ASN.yaml"
+    path: ./ruleset/BR_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNCN:
+  CNasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CN/ASN.CN.yaml"
-    path: ./ruleset/ASN.CN.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CN/CN_ASN.yaml"
+    path: ./ruleset/CN_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNRU:
+  RUasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RU/ASN.RU.yaml"
-    path: ./ruleset/ASN.RU.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RU/RU_ASN.yaml"
+    path: ./ruleset/RU_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNIN:
+  INasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IN/ASN.IN.yaml"
-    path: ./ruleset/ASN.IN.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IN/IN_ASN.yaml"
+    path: ./ruleset/IN_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNGB:
+  GBasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GB/ASN.GB.yaml"
-    path: ./ruleset/ASN.GB.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GB/GB_ASN.yaml"
+    path: ./ruleset/GB_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNID:
+  IDasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ID/ASN.ID.yaml"
-    path: ./ruleset/ASN.ID.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ID/ID_ASN.yaml"
+    path: ./ruleset/ID_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNDE:
+  DEasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DE/ASN.DE.yaml"
-    path: ./ruleset/ASN.DE.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DE/DE_ASN.yaml"
+    path: ./ruleset/DE_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNAU:
+  AUasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AU/ASN.AU.yaml"
-    path: ./ruleset/ASN.AU.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AU/AU_ASN.yaml"
+    path: ./ruleset/AU_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNPL:
+  PLasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PL/ASN.PL.yaml"
-    path: ./ruleset/ASN.PL.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PL/PL_ASN.yaml"
+    path: ./ruleset/PL_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNCA:
+  CAasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CA/ASN.CA.yaml"
-    path: ./ruleset/ASN.CA.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CA/CA_ASN.yaml"
+    path: ./ruleset/CA_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNUA:
+  UAasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/UA/ASN.UA.yaml"
-    path: ./ruleset/ASN.UA.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/UA/UA_ASN.yaml"
+    path: ./ruleset/UA_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNFR:
+  FRasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FR/ASN.FR.yaml"
-    path: ./ruleset/ASN.FR.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FR/FR_ASN.yaml"
+    path: ./ruleset/FR_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNBD:
+  BDasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BD/ASN.BD.yaml"
-    path: ./ruleset/ASN.BD.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BD/BD_ASN.yaml"
+    path: ./ruleset/BD_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNNL:
+  NLasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NL/ASN.NL.yaml"
-    path: ./ruleset/ASN.NL.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NL/NL_ASN.yaml"
+    path: ./ruleset/NL_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNIT:
+  ITasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IT/ASN.IT.yaml"
-    path: ./ruleset/ASN.IT.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IT/IT_ASN.yaml"
+    path: ./ruleset/IT_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNHK:
+  HKasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/HK/ASN.HK.yaml"
-    path: ./ruleset/ASN.HK.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/HK/HK_ASN.yaml"
+    path: ./ruleset/HK_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNRO:
+  ROasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RO/ASN.RO.yaml"
-    path: ./ruleset/ASN.RO.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RO/RO_ASN.yaml"
+    path: ./ruleset/RO_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNES:
+  ESasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ES/ASN.ES.yaml"
-    path: ./ruleset/ASN.ES.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ES/ES_ASN.yaml"
+    path: ./ruleset/ES_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNAR:
+  ARasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AR/ASN.AR.yaml"
-    path: ./ruleset/ASN.AR.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AR/AR_ASN.yaml"
+    path: ./ruleset/AR_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNJP:
+  JPasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/JP/ASN.JP.yaml"
-    path: ./ruleset/ASN.JP.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/JP/JP_ASN.yaml"
+    path: ./ruleset/JP_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNCH:
+  CHasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CH/ASN.CH.yaml"
-    path: ./ruleset/ASN.CH.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CH/CH_ASN.yaml"
+    path: ./ruleset/CH_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNKR:
+  KRasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KR/ASN.KR.yaml"
-    path: ./ruleset/ASN.KR.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KR/KR_ASN.yaml"
+    path: ./ruleset/KR_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNTR:
+  TRasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TR/ASN.TR.yaml"
-    path: ./ruleset/ASN.TR.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TR/TR_ASN.yaml"
+    path: ./ruleset/TR_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNSE:
+  SEasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SE/ASN.SE.yaml"
-    path: ./ruleset/ASN.SE.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SE/SE_ASN.yaml"
+    path: ./ruleset/SE_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNVN:
+  VNasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VN/ASN.VN.yaml"
-    path: ./ruleset/ASN.VN.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VN/VN_ASN.yaml"
+    path: ./ruleset/VN_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNZA:
+  ZAasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ZA/ASN.ZA.yaml"
-    path: ./ruleset/ASN.ZA.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ZA/ZA_ASN.yaml"
+    path: ./ruleset/ZA_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNIR:
+  IRasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IR/ASN.IR.yaml"
-    path: ./ruleset/ASN.IR.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IR/IR_ASN.yaml"
+    path: ./ruleset/IR_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNBG:
+  BGasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BG/ASN.BG.yaml"
-    path: ./ruleset/ASN.BG.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BG/BG_ASN.yaml"
+    path: ./ruleset/BG_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNAT:
+  ATasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AT/ASN.AT.yaml"
-    path: ./ruleset/ASN.AT.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AT/AT_ASN.yaml"
+    path: ./ruleset/AT_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNNZ:
+  NZasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NZ/ASN.NZ.yaml"
-    path: ./ruleset/ASN.NZ.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NZ/NZ_ASN.yaml"
+    path: ./ruleset/NZ_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNMX:
+  MXasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MX/ASN.MX.yaml"
-    path: ./ruleset/ASN.MX.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MX/MX_ASN.yaml"
+    path: ./ruleset/MX_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNCZ:
+  CZasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CZ/ASN.CZ.yaml"
-    path: ./ruleset/ASN.CZ.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CZ/CZ_ASN.yaml"
+    path: ./ruleset/CZ_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNSG:
+  SGasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SG/ASN.SG.yaml"
-    path: ./ruleset/ASN.SG.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SG/SG_ASN.yaml"
+    path: ./ruleset/SG_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNPH:
+  PHasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PH/ASN.PH.yaml"
-    path: ./ruleset/ASN.PH.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PH/PH_ASN.yaml"
+    path: ./ruleset/PH_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNTH:
+  THasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TH/ASN.TH.yaml"
-    path: ./ruleset/ASN.TH.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TH/TH_ASN.yaml"
+    path: ./ruleset/TH_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNCO:
+  COasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CO/ASN.CO.yaml"
-    path: ./ruleset/ASN.CO.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CO/CO_ASN.yaml"
+    path: ./ruleset/CO_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNDK:
+  DKasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DK/ASN.DK.yaml"
-    path: ./ruleset/ASN.DK.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DK/DK_ASN.yaml"
+    path: ./ruleset/DK_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNTW:
+  TWasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TW/ASN.TW.yaml"
-    path: ./ruleset/ASN.TW.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TW/TW_ASN.yaml"
+    path: ./ruleset/TW_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNNO:
+  NOasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NO/ASN.NO.yaml"
-    path: ./ruleset/ASN.NO.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NO/NO_ASN.yaml"
+    path: ./ruleset/NO_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNBE:
+  BEasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BE/ASN.BE.yaml"
-    path: ./ruleset/ASN.BE.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BE/BE_ASN.yaml"
+    path: ./ruleset/BE_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNCL:
+  CLasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CL/ASN.CL.yaml"
-    path: ./ruleset/ASN.CL.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CL/CL_ASN.yaml"
+    path: ./ruleset/CL_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNFI:
+  FIasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FI/ASN.FI.yaml"
-    path: ./ruleset/ASN.FI.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FI/FI_ASN.yaml"
+    path: ./ruleset/FI_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNPK:
+  PKasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PK/ASN.PK.yaml"
-    path: ./ruleset/ASN.PK.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PK/PK_ASN.yaml"
+    path: ./ruleset/PK_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNIL:
+  ILasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IL/ASN.IL.yaml"
-    path: ./ruleset/ASN.IL.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IL/IL_ASN.yaml"
+    path: ./ruleset/IL_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNMY:
+  MYasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MY/ASN.MY.yaml"
-    path: ./ruleset/ASN.MY.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MY/MY_ASN.yaml"
+    path: ./ruleset/MY_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNEU:
+  EUasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/EU/ASN.EU.yaml"
-    path: ./ruleset/ASN.EU.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/EU/EU_ASN.yaml"
+    path: ./ruleset/EU_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNLV:
+  LVasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LV/ASN.LV.yaml"
-    path: ./ruleset/ASN.LV.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LV/LV_ASN.yaml"
+    path: ./ruleset/LV_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNHU:
+  HUasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/HU/ASN.HU.yaml"
-    path: ./ruleset/ASN.HU.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/HU/HU_ASN.yaml"
+    path: ./ruleset/HU_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNIE:
+  IEasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IE/ASN.IE.yaml"
-    path: ./ruleset/ASN.IE.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IE/IE_ASN.yaml"
+    path: ./ruleset/IE_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNNG:
+  NGasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NG/ASN.NG.yaml"
-    path: ./ruleset/ASN.NG.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NG/NG_ASN.yaml"
+    path: ./ruleset/NG_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNSI:
+  SIasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SI/ASN.SI.yaml"
-    path: ./ruleset/ASN.SI.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SI/SI_ASN.yaml"
+    path: ./ruleset/SI_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNGR:
+  GRasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GR/ASN.GR.yaml"
-    path: ./ruleset/ASN.GR.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GR/GR_ASN.yaml"
+    path: ./ruleset/GR_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNEC:
+  ECasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/EC/ASN.EC.yaml"
-    path: ./ruleset/ASN.EC.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/EC/EC_ASN.yaml"
+    path: ./ruleset/EC_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNKE:
+  KEasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KE/ASN.KE.yaml"
-    path: ./ruleset/ASN.KE.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KE/KE_ASN.yaml"
+    path: ./ruleset/KE_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNVE:
+  VEasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VE/ASN.VE.yaml"
-    path: ./ruleset/ASN.VE.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VE/VE_ASN.yaml"
+    path: ./ruleset/VE_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNSK:
+  SKasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SK/ASN.SK.yaml"
-    path: ./ruleset/ASN.SK.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SK/SK_ASN.yaml"
+    path: ./ruleset/SK_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNLT:
+  LTasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LT/ASN.LT.yaml"
-    path: ./ruleset/ASN.LT.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LT/LT_ASN.yaml"
+    path: ./ruleset/LT_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNEE:
+  EEasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/EE/ASN.EE.yaml"
-    path: ./ruleset/ASN.EE.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/EE/EE_ASN.yaml"
+    path: ./ruleset/EE_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNIQ:
+  IQasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IQ/ASN.IQ.yaml"
-    path: ./ruleset/ASN.IQ.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IQ/IQ_ASN.yaml"
+    path: ./ruleset/IQ_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNMD:
+  MDasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MD/ASN.MD.yaml"
-    path: ./ruleset/ASN.MD.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MD/MD_ASN.yaml"
+    path: ./ruleset/MD_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNPE:
+  PEasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PE/ASN.PE.yaml"
-    path: ./ruleset/ASN.PE.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PE/PE_ASN.yaml"
+    path: ./ruleset/PE_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNKZ:
+  KZasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KZ/ASN.KZ.yaml"
-    path: ./ruleset/ASN.KZ.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KZ/KZ_ASN.yaml"
+    path: ./ruleset/KZ_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNRS:
+  RSasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RS/ASN.RS.yaml"
-    path: ./ruleset/ASN.RS.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RS/RS_ASN.yaml"
+    path: ./ruleset/RS_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNSA:
+  SAasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SA/ASN.SA.yaml"
-    path: ./ruleset/ASN.SA.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SA/SA_ASN.yaml"
+    path: ./ruleset/SA_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNNP:
+  NPasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NP/ASN.NP.yaml"
-    path: ./ruleset/ASN.NP.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NP/NP_ASN.yaml"
+    path: ./ruleset/NP_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNHR:
+  HRasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/HR/ASN.HR.yaml"
-    path: ./ruleset/ASN.HR.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/HR/HR_ASN.yaml"
+    path: ./ruleset/HR_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNDO:
+  DOasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DO/ASN.DO.yaml"
-    path: ./ruleset/ASN.DO.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DO/DO_ASN.yaml"
+    path: ./ruleset/DO_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNLB:
+  LBasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LB/ASN.LB.yaml"
-    path: ./ruleset/ASN.LB.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LB/LB_ASN.yaml"
+    path: ./ruleset/LB_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNCY:
+  CYasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CY/ASN.CY.yaml"
-    path: ./ruleset/ASN.CY.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CY/CY_ASN.yaml"
+    path: ./ruleset/CY_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNPT:
+  PTasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PT/ASN.PT.yaml"
-    path: ./ruleset/ASN.PT.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PT/PT_ASN.yaml"
+    path: ./ruleset/PT_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNAE:
+  AEasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AE/ASN.AE.yaml"
-    path: ./ruleset/ASN.AE.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AE/AE_ASN.yaml"
+    path: ./ruleset/AE_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNPA:
+  PAasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PA/ASN.PA.yaml"
-    path: ./ruleset/ASN.PA.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PA/PA_ASN.yaml"
+    path: ./ruleset/PA_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNMM:
+  MMasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MM/ASN.MM.yaml"
-    path: ./ruleset/ASN.MM.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MM/MM_ASN.yaml"
+    path: ./ruleset/MM_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNGE:
+  GEasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GE/ASN.GE.yaml"
-    path: ./ruleset/ASN.GE.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GE/GE_ASN.yaml"
+    path: ./ruleset/GE_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNKH:
+  KHasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KH/ASN.KH.yaml"
-    path: ./ruleset/ASN.KH.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KH/KH_ASN.yaml"
+    path: ./ruleset/KH_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNBY:
+  BYasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BY/ASN.BY.yaml"
-    path: ./ruleset/ASN.BY.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BY/BY_ASN.yaml"
+    path: ./ruleset/BY_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNLU:
+  LUasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LU/ASN.LU.yaml"
-    path: ./ruleset/ASN.LU.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LU/LU_ASN.yaml"
+    path: ./ruleset/LU_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNAM:
+  AMasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AM/ASN.AM.yaml"
-    path: ./ruleset/ASN.AM.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AM/AM_ASN.yaml"
+    path: ./ruleset/AM_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNGH:
+  GHasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GH/ASN.GH.yaml"
-    path: ./ruleset/ASN.GH.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GH/GH_ASN.yaml"
+    path: ./ruleset/GH_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNAL:
+  ALasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AL/ASN.AL.yaml"
-    path: ./ruleset/ASN.AL.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AL/AL_ASN.yaml"
+    path: ./ruleset/AL_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNTZ:
+  TZasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TZ/ASN.TZ.yaml"
-    path: ./ruleset/ASN.TZ.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TZ/TZ_ASN.yaml"
+    path: ./ruleset/TZ_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNCR:
+  CRasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CR/ASN.CR.yaml"
-    path: ./ruleset/ASN.CR.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CR/CR_ASN.yaml"
+    path: ./ruleset/CR_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNHN:
+  HNasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/HN/ASN.HN.yaml"
-    path: ./ruleset/ASN.HN.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/HN/HN_ASN.yaml"
+    path: ./ruleset/HN_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNUZ:
+  UZasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/UZ/ASN.UZ.yaml"
-    path: ./ruleset/ASN.UZ.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/UZ/UZ_ASN.yaml"
+    path: ./ruleset/UZ_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNPR:
+  PRasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PR/ASN.PR.yaml"
-    path: ./ruleset/ASN.PR.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PR/PR_ASN.yaml"
+    path: ./ruleset/PR_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNEG:
+  EGasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/EG/ASN.EG.yaml"
-    path: ./ruleset/ASN.EG.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/EG/EG_ASN.yaml"
+    path: ./ruleset/EG_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNPY:
+  PYasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PY/ASN.PY.yaml"
-    path: ./ruleset/ASN.PY.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PY/PY_ASN.yaml"
+    path: ./ruleset/PY_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNSC:
+  SCasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SC/ASN.SC.yaml"
-    path: ./ruleset/ASN.SC.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SC/SC_ASN.yaml"
+    path: ./ruleset/SC_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNIS:
+  ISasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IS/ASN.IS.yaml"
-    path: ./ruleset/ASN.IS.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IS/IS_ASN.yaml"
+    path: ./ruleset/IS_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNAZ:
+  AZasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AZ/ASN.AZ.yaml"
-    path: ./ruleset/ASN.AZ.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AZ/AZ_ASN.yaml"
+    path: ./ruleset/AZ_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNGT:
+  GTasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GT/ASN.GT.yaml"
-    path: ./ruleset/ASN.GT.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GT/GT_ASN.yaml"
+    path: ./ruleset/GT_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNKW:
+  KWasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KW/ASN.KW.yaml"
-    path: ./ruleset/ASN.KW.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KW/KW_ASN.yaml"
+    path: ./ruleset/KW_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNAO:
+  AOasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AO/ASN.AO.yaml"
-    path: ./ruleset/ASN.AO.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AO/AO_ASN.yaml"
+    path: ./ruleset/AO_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNAF:
+  AFasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AF/ASN.AF.yaml"
-    path: ./ruleset/ASN.AF.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AF/AF_ASN.yaml"
+    path: ./ruleset/AF_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNMN:
+  MNasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MN/ASN.MN.yaml"
-    path: ./ruleset/ASN.MN.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MN/MN_ASN.yaml"
+    path: ./ruleset/MN_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNPS:
+  PSasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PS/ASN.PS.yaml"
-    path: ./ruleset/ASN.PS.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PS/PS_ASN.yaml"
+    path: ./ruleset/PS_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNUG:
+  UGasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/UG/ASN.UG.yaml"
-    path: ./ruleset/ASN.UG.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/UG/UG_ASN.yaml"
+    path: ./ruleset/UG_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNKG:
+  KGasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KG/ASN.KG.yaml"
-    path: ./ruleset/ASN.KG.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KG/KG_ASN.yaml"
+    path: ./ruleset/KG_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNBO:
+  BOasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BO/ASN.BO.yaml"
-    path: ./ruleset/ASN.BO.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BO/BO_ASN.yaml"
+    path: ./ruleset/BO_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNMK:
+  MKasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MK/ASN.MK.yaml"
-    path: ./ruleset/ASN.MK.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MK/MK_ASN.yaml"
+    path: ./ruleset/MK_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNMU:
+  MUasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MU/ASN.MU.yaml"
-    path: ./ruleset/ASN.MU.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MU/MU_ASN.yaml"
+    path: ./ruleset/MU_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNMT:
+  MTasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MT/ASN.MT.yaml"
-    path: ./ruleset/ASN.MT.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MT/MT_ASN.yaml"
+    path: ./ruleset/MT_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNCD:
+  CDasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CD/ASN.CD.yaml"
-    path: ./ruleset/ASN.CD.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CD/CD_ASN.yaml"
+    path: ./ruleset/CD_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNBA:
+  BAasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BA/ASN.BA.yaml"
-    path: ./ruleset/ASN.BA.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BA/BA_ASN.yaml"
+    path: ./ruleset/BA_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNSV:
+  SVasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SV/ASN.SV.yaml"
-    path: ./ruleset/ASN.SV.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SV/SV_ASN.yaml"
+    path: ./ruleset/SV_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNJO:
+  JOasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/JO/ASN.JO.yaml"
-    path: ./ruleset/ASN.JO.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/JO/JO_ASN.yaml"
+    path: ./ruleset/JO_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNVG:
+  VGasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VG/ASN.VG.yaml"
-    path: ./ruleset/ASN.VG.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VG/VG_ASN.yaml"
+    path: ./ruleset/VG_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNUY:
+  UYasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/UY/ASN.UY.yaml"
-    path: ./ruleset/ASN.UY.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/UY/UY_ASN.yaml"
+    path: ./ruleset/UY_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNPG:
+  PGasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PG/ASN.PG.yaml"
-    path: ./ruleset/ASN.PG.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PG/PG_ASN.yaml"
+    path: ./ruleset/PG_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNLA:
+  LAasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LA/ASN.LA.yaml"
-    path: ./ruleset/ASN.LA.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LA/LA_ASN.yaml"
+    path: ./ruleset/LA_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNBZ:
+  BZasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BZ/ASN.BZ.yaml"
-    path: ./ruleset/ASN.BZ.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BZ/BZ_ASN.yaml"
+    path: ./ruleset/BZ_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNZW:
+  ZWasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ZW/ASN.ZW.yaml"
-    path: ./ruleset/ASN.ZW.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ZW/ZW_ASN.yaml"
+    path: ./ruleset/ZW_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNMZ:
+  MZasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MZ/ASN.MZ.yaml"
-    path: ./ruleset/ASN.MZ.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MZ/MZ_ASN.yaml"
+    path: ./ruleset/MZ_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNCW:
+  CWasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CW/ASN.CW.yaml"
-    path: ./ruleset/ASN.CW.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CW/CW_ASN.yaml"
+    path: ./ruleset/CW_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNCM:
+  CMasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CM/ASN.CM.yaml"
-    path: ./ruleset/ASN.CM.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CM/CM_ASN.yaml"
+    path: ./ruleset/CM_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNMW:
+  MWasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MW/ASN.MW.yaml"
-    path: ./ruleset/ASN.MW.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MW/MW_ASN.yaml"
+    path: ./ruleset/MW_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNBW:
+  BWasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BW/ASN.BW.yaml"
-    path: ./ruleset/ASN.BW.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BW/BW_ASN.yaml"
+    path: ./ruleset/BW_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNRW:
+  RWasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RW/ASN.RW.yaml"
-    path: ./ruleset/ASN.RW.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RW/RW_ASN.yaml"
+    path: ./ruleset/RW_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNNI:
+  NIasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NI/ASN.NI.yaml"
-    path: ./ruleset/ASN.NI.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NI/NI_ASN.yaml"
+    path: ./ruleset/NI_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNBT:
+  BTasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BT/ASN.BT.yaml"
-    path: ./ruleset/ASN.BT.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BT/BT_ASN.yaml"
+    path: ./ruleset/BT_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNTJ:
+  TJasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TJ/ASN.TJ.yaml"
-    path: ./ruleset/ASN.TJ.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TJ/TJ_ASN.yaml"
+    path: ./ruleset/TJ_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNLY:
+  LYasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LY/ASN.LY.yaml"
-    path: ./ruleset/ASN.LY.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LY/LY_ASN.yaml"
+    path: ./ruleset/LY_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNGI:
+  GIasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GI/ASN.GI.yaml"
-    path: ./ruleset/ASN.GI.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GI/GI_ASN.yaml"
+    path: ./ruleset/GI_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNBF:
+  BFasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BF/ASN.BF.yaml"
-    path: ./ruleset/ASN.BF.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BF/BF_ASN.yaml"
+    path: ./ruleset/BF_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNMA:
+  MAasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MA/ASN.MA.yaml"
-    path: ./ruleset/ASN.MA.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MA/MA_ASN.yaml"
+    path: ./ruleset/MA_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNLK:
+  LKasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LK/ASN.LK.yaml"
-    path: ./ruleset/ASN.LK.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LK/LK_ASN.yaml"
+    path: ./ruleset/LK_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNZM:
+  ZMasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ZM/ASN.ZM.yaml"
-    path: ./ruleset/ASN.ZM.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ZM/ZM_ASN.yaml"
+    path: ./ruleset/ZM_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNTN:
+  TNasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TN/ASN.TN.yaml"
-    path: ./ruleset/ASN.TN.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TN/TN_ASN.yaml"
+    path: ./ruleset/TN_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNCI:
+  CIasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CI/ASN.CI.yaml"
-    path: ./ruleset/ASN.CI.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CI/CI_ASN.yaml"
+    path: ./ruleset/CI_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNME:
+  MEasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ME/ASN.ME.yaml"
-    path: ./ruleset/ASN.ME.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ME/ME_ASN.yaml"
+    path: ./ruleset/ME_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNBH:
+  BHasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BH/ASN.BH.yaml"
-    path: ./ruleset/ASN.BH.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BH/BH_ASN.yaml"
+    path: ./ruleset/BH_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNLI:
+  LIasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LI/ASN.LI.yaml"
-    path: ./ruleset/ASN.LI.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LI/LI_ASN.yaml"
+    path: ./ruleset/LI_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNSS:
+  SSasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SS/ASN.SS.yaml"
-    path: ./ruleset/ASN.SS.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SS/SS_ASN.yaml"
+    path: ./ruleset/SS_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNIM:
+  IMasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IM/ASN.IM.yaml"
-    path: ./ruleset/ASN.IM.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IM/IM_ASN.yaml"
+    path: ./ruleset/IM_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNSL:
+  SLasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SL/ASN.SL.yaml"
-    path: ./ruleset/ASN.SL.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SL/SL_ASN.yaml"
+    path: ./ruleset/SL_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNQA:
+  QAasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/QA/ASN.QA.yaml"
-    path: ./ruleset/ASN.QA.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/QA/QA_ASN.yaml"
+    path: ./ruleset/QA_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNSO:
+  SOasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SO/ASN.SO.yaml"
-    path: ./ruleset/ASN.SO.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SO/SO_ASN.yaml"
+    path: ./ruleset/SO_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNBM:
+  BMasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BM/ASN.BM.yaml"
-    path: ./ruleset/ASN.BM.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BM/BM_ASN.yaml"
+    path: ./ruleset/BM_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNBJ:
+  BJasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BJ/ASN.BJ.yaml"
-    path: ./ruleset/ASN.BJ.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BJ/BJ_ASN.yaml"
+    path: ./ruleset/BJ_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNOM:
+  OMasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/OM/ASN.OM.yaml"
-    path: ./ruleset/ASN.OM.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/OM/OM_ASN.yaml"
+    path: ./ruleset/OM_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNGN:
+  GNasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GN/ASN.GN.yaml"
-    path: ./ruleset/ASN.GN.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GN/GN_ASN.yaml"
+    path: ./ruleset/GN_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNDZ:
+  DZasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DZ/ASN.DZ.yaml"
-    path: ./ruleset/ASN.DZ.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DZ/DZ_ASN.yaml"
+    path: ./ruleset/DZ_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNCG:
+  CGasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CG/ASN.CG.yaml"
-    path: ./ruleset/ASN.CG.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CG/CG_ASN.yaml"
+    path: ./ruleset/CG_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNTD:
+  TDasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TD/ASN.TD.yaml"
-    path: ./ruleset/ASN.TD.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TD/TD_ASN.yaml"
+    path: ./ruleset/TD_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNSN:
+  SNasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SN/ASN.SN.yaml"
-    path: ./ruleset/ASN.SN.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SN/SN_ASN.yaml"
+    path: ./ruleset/SN_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNNC:
+  NCasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NC/ASN.NC.yaml"
-    path: ./ruleset/ASN.NC.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NC/NC_ASN.yaml"
+    path: ./ruleset/NC_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNNA:
+  NAasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NA/ASN.NA.yaml"
-    path: ./ruleset/ASN.NA.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NA/NA_ASN.yaml"
+    path: ./ruleset/NA_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNGA:
+  GAasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GA/ASN.GA.yaml"
-    path: ./ruleset/ASN.GA.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GA/GA_ASN.yaml"
+    path: ./ruleset/GA_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNFJ:
+  FJasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FJ/ASN.FJ.yaml"
-    path: ./ruleset/ASN.FJ.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FJ/FJ_ASN.yaml"
+    path: ./ruleset/FJ_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNTT:
+  TTasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TT/ASN.TT.yaml"
-    path: ./ruleset/ASN.TT.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TT/TT_ASN.yaml"
+    path: ./ruleset/TT_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNMV:
+  MVasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MV/ASN.MV.yaml"
-    path: ./ruleset/ASN.MV.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MV/MV_ASN.yaml"
+    path: ./ruleset/MV_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNLR:
+  LRasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LR/ASN.LR.yaml"
-    path: ./ruleset/ASN.LR.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LR/LR_ASN.yaml"
+    path: ./ruleset/LR_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNAG:
+  AGasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AG/ASN.AG.yaml"
-    path: ./ruleset/ASN.AG.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AG/AG_ASN.yaml"
+    path: ./ruleset/AG_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNKY:
+  KYasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KY/ASN.KY.yaml"
-    path: ./ruleset/ASN.KY.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KY/KY_ASN.yaml"
+    path: ./ruleset/KY_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNSZ:
+  SZasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SZ/ASN.SZ.yaml"
-    path: ./ruleset/ASN.SZ.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SZ/SZ_ASN.yaml"
+    path: ./ruleset/SZ_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNMO:
+  MOasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MO/ASN.MO.yaml"
-    path: ./ruleset/ASN.MO.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MO/MO_ASN.yaml"
+    path: ./ruleset/MO_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNHT:
+  HTasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/HT/ASN.HT.yaml"
-    path: ./ruleset/ASN.HT.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/HT/HT_ASN.yaml"
+    path: ./ruleset/HT_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNBS:
+  BSasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BS/ASN.BS.yaml"
-    path: ./ruleset/ASN.BS.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BS/BS_ASN.yaml"
+    path: ./ruleset/BS_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNVU:
+  VUasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VU/ASN.VU.yaml"
-    path: ./ruleset/ASN.VU.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VU/VU_ASN.yaml"
+    path: ./ruleset/VU_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNTL:
+  TLasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TL/ASN.TL.yaml"
-    path: ./ruleset/ASN.TL.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TL/TL_ASN.yaml"
+    path: ./ruleset/TL_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNSD:
+  SDasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SD/ASN.SD.yaml"
-    path: ./ruleset/ASN.SD.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SD/SD_ASN.yaml"
+    path: ./ruleset/SD_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNJM:
+  JMasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/JM/ASN.JM.yaml"
-    path: ./ruleset/ASN.JM.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/JM/JM_ASN.yaml"
+    path: ./ruleset/JM_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNVI:
+  VIasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VI/ASN.VI.yaml"
-    path: ./ruleset/ASN.VI.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VI/VI_ASN.yaml"
+    path: ./ruleset/VI_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNSM:
+  SMasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SM/ASN.SM.yaml"
-    path: ./ruleset/ASN.SM.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SM/SM_ASN.yaml"
+    path: ./ruleset/SM_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNMG:
+  MGasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MG/ASN.MG.yaml"
-    path: ./ruleset/ASN.MG.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MG/MG_ASN.yaml"
+    path: ./ruleset/MG_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNJE:
+  JEasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/JE/ASN.JE.yaml"
-    path: ./ruleset/ASN.JE.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/JE/JE_ASN.yaml"
+    path: ./ruleset/JE_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNGM:
+  GMasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GM/ASN.GM.yaml"
-    path: ./ruleset/ASN.GM.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GM/GM_ASN.yaml"
+    path: ./ruleset/GM_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNSB:
+  SBasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SB/ASN.SB.yaml"
-    path: ./ruleset/ASN.SB.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SB/SB_ASN.yaml"
+    path: ./ruleset/SB_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNML:
+  MLasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ML/ASN.ML.yaml"
-    path: ./ruleset/ASN.ML.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ML/ML_ASN.yaml"
+    path: ./ruleset/ML_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNBI:
+  BIasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BI/ASN.BI.yaml"
-    path: ./ruleset/ASN.BI.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BI/BI_ASN.yaml"
+    path: ./ruleset/BI_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNWS:
+  WSasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/WS/ASN.WS.yaml"
-    path: ./ruleset/ASN.WS.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/WS/WS_ASN.yaml"
+    path: ./ruleset/WS_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNLS:
+  LSasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LS/ASN.LS.yaml"
-    path: ./ruleset/ASN.LS.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LS/LS_ASN.yaml"
+    path: ./ruleset/LS_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNGU:
+  GUasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GU/ASN.GU.yaml"
-    path: ./ruleset/ASN.GU.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GU/GU_ASN.yaml"
+    path: ./ruleset/GU_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNGG:
+  GGasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GG/ASN.GG.yaml"
-    path: ./ruleset/ASN.GG.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GG/GG_ASN.yaml"
+    path: ./ruleset/GG_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNGD:
+  GDasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GD/ASN.GD.yaml"
-    path: ./ruleset/ASN.GD.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GD/GD_ASN.yaml"
+    path: ./ruleset/GD_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNCV:
+  CVasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CV/ASN.CV.yaml"
-    path: ./ruleset/ASN.CV.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CV/CV_ASN.yaml"
+    path: ./ruleset/CV_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNTG:
+  TGasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TG/ASN.TG.yaml"
-    path: ./ruleset/ASN.TG.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TG/TG_ASN.yaml"
+    path: ./ruleset/TG_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNRE:
+  REasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RE/ASN.RE.yaml"
-    path: ./ruleset/ASN.RE.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RE/RE_ASN.yaml"
+    path: ./ruleset/RE_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNNE:
+  NEasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NE/ASN.NE.yaml"
-    path: ./ruleset/ASN.NE.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NE/NE_ASN.yaml"
+    path: ./ruleset/NE_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNFO:
+  FOasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FO/ASN.FO.yaml"
-    path: ./ruleset/ASN.FO.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FO/FO_ASN.yaml"
+    path: ./ruleset/FO_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNBN:
+  BNasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BN/ASN.BN.yaml"
-    path: ./ruleset/ASN.BN.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BN/BN_ASN.yaml"
+    path: ./ruleset/BN_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNBB:
+  BBasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BB/ASN.BB.yaml"
-    path: ./ruleset/ASN.BB.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BB/BB_ASN.yaml"
+    path: ./ruleset/BB_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNMR:
+  MRasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MR/ASN.MR.yaml"
-    path: ./ruleset/ASN.MR.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MR/MR_ASN.yaml"
+    path: ./ruleset/MR_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNGP:
+  GPasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GP/ASN.GP.yaml"
-    path: ./ruleset/ASN.GP.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GP/GP_ASN.yaml"
+    path: ./ruleset/GP_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNET:
+  ETasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ET/ASN.ET.yaml"
-    path: ./ruleset/ASN.ET.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ET/ET_ASN.yaml"
+    path: ./ruleset/ET_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNSR:
+  SRasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SR/ASN.SR.yaml"
-    path: ./ruleset/ASN.SR.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SR/SR_ASN.yaml"
+    path: ./ruleset/SR_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNLC:
+  LCasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LC/ASN.LC.yaml"
-    path: ./ruleset/ASN.LC.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/LC/LC_ASN.yaml"
+    path: ./ruleset/LC_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNKN:
+  KNasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KN/ASN.KN.yaml"
-    path: ./ruleset/ASN.KN.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KN/KN_ASN.yaml"
+    path: ./ruleset/KN_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNGQ:
+  GQasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GQ/ASN.GQ.yaml"
-    path: ./ruleset/ASN.GQ.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GQ/GQ_ASN.yaml"
+    path: ./ruleset/GQ_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNDM:
+  DMasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DM/ASN.DM.yaml"
-    path: ./ruleset/ASN.DM.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DM/DM_ASN.yaml"
+    path: ./ruleset/DM_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNTM:
+  TMasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TM/ASN.TM.yaml"
-    path: ./ruleset/ASN.TM.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TM/TM_ASN.yaml"
+    path: ./ruleset/TM_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNSY:
+  SYasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SY/ASN.SY.yaml"
-    path: ./ruleset/ASN.SY.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SY/SY_ASN.yaml"
+    path: ./ruleset/SY_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNMH:
+  MHasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MH/ASN.MH.yaml"
-    path: ./ruleset/ASN.MH.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MH/MH_ASN.yaml"
+    path: ./ruleset/MH_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNGY:
+  GYasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GY/ASN.GY.yaml"
-    path: ./ruleset/ASN.GY.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GY/GY_ASN.yaml"
+    path: ./ruleset/GY_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNGF:
+  GFasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GF/ASN.GF.yaml"
-    path: ./ruleset/ASN.GF.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GF/GF_ASN.yaml"
+    path: ./ruleset/GF_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNCU:
+  CUasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CU/ASN.CU.yaml"
-    path: ./ruleset/ASN.CU.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CU/CU_ASN.yaml"
+    path: ./ruleset/CU_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNYE:
+  YEasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/YE/ASN.YE.yaml"
-    path: ./ruleset/ASN.YE.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/YE/YE_ASN.yaml"
+    path: ./ruleset/YE_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNPF:
+  PFasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PF/ASN.PF.yaml"
-    path: ./ruleset/ASN.PF.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PF/PF_ASN.yaml"
+    path: ./ruleset/PF_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNMQ:
+  MQasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MQ/ASN.MQ.yaml"
-    path: ./ruleset/ASN.MQ.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MQ/MQ_ASN.yaml"
+    path: ./ruleset/MQ_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNMF:
+  MFasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MF/ASN.MF.yaml"
-    path: ./ruleset/ASN.MF.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MF/MF_ASN.yaml"
+    path: ./ruleset/MF_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNFM:
+  FMasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FM/ASN.FM.yaml"
-    path: ./ruleset/ASN.FM.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FM/FM_ASN.yaml"
+    path: ./ruleset/FM_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNDJ:
+  DJasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DJ/ASN.DJ.yaml"
-    path: ./ruleset/ASN.DJ.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/DJ/DJ_ASN.yaml"
+    path: ./ruleset/DJ_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNBQ:
+  BQasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BQ/ASN.BQ.yaml"
-    path: ./ruleset/ASN.BQ.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BQ/BQ_ASN.yaml"
+    path: ./ruleset/BQ_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNTO:
+  TOasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TO/ASN.TO.yaml"
-    path: ./ruleset/ASN.TO.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TO/TO_ASN.yaml"
+    path: ./ruleset/TO_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNPW:
+  PWasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PW/ASN.PW.yaml"
-    path: ./ruleset/ASN.PW.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PW/PW_ASN.yaml"
+    path: ./ruleset/PW_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNNR:
+  NRasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NR/ASN.NR.yaml"
-    path: ./ruleset/ASN.NR.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NR/NR_ASN.yaml"
+    path: ./ruleset/NR_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNAW:
+  AWasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AW/ASN.AW.yaml"
-    path: ./ruleset/ASN.AW.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AW/AW_ASN.yaml"
+    path: ./ruleset/AW_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNAI:
+  AIasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AI/ASN.AI.yaml"
-    path: ./ruleset/ASN.AI.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AI/AI_ASN.yaml"
+    path: ./ruleset/AI_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNVC:
+  VCasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VC/ASN.VC.yaml"
-    path: ./ruleset/ASN.VC.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VC/VC_ASN.yaml"
+    path: ./ruleset/VC_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNSX:
+  SXasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SX/ASN.SX.yaml"
-    path: ./ruleset/ASN.SX.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/SX/SX_ASN.yaml"
+    path: ./ruleset/SX_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNKI:
+  KIasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KI/ASN.KI.yaml"
-    path: ./ruleset/ASN.KI.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KI/KI_ASN.yaml"
+    path: ./ruleset/KI_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNCF:
+  CFasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CF/ASN.CF.yaml"
-    path: ./ruleset/ASN.CF.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CF/CF_ASN.yaml"
+    path: ./ruleset/CF_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNBL:
+  BLasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BL/ASN.BL.yaml"
-    path: ./ruleset/ASN.BL.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BL/BL_ASN.yaml"
+    path: ./ruleset/BL_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNVA:
+  VAasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VA/ASN.VA.yaml"
-    path: ./ruleset/ASN.VA.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/VA/VA_ASN.yaml"
+    path: ./ruleset/VA_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNTV:
+  TVasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TV/ASN.TV.yaml"
-    path: ./ruleset/ASN.TV.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TV/TV_ASN.yaml"
+    path: ./ruleset/TV_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNTK:
+  TKasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TK/ASN.TK.yaml"
-    path: ./ruleset/ASN.TK.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TK/TK_ASN.yaml"
+    path: ./ruleset/TK_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNMC:
+  MCasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MC/ASN.MC.yaml"
-    path: ./ruleset/ASN.MC.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MC/MC_ASN.yaml"
+    path: ./ruleset/MC_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNAS:
+  ASasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AS/ASN.AS.yaml"
-    path: ./ruleset/ASN.AS.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AS/AS_ASN.yaml"
+    path: ./ruleset/AS_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNAD:
+  ADasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AD/ASN.AD.yaml"
-    path: ./ruleset/ASN.AD.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AD/AD_ASN.yaml"
+    path: ./ruleset/AD_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNTC:
+  TCasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TC/ASN.TC.yaml"
-    path: ./ruleset/ASN.TC.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/TC/TC_ASN.yaml"
+    path: ./ruleset/TC_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNST:
+  STasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ST/ASN.ST.yaml"
-    path: ./ruleset/ASN.ST.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ST/ST_ASN.yaml"
+    path: ./ruleset/ST_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNNF:
+  NFasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NF/ASN.NF.yaml"
-    path: ./ruleset/ASN.NF.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NF/NF_ASN.yaml"
+    path: ./ruleset/NF_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNMP:
+  MPasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MP/ASN.MP.yaml"
-    path: ./ruleset/ASN.MP.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MP/MP_ASN.yaml"
+    path: ./ruleset/MP_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNKM:
+  KMasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KM/ASN.KM.yaml"
-    path: ./ruleset/ASN.KM.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KM/KM_ASN.yaml"
+    path: ./ruleset/KM_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNGW:
+  GWasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GW/ASN.GW.yaml"
-    path: ./ruleset/ASN.GW.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GW/GW_ASN.yaml"
+    path: ./ruleset/GW_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNFK:
+  FKasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FK/ASN.FK.yaml"
-    path: ./ruleset/ASN.FK.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/FK/FK_ASN.yaml"
+    path: ./ruleset/FK_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNCK:
+  CKasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CK/ASN.CK.yaml"
-    path: ./ruleset/ASN.CK.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CK/CK_ASN.yaml"
+    path: ./ruleset/CK_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNAP:
+  APasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AP/ASN.AP.yaml"
-    path: ./ruleset/ASN.AP.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AP/AP_ASN.yaml"
+    path: ./ruleset/AP_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNYT:
+  YTasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/YT/ASN.YT.yaml"
-    path: ./ruleset/ASN.YT.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/YT/YT_ASN.yaml"
+    path: ./ruleset/YT_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNWF:
+  WFasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/WF/ASN.WF.yaml"
-    path: ./ruleset/ASN.WF.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/WF/WF_ASN.yaml"
+    path: ./ruleset/WF_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNUK:
+  UKasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/UK/ASN.UK.yaml"
-    path: ./ruleset/ASN.UK.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/UK/UK_ASN.yaml"
+    path: ./ruleset/UK_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNPM:
+  PMasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PM/ASN.PM.yaml"
-    path: ./ruleset/ASN.PM.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/PM/PM_ASN.yaml"
+    path: ./ruleset/PM_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNNU:
+  NUasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NU/ASN.NU.yaml"
-    path: ./ruleset/ASN.NU.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NU/NU_ASN.yaml"
+    path: ./ruleset/NU_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNMS:
+  MSasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MS/ASN.MS.yaml"
-    path: ./ruleset/ASN.MS.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MS/MS_ASN.yaml"
+    path: ./ruleset/MS_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNKP:
+  KPasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KP/ASN.KP.yaml"
-    path: ./ruleset/ASN.KP.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/KP/KP_ASN.yaml"
+    path: ./ruleset/KP_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNIO:
+  IOasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IO/ASN.IO.yaml"
-    path: ./ruleset/ASN.IO.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IO/IO_ASN.yaml"
+    path: ./ruleset/IO_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNGL:
+  GLasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GL/ASN.GL.yaml"
-    path: ./ruleset/ASN.GL.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/GL/GL_ASN.yaml"
+    path: ./ruleset/GL_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNER:
+  ERasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ER/ASN.ER.yaml"
-    path: ./ruleset/ASN.ER.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ER/ER_ASN.yaml"
+    path: ./ruleset/ER_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNAX:
+  AXasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AX/ASN.AX.yaml"
-    path: ./ruleset/ASN.AX.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AX/AX_ASN.yaml"
+    path: ./ruleset/AX_ASN.yaml
     interval: 86400
     format: yaml
 
-  ASNAN:
+  ANasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AN/ASN.AN.yaml"
-    path: ./ruleset/ASN.AN.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/AN/AN_ASN.yaml"
+    path: ./ruleset/AN_ASN.yaml
     interval: 86400
     format: yaml
 
@@ -2440,1210 +2440,1210 @@ rule-providers:
 <pre><code class="language-javascript">
 rule-providers:
 
-  ASNUS:
+  USasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/US/ASN.US.yaml"
-    path: ./ruleset/ASN.US.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/US/US_ASN.yaml"
+    path: ./ruleset/US_ASN.yaml
 
-  ASNBR:
+  BRasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BR/ASN.BR.yaml"
-    path: ./ruleset/ASN.BR.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BR/BR_ASN.yaml"
+    path: ./ruleset/BR_ASN.yaml
 
-  ASNCN:
+  CNasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CN/ASN.CN.yaml"
-    path: ./ruleset/ASN.CN.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CN/CN_ASN.yaml"
+    path: ./ruleset/CN_ASN.yaml
 
-  ASNRU:
+  RUasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/RU/ASN.RU.yaml"
-    path: ./ruleset/ASN.RU.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/RU/RU_ASN.yaml"
+    path: ./ruleset/RU_ASN.yaml
 
-  ASNIN:
+  INasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IN/ASN.IN.yaml"
-    path: ./ruleset/ASN.IN.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IN/IN_ASN.yaml"
+    path: ./ruleset/IN_ASN.yaml
 
-  ASNGB:
+  GBasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GB/ASN.GB.yaml"
-    path: ./ruleset/ASN.GB.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GB/GB_ASN.yaml"
+    path: ./ruleset/GB_ASN.yaml
 
-  ASNID:
+  IDasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ID/ASN.ID.yaml"
-    path: ./ruleset/ASN.ID.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ID/ID_ASN.yaml"
+    path: ./ruleset/ID_ASN.yaml
 
-  ASNDE:
+  DEasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/DE/ASN.DE.yaml"
-    path: ./ruleset/ASN.DE.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/DE/DE_ASN.yaml"
+    path: ./ruleset/DE_ASN.yaml
 
-  ASNAU:
+  AUasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AU/ASN.AU.yaml"
-    path: ./ruleset/ASN.AU.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AU/AU_ASN.yaml"
+    path: ./ruleset/AU_ASN.yaml
 
-  ASNPL:
+  PLasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PL/ASN.PL.yaml"
-    path: ./ruleset/ASN.PL.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PL/PL_ASN.yaml"
+    path: ./ruleset/PL_ASN.yaml
 
-  ASNCA:
+  CAasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CA/ASN.CA.yaml"
-    path: ./ruleset/ASN.CA.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CA/CA_ASN.yaml"
+    path: ./ruleset/CA_ASN.yaml
 
-  ASNUA:
+  UAasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/UA/ASN.UA.yaml"
-    path: ./ruleset/ASN.UA.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/UA/UA_ASN.yaml"
+    path: ./ruleset/UA_ASN.yaml
 
-  ASNFR:
+  FRasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/FR/ASN.FR.yaml"
-    path: ./ruleset/ASN.FR.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/FR/FR_ASN.yaml"
+    path: ./ruleset/FR_ASN.yaml
 
-  ASNBD:
+  BDasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BD/ASN.BD.yaml"
-    path: ./ruleset/ASN.BD.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BD/BD_ASN.yaml"
+    path: ./ruleset/BD_ASN.yaml
 
-  ASNNL:
+  NLasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NL/ASN.NL.yaml"
-    path: ./ruleset/ASN.NL.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NL/NL_ASN.yaml"
+    path: ./ruleset/NL_ASN.yaml
 
-  ASNIT:
+  ITasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IT/ASN.IT.yaml"
-    path: ./ruleset/ASN.IT.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IT/IT_ASN.yaml"
+    path: ./ruleset/IT_ASN.yaml
 
-  ASNHK:
+  HKasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/HK/ASN.HK.yaml"
-    path: ./ruleset/ASN.HK.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/HK/HK_ASN.yaml"
+    path: ./ruleset/HK_ASN.yaml
 
-  ASNRO:
+  ROasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/RO/ASN.RO.yaml"
-    path: ./ruleset/ASN.RO.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/RO/RO_ASN.yaml"
+    path: ./ruleset/RO_ASN.yaml
 
-  ASNES:
+  ESasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ES/ASN.ES.yaml"
-    path: ./ruleset/ASN.ES.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ES/ES_ASN.yaml"
+    path: ./ruleset/ES_ASN.yaml
 
-  ASNAR:
+  ARasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AR/ASN.AR.yaml"
-    path: ./ruleset/ASN.AR.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AR/AR_ASN.yaml"
+    path: ./ruleset/AR_ASN.yaml
 
-  ASNJP:
+  JPasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/JP/ASN.JP.yaml"
-    path: ./ruleset/ASN.JP.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/JP/JP_ASN.yaml"
+    path: ./ruleset/JP_ASN.yaml
 
-  ASNCH:
+  CHasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CH/ASN.CH.yaml"
-    path: ./ruleset/ASN.CH.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CH/CH_ASN.yaml"
+    path: ./ruleset/CH_ASN.yaml
 
-  ASNKR:
+  KRasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KR/ASN.KR.yaml"
-    path: ./ruleset/ASN.KR.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KR/KR_ASN.yaml"
+    path: ./ruleset/KR_ASN.yaml
 
-  ASNTR:
+  TRasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TR/ASN.TR.yaml"
-    path: ./ruleset/ASN.TR.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TR/TR_ASN.yaml"
+    path: ./ruleset/TR_ASN.yaml
 
-  ASNSE:
+  SEasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SE/ASN.SE.yaml"
-    path: ./ruleset/ASN.SE.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SE/SE_ASN.yaml"
+    path: ./ruleset/SE_ASN.yaml
 
-  ASNVN:
+  VNasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VN/ASN.VN.yaml"
-    path: ./ruleset/ASN.VN.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VN/VN_ASN.yaml"
+    path: ./ruleset/VN_ASN.yaml
 
-  ASNZA:
+  ZAasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ZA/ASN.ZA.yaml"
-    path: ./ruleset/ASN.ZA.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ZA/ZA_ASN.yaml"
+    path: ./ruleset/ZA_ASN.yaml
 
-  ASNIR:
+  IRasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IR/ASN.IR.yaml"
-    path: ./ruleset/ASN.IR.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IR/IR_ASN.yaml"
+    path: ./ruleset/IR_ASN.yaml
 
-  ASNBG:
+  BGasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BG/ASN.BG.yaml"
-    path: ./ruleset/ASN.BG.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BG/BG_ASN.yaml"
+    path: ./ruleset/BG_ASN.yaml
 
-  ASNAT:
+  ATasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AT/ASN.AT.yaml"
-    path: ./ruleset/ASN.AT.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AT/AT_ASN.yaml"
+    path: ./ruleset/AT_ASN.yaml
 
-  ASNNZ:
+  NZasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NZ/ASN.NZ.yaml"
-    path: ./ruleset/ASN.NZ.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NZ/NZ_ASN.yaml"
+    path: ./ruleset/NZ_ASN.yaml
 
-  ASNMX:
+  MXasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MX/ASN.MX.yaml"
-    path: ./ruleset/ASN.MX.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MX/MX_ASN.yaml"
+    path: ./ruleset/MX_ASN.yaml
 
-  ASNCZ:
+  CZasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CZ/ASN.CZ.yaml"
-    path: ./ruleset/ASN.CZ.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CZ/CZ_ASN.yaml"
+    path: ./ruleset/CZ_ASN.yaml
 
-  ASNSG:
+  SGasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SG/ASN.SG.yaml"
-    path: ./ruleset/ASN.SG.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SG/SG_ASN.yaml"
+    path: ./ruleset/SG_ASN.yaml
 
-  ASNPH:
+  PHasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PH/ASN.PH.yaml"
-    path: ./ruleset/ASN.PH.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PH/PH_ASN.yaml"
+    path: ./ruleset/PH_ASN.yaml
 
-  ASNTH:
+  THasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TH/ASN.TH.yaml"
-    path: ./ruleset/ASN.TH.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TH/TH_ASN.yaml"
+    path: ./ruleset/TH_ASN.yaml
 
-  ASNCO:
+  COasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CO/ASN.CO.yaml"
-    path: ./ruleset/ASN.CO.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CO/CO_ASN.yaml"
+    path: ./ruleset/CO_ASN.yaml
 
-  ASNDK:
+  DKasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/DK/ASN.DK.yaml"
-    path: ./ruleset/ASN.DK.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/DK/DK_ASN.yaml"
+    path: ./ruleset/DK_ASN.yaml
 
-  ASNTW:
+  TWasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TW/ASN.TW.yaml"
-    path: ./ruleset/ASN.TW.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TW/TW_ASN.yaml"
+    path: ./ruleset/TW_ASN.yaml
 
-  ASNNO:
+  NOasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NO/ASN.NO.yaml"
-    path: ./ruleset/ASN.NO.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NO/NO_ASN.yaml"
+    path: ./ruleset/NO_ASN.yaml
 
-  ASNBE:
+  BEasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BE/ASN.BE.yaml"
-    path: ./ruleset/ASN.BE.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BE/BE_ASN.yaml"
+    path: ./ruleset/BE_ASN.yaml
 
-  ASNCL:
+  CLasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CL/ASN.CL.yaml"
-    path: ./ruleset/ASN.CL.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CL/CL_ASN.yaml"
+    path: ./ruleset/CL_ASN.yaml
 
-  ASNFI:
+  FIasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/FI/ASN.FI.yaml"
-    path: ./ruleset/ASN.FI.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/FI/FI_ASN.yaml"
+    path: ./ruleset/FI_ASN.yaml
 
-  ASNPK:
+  PKasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PK/ASN.PK.yaml"
-    path: ./ruleset/ASN.PK.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PK/PK_ASN.yaml"
+    path: ./ruleset/PK_ASN.yaml
 
-  ASNIL:
+  ILasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IL/ASN.IL.yaml"
-    path: ./ruleset/ASN.IL.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IL/IL_ASN.yaml"
+    path: ./ruleset/IL_ASN.yaml
 
-  ASNMY:
+  MYasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MY/ASN.MY.yaml"
-    path: ./ruleset/ASN.MY.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MY/MY_ASN.yaml"
+    path: ./ruleset/MY_ASN.yaml
 
-  ASNEU:
+  EUasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/EU/ASN.EU.yaml"
-    path: ./ruleset/ASN.EU.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/EU/EU_ASN.yaml"
+    path: ./ruleset/EU_ASN.yaml
 
-  ASNLV:
+  LVasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LV/ASN.LV.yaml"
-    path: ./ruleset/ASN.LV.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LV/LV_ASN.yaml"
+    path: ./ruleset/LV_ASN.yaml
 
-  ASNHU:
+  HUasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/HU/ASN.HU.yaml"
-    path: ./ruleset/ASN.HU.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/HU/HU_ASN.yaml"
+    path: ./ruleset/HU_ASN.yaml
 
-  ASNIE:
+  IEasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IE/ASN.IE.yaml"
-    path: ./ruleset/ASN.IE.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IE/IE_ASN.yaml"
+    path: ./ruleset/IE_ASN.yaml
 
-  ASNNG:
+  NGasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NG/ASN.NG.yaml"
-    path: ./ruleset/ASN.NG.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NG/NG_ASN.yaml"
+    path: ./ruleset/NG_ASN.yaml
 
-  ASNSI:
+  SIasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SI/ASN.SI.yaml"
-    path: ./ruleset/ASN.SI.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SI/SI_ASN.yaml"
+    path: ./ruleset/SI_ASN.yaml
 
-  ASNGR:
+  GRasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GR/ASN.GR.yaml"
-    path: ./ruleset/ASN.GR.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GR/GR_ASN.yaml"
+    path: ./ruleset/GR_ASN.yaml
 
-  ASNEC:
+  ECasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/EC/ASN.EC.yaml"
-    path: ./ruleset/ASN.EC.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/EC/EC_ASN.yaml"
+    path: ./ruleset/EC_ASN.yaml
 
-  ASNKE:
+  KEasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KE/ASN.KE.yaml"
-    path: ./ruleset/ASN.KE.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KE/KE_ASN.yaml"
+    path: ./ruleset/KE_ASN.yaml
 
-  ASNVE:
+  VEasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VE/ASN.VE.yaml"
-    path: ./ruleset/ASN.VE.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VE/VE_ASN.yaml"
+    path: ./ruleset/VE_ASN.yaml
 
-  ASNSK:
+  SKasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SK/ASN.SK.yaml"
-    path: ./ruleset/ASN.SK.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SK/SK_ASN.yaml"
+    path: ./ruleset/SK_ASN.yaml
 
-  ASNLT:
+  LTasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LT/ASN.LT.yaml"
-    path: ./ruleset/ASN.LT.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LT/LT_ASN.yaml"
+    path: ./ruleset/LT_ASN.yaml
 
-  ASNEE:
+  EEasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/EE/ASN.EE.yaml"
-    path: ./ruleset/ASN.EE.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/EE/EE_ASN.yaml"
+    path: ./ruleset/EE_ASN.yaml
 
-  ASNIQ:
+  IQasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IQ/ASN.IQ.yaml"
-    path: ./ruleset/ASN.IQ.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IQ/IQ_ASN.yaml"
+    path: ./ruleset/IQ_ASN.yaml
 
-  ASNMD:
+  MDasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MD/ASN.MD.yaml"
-    path: ./ruleset/ASN.MD.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MD/MD_ASN.yaml"
+    path: ./ruleset/MD_ASN.yaml
 
-  ASNPE:
+  PEasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PE/ASN.PE.yaml"
-    path: ./ruleset/ASN.PE.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PE/PE_ASN.yaml"
+    path: ./ruleset/PE_ASN.yaml
 
-  ASNKZ:
+  KZasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KZ/ASN.KZ.yaml"
-    path: ./ruleset/ASN.KZ.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KZ/KZ_ASN.yaml"
+    path: ./ruleset/KZ_ASN.yaml
 
-  ASNRS:
+  RSasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/RS/ASN.RS.yaml"
-    path: ./ruleset/ASN.RS.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/RS/RS_ASN.yaml"
+    path: ./ruleset/RS_ASN.yaml
 
-  ASNSA:
+  SAasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SA/ASN.SA.yaml"
-    path: ./ruleset/ASN.SA.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SA/SA_ASN.yaml"
+    path: ./ruleset/SA_ASN.yaml
 
-  ASNNP:
+  NPasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NP/ASN.NP.yaml"
-    path: ./ruleset/ASN.NP.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NP/NP_ASN.yaml"
+    path: ./ruleset/NP_ASN.yaml
 
-  ASNHR:
+  HRasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/HR/ASN.HR.yaml"
-    path: ./ruleset/ASN.HR.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/HR/HR_ASN.yaml"
+    path: ./ruleset/HR_ASN.yaml
 
-  ASNDO:
+  DOasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/DO/ASN.DO.yaml"
-    path: ./ruleset/ASN.DO.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/DO/DO_ASN.yaml"
+    path: ./ruleset/DO_ASN.yaml
 
-  ASNLB:
+  LBasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LB/ASN.LB.yaml"
-    path: ./ruleset/ASN.LB.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LB/LB_ASN.yaml"
+    path: ./ruleset/LB_ASN.yaml
 
-  ASNCY:
+  CYasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CY/ASN.CY.yaml"
-    path: ./ruleset/ASN.CY.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CY/CY_ASN.yaml"
+    path: ./ruleset/CY_ASN.yaml
 
-  ASNPT:
+  PTasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PT/ASN.PT.yaml"
-    path: ./ruleset/ASN.PT.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PT/PT_ASN.yaml"
+    path: ./ruleset/PT_ASN.yaml
 
-  ASNAE:
+  AEasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AE/ASN.AE.yaml"
-    path: ./ruleset/ASN.AE.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AE/AE_ASN.yaml"
+    path: ./ruleset/AE_ASN.yaml
 
-  ASNPA:
+  PAasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PA/ASN.PA.yaml"
-    path: ./ruleset/ASN.PA.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PA/PA_ASN.yaml"
+    path: ./ruleset/PA_ASN.yaml
 
-  ASNMM:
+  MMasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MM/ASN.MM.yaml"
-    path: ./ruleset/ASN.MM.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MM/MM_ASN.yaml"
+    path: ./ruleset/MM_ASN.yaml
 
-  ASNGE:
+  GEasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GE/ASN.GE.yaml"
-    path: ./ruleset/ASN.GE.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GE/GE_ASN.yaml"
+    path: ./ruleset/GE_ASN.yaml
 
-  ASNKH:
+  KHasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KH/ASN.KH.yaml"
-    path: ./ruleset/ASN.KH.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KH/KH_ASN.yaml"
+    path: ./ruleset/KH_ASN.yaml
 
-  ASNBY:
+  BYasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BY/ASN.BY.yaml"
-    path: ./ruleset/ASN.BY.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BY/BY_ASN.yaml"
+    path: ./ruleset/BY_ASN.yaml
 
-  ASNLU:
+  LUasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LU/ASN.LU.yaml"
-    path: ./ruleset/ASN.LU.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LU/LU_ASN.yaml"
+    path: ./ruleset/LU_ASN.yaml
 
-  ASNAM:
+  AMasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AM/ASN.AM.yaml"
-    path: ./ruleset/ASN.AM.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AM/AM_ASN.yaml"
+    path: ./ruleset/AM_ASN.yaml
 
-  ASNGH:
+  GHasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GH/ASN.GH.yaml"
-    path: ./ruleset/ASN.GH.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GH/GH_ASN.yaml"
+    path: ./ruleset/GH_ASN.yaml
 
-  ASNAL:
+  ALasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AL/ASN.AL.yaml"
-    path: ./ruleset/ASN.AL.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AL/AL_ASN.yaml"
+    path: ./ruleset/AL_ASN.yaml
 
-  ASNTZ:
+  TZasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TZ/ASN.TZ.yaml"
-    path: ./ruleset/ASN.TZ.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TZ/TZ_ASN.yaml"
+    path: ./ruleset/TZ_ASN.yaml
 
-  ASNCR:
+  CRasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CR/ASN.CR.yaml"
-    path: ./ruleset/ASN.CR.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CR/CR_ASN.yaml"
+    path: ./ruleset/CR_ASN.yaml
 
-  ASNHN:
+  HNasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/HN/ASN.HN.yaml"
-    path: ./ruleset/ASN.HN.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/HN/HN_ASN.yaml"
+    path: ./ruleset/HN_ASN.yaml
 
-  ASNUZ:
+  UZasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/UZ/ASN.UZ.yaml"
-    path: ./ruleset/ASN.UZ.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/UZ/UZ_ASN.yaml"
+    path: ./ruleset/UZ_ASN.yaml
 
-  ASNPR:
+  PRasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PR/ASN.PR.yaml"
-    path: ./ruleset/ASN.PR.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PR/PR_ASN.yaml"
+    path: ./ruleset/PR_ASN.yaml
 
-  ASNEG:
+  EGasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/EG/ASN.EG.yaml"
-    path: ./ruleset/ASN.EG.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/EG/EG_ASN.yaml"
+    path: ./ruleset/EG_ASN.yaml
 
-  ASNPY:
+  PYasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PY/ASN.PY.yaml"
-    path: ./ruleset/ASN.PY.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PY/PY_ASN.yaml"
+    path: ./ruleset/PY_ASN.yaml
 
-  ASNSC:
+  SCasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SC/ASN.SC.yaml"
-    path: ./ruleset/ASN.SC.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SC/SC_ASN.yaml"
+    path: ./ruleset/SC_ASN.yaml
 
-  ASNIS:
+  ISasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IS/ASN.IS.yaml"
-    path: ./ruleset/ASN.IS.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IS/IS_ASN.yaml"
+    path: ./ruleset/IS_ASN.yaml
 
-  ASNAZ:
+  AZasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AZ/ASN.AZ.yaml"
-    path: ./ruleset/ASN.AZ.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AZ/AZ_ASN.yaml"
+    path: ./ruleset/AZ_ASN.yaml
 
-  ASNGT:
+  GTasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GT/ASN.GT.yaml"
-    path: ./ruleset/ASN.GT.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GT/GT_ASN.yaml"
+    path: ./ruleset/GT_ASN.yaml
 
-  ASNKW:
+  KWasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KW/ASN.KW.yaml"
-    path: ./ruleset/ASN.KW.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KW/KW_ASN.yaml"
+    path: ./ruleset/KW_ASN.yaml
 
-  ASNAO:
+  AOasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AO/ASN.AO.yaml"
-    path: ./ruleset/ASN.AO.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AO/AO_ASN.yaml"
+    path: ./ruleset/AO_ASN.yaml
 
-  ASNAF:
+  AFasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AF/ASN.AF.yaml"
-    path: ./ruleset/ASN.AF.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AF/AF_ASN.yaml"
+    path: ./ruleset/AF_ASN.yaml
 
-  ASNMN:
+  MNasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MN/ASN.MN.yaml"
-    path: ./ruleset/ASN.MN.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MN/MN_ASN.yaml"
+    path: ./ruleset/MN_ASN.yaml
 
-  ASNPS:
+  PSasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PS/ASN.PS.yaml"
-    path: ./ruleset/ASN.PS.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PS/PS_ASN.yaml"
+    path: ./ruleset/PS_ASN.yaml
 
-  ASNUG:
+  UGasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/UG/ASN.UG.yaml"
-    path: ./ruleset/ASN.UG.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/UG/UG_ASN.yaml"
+    path: ./ruleset/UG_ASN.yaml
 
-  ASNKG:
+  KGasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KG/ASN.KG.yaml"
-    path: ./ruleset/ASN.KG.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KG/KG_ASN.yaml"
+    path: ./ruleset/KG_ASN.yaml
 
-  ASNBO:
+  BOasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BO/ASN.BO.yaml"
-    path: ./ruleset/ASN.BO.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BO/BO_ASN.yaml"
+    path: ./ruleset/BO_ASN.yaml
 
-  ASNMK:
+  MKasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MK/ASN.MK.yaml"
-    path: ./ruleset/ASN.MK.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MK/MK_ASN.yaml"
+    path: ./ruleset/MK_ASN.yaml
 
-  ASNMU:
+  MUasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MU/ASN.MU.yaml"
-    path: ./ruleset/ASN.MU.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MU/MU_ASN.yaml"
+    path: ./ruleset/MU_ASN.yaml
 
-  ASNMT:
+  MTasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MT/ASN.MT.yaml"
-    path: ./ruleset/ASN.MT.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MT/MT_ASN.yaml"
+    path: ./ruleset/MT_ASN.yaml
 
-  ASNCD:
+  CDasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CD/ASN.CD.yaml"
-    path: ./ruleset/ASN.CD.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CD/CD_ASN.yaml"
+    path: ./ruleset/CD_ASN.yaml
 
-  ASNBA:
+  BAasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BA/ASN.BA.yaml"
-    path: ./ruleset/ASN.BA.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BA/BA_ASN.yaml"
+    path: ./ruleset/BA_ASN.yaml
 
-  ASNSV:
+  SVasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SV/ASN.SV.yaml"
-    path: ./ruleset/ASN.SV.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SV/SV_ASN.yaml"
+    path: ./ruleset/SV_ASN.yaml
 
-  ASNJO:
+  JOasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/JO/ASN.JO.yaml"
-    path: ./ruleset/ASN.JO.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/JO/JO_ASN.yaml"
+    path: ./ruleset/JO_ASN.yaml
 
-  ASNVG:
+  VGasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VG/ASN.VG.yaml"
-    path: ./ruleset/ASN.VG.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VG/VG_ASN.yaml"
+    path: ./ruleset/VG_ASN.yaml
 
-  ASNUY:
+  UYasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/UY/ASN.UY.yaml"
-    path: ./ruleset/ASN.UY.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/UY/UY_ASN.yaml"
+    path: ./ruleset/UY_ASN.yaml
 
-  ASNPG:
+  PGasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PG/ASN.PG.yaml"
-    path: ./ruleset/ASN.PG.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PG/PG_ASN.yaml"
+    path: ./ruleset/PG_ASN.yaml
 
-  ASNLA:
+  LAasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LA/ASN.LA.yaml"
-    path: ./ruleset/ASN.LA.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LA/LA_ASN.yaml"
+    path: ./ruleset/LA_ASN.yaml
 
-  ASNBZ:
+  BZasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BZ/ASN.BZ.yaml"
-    path: ./ruleset/ASN.BZ.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BZ/BZ_ASN.yaml"
+    path: ./ruleset/BZ_ASN.yaml
 
-  ASNZW:
+  ZWasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ZW/ASN.ZW.yaml"
-    path: ./ruleset/ASN.ZW.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ZW/ZW_ASN.yaml"
+    path: ./ruleset/ZW_ASN.yaml
 
-  ASNMZ:
+  MZasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MZ/ASN.MZ.yaml"
-    path: ./ruleset/ASN.MZ.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MZ/MZ_ASN.yaml"
+    path: ./ruleset/MZ_ASN.yaml
 
-  ASNCW:
+  CWasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CW/ASN.CW.yaml"
-    path: ./ruleset/ASN.CW.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CW/CW_ASN.yaml"
+    path: ./ruleset/CW_ASN.yaml
 
-  ASNCM:
+  CMasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CM/ASN.CM.yaml"
-    path: ./ruleset/ASN.CM.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CM/CM_ASN.yaml"
+    path: ./ruleset/CM_ASN.yaml
 
-  ASNMW:
+  MWasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MW/ASN.MW.yaml"
-    path: ./ruleset/ASN.MW.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MW/MW_ASN.yaml"
+    path: ./ruleset/MW_ASN.yaml
 
-  ASNBW:
+  BWasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BW/ASN.BW.yaml"
-    path: ./ruleset/ASN.BW.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BW/BW_ASN.yaml"
+    path: ./ruleset/BW_ASN.yaml
 
-  ASNRW:
+  RWasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/RW/ASN.RW.yaml"
-    path: ./ruleset/ASN.RW.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/RW/RW_ASN.yaml"
+    path: ./ruleset/RW_ASN.yaml
 
-  ASNNI:
+  NIasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NI/ASN.NI.yaml"
-    path: ./ruleset/ASN.NI.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NI/NI_ASN.yaml"
+    path: ./ruleset/NI_ASN.yaml
 
-  ASNBT:
+  BTasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BT/ASN.BT.yaml"
-    path: ./ruleset/ASN.BT.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BT/BT_ASN.yaml"
+    path: ./ruleset/BT_ASN.yaml
 
-  ASNTJ:
+  TJasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TJ/ASN.TJ.yaml"
-    path: ./ruleset/ASN.TJ.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TJ/TJ_ASN.yaml"
+    path: ./ruleset/TJ_ASN.yaml
 
-  ASNLY:
+  LYasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LY/ASN.LY.yaml"
-    path: ./ruleset/ASN.LY.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LY/LY_ASN.yaml"
+    path: ./ruleset/LY_ASN.yaml
 
-  ASNGI:
+  GIasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GI/ASN.GI.yaml"
-    path: ./ruleset/ASN.GI.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GI/GI_ASN.yaml"
+    path: ./ruleset/GI_ASN.yaml
 
-  ASNBF:
+  BFasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BF/ASN.BF.yaml"
-    path: ./ruleset/ASN.BF.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BF/BF_ASN.yaml"
+    path: ./ruleset/BF_ASN.yaml
 
-  ASNMA:
+  MAasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MA/ASN.MA.yaml"
-    path: ./ruleset/ASN.MA.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MA/MA_ASN.yaml"
+    path: ./ruleset/MA_ASN.yaml
 
-  ASNLK:
+  LKasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LK/ASN.LK.yaml"
-    path: ./ruleset/ASN.LK.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LK/LK_ASN.yaml"
+    path: ./ruleset/LK_ASN.yaml
 
-  ASNZM:
+  ZMasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ZM/ASN.ZM.yaml"
-    path: ./ruleset/ASN.ZM.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ZM/ZM_ASN.yaml"
+    path: ./ruleset/ZM_ASN.yaml
 
-  ASNTN:
+  TNasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TN/ASN.TN.yaml"
-    path: ./ruleset/ASN.TN.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TN/TN_ASN.yaml"
+    path: ./ruleset/TN_ASN.yaml
 
-  ASNCI:
+  CIasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CI/ASN.CI.yaml"
-    path: ./ruleset/ASN.CI.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CI/CI_ASN.yaml"
+    path: ./ruleset/CI_ASN.yaml
 
-  ASNME:
+  MEasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ME/ASN.ME.yaml"
-    path: ./ruleset/ASN.ME.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ME/ME_ASN.yaml"
+    path: ./ruleset/ME_ASN.yaml
 
-  ASNBH:
+  BHasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BH/ASN.BH.yaml"
-    path: ./ruleset/ASN.BH.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BH/BH_ASN.yaml"
+    path: ./ruleset/BH_ASN.yaml
 
-  ASNLI:
+  LIasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LI/ASN.LI.yaml"
-    path: ./ruleset/ASN.LI.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LI/LI_ASN.yaml"
+    path: ./ruleset/LI_ASN.yaml
 
-  ASNSS:
+  SSasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SS/ASN.SS.yaml"
-    path: ./ruleset/ASN.SS.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SS/SS_ASN.yaml"
+    path: ./ruleset/SS_ASN.yaml
 
-  ASNIM:
+  IMasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IM/ASN.IM.yaml"
-    path: ./ruleset/ASN.IM.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IM/IM_ASN.yaml"
+    path: ./ruleset/IM_ASN.yaml
 
-  ASNSL:
+  SLasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SL/ASN.SL.yaml"
-    path: ./ruleset/ASN.SL.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SL/SL_ASN.yaml"
+    path: ./ruleset/SL_ASN.yaml
 
-  ASNQA:
+  QAasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/QA/ASN.QA.yaml"
-    path: ./ruleset/ASN.QA.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/QA/QA_ASN.yaml"
+    path: ./ruleset/QA_ASN.yaml
 
-  ASNSO:
+  SOasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SO/ASN.SO.yaml"
-    path: ./ruleset/ASN.SO.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SO/SO_ASN.yaml"
+    path: ./ruleset/SO_ASN.yaml
 
-  ASNBM:
+  BMasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BM/ASN.BM.yaml"
-    path: ./ruleset/ASN.BM.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BM/BM_ASN.yaml"
+    path: ./ruleset/BM_ASN.yaml
 
-  ASNBJ:
+  BJasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BJ/ASN.BJ.yaml"
-    path: ./ruleset/ASN.BJ.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BJ/BJ_ASN.yaml"
+    path: ./ruleset/BJ_ASN.yaml
 
-  ASNOM:
+  OMasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/OM/ASN.OM.yaml"
-    path: ./ruleset/ASN.OM.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/OM/OM_ASN.yaml"
+    path: ./ruleset/OM_ASN.yaml
 
-  ASNGN:
+  GNasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GN/ASN.GN.yaml"
-    path: ./ruleset/ASN.GN.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GN/GN_ASN.yaml"
+    path: ./ruleset/GN_ASN.yaml
 
-  ASNDZ:
+  DZasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/DZ/ASN.DZ.yaml"
-    path: ./ruleset/ASN.DZ.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/DZ/DZ_ASN.yaml"
+    path: ./ruleset/DZ_ASN.yaml
 
-  ASNCG:
+  CGasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CG/ASN.CG.yaml"
-    path: ./ruleset/ASN.CG.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CG/CG_ASN.yaml"
+    path: ./ruleset/CG_ASN.yaml
 
-  ASNTD:
+  TDasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TD/ASN.TD.yaml"
-    path: ./ruleset/ASN.TD.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TD/TD_ASN.yaml"
+    path: ./ruleset/TD_ASN.yaml
 
-  ASNSN:
+  SNasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SN/ASN.SN.yaml"
-    path: ./ruleset/ASN.SN.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SN/SN_ASN.yaml"
+    path: ./ruleset/SN_ASN.yaml
 
-  ASNNC:
+  NCasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NC/ASN.NC.yaml"
-    path: ./ruleset/ASN.NC.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NC/NC_ASN.yaml"
+    path: ./ruleset/NC_ASN.yaml
 
-  ASNNA:
+  NAasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NA/ASN.NA.yaml"
-    path: ./ruleset/ASN.NA.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NA/NA_ASN.yaml"
+    path: ./ruleset/NA_ASN.yaml
 
-  ASNGA:
+  GAasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GA/ASN.GA.yaml"
-    path: ./ruleset/ASN.GA.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GA/GA_ASN.yaml"
+    path: ./ruleset/GA_ASN.yaml
 
-  ASNFJ:
+  FJasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/FJ/ASN.FJ.yaml"
-    path: ./ruleset/ASN.FJ.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/FJ/FJ_ASN.yaml"
+    path: ./ruleset/FJ_ASN.yaml
 
-  ASNTT:
+  TTasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TT/ASN.TT.yaml"
-    path: ./ruleset/ASN.TT.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TT/TT_ASN.yaml"
+    path: ./ruleset/TT_ASN.yaml
 
-  ASNMV:
+  MVasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MV/ASN.MV.yaml"
-    path: ./ruleset/ASN.MV.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MV/MV_ASN.yaml"
+    path: ./ruleset/MV_ASN.yaml
 
-  ASNLR:
+  LRasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LR/ASN.LR.yaml"
-    path: ./ruleset/ASN.LR.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LR/LR_ASN.yaml"
+    path: ./ruleset/LR_ASN.yaml
 
-  ASNAG:
+  AGasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AG/ASN.AG.yaml"
-    path: ./ruleset/ASN.AG.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AG/AG_ASN.yaml"
+    path: ./ruleset/AG_ASN.yaml
 
-  ASNKY:
+  KYasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KY/ASN.KY.yaml"
-    path: ./ruleset/ASN.KY.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KY/KY_ASN.yaml"
+    path: ./ruleset/KY_ASN.yaml
 
-  ASNSZ:
+  SZasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SZ/ASN.SZ.yaml"
-    path: ./ruleset/ASN.SZ.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SZ/SZ_ASN.yaml"
+    path: ./ruleset/SZ_ASN.yaml
 
-  ASNMO:
+  MOasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MO/ASN.MO.yaml"
-    path: ./ruleset/ASN.MO.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MO/MO_ASN.yaml"
+    path: ./ruleset/MO_ASN.yaml
 
-  ASNHT:
+  HTasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/HT/ASN.HT.yaml"
-    path: ./ruleset/ASN.HT.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/HT/HT_ASN.yaml"
+    path: ./ruleset/HT_ASN.yaml
 
-  ASNBS:
+  BSasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BS/ASN.BS.yaml"
-    path: ./ruleset/ASN.BS.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BS/BS_ASN.yaml"
+    path: ./ruleset/BS_ASN.yaml
 
-  ASNVU:
+  VUasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VU/ASN.VU.yaml"
-    path: ./ruleset/ASN.VU.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VU/VU_ASN.yaml"
+    path: ./ruleset/VU_ASN.yaml
 
-  ASNTL:
+  TLasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TL/ASN.TL.yaml"
-    path: ./ruleset/ASN.TL.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TL/TL_ASN.yaml"
+    path: ./ruleset/TL_ASN.yaml
 
-  ASNSD:
+  SDasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SD/ASN.SD.yaml"
-    path: ./ruleset/ASN.SD.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SD/SD_ASN.yaml"
+    path: ./ruleset/SD_ASN.yaml
 
-  ASNJM:
+  JMasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/JM/ASN.JM.yaml"
-    path: ./ruleset/ASN.JM.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/JM/JM_ASN.yaml"
+    path: ./ruleset/JM_ASN.yaml
 
-  ASNVI:
+  VIasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VI/ASN.VI.yaml"
-    path: ./ruleset/ASN.VI.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VI/VI_ASN.yaml"
+    path: ./ruleset/VI_ASN.yaml
 
-  ASNSM:
+  SMasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SM/ASN.SM.yaml"
-    path: ./ruleset/ASN.SM.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SM/SM_ASN.yaml"
+    path: ./ruleset/SM_ASN.yaml
 
-  ASNMG:
+  MGasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MG/ASN.MG.yaml"
-    path: ./ruleset/ASN.MG.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MG/MG_ASN.yaml"
+    path: ./ruleset/MG_ASN.yaml
 
-  ASNJE:
+  JEasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/JE/ASN.JE.yaml"
-    path: ./ruleset/ASN.JE.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/JE/JE_ASN.yaml"
+    path: ./ruleset/JE_ASN.yaml
 
-  ASNGM:
+  GMasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GM/ASN.GM.yaml"
-    path: ./ruleset/ASN.GM.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GM/GM_ASN.yaml"
+    path: ./ruleset/GM_ASN.yaml
 
-  ASNSB:
+  SBasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SB/ASN.SB.yaml"
-    path: ./ruleset/ASN.SB.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SB/SB_ASN.yaml"
+    path: ./ruleset/SB_ASN.yaml
 
-  ASNML:
+  MLasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ML/ASN.ML.yaml"
-    path: ./ruleset/ASN.ML.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ML/ML_ASN.yaml"
+    path: ./ruleset/ML_ASN.yaml
 
-  ASNBI:
+  BIasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BI/ASN.BI.yaml"
-    path: ./ruleset/ASN.BI.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BI/BI_ASN.yaml"
+    path: ./ruleset/BI_ASN.yaml
 
-  ASNWS:
+  WSasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/WS/ASN.WS.yaml"
-    path: ./ruleset/ASN.WS.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/WS/WS_ASN.yaml"
+    path: ./ruleset/WS_ASN.yaml
 
-  ASNLS:
+  LSasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LS/ASN.LS.yaml"
-    path: ./ruleset/ASN.LS.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LS/LS_ASN.yaml"
+    path: ./ruleset/LS_ASN.yaml
 
-  ASNGU:
+  GUasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GU/ASN.GU.yaml"
-    path: ./ruleset/ASN.GU.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GU/GU_ASN.yaml"
+    path: ./ruleset/GU_ASN.yaml
 
-  ASNGG:
+  GGasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GG/ASN.GG.yaml"
-    path: ./ruleset/ASN.GG.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GG/GG_ASN.yaml"
+    path: ./ruleset/GG_ASN.yaml
 
-  ASNGD:
+  GDasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GD/ASN.GD.yaml"
-    path: ./ruleset/ASN.GD.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GD/GD_ASN.yaml"
+    path: ./ruleset/GD_ASN.yaml
 
-  ASNCV:
+  CVasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CV/ASN.CV.yaml"
-    path: ./ruleset/ASN.CV.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CV/CV_ASN.yaml"
+    path: ./ruleset/CV_ASN.yaml
 
-  ASNTG:
+  TGasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TG/ASN.TG.yaml"
-    path: ./ruleset/ASN.TG.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TG/TG_ASN.yaml"
+    path: ./ruleset/TG_ASN.yaml
 
-  ASNRE:
+  REasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/RE/ASN.RE.yaml"
-    path: ./ruleset/ASN.RE.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/RE/RE_ASN.yaml"
+    path: ./ruleset/RE_ASN.yaml
 
-  ASNNE:
+  NEasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NE/ASN.NE.yaml"
-    path: ./ruleset/ASN.NE.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NE/NE_ASN.yaml"
+    path: ./ruleset/NE_ASN.yaml
 
-  ASNFO:
+  FOasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/FO/ASN.FO.yaml"
-    path: ./ruleset/ASN.FO.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/FO/FO_ASN.yaml"
+    path: ./ruleset/FO_ASN.yaml
 
-  ASNBN:
+  BNasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BN/ASN.BN.yaml"
-    path: ./ruleset/ASN.BN.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BN/BN_ASN.yaml"
+    path: ./ruleset/BN_ASN.yaml
 
-  ASNBB:
+  BBasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BB/ASN.BB.yaml"
-    path: ./ruleset/ASN.BB.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BB/BB_ASN.yaml"
+    path: ./ruleset/BB_ASN.yaml
 
-  ASNMR:
+  MRasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MR/ASN.MR.yaml"
-    path: ./ruleset/ASN.MR.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MR/MR_ASN.yaml"
+    path: ./ruleset/MR_ASN.yaml
 
-  ASNGP:
+  GPasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GP/ASN.GP.yaml"
-    path: ./ruleset/ASN.GP.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GP/GP_ASN.yaml"
+    path: ./ruleset/GP_ASN.yaml
 
-  ASNET:
+  ETasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ET/ASN.ET.yaml"
-    path: ./ruleset/ASN.ET.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ET/ET_ASN.yaml"
+    path: ./ruleset/ET_ASN.yaml
 
-  ASNSR:
+  SRasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SR/ASN.SR.yaml"
-    path: ./ruleset/ASN.SR.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SR/SR_ASN.yaml"
+    path: ./ruleset/SR_ASN.yaml
 
-  ASNLC:
+  LCasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LC/ASN.LC.yaml"
-    path: ./ruleset/ASN.LC.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LC/LC_ASN.yaml"
+    path: ./ruleset/LC_ASN.yaml
 
-  ASNKN:
+  KNasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KN/ASN.KN.yaml"
-    path: ./ruleset/ASN.KN.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KN/KN_ASN.yaml"
+    path: ./ruleset/KN_ASN.yaml
 
-  ASNGQ:
+  GQasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GQ/ASN.GQ.yaml"
-    path: ./ruleset/ASN.GQ.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GQ/GQ_ASN.yaml"
+    path: ./ruleset/GQ_ASN.yaml
 
-  ASNDM:
+  DMasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/DM/ASN.DM.yaml"
-    path: ./ruleset/ASN.DM.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/DM/DM_ASN.yaml"
+    path: ./ruleset/DM_ASN.yaml
 
-  ASNTM:
+  TMasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TM/ASN.TM.yaml"
-    path: ./ruleset/ASN.TM.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TM/TM_ASN.yaml"
+    path: ./ruleset/TM_ASN.yaml
 
-  ASNSY:
+  SYasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SY/ASN.SY.yaml"
-    path: ./ruleset/ASN.SY.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SY/SY_ASN.yaml"
+    path: ./ruleset/SY_ASN.yaml
 
-  ASNMH:
+  MHasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MH/ASN.MH.yaml"
-    path: ./ruleset/ASN.MH.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MH/MH_ASN.yaml"
+    path: ./ruleset/MH_ASN.yaml
 
-  ASNGY:
+  GYasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GY/ASN.GY.yaml"
-    path: ./ruleset/ASN.GY.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GY/GY_ASN.yaml"
+    path: ./ruleset/GY_ASN.yaml
 
-  ASNGF:
+  GFasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GF/ASN.GF.yaml"
-    path: ./ruleset/ASN.GF.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GF/GF_ASN.yaml"
+    path: ./ruleset/GF_ASN.yaml
 
-  ASNCU:
+  CUasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CU/ASN.CU.yaml"
-    path: ./ruleset/ASN.CU.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CU/CU_ASN.yaml"
+    path: ./ruleset/CU_ASN.yaml
 
-  ASNYE:
+  YEasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/YE/ASN.YE.yaml"
-    path: ./ruleset/ASN.YE.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/YE/YE_ASN.yaml"
+    path: ./ruleset/YE_ASN.yaml
 
-  ASNPF:
+  PFasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PF/ASN.PF.yaml"
-    path: ./ruleset/ASN.PF.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PF/PF_ASN.yaml"
+    path: ./ruleset/PF_ASN.yaml
 
-  ASNMQ:
+  MQasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MQ/ASN.MQ.yaml"
-    path: ./ruleset/ASN.MQ.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MQ/MQ_ASN.yaml"
+    path: ./ruleset/MQ_ASN.yaml
 
-  ASNMF:
+  MFasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MF/ASN.MF.yaml"
-    path: ./ruleset/ASN.MF.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MF/MF_ASN.yaml"
+    path: ./ruleset/MF_ASN.yaml
 
-  ASNFM:
+  FMasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/FM/ASN.FM.yaml"
-    path: ./ruleset/ASN.FM.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/FM/FM_ASN.yaml"
+    path: ./ruleset/FM_ASN.yaml
 
-  ASNDJ:
+  DJasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/DJ/ASN.DJ.yaml"
-    path: ./ruleset/ASN.DJ.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/DJ/DJ_ASN.yaml"
+    path: ./ruleset/DJ_ASN.yaml
 
-  ASNBQ:
+  BQasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BQ/ASN.BQ.yaml"
-    path: ./ruleset/ASN.BQ.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BQ/BQ_ASN.yaml"
+    path: ./ruleset/BQ_ASN.yaml
 
-  ASNTO:
+  TOasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TO/ASN.TO.yaml"
-    path: ./ruleset/ASN.TO.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TO/TO_ASN.yaml"
+    path: ./ruleset/TO_ASN.yaml
 
-  ASNPW:
+  PWasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PW/ASN.PW.yaml"
-    path: ./ruleset/ASN.PW.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PW/PW_ASN.yaml"
+    path: ./ruleset/PW_ASN.yaml
 
-  ASNNR:
+  NRasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NR/ASN.NR.yaml"
-    path: ./ruleset/ASN.NR.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NR/NR_ASN.yaml"
+    path: ./ruleset/NR_ASN.yaml
 
-  ASNAW:
+  AWasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AW/ASN.AW.yaml"
-    path: ./ruleset/ASN.AW.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AW/AW_ASN.yaml"
+    path: ./ruleset/AW_ASN.yaml
 
-  ASNAI:
+  AIasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AI/ASN.AI.yaml"
-    path: ./ruleset/ASN.AI.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AI/AI_ASN.yaml"
+    path: ./ruleset/AI_ASN.yaml
 
-  ASNVC:
+  VCasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VC/ASN.VC.yaml"
-    path: ./ruleset/ASN.VC.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VC/VC_ASN.yaml"
+    path: ./ruleset/VC_ASN.yaml
 
-  ASNSX:
+  SXasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SX/ASN.SX.yaml"
-    path: ./ruleset/ASN.SX.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SX/SX_ASN.yaml"
+    path: ./ruleset/SX_ASN.yaml
 
-  ASNKI:
+  KIasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KI/ASN.KI.yaml"
-    path: ./ruleset/ASN.KI.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KI/KI_ASN.yaml"
+    path: ./ruleset/KI_ASN.yaml
 
-  ASNCF:
+  CFasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CF/ASN.CF.yaml"
-    path: ./ruleset/ASN.CF.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CF/CF_ASN.yaml"
+    path: ./ruleset/CF_ASN.yaml
 
-  ASNBL:
+  BLasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BL/ASN.BL.yaml"
-    path: ./ruleset/ASN.BL.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BL/BL_ASN.yaml"
+    path: ./ruleset/BL_ASN.yaml
 
-  ASNVA:
+  VAasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VA/ASN.VA.yaml"
-    path: ./ruleset/ASN.VA.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VA/VA_ASN.yaml"
+    path: ./ruleset/VA_ASN.yaml
 
-  ASNTV:
+  TVasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TV/ASN.TV.yaml"
-    path: ./ruleset/ASN.TV.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TV/TV_ASN.yaml"
+    path: ./ruleset/TV_ASN.yaml
 
-  ASNTK:
+  TKasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TK/ASN.TK.yaml"
-    path: ./ruleset/ASN.TK.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TK/TK_ASN.yaml"
+    path: ./ruleset/TK_ASN.yaml
 
-  ASNMC:
+  MCasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MC/ASN.MC.yaml"
-    path: ./ruleset/ASN.MC.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MC/MC_ASN.yaml"
+    path: ./ruleset/MC_ASN.yaml
 
-  ASNAS:
+  ASasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AS/ASN.AS.yaml"
-    path: ./ruleset/ASN.AS.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AS/AS_ASN.yaml"
+    path: ./ruleset/AS_ASN.yaml
 
-  ASNAD:
+  ADasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AD/ASN.AD.yaml"
-    path: ./ruleset/ASN.AD.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AD/AD_ASN.yaml"
+    path: ./ruleset/AD_ASN.yaml
 
-  ASNTC:
+  TCasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TC/ASN.TC.yaml"
-    path: ./ruleset/ASN.TC.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TC/TC_ASN.yaml"
+    path: ./ruleset/TC_ASN.yaml
 
-  ASNST:
+  STasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ST/ASN.ST.yaml"
-    path: ./ruleset/ASN.ST.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ST/ST_ASN.yaml"
+    path: ./ruleset/ST_ASN.yaml
 
-  ASNNF:
+  NFasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NF/ASN.NF.yaml"
-    path: ./ruleset/ASN.NF.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NF/NF_ASN.yaml"
+    path: ./ruleset/NF_ASN.yaml
 
-  ASNMP:
+  MPasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MP/ASN.MP.yaml"
-    path: ./ruleset/ASN.MP.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MP/MP_ASN.yaml"
+    path: ./ruleset/MP_ASN.yaml
 
-  ASNKM:
+  KMasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KM/ASN.KM.yaml"
-    path: ./ruleset/ASN.KM.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KM/KM_ASN.yaml"
+    path: ./ruleset/KM_ASN.yaml
 
-  ASNGW:
+  GWasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GW/ASN.GW.yaml"
-    path: ./ruleset/ASN.GW.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GW/GW_ASN.yaml"
+    path: ./ruleset/GW_ASN.yaml
 
-  ASNFK:
+  FKasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/FK/ASN.FK.yaml"
-    path: ./ruleset/ASN.FK.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/FK/FK_ASN.yaml"
+    path: ./ruleset/FK_ASN.yaml
 
-  ASNCK:
+  CKasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CK/ASN.CK.yaml"
-    path: ./ruleset/ASN.CK.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CK/CK_ASN.yaml"
+    path: ./ruleset/CK_ASN.yaml
 
-  ASNAP:
+  APasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AP/ASN.AP.yaml"
-    path: ./ruleset/ASN.AP.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AP/AP_ASN.yaml"
+    path: ./ruleset/AP_ASN.yaml
 
-  ASNYT:
+  YTasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/YT/ASN.YT.yaml"
-    path: ./ruleset/ASN.YT.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/YT/YT_ASN.yaml"
+    path: ./ruleset/YT_ASN.yaml
 
-  ASNWF:
+  WFasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/WF/ASN.WF.yaml"
-    path: ./ruleset/ASN.WF.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/WF/WF_ASN.yaml"
+    path: ./ruleset/WF_ASN.yaml
 
-  ASNUK:
+  UKasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/UK/ASN.UK.yaml"
-    path: ./ruleset/ASN.UK.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/UK/UK_ASN.yaml"
+    path: ./ruleset/UK_ASN.yaml
 
-  ASNPM:
+  PMasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PM/ASN.PM.yaml"
-    path: ./ruleset/ASN.PM.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PM/PM_ASN.yaml"
+    path: ./ruleset/PM_ASN.yaml
 
-  ASNNU:
+  NUasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NU/ASN.NU.yaml"
-    path: ./ruleset/ASN.NU.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NU/NU_ASN.yaml"
+    path: ./ruleset/NU_ASN.yaml
 
-  ASNMS:
+  MSasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MS/ASN.MS.yaml"
-    path: ./ruleset/ASN.MS.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MS/MS_ASN.yaml"
+    path: ./ruleset/MS_ASN.yaml
 
-  ASNKP:
+  KPasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KP/ASN.KP.yaml"
-    path: ./ruleset/ASN.KP.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KP/KP_ASN.yaml"
+    path: ./ruleset/KP_ASN.yaml
 
-  ASNIO:
+  IOasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IO/ASN.IO.yaml"
-    path: ./ruleset/ASN.IO.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IO/IO_ASN.yaml"
+    path: ./ruleset/IO_ASN.yaml
 
-  ASNGL:
+  GLasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GL/ASN.GL.yaml"
-    path: ./ruleset/ASN.GL.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GL/GL_ASN.yaml"
+    path: ./ruleset/GL_ASN.yaml
 
-  ASNER:
+  ERasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ER/ASN.ER.yaml"
-    path: ./ruleset/ASN.ER.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ER/ER_ASN.yaml"
+    path: ./ruleset/ER_ASN.yaml
 
-  ASNAX:
+  AXasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AX/ASN.AX.yaml"
-    path: ./ruleset/ASN.AX.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AX/AX_ASN.yaml"
+    path: ./ruleset/AX_ASN.yaml
 
-  ASNAN:
+  ANasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AN/ASN.AN.yaml"
-    path: ./ruleset/ASN.AN.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AN/AN_ASN.yaml"
+    path: ./ruleset/AN_ASN.yaml
 
 </code></pre>
 
@@ -3654,1207 +3654,1207 @@ rule-providers:
 
   UScidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/US/CIDR.US.yaml"
-    path: ./ruleset/UScidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/US/US_IP.yaml"
+    path: ./ruleset/US_IP.yaml
 
   BRcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BR/CIDR.BR.yaml"
-    path: ./ruleset/BRcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BR/BR_IP.yaml"
+    path: ./ruleset/BR_IP.yaml
 
   CNcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CN/CIDR.CN.yaml"
-    path: ./ruleset/CNcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CN/CN_IP.yaml"
+    path: ./ruleset/CN_IP.yaml
 
   RUcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/RU/CIDR.RU.yaml"
-    path: ./ruleset/RUcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/RU/RU_IP.yaml"
+    path: ./ruleset/RU_IP.yaml
 
   INcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IN/CIDR.IN.yaml"
-    path: ./ruleset/INcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IN/IN_IP.yaml"
+    path: ./ruleset/IN_IP.yaml
 
   GBcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GB/CIDR.GB.yaml"
-    path: ./ruleset/GBcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GB/GB_IP.yaml"
+    path: ./ruleset/GB_IP.yaml
 
   IDcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ID/CIDR.ID.yaml"
-    path: ./ruleset/IDcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ID/ID_IP.yaml"
+    path: ./ruleset/ID_IP.yaml
 
   DEcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/DE/CIDR.DE.yaml"
-    path: ./ruleset/DEcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/DE/DE_IP.yaml"
+    path: ./ruleset/DE_IP.yaml
 
   AUcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AU/CIDR.AU.yaml"
-    path: ./ruleset/AUcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AU/AU_IP.yaml"
+    path: ./ruleset/AU_IP.yaml
 
   PLcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PL/CIDR.PL.yaml"
-    path: ./ruleset/PLcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PL/PL_IP.yaml"
+    path: ./ruleset/PL_IP.yaml
 
   CAcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CA/CIDR.CA.yaml"
-    path: ./ruleset/CAcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CA/CA_IP.yaml"
+    path: ./ruleset/CA_IP.yaml
 
   UAcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/UA/CIDR.UA.yaml"
-    path: ./ruleset/UAcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/UA/UA_IP.yaml"
+    path: ./ruleset/UA_IP.yaml
 
   FRcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/FR/CIDR.FR.yaml"
-    path: ./ruleset/FRcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/FR/FR_IP.yaml"
+    path: ./ruleset/FR_IP.yaml
 
   BDcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BD/CIDR.BD.yaml"
-    path: ./ruleset/BDcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BD/BD_IP.yaml"
+    path: ./ruleset/BD_IP.yaml
 
   NLcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NL/CIDR.NL.yaml"
-    path: ./ruleset/NLcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NL/NL_IP.yaml"
+    path: ./ruleset/NL_IP.yaml
 
   ITcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IT/CIDR.IT.yaml"
-    path: ./ruleset/ITcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IT/IT_IP.yaml"
+    path: ./ruleset/IT_IP.yaml
 
   HKcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/HK/CIDR.HK.yaml"
-    path: ./ruleset/HKcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/HK/HK_IP.yaml"
+    path: ./ruleset/HK_IP.yaml
 
   ROcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/RO/CIDR.RO.yaml"
-    path: ./ruleset/ROcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/RO/RO_IP.yaml"
+    path: ./ruleset/RO_IP.yaml
 
   EScidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ES/CIDR.ES.yaml"
-    path: ./ruleset/EScidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ES/ES_IP.yaml"
+    path: ./ruleset/ES_IP.yaml
 
   ARcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AR/CIDR.AR.yaml"
-    path: ./ruleset/ARcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AR/AR_IP.yaml"
+    path: ./ruleset/AR_IP.yaml
 
   JPcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/JP/CIDR.JP.yaml"
-    path: ./ruleset/JPcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/JP/JP_IP.yaml"
+    path: ./ruleset/JP_IP.yaml
 
   CHcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CH/CIDR.CH.yaml"
-    path: ./ruleset/CHcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CH/CH_IP.yaml"
+    path: ./ruleset/CH_IP.yaml
 
   KRcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KR/CIDR.KR.yaml"
-    path: ./ruleset/KRcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KR/KR_IP.yaml"
+    path: ./ruleset/KR_IP.yaml
 
   TRcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TR/CIDR.TR.yaml"
-    path: ./ruleset/TRcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TR/TR_IP.yaml"
+    path: ./ruleset/TR_IP.yaml
 
   SEcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SE/CIDR.SE.yaml"
-    path: ./ruleset/SEcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SE/SE_IP.yaml"
+    path: ./ruleset/SE_IP.yaml
 
   VNcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VN/CIDR.VN.yaml"
-    path: ./ruleset/VNcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VN/VN_IP.yaml"
+    path: ./ruleset/VN_IP.yaml
 
   ZAcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ZA/CIDR.ZA.yaml"
-    path: ./ruleset/ZAcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ZA/ZA_IP.yaml"
+    path: ./ruleset/ZA_IP.yaml
 
   IRcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IR/CIDR.IR.yaml"
-    path: ./ruleset/IRcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IR/IR_IP.yaml"
+    path: ./ruleset/IR_IP.yaml
 
   BGcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BG/CIDR.BG.yaml"
-    path: ./ruleset/BGcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BG/BG_IP.yaml"
+    path: ./ruleset/BG_IP.yaml
 
   ATcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AT/CIDR.AT.yaml"
-    path: ./ruleset/ATcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AT/AT_IP.yaml"
+    path: ./ruleset/AT_IP.yaml
 
   NZcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NZ/CIDR.NZ.yaml"
-    path: ./ruleset/NZcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NZ/NZ_IP.yaml"
+    path: ./ruleset/NZ_IP.yaml
 
   MXcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MX/CIDR.MX.yaml"
-    path: ./ruleset/MXcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MX/MX_IP.yaml"
+    path: ./ruleset/MX_IP.yaml
 
   CZcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CZ/CIDR.CZ.yaml"
-    path: ./ruleset/CZcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CZ/CZ_IP.yaml"
+    path: ./ruleset/CZ_IP.yaml
 
   SGcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SG/CIDR.SG.yaml"
-    path: ./ruleset/SGcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SG/SG_IP.yaml"
+    path: ./ruleset/SG_IP.yaml
 
   PHcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PH/CIDR.PH.yaml"
-    path: ./ruleset/PHcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PH/PH_IP.yaml"
+    path: ./ruleset/PH_IP.yaml
 
   THcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TH/CIDR.TH.yaml"
-    path: ./ruleset/THcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TH/TH_IP.yaml"
+    path: ./ruleset/TH_IP.yaml
 
   COcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CO/CIDR.CO.yaml"
-    path: ./ruleset/COcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CO/CO_IP.yaml"
+    path: ./ruleset/CO_IP.yaml
 
   DKcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/DK/CIDR.DK.yaml"
-    path: ./ruleset/DKcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/DK/DK_IP.yaml"
+    path: ./ruleset/DK_IP.yaml
 
   TWcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TW/CIDR.TW.yaml"
-    path: ./ruleset/TWcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TW/TW_IP.yaml"
+    path: ./ruleset/TW_IP.yaml
 
   NOcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NO/CIDR.NO.yaml"
-    path: ./ruleset/NOcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NO/NO_IP.yaml"
+    path: ./ruleset/NO_IP.yaml
 
   BEcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BE/CIDR.BE.yaml"
-    path: ./ruleset/BEcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BE/BE_IP.yaml"
+    path: ./ruleset/BE_IP.yaml
 
   CLcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CL/CIDR.CL.yaml"
-    path: ./ruleset/CLcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CL/CL_IP.yaml"
+    path: ./ruleset/CL_IP.yaml
 
   FIcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/FI/CIDR.FI.yaml"
-    path: ./ruleset/FIcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/FI/FI_IP.yaml"
+    path: ./ruleset/FI_IP.yaml
 
   PKcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PK/CIDR.PK.yaml"
-    path: ./ruleset/PKcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PK/PK_IP.yaml"
+    path: ./ruleset/PK_IP.yaml
 
   ILcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IL/CIDR.IL.yaml"
-    path: ./ruleset/ILcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IL/IL_IP.yaml"
+    path: ./ruleset/IL_IP.yaml
 
   MYcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MY/CIDR.MY.yaml"
-    path: ./ruleset/MYcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MY/MY_IP.yaml"
+    path: ./ruleset/MY_IP.yaml
 
   EUcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/EU/CIDR.EU.yaml"
-    path: ./ruleset/EUcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/EU/EU_IP.yaml"
+    path: ./ruleset/EU_IP.yaml
 
   LVcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LV/CIDR.LV.yaml"
-    path: ./ruleset/LVcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LV/LV_IP.yaml"
+    path: ./ruleset/LV_IP.yaml
 
   HUcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/HU/CIDR.HU.yaml"
-    path: ./ruleset/HUcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/HU/HU_IP.yaml"
+    path: ./ruleset/HU_IP.yaml
 
   IEcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IE/CIDR.IE.yaml"
-    path: ./ruleset/IEcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IE/IE_IP.yaml"
+    path: ./ruleset/IE_IP.yaml
 
   NGcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NG/CIDR.NG.yaml"
-    path: ./ruleset/NGcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NG/NG_IP.yaml"
+    path: ./ruleset/NG_IP.yaml
 
   SIcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SI/CIDR.SI.yaml"
-    path: ./ruleset/SIcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SI/SI_IP.yaml"
+    path: ./ruleset/SI_IP.yaml
 
   GRcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GR/CIDR.GR.yaml"
-    path: ./ruleset/GRcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GR/GR_IP.yaml"
+    path: ./ruleset/GR_IP.yaml
 
   ECcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/EC/CIDR.EC.yaml"
-    path: ./ruleset/ECcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/EC/EC_IP.yaml"
+    path: ./ruleset/EC_IP.yaml
 
   KEcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KE/CIDR.KE.yaml"
-    path: ./ruleset/KEcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KE/KE_IP.yaml"
+    path: ./ruleset/KE_IP.yaml
 
   VEcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VE/CIDR.VE.yaml"
-    path: ./ruleset/VEcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VE/VE_IP.yaml"
+    path: ./ruleset/VE_IP.yaml
 
   SKcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SK/CIDR.SK.yaml"
-    path: ./ruleset/SKcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SK/SK_IP.yaml"
+    path: ./ruleset/SK_IP.yaml
 
   LTcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LT/CIDR.LT.yaml"
-    path: ./ruleset/LTcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LT/LT_IP.yaml"
+    path: ./ruleset/LT_IP.yaml
 
   EEcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/EE/CIDR.EE.yaml"
-    path: ./ruleset/EEcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/EE/EE_IP.yaml"
+    path: ./ruleset/EE_IP.yaml
 
   IQcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IQ/CIDR.IQ.yaml"
-    path: ./ruleset/IQcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IQ/IQ_IP.yaml"
+    path: ./ruleset/IQ_IP.yaml
 
   MDcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MD/CIDR.MD.yaml"
-    path: ./ruleset/MDcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MD/MD_IP.yaml"
+    path: ./ruleset/MD_IP.yaml
 
   PEcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PE/CIDR.PE.yaml"
-    path: ./ruleset/PEcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PE/PE_IP.yaml"
+    path: ./ruleset/PE_IP.yaml
 
   KZcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KZ/CIDR.KZ.yaml"
-    path: ./ruleset/KZcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KZ/KZ_IP.yaml"
+    path: ./ruleset/KZ_IP.yaml
 
   RScidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/RS/CIDR.RS.yaml"
-    path: ./ruleset/RScidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/RS/RS_IP.yaml"
+    path: ./ruleset/RS_IP.yaml
 
   SAcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SA/CIDR.SA.yaml"
-    path: ./ruleset/SAcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SA/SA_IP.yaml"
+    path: ./ruleset/SA_IP.yaml
 
   NPcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NP/CIDR.NP.yaml"
-    path: ./ruleset/NPcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NP/NP_IP.yaml"
+    path: ./ruleset/NP_IP.yaml
 
   HRcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/HR/CIDR.HR.yaml"
-    path: ./ruleset/HRcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/HR/HR_IP.yaml"
+    path: ./ruleset/HR_IP.yaml
 
   DOcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/DO/CIDR.DO.yaml"
-    path: ./ruleset/DOcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/DO/DO_IP.yaml"
+    path: ./ruleset/DO_IP.yaml
 
   LBcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LB/CIDR.LB.yaml"
-    path: ./ruleset/LBcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LB/LB_IP.yaml"
+    path: ./ruleset/LB_IP.yaml
 
   CYcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CY/CIDR.CY.yaml"
-    path: ./ruleset/CYcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CY/CY_IP.yaml"
+    path: ./ruleset/CY_IP.yaml
 
   PTcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PT/CIDR.PT.yaml"
-    path: ./ruleset/PTcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PT/PT_IP.yaml"
+    path: ./ruleset/PT_IP.yaml
 
   AEcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AE/CIDR.AE.yaml"
-    path: ./ruleset/AEcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AE/AE_IP.yaml"
+    path: ./ruleset/AE_IP.yaml
 
   PAcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PA/CIDR.PA.yaml"
-    path: ./ruleset/PAcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PA/PA_IP.yaml"
+    path: ./ruleset/PA_IP.yaml
 
   MMcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MM/CIDR.MM.yaml"
-    path: ./ruleset/MMcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MM/MM_IP.yaml"
+    path: ./ruleset/MM_IP.yaml
 
   GEcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GE/CIDR.GE.yaml"
-    path: ./ruleset/GEcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GE/GE_IP.yaml"
+    path: ./ruleset/GE_IP.yaml
 
   KHcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KH/CIDR.KH.yaml"
-    path: ./ruleset/KHcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KH/KH_IP.yaml"
+    path: ./ruleset/KH_IP.yaml
 
   BYcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BY/CIDR.BY.yaml"
-    path: ./ruleset/BYcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BY/BY_IP.yaml"
+    path: ./ruleset/BY_IP.yaml
 
   LUcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LU/CIDR.LU.yaml"
-    path: ./ruleset/LUcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LU/LU_IP.yaml"
+    path: ./ruleset/LU_IP.yaml
 
   AMcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AM/CIDR.AM.yaml"
-    path: ./ruleset/AMcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AM/AM_IP.yaml"
+    path: ./ruleset/AM_IP.yaml
 
   GHcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GH/CIDR.GH.yaml"
-    path: ./ruleset/GHcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GH/GH_IP.yaml"
+    path: ./ruleset/GH_IP.yaml
 
   ALcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AL/CIDR.AL.yaml"
-    path: ./ruleset/ALcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AL/AL_IP.yaml"
+    path: ./ruleset/AL_IP.yaml
 
   TZcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TZ/CIDR.TZ.yaml"
-    path: ./ruleset/TZcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TZ/TZ_IP.yaml"
+    path: ./ruleset/TZ_IP.yaml
 
   CRcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CR/CIDR.CR.yaml"
-    path: ./ruleset/CRcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CR/CR_IP.yaml"
+    path: ./ruleset/CR_IP.yaml
 
   HNcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/HN/CIDR.HN.yaml"
-    path: ./ruleset/HNcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/HN/HN_IP.yaml"
+    path: ./ruleset/HN_IP.yaml
 
   UZcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/UZ/CIDR.UZ.yaml"
-    path: ./ruleset/UZcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/UZ/UZ_IP.yaml"
+    path: ./ruleset/UZ_IP.yaml
 
   PRcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PR/CIDR.PR.yaml"
-    path: ./ruleset/PRcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PR/PR_IP.yaml"
+    path: ./ruleset/PR_IP.yaml
 
   EGcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/EG/CIDR.EG.yaml"
-    path: ./ruleset/EGcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/EG/EG_IP.yaml"
+    path: ./ruleset/EG_IP.yaml
 
   PYcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PY/CIDR.PY.yaml"
-    path: ./ruleset/PYcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PY/PY_IP.yaml"
+    path: ./ruleset/PY_IP.yaml
 
   SCcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SC/CIDR.SC.yaml"
-    path: ./ruleset/SCcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SC/SC_IP.yaml"
+    path: ./ruleset/SC_IP.yaml
 
   IScidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IS/CIDR.IS.yaml"
-    path: ./ruleset/IScidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IS/IS_IP.yaml"
+    path: ./ruleset/IS_IP.yaml
 
   AZcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AZ/CIDR.AZ.yaml"
-    path: ./ruleset/AZcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AZ/AZ_IP.yaml"
+    path: ./ruleset/AZ_IP.yaml
 
   GTcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GT/CIDR.GT.yaml"
-    path: ./ruleset/GTcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GT/GT_IP.yaml"
+    path: ./ruleset/GT_IP.yaml
 
   KWcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KW/CIDR.KW.yaml"
-    path: ./ruleset/KWcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KW/KW_IP.yaml"
+    path: ./ruleset/KW_IP.yaml
 
   AOcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AO/CIDR.AO.yaml"
-    path: ./ruleset/AOcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AO/AO_IP.yaml"
+    path: ./ruleset/AO_IP.yaml
 
   AFcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AF/CIDR.AF.yaml"
-    path: ./ruleset/AFcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AF/AF_IP.yaml"
+    path: ./ruleset/AF_IP.yaml
 
   MNcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MN/CIDR.MN.yaml"
-    path: ./ruleset/MNcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MN/MN_IP.yaml"
+    path: ./ruleset/MN_IP.yaml
 
   PScidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PS/CIDR.PS.yaml"
-    path: ./ruleset/PScidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PS/PS_IP.yaml"
+    path: ./ruleset/PS_IP.yaml
 
   UGcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/UG/CIDR.UG.yaml"
-    path: ./ruleset/UGcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/UG/UG_IP.yaml"
+    path: ./ruleset/UG_IP.yaml
 
   KGcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KG/CIDR.KG.yaml"
-    path: ./ruleset/KGcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KG/KG_IP.yaml"
+    path: ./ruleset/KG_IP.yaml
 
   BOcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BO/CIDR.BO.yaml"
-    path: ./ruleset/BOcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BO/BO_IP.yaml"
+    path: ./ruleset/BO_IP.yaml
 
   MKcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MK/CIDR.MK.yaml"
-    path: ./ruleset/MKcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MK/MK_IP.yaml"
+    path: ./ruleset/MK_IP.yaml
 
   MUcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MU/CIDR.MU.yaml"
-    path: ./ruleset/MUcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MU/MU_IP.yaml"
+    path: ./ruleset/MU_IP.yaml
 
   MTcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MT/CIDR.MT.yaml"
-    path: ./ruleset/MTcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MT/MT_IP.yaml"
+    path: ./ruleset/MT_IP.yaml
 
   CDcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CD/CIDR.CD.yaml"
-    path: ./ruleset/CDcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CD/CD_IP.yaml"
+    path: ./ruleset/CD_IP.yaml
 
   BAcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BA/CIDR.BA.yaml"
-    path: ./ruleset/BAcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BA/BA_IP.yaml"
+    path: ./ruleset/BA_IP.yaml
 
   SVcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SV/CIDR.SV.yaml"
-    path: ./ruleset/SVcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SV/SV_IP.yaml"
+    path: ./ruleset/SV_IP.yaml
 
   JOcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/JO/CIDR.JO.yaml"
-    path: ./ruleset/JOcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/JO/JO_IP.yaml"
+    path: ./ruleset/JO_IP.yaml
 
   VGcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VG/CIDR.VG.yaml"
-    path: ./ruleset/VGcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VG/VG_IP.yaml"
+    path: ./ruleset/VG_IP.yaml
 
   UYcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/UY/CIDR.UY.yaml"
-    path: ./ruleset/UYcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/UY/UY_IP.yaml"
+    path: ./ruleset/UY_IP.yaml
 
   PGcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PG/CIDR.PG.yaml"
-    path: ./ruleset/PGcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PG/PG_IP.yaml"
+    path: ./ruleset/PG_IP.yaml
 
   LAcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LA/CIDR.LA.yaml"
-    path: ./ruleset/LAcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LA/LA_IP.yaml"
+    path: ./ruleset/LA_IP.yaml
 
   BZcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BZ/CIDR.BZ.yaml"
-    path: ./ruleset/BZcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BZ/BZ_IP.yaml"
+    path: ./ruleset/BZ_IP.yaml
 
   ZWcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ZW/CIDR.ZW.yaml"
-    path: ./ruleset/ZWcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ZW/ZW_IP.yaml"
+    path: ./ruleset/ZW_IP.yaml
 
   MZcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MZ/CIDR.MZ.yaml"
-    path: ./ruleset/MZcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MZ/MZ_IP.yaml"
+    path: ./ruleset/MZ_IP.yaml
 
   CWcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CW/CIDR.CW.yaml"
-    path: ./ruleset/CWcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CW/CW_IP.yaml"
+    path: ./ruleset/CW_IP.yaml
 
   CMcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CM/CIDR.CM.yaml"
-    path: ./ruleset/CMcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CM/CM_IP.yaml"
+    path: ./ruleset/CM_IP.yaml
 
   MWcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MW/CIDR.MW.yaml"
-    path: ./ruleset/MWcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MW/MW_IP.yaml"
+    path: ./ruleset/MW_IP.yaml
 
   BWcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BW/CIDR.BW.yaml"
-    path: ./ruleset/BWcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BW/BW_IP.yaml"
+    path: ./ruleset/BW_IP.yaml
 
   RWcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/RW/CIDR.RW.yaml"
-    path: ./ruleset/RWcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/RW/RW_IP.yaml"
+    path: ./ruleset/RW_IP.yaml
 
   NIcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NI/CIDR.NI.yaml"
-    path: ./ruleset/NIcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NI/NI_IP.yaml"
+    path: ./ruleset/NI_IP.yaml
 
   BTcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BT/CIDR.BT.yaml"
-    path: ./ruleset/BTcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BT/BT_IP.yaml"
+    path: ./ruleset/BT_IP.yaml
 
   TJcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TJ/CIDR.TJ.yaml"
-    path: ./ruleset/TJcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TJ/TJ_IP.yaml"
+    path: ./ruleset/TJ_IP.yaml
 
   LYcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LY/CIDR.LY.yaml"
-    path: ./ruleset/LYcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LY/LY_IP.yaml"
+    path: ./ruleset/LY_IP.yaml
 
   GIcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GI/CIDR.GI.yaml"
-    path: ./ruleset/GIcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GI/GI_IP.yaml"
+    path: ./ruleset/GI_IP.yaml
 
   BFcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BF/CIDR.BF.yaml"
-    path: ./ruleset/BFcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BF/BF_IP.yaml"
+    path: ./ruleset/BF_IP.yaml
 
   MAcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MA/CIDR.MA.yaml"
-    path: ./ruleset/MAcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MA/MA_IP.yaml"
+    path: ./ruleset/MA_IP.yaml
 
   LKcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LK/CIDR.LK.yaml"
-    path: ./ruleset/LKcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LK/LK_IP.yaml"
+    path: ./ruleset/LK_IP.yaml
 
   ZMcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ZM/CIDR.ZM.yaml"
-    path: ./ruleset/ZMcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ZM/ZM_IP.yaml"
+    path: ./ruleset/ZM_IP.yaml
 
   TNcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TN/CIDR.TN.yaml"
-    path: ./ruleset/TNcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TN/TN_IP.yaml"
+    path: ./ruleset/TN_IP.yaml
 
   CIcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CI/CIDR.CI.yaml"
-    path: ./ruleset/CIcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CI/CI_IP.yaml"
+    path: ./ruleset/CI_IP.yaml
 
   MEcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ME/CIDR.ME.yaml"
-    path: ./ruleset/MEcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ME/ME_IP.yaml"
+    path: ./ruleset/ME_IP.yaml
 
   BHcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BH/CIDR.BH.yaml"
-    path: ./ruleset/BHcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BH/BH_IP.yaml"
+    path: ./ruleset/BH_IP.yaml
 
   LIcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LI/CIDR.LI.yaml"
-    path: ./ruleset/LIcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LI/LI_IP.yaml"
+    path: ./ruleset/LI_IP.yaml
 
   SScidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SS/CIDR.SS.yaml"
-    path: ./ruleset/SScidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SS/SS_IP.yaml"
+    path: ./ruleset/SS_IP.yaml
 
   IMcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IM/CIDR.IM.yaml"
-    path: ./ruleset/IMcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IM/IM_IP.yaml"
+    path: ./ruleset/IM_IP.yaml
 
   SLcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SL/CIDR.SL.yaml"
-    path: ./ruleset/SLcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SL/SL_IP.yaml"
+    path: ./ruleset/SL_IP.yaml
 
   QAcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/QA/CIDR.QA.yaml"
-    path: ./ruleset/QAcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/QA/QA_IP.yaml"
+    path: ./ruleset/QA_IP.yaml
 
   SOcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SO/CIDR.SO.yaml"
-    path: ./ruleset/SOcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SO/SO_IP.yaml"
+    path: ./ruleset/SO_IP.yaml
 
   BMcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BM/CIDR.BM.yaml"
-    path: ./ruleset/BMcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BM/BM_IP.yaml"
+    path: ./ruleset/BM_IP.yaml
 
   BJcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BJ/CIDR.BJ.yaml"
-    path: ./ruleset/BJcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BJ/BJ_IP.yaml"
+    path: ./ruleset/BJ_IP.yaml
 
   OMcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/OM/CIDR.OM.yaml"
-    path: ./ruleset/OMcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/OM/OM_IP.yaml"
+    path: ./ruleset/OM_IP.yaml
 
   GNcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GN/CIDR.GN.yaml"
-    path: ./ruleset/GNcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GN/GN_IP.yaml"
+    path: ./ruleset/GN_IP.yaml
 
   DZcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/DZ/CIDR.DZ.yaml"
-    path: ./ruleset/DZcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/DZ/DZ_IP.yaml"
+    path: ./ruleset/DZ_IP.yaml
 
   CGcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CG/CIDR.CG.yaml"
-    path: ./ruleset/CGcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CG/CG_IP.yaml"
+    path: ./ruleset/CG_IP.yaml
 
   TDcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TD/CIDR.TD.yaml"
-    path: ./ruleset/TDcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TD/TD_IP.yaml"
+    path: ./ruleset/TD_IP.yaml
 
   SNcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SN/CIDR.SN.yaml"
-    path: ./ruleset/SNcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SN/SN_IP.yaml"
+    path: ./ruleset/SN_IP.yaml
 
   NCcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NC/CIDR.NC.yaml"
-    path: ./ruleset/NCcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NC/NC_IP.yaml"
+    path: ./ruleset/NC_IP.yaml
 
   NAcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NA/CIDR.NA.yaml"
-    path: ./ruleset/NAcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NA/NA_IP.yaml"
+    path: ./ruleset/NA_IP.yaml
 
   GAcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GA/CIDR.GA.yaml"
-    path: ./ruleset/GAcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GA/GA_IP.yaml"
+    path: ./ruleset/GA_IP.yaml
 
   FJcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/FJ/CIDR.FJ.yaml"
-    path: ./ruleset/FJcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/FJ/FJ_IP.yaml"
+    path: ./ruleset/FJ_IP.yaml
 
   TTcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TT/CIDR.TT.yaml"
-    path: ./ruleset/TTcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TT/TT_IP.yaml"
+    path: ./ruleset/TT_IP.yaml
 
   MVcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MV/CIDR.MV.yaml"
-    path: ./ruleset/MVcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MV/MV_IP.yaml"
+    path: ./ruleset/MV_IP.yaml
 
   LRcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LR/CIDR.LR.yaml"
-    path: ./ruleset/LRcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LR/LR_IP.yaml"
+    path: ./ruleset/LR_IP.yaml
 
   AGcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AG/CIDR.AG.yaml"
-    path: ./ruleset/AGcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AG/AG_IP.yaml"
+    path: ./ruleset/AG_IP.yaml
 
   KYcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KY/CIDR.KY.yaml"
-    path: ./ruleset/KYcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KY/KY_IP.yaml"
+    path: ./ruleset/KY_IP.yaml
 
   SZcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SZ/CIDR.SZ.yaml"
-    path: ./ruleset/SZcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SZ/SZ_IP.yaml"
+    path: ./ruleset/SZ_IP.yaml
 
   MOcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MO/CIDR.MO.yaml"
-    path: ./ruleset/MOcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MO/MO_IP.yaml"
+    path: ./ruleset/MO_IP.yaml
 
   HTcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/HT/CIDR.HT.yaml"
-    path: ./ruleset/HTcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/HT/HT_IP.yaml"
+    path: ./ruleset/HT_IP.yaml
 
   BScidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BS/CIDR.BS.yaml"
-    path: ./ruleset/BScidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BS/BS_IP.yaml"
+    path: ./ruleset/BS_IP.yaml
 
   VUcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VU/CIDR.VU.yaml"
-    path: ./ruleset/VUcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VU/VU_IP.yaml"
+    path: ./ruleset/VU_IP.yaml
 
   TLcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TL/CIDR.TL.yaml"
-    path: ./ruleset/TLcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TL/TL_IP.yaml"
+    path: ./ruleset/TL_IP.yaml
 
   SDcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SD/CIDR.SD.yaml"
-    path: ./ruleset/SDcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SD/SD_IP.yaml"
+    path: ./ruleset/SD_IP.yaml
 
   JMcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/JM/CIDR.JM.yaml"
-    path: ./ruleset/JMcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/JM/JM_IP.yaml"
+    path: ./ruleset/JM_IP.yaml
 
   VIcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VI/CIDR.VI.yaml"
-    path: ./ruleset/VIcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VI/VI_IP.yaml"
+    path: ./ruleset/VI_IP.yaml
 
   SMcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SM/CIDR.SM.yaml"
-    path: ./ruleset/SMcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SM/SM_IP.yaml"
+    path: ./ruleset/SM_IP.yaml
 
   MGcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MG/CIDR.MG.yaml"
-    path: ./ruleset/MGcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MG/MG_IP.yaml"
+    path: ./ruleset/MG_IP.yaml
 
   JEcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/JE/CIDR.JE.yaml"
-    path: ./ruleset/JEcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/JE/JE_IP.yaml"
+    path: ./ruleset/JE_IP.yaml
 
   GMcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GM/CIDR.GM.yaml"
-    path: ./ruleset/GMcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GM/GM_IP.yaml"
+    path: ./ruleset/GM_IP.yaml
 
   SBcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SB/CIDR.SB.yaml"
-    path: ./ruleset/SBcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SB/SB_IP.yaml"
+    path: ./ruleset/SB_IP.yaml
 
   MLcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ML/CIDR.ML.yaml"
-    path: ./ruleset/MLcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ML/ML_IP.yaml"
+    path: ./ruleset/ML_IP.yaml
 
   BIcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BI/CIDR.BI.yaml"
-    path: ./ruleset/BIcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BI/BI_IP.yaml"
+    path: ./ruleset/BI_IP.yaml
 
   WScidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/WS/CIDR.WS.yaml"
-    path: ./ruleset/WScidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/WS/WS_IP.yaml"
+    path: ./ruleset/WS_IP.yaml
 
   LScidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LS/CIDR.LS.yaml"
-    path: ./ruleset/LScidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LS/LS_IP.yaml"
+    path: ./ruleset/LS_IP.yaml
 
   GUcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GU/CIDR.GU.yaml"
-    path: ./ruleset/GUcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GU/GU_IP.yaml"
+    path: ./ruleset/GU_IP.yaml
 
   GGcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GG/CIDR.GG.yaml"
-    path: ./ruleset/GGcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GG/GG_IP.yaml"
+    path: ./ruleset/GG_IP.yaml
 
   GDcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GD/CIDR.GD.yaml"
-    path: ./ruleset/GDcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GD/GD_IP.yaml"
+    path: ./ruleset/GD_IP.yaml
 
   CVcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CV/CIDR.CV.yaml"
-    path: ./ruleset/CVcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CV/CV_IP.yaml"
+    path: ./ruleset/CV_IP.yaml
 
   TGcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TG/CIDR.TG.yaml"
-    path: ./ruleset/TGcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TG/TG_IP.yaml"
+    path: ./ruleset/TG_IP.yaml
 
   REcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/RE/CIDR.RE.yaml"
-    path: ./ruleset/REcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/RE/RE_IP.yaml"
+    path: ./ruleset/RE_IP.yaml
 
   NEcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NE/CIDR.NE.yaml"
-    path: ./ruleset/NEcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NE/NE_IP.yaml"
+    path: ./ruleset/NE_IP.yaml
 
   FOcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/FO/CIDR.FO.yaml"
-    path: ./ruleset/FOcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/FO/FO_IP.yaml"
+    path: ./ruleset/FO_IP.yaml
 
   BNcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BN/CIDR.BN.yaml"
-    path: ./ruleset/BNcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BN/BN_IP.yaml"
+    path: ./ruleset/BN_IP.yaml
 
   BBcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BB/CIDR.BB.yaml"
-    path: ./ruleset/BBcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BB/BB_IP.yaml"
+    path: ./ruleset/BB_IP.yaml
 
   MRcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MR/CIDR.MR.yaml"
-    path: ./ruleset/MRcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MR/MR_IP.yaml"
+    path: ./ruleset/MR_IP.yaml
 
   GPcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GP/CIDR.GP.yaml"
-    path: ./ruleset/GPcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GP/GP_IP.yaml"
+    path: ./ruleset/GP_IP.yaml
 
   ETcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ET/CIDR.ET.yaml"
-    path: ./ruleset/ETcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ET/ET_IP.yaml"
+    path: ./ruleset/ET_IP.yaml
 
   SRcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SR/CIDR.SR.yaml"
-    path: ./ruleset/SRcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SR/SR_IP.yaml"
+    path: ./ruleset/SR_IP.yaml
 
   LCcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LC/CIDR.LC.yaml"
-    path: ./ruleset/LCcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/LC/LC_IP.yaml"
+    path: ./ruleset/LC_IP.yaml
 
   KNcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KN/CIDR.KN.yaml"
-    path: ./ruleset/KNcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KN/KN_IP.yaml"
+    path: ./ruleset/KN_IP.yaml
 
   GQcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GQ/CIDR.GQ.yaml"
-    path: ./ruleset/GQcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GQ/GQ_IP.yaml"
+    path: ./ruleset/GQ_IP.yaml
 
   DMcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/DM/CIDR.DM.yaml"
-    path: ./ruleset/DMcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/DM/DM_IP.yaml"
+    path: ./ruleset/DM_IP.yaml
 
   TMcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TM/CIDR.TM.yaml"
-    path: ./ruleset/TMcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TM/TM_IP.yaml"
+    path: ./ruleset/TM_IP.yaml
 
   SYcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SY/CIDR.SY.yaml"
-    path: ./ruleset/SYcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SY/SY_IP.yaml"
+    path: ./ruleset/SY_IP.yaml
 
   MHcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MH/CIDR.MH.yaml"
-    path: ./ruleset/MHcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MH/MH_IP.yaml"
+    path: ./ruleset/MH_IP.yaml
 
   GYcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GY/CIDR.GY.yaml"
-    path: ./ruleset/GYcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GY/GY_IP.yaml"
+    path: ./ruleset/GY_IP.yaml
 
   GFcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GF/CIDR.GF.yaml"
-    path: ./ruleset/GFcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GF/GF_IP.yaml"
+    path: ./ruleset/GF_IP.yaml
 
   CUcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CU/CIDR.CU.yaml"
-    path: ./ruleset/CUcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CU/CU_IP.yaml"
+    path: ./ruleset/CU_IP.yaml
 
   YEcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/YE/CIDR.YE.yaml"
-    path: ./ruleset/YEcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/YE/YE_IP.yaml"
+    path: ./ruleset/YE_IP.yaml
 
   PFcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PF/CIDR.PF.yaml"
-    path: ./ruleset/PFcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PF/PF_IP.yaml"
+    path: ./ruleset/PF_IP.yaml
 
   MQcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MQ/CIDR.MQ.yaml"
-    path: ./ruleset/MQcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MQ/MQ_IP.yaml"
+    path: ./ruleset/MQ_IP.yaml
 
   MFcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MF/CIDR.MF.yaml"
-    path: ./ruleset/MFcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MF/MF_IP.yaml"
+    path: ./ruleset/MF_IP.yaml
 
   FMcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/FM/CIDR.FM.yaml"
-    path: ./ruleset/FMcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/FM/FM_IP.yaml"
+    path: ./ruleset/FM_IP.yaml
 
   DJcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/DJ/CIDR.DJ.yaml"
-    path: ./ruleset/DJcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/DJ/DJ_IP.yaml"
+    path: ./ruleset/DJ_IP.yaml
 
   BQcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BQ/CIDR.BQ.yaml"
-    path: ./ruleset/BQcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BQ/BQ_IP.yaml"
+    path: ./ruleset/BQ_IP.yaml
 
   TOcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TO/CIDR.TO.yaml"
-    path: ./ruleset/TOcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TO/TO_IP.yaml"
+    path: ./ruleset/TO_IP.yaml
 
   PWcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PW/CIDR.PW.yaml"
-    path: ./ruleset/PWcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PW/PW_IP.yaml"
+    path: ./ruleset/PW_IP.yaml
 
   NRcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NR/CIDR.NR.yaml"
-    path: ./ruleset/NRcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NR/NR_IP.yaml"
+    path: ./ruleset/NR_IP.yaml
 
   AWcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AW/CIDR.AW.yaml"
-    path: ./ruleset/AWcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AW/AW_IP.yaml"
+    path: ./ruleset/AW_IP.yaml
 
   AIcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AI/CIDR.AI.yaml"
-    path: ./ruleset/AIcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AI/AI_IP.yaml"
+    path: ./ruleset/AI_IP.yaml
 
   VCcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VC/CIDR.VC.yaml"
-    path: ./ruleset/VCcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VC/VC_IP.yaml"
+    path: ./ruleset/VC_IP.yaml
 
   SXcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SX/CIDR.SX.yaml"
-    path: ./ruleset/SXcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SX/SX_IP.yaml"
+    path: ./ruleset/SX_IP.yaml
 
   KIcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KI/CIDR.KI.yaml"
-    path: ./ruleset/KIcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KI/KI_IP.yaml"
+    path: ./ruleset/KI_IP.yaml
 
   CFcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CF/CIDR.CF.yaml"
-    path: ./ruleset/CFcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CF/CF_IP.yaml"
+    path: ./ruleset/CF_IP.yaml
 
   BLcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BL/CIDR.BL.yaml"
-    path: ./ruleset/BLcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BL/BL_IP.yaml"
+    path: ./ruleset/BL_IP.yaml
 
   VAcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VA/CIDR.VA.yaml"
-    path: ./ruleset/VAcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/VA/VA_IP.yaml"
+    path: ./ruleset/VA_IP.yaml
 
   TVcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TV/CIDR.TV.yaml"
-    path: ./ruleset/TVcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TV/TV_IP.yaml"
+    path: ./ruleset/TV_IP.yaml
 
   TKcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TK/CIDR.TK.yaml"
-    path: ./ruleset/TKcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TK/TK_IP.yaml"
+    path: ./ruleset/TK_IP.yaml
 
   MCcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MC/CIDR.MC.yaml"
-    path: ./ruleset/MCcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MC/MC_IP.yaml"
+    path: ./ruleset/MC_IP.yaml
 
   AScidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AS/CIDR.AS.yaml"
-    path: ./ruleset/AScidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AS/AS_IP.yaml"
+    path: ./ruleset/AS_IP.yaml
 
   ADcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AD/CIDR.AD.yaml"
-    path: ./ruleset/ADcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AD/AD_IP.yaml"
+    path: ./ruleset/AD_IP.yaml
 
   TCcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TC/CIDR.TC.yaml"
-    path: ./ruleset/TCcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/TC/TC_IP.yaml"
+    path: ./ruleset/TC_IP.yaml
 
   STcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ST/CIDR.ST.yaml"
-    path: ./ruleset/STcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ST/ST_IP.yaml"
+    path: ./ruleset/ST_IP.yaml
 
   NFcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NF/CIDR.NF.yaml"
-    path: ./ruleset/NFcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NF/NF_IP.yaml"
+    path: ./ruleset/NF_IP.yaml
 
   MPcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MP/CIDR.MP.yaml"
-    path: ./ruleset/MPcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MP/MP_IP.yaml"
+    path: ./ruleset/MP_IP.yaml
 
   KMcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KM/CIDR.KM.yaml"
-    path: ./ruleset/KMcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KM/KM_IP.yaml"
+    path: ./ruleset/KM_IP.yaml
 
   GWcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GW/CIDR.GW.yaml"
-    path: ./ruleset/GWcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GW/GW_IP.yaml"
+    path: ./ruleset/GW_IP.yaml
 
   FKcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/FK/CIDR.FK.yaml"
-    path: ./ruleset/FKcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/FK/FK_IP.yaml"
+    path: ./ruleset/FK_IP.yaml
 
   CKcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CK/CIDR.CK.yaml"
-    path: ./ruleset/CKcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CK/CK_IP.yaml"
+    path: ./ruleset/CK_IP.yaml
 
   APcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AP/CIDR.AP.yaml"
-    path: ./ruleset/APcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AP/AP_IP.yaml"
+    path: ./ruleset/AP_IP.yaml
 
   YTcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/YT/CIDR.YT.yaml"
-    path: ./ruleset/YTcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/YT/YT_IP.yaml"
+    path: ./ruleset/YT_IP.yaml
 
   WFcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/WF/CIDR.WF.yaml"
-    path: ./ruleset/WFcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/WF/WF_IP.yaml"
+    path: ./ruleset/WF_IP.yaml
 
   UKcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/UK/CIDR.UK.yaml"
-    path: ./ruleset/UKcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/UK/UK_IP.yaml"
+    path: ./ruleset/UK_IP.yaml
 
   PMcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PM/CIDR.PM.yaml"
-    path: ./ruleset/PMcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/PM/PM_IP.yaml"
+    path: ./ruleset/PM_IP.yaml
 
   NUcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NU/CIDR.NU.yaml"
-    path: ./ruleset/NUcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NU/NU_IP.yaml"
+    path: ./ruleset/NU_IP.yaml
 
   MScidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MS/CIDR.MS.yaml"
-    path: ./ruleset/MScidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MS/MS_IP.yaml"
+    path: ./ruleset/MS_IP.yaml
 
   KPcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KP/CIDR.KP.yaml"
-    path: ./ruleset/KPcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/KP/KP_IP.yaml"
+    path: ./ruleset/KP_IP.yaml
 
   IOcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IO/CIDR.IO.yaml"
-    path: ./ruleset/IOcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IO/IO_IP.yaml"
+    path: ./ruleset/IO_IP.yaml
 
   GLcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GL/CIDR.GL.yaml"
-    path: ./ruleset/GLcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/GL/GL_IP.yaml"
+    path: ./ruleset/GL_IP.yaml
 
   ERcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ER/CIDR.ER.yaml"
-    path: ./ruleset/ERcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ER/ER_IP.yaml"
+    path: ./ruleset/ER_IP.yaml
 
   AXcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AX/CIDR.AX.yaml"
-    path: ./ruleset/AXcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AX/AX_IP.yaml"
+    path: ./ruleset/AX_IP.yaml
 
   ANcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AN/CIDR.AN.yaml"
-    path: ./ruleset/ANcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/AN/AN_IP.yaml"
+    path: ./ruleset/AN_IP.yaml
 
 </code></pre>

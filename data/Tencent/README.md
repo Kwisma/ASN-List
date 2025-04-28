@@ -5,27 +5,27 @@
 
 <pre><code class="language-javascript">
 rule-providers:
-  ASNTencent:
+  Tencentasn:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Tencent/ASN.Tencent.yaml"
-    path: ./ruleset/ASN.Tencent.yaml
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Tencent/Tencent_ASN.yaml"
+    path: ./ruleset/Tencent_ASN.yaml
     interval: 86400
     format: yaml
 </code></pre>
 
 <pre><code class="language-javascript">
 rule-providers:
-  ASNTencent:
+  Tencentasn:
     <<: *classical
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Tencent/ASN.Tencent.yaml"
-    path: ./ruleset/ASN.Tencent.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Tencent/Tencent_ASN.yaml"
+    path: ./ruleset/Tencent_ASN.yaml
 </code></pre>
 
 <pre><code class="language-javascript">
 rule-providers:
   Tencentcidr:
     <<: *ipcidr
-    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Tencent/CIDR.Tencent.yaml"
-    path: ./ruleset/Tencentcidr.yaml
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Tencent/Tencent_IP.yaml"
+    path: ./ruleset/Tencent_IP.yaml
 </code></pre>
