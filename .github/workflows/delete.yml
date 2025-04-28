@@ -24,7 +24,6 @@ permissions:
   pull-requests: write
   security-events: write
   statuses: write
-  delete:workflow: write
 jobs:
   del_runs:
     runs-on: ubuntu-latest
