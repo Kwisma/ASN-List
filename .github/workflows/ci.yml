@@ -21,6 +21,12 @@ jobs:
           npm install -P
           rm -rf data country
 
+      - name: Install mihomo
+        run: |
+          version=$(curl -sL https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/version.txt)
+          curl -sL "https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/mihomo-linux-amd64-${version}.gz" | \
+            gunzip -c > /usr/local/bin/mihomo && chmod +x /usr/local/bin/mihomo
+          
       - name: Update GeoLite2 ASN Blocks
         run: |
           wget -O Geo/GeoLite2-ASN-Blocks-IPv4.csv 'https://raw.githubusercontent.com/seketiti/GeoLiet2/release/GeoLite2-ASN-Blocks-IPv4.csv'
