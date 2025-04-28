@@ -4,7 +4,7 @@
 find "$base_dir" -type f -name '*IP.yaml' | while read -r src_file; do
     # 定义目标文件路径
     # 假设目标文件与源文件同名，只是格式不同
-    target_file="${src_file%.yaml}.converted.mrs"  # 可以修改目标文件的后缀名格式
+    target_file="${src_file%.yaml}.mrs"  # 可以修改目标文件的后缀名格式
 
     # 执行转化指令
     mihomo convert-ruleset ipcidr yaml "$src_file" "$target_file"
