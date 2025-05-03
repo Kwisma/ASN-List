@@ -1,12 +1,12 @@
 # KZ 的 ASN 信息
-# 最后更新： CST 2025-05-03 00:13:05
+# 最后更新： CST 2025-05-04 00:11:51
 # ASN: 177
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,9198,no-resolve
-  - IP-ASN,41798,no-resolve
   - IP-ASN,35168,no-resolve
+  - IP-ASN,41798,no-resolve
   - IP-ASN,35104,no-resolve
   - IP-ASN,21299,no-resolve
   - IP-ASN,200590,no-resolve
@@ -48,7 +48,6 @@ payload:
   - IP-ASN,213048,no-resolve
   - IP-ASN,212999,no-resolve
   - IP-ASN,206768,no-resolve
-  - IP-ASN,206026,no-resolve
   - IP-ASN,203087,no-resolve
   - IP-ASN,202958,no-resolve
   - IP-ASN,202293,no-resolve
@@ -69,6 +68,7 @@ payload:
   - IP-ASN,211644,no-resolve
   - IP-ASN,207966,no-resolve
   - IP-ASN,206528,no-resolve
+  - IP-ASN,206026,no-resolve
   - IP-ASN,205559,no-resolve
   - IP-ASN,200067,no-resolve
   - IP-ASN,197968,no-resolve
