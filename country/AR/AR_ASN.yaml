@@ -1,5 +1,5 @@
 # AR 的 ASN 信息
-# 最后更新： CST 2025-05-06 00:14:04
+# 最后更新： CST 2025-05-07 00:13:01
 # ASN: 1054
 # 由 Kwisma 制作，保留所有权利。
 
@@ -22,10 +22,10 @@ payload:
   - IP-ASN,4270,no-resolve
   - IP-ASN,27851,no-resolve
   - IP-ASN,52374,no-resolve
-  - IP-ASN,52375,no-resolve
   - IP-ASN,52373,no-resolve
   - IP-ASN,263793,no-resolve
   - IP-ASN,10834,no-resolve
+  - IP-ASN,52375,no-resolve
   - IP-ASN,263801,no-resolve
   - IP-ASN,52404,no-resolve
   - IP-ASN,52308,no-resolve
@@ -79,7 +79,6 @@ payload:
   - IP-ASN,64103,no-resolve
   - IP-ASN,61500,no-resolve
   - IP-ASN,52327,no-resolve
-  - IP-ASN,52317,no-resolve
   - IP-ASN,52300,no-resolve
   - IP-ASN,262216,no-resolve
   - IP-ASN,262194,no-resolve
@@ -88,8 +87,8 @@ payload:
   - IP-ASN,64104,no-resolve
   - IP-ASN,61504,no-resolve
   - IP-ASN,61487,no-resolve
-  - IP-ASN,52473,no-resolve
   - IP-ASN,52328,no-resolve
+  - IP-ASN,52317,no-resolve
   - IP-ASN,52232,no-resolve
   - IP-ASN,27792,no-resolve
   - IP-ASN,27744,no-resolve
@@ -102,6 +101,7 @@ payload:
   - IP-ASN,11815,no-resolve
   - IP-ASN,61448,no-resolve
   - IP-ASN,52507,no-resolve
+  - IP-ASN,52473,no-resolve
   - IP-ASN,52432,no-resolve
   - IP-ASN,52427,no-resolve
   - IP-ASN,52387,no-resolve
