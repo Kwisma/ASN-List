@@ -106,7 +106,9 @@ function getFilePaths(name, directory) {
   const base = `./${directory}/${name}`;
   return {
     asnList: `${base}/${name}_ASN.list`,
+    asnResolveList: `${base}/${name}_ASN_No_Resolve.list`,
     asnYaml: `${base}/${name}_ASN.yaml`,
+    asnResolveYaml: `${base}/${name}_ASN_No_Resolve.yaml`,
     cidrList: `${base}/${name}_IP.list`,
     cidrYaml: `${base}/${name}_IP.yaml`,
     readme: `${base}/README.md`,
@@ -122,7 +124,7 @@ function initFile(name, directory = "country") {
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 
   const files = getFilePaths(name, directory);
-  [files.asnList, files.asnYaml, files.cidrList, files.cidrYaml].forEach(
+  [files.asnList, files.asnResolveList, files.asnYaml, files.asnResolveYaml, files.cidrList, files.cidrYaml].forEach(
     (file) => fs.writeFileSync(file, header, "utf8"),
   );
   fs.writeFileSync(files.readme, filemd, "utf8");
@@ -131,11 +133,12 @@ function initFile(name, directory = "country") {
 function asnInfo(name, asnNumber, directory = "country") {
   const fileasn = `# ASN: ${asnNumber}\n# 由 Kwisma 制作，保留所有权利。\n\n`;
   const files = getFilePaths(name, directory);
-  [files.asnList, files.asnYaml, files.cidrList, files.cidrYaml].forEach(
+  [files.asnList, files.asnResolveList, files.asnYaml, files.asnResolveYaml, files.cidrList, files.cidrYaml].forEach(
     (file) => fs.appendFileSync(file, fileasn, "utf8"),
   );
-  fs.appendFileSync(files.asnYaml, `payload:\n`, "utf8");
-  fs.appendFileSync(files.cidrYaml, `payload:\n`, "utf8");
+  [files.asnYaml, files.asnResolveYaml, files.cidrYaml].forEach(
+    (file) => fs.appendFileSync(file, `payload:\n`, "utf8"),
+  );
 }
 
 async function fetchWithRetry(url, options, retries = 3) {
@@ -201,8 +204,18 @@ async function saveLatestASN(name, directory = "country") {
             "utf8",
           );
           fs.appendFileSync(
+            files.asnResolveList,
+            `IP-ASN,${asnNumber}\n`,
+            "utf8",
+          );
+          fs.appendFileSync(
             files.asnYaml,
             `  - IP-ASN,${asnNumber},no-resolve\n`,
+            "utf8",
+          );
+          fs.appendFileSync(
+            files.asnResolveYaml,
+            `  - IP-ASN,${asnNumber}\n`,
             "utf8",
           );
           logger.info(`已写入 ASN (${asnNumber})`);
