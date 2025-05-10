@@ -256,8 +256,18 @@ async function saveLatestASN(name, directory = "country") {
             "utf8",
           );
           fs.appendFileSync(
+            files.asnResolveList,
+            `IP-ASN,${asnNumber}\n`,
+            "utf8",
+          );
+          fs.appendFileSync(
             files.asnYaml,
             `  - IP-ASN,${asnNumber},no-resolve\n`,
+            "utf8",
+          );
+          fs.appendFileSync(
+            files.asnResolveYaml,
+            `  - IP-ASN,${asnNumber}\n`,
             "utf8",
           );
 
