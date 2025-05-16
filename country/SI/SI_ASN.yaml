@@ -1,13 +1,13 @@
 # SI 的 ASN 信息
-# 最后更新： CST 2025-05-16 00:13:58
+# 最后更新： CST 2025-05-17 00:13:08
 # ASN: 266
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,3212,no-resolve
   - IP-ASN,62255,no-resolve
-  - IP-ASN,9119,no-resolve
   - IP-ASN,5603,no-resolve
+  - IP-ASN,9119,no-resolve
   - IP-ASN,34779,no-resolve
   - IP-ASN,43061,no-resolve
   - IP-ASN,25467,no-resolve
@@ -131,6 +131,7 @@ payload:
   - IP-ASN,212563,no-resolve
   - IP-ASN,212548,no-resolve
   - IP-ASN,211884,no-resolve
+  - IP-ASN,210197,no-resolve
   - IP-ASN,209996,no-resolve
   - IP-ASN,209411,no-resolve
   - IP-ASN,20892,no-resolve
@@ -240,7 +241,6 @@ payload:
   - IP-ASN,211776,no-resolve
   - IP-ASN,211606,no-resolve
   - IP-ASN,210719,no-resolve
-  - IP-ASN,210197,no-resolve
   - IP-ASN,208243,no-resolve
   - IP-ASN,20691,no-resolve
   - IP-ASN,204177,no-resolve

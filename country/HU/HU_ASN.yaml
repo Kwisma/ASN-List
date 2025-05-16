@@ -1,14 +1,14 @@
 # HU 的 ASN 信息
-# 最后更新： CST 2025-05-16 00:13:58
+# 最后更新： CST 2025-05-17 00:13:08
 # ASN: 240
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,12301,no-resolve
-  - IP-ASN,35311,no-resolve
   - IP-ASN,8462,no-resolve
-  - IP-ASN,206892,no-resolve
+  - IP-ASN,35311,no-resolve
   - IP-ASN,5483,no-resolve
+  - IP-ASN,206892,no-resolve
   - IP-ASN,29278,no-resolve
   - IP-ASN,47169,no-resolve
   - IP-ASN,21334,no-resolve
@@ -27,10 +27,10 @@ payload:
   - IP-ASN,44302,no-resolve
   - IP-ASN,41627,no-resolve
   - IP-ASN,39679,no-resolve
+  - IP-ASN,29657,no-resolve
   - IP-ASN,208154,no-resolve
   - IP-ASN,39201,no-resolve
   - IP-ASN,30836,no-resolve
-  - IP-ASN,29657,no-resolve
   - IP-ASN,215366,no-resolve
   - IP-ASN,199235,no-resolve
   - IP-ASN,56322,no-resolve
@@ -49,16 +49,16 @@ payload:
   - IP-ASN,3244,no-resolve
   - IP-ASN,213669,no-resolve
   - IP-ASN,210788,no-resolve
-  - IP-ASN,20742,no-resolve
   - IP-ASN,206361,no-resolve
   - IP-ASN,62051,no-resolve
   - IP-ASN,59649,no-resolve
-  - IP-ASN,50261,no-resolve
   - IP-ASN,43359,no-resolve
-  - IP-ASN,39533,no-resolve
   - IP-ASN,210966,no-resolve
   - IP-ASN,208126,no-resolve
+  - IP-ASN,20742,no-resolve
   - IP-ASN,20510,no-resolve
+  - IP-ASN,50261,no-resolve
+  - IP-ASN,39533,no-resolve
   - IP-ASN,215904,no-resolve
   - IP-ASN,209108,no-resolve
   - IP-ASN,204745,no-resolve
@@ -73,6 +73,7 @@ payload:
   - IP-ASN,58098,no-resolve
   - IP-ASN,57657,no-resolve
   - IP-ASN,57389,no-resolve
+  - IP-ASN,51843,no-resolve
   - IP-ASN,51096,no-resolve
   - IP-ASN,50689,no-resolve
   - IP-ASN,47710,no-resolve
@@ -139,7 +140,6 @@ payload:
   - IP-ASN,57747,no-resolve
   - IP-ASN,57095,no-resolve
   - IP-ASN,5594,no-resolve
-  - IP-ASN,51843,no-resolve
   - IP-ASN,51438,no-resolve
   - IP-ASN,51275,no-resolve
   - IP-ASN,51232,no-resolve
