@@ -223,12 +223,14 @@ async function saveLatestASN(name, directory = "country") {
             //const cidrList = asnToCIDR[asnNumber];
             //const cidrList = await fetchPrefixes(asnNumber);
             const cidrList = await readFileContentAsync(asnNumber);
-            if (cidrList) {
+            if (cidrList && cidrList.length > 0) {
               cidrList.forEach((cidr) => {
                 fs.appendFileSync(files.cidrList, `${cidr}\n`, "utf8");
                 fs.appendFileSync(files.cidrYaml, `  - ${cidr}\n`, "utf8");
               });
 //              logger.info(`已写入 ${cidrList.length} 个 CIDR (${asnNumber})`);
+            } else {
+                logger.info(`没有 CIDR 可写入 (${asnNumber})`);
             }
           }
         }
@@ -277,12 +279,14 @@ async function saveLatestASN(name, directory = "country") {
             //const cidrList = asnToCIDR[asnNumber];
             //const cidrList = await fetchPrefixes(asnNumber);
             const cidrList = await readFileContentAsync(asnNumber);
-            if (cidrList) {
+            if (cidrList && cidrList.length > 0) {
               cidrList.forEach((cidr) => {
                 fs.appendFileSync(files.cidrList, `${cidr}\n`, "utf8");
                 fs.appendFileSync(files.cidrYaml, `  - ${cidr}\n`, "utf8");
               });
 //              logger.info(`已写入 ${cidrList.length} 个 CIDR (${asnNumber})`);
+            } else {
+                logger.info(`没有 CIDR 可写入 (${asnNumber})`);
             }
           }
         }

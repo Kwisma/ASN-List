@@ -40,9 +40,6 @@ jobs:
       - name: Update ASN and IP List country
         run: node scripts/ASN.js
 
-      - name: Delete GeoLite2 ASN Blocks
-        run: rm -rf GeoLite2-ASN*
-
       - name: Update data and mihomo IP List country
         run: bash scripts/mihomo.sh
         env:
@@ -52,6 +49,9 @@ jobs:
         run: bash scripts/mihomo.sh
         env:
           base_dir: country
+
+      - name: Delete GeoLite2 ASN Blocks
+        run: rm -rf GeoLite2-ASN* meta-rules-dat
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
