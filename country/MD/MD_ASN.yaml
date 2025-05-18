@@ -1,6 +1,6 @@
 # MD 的 ASN 信息
-# 最后更新： CST 2025-05-17 00:13:09
-# ASN: 148
+# 最后更新： CST 2025-05-19 00:11:34
+# ASN: 150
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -9,6 +9,7 @@ payload:
   - IP-ASN,8926,no-resolve
   - IP-ASN,39279,no-resolve
   - IP-ASN,25455,no-resolve
+  - IP-ASN,44477,no-resolve
   - IP-ASN,43289,no-resolve
   - IP-ASN,31252,no-resolve
   - IP-ASN,25454,no-resolve
@@ -16,8 +17,8 @@ payload:
   - IP-ASN,35346,no-resolve
   - IP-ASN,200019,no-resolve
   - IP-ASN,43925,no-resolve
-  - IP-ASN,39798,no-resolve
   - IP-ASN,9199,no-resolve
+  - IP-ASN,39798,no-resolve
   - IP-ASN,48480,no-resolve
   - IP-ASN,50084,no-resolve
   - IP-ASN,62013,no-resolve
@@ -34,14 +35,12 @@ payload:
   - IP-ASN,207238,no-resolve
   - IP-ASN,206068,no-resolve
   - IP-ASN,202966,no-resolve
-  - IP-ASN,8474,no-resolve
   - IP-ASN,62071,no-resolve
   - IP-ASN,61334,no-resolve
   - IP-ASN,61077,no-resolve
   - IP-ASN,60405,no-resolve
   - IP-ASN,60127,no-resolve
   - IP-ASN,58311,no-resolve
-  - IP-ASN,58118,no-resolve
   - IP-ASN,57428,no-resolve
   - IP-ASN,56792,no-resolve
   - IP-ASN,56772,no-resolve
@@ -75,11 +74,13 @@ payload:
   - IP-ASN,200640,no-resolve
   - IP-ASN,200189,no-resolve
   - IP-ASN,8917,no-resolve
+  - IP-ASN,8474,no-resolve
   - IP-ASN,64453,no-resolve
   - IP-ASN,62337,no-resolve
   - IP-ASN,62232,no-resolve
   - IP-ASN,62154,no-resolve
   - IP-ASN,61208,no-resolve
+  - IP-ASN,58118,no-resolve
   - IP-ASN,57776,no-resolve
   - IP-ASN,57713,no-resolve
   - IP-ASN,56491,no-resolve
@@ -150,5 +151,6 @@ payload:
   - IP-ASN,213705,no-resolve
   - IP-ASN,212786,no-resolve
   - IP-ASN,206847,no-resolve
+  - IP-ASN,206085,no-resolve
   - IP-ASN,205884,no-resolve
   - IP-ASN,205745,no-resolve
