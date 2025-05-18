@@ -7,8 +7,8 @@ import yaml from "js-yaml";
 import readline from "readline";
 
 const csvFiles = [
-  "./Geo/GeoLite2-ASN-Blocks-IPv4.csv",
-  "./Geo/GeoLite2-ASN-Blocks-IPv6.csv",
+  "./GeoLite2-ASN-Blocks-IPv4.csv",
+  "./GeoLite2-ASN-Blocks-IPv6.csv",
 ];
 
 const config = yaml.load(fs.readFileSync("./config/config.yaml", "utf8"));
@@ -221,6 +221,7 @@ async function saveLatestASN(name, directory = "country") {
           logger.info(`已写入 ASN (${asnNumber})`);
           if (scanning) {
             const cidrList = asnToCIDR[asnNumber];
+            //const cidrList = await fetchPrefixes(asnNumber)
             if (cidrList) {
               cidrList.forEach((cidr) => {
                 fs.appendFileSync(files.cidrList, `${cidr}\n`, "utf8");
@@ -273,6 +274,7 @@ async function saveLatestASN(name, directory = "country") {
 
           if (scanningCountry) {
             const cidrList = asnToCIDR[asnNumber];
+            //const cidrList = await fetchPrefixes(asnNumber)
             if (cidrList) {
               cidrList.forEach((cidr) => {
                 fs.appendFileSync(files.cidrList, `${cidr}\n`, "utf8");
@@ -288,6 +290,43 @@ async function saveLatestASN(name, directory = "country") {
   } catch (error) {
     logger.error(`处理失败 (${name} in ${directory}):`, error);
   }
+}
+async function fetchPrefixes(asnNumber) {
+  try {
+    const Url = `https://bgp.he.net/AS${asnNumber}`;
+    const Response = await axios.get(Url, {});
+    return extractCIDR(Response.data);
+  } catch (error) {
+    console.error('获取数据时发生错误:', error);
+  }
+}
+
+function extractCIDR(html) {
+  const $ = cheerio.load(html);
+  const cidrs = [];
+  $('#table_prefixes4 tbody tr').each((index, row) => {
+    // 获取每一行中的第一个 `<a>` 标签的文本，即 CIDR 地址
+    const prefix = $(row).find('td:first-child a').text().trim();
+    if (prefix) {
+      logger.info(`找到 CIDR: ${prefix}`);
+      cidrs.push(prefix);
+    } else {
+      logger.info(`第 ${index + 1} 行没有找到 CIDR。`);
+    }
+  });
+  $('#table_prefixes6 tbody tr').each((index, row) => {
+    // 获取每一行中的第一个 `<a>` 标签的文本，即 CIDR 地址
+    const prefix = $(row).find('td:first-child a').text().trim();
+    if (prefix) {
+      logger.info(`找到 CIDR: ${prefix}`);
+      cidrs.push(prefix);
+    } else {
+      logger.info(`第 ${index + 1} 行没有找到 CIDR。`);
+    }
+  });
+
+  logger.info(`提取完成，共找到 ${cidrs.length} 个 CIDR。`);
+  return cidrs;
 }
 
 async function saveWithDelay() {
