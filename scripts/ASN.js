@@ -53,7 +53,7 @@ const logger = winston.createLogger({
 });
 
 // 加载 ASN → CIDR 映射
-const asnToCIDR = await ASNCIDRMAP(csvFiles);
+//const asnToCIDR = await ASNCIDRMAP(csvFiles);
 async function parseCSV(filePath) {
   const fileStream = fs.createReadStream(filePath);
   const rl = readline.createInterface({
@@ -175,7 +175,7 @@ async function saveLatestASN(name, directory = "country") {
       const asnText = $(asn).find("td:nth-child(1) a").text().trim();
       return /^AS\d+/.test(asnText);
     });
-    logger.info(`共找到 ${asnEntries.length} 个 ASN 条目，开始写入文件...`);
+//    logger.info(`共找到 ${asnEntries.length} 个 ASN 条目，开始写入文件...`);
     asnInfo(name, asnEntries.length, directory);
     const files = getFilePaths(name, directory);
     if (directory === "data") {
@@ -218,16 +218,17 @@ async function saveLatestASN(name, directory = "country") {
             `  - IP-ASN,${asnNumber}\n`,
             "utf8",
           );
-          logger.info(`已写入 ASN (${asnNumber})`);
+//          logger.info(`已写入 ASN (${asnNumber})`);
           if (scanning) {
-            const cidrList = asnToCIDR[asnNumber];
-            //const cidrList = await fetchPrefixes(asnNumber)
+            //const cidrList = asnToCIDR[asnNumber];
+            //const cidrList = await fetchPrefixes(asnNumber);
+            const cidrList = await readFileContentAsync(asnNumber);
             if (cidrList) {
               cidrList.forEach((cidr) => {
                 fs.appendFileSync(files.cidrList, `${cidr}\n`, "utf8");
                 fs.appendFileSync(files.cidrYaml, `  - ${cidr}\n`, "utf8");
               });
-              logger.info(`已写入 ${cidrList.length} 个 CIDR (${asnNumber})`);
+//              logger.info(`已写入 ${cidrList.length} 个 CIDR (${asnNumber})`);
             }
           }
         }
@@ -273,20 +274,21 @@ async function saveLatestASN(name, directory = "country") {
           );
 
           if (scanningCountry) {
-            const cidrList = asnToCIDR[asnNumber];
-            //const cidrList = await fetchPrefixes(asnNumber)
+            //const cidrList = asnToCIDR[asnNumber];
+            //const cidrList = await fetchPrefixes(asnNumber);
+            const cidrList = await readFileContentAsync(asnNumber);
             if (cidrList) {
               cidrList.forEach((cidr) => {
                 fs.appendFileSync(files.cidrList, `${cidr}\n`, "utf8");
                 fs.appendFileSync(files.cidrYaml, `  - ${cidr}\n`, "utf8");
               });
-              logger.info(`已写入 ${cidrList.length} 个 CIDR (${asnNumber})`);
+//              logger.info(`已写入 ${cidrList.length} 个 CIDR (${asnNumber})`);
             }
           }
         }
       }
     }
-    logger.info(`ASN 数据写入完成 (${name} in ${directory})`);
+//    logger.info(`ASN 数据写入完成 (${name} in ${directory})`);
   } catch (error) {
     logger.error(`处理失败 (${name} in ${directory}):`, error);
   }
@@ -308,25 +310,33 @@ function extractCIDR(html) {
     // 获取每一行中的第一个 `<a>` 标签的文本，即 CIDR 地址
     const prefix = $(row).find('td:first-child a').text().trim();
     if (prefix) {
-      logger.info(`找到 CIDR: ${prefix}`);
+//      logger.info(`找到 CIDR: ${prefix}`);
       cidrs.push(prefix);
     } else {
-      logger.info(`第 ${index + 1} 行没有找到 CIDR。`);
+//      logger.info(`第 ${index + 1} 行没有找到 CIDR。`);
     }
   });
   $('#table_prefixes6 tbody tr').each((index, row) => {
     // 获取每一行中的第一个 `<a>` 标签的文本，即 CIDR 地址
     const prefix = $(row).find('td:first-child a').text().trim();
     if (prefix) {
-      logger.info(`找到 CIDR: ${prefix}`);
+//      logger.info(`找到 CIDR: ${prefix}`);
       cidrs.push(prefix);
     } else {
-      logger.info(`第 ${index + 1} 行没有找到 CIDR。`);
+//      logger.info(`第 ${index + 1} 行没有找到 CIDR。`);
     }
   });
-
-  logger.info(`提取完成，共找到 ${cidrs.length} 个 CIDR。`);
   return cidrs;
+}
+
+async function readFileContentAsync(filePath) {
+  try {
+    // 拼接文件路径
+    const content = await fs.promises.readFile(`meta-rules-dat/asn/AS${filePath}.list`, { encoding: 'utf-8' });
+    return content.split('\n').map(line => line.trim()).filter(line => line !== '');;
+  } catch (error) {
+      return '';
+  }
 }
 
 async function saveWithDelay() {
