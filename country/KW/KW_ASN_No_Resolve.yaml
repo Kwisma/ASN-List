@@ -1,12 +1,12 @@
 # KW 的 ASN 信息
-# 最后更新： CST 2025-05-23 00:14:22
+# 最后更新： CST 2025-05-24 00:13:35
 # ASN: 71
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,43852
-  - IP-ASN,3225
   - IP-ASN,21050
+  - IP-ASN,3225
   - IP-ASN,9155
   - IP-ASN,42781
   - IP-ASN,29357
@@ -29,6 +29,7 @@ payload:
   - IP-ASN,43184
   - IP-ASN,43158
   - IP-ASN,42642
+  - IP-ASN,39682
   - IP-ASN,35181
   - IP-ASN,29237
   - IP-ASN,29029
@@ -45,7 +46,6 @@ payload:
   - IP-ASN,199526
   - IP-ASN,198392
   - IP-ASN,196820
-  - IP-ASN,196659
   - IP-ASN,16060
   - IP-ASN,61089
   - IP-ASN,60992
@@ -59,7 +59,6 @@ payload:
   - IP-ASN,41890
   - IP-ASN,41669
   - IP-ASN,41576
-  - IP-ASN,39682
   - IP-ASN,39504
   - IP-ASN,25242
   - IP-ASN,215713
@@ -75,3 +74,4 @@ payload:
   - IP-ASN,204367
   - IP-ASN,203147
   - IP-ASN,198019
+  - IP-ASN,196659

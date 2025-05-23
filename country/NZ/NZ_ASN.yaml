@@ -1,5 +1,5 @@
 # NZ 的 ASN 信息
-# 最后更新： CST 2025-05-23 00:14:17
+# 最后更新： CST 2025-05-24 00:13:27
 # ASN: 449
 # 由 Kwisma 制作，保留所有权利。
 
@@ -22,9 +22,9 @@ payload:
   - IP-ASN,132255,no-resolve
   - IP-ASN,138398,no-resolve
   - IP-ASN,45637,no-resolve
+  - IP-ASN,24183,no-resolve
   - IP-ASN,142601,no-resolve
   - IP-ASN,45267,no-resolve
-  - IP-ASN,24183,no-resolve
   - IP-ASN,17492,no-resolve
   - IP-ASN,151336,no-resolve
   - IP-ASN,136964,no-resolve
@@ -51,11 +51,9 @@ payload:
   - IP-ASN,132857,no-resolve
   - IP-ASN,9433,no-resolve
   - IP-ASN,38064,no-resolve
-  - IP-ASN,136463,no-resolve
   - IP-ASN,134220,no-resolve
   - IP-ASN,56683,no-resolve
   - IP-ASN,56028,no-resolve
-  - IP-ASN,55785,no-resolve
   - IP-ASN,138973,no-resolve
   - IP-ASN,132722,no-resolve
   - IP-ASN,9245,no-resolve
@@ -68,9 +66,11 @@ payload:
   - IP-ASN,152880,no-resolve
   - IP-ASN,152703,no-resolve
   - IP-ASN,151191,no-resolve
+  - IP-ASN,136463,no-resolve
   - IP-ASN,133399,no-resolve
   - IP-ASN,132881,no-resolve
   - IP-ASN,131291,no-resolve
+  - IP-ASN,55785,no-resolve
   - IP-ASN,141226,no-resolve
   - IP-ASN,139020,no-resolve
   - IP-ASN,137267,no-resolve
@@ -106,6 +106,7 @@ payload:
   - IP-ASN,45946,no-resolve
   - IP-ASN,45586,no-resolve
   - IP-ASN,199124,no-resolve
+  - IP-ASN,153350,no-resolve
   - IP-ASN,9896,no-resolve
   - IP-ASN,9559,no-resolve
   - IP-ASN,55872,no-resolve
@@ -115,14 +116,12 @@ payload:
   - IP-ASN,24466,no-resolve
   - IP-ASN,24226,no-resolve
   - IP-ASN,23869,no-resolve
-  - IP-ASN,153350,no-resolve
   - IP-ASN,140089,no-resolve
   - IP-ASN,139681,no-resolve
   - IP-ASN,138189,no-resolve
   - IP-ASN,136524,no-resolve
   - IP-ASN,134118,no-resolve
   - IP-ASN,133878,no-resolve
-  - IP-ASN,133499,no-resolve
   - IP-ASN,133043,no-resolve
   - IP-ASN,132840,no-resolve
   - IP-ASN,132534,no-resolve
@@ -199,6 +198,7 @@ payload:
   - IP-ASN,133915,no-resolve
   - IP-ASN,133884,no-resolve
   - IP-ASN,133729,no-resolve
+  - IP-ASN,133499,no-resolve
   - IP-ASN,133451,no-resolve
   - IP-ASN,133393,no-resolve
   - IP-ASN,133218,no-resolve

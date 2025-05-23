@@ -1,12 +1,12 @@
 # CL 的 ASN 信息
-# 最后更新： CST 2025-05-23 00:14:19
+# 最后更新： CST 2025-05-24 00:13:29
 # ASN: 321
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,263237,no-resolve
-  - IP-ASN,14259,no-resolve
   - IP-ASN,263702,no-resolve
+  - IP-ASN,14259,no-resolve
   - IP-ASN,64112,no-resolve
   - IP-ASN,269956,no-resolve
   - IP-ASN,270014,no-resolve
@@ -34,11 +34,10 @@ payload:
   - IP-ASN,27659,no-resolve
   - IP-ASN,264681,no-resolve
   - IP-ASN,262237,no-resolve
-  - IP-ASN,22860,no-resolve
-  - IP-ASN,61506,no-resolve
   - IP-ASN,266715,no-resolve
   - IP-ASN,264827,no-resolve
-  - IP-ASN,61526,no-resolve
+  - IP-ASN,22860,no-resolve
+  - IP-ASN,61506,no-resolve
   - IP-ASN,61466,no-resolve
   - IP-ASN,52441,no-resolve
   - IP-ASN,28319,no-resolve
@@ -48,6 +47,7 @@ payload:
   - IP-ASN,20191,no-resolve
   - IP-ASN,16874,no-resolve
   - IP-ASN,64113,no-resolve
+  - IP-ASN,61526,no-resolve
   - IP-ASN,52411,no-resolve
   - IP-ASN,52234,no-resolve
   - IP-ASN,28099,no-resolve
@@ -90,11 +90,11 @@ payload:
   - IP-ASN,61522,no-resolve
   - IP-ASN,52304,no-resolve
   - IP-ASN,22661,no-resolve
+  - IP-ASN,52494,no-resolve
   - IP-ASN,27978,no-resolve
   - IP-ASN,27735,no-resolve
   - IP-ASN,14795,no-resolve
   - IP-ASN,52510,no-resolve
-  - IP-ASN,52494,no-resolve
   - IP-ASN,6535,no-resolve
   - IP-ASN,52439,no-resolve
   - IP-ASN,52368,no-resolve
@@ -127,7 +127,6 @@ payload:
   - IP-ASN,21753,no-resolve
   - IP-ASN,16742,no-resolve
   - IP-ASN,14966,no-resolve
-  - IP-ASN,13381,no-resolve
   - IP-ASN,61483,no-resolve
   - IP-ASN,61460,no-resolve
   - IP-ASN,52315,no-resolve
@@ -209,6 +208,7 @@ payload:
   - IP-ASN,17126,no-resolve
   - IP-ASN,13774,no-resolve
   - IP-ASN,13424,no-resolve
+  - IP-ASN,13381,no-resolve
   - IP-ASN,64161,no-resolve
   - IP-ASN,64152,no-resolve
   - IP-ASN,64121,no-resolve
