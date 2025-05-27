@@ -1,10 +1,9 @@
 # PE 的 ASN 信息
-# 最后更新： CST 2025-05-27 00:13:31
-# ASN: 157
+# 最后更新： CST 2025-05-28 00:14:36
+# ASN: 158
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,64114,no-resolve
   - IP-ASN,262253,no-resolve
   - IP-ASN,21575,no-resolve
   - IP-ASN,27843,no-resolve
@@ -21,6 +20,7 @@ payload:
   - IP-ASN,272979,no-resolve
   - IP-ASN,269898,no-resolve
   - IP-ASN,64116,no-resolve
+  - IP-ASN,64114,no-resolve
   - IP-ASN,272836,no-resolve
   - IP-ASN,269826,no-resolve
   - IP-ASN,266757,no-resolve
@@ -40,6 +40,7 @@ payload:
   - IP-ASN,273000,no-resolve
   - IP-ASN,272004,no-resolve
   - IP-ASN,271842,no-resolve
+  - IP-ASN,270007,no-resolve
   - IP-ASN,269843,no-resolve
   - IP-ASN,266716,no-resolve
   - IP-ASN,273976,no-resolve
@@ -52,7 +53,6 @@ payload:
   - IP-ASN,272059,no-resolve
   - IP-ASN,271857,no-resolve
   - IP-ASN,270082,no-resolve
-  - IP-ASN,270007,no-resolve
   - IP-ASN,273983,no-resolve
   - IP-ASN,272045,no-resolve
   - IP-ASN,271876,no-resolve
@@ -101,6 +101,7 @@ payload:
   - IP-ASN,61485,no-resolve
   - IP-ASN,52278,no-resolve
   - IP-ASN,27809,no-resolve
+  - IP-ASN,274113,no-resolve
   - IP-ASN,274087,no-resolve
   - IP-ASN,274029,no-resolve
   - IP-ASN,273914,no-resolve

@@ -1,5 +1,5 @@
 # JP 的 ASN 信息
-# 最后更新： CST 2025-05-27 00:13:23
+# 最后更新： CST 2025-05-28 00:14:27
 # ASN: 749
 # 由 Kwisma 制作，保留所有权利。
 
@@ -40,10 +40,10 @@ payload:
   - IP-ASN,23816,no-resolve
   - IP-ASN,17961,no-resolve
   - IP-ASN,131948,no-resolve
-  - IP-ASN,18081,no-resolve
-  - IP-ASN,17534,no-resolve
   - IP-ASN,138384,no-resolve
   - IP-ASN,9993,no-resolve
+  - IP-ASN,18081,no-resolve
+  - IP-ASN,17534,no-resolve
   - IP-ASN,9824,no-resolve
   - IP-ASN,9595,no-resolve
   - IP-ASN,9351,no-resolve
@@ -100,11 +100,11 @@ payload:
   - IP-ASN,18121,no-resolve
   - IP-ASN,17683,no-resolve
   - IP-ASN,139468,no-resolve
+  - IP-ASN,9622,no-resolve
   - IP-ASN,37904,no-resolve
   - IP-ASN,24255,no-resolve
   - IP-ASN,131937,no-resolve
   - IP-ASN,10004,no-resolve
-  - IP-ASN,9622,no-resolve
   - IP-ASN,9365,no-resolve
   - IP-ASN,59103,no-resolve
   - IP-ASN,17707,no-resolve
@@ -118,12 +118,12 @@ payload:
   - IP-ASN,23824,no-resolve
   - IP-ASN,18129,no-resolve
   - IP-ASN,146981,no-resolve
+  - IP-ASN,131934,no-resolve
   - IP-ASN,55391,no-resolve
   - IP-ASN,18135,no-resolve
   - IP-ASN,18094,no-resolve
   - IP-ASN,18068,no-resolve
   - IP-ASN,17955,no-resolve
-  - IP-ASN,131934,no-resolve
   - IP-ASN,10002,no-resolve
   - IP-ASN,9621,no-resolve
   - IP-ASN,150359,no-resolve
@@ -155,7 +155,6 @@ payload:
   - IP-ASN,23827,no-resolve
   - IP-ASN,23641,no-resolve
   - IP-ASN,23627,no-resolve
-  - IP-ASN,17931,no-resolve
   - IP-ASN,9615,no-resolve
   - IP-ASN,9601,no-resolve
   - IP-ASN,4725,no-resolve
@@ -180,6 +179,7 @@ payload:
   - IP-ASN,23805,no-resolve
   - IP-ASN,23775,no-resolve
   - IP-ASN,18526,no-resolve
+  - IP-ASN,17931,no-resolve
   - IP-ASN,150363,no-resolve
   - IP-ASN,138033,no-resolve
   - IP-ASN,131986,no-resolve
@@ -518,6 +518,7 @@ payload:
   - IP-ASN,131961,no-resolve
   - IP-ASN,131953,no-resolve
   - IP-ASN,131946,no-resolve
+  - IP-ASN,131945,no-resolve
   - IP-ASN,131940,no-resolve
   - IP-ASN,131939,no-resolve
   - IP-ASN,131936,no-resolve
@@ -716,7 +717,6 @@ payload:
   - IP-ASN,131957,no-resolve
   - IP-ASN,131951,no-resolve
   - IP-ASN,131950,no-resolve
-  - IP-ASN,131945,no-resolve
   - IP-ASN,131941,no-resolve
   - IP-ASN,131907,no-resolve
   - IP-ASN,131905,no-resolve
