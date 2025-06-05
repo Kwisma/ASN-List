@@ -1,14 +1,14 @@
 # AT 的 ASN 信息
-# 最后更新： CST 2025-06-05 00:14:10
+# 最后更新： CST 2025-06-06 00:14:21
 # ASN: 626
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,42473
-  - IP-ASN,48362
   - IP-ASN,1764
   - IP-ASN,47147
   - IP-ASN,51184
+  - IP-ASN,48362
   - IP-ASN,47692
   - IP-ASN,31510
   - IP-ASN,59890
@@ -25,8 +25,8 @@ payload:
   - IP-ASN,1921
   - IP-ASN,8339
   - IP-ASN,57169
-  - IP-ASN,1853
   - IP-ASN,12605
+  - IP-ASN,1853
   - IP-ASN,28919
   - IP-ASN,29056
   - IP-ASN,5404
@@ -54,8 +54,8 @@ payload:
   - IP-ASN,1120
   - IP-ASN,25255
   - IP-ASN,8387
-  - IP-ASN,48943
   - IP-ASN,47689
+  - IP-ASN,48943
   - IP-ASN,20751
   - IP-ASN,5403
   - IP-ASN,24864
@@ -92,9 +92,9 @@ payload:
   - IP-ASN,60274
   - IP-ASN,48339
   - IP-ASN,35052
-  - IP-ASN,12762
   - IP-ASN,35579
   - IP-ASN,29545
+  - IP-ASN,12762
   - IP-ASN,215510
   - IP-ASN,216369
   - IP-ASN,215219
@@ -171,6 +171,7 @@ payload:
   - IP-ASN,200026
   - IP-ASN,199372
   - IP-ASN,199205
+  - IP-ASN,197999
   - IP-ASN,196897
   - IP-ASN,12991
   - IP-ASN,12766
@@ -255,7 +256,6 @@ payload:
   - IP-ASN,29633
   - IP-ASN,29560
   - IP-ASN,29429
-  - IP-ASN,29395
   - IP-ASN,29161
   - IP-ASN,29143
   - IP-ASN,29052
@@ -358,7 +358,6 @@ payload:
   - IP-ASN,198439
   - IP-ASN,198400
   - IP-ASN,198244
-  - IP-ASN,197999
   - IP-ASN,197917
   - IP-ASN,197836
   - IP-ASN,197458
@@ -471,6 +470,7 @@ payload:
   - IP-ASN,31374
   - IP-ASN,31239
   - IP-ASN,31146
+  - IP-ASN,29395
   - IP-ASN,28981
   - IP-ASN,28960
   - IP-ASN,25012
