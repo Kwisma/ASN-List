@@ -1,6 +1,6 @@
 # IR 的 ASN 信息
-# 最后更新： CST 2025-06-07 00:14:34
-# ASN: 572
+# 最后更新： CST 2025-06-08 00:12:28
+# ASN: 573
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -131,6 +131,7 @@ payload:
   - IP-ASN,61209,no-resolve
   - IP-ASN,61129,no-resolve
   - IP-ASN,60638,no-resolve
+  - IP-ASN,60605,no-resolve
   - IP-ASN,60423,no-resolve
   - IP-ASN,60407,no-resolve
   - IP-ASN,60315,no-resolve
@@ -139,6 +140,7 @@ payload:
   - IP-ASN,59912,no-resolve
   - IP-ASN,59884,no-resolve
   - IP-ASN,59838,no-resolve
+  - IP-ASN,59794,no-resolve
   - IP-ASN,59754,no-resolve
   - IP-ASN,59708,no-resolve
   - IP-ASN,59703,no-resolve
@@ -283,7 +285,6 @@ payload:
   - IP-ASN,60811,no-resolve
   - IP-ASN,60786,no-resolve
   - IP-ASN,60637,no-resolve
-  - IP-ASN,60605,no-resolve
   - IP-ASN,60562,no-resolve
   - IP-ASN,60516,no-resolve
   - IP-ASN,60374,no-resolve
@@ -296,7 +297,6 @@ payload:
   - IP-ASN,59914,no-resolve
   - IP-ASN,59882,no-resolve
   - IP-ASN,59797,no-resolve
-  - IP-ASN,59794,no-resolve
   - IP-ASN,59757,no-resolve
   - IP-ASN,59691,no-resolve
   - IP-ASN,59643,no-resolve
@@ -493,6 +493,7 @@ payload:
   - IP-ASN,207680,no-resolve
   - IP-ASN,207655,no-resolve
   - IP-ASN,207409,no-resolve
+  - IP-ASN,207350,no-resolve
   - IP-ASN,207141,no-resolve
   - IP-ASN,207125,no-resolve
   - IP-ASN,206692,no-resolve

@@ -1,5 +1,5 @@
 # PK 的 ASN 信息
-# 最后更新： CST 2025-06-07 00:14:38
+# 最后更新： CST 2025-06-08 00:12:30
 # ASN: 284
 # 由 Kwisma 制作，保留所有权利。
 
@@ -12,8 +12,8 @@ payload:
   - IP-ASN,58470,no-resolve
   - IP-ASN,135523,no-resolve
   - IP-ASN,24499,no-resolve
-  - IP-ASN,9260,no-resolve
   - IP-ASN,139820,no-resolve
+  - IP-ASN,9260,no-resolve
   - IP-ASN,23966,no-resolve
   - IP-ASN,138655,no-resolve
   - IP-ASN,23750,no-resolve
@@ -40,6 +40,7 @@ payload:
   - IP-ASN,23888,no-resolve
   - IP-ASN,17911,no-resolve
   - IP-ASN,150371,no-resolve
+  - IP-ASN,150315,no-resolve
   - IP-ASN,139718,no-resolve
   - IP-ASN,138985,no-resolve
   - IP-ASN,135567,no-resolve
@@ -55,7 +56,6 @@ payload:
   - IP-ASN,151818,no-resolve
   - IP-ASN,151410,no-resolve
   - IP-ASN,150683,no-resolve
-  - IP-ASN,150315,no-resolve
   - IP-ASN,149419,no-resolve
   - IP-ASN,147068,no-resolve
   - IP-ASN,140900,no-resolve
@@ -91,7 +91,9 @@ payload:
   - IP-ASN,17787,no-resolve
   - IP-ASN,17539,no-resolve
   - IP-ASN,153685,no-resolve
+  - IP-ASN,153606,no-resolve
   - IP-ASN,153596,no-resolve
+  - IP-ASN,153587,no-resolve
   - IP-ASN,153354,no-resolve
   - IP-ASN,152684,no-resolve
   - IP-ASN,152333,no-resolve
@@ -119,9 +121,11 @@ payload:
   - IP-ASN,141347,no-resolve
   - IP-ASN,141342,no-resolve
   - IP-ASN,141023,no-resolve
+  - IP-ASN,141008,no-resolve
   - IP-ASN,140039,no-resolve
   - IP-ASN,139292,no-resolve
   - IP-ASN,139260,no-resolve
+  - IP-ASN,138453,no-resolve
   - IP-ASN,138444,no-resolve
   - IP-ASN,138039,no-resolve
   - IP-ASN,137561,no-resolve
@@ -142,7 +146,6 @@ payload:
   - IP-ASN,134596,no-resolve
   - IP-ASN,134489,no-resolve
   - IP-ASN,133932,no-resolve
-  - IP-ASN,132872,no-resolve
   - IP-ASN,132788,no-resolve
   - IP-ASN,132386,no-resolve
   - IP-ASN,9937,no-resolve
@@ -168,8 +171,6 @@ payload:
   - IP-ASN,153902,no-resolve
   - IP-ASN,153847,no-resolve
   - IP-ASN,153844,no-resolve
-  - IP-ASN,153606,no-resolve
-  - IP-ASN,153587,no-resolve
   - IP-ASN,153561,no-resolve
   - IP-ASN,153533,no-resolve
   - IP-ASN,153527,no-resolve
@@ -234,7 +235,6 @@ payload:
   - IP-ASN,141212,no-resolve
   - IP-ASN,141164,no-resolve
   - IP-ASN,141020,no-resolve
-  - IP-ASN,141008,no-resolve
   - IP-ASN,140941,no-resolve
   - IP-ASN,140608,no-resolve
   - IP-ASN,140594,no-resolve
@@ -255,7 +255,6 @@ payload:
   - IP-ASN,138910,no-resolve
   - IP-ASN,138677,no-resolve
   - IP-ASN,138590,no-resolve
-  - IP-ASN,138453,no-resolve
   - IP-ASN,138432,no-resolve
   - IP-ASN,138426,no-resolve
   - IP-ASN,138424,no-resolve
@@ -283,6 +282,7 @@ payload:
   - IP-ASN,134357,no-resolve
   - IP-ASN,133551,no-resolve
   - IP-ASN,132891,no-resolve
+  - IP-ASN,132872,no-resolve
   - IP-ASN,132741,no-resolve
   - IP-ASN,131220,no-resolve
   - IP-ASN,10112,no-resolve
