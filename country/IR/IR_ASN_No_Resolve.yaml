@@ -1,6 +1,6 @@
 # IR 的 ASN 信息
-# 最后更新： CST 2025-06-08 00:12:28
-# ASN: 573
+# 最后更新： CST 2025-06-09 00:12:44
+# ASN: 574
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -12,8 +12,8 @@ payload:
   - IP-ASN,25184
   - IP-ASN,60976
   - IP-ASN,24631
-  - IP-ASN,6736
   - IP-ASN,51074
+  - IP-ASN,6736
   - IP-ASN,31549
   - IP-ASN,12880
   - IP-ASN,50810
@@ -48,6 +48,7 @@ payload:
   - IP-ASN,208555
   - IP-ASN,62048
   - IP-ASN,49801
+  - IP-ASN,48551
   - IP-ASN,214526
   - IP-ASN,211056
   - IP-ASN,208161
@@ -62,7 +63,6 @@ payload:
   - IP-ASN,51469
   - IP-ASN,51235
   - IP-ASN,48944
-  - IP-ASN,48551
   - IP-ASN,44932
   - IP-ASN,34412
   - IP-ASN,29068
@@ -131,7 +131,6 @@ payload:
   - IP-ASN,61209
   - IP-ASN,61129
   - IP-ASN,60638
-  - IP-ASN,60605
   - IP-ASN,60423
   - IP-ASN,60407
   - IP-ASN,60315
@@ -140,7 +139,6 @@ payload:
   - IP-ASN,59912
   - IP-ASN,59884
   - IP-ASN,59838
-  - IP-ASN,59794
   - IP-ASN,59754
   - IP-ASN,59708
   - IP-ASN,59703
@@ -237,6 +235,7 @@ payload:
   - IP-ASN,208493
   - IP-ASN,208072
   - IP-ASN,207796
+  - IP-ASN,207680
   - IP-ASN,206862
   - IP-ASN,206854
   - IP-ASN,206596
@@ -285,6 +284,7 @@ payload:
   - IP-ASN,60811
   - IP-ASN,60786
   - IP-ASN,60637
+  - IP-ASN,60605
   - IP-ASN,60562
   - IP-ASN,60516
   - IP-ASN,60374
@@ -297,6 +297,7 @@ payload:
   - IP-ASN,59914
   - IP-ASN,59882
   - IP-ASN,59797
+  - IP-ASN,59794
   - IP-ASN,59757
   - IP-ASN,59691
   - IP-ASN,59643
@@ -490,7 +491,6 @@ payload:
   - IP-ASN,208246
   - IP-ASN,208124
   - IP-ASN,207724
-  - IP-ASN,207680
   - IP-ASN,207655
   - IP-ASN,207409
   - IP-ASN,207350
@@ -560,6 +560,7 @@ payload:
   - IP-ASN,15907
   - IP-ASN,15402
   - IP-ASN,13231
+  - IP-ASN,12697
   - IP-ASN,60256
   - IP-ASN,58192
   - IP-ASN,57831
