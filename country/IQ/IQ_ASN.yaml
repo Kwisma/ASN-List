@@ -1,6 +1,6 @@
 # IQ 的 ASN 信息
-# 最后更新： CST 2025-06-18 00:14:47
-# ASN: 154
+# 最后更新： CST 2025-06-19 00:14:25
+# ASN: 155
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -17,8 +17,8 @@ payload:
   - IP-ASN,44217,no-resolve
   - IP-ASN,50597,no-resolve
   - IP-ASN,57324,no-resolve
-  - IP-ASN,200178,no-resolve
   - IP-ASN,212250,no-resolve
+  - IP-ASN,200178,no-resolve
   - IP-ASN,201749,no-resolve
   - IP-ASN,197882,no-resolve
   - IP-ASN,60815,no-resolve
@@ -38,7 +38,6 @@ payload:
   - IP-ASN,212088,no-resolve
   - IP-ASN,205800,no-resolve
   - IP-ASN,203257,no-resolve
-  - IP-ASN,198169,no-resolve
   - IP-ASN,51018,no-resolve
   - IP-ASN,3194,no-resolve
   - IP-ASN,212280,no-resolve
@@ -48,12 +47,11 @@ payload:
   - IP-ASN,208570,no-resolve
   - IP-ASN,205371,no-resolve
   - IP-ASN,203459,no-resolve
+  - IP-ASN,198169,no-resolve
   - IP-ASN,57958,no-resolve
-  - IP-ASN,51020,no-resolve
   - IP-ASN,43836,no-resolve
   - IP-ASN,41805,no-resolve
   - IP-ASN,213098,no-resolve
-  - IP-ASN,211970,no-resolve
   - IP-ASN,209733,no-resolve
   - IP-ASN,208324,no-resolve
   - IP-ASN,207928,no-resolve
@@ -70,12 +68,14 @@ payload:
   - IP-ASN,58322,no-resolve
   - IP-ASN,57761,no-resolve
   - IP-ASN,51539,no-resolve
+  - IP-ASN,51020,no-resolve
   - IP-ASN,49760,no-resolve
   - IP-ASN,49110,no-resolve
   - IP-ASN,48175,no-resolve
   - IP-ASN,34929,no-resolve
   - IP-ASN,216346,no-resolve
   - IP-ASN,215311,no-resolve
+  - IP-ASN,211970,no-resolve
   - IP-ASN,211534,no-resolve
   - IP-ASN,210194,no-resolve
   - IP-ASN,210022,no-resolve
@@ -140,6 +140,7 @@ payload:
   - IP-ASN,205470,no-resolve
   - IP-ASN,204473,no-resolve
   - IP-ASN,204152,no-resolve
+  - IP-ASN,204149,no-resolve
   - IP-ASN,203904,no-resolve
   - IP-ASN,203735,no-resolve
   - IP-ASN,203409,no-resolve

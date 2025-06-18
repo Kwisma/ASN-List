@@ -1,5 +1,5 @@
 # TH 的 ASN 信息
-# 最后更新： CST 2025-06-18 00:14:43
+# 最后更新： CST 2025-06-19 00:14:21
 # ASN: 461
 # 由 Kwisma 制作，保留所有权利。
 
@@ -7,8 +7,8 @@ payload:
   - IP-ASN,45758,no-resolve
   - IP-ASN,4651,no-resolve
   - IP-ASN,45430,no-resolve
-  - IP-ASN,38082,no-resolve
   - IP-ASN,38040,no-resolve
+  - IP-ASN,38082,no-resolve
   - IP-ASN,132876,no-resolve
   - IP-ASN,59238,no-resolve
   - IP-ASN,45796,no-resolve
@@ -19,13 +19,13 @@ payload:
   - IP-ASN,132280,no-resolve
   - IP-ASN,137557,no-resolve
   - IP-ASN,38794,no-resolve
-  - IP-ASN,4750,no-resolve
   - IP-ASN,7568,no-resolve
+  - IP-ASN,4750,no-resolve
   - IP-ASN,142108,no-resolve
-  - IP-ASN,9931,no-resolve
   - IP-ASN,58430,no-resolve
-  - IP-ASN,4618,no-resolve
+  - IP-ASN,9931,no-resolve
   - IP-ASN,58955,no-resolve
+  - IP-ASN,4618,no-resolve
   - IP-ASN,45642,no-resolve
   - IP-ASN,7693,no-resolve
   - IP-ASN,55808,no-resolve
@@ -34,9 +34,9 @@ payload:
   - IP-ASN,23969,no-resolve
   - IP-ASN,131293,no-resolve
   - IP-ASN,204916,no-resolve
-  - IP-ASN,38081,no-resolve
   - IP-ASN,63529,no-resolve
   - IP-ASN,45265,no-resolve
+  - IP-ASN,38081,no-resolve
   - IP-ASN,38566,no-resolve
   - IP-ASN,45667,no-resolve
   - IP-ASN,9587,no-resolve
@@ -320,7 +320,6 @@ payload:
   - IP-ASN,132920,no-resolve
   - IP-ASN,132866,no-resolve
   - IP-ASN,132821,no-resolve
-  - IP-ASN,132545,no-resolve
   - IP-ASN,132482,no-resolve
   - IP-ASN,132063,no-resolve
   - IP-ASN,132013,no-resolve
@@ -451,6 +450,7 @@ payload:
   - IP-ASN,132838,no-resolve
   - IP-ASN,132681,no-resolve
   - IP-ASN,132605,no-resolve
+  - IP-ASN,132545,no-resolve
   - IP-ASN,132514,no-resolve
   - IP-ASN,132250,no-resolve
   - IP-ASN,132172,no-resolve
