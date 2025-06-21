@@ -1,5 +1,5 @@
 # VN 的 ASN 信息
-# 最后更新： CST 2025-06-21 00:13:48
+# 最后更新： CST 2025-06-22 00:12:30
 # ASN: 530
 # 由 Kwisma 制作，保留所有权利。
 
@@ -8,8 +8,8 @@ payload:
   - IP-ASN,45896,no-resolve
   - IP-ASN,45899,no-resolve
   - IP-ASN,45903,no-resolve
-  - IP-ASN,24088,no-resolve
   - IP-ASN,7552,no-resolve
+  - IP-ASN,24088,no-resolve
   - IP-ASN,24173,no-resolve
   - IP-ASN,38731,no-resolve
   - IP-ASN,131429,no-resolve
@@ -45,8 +45,10 @@ payload:
   - IP-ASN,45546,no-resolve
   - IP-ASN,38248,no-resolve
   - IP-ASN,24066,no-resolve
+  - IP-ASN,152994,no-resolve
   - IP-ASN,150895,no-resolve
   - IP-ASN,150866,no-resolve
+  - IP-ASN,140770,no-resolve
   - IP-ASN,140766,no-resolve
   - IP-ASN,135964,no-resolve
   - IP-ASN,135932,no-resolve
@@ -79,10 +81,9 @@ payload:
   - IP-ASN,45541,no-resolve
   - IP-ASN,38734,no-resolve
   - IP-ASN,38730,no-resolve
-  - IP-ASN,38251,no-resolve
   - IP-ASN,23902,no-resolve
+  - IP-ASN,153635,no-resolve
   - IP-ASN,153013,no-resolve
-  - IP-ASN,152994,no-resolve
   - IP-ASN,150820,no-resolve
   - IP-ASN,149120,no-resolve
   - IP-ASN,149096,no-resolve
@@ -90,7 +91,6 @@ payload:
   - IP-ASN,140813,no-resolve
   - IP-ASN,140810,no-resolve
   - IP-ASN,140806,no-resolve
-  - IP-ASN,140770,no-resolve
   - IP-ASN,135988,no-resolve
   - IP-ASN,135983,no-resolve
   - IP-ASN,135947,no-resolve
@@ -147,13 +147,13 @@ payload:
   - IP-ASN,38737,no-resolve
   - IP-ASN,38736,no-resolve
   - IP-ASN,38253,no-resolve
+  - IP-ASN,38251,no-resolve
   - IP-ASN,38249,no-resolve
   - IP-ASN,38247,no-resolve
   - IP-ASN,24174,no-resolve
   - IP-ASN,24089,no-resolve
   - IP-ASN,24086,no-resolve
   - IP-ASN,23999,no-resolve
-  - IP-ASN,153635,no-resolve
   - IP-ASN,153433,no-resolve
   - IP-ASN,153004,no-resolve
   - IP-ASN,152968,no-resolve
@@ -172,6 +172,7 @@ payload:
   - IP-ASN,150857,no-resolve
   - IP-ASN,150854,no-resolve
   - IP-ASN,150836,no-resolve
+  - IP-ASN,150824,no-resolve
   - IP-ASN,149160,no-resolve
   - IP-ASN,149157,no-resolve
   - IP-ASN,149156,no-resolve
@@ -376,7 +377,6 @@ payload:
   - IP-ASN,150837,no-resolve
   - IP-ASN,150835,no-resolve
   - IP-ASN,150828,no-resolve
-  - IP-ASN,150824,no-resolve
   - IP-ASN,150823,no-resolve
   - IP-ASN,150821,no-resolve
   - IP-ASN,150819,no-resolve
