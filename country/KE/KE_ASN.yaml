@@ -1,11 +1,10 @@
 # KE 的 ASN 信息
-# 最后更新： CST 2025-06-26 00:14:47
-# ASN: 176
+# 最后更新： CST 2025-06-27 00:14:44
+# ASN: 177
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,328977,no-resolve
-  - IP-ASN,207113,no-resolve
   - IP-ASN,37061,no-resolve
   - IP-ASN,15808,no-resolve
   - IP-ASN,36926,no-resolve
@@ -26,6 +25,7 @@ payload:
   - IP-ASN,328993,no-resolve
   - IP-ASN,328482,no-resolve
   - IP-ASN,328475,no-resolve
+  - IP-ASN,207113,no-resolve
   - IP-ASN,329504,no-resolve
   - IP-ASN,329029,no-resolve
   - IP-ASN,37578,no-resolve
@@ -51,16 +51,15 @@ payload:
   - IP-ASN,329239,no-resolve
   - IP-ASN,329174,no-resolve
   - IP-ASN,329152,no-resolve
-  - IP-ASN,329044,no-resolve
   - IP-ASN,328652,no-resolve
   - IP-ASN,328479,no-resolve
   - IP-ASN,328296,no-resolve
   - IP-ASN,37298,no-resolve
   - IP-ASN,329497,no-resolve
-  - IP-ASN,329379,no-resolve
   - IP-ASN,329255,no-resolve
   - IP-ASN,329183,no-resolve
   - IP-ASN,329177,no-resolve
+  - IP-ASN,329044,no-resolve
   - IP-ASN,329033,no-resolve
   - IP-ASN,329021,no-resolve
   - IP-ASN,328989,no-resolve
@@ -70,6 +69,7 @@ payload:
   - IP-ASN,37685,no-resolve
   - IP-ASN,37019,no-resolve
   - IP-ASN,329426,no-resolve
+  - IP-ASN,329379,no-resolve
   - IP-ASN,329211,no-resolve
   - IP-ASN,329190,no-resolve
   - IP-ASN,329111,no-resolve
@@ -110,7 +110,6 @@ payload:
   - IP-ASN,329278,no-resolve
   - IP-ASN,329261,no-resolve
   - IP-ASN,329246,no-resolve
-  - IP-ASN,329135,no-resolve
   - IP-ASN,329093,no-resolve
   - IP-ASN,329087,no-resolve
   - IP-ASN,329026,no-resolve
@@ -149,6 +148,7 @@ payload:
   - IP-ASN,329518,no-resolve
   - IP-ASN,329492,no-resolve
   - IP-ASN,329475,no-resolve
+  - IP-ASN,329452,no-resolve
   - IP-ASN,329451,no-resolve
   - IP-ASN,329422,no-resolve
   - IP-ASN,329262,no-resolve
@@ -157,6 +157,7 @@ payload:
   - IP-ASN,329192,no-resolve
   - IP-ASN,329170,no-resolve
   - IP-ASN,329167,no-resolve
+  - IP-ASN,329135,no-resolve
   - IP-ASN,328978,no-resolve
   - IP-ASN,328944,no-resolve
   - IP-ASN,328906,no-resolve

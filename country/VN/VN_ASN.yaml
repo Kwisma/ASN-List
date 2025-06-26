@@ -1,12 +1,12 @@
 # VN 的 ASN 信息
-# 最后更新： CST 2025-06-26 00:14:41
+# 最后更新： CST 2025-06-27 00:14:37
 # ASN: 527
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,18403,no-resolve
-  - IP-ASN,45899,no-resolve
   - IP-ASN,45896,no-resolve
+  - IP-ASN,45899,no-resolve
   - IP-ASN,7552,no-resolve
   - IP-ASN,45903,no-resolve
   - IP-ASN,24088,no-resolve
@@ -143,6 +143,7 @@ payload:
   - IP-ASN,45554,no-resolve
   - IP-ASN,45553,no-resolve
   - IP-ASN,45551,no-resolve
+  - IP-ASN,45542,no-resolve
   - IP-ASN,38737,no-resolve
   - IP-ASN,38736,no-resolve
   - IP-ASN,38253,no-resolve
@@ -218,14 +219,12 @@ payload:
   - IP-ASN,135911,no-resolve
   - IP-ASN,135909,no-resolve
   - IP-ASN,135904,no-resolve
-  - IP-ASN,135902,no-resolve
   - IP-ASN,135900,no-resolve
   - IP-ASN,131440,no-resolve
   - IP-ASN,131425,no-resolve
   - IP-ASN,131415,no-resolve
   - IP-ASN,131414,no-resolve
   - IP-ASN,131413,no-resolve
-  - IP-ASN,131409,no-resolve
   - IP-ASN,131408,no-resolve
   - IP-ASN,131405,no-resolve
   - IP-ASN,131403,no-resolve
@@ -277,7 +276,6 @@ payload:
   - IP-ASN,55307,no-resolve
   - IP-ASN,55305,no-resolve
   - IP-ASN,45548,no-resolve
-  - IP-ASN,45542,no-resolve
   - IP-ASN,38739,no-resolve
   - IP-ASN,38727,no-resolve
   - IP-ASN,24176,no-resolve
@@ -493,6 +491,7 @@ payload:
   - IP-ASN,135910,no-resolve
   - IP-ASN,135908,no-resolve
   - IP-ASN,135906,no-resolve
+  - IP-ASN,135902,no-resolve
   - IP-ASN,135901,no-resolve
   - IP-ASN,131434,no-resolve
   - IP-ASN,131428,no-resolve
@@ -502,6 +501,7 @@ payload:
   - IP-ASN,131417,no-resolve
   - IP-ASN,131411,no-resolve
   - IP-ASN,131410,no-resolve
+  - IP-ASN,131409,no-resolve
   - IP-ASN,131407,no-resolve
   - IP-ASN,131404,no-resolve
   - IP-ASN,131397,no-resolve
