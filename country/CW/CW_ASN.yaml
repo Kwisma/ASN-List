@@ -1,16 +1,17 @@
 # CW 的 ASN 信息
-# 最后更新： CST 2025-06-28 00:14:50
+# 最后更新： CST 2025-06-29 00:12:44
 # ASN: 18
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,11081,no-resolve
-  - IP-ASN,52233,no-resolve
   - IP-ASN,52391,no-resolve
+  - IP-ASN,52233,no-resolve
   - IP-ASN,27660,no-resolve
   - IP-ASN,52344,no-resolve
   - IP-ASN,61473,no-resolve
   - IP-ASN,52301,no-resolve
+  - IP-ASN,272996,no-resolve
   - IP-ASN,26505,no-resolve
   - IP-ASN,262238,no-resolve
   - IP-ASN,262164,no-resolve
@@ -18,7 +19,6 @@ payload:
   - IP-ASN,52165,no-resolve
   - IP-ASN,28017,no-resolve
   - IP-ASN,27748,no-resolve
-  - IP-ASN,272996,no-resolve
   - IP-ASN,266780,no-resolve
   - IP-ASN,262162,no-resolve
   - IP-ASN,202955,no-resolve
