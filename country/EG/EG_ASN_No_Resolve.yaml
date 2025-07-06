@@ -1,11 +1,11 @@
 # EG 的 ASN 信息
-# 最后更新： CST 2025-07-06 00:12:55
+# 最后更新： CST 2025-07-07 00:12:37
 # ASN: 74
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,8452
   - IP-ASN,20928
+  - IP-ASN,8452
   - IP-ASN,24835
   - IP-ASN,24863
   - IP-ASN,36992
@@ -15,7 +15,6 @@ payload:
   - IP-ASN,8524
   - IP-ASN,328553
   - IP-ASN,31619
-  - IP-ASN,6879
   - IP-ASN,37191
   - IP-ASN,37066
   - IP-ASN,36935
@@ -43,10 +42,10 @@ payload:
   - IP-ASN,328587
   - IP-ASN,328405
   - IP-ASN,328299
-  - IP-ASN,328105
   - IP-ASN,328067
   - IP-ASN,30995
   - IP-ASN,2561
+  - IP-ASN,6879
   - IP-ASN,37585
   - IP-ASN,37583
   - IP-ASN,37444
@@ -69,6 +68,7 @@ payload:
   - IP-ASN,328654
   - IP-ASN,328430
   - IP-ASN,328308
+  - IP-ASN,328105
   - IP-ASN,328062
   - IP-ASN,328052
   - IP-ASN,328011
