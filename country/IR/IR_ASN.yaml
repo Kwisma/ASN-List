@@ -1,6 +1,6 @@
 # IR 的 ASN 信息
-# 最后更新： CST 2025-07-11 00:14:24
-# ASN: 557
+# 最后更新： CST 2025-07-12 00:14:25
+# ASN: 559
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -19,9 +19,9 @@ payload:
   - IP-ASN,50810,no-resolve
   - IP-ASN,41881,no-resolve
   - IP-ASN,48147,no-resolve
+  - IP-ASN,44400,no-resolve
   - IP-ASN,48159,no-resolve
   - IP-ASN,44889,no-resolve
-  - IP-ASN,44400,no-resolve
   - IP-ASN,206065,no-resolve
   - IP-ASN,205647,no-resolve
   - IP-ASN,62442,no-resolve
@@ -415,6 +415,7 @@ payload:
   - IP-ASN,215671,no-resolve
   - IP-ASN,215655,no-resolve
   - IP-ASN,215633,no-resolve
+  - IP-ASN,215496,no-resolve
   - IP-ASN,215350,no-resolve
   - IP-ASN,214957,no-resolve
   - IP-ASN,214949,no-resolve
@@ -452,6 +453,7 @@ payload:
   - IP-ASN,212296,no-resolve
   - IP-ASN,212161,no-resolve
   - IP-ASN,212076,no-resolve
+  - IP-ASN,212067,no-resolve
   - IP-ASN,212063,no-resolve
   - IP-ASN,211903,no-resolve
   - IP-ASN,211881,no-resolve
