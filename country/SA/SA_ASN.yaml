@@ -1,11 +1,11 @@
 # SA 的 ASN 信息
-# 最后更新： CST 2025-07-12 00:14:30
+# 最后更新： CST 2025-07-13 00:12:56
 # ASN: 159
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,48237,no-resolve
   - IP-ASN,39386,no-resolve
+  - IP-ASN,48237,no-resolve
   - IP-ASN,35753,no-resolve
   - IP-ASN,47794,no-resolve
   - IP-ASN,35819,no-resolve
@@ -47,6 +47,7 @@ payload:
   - IP-ASN,208140,no-resolve
   - IP-ASN,203268,no-resolve
   - IP-ASN,198795,no-resolve
+  - IP-ASN,62415,no-resolve
   - IP-ASN,61268,no-resolve
   - IP-ASN,61073,no-resolve
   - IP-ASN,60055,no-resolve
@@ -91,7 +92,6 @@ payload:
   - IP-ASN,198406,no-resolve
   - IP-ASN,197989,no-resolve
   - IP-ASN,62452,no-resolve
-  - IP-ASN,62415,no-resolve
   - IP-ASN,61398,no-resolve
   - IP-ASN,60621,no-resolve
   - IP-ASN,58277,no-resolve
