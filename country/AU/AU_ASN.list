@@ -1,5 +1,5 @@
 # AU 的 ASN 信息
-# 最后更新： CST 2025-07-13 00:12:43
+# 最后更新： CST 2025-07-14 00:13:09
 # ASN: 1708
 # 由 Kwisma 制作，保留所有权利。
 
@@ -41,9 +41,9 @@ IP-ASN,205102,no-resolve
 IP-ASN,9723,no-resolve
 IP-ASN,132825,no-resolve
 IP-ASN,56294,no-resolve
-IP-ASN,134090,no-resolve
 IP-ASN,2764,no-resolve
 IP-ASN,139288,no-resolve
+IP-ASN,134090,no-resolve
 IP-ASN,38220,no-resolve
 IP-ASN,64098,no-resolve
 IP-ASN,17477,no-resolve
@@ -156,6 +156,7 @@ IP-ASN,136972,no-resolve
 IP-ASN,136900,no-resolve
 IP-ASN,134189,no-resolve
 IP-ASN,134160,no-resolve
+IP-ASN,9795,no-resolve
 IP-ASN,63850,no-resolve
 IP-ASN,56035,no-resolve
 IP-ASN,45665,no-resolve
@@ -164,12 +165,12 @@ IP-ASN,153971,no-resolve
 IP-ASN,139301,no-resolve
 IP-ASN,132808,no-resolve
 IP-ASN,10084,no-resolve
-IP-ASN,9795,no-resolve
 IP-ASN,45269,no-resolve
 IP-ASN,2713,no-resolve
 IP-ASN,23686,no-resolve
 IP-ASN,153346,no-resolve
 IP-ASN,151660,no-resolve
+IP-ASN,149485,no-resolve
 IP-ASN,141746,no-resolve
 IP-ASN,138592,no-resolve
 IP-ASN,137271,no-resolve
@@ -183,7 +184,6 @@ IP-ASN,4851,no-resolve
 IP-ASN,45931,no-resolve
 IP-ASN,45411,no-resolve
 IP-ASN,24476,no-resolve
-IP-ASN,149485,no-resolve
 IP-ASN,147061,no-resolve
 IP-ASN,140994,no-resolve
 IP-ASN,140099,no-resolve
@@ -371,6 +371,7 @@ IP-ASN,131214,no-resolve
 IP-ASN,9792,no-resolve
 IP-ASN,9627,no-resolve
 IP-ASN,9290,no-resolve
+IP-ASN,7578,no-resolve
 IP-ASN,7556,no-resolve
 IP-ASN,7551,no-resolve
 IP-ASN,56270,no-resolve
@@ -382,9 +383,7 @@ IP-ASN,38472,no-resolve
 IP-ASN,24543,no-resolve
 IP-ASN,24017,no-resolve
 IP-ASN,18361,no-resolve
-IP-ASN,152900,no-resolve
 IP-ASN,151413,no-resolve
-IP-ASN,149977,no-resolve
 IP-ASN,138007,no-resolve
 IP-ASN,137455,no-resolve
 IP-ASN,133876,no-resolve
@@ -432,10 +431,12 @@ IP-ASN,18366,no-resolve
 IP-ASN,17987,no-resolve
 IP-ASN,17983,no-resolve
 IP-ASN,17918,no-resolve
+IP-ASN,152900,no-resolve
 IP-ASN,152699,no-resolve
 IP-ASN,152175,no-resolve
 IP-ASN,151047,no-resolve
 IP-ASN,150419,no-resolve
+IP-ASN,149977,no-resolve
 IP-ASN,149515,no-resolve
 IP-ASN,149446,no-resolve
 IP-ASN,147304,no-resolve
@@ -489,7 +490,6 @@ IP-ASN,9417,no-resolve
 IP-ASN,9283,no-resolve
 IP-ASN,7637,no-resolve
 IP-ASN,7606,no-resolve
-IP-ASN,7578,no-resolve
 IP-ASN,7492,no-resolve
 IP-ASN,7486,no-resolve
 IP-ASN,64090,no-resolve
@@ -534,8 +534,8 @@ IP-ASN,55797,no-resolve
 IP-ASN,55762,no-resolve
 IP-ASN,55543,no-resolve
 IP-ASN,55525,no-resolve
+IP-ASN,55491,no-resolve
 IP-ASN,55419,no-resolve
-IP-ASN,55365,no-resolve
 IP-ASN,55328,no-resolve
 IP-ASN,55302,no-resolve
 IP-ASN,4802,no-resolve
@@ -697,7 +697,6 @@ IP-ASN,139603,no-resolve
 IP-ASN,139583,no-resolve
 IP-ASN,139582,no-resolve
 IP-ASN,139578,no-resolve
-IP-ASN,139355,no-resolve
 IP-ASN,139352,no-resolve
 IP-ASN,139279,no-resolve
 IP-ASN,139193,no-resolve
@@ -709,6 +708,7 @@ IP-ASN,138945,no-resolve
 IP-ASN,138941,no-resolve
 IP-ASN,138940,no-resolve
 IP-ASN,138681,no-resolve
+IP-ASN,138633,no-resolve
 IP-ASN,138624,no-resolve
 IP-ASN,138583,no-resolve
 IP-ASN,138503,no-resolve
@@ -954,13 +954,13 @@ IP-ASN,55564,no-resolve
 IP-ASN,55532,no-resolve
 IP-ASN,55527,no-resolve
 IP-ASN,55521,no-resolve
-IP-ASN,55491,no-resolve
 IP-ASN,55472,no-resolve
 IP-ASN,55467,no-resolve
 IP-ASN,55456,no-resolve
 IP-ASN,55444,no-resolve
 IP-ASN,55422,no-resolve
 IP-ASN,55400,no-resolve
+IP-ASN,55365,no-resolve
 IP-ASN,55358,no-resolve
 IP-ASN,55354,no-resolve
 IP-ASN,55337,no-resolve
@@ -1314,6 +1314,7 @@ IP-ASN,139581,no-resolve
 IP-ASN,139465,no-resolve
 IP-ASN,139360,no-resolve
 IP-ASN,139356,no-resolve
+IP-ASN,139355,no-resolve
 IP-ASN,139344,no-resolve
 IP-ASN,139337,no-resolve
 IP-ASN,139315,no-resolve
@@ -1343,7 +1344,6 @@ IP-ASN,138683,no-resolve
 IP-ASN,138680,no-resolve
 IP-ASN,138661,no-resolve
 IP-ASN,138653,no-resolve
-IP-ASN,138633,no-resolve
 IP-ASN,138589,no-resolve
 IP-ASN,138572,no-resolve
 IP-ASN,138563,no-resolve
