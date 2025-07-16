@@ -1,11 +1,11 @@
 # PE 的 ASN 信息
-# 最后更新： CST 2025-07-16 00:15:28
+# 最后更新： CST 2025-07-17 00:15:13
 # ASN: 167
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,21575,no-resolve
   - IP-ASN,262253,no-resolve
+  - IP-ASN,21575,no-resolve
   - IP-ASN,27843,no-resolve
   - IP-ASN,12252,no-resolve
   - IP-ASN,6147,no-resolve
@@ -22,12 +22,12 @@ payload:
   - IP-ASN,272836,no-resolve
   - IP-ASN,269898,no-resolve
   - IP-ASN,263681,no-resolve
-  - IP-ASN,271835,no-resolve
   - IP-ASN,64146,no-resolve
   - IP-ASN,64116,no-resolve
-  - IP-ASN,273000,no-resolve
-  - IP-ASN,263185,no-resolve
   - IP-ASN,273976,no-resolve
+  - IP-ASN,273000,no-resolve
+  - IP-ASN,271835,no-resolve
+  - IP-ASN,263185,no-resolve
   - IP-ASN,272004,no-resolve
   - IP-ASN,269843,no-resolve
   - IP-ASN,265691,no-resolve
@@ -61,6 +61,7 @@ payload:
   - IP-ASN,273983,no-resolve
   - IP-ASN,273881,no-resolve
   - IP-ASN,273108,no-resolve
+  - IP-ASN,273053,no-resolve
   - IP-ASN,272045,no-resolve
   - IP-ASN,271876,no-resolve
   - IP-ASN,271862,no-resolve
@@ -74,6 +75,7 @@ payload:
   - IP-ASN,263189,no-resolve
   - IP-ASN,262168,no-resolve
   - IP-ASN,61482,no-resolve
+  - IP-ASN,274156,no-resolve
   - IP-ASN,274116,no-resolve
   - IP-ASN,274113,no-resolve
   - IP-ASN,274056,no-resolve
@@ -86,7 +88,6 @@ payload:
   - IP-ASN,273193,no-resolve
   - IP-ASN,273192,no-resolve
   - IP-ASN,273086,no-resolve
-  - IP-ASN,273053,no-resolve
   - IP-ASN,272948,no-resolve
   - IP-ASN,272838,no-resolve
   - IP-ASN,272830,no-resolve
@@ -107,6 +108,7 @@ payload:
   - IP-ASN,267898,no-resolve
   - IP-ASN,267871,no-resolve
   - IP-ASN,267831,no-resolve
+  - IP-ASN,267815,no-resolve
   - IP-ASN,267743,no-resolve
   - IP-ASN,266859,no-resolve
   - IP-ASN,266823,no-resolve
@@ -150,7 +152,6 @@ payload:
   - IP-ASN,269803,no-resolve
   - IP-ASN,269772,no-resolve
   - IP-ASN,267904,no-resolve
-  - IP-ASN,267815,no-resolve
   - IP-ASN,267800,no-resolve
   - IP-ASN,267747,no-resolve
   - IP-ASN,267742,no-resolve
@@ -160,7 +161,6 @@ payload:
   - IP-ASN,263692,no-resolve
   - IP-ASN,263224,no-resolve
   - IP-ASN,19180,no-resolve
-  - IP-ASN,274156,no-resolve
   - IP-ASN,274031,no-resolve
   - IP-ASN,273977,no-resolve
   - IP-ASN,273959,no-resolve
