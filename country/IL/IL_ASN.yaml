@@ -1,13 +1,13 @@
 # IL 的 ASN 信息
-# 最后更新： CST 2025-07-18 00:14:59
-# ASN: 302
+# 最后更新： CST 2025-07-19 00:16:24
+# ASN: 303
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,13150,no-resolve
   - IP-ASN,1680,no-resolve
-  - IP-ASN,12400,no-resolve
   - IP-ASN,8551,no-resolve
+  - IP-ASN,12400,no-resolve
   - IP-ASN,198949,no-resolve
   - IP-ASN,12491,no-resolve
   - IP-ASN,6810,no-resolve
@@ -43,6 +43,7 @@ payload:
   - IP-ASN,204528,no-resolve
   - IP-ASN,8894,no-resolve
   - IP-ASN,61149,no-resolve
+  - IP-ASN,47961,no-resolve
   - IP-ASN,378,no-resolve
   - IP-ASN,25046,no-resolve
   - IP-ASN,21350,no-resolve
@@ -56,7 +57,6 @@ payload:
   - IP-ASN,50440,no-resolve
   - IP-ASN,49771,no-resolve
   - IP-ASN,49157,no-resolve
-  - IP-ASN,47961,no-resolve
   - IP-ASN,47956,no-resolve
   - IP-ASN,44709,no-resolve
   - IP-ASN,43423,no-resolve
@@ -69,6 +69,7 @@ payload:
   - IP-ASN,29410,no-resolve
   - IP-ASN,25237,no-resolve
   - IP-ASN,25125,no-resolve
+  - IP-ASN,216306,no-resolve
   - IP-ASN,215309,no-resolve
   - IP-ASN,214523,no-resolve
   - IP-ASN,204257,no-resolve
