@@ -1,11 +1,11 @@
 # DK 的 ASN 信息
-# 最后更新： CST 2025-07-19 00:16:23
+# 最后更新： CST 2025-07-20 00:13:13
 # ASN: 336
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,31027
   - IP-ASN,42541
+  - IP-ASN,31027
   - IP-ASN,39642
   - IP-ASN,2603
   - IP-ASN,205206
@@ -24,8 +24,8 @@ payload:
   - IP-ASN,196997
   - IP-ASN,15516
   - IP-ASN,44134
-  - IP-ASN,30736
   - IP-ASN,60111
+  - IP-ASN,30736
   - IP-ASN,209528
   - IP-ASN,215782
   - IP-ASN,198622
@@ -80,6 +80,7 @@ payload:
   - IP-ASN,51510
   - IP-ASN,51377
   - IP-ASN,51073
+  - IP-ASN,51049
   - IP-ASN,51000
   - IP-ASN,50364
   - IP-ASN,50346
@@ -105,7 +106,6 @@ payload:
   - IP-ASN,35637
   - IP-ASN,35158
   - IP-ASN,35033
-  - IP-ASN,35028
   - IP-ASN,31131
   - IP-ASN,28717
   - IP-ASN,24853
@@ -180,7 +180,6 @@ payload:
   - IP-ASN,51608
   - IP-ASN,51595
   - IP-ASN,51482
-  - IP-ASN,51049
   - IP-ASN,50783
   - IP-ASN,50757
   - IP-ASN,50708
@@ -213,6 +212,7 @@ payload:
   - IP-ASN,41014
   - IP-ASN,39590
   - IP-ASN,35678
+  - IP-ASN,35028
   - IP-ASN,34705
   - IP-ASN,34670
   - IP-ASN,34506
