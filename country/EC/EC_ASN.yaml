@@ -1,12 +1,12 @@
 # EC 的 ASN 信息
-# 最后更新： CST 2025-07-21 00:13:13
+# 最后更新： CST 2025-07-22 00:14:32
 # ASN: 214
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,27947,no-resolve
-  - IP-ASN,19114,no-resolve
   - IP-ASN,22724,no-resolve
+  - IP-ASN,19114,no-resolve
   - IP-ASN,263238,no-resolve
   - IP-ASN,61468,no-resolve
   - IP-ASN,267699,no-resolve
@@ -26,6 +26,7 @@ payload:
   - IP-ASN,263792,no-resolve
   - IP-ASN,19582,no-resolve
   - IP-ASN,28097,no-resolve
+  - IP-ASN,27948,no-resolve
   - IP-ASN,27814,no-resolve
   - IP-ASN,273003,no-resolve
   - IP-ASN,272883,no-resolve
@@ -46,10 +47,10 @@ payload:
   - IP-ASN,52238,no-resolve
   - IP-ASN,28025,no-resolve
   - IP-ASN,27998,no-resolve
-  - IP-ASN,27948,no-resolve
   - IP-ASN,27902,no-resolve
   - IP-ASN,27844,no-resolve
   - IP-ASN,27784,no-resolve
+  - IP-ASN,27738,no-resolve
   - IP-ASN,273883,no-resolve
   - IP-ASN,273233,no-resolve
   - IP-ASN,273163,no-resolve
@@ -60,7 +61,6 @@ payload:
   - IP-ASN,272817,no-resolve
   - IP-ASN,272097,no-resolve
   - IP-ASN,272019,no-resolve
-  - IP-ASN,271975,no-resolve
   - IP-ASN,271967,no-resolve
   - IP-ASN,271933,no-resolve
   - IP-ASN,271923,no-resolve
@@ -107,7 +107,6 @@ payload:
   - IP-ASN,27820,no-resolve
   - IP-ASN,27757,no-resolve
   - IP-ASN,27740,no-resolve
-  - IP-ASN,27738,no-resolve
   - IP-ASN,27668,no-resolve
   - IP-ASN,273966,no-resolve
   - IP-ASN,273923,no-resolve
@@ -143,6 +142,7 @@ payload:
   - IP-ASN,272034,no-resolve
   - IP-ASN,272032,no-resolve
   - IP-ASN,271977,no-resolve
+  - IP-ASN,271975,no-resolve
   - IP-ASN,271941,no-resolve
   - IP-ASN,271911,no-resolve
   - IP-ASN,271882,no-resolve
