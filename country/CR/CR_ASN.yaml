@@ -1,14 +1,14 @@
 # CR 的 ASN 信息
-# 最后更新： CST 2025-07-26 00:14:51
-# ASN: 78
+# 最后更新： CST 2025-07-27 00:13:21
+# ASN: 79
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,52342,no-resolve
   - IP-ASN,27908,no-resolve
   - IP-ASN,262197,no-resolve
-  - IP-ASN,11830,no-resolve
   - IP-ASN,52263,no-resolve
+  - IP-ASN,11830,no-resolve
   - IP-ASN,28110,no-resolve
   - IP-ASN,262202,no-resolve
   - IP-ASN,263779,no-resolve
@@ -16,8 +16,8 @@ payload:
   - IP-ASN,52228,no-resolve
   - IP-ASN,28022,no-resolve
   - IP-ASN,3790,no-resolve
-  - IP-ASN,27876,no-resolve
   - IP-ASN,266853,no-resolve
+  - IP-ASN,27876,no-resolve
   - IP-ASN,28317,no-resolve
   - IP-ASN,263785,no-resolve
   - IP-ASN,16973,no-resolve
@@ -40,6 +40,7 @@ payload:
   - IP-ASN,61479,no-resolve
   - IP-ASN,52408,no-resolve
   - IP-ASN,52395,no-resolve
+  - IP-ASN,274032,no-resolve
   - IP-ASN,273139,no-resolve
   - IP-ASN,271889,no-resolve
   - IP-ASN,270058,no-resolve
