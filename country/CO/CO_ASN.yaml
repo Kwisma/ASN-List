@@ -1,5 +1,5 @@
 # CO 的 ASN 信息
-# 最后更新： CST 2025-07-28 00:13:22
+# 最后更新： CST 2025-07-29 00:17:07
 # ASN: 363
 # 由 Kwisma 制作，保留所有权利。
 
@@ -78,6 +78,7 @@ payload:
   - IP-ASN,27763,no-resolve
   - IP-ASN,273953,no-resolve
   - IP-ASN,273194,no-resolve
+  - IP-ASN,273134,no-resolve
   - IP-ASN,272953,no-resolve
   - IP-ASN,272942,no-resolve
   - IP-ASN,272937,no-resolve
@@ -96,16 +97,13 @@ payload:
   - IP-ASN,64122,no-resolve
   - IP-ASN,61499,no-resolve
   - IP-ASN,61467,no-resolve
-  - IP-ASN,61463,no-resolve
   - IP-ASN,52335,no-resolve
   - IP-ASN,52258,no-resolve
   - IP-ASN,52247,no-resolve
   - IP-ASN,3603,no-resolve
   - IP-ASN,27989,no-resolve
-  - IP-ASN,27731,no-resolve
   - IP-ASN,27695,no-resolve
   - IP-ASN,27650,no-resolve
-  - IP-ASN,274054,no-resolve
   - IP-ASN,273905,no-resolve
   - IP-ASN,273896,no-resolve
   - IP-ASN,273889,no-resolve
@@ -113,7 +111,6 @@ payload:
   - IP-ASN,273234,no-resolve
   - IP-ASN,273221,no-resolve
   - IP-ASN,273138,no-resolve
-  - IP-ASN,273134,no-resolve
   - IP-ASN,273120,no-resolve
   - IP-ASN,273099,no-resolve
   - IP-ASN,273082,no-resolve
@@ -179,6 +176,7 @@ payload:
   - IP-ASN,8163,no-resolve
   - IP-ASN,8026,no-resolve
   - IP-ASN,64140,no-resolve
+  - IP-ASN,61463,no-resolve
   - IP-ASN,61457,no-resolve
   - IP-ASN,5722,no-resolve
   - IP-ASN,52464,no-resolve
@@ -192,6 +190,8 @@ payload:
   - IP-ASN,27831,no-resolve
   - IP-ASN,27805,no-resolve
   - IP-ASN,27753,no-resolve
+  - IP-ASN,27731,no-resolve
+  - IP-ASN,274054,no-resolve
   - IP-ASN,274044,no-resolve
   - IP-ASN,274043,no-resolve
   - IP-ASN,274017,no-resolve
