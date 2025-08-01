@@ -1,5 +1,5 @@
 # TR 的 ASN 信息
-# 最后更新： CST 2025-08-01 00:15:37
+# 最后更新： CST 2025-08-02 00:15:30
 # ASN: 796
 # 由 Kwisma 制作，保留所有权利。
 
@@ -17,9 +17,9 @@ payload:
   - IP-ASN,48011,no-resolve
   - IP-ASN,201178,no-resolve
   - IP-ASN,48678,no-resolve
-  - IP-ASN,48292,no-resolve
   - IP-ASN,6205,no-resolve
   - IP-ASN,44620,no-resolve
+  - IP-ASN,48292,no-resolve
   - IP-ASN,57152,no-resolve
   - IP-ASN,44547,no-resolve
   - IP-ASN,8517,no-resolve
@@ -60,6 +60,7 @@ payload:
   - IP-ASN,44558,no-resolve
   - IP-ASN,3188,no-resolve
   - IP-ASN,214941,no-resolve
+  - IP-ASN,214382,no-resolve
   - IP-ASN,207983,no-resolve
   - IP-ASN,201863,no-resolve
   - IP-ASN,9215,no-resolve
@@ -74,7 +75,6 @@ payload:
   - IP-ASN,43352,no-resolve
   - IP-ASN,39095,no-resolve
   - IP-ASN,33830,no-resolve
-  - IP-ASN,214382,no-resolve
   - IP-ASN,213488,no-resolve
   - IP-ASN,210538,no-resolve
   - IP-ASN,209604,no-resolve
@@ -246,9 +246,7 @@ payload:
   - IP-ASN,213417,no-resolve
   - IP-ASN,213245,no-resolve
   - IP-ASN,213157,no-resolve
-  - IP-ASN,212905,no-resolve
   - IP-ASN,212805,no-resolve
-  - IP-ASN,212757,no-resolve
   - IP-ASN,212742,no-resolve
   - IP-ASN,212685,no-resolve
   - IP-ASN,212301,no-resolve
@@ -598,7 +596,9 @@ payload:
   - IP-ASN,213083,no-resolve
   - IP-ASN,213020,no-resolve
   - IP-ASN,212945,no-resolve
+  - IP-ASN,212905,no-resolve
   - IP-ASN,212829,no-resolve
+  - IP-ASN,212757,no-resolve
   - IP-ASN,212684,no-resolve
   - IP-ASN,212666,no-resolve
   - IP-ASN,212598,no-resolve
