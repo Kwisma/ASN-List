@@ -1,6 +1,6 @@
 # AU 的 ASN 信息
-# 最后更新： CST 2025-08-04 00:13:23
-# ASN: 1711
+# 最后更新： CST 2025-08-05 00:16:46
+# ASN: 1712
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -167,17 +167,18 @@ payload:
   - IP-ASN,141746,no-resolve
   - IP-ASN,138592,no-resolve
   - IP-ASN,135565,no-resolve
-  - IP-ASN,132094,no-resolve
   - IP-ASN,10084,no-resolve
   - IP-ASN,63850,no-resolve
   - IP-ASN,38790,no-resolve
   - IP-ASN,2713,no-resolve
   - IP-ASN,23731,no-resolve
   - IP-ASN,140994,no-resolve
+  - IP-ASN,140910,no-resolve
   - IP-ASN,137271,no-resolve
   - IP-ASN,135406,no-resolve
   - IP-ASN,132895,no-resolve
   - IP-ASN,132808,no-resolve
+  - IP-ASN,132094,no-resolve
   - IP-ASN,58914,no-resolve
   - IP-ASN,56199,no-resolve
   - IP-ASN,4851,no-resolve
@@ -187,9 +188,7 @@ payload:
   - IP-ASN,31732,no-resolve
   - IP-ASN,24476,no-resolve
   - IP-ASN,153346,no-resolve
-  - IP-ASN,140910,no-resolve
   - IP-ASN,140099,no-resolve
-  - IP-ASN,136784,no-resolve
   - IP-ASN,135668,no-resolve
   - IP-ASN,133389,no-resolve
   - IP-ASN,133333,no-resolve
@@ -203,6 +202,7 @@ payload:
   - IP-ASN,142588,no-resolve
   - IP-ASN,140637,no-resolve
   - IP-ASN,140231,no-resolve
+  - IP-ASN,136784,no-resolve
   - IP-ASN,136741,no-resolve
   - IP-ASN,133434,no-resolve
   - IP-ASN,58989,no-resolve
@@ -246,7 +246,6 @@ payload:
   - IP-ASN,132476,no-resolve
   - IP-ASN,58713,no-resolve
   - IP-ASN,58464,no-resolve
-  - IP-ASN,55651,no-resolve
   - IP-ASN,55366,no-resolve
   - IP-ASN,38809,no-resolve
   - IP-ASN,38327,no-resolve
@@ -255,6 +254,7 @@ payload:
   - IP-ASN,139049,no-resolve
   - IP-ASN,138613,no-resolve
   - IP-ASN,9648,no-resolve
+  - IP-ASN,55651,no-resolve
   - IP-ASN,24541,no-resolve
   - IP-ASN,23918,no-resolve
   - IP-ASN,17635,no-resolve
@@ -1100,6 +1100,7 @@ payload:
   - IP-ASN,17496,no-resolve
   - IP-ASN,17481,no-resolve
   - IP-ASN,17463,no-resolve
+  - IP-ASN,154050,no-resolve
   - IP-ASN,153972,no-resolve
   - IP-ASN,153971,no-resolve
   - IP-ASN,153954,no-resolve

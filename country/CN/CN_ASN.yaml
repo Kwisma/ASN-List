@@ -1,5 +1,5 @@
 # CN 的 ASN 信息
-# 最后更新： CST 2025-08-04 00:13:15
+# 最后更新： CST 2025-08-05 00:16:35
 # ASN: 5226
 # 由 Kwisma 制作，保留所有权利。
 
@@ -93,6 +93,7 @@ payload:
   - IP-ASN,56041,no-resolve
   - IP-ASN,56012,no-resolve
   - IP-ASN,55966,no-resolve
+  - IP-ASN,45110,no-resolve
   - IP-ASN,45079,no-resolve
   - IP-ASN,212237,no-resolve
   - IP-ASN,17622,no-resolve
@@ -113,7 +114,6 @@ payload:
   - IP-ASN,56282,no-resolve
   - IP-ASN,56013,no-resolve
   - IP-ASN,55960,no-resolve
-  - IP-ASN,45110,no-resolve
   - IP-ASN,38381,no-resolve
   - IP-ASN,38375,no-resolve
   - IP-ASN,38345,no-resolve
@@ -201,7 +201,6 @@ payload:
   - IP-ASN,134420,no-resolve
   - IP-ASN,133952,no-resolve
   - IP-ASN,133465,no-resolve
-  - IP-ASN,131578,no-resolve
   - IP-ASN,131574,no-resolve
   - IP-ASN,131516,no-resolve
   - IP-ASN,9939,no-resolve
@@ -344,9 +343,11 @@ payload:
   - IP-ASN,132536,no-resolve
   - IP-ASN,132525,no-resolve
   - IP-ASN,132225,no-resolve
+  - IP-ASN,131578,no-resolve
   - IP-ASN,131577,no-resolve
   - IP-ASN,131562,no-resolve
   - IP-ASN,131558,no-resolve
+  - IP-ASN,131539,no-resolve
   - IP-ASN,131536,no-resolve
   - IP-ASN,131519,no-resolve
   - IP-ASN,131506,no-resolve
@@ -657,7 +658,6 @@ payload:
   - IP-ASN,131567,no-resolve
   - IP-ASN,131565,no-resolve
   - IP-ASN,131541,no-resolve
-  - IP-ASN,131539,no-resolve
   - IP-ASN,131524,no-resolve
   - IP-ASN,131522,no-resolve
   - IP-ASN,131497,no-resolve
