@@ -15,7 +15,7 @@ if (!baseDir) {
   process.exit(1);
 }
 
-// 递归读取目录中的所有 *IP.yaml 文件
+// 递归读取目录中的所有 *_IP.yaml 和 *_IP.json 文件
 const findFiles = (dir) => {
   let results = [];
   const files = fs.readdirSync(dir);
@@ -26,7 +26,7 @@ const findFiles = (dir) => {
 
     if (stat && stat.isDirectory()) {
       results = [...results, ...findFiles(fullPath)]; // 递归查找子目录
-    } else if (file.endsWith('_IP.yaml')) {
+    } else if (file.endsWith('_IP.yaml') || file.endsWith('_IP.json')) {
       results.push(fullPath);
     }
   });
@@ -57,13 +57,19 @@ const processFiles = async () => {
   const files = findFiles(baseDir);
 
   for (const srcFile of files) {
-    const targetFile = srcFile.replace('.yaml', '.mrs'); // 修改目标文件的后缀名
+    let command, targetFile;
+
+    if (srcFile.endsWith('_IP.yaml')) {
+      targetFile = srcFile.replace('.yaml', '.mrs');
+      command = `mihomo convert-ruleset ipcidr yaml "${srcFile}" "${targetFile}"`;
+    } else if (srcFile.endsWith('_IP.json')) {
+      targetFile = srcFile.replace('.json', '.srs');
+      command = `sing-box rule-set compile --output "${targetFile}" "${srcFile}"`;
+    } else {
+      continue; // 忽略不符合条件的文件
+    }
 
     try {
-      // 构造转换命令
-      const command = `mihomo convert-ruleset ipcidr yaml "${srcFile}" "${targetFile}"`;
-
-      // 执行命令，支持重试
       await executeCommand(command);
       console.log(`转换成功: ${srcFile} -> ${targetFile}`);
     } catch (error) {

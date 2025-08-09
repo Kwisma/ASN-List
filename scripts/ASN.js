@@ -111,6 +111,7 @@ function getFilePaths(name, directory) {
     asnResolveYaml: `${base}/${name}_ASN_No_Resolve.yaml`,
     cidrList: `${base}/${name}_IP.list`,
     cidrYaml: `${base}/${name}_IP.yaml`,
+    cidrJson: `${base}/${name}_IP.json`,
     readme: `${base}/README.md`,
   };
 }
@@ -127,7 +128,30 @@ function initFile(name, directory = "country") {
   [files.asnList, files.asnResolveList, files.asnYaml, files.asnResolveYaml, files.cidrList, files.cidrYaml].forEach(
     (file) => fs.writeFileSync(file, header, "utf8"),
   );
+  fs.writeFileSync(files.cidrJson,JSON.stringify({version: 2, rules: [{ip_cidr: []}]}, null, 2), "utf8");
   fs.writeFileSync(files.readme, filemd, "utf8");
+}
+
+function addIpCidr(ip, filePath) {
+  // 1. 读取文件内容
+  const rawData = fs.readFileSync(filePath, 'utf8');
+  const jsonData = JSON.parse(rawData);
+
+  // 2. 找到 ip_cidr 数组并追加数据
+  if (
+    jsonData.rules &&
+    jsonData.rules.length > 0 &&
+    Array.isArray(jsonData.rules[0].ip_cidr)
+  ) {
+    jsonData.rules[0].ip_cidr.push(ip);
+  } else {
+    throw new Error('ip_cidr 数组不存在或 JSON 结构不正确');
+  }
+
+  // 3. 写回文件（保持缩进和格式）
+  fs.writeFileSync(filePath, JSON.stringify(jsonData, null, 2), 'utf8');
+
+  console.log(`已添加 IP: ${ip}`);
 }
 
 function asnInfo(name, asnNumber, directory = "country") {
@@ -227,6 +251,7 @@ async function saveLatestASN(name, directory = "country") {
               cidrList.forEach((cidr) => {
                 fs.appendFileSync(files.cidrList, `${cidr}\n`, "utf8");
                 fs.appendFileSync(files.cidrYaml, `  - ${cidr}\n`, "utf8");
+                addIpCidr(cidr, files.cidrJson);
               });
 //              logger.info(`已写入 ${cidrList.length} 个 CIDR (${asnNumber})`);
             } else {
@@ -283,6 +308,7 @@ async function saveLatestASN(name, directory = "country") {
               cidrList.forEach((cidr) => {
                 fs.appendFileSync(files.cidrList, `${cidr}\n`, "utf8");
                 fs.appendFileSync(files.cidrYaml, `  - ${cidr}\n`, "utf8");
+                addIpCidr(cidr);
               });
 //              logger.info(`已写入 ${cidrList.length} 个 CIDR (${asnNumber})`);
             } else {

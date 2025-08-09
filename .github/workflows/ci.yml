@@ -28,10 +28,16 @@ jobs:
 
       - name: Install mihomo
         run: |
-          version=$(curl -sL https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/version.txt)
-          curl -sL "https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/mihomo-linux-amd64-${version}.gz" | \
+          version=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | grep '"tag_name":' | sed -E 's/.*"v([^"]+)".*/\1/')
+          curl -sL "https://github.com/MetaCubeX/mihomo/releases/download/v${version}/mihomo-linux-amd64-v3-v${version}.gz" | \
             gunzip -c > /usr/local/bin/mihomo && chmod +x /usr/local/bin/mihomo
           
+      - name: Install singbox
+        run: |
+          version=$(curl -s https://api.github.com/repos/SagerNet/sing-box/releases/latest | grep '"tag_name":' | sed -E 's/.*"v([^"]+)".*/\1/')
+          curl -sL "https://github.com/SagerNet/sing-box/releases/download/v${version}/sing-box-${version}-linux-amd64.tar.gz" | \
+            tar -xz -C /usr/local/bin --strip-components=1 sing-box-${version}-linux-amd64/sing-box && chmod +x /usr/local/bin/sing-box
+
       - name: Update GeoLite2 ASN Blocks
         run: |
           wget -O GeoLite2-ASN-Blocks-IPv4.csv 'https://raw.githubusercontent.com/seketiti/GeoLiet2/release/GeoLite2-ASN-Blocks-IPv4.csv'
