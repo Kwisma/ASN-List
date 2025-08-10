@@ -128,30 +128,26 @@ function initFile(name, directory = "country") {
   [files.asnList, files.asnResolveList, files.asnYaml, files.asnResolveYaml, files.cidrList, files.cidrYaml].forEach(
     (file) => fs.writeFileSync(file, header, "utf8"),
   );
-  fs.writeFileSync(files.cidrJson,JSON.stringify({version: 2, rules: [{ip_cidr: []}]}, null, 2), "utf8");
+  fs.writeFileSync(files.cidrJson, JSON.stringify({ version: 2, rules: [{ ip_cidr: [] }] }, null, 2), "utf8");
   fs.writeFileSync(files.readme, filemd, "utf8");
 }
 
-function addIpCidr(ip, filePath) {
-  // 1. 读取文件内容
+function addIpCidrs(ips, filePath) {
   const rawData = fs.readFileSync(filePath, 'utf8');
   const jsonData = JSON.parse(rawData);
 
-  // 2. 找到 ip_cidr 数组并追加数据
   if (
     jsonData.rules &&
     jsonData.rules.length > 0 &&
     Array.isArray(jsonData.rules[0].ip_cidr)
   ) {
-    jsonData.rules[0].ip_cidr.push(ip);
+    jsonData.rules[0].ip_cidr.push(...ips); // 批量添加 IP
   } else {
     throw new Error('ip_cidr 数组不存在或 JSON 结构不正确');
   }
 
-  // 3. 写回文件（保持缩进和格式）
   fs.writeFileSync(filePath, JSON.stringify(jsonData, null, 2), 'utf8');
-
-  console.log(`已添加 IP: ${ip}`);
+  // logger.info(`已添加 ${ips.length} 个 IP`);
 }
 
 function asnInfo(name, asnNumber, directory = "country") {
@@ -199,7 +195,7 @@ async function saveLatestASN(name, directory = "country") {
       const asnText = $(asn).find("td:nth-child(1) a").text().trim();
       return /^AS\d+/.test(asnText);
     });
-//    logger.info(`共找到 ${asnEntries.length} 个 ASN 条目，开始写入文件...`);
+    //logger.info(`共找到 ${asnEntries.length} 个 ASN 条目，开始写入文件...`);
     asnInfo(name, asnEntries.length, directory);
     const files = getFilePaths(name, directory);
     if (directory === "data") {
@@ -242,7 +238,7 @@ async function saveLatestASN(name, directory = "country") {
             `  - IP-ASN,${asnNumber}\n`,
             "utf8",
           );
-//          logger.info(`已写入 ASN (${asnNumber})`);
+          //logger.info(`已写入 ASN (${asnNumber})`);
           if (scanning) {
             //const cidrList = asnToCIDR[asnNumber];
             //const cidrList = await fetchPrefixes(asnNumber);
@@ -251,11 +247,11 @@ async function saveLatestASN(name, directory = "country") {
               cidrList.forEach((cidr) => {
                 fs.appendFileSync(files.cidrList, `${cidr}\n`, "utf8");
                 fs.appendFileSync(files.cidrYaml, `  - ${cidr}\n`, "utf8");
-                addIpCidr(cidr, files.cidrJson);
               });
-//              logger.info(`已写入 ${cidrList.length} 个 CIDR (${asnNumber})`);
+              addIpCidrs(cidrList, files.cidrJson);
+              //logger.info(`已写入 ${cidrList.length} 个 CIDR (${asnNumber})`);
             } else {
-                logger.info(`没有 CIDR 可写入 (${asnNumber})`);
+              logger.info(`没有 CIDR 可写入 (${asnNumber})`);
             }
           }
         }
@@ -308,17 +304,17 @@ async function saveLatestASN(name, directory = "country") {
               cidrList.forEach((cidr) => {
                 fs.appendFileSync(files.cidrList, `${cidr}\n`, "utf8");
                 fs.appendFileSync(files.cidrYaml, `  - ${cidr}\n`, "utf8");
-                addIpCidr(cidr);
               });
-//              logger.info(`已写入 ${cidrList.length} 个 CIDR (${asnNumber})`);
+              addIpCidrs(cidrList, files.cidrJson);
+              //logger.info(`已写入 ${cidrList.length} 个 CIDR (${asnNumber})`);
             } else {
-                logger.info(`没有 CIDR 可写入 (${asnNumber})`);
+              logger.info(`没有 CIDR 可写入 (${asnNumber})`);
             }
           }
         }
       }
     }
-//    logger.info(`ASN 数据写入完成 (${name} in ${directory})`);
+    //logger.info(`ASN 数据写入完成 (${name} in ${directory})`);
   } catch (error) {
     logger.error(`处理失败 (${name} in ${directory}):`, error);
   }
@@ -329,7 +325,7 @@ async function fetchPrefixes(asnNumber) {
     const Response = await axios.get(Url, {});
     return extractCIDR(Response.data);
   } catch (error) {
-    console.error('获取数据时发生错误:', error);
+    logger.error('获取数据时发生错误:', error);
   }
 }
 
@@ -337,23 +333,23 @@ function extractCIDR(html) {
   const $ = cheerio.load(html);
   const cidrs = [];
   $('#table_prefixes4 tbody tr').each((index, row) => {
-    // 获取每一行中的第一个 `<a>` 标签的文本，即 CIDR 地址
+    //获取每一行中的第一个 `<a>` 标签的文本，即 CIDR 地址
     const prefix = $(row).find('td:first-child a').text().trim();
     if (prefix) {
-//      logger.info(`找到 CIDR: ${prefix}`);
+      //logger.info(`找到 CIDR: ${prefix}`);
       cidrs.push(prefix);
     } else {
-//      logger.info(`第 ${index + 1} 行没有找到 CIDR。`);
+      //logger.info(`第 ${index + 1} 行没有找到 CIDR。`);
     }
   });
   $('#table_prefixes6 tbody tr').each((index, row) => {
-    // 获取每一行中的第一个 `<a>` 标签的文本，即 CIDR 地址
+    //获取每一行中的第一个 `<a>` 标签的文本，即 CIDR 地址
     const prefix = $(row).find('td:first-child a').text().trim();
     if (prefix) {
-//      logger.info(`找到 CIDR: ${prefix}`);
+      //logger.info(`找到 CIDR: ${prefix}`);
       cidrs.push(prefix);
     } else {
-//      logger.info(`第 ${index + 1} 行没有找到 CIDR。`);
+      //logger.info(`第 ${index + 1} 行没有找到 CIDR。`);
     }
   });
   return cidrs;
@@ -361,11 +357,11 @@ function extractCIDR(html) {
 
 async function readFileContentAsync(filePath) {
   try {
-    // 拼接文件路径
+    //拼接文件路径
     const content = await fs.promises.readFile(`meta-rules-dat/asn/AS${filePath}.list`, { encoding: 'utf-8' });
     return content.split('\n').map(line => line.trim()).filter(line => line !== '');;
   } catch (error) {
-      return '';
+    return '';
   }
 }
 
@@ -388,7 +384,7 @@ async function saveWithDelay() {
 
 saveWithDelay();
 
-// 通用的 payload 数据结构，按需扩展
+//通用的 payload 数据结构，按需扩展
 function payload() {
   return [
     {
