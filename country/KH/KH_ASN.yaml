@@ -1,12 +1,12 @@
 # KH 的 ASN 信息
-# 最后更新： CST 2025-08-15 00:51:40
+# 最后更新： CST 2025-08-16 00:50:23
 # ASN: 97
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,9902,no-resolve
   - IP-ASN,55329,no-resolve
   - IP-ASN,59318,no-resolve
+  - IP-ASN,9902,no-resolve
   - IP-ASN,139628,no-resolve
   - IP-ASN,38235,no-resolve
   - IP-ASN,24492,no-resolve
@@ -55,6 +55,7 @@ payload:
   - IP-ASN,58465,no-resolve
   - IP-ASN,18014,no-resolve
   - IP-ASN,153864,no-resolve
+  - IP-ASN,151795,no-resolve
   - IP-ASN,150796,no-resolve
   - IP-ASN,150295,no-resolve
   - IP-ASN,149177,no-resolve
@@ -73,11 +74,9 @@ payload:
   - IP-ASN,135333,no-resolve
   - IP-ASN,134136,no-resolve
   - IP-ASN,132590,no-resolve
-  - IP-ASN,131178,no-resolve
   - IP-ASN,45348,no-resolve
   - IP-ASN,152452,no-resolve
   - IP-ASN,151977,no-resolve
-  - IP-ASN,151795,no-resolve
   - IP-ASN,151654,no-resolve
   - IP-ASN,150444,no-resolve
   - IP-ASN,150381,no-resolve
@@ -101,3 +100,4 @@ payload:
   - IP-ASN,135286,no-resolve
   - IP-ASN,133416,no-resolve
   - IP-ASN,132730,no-resolve
+  - IP-ASN,131178,no-resolve
