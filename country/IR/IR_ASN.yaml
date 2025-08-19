@@ -1,6 +1,6 @@
 # IR 的 ASN 信息
-# 最后更新： CST 2025-08-19 00:51:17
-# ASN: 584
+# 最后更新： CST 2025-08-20 00:53:49
+# ASN: 586
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -20,8 +20,8 @@ payload:
   - IP-ASN,41881,no-resolve
   - IP-ASN,205647,no-resolve
   - IP-ASN,48147,no-resolve
-  - IP-ASN,44400,no-resolve
   - IP-ASN,44889,no-resolve
+  - IP-ASN,44400,no-resolve
   - IP-ASN,48159,no-resolve
   - IP-ASN,206065,no-resolve
   - IP-ASN,47330,no-resolve
@@ -30,12 +30,12 @@ payload:
   - IP-ASN,47376,no-resolve
   - IP-ASN,44285,no-resolve
   - IP-ASN,34918,no-resolve
+  - IP-ASN,34837,no-resolve
   - IP-ASN,211421,no-resolve
   - IP-ASN,61173,no-resolve
   - IP-ASN,51431,no-resolve
   - IP-ASN,48434,no-resolve
   - IP-ASN,43395,no-resolve
-  - IP-ASN,34837,no-resolve
   - IP-ASN,34636,no-resolve
   - IP-ASN,198154,no-resolve
   - IP-ASN,39074,no-resolve
@@ -63,6 +63,7 @@ payload:
   - IP-ASN,60631,no-resolve
   - IP-ASN,60627,no-resolve
   - IP-ASN,59441,no-resolve
+  - IP-ASN,57241,no-resolve
   - IP-ASN,57218,no-resolve
   - IP-ASN,51469,no-resolve
   - IP-ASN,51235,no-resolve
@@ -75,9 +76,9 @@ payload:
   - IP-ASN,205207,no-resolve
   - IP-ASN,203616,no-resolve
   - IP-ASN,1756,no-resolve
+  - IP-ASN,62250,no-resolve
   - IP-ASN,61386,no-resolve
   - IP-ASN,61250,no-resolve
-  - IP-ASN,60423,no-resolve
   - IP-ASN,59962,no-resolve
   - IP-ASN,57497,no-resolve
   - IP-ASN,56632,no-resolve
@@ -128,13 +129,11 @@ payload:
   - IP-ASN,62367,no-resolve
   - IP-ASN,62334,no-resolve
   - IP-ASN,62265,no-resolve
-  - IP-ASN,62250,no-resolve
   - IP-ASN,62229,no-resolve
   - IP-ASN,62198,no-resolve
   - IP-ASN,62173,no-resolve
   - IP-ASN,62137,no-resolve
   - IP-ASN,61974,no-resolve
-  - IP-ASN,61962,no-resolve
   - IP-ASN,61248,no-resolve
   - IP-ASN,61246,no-resolve
   - IP-ASN,61239,no-resolve
@@ -142,6 +141,8 @@ payload:
   - IP-ASN,61129,no-resolve
   - IP-ASN,60811,no-resolve
   - IP-ASN,60638,no-resolve
+  - IP-ASN,60605,no-resolve
+  - IP-ASN,60423,no-resolve
   - IP-ASN,60407,no-resolve
   - IP-ASN,60315,no-resolve
   - IP-ASN,60138,no-resolve
@@ -168,7 +169,6 @@ payload:
   - IP-ASN,57474,no-resolve
   - IP-ASN,57457,no-resolve
   - IP-ASN,57292,no-resolve
-  - IP-ASN,57241,no-resolve
   - IP-ASN,57235,no-resolve
   - IP-ASN,57027,no-resolve
   - IP-ASN,56861,no-resolve
@@ -178,7 +178,6 @@ payload:
   - IP-ASN,5542,no-resolve
   - IP-ASN,52155,no-resolve
   - IP-ASN,52070,no-resolve
-  - IP-ASN,51788,no-resolve
   - IP-ASN,51785,no-resolve
   - IP-ASN,51618,no-resolve
   - IP-ASN,51460,no-resolve
@@ -225,7 +224,6 @@ payload:
   - IP-ASN,29079,no-resolve
   - IP-ASN,25306,no-resolve
   - IP-ASN,24707,no-resolve
-  - IP-ASN,216169,no-resolve
   - IP-ASN,216054,no-resolve
   - IP-ASN,215892,no-resolve
   - IP-ASN,215679,no-resolve
@@ -257,7 +255,6 @@ payload:
   - IP-ASN,206862,no-resolve
   - IP-ASN,206854,no-resolve
   - IP-ASN,205894,no-resolve
-  - IP-ASN,205643,no-resolve
   - IP-ASN,205588,no-resolve
   - IP-ASN,205521,no-resolve
   - IP-ASN,205229,no-resolve
@@ -287,6 +284,7 @@ payload:
   - IP-ASN,62196,no-resolve
   - IP-ASN,62157,no-resolve
   - IP-ASN,62140,no-resolve
+  - IP-ASN,61962,no-resolve
   - IP-ASN,61362,no-resolve
   - IP-ASN,61176,no-resolve
   - IP-ASN,61061,no-resolve
@@ -295,7 +293,6 @@ payload:
   - IP-ASN,60887,no-resolve
   - IP-ASN,60786,no-resolve
   - IP-ASN,60637,no-resolve
-  - IP-ASN,60605,no-resolve
   - IP-ASN,60562,no-resolve
   - IP-ASN,60516,no-resolve
   - IP-ASN,60374,no-resolve
@@ -348,6 +345,7 @@ payload:
   - IP-ASN,52140,no-resolve
   - IP-ASN,52049,no-resolve
   - IP-ASN,51897,no-resolve
+  - IP-ASN,51788,no-resolve
   - IP-ASN,51759,no-resolve
   - IP-ASN,51732,no-resolve
   - IP-ASN,51554,no-resolve
@@ -416,6 +414,7 @@ payload:
   - IP-ASN,216417,no-resolve
   - IP-ASN,216344,no-resolve
   - IP-ASN,216205,no-resolve
+  - IP-ASN,216169,no-resolve
   - IP-ASN,216131,no-resolve
   - IP-ASN,216125,no-resolve
   - IP-ASN,216074,no-resolve
@@ -475,6 +474,7 @@ payload:
   - IP-ASN,211583,no-resolve
   - IP-ASN,211491,no-resolve
   - IP-ASN,211419,no-resolve
+  - IP-ASN,211408,no-resolve
   - IP-ASN,211325,no-resolve
   - IP-ASN,211081,no-resolve
   - IP-ASN,211021,no-resolve
@@ -512,6 +512,7 @@ payload:
   - IP-ASN,205899,no-resolve
   - IP-ASN,205883,no-resolve
   - IP-ASN,205833,no-resolve
+  - IP-ASN,205643,no-resolve
   - IP-ASN,205622,no-resolve
   - IP-ASN,205550,no-resolve
   - IP-ASN,205490,no-resolve
@@ -554,6 +555,7 @@ payload:
   - IP-ASN,201194,no-resolve
   - IP-ASN,201150,no-resolve
   - IP-ASN,201015,no-resolve
+  - IP-ASN,200816,no-resolve
   - IP-ASN,200796,no-resolve
   - IP-ASN,200645,no-resolve
   - IP-ASN,200406,no-resolve
