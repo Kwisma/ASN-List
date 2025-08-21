@@ -1,14 +1,14 @@
 # NP 的 ASN 信息
-# 最后更新： CST 2025-08-21 00:51:12
+# 最后更新： CST 2025-08-22 00:50:28
 # ASN: 143
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,4007,no-resolve
   - IP-ASN,17501,no-resolve
+  - IP-ASN,4007,no-resolve
   - IP-ASN,45650,no-resolve
-  - IP-ASN,141047,no-resolve
   - IP-ASN,45274,no-resolve
+  - IP-ASN,141047,no-resolve
   - IP-ASN,139922,no-resolve
   - IP-ASN,148979,no-resolve
   - IP-ASN,58504,no-resolve
@@ -56,6 +56,7 @@ payload:
   - IP-ASN,149034,no-resolve
   - IP-ASN,142621,no-resolve
   - IP-ASN,142008,no-resolve
+  - IP-ASN,141732,no-resolve
   - IP-ASN,141177,no-resolve
   - IP-ASN,140948,no-resolve
   - IP-ASN,139256,no-resolve
@@ -108,7 +109,6 @@ payload:
   - IP-ASN,142297,no-resolve
   - IP-ASN,142065,no-resolve
   - IP-ASN,142053,no-resolve
-  - IP-ASN,141732,no-resolve
   - IP-ASN,141691,no-resolve
   - IP-ASN,141459,no-resolve
   - IP-ASN,141410,no-resolve
