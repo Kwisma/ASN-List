@@ -1,6 +1,6 @@
 # VN 的 ASN 信息
-# 最后更新： CST 2025-08-24 00:47:17
-# ASN: 530
+# 最后更新： CST 2025-08-25 00:48:03
+# ASN: 533
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -25,9 +25,9 @@ payload:
   - IP-ASN,38726,no-resolve
   - IP-ASN,23899,no-resolve
   - IP-ASN,131418,no-resolve
+  - IP-ASN,38244,no-resolve
   - IP-ASN,131421,no-resolve
   - IP-ASN,131127,no-resolve
-  - IP-ASN,38244,no-resolve
   - IP-ASN,23962,no-resolve
   - IP-ASN,149107,no-resolve
   - IP-ASN,135947,no-resolve
@@ -115,7 +115,6 @@ payload:
   - IP-ASN,131126,no-resolve
   - IP-ASN,7643,no-resolve
   - IP-ASN,7602,no-resolve
-  - IP-ASN,63769,no-resolve
   - IP-ASN,63765,no-resolve
   - IP-ASN,63758,no-resolve
   - IP-ASN,63755,no-resolve
@@ -264,6 +263,7 @@ payload:
   - IP-ASN,131124,no-resolve
   - IP-ASN,131123,no-resolve
   - IP-ASN,131122,no-resolve
+  - IP-ASN,63769,no-resolve
   - IP-ASN,63764,no-resolve
   - IP-ASN,63763,no-resolve
   - IP-ASN,63759,no-resolve
@@ -289,6 +289,8 @@ payload:
   - IP-ASN,24035,no-resolve
   - IP-ASN,209988,no-resolve
   - IP-ASN,202602,no-resolve
+  - IP-ASN,154106,no-resolve
+  - IP-ASN,154105,no-resolve
   - IP-ASN,154053,no-resolve
   - IP-ASN,154003,no-resolve
   - IP-ASN,153983,no-resolve
@@ -313,6 +315,7 @@ payload:
   - IP-ASN,153428,no-resolve
   - IP-ASN,153418,no-resolve
   - IP-ASN,153416,no-resolve
+  - IP-ASN,153413,no-resolve
   - IP-ASN,153407,no-resolve
   - IP-ASN,153403,no-resolve
   - IP-ASN,153320,no-resolve
