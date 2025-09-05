@@ -1,6 +1,6 @@
 # PH 的 ASN 信息
-# 最后更新： CST 2025-09-05 00:50:51
-# ASN: 427
+# 最后更新： CST 2025-09-06 00:50:28
+# ASN: 426
 # 由 Kwisma 制作，保留所有权利。
 
 IP-ASN,17639,no-resolve
@@ -10,9 +10,9 @@ IP-ASN,9299,no-resolve
 IP-ASN,4775,no-resolve
 IP-ASN,9658,no-resolve
 IP-ASN,135607,no-resolve
+IP-ASN,18187,no-resolve
 IP-ASN,6648,no-resolve
 IP-ASN,55821,no-resolve
-IP-ASN,18187,no-resolve
 IP-ASN,139831,no-resolve
 IP-ASN,9927,no-resolve
 IP-ASN,135025,no-resolve
@@ -22,8 +22,8 @@ IP-ASN,150161,no-resolve
 IP-ASN,23930,no-resolve
 IP-ASN,134707,no-resolve
 IP-ASN,133334,no-resolve
-IP-ASN,4779,no-resolve
 IP-ASN,9821,no-resolve
+IP-ASN,4779,no-resolve
 IP-ASN,134672,no-resolve
 IP-ASN,38553,no-resolve
 IP-ASN,140593,no-resolve
@@ -48,12 +48,13 @@ IP-ASN,7629,no-resolve
 IP-ASN,45754,no-resolve
 IP-ASN,152131,no-resolve
 IP-ASN,138678,no-resolve
+IP-ASN,136515,no-resolve
 IP-ASN,55547,no-resolve
 IP-ASN,18392,no-resolve
 IP-ASN,150447,no-resolve
+IP-ASN,142629,no-resolve
 IP-ASN,141754,no-resolve
 IP-ASN,137184,no-resolve
-IP-ASN,136515,no-resolve
 IP-ASN,136244,no-resolve
 IP-ASN,134788,no-resolve
 IP-ASN,133623,no-resolve
@@ -62,7 +63,6 @@ IP-ASN,18018,no-resolve
 IP-ASN,17895,no-resolve
 IP-ASN,151653,no-resolve
 IP-ASN,151066,no-resolve
-IP-ASN,142629,no-resolve
 IP-ASN,141013,no-resolve
 IP-ASN,134346,no-resolve
 IP-ASN,56262,no-resolve
@@ -97,16 +97,20 @@ IP-ASN,153191,no-resolve
 IP-ASN,153175,no-resolve
 IP-ASN,151627,no-resolve
 IP-ASN,151366,no-resolve
+IP-ASN,150704,no-resolve
 IP-ASN,147178,no-resolve
+IP-ASN,139238,no-resolve
 IP-ASN,138987,no-resolve
 IP-ASN,138496,no-resolve
 IP-ASN,137404,no-resolve
-IP-ASN,137248,no-resolve
+IP-ASN,136433,no-resolve
 IP-ASN,135028,no-resolve
 IP-ASN,134802,no-resolve
+IP-ASN,134216,no-resolve
 IP-ASN,133498,no-resolve
 IP-ASN,133464,no-resolve
 IP-ASN,133131,no-resolve
+IP-ASN,132464,no-resolve
 IP-ASN,131253,no-resolve
 IP-ASN,63966,no-resolve
 IP-ASN,59322,no-resolve
@@ -119,7 +123,6 @@ IP-ASN,153660,no-resolve
 IP-ASN,153200,no-resolve
 IP-ASN,150749,no-resolve
 IP-ASN,150707,no-resolve
-IP-ASN,150704,no-resolve
 IP-ASN,146948,no-resolve
 IP-ASN,142424,no-resolve
 IP-ASN,141994,no-resolve
@@ -131,14 +134,12 @@ IP-ASN,140878,no-resolve
 IP-ASN,140715,no-resolve
 IP-ASN,140599,no-resolve
 IP-ASN,140243,no-resolve
-IP-ASN,139238,no-resolve
 IP-ASN,138929,no-resolve
 IP-ASN,138543,no-resolve
-IP-ASN,137818,no-resolve
+IP-ASN,137248,no-resolve
 IP-ASN,136803,no-resolve
 IP-ASN,136777,no-resolve
 IP-ASN,136773,no-resolve
-IP-ASN,136433,no-resolve
 IP-ASN,135594,no-resolve
 IP-ASN,135582,no-resolve
 IP-ASN,134966,no-resolve
@@ -149,7 +150,6 @@ IP-ASN,132905,no-resolve
 IP-ASN,132796,no-resolve
 IP-ASN,132716,no-resolve
 IP-ASN,132209,no-resolve
-IP-ASN,132054,no-resolve
 IP-ASN,7611,no-resolve
 IP-ASN,63938,no-resolve
 IP-ASN,59325,no-resolve
@@ -246,6 +246,7 @@ IP-ASN,138689,no-resolve
 IP-ASN,138569,no-resolve
 IP-ASN,138540,no-resolve
 IP-ASN,138218,no-resolve
+IP-ASN,137818,no-resolve
 IP-ASN,137487,no-resolve
 IP-ASN,137208,no-resolve
 IP-ASN,135645,no-resolve
@@ -255,6 +256,7 @@ IP-ASN,135162,no-resolve
 IP-ASN,135132,no-resolve
 IP-ASN,134996,no-resolve
 IP-ASN,134974,no-resolve
+IP-ASN,134182,no-resolve
 IP-ASN,134154,no-resolve
 IP-ASN,133778,no-resolve
 IP-ASN,133432,no-resolve
@@ -266,10 +268,10 @@ IP-ASN,132843,no-resolve
 IP-ASN,132826,no-resolve
 IP-ASN,132615,no-resolve
 IP-ASN,132554,no-resolve
-IP-ASN,132464,no-resolve
 IP-ASN,132246,no-resolve
 IP-ASN,132229,no-resolve
 IP-ASN,132193,no-resolve
+IP-ASN,132054,no-resolve
 IP-ASN,131891,no-resolve
 IP-ASN,131465,no-resolve
 IP-ASN,131306,no-resolve
@@ -302,7 +304,6 @@ IP-ASN,18396,no-resolve
 IP-ASN,18114,no-resolve
 IP-ASN,17970,no-resolve
 IP-ASN,17894,no-resolve
-IP-ASN,17723,no-resolve
 IP-ASN,17721,no-resolve
 IP-ASN,17445,no-resolve
 IP-ASN,154180,no-resolve
@@ -402,9 +403,7 @@ IP-ASN,134716,no-resolve
 IP-ASN,134431,no-resolve
 IP-ASN,134415,no-resolve
 IP-ASN,134241,no-resolve
-IP-ASN,134216,no-resolve
 IP-ASN,134213,no-resolve
-IP-ASN,134182,no-resolve
 IP-ASN,134171,no-resolve
 IP-ASN,134084,no-resolve
 IP-ASN,133585,no-resolve
