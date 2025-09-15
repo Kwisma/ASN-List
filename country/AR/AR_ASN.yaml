@@ -1,5 +1,5 @@
 # AR 的 ASN 信息
-# 最后更新： CST 2025-09-15 00:47:51
+# 最后更新： CST 2025-09-16 00:51:15
 # ASN: 1068
 # 由 Kwisma 制作，保留所有权利。
 
@@ -37,9 +37,9 @@ payload:
   - IP-ASN,263801,no-resolve
   - IP-ASN,52363,no-resolve
   - IP-ASN,52324,no-resolve
+  - IP-ASN,61553,no-resolve
   - IP-ASN,27983,no-resolve
   - IP-ASN,21838,no-resolve
-  - IP-ASN,61553,no-resolve
   - IP-ASN,52409,no-resolve
   - IP-ASN,52509,no-resolve
   - IP-ASN,263684,no-resolve
@@ -69,6 +69,7 @@ payload:
   - IP-ASN,61441,no-resolve
   - IP-ASN,52370,no-resolve
   - IP-ASN,52232,no-resolve
+  - IP-ASN,28111,no-resolve
   - IP-ASN,27994,no-resolve
   - IP-ASN,27955,no-resolve
   - IP-ASN,262216,no-resolve
@@ -77,7 +78,6 @@ payload:
   - IP-ASN,64104,no-resolve
   - IP-ASN,64103,no-resolve
   - IP-ASN,52327,no-resolve
-  - IP-ASN,28111,no-resolve
   - IP-ASN,27744,no-resolve
   - IP-ASN,267882,no-resolve
   - IP-ASN,264765,no-resolve
@@ -219,7 +219,6 @@ payload:
   - IP-ASN,266769,no-resolve
   - IP-ASN,266759,no-resolve
   - IP-ASN,266735,no-resolve
-  - IP-ASN,26593,no-resolve
   - IP-ASN,265884,no-resolve
   - IP-ASN,265828,no-resolve
   - IP-ASN,265819,no-resolve
@@ -289,7 +288,6 @@ payload:
   - IP-ASN,28035,no-resolve
   - IP-ASN,28026,no-resolve
   - IP-ASN,27960,no-resolve
-  - IP-ASN,27894,no-resolve
   - IP-ASN,27881,no-resolve
   - IP-ASN,27879,no-resolve
   - IP-ASN,27827,no-resolve
@@ -351,6 +349,7 @@ payload:
   - IP-ASN,266674,no-resolve
   - IP-ASN,266666,no-resolve
   - IP-ASN,26594,no-resolve
+  - IP-ASN,26593,no-resolve
   - IP-ASN,265866,no-resolve
   - IP-ASN,265852,no-resolve
   - IP-ASN,265842,no-resolve
@@ -372,6 +371,7 @@ payload:
   - IP-ASN,264809,no-resolve
   - IP-ASN,264791,no-resolve
   - IP-ASN,264787,no-resolve
+  - IP-ASN,264784,no-resolve
   - IP-ASN,264774,no-resolve
   - IP-ASN,264761,no-resolve
   - IP-ASN,264759,no-resolve
@@ -466,6 +466,7 @@ payload:
   - IP-ASN,27935,no-resolve
   - IP-ASN,27934,no-resolve
   - IP-ASN,27907,no-resolve
+  - IP-ASN,27894,no-resolve
   - IP-ASN,27883,no-resolve
   - IP-ASN,27875,no-resolve
   - IP-ASN,27830,no-resolve
@@ -479,7 +480,6 @@ payload:
   - IP-ASN,273969,no-resolve
   - IP-ASN,273965,no-resolve
   - IP-ASN,273880,no-resolve
-  - IP-ASN,273865,no-resolve
   - IP-ASN,273175,no-resolve
   - IP-ASN,273116,no-resolve
   - IP-ASN,273088,no-resolve
@@ -491,12 +491,12 @@ payload:
   - IP-ASN,272133,no-resolve
   - IP-ASN,272116,no-resolve
   - IP-ASN,272107,no-resolve
-  - IP-ASN,272068,no-resolve
   - IP-ASN,272053,no-resolve
   - IP-ASN,272046,no-resolve
   - IP-ASN,272042,no-resolve
   - IP-ASN,272039,no-resolve
   - IP-ASN,272030,no-resolve
+  - IP-ASN,272005,no-resolve
   - IP-ASN,271991,no-resolve
   - IP-ASN,271985,no-resolve
   - IP-ASN,271973,no-resolve
@@ -540,7 +540,6 @@ payload:
   - IP-ASN,269762,no-resolve
   - IP-ASN,269752,no-resolve
   - IP-ASN,267921,no-resolve
-  - IP-ASN,267915,no-resolve
   - IP-ASN,267912,no-resolve
   - IP-ASN,267910,no-resolve
   - IP-ASN,267903,no-resolve
@@ -638,7 +637,6 @@ payload:
   - IP-ASN,265638,no-resolve
   - IP-ASN,264792,no-resolve
   - IP-ASN,264786,no-resolve
-  - IP-ASN,264784,no-resolve
   - IP-ASN,264781,no-resolve
   - IP-ASN,264753,no-resolve
   - IP-ASN,264752,no-resolve
@@ -765,6 +763,7 @@ payload:
   - IP-ASN,273947,no-resolve
   - IP-ASN,273942,no-resolve
   - IP-ASN,273912,no-resolve
+  - IP-ASN,273865,no-resolve
   - IP-ASN,273841,no-resolve
   - IP-ASN,273833,no-resolve
   - IP-ASN,273164,no-resolve
@@ -790,11 +789,11 @@ payload:
   - IP-ASN,272152,no-resolve
   - IP-ASN,272114,no-resolve
   - IP-ASN,272090,no-resolve
+  - IP-ASN,272068,no-resolve
   - IP-ASN,272064,no-resolve
   - IP-ASN,272050,no-resolve
   - IP-ASN,272038,no-resolve
   - IP-ASN,272035,no-resolve
-  - IP-ASN,272005,no-resolve
   - IP-ASN,271980,no-resolve
   - IP-ASN,271970,no-resolve
   - IP-ASN,271949,no-resolve
@@ -876,6 +875,7 @@ payload:
   - IP-ASN,269727,no-resolve
   - IP-ASN,267925,no-resolve
   - IP-ASN,267918,no-resolve
+  - IP-ASN,267915,no-resolve
   - IP-ASN,267900,no-resolve
   - IP-ASN,267889,no-resolve
   - IP-ASN,267876,no-resolve
