@@ -1,16 +1,16 @@
 # KH 的 ASN 信息
-# 最后更新： CST 2025-09-18 00:52:21
-# ASN: 97
+# 最后更新： CST 2025-09-19 00:51:45
+# ASN: 98
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,59318,no-resolve
   - IP-ASN,9902,no-resolve
   - IP-ASN,55329,no-resolve
-  - IP-ASN,139628,no-resolve
   - IP-ASN,38235,no-resolve
   - IP-ASN,38623,no-resolve
   - IP-ASN,24492,no-resolve
+  - IP-ASN,139628,no-resolve
   - IP-ASN,139285,no-resolve
   - IP-ASN,23673,no-resolve
   - IP-ASN,24441,no-resolve
@@ -38,7 +38,6 @@ payload:
   - IP-ASN,131241,no-resolve
   - IP-ASN,7712,no-resolve
   - IP-ASN,58424,no-resolve
-  - IP-ASN,55636,no-resolve
   - IP-ASN,38600,no-resolve
   - IP-ASN,38286,no-resolve
   - IP-ASN,38209,no-resolve
@@ -50,9 +49,10 @@ payload:
   - IP-ASN,133200,no-resolve
   - IP-ASN,132080,no-resolve
   - IP-ASN,9900,no-resolve
+  - IP-ASN,56016,no-resolve
+  - IP-ASN,55636,no-resolve
   - IP-ASN,153864,no-resolve
   - IP-ASN,151795,no-resolve
-  - IP-ASN,150796,no-resolve
   - IP-ASN,150295,no-resolve
   - IP-ASN,149177,no-resolve
   - IP-ASN,147056,no-resolve
@@ -79,6 +79,7 @@ payload:
   - IP-ASN,152452,no-resolve
   - IP-ASN,151977,no-resolve
   - IP-ASN,151654,no-resolve
+  - IP-ASN,150796,no-resolve
   - IP-ASN,150444,no-resolve
   - IP-ASN,150381,no-resolve
   - IP-ASN,149828,no-resolve
