@@ -1,28 +1,28 @@
 # VE 的 ASN 信息
-# 最后更新： CST 2025-09-20 00:51:37
+# 最后更新： CST 2025-09-21 00:50:09
 # ASN: 185
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,61461,no-resolve
-  - IP-ASN,266809,no-resolve
   - IP-ASN,263703,no-resolve
+  - IP-ASN,21826,no-resolve
+  - IP-ASN,266809,no-resolve
+  - IP-ASN,8048,no-resolve
   - IP-ASN,272102,no-resolve
   - IP-ASN,267809,no-resolve
-  - IP-ASN,21826,no-resolve
-  - IP-ASN,8048,no-resolve
   - IP-ASN,27717,no-resolve
   - IP-ASN,269832,no-resolve
   - IP-ASN,8053,no-resolve
   - IP-ASN,269730,no-resolve
   - IP-ASN,269946,no-resolve
   - IP-ASN,6306,no-resolve
-  - IP-ASN,272122,no-resolve
   - IP-ASN,270042,no-resolve
-  - IP-ASN,266841,no-resolve
   - IP-ASN,264778,no-resolve
   - IP-ASN,264628,no-resolve
   - IP-ASN,11562,no-resolve
+  - IP-ASN,266841,no-resolve
+  - IP-ASN,272122,no-resolve
   - IP-ASN,271907,no-resolve
   - IP-ASN,273890,no-resolve
   - IP-ASN,272809,no-resolve
@@ -57,14 +57,12 @@ payload:
   - IP-ASN,27648,no-resolve
   - IP-ASN,274117,no-resolve
   - IP-ASN,274050,no-resolve
-  - IP-ASN,273995,no-resolve
   - IP-ASN,273904,no-resolve
   - IP-ASN,273203,no-resolve
   - IP-ASN,273197,no-resolve
   - IP-ASN,273155,no-resolve
   - IP-ASN,273154,no-resolve
   - IP-ASN,273125,no-resolve
-  - IP-ASN,273090,no-resolve
   - IP-ASN,273069,no-resolve
   - IP-ASN,273011,no-resolve
   - IP-ASN,273010,no-resolve
@@ -117,6 +115,7 @@ payload:
   - IP-ASN,274036,no-resolve
   - IP-ASN,274028,no-resolve
   - IP-ASN,274022,no-resolve
+  - IP-ASN,273995,no-resolve
   - IP-ASN,273994,no-resolve
   - IP-ASN,273990,no-resolve
   - IP-ASN,273893,no-resolve
@@ -129,6 +128,7 @@ payload:
   - IP-ASN,273201,no-resolve
   - IP-ASN,273182,no-resolve
   - IP-ASN,273144,no-resolve
+  - IP-ASN,273090,no-resolve
   - IP-ASN,273058,no-resolve
   - IP-ASN,273043,no-resolve
   - IP-ASN,273039,no-resolve
