@@ -1,19 +1,17 @@
 # EU 的 ASN 信息
-# 最后更新： CST 2025-09-22 00:50:05
-# ASN: 23
+# 最后更新： CST 2025-09-23 00:51:51
+# ASN: 22
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,6830,no-resolve
   - IP-ASN,250,no-resolve
   - IP-ASN,249,no-resolve
-  - IP-ASN,1121,no-resolve
   - IP-ASN,3917,no-resolve
   - IP-ASN,3918,no-resolve
   - IP-ASN,19178,no-resolve
   - IP-ASN,2103,no-resolve
   - IP-ASN,1936,no-resolve
-  - IP-ASN,1732,no-resolve
   - IP-ASN,1270,no-resolve
   - IP-ASN,780,no-resolve
   - IP-ASN,6168,no-resolve
@@ -26,4 +24,5 @@ payload:
   - IP-ASN,2067,no-resolve
   - IP-ASN,1961,no-resolve
   - IP-ASN,1837,no-resolve
+  - IP-ASN,1732,no-resolve
   - IP-ASN,1271,no-resolve
