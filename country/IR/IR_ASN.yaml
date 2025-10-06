@@ -1,6 +1,6 @@
 # IR 的 ASN 信息
-# 最后更新： CST 2025-10-06 00:49:41
-# ASN: 585
+# 最后更新： CST 2025-10-07 00:52:15
+# ASN: 586
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -21,9 +21,9 @@ payload:
   - IP-ASN,205647,no-resolve
   - IP-ASN,44400,no-resolve
   - IP-ASN,48159,no-resolve
-  - IP-ASN,48147,no-resolve
   - IP-ASN,44889,no-resolve
   - IP-ASN,206065,no-resolve
+  - IP-ASN,48147,no-resolve
   - IP-ASN,211421,no-resolve
   - IP-ASN,51431,no-resolve
   - IP-ASN,44285,no-resolve
@@ -99,7 +99,6 @@ payload:
   - IP-ASN,39650,no-resolve
   - IP-ASN,39571,no-resolve
   - IP-ASN,39364,no-resolve
-  - IP-ASN,39200,no-resolve
   - IP-ASN,34947,no-resolve
   - IP-ASN,215679,no-resolve
   - IP-ASN,215671,no-resolve
@@ -210,6 +209,7 @@ payload:
   - IP-ASN,41689,no-resolve
   - IP-ASN,41620,no-resolve
   - IP-ASN,41061,no-resolve
+  - IP-ASN,39200,no-resolve
   - IP-ASN,35690,no-resolve
   - IP-ASN,35615,no-resolve
   - IP-ASN,35285,no-resolve
@@ -429,6 +429,7 @@ payload:
   - IP-ASN,214957,no-resolve
   - IP-ASN,214858,no-resolve
   - IP-ASN,214737,no-resolve
+  - IP-ASN,214735,no-resolve
   - IP-ASN,214570,no-resolve
   - IP-ASN,214567,no-resolve
   - IP-ASN,214431,no-resolve
