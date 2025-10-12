@@ -1,13 +1,13 @@
 # BE 的 ASN 信息
-# 最后更新： CST 2025-10-12 00:50:36
+# 最后更新： CST 2025-10-13 00:51:01
 # ASN: 297
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,209768,no-resolve
   - IP-ASN,213241,no-resolve
-  - IP-ASN,34872,no-resolve
+  - IP-ASN,209768,no-resolve
   - IP-ASN,6774,no-resolve
+  - IP-ASN,34872,no-resolve
   - IP-ASN,212123,no-resolve
   - IP-ASN,6696,no-resolve
   - IP-ASN,8368,no-resolve
@@ -41,9 +41,9 @@ payload:
   - IP-ASN,210821,no-resolve
   - IP-ASN,9208,no-resolve
   - IP-ASN,49703,no-resolve
-  - IP-ASN,47504,no-resolve
   - IP-ASN,198148,no-resolve
   - IP-ASN,5432,no-resolve
+  - IP-ASN,47504,no-resolve
   - IP-ASN,13226,no-resolve
   - IP-ASN,201205,no-resolve
   - IP-ASN,48638,no-resolve
@@ -122,6 +122,7 @@ payload:
   - IP-ASN,213331,no-resolve
   - IP-ASN,213160,no-resolve
   - IP-ASN,213130,no-resolve
+  - IP-ASN,212223,no-resolve
   - IP-ASN,211136,no-resolve
   - IP-ASN,211079,no-resolve
   - IP-ASN,210444,no-resolve
@@ -232,7 +233,6 @@ payload:
   - IP-ASN,212526,no-resolve
   - IP-ASN,21239,no-resolve
   - IP-ASN,212241,no-resolve
-  - IP-ASN,212223,no-resolve
   - IP-ASN,211683,no-resolve
   - IP-ASN,211601,no-resolve
   - IP-ASN,211304,no-resolve
