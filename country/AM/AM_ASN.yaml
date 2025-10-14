@@ -1,12 +1,12 @@
 # AM 的 ASN 信息
-# 最后更新： CST 2025-10-14 00:52:45
+# 最后更新： CST 2025-10-15 00:54:16
 # ASN: 112
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,49800,no-resolve
-  - IP-ASN,12297,no-resolve
   - IP-ASN,8932,no-resolve
+  - IP-ASN,12297,no-resolve
   - IP-ASN,43733,no-resolve
   - IP-ASN,214729,no-resolve
   - IP-ASN,201986,no-resolve
@@ -54,7 +54,6 @@ payload:
   - IP-ASN,216165,no-resolve
   - IP-ASN,216058,no-resolve
   - IP-ASN,215421,no-resolve
-  - IP-ASN,215416,no-resolve
   - IP-ASN,214977,no-resolve
   - IP-ASN,214287,no-resolve
   - IP-ASN,213134,no-resolve
@@ -94,6 +93,7 @@ payload:
   - IP-ASN,216086,no-resolve
   - IP-ASN,215644,no-resolve
   - IP-ASN,215501,no-resolve
+  - IP-ASN,215416,no-resolve
   - IP-ASN,214869,no-resolve
   - IP-ASN,213827,no-resolve
   - IP-ASN,21104,no-resolve
