@@ -1,12 +1,12 @@
 # MX 的 ASN 信息
-# 最后更新： CST 2025-10-15 00:53:29
+# 最后更新： CST 2025-10-16 00:51:18
 # ASN: 507
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,28398,no-resolve
-  - IP-ASN,17072,no-resolve
   - IP-ASN,28458,no-resolve
+  - IP-ASN,17072,no-resolve
   - IP-ASN,270158,no-resolve
   - IP-ASN,11172,no-resolve
   - IP-ASN,18734,no-resolve
@@ -35,6 +35,7 @@ payload:
   - IP-ASN,28546,no-resolve
   - IP-ASN,28502,no-resolve
   - IP-ASN,278,no-resolve
+  - IP-ASN,270207,no-resolve
   - IP-ASN,265605,no-resolve
   - IP-ASN,22011,no-resolve
   - IP-ASN,18592,no-resolve
@@ -45,15 +46,17 @@ payload:
   - IP-ASN,28498,no-resolve
   - IP-ASN,28468,no-resolve
   - IP-ASN,28438,no-resolve
-  - IP-ASN,270207,no-resolve
   - IP-ASN,265550,no-resolve
   - IP-ASN,265509,no-resolve
   - IP-ASN,15107,no-resolve
   - IP-ASN,28548,no-resolve
   - IP-ASN,28517,no-resolve
+  - IP-ASN,28428,no-resolve
   - IP-ASN,28383,no-resolve
   - IP-ASN,270215,no-resolve
   - IP-ASN,270111,no-resolve
+  - IP-ASN,265619,no-resolve
+  - IP-ASN,265606,no-resolve
   - IP-ASN,265592,no-resolve
   - IP-ASN,265540,no-resolve
   - IP-ASN,265535,no-resolve
@@ -71,7 +74,6 @@ payload:
   - IP-ASN,28451,no-resolve
   - IP-ASN,28432,no-resolve
   - IP-ASN,28431,no-resolve
-  - IP-ASN,28428,no-resolve
   - IP-ASN,28423,no-resolve
   - IP-ASN,28419,no-resolve
   - IP-ASN,28396,no-resolve
@@ -79,11 +81,8 @@ payload:
   - IP-ASN,270217,no-resolve
   - IP-ASN,270173,no-resolve
   - IP-ASN,270118,no-resolve
-  - IP-ASN,265627,no-resolve
   - IP-ASN,265622,no-resolve
-  - IP-ASN,265619,no-resolve
   - IP-ASN,265611,no-resolve
-  - IP-ASN,265606,no-resolve
   - IP-ASN,265594,no-resolve
   - IP-ASN,265590,no-resolve
   - IP-ASN,265574,no-resolve
@@ -125,6 +124,7 @@ payload:
   - IP-ASN,270155,no-resolve
   - IP-ASN,270137,no-resolve
   - IP-ASN,270133,no-resolve
+  - IP-ASN,265627,no-resolve
   - IP-ASN,265621,no-resolve
   - IP-ASN,265615,no-resolve
   - IP-ASN,265612,no-resolve
@@ -199,6 +199,7 @@ payload:
   - IP-ASN,27780,no-resolve
   - IP-ASN,27673,no-resolve
   - IP-ASN,273277,no-resolve
+  - IP-ASN,273263,no-resolve
   - IP-ASN,273259,no-resolve
   - IP-ASN,273253,no-resolve
   - IP-ASN,273250,no-resolve
@@ -358,7 +359,6 @@ payload:
   - IP-ASN,273270,no-resolve
   - IP-ASN,273269,no-resolve
   - IP-ASN,273265,no-resolve
-  - IP-ASN,273263,no-resolve
   - IP-ASN,273262,no-resolve
   - IP-ASN,273261,no-resolve
   - IP-ASN,273254,no-resolve

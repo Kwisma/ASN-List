@@ -1,15 +1,16 @@
 # CI 的 ASN 信息
-# 最后更新： CST 2025-10-15 00:55:02
+# 最后更新： CST 2025-10-16 00:52:53
 # ASN: 20
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,29571,no-resolve
   - IP-ASN,36924,no-resolve
-  - IP-ASN,36974,no-resolve
   - IP-ASN,37381,no-resolve
+  - IP-ASN,36974,no-resolve
   - IP-ASN,37190,no-resolve
   - IP-ASN,328729,no-resolve
+  - IP-ASN,327974,no-resolve
   - IP-ASN,327773,no-resolve
   - IP-ASN,36946,no-resolve
   - IP-ASN,329586,no-resolve
@@ -21,6 +22,5 @@ payload:
   - IP-ASN,328290,no-resolve
   - IP-ASN,328193,no-resolve
   - IP-ASN,328025,no-resolve
-  - IP-ASN,327974,no-resolve
   - IP-ASN,327746,no-resolve
   - IP-ASN,327710,no-resolve
