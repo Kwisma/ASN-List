@@ -1,5 +1,5 @@
 # VE 的 ASN 信息
-# 最后更新： CST 2025-10-20 00:51:27
+# 最后更新： CST 2025-10-21 00:52:40
 # ASN: 190
 # 由 Kwisma 制作，保留所有权利。
 
@@ -7,8 +7,8 @@ payload:
   - IP-ASN,61461,no-resolve
   - IP-ASN,263703,no-resolve
   - IP-ASN,266809,no-resolve
-  - IP-ASN,21826,no-resolve
   - IP-ASN,272102,no-resolve
+  - IP-ASN,21826,no-resolve
   - IP-ASN,267809,no-resolve
   - IP-ASN,8048,no-resolve
   - IP-ASN,27717,no-resolve
@@ -51,7 +51,6 @@ payload:
   - IP-ASN,272118,no-resolve
   - IP-ASN,271813,no-resolve
   - IP-ASN,269879,no-resolve
-  - IP-ASN,265641,no-resolve
   - IP-ASN,264837,no-resolve
   - IP-ASN,263806,no-resolve
   - IP-ASN,263223,no-resolve
@@ -77,10 +76,8 @@ payload:
   - IP-ASN,272814,no-resolve
   - IP-ASN,272134,no-resolve
   - IP-ASN,272119,no-resolve
-  - IP-ASN,272100,no-resolve
   - IP-ASN,272081,no-resolve
   - IP-ASN,272063,no-resolve
-  - IP-ASN,272048,no-resolve
   - IP-ASN,272018,no-resolve
   - IP-ASN,271951,no-resolve
   - IP-ASN,271939,no-resolve
@@ -96,6 +93,7 @@ payload:
   - IP-ASN,267811,no-resolve
   - IP-ASN,267722,no-resolve
   - IP-ASN,267701,no-resolve
+  - IP-ASN,265641,no-resolve
   - IP-ASN,265633,no-resolve
   - IP-ASN,263771,no-resolve
   - IP-ASN,263701,no-resolve
@@ -145,7 +143,9 @@ payload:
   - IP-ASN,272855,no-resolve
   - IP-ASN,272854,no-resolve
   - IP-ASN,272142,no-resolve
+  - IP-ASN,272100,no-resolve
   - IP-ASN,272092,no-resolve
+  - IP-ASN,272048,no-resolve
   - IP-ASN,271920,no-resolve
   - IP-ASN,271917,no-resolve
   - IP-ASN,271884,no-resolve
