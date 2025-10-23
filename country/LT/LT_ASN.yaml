@@ -1,11 +1,11 @@
 # LT 的 ASN 信息
-# 最后更新： CST 2025-10-23 00:54:48
+# 最后更新： CST 2025-10-24 00:54:51
 # ASN: 183
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,56630,no-resolve
   - IP-ASN,28917,no-resolve
+  - IP-ASN,56630,no-resolve
   - IP-ASN,13194,no-resolve
   - IP-ASN,8849,no-resolve
   - IP-ASN,8764,no-resolve
@@ -20,8 +20,8 @@ payload:
   - IP-ASN,44358,no-resolve
   - IP-ASN,207785,no-resolve
   - IP-ASN,210000,no-resolve
-  - IP-ASN,49287,no-resolve
   - IP-ASN,214159,no-resolve
+  - IP-ASN,49287,no-resolve
   - IP-ASN,201201,no-resolve
   - IP-ASN,43811,no-resolve
   - IP-ASN,2847,no-resolve
@@ -61,6 +61,7 @@ payload:
   - IP-ASN,213896,no-resolve
   - IP-ASN,213476,no-resolve
   - IP-ASN,212384,no-resolve
+  - IP-ASN,211373,no-resolve
   - IP-ASN,210647,no-resolve
   - IP-ASN,205964,no-resolve
   - IP-ASN,204315,no-resolve
@@ -75,7 +76,6 @@ payload:
   - IP-ASN,212609,no-resolve
   - IP-ASN,212062,no-resolve
   - IP-ASN,211440,no-resolve
-  - IP-ASN,211373,no-resolve
   - IP-ASN,209709,no-resolve
   - IP-ASN,207186,no-resolve
   - IP-ASN,202725,no-resolve
@@ -111,7 +111,6 @@ payload:
   - IP-ASN,201959,no-resolve
   - IP-ASN,201207,no-resolve
   - IP-ASN,201096,no-resolve
-  - IP-ASN,199737,no-resolve
   - IP-ASN,199527,no-resolve
   - IP-ASN,133944,no-resolve
   - IP-ASN,8314,no-resolve
@@ -156,6 +155,7 @@ payload:
   - IP-ASN,212102,no-resolve
   - IP-ASN,212046,no-resolve
   - IP-ASN,211832,no-resolve
+  - IP-ASN,211743,no-resolve
   - IP-ASN,211614,no-resolve
   - IP-ASN,211336,no-resolve
   - IP-ASN,211146,no-resolve
@@ -169,6 +169,7 @@ payload:
   - IP-ASN,203098,no-resolve
   - IP-ASN,202496,no-resolve
   - IP-ASN,202044,no-resolve
+  - IP-ASN,199737,no-resolve
   - IP-ASN,198345,no-resolve
   - IP-ASN,198009,no-resolve
   - IP-ASN,196852,no-resolve
@@ -182,7 +183,6 @@ payload:
   - IP-ASN,215568,no-resolve
   - IP-ASN,215434,no-resolve
   - IP-ASN,215427,no-resolve
-  - IP-ASN,211743,no-resolve
   - IP-ASN,211432,no-resolve
   - IP-ASN,208084,no-resolve
   - IP-ASN,206633,no-resolve
