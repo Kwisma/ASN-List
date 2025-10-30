@@ -1,6 +1,6 @@
 # TH 的 ASN 信息
-# 最后更新： CST 2025-10-30 00:56:22
-# ASN: 464
+# 最后更新： CST 2025-10-31 00:55:27
+# ASN: 465
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -32,15 +32,15 @@ payload:
   - IP-ASN,4652,no-resolve
   - IP-ASN,7693,no-resolve
   - IP-ASN,45265,no-resolve
-  - IP-ASN,23884,no-resolve
   - IP-ASN,55808,no-resolve
+  - IP-ASN,23884,no-resolve
   - IP-ASN,58955,no-resolve
   - IP-ASN,23969,no-resolve
   - IP-ASN,131293,no-resolve
-  - IP-ASN,152599,no-resolve
   - IP-ASN,38081,no-resolve
-  - IP-ASN,45667,no-resolve
+  - IP-ASN,152599,no-resolve
   - IP-ASN,63529,no-resolve
+  - IP-ASN,45667,no-resolve
   - IP-ASN,55423,no-resolve
   - IP-ASN,140867,no-resolve
   - IP-ASN,9587,no-resolve
@@ -69,6 +69,8 @@ payload:
   - IP-ASN,9835,no-resolve
   - IP-ASN,9335,no-resolve
   - IP-ASN,4776,no-resolve
+  - IP-ASN,140985,no-resolve
+  - IP-ASN,135529,no-resolve
   - IP-ASN,134718,no-resolve
   - IP-ASN,134509,no-resolve
   - IP-ASN,56309,no-resolve
@@ -78,15 +80,14 @@ payload:
   - IP-ASN,38296,no-resolve
   - IP-ASN,148997,no-resolve
   - IP-ASN,142029,no-resolve
-  - IP-ASN,140985,no-resolve
   - IP-ASN,139014,no-resolve
-  - IP-ASN,135529,no-resolve
   - IP-ASN,131090,no-resolve
   - IP-ASN,45806,no-resolve
   - IP-ASN,45800,no-resolve
   - IP-ASN,45455,no-resolve
   - IP-ASN,17425,no-resolve
   - IP-ASN,152127,no-resolve
+  - IP-ASN,142108,no-resolve
   - IP-ASN,141362,no-resolve
   - IP-ASN,139591,no-resolve
   - IP-ASN,7630,no-resolve
@@ -96,7 +97,6 @@ payload:
   - IP-ASN,24475,no-resolve
   - IP-ASN,17887,no-resolve
   - IP-ASN,142299,no-resolve
-  - IP-ASN,142108,no-resolve
   - IP-ASN,137875,no-resolve
   - IP-ASN,137856,no-resolve
   - IP-ASN,135511,no-resolve
@@ -376,6 +376,7 @@ payload:
   - IP-ASN,17556,no-resolve
   - IP-ASN,17552,no-resolve
   - IP-ASN,17475,no-resolve
+  - IP-ASN,154255,no-resolve
   - IP-ASN,154212,no-resolve
   - IP-ASN,154117,no-resolve
   - IP-ASN,153787,no-resolve
