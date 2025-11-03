@@ -1,13 +1,13 @@
 # RO 的 ASN 信息
-# 最后更新： CST 2025-11-03 00:52:32
+# 最后更新： CST 2025-11-04 00:55:24
 # ASN: 936
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,6204,no-resolve
   - IP-ASN,6663,no-resolve
-  - IP-ASN,8708,no-resolve
   - IP-ASN,9009,no-resolve
+  - IP-ASN,8708,no-resolve
   - IP-ASN,47734,no-resolve
   - IP-ASN,9050,no-resolve
   - IP-ASN,39737,no-resolve
@@ -215,7 +215,6 @@ payload:
   - IP-ASN,49719,no-resolve
   - IP-ASN,49645,no-resolve
   - IP-ASN,49591,no-resolve
-  - IP-ASN,49507,no-resolve
   - IP-ASN,49384,no-resolve
   - IP-ASN,49150,no-resolve
   - IP-ASN,49077,no-resolve
@@ -409,6 +408,7 @@ payload:
   - IP-ASN,50137,no-resolve
   - IP-ASN,49678,no-resolve
   - IP-ASN,49646,no-resolve
+  - IP-ASN,49507,no-resolve
   - IP-ASN,49437,no-resolve
   - IP-ASN,49383,no-resolve
   - IP-ASN,49266,no-resolve
@@ -733,7 +733,6 @@ payload:
   - IP-ASN,49302,no-resolve
   - IP-ASN,49270,no-resolve
   - IP-ASN,49252,no-resolve
-  - IP-ASN,49203,no-resolve
   - IP-ASN,49171,no-resolve
   - IP-ASN,49164,no-resolve
   - IP-ASN,49123,no-resolve
@@ -854,6 +853,7 @@ payload:
   - IP-ASN,24712,no-resolve
   - IP-ASN,24695,no-resolve
   - IP-ASN,216462,no-resolve
+  - IP-ASN,216223,no-resolve
   - IP-ASN,216120,no-resolve
   - IP-ASN,215659,no-resolve
   - IP-ASN,215578,no-resolve
