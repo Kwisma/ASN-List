@@ -1,16 +1,16 @@
 # KG 的 ASN 信息
-# 最后更新： CST 2025-11-17 00:51:49
+# 最后更新： CST 2025-11-18 00:55:00
 # ASN: 60
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,8449,no-resolve
-  - IP-ASN,12764,no-resolve
   - IP-ASN,61010,no-resolve
-  - IP-ASN,12997,no-resolve
-  - IP-ASN,61399,no-resolve
+  - IP-ASN,12764,no-resolve
   - IP-ASN,50053,no-resolve
   - IP-ASN,29061,no-resolve
+  - IP-ASN,12997,no-resolve
+  - IP-ASN,61399,no-resolve
   - IP-ASN,47237,no-resolve
   - IP-ASN,41750,no-resolve
   - IP-ASN,8511,no-resolve
@@ -36,7 +36,6 @@ payload:
   - IP-ASN,207250,no-resolve
   - IP-ASN,205204,no-resolve
   - IP-ASN,201591,no-resolve
-  - IP-ASN,199011,no-resolve
   - IP-ASN,198629,no-resolve
   - IP-ASN,197119,no-resolve
   - IP-ASN,59684,no-resolve
@@ -64,3 +63,4 @@ payload:
   - IP-ASN,204674,no-resolve
   - IP-ASN,204416,no-resolve
   - IP-ASN,202773,no-resolve
+  - IP-ASN,199011,no-resolve
