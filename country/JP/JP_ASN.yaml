@@ -1,5 +1,5 @@
 # JP 的 ASN 信息
-# 最后更新： CST 2025-11-22 00:54:33
+# 最后更新： CST 2025-11-23 00:51:44
 # ASN: 746
 # 由 Kwisma 制作，保留所有权利。
 
@@ -37,12 +37,12 @@ payload:
   - IP-ASN,7670,no-resolve
   - IP-ASN,59125,no-resolve
   - IP-ASN,7660,no-resolve
+  - IP-ASN,9607,no-resolve
   - IP-ASN,17961,no-resolve
   - IP-ASN,17534,no-resolve
-  - IP-ASN,9607,no-resolve
+  - IP-ASN,9371,no-resolve
   - IP-ASN,17686,no-resolve
   - IP-ASN,138384,no-resolve
-  - IP-ASN,9371,no-resolve
   - IP-ASN,7524,no-resolve
   - IP-ASN,131948,no-resolve
   - IP-ASN,4685,no-resolve
@@ -161,6 +161,7 @@ payload:
   - IP-ASN,150363,no-resolve
   - IP-ASN,131921,no-resolve
   - IP-ASN,131161,no-resolve
+  - IP-ASN,10021,no-resolve
   - IP-ASN,9601,no-resolve
   - IP-ASN,4675,no-resolve
   - IP-ASN,45687,no-resolve
@@ -174,7 +175,6 @@ payload:
   - IP-ASN,18125,no-resolve
   - IP-ASN,131970,no-resolve
   - IP-ASN,131926,no-resolve
-  - IP-ASN,10021,no-resolve
   - IP-ASN,7676,no-resolve
   - IP-ASN,7671,no-resolve
   - IP-ASN,63779,no-resolve
@@ -223,6 +223,7 @@ payload:
   - IP-ASN,59127,no-resolve
   - IP-ASN,55387,no-resolve
   - IP-ASN,4785,no-resolve
+  - IP-ASN,24282,no-resolve
   - IP-ASN,24262,no-resolve
   - IP-ASN,23779,no-resolve
   - IP-ASN,23633,no-resolve
@@ -241,7 +242,6 @@ payload:
   - IP-ASN,58650,no-resolve
   - IP-ASN,37919,no-resolve
   - IP-ASN,24572,no-resolve
-  - IP-ASN,24282,no-resolve
   - IP-ASN,23774,no-resolve
   - IP-ASN,23620,no-resolve
   - IP-ASN,17675,no-resolve
@@ -323,6 +323,7 @@ payload:
   - IP-ASN,131988,no-resolve
   - IP-ASN,131912,no-resolve
   - IP-ASN,131910,no-resolve
+  - IP-ASN,131159,no-resolve
   - IP-ASN,9367,no-resolve
   - IP-ASN,7677,no-resolve
   - IP-ASN,7527,no-resolve
@@ -355,12 +356,10 @@ payload:
   - IP-ASN,142622,no-resolve
   - IP-ASN,139345,no-resolve
   - IP-ASN,137819,no-resolve
-  - IP-ASN,136178,no-resolve
   - IP-ASN,135372,no-resolve
   - IP-ASN,133900,no-resolve
   - IP-ASN,132211,no-resolve
   - IP-ASN,131917,no-resolve
-  - IP-ASN,131159,no-resolve
   - IP-ASN,9991,no-resolve
   - IP-ASN,9591,no-resolve
   - IP-ASN,9466,no-resolve
@@ -503,6 +502,7 @@ payload:
   - IP-ASN,136779,no-resolve
   - IP-ASN,136586,no-resolve
   - IP-ASN,136506,no-resolve
+  - IP-ASN,136178,no-resolve
   - IP-ASN,133782,no-resolve
   - IP-ASN,133180,no-resolve
   - IP-ASN,132827,no-resolve

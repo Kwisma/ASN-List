@@ -1,6 +1,6 @@
 # BE 的 ASN 信息
-# 最后更新： CST 2025-11-22 00:54:46
-# ASN: 295
+# 最后更新： CST 2025-11-23 00:52:00
+# ASN: 296
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -45,9 +45,9 @@ payload:
   - IP-ASN,48408,no-resolve
   - IP-ASN,201205,no-resolve
   - IP-ASN,5432,no-resolve
+  - IP-ASN,198148,no-resolve
   - IP-ASN,48638,no-resolve
   - IP-ASN,13226,no-resolve
-  - IP-ASN,198148,no-resolve
   - IP-ASN,49677,no-resolve
   - IP-ASN,34144,no-resolve
   - IP-ASN,42160,no-resolve
@@ -112,6 +112,7 @@ payload:
   - IP-ASN,48517,no-resolve
   - IP-ASN,48192,no-resolve
   - IP-ASN,47780,no-resolve
+  - IP-ASN,47346,no-resolve
   - IP-ASN,44806,no-resolve
   - IP-ASN,42851,no-resolve
   - IP-ASN,42165,no-resolve
@@ -197,7 +198,6 @@ payload:
   - IP-ASN,48260,no-resolve
   - IP-ASN,47861,no-resolve
   - IP-ASN,47688,no-resolve
-  - IP-ASN,47346,no-resolve
   - IP-ASN,44312,no-resolve
   - IP-ASN,44140,no-resolve
   - IP-ASN,43324,no-resolve
@@ -226,6 +226,7 @@ payload:
   - IP-ASN,21489,no-resolve
   - IP-ASN,21474,no-resolve
   - IP-ASN,214545,no-resolve
+  - IP-ASN,214445,no-resolve
   - IP-ASN,214327,no-resolve
   - IP-ASN,214255,no-resolve
   - IP-ASN,214130,no-resolve
