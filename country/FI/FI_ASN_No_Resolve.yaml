@@ -1,9 +1,10 @@
 # FI 的 ASN 信息
-# 最后更新： CST 2025-12-06 00:54:51
+# 最后更新： CST 2025-12-07 00:52:20
 # ASN: 304
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
+  - IP-ASN,41666
   - IP-ASN,6667
   - IP-ASN,214809
   - IP-ASN,1248
@@ -12,10 +13,9 @@ payload:
   - IP-ASN,39699
   - IP-ASN,16086
   - IP-ASN,1301
+  - IP-ASN,719
   - IP-ASN,13170
   - IP-ASN,1759
-  - IP-ASN,719
-  - IP-ASN,41666
   - IP-ASN,16302
   - IP-ASN,3238
   - IP-ASN,199508
@@ -36,14 +36,13 @@ payload:
   - IP-ASN,215605
   - IP-ASN,199231
   - IP-ASN,29432
-  - IP-ASN,29243
   - IP-ASN,8829
   - IP-ASN,8236
   - IP-ASN,51728
   - IP-ASN,51164
   - IP-ASN,50377
-  - IP-ASN,39242
   - IP-ASN,30798
+  - IP-ASN,29243
   - IP-ASN,206175
   - IP-ASN,201991
   - IP-ASN,8145
@@ -58,6 +57,7 @@ payload:
   - IP-ASN,49283
   - IP-ASN,39662
   - IP-ASN,39287
+  - IP-ASN,39242
   - IP-ASN,39194
   - IP-ASN,34541
   - IP-ASN,34414
