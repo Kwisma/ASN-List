@@ -1,19 +1,19 @@
 # KE 的 ASN 信息
-# 最后更新： CST 2025-12-08 00:52:23
-# ASN: 198
+# 最后更新： CST 2025-12-09 00:55:06
+# ASN: 199
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,328977,no-resolve
+  - IP-ASN,207113,no-resolve
   - IP-ASN,329583,no-resolve
   - IP-ASN,37061,no-resolve
   - IP-ASN,15808,no-resolve
   - IP-ASN,36926,no-resolve
-  - IP-ASN,207113,no-resolve
   - IP-ASN,36866,no-resolve
   - IP-ASN,329029,no-resolve
-  - IP-ASN,37684,no-resolve
   - IP-ASN,328490,no-resolve
+  - IP-ASN,37684,no-resolve
   - IP-ASN,33771,no-resolve
   - IP-ASN,15399,no-resolve
   - IP-ASN,328578,no-resolve
@@ -47,6 +47,7 @@ payload:
   - IP-ASN,329174,no-resolve
   - IP-ASN,329111,no-resolve
   - IP-ASN,329033,no-resolve
+  - IP-ASN,329014,no-resolve
   - IP-ASN,328993,no-resolve
   - IP-ASN,328986,no-resolve
   - IP-ASN,328975,no-resolve
@@ -61,14 +62,13 @@ payload:
   - IP-ASN,329272,no-resolve
   - IP-ASN,329239,no-resolve
   - IP-ASN,329183,no-resolve
-  - IP-ASN,329014,no-resolve
+  - IP-ASN,328989,no-resolve
   - IP-ASN,328846,no-resolve
   - IP-ASN,328479,no-resolve
   - IP-ASN,329622,no-resolve
   - IP-ASN,329504,no-resolve
   - IP-ASN,329411,no-resolve
   - IP-ASN,328994,no-resolve
-  - IP-ASN,328989,no-resolve
   - IP-ASN,328301,no-resolve
   - IP-ASN,328296,no-resolve
   - IP-ASN,327906,no-resolve
@@ -76,11 +76,11 @@ payload:
   - IP-ASN,329518,no-resolve
   - IP-ASN,329497,no-resolve
   - IP-ASN,329373,no-resolve
+  - IP-ASN,329177,no-resolve
   - IP-ASN,328331,no-resolve
   - IP-ASN,328162,no-resolve
   - IP-ASN,37298,no-resolve
   - IP-ASN,329190,no-resolve
-  - IP-ASN,329177,no-resolve
   - IP-ASN,329021,no-resolve
   - IP-ASN,37421,no-resolve
   - IP-ASN,37019,no-resolve
@@ -88,7 +88,6 @@ payload:
   - IP-ASN,329135,no-resolve
   - IP-ASN,329110,no-resolve
   - IP-ASN,37052,no-resolve
-  - IP-ASN,329658,no-resolve
   - IP-ASN,329538,no-resolve
   - IP-ASN,329422,no-resolve
   - IP-ASN,329341,no-resolve
@@ -111,6 +110,7 @@ payload:
   - IP-ASN,37156,no-resolve
   - IP-ASN,36975,no-resolve
   - IP-ASN,36904,no-resolve
+  - IP-ASN,329658,no-resolve
   - IP-ASN,329621,no-resolve
   - IP-ASN,329528,no-resolve
   - IP-ASN,329426,no-resolve
@@ -161,6 +161,7 @@ payload:
   - IP-ASN,37165,no-resolve
   - IP-ASN,36967,no-resolve
   - IP-ASN,329670,no-resolve
+  - IP-ASN,329664,no-resolve
   - IP-ASN,329636,no-resolve
   - IP-ASN,329635,no-resolve
   - IP-ASN,329596,no-resolve
