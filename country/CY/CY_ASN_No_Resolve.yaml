@@ -1,11 +1,11 @@
 # CY 的 ASN 信息
-# 最后更新： CST 2025-12-11 00:58:40
-# ASN: 128
+# 最后更新： CST 2025-12-12 00:57:33
+# ASN: 132
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,6866
   - IP-ASN,8544
+  - IP-ASN,6866
   - IP-ASN,35432
   - IP-ASN,202954
   - IP-ASN,204995
@@ -110,6 +110,9 @@ payload:
   - IP-ASN,207431
   - IP-ASN,206962
   - IP-ASN,206912
+  - IP-ASN,206164
+  - IP-ASN,206150
+  - IP-ASN,206092
   - IP-ASN,206044
   - IP-ASN,205972
   - IP-ASN,205186
@@ -131,4 +134,5 @@ payload:
   - IP-ASN,44364
   - IP-ASN,34775
   - IP-ASN,209716
+  - IP-ASN,206074
   - IP-ASN,198268
