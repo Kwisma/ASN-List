@@ -1,13 +1,13 @@
 # PE 的 ASN 信息
-# 最后更新： CST 2025-12-13 00:53:51
-# ASN: 173
+# 最后更新： CST 2025-12-14 00:53:46
+# ASN: 174
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,21575,no-resolve
   - IP-ASN,262253,no-resolve
-  - IP-ASN,27843,no-resolve
   - IP-ASN,6147,no-resolve
+  - IP-ASN,27843,no-resolve
   - IP-ASN,3132,no-resolve
   - IP-ASN,12252,no-resolve
   - IP-ASN,273976,no-resolve
@@ -26,17 +26,16 @@ payload:
   - IP-ASN,64116,no-resolve
   - IP-ASN,263681,no-resolve
   - IP-ASN,269862,no-resolve
+  - IP-ASN,273000,no-resolve
   - IP-ASN,272848,no-resolve
   - IP-ASN,272004,no-resolve
   - IP-ASN,271835,no-resolve
+  - IP-ASN,269843,no-resolve
   - IP-ASN,266732,no-resolve
   - IP-ASN,263229,no-resolve
   - IP-ASN,263185,no-resolve
   - IP-ASN,273026,no-resolve
-  - IP-ASN,273000,no-resolve
   - IP-ASN,270068,no-resolve
-  - IP-ASN,269843,no-resolve
-  - IP-ASN,266716,no-resolve
   - IP-ASN,64120,no-resolve
   - IP-ASN,273881,no-resolve
   - IP-ASN,273112,no-resolve
@@ -55,6 +54,8 @@ payload:
   - IP-ASN,270082,no-resolve
   - IP-ASN,274162,no-resolve
   - IP-ASN,274116,no-resolve
+  - IP-ASN,274087,no-resolve
+  - IP-ASN,273108,no-resolve
   - IP-ASN,272979,no-resolve
   - IP-ASN,272816,no-resolve
   - IP-ASN,271862,no-resolve
@@ -65,10 +66,8 @@ payload:
   - IP-ASN,269981,no-resolve
   - IP-ASN,28032,no-resolve
   - IP-ASN,274148,no-resolve
-  - IP-ASN,274087,no-resolve
   - IP-ASN,273983,no-resolve
   - IP-ASN,273882,no-resolve
-  - IP-ASN,273108,no-resolve
   - IP-ASN,273086,no-resolve
   - IP-ASN,271861,no-resolve
   - IP-ASN,271842,no-resolve
@@ -77,6 +76,7 @@ payload:
   - IP-ASN,269938,no-resolve
   - IP-ASN,267831,no-resolve
   - IP-ASN,266859,no-resolve
+  - IP-ASN,266716,no-resolve
   - IP-ASN,265869,no-resolve
   - IP-ASN,264783,no-resolve
   - IP-ASN,263189,no-resolve
@@ -171,6 +171,7 @@ payload:
   - IP-ASN,273868,no-resolve
   - IP-ASN,273200,no-resolve
   - IP-ASN,273118,no-resolve
+  - IP-ASN,273117,no-resolve
   - IP-ASN,273053,no-resolve
   - IP-ASN,272997,no-resolve
   - IP-ASN,272923,no-resolve
