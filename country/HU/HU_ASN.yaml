@@ -1,12 +1,12 @@
 # HU 的 ASN 信息
-# 最后更新： CST 2025-12-15 00:54:25
+# 最后更新： CST 2025-12-16 00:59:05
 # ASN: 235
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,12301,no-resolve
-  - IP-ASN,35311,no-resolve
   - IP-ASN,8462,no-resolve
+  - IP-ASN,35311,no-resolve
   - IP-ASN,5483,no-resolve
   - IP-ASN,206892,no-resolve
   - IP-ASN,29278,no-resolve
@@ -46,6 +46,7 @@ payload:
   - IP-ASN,29657,no-resolve
   - IP-ASN,210788,no-resolve
   - IP-ASN,207349,no-resolve
+  - IP-ASN,200964,no-resolve
   - IP-ASN,61998,no-resolve
   - IP-ASN,24822,no-resolve
   - IP-ASN,208126,no-resolve
@@ -113,7 +114,6 @@ payload:
   - IP-ASN,204168,no-resolve
   - IP-ASN,201568,no-resolve
   - IP-ASN,201355,no-resolve
-  - IP-ASN,200964,no-resolve
   - IP-ASN,200933,no-resolve
   - IP-ASN,200864,no-resolve
   - IP-ASN,198223,no-resolve
