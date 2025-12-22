@@ -1,5 +1,5 @@
 # AR 的 ASN 信息
-# 最后更新： CST 2025-12-22 00:53:10
+# 最后更新： CST 2025-12-23 00:55:10
 # ASN: 1076
 # 由 Kwisma 制作，保留所有权利。
 
@@ -78,7 +78,6 @@ payload:
   - IP-ASN,262216,no-resolve
   - IP-ASN,262194,no-resolve
   - IP-ASN,19889,no-resolve
-  - IP-ASN,12150,no-resolve
   - IP-ASN,64118,no-resolve
   - IP-ASN,64103,no-resolve
   - IP-ASN,61449,no-resolve
@@ -94,10 +93,10 @@ payload:
   - IP-ASN,265816,no-resolve
   - IP-ASN,265798,no-resolve
   - IP-ASN,265715,no-resolve
-  - IP-ASN,265634,no-resolve
   - IP-ASN,264800,no-resolve
   - IP-ASN,262249,no-resolve
   - IP-ASN,13474,no-resolve
+  - IP-ASN,12150,no-resolve
   - IP-ASN,61487,no-resolve
   - IP-ASN,52507,no-resolve
   - IP-ASN,52436,no-resolve
@@ -116,6 +115,7 @@ payload:
   - IP-ASN,267816,no-resolve
   - IP-ASN,266884,no-resolve
   - IP-ASN,266793,no-resolve
+  - IP-ASN,265634,no-resolve
   - IP-ASN,264797,no-resolve
   - IP-ASN,264785,no-resolve
   - IP-ASN,264758,no-resolve
@@ -294,6 +294,7 @@ payload:
   - IP-ASN,27960,no-resolve
   - IP-ASN,27881,no-resolve
   - IP-ASN,27879,no-resolve
+  - IP-ASN,27865,no-resolve
   - IP-ASN,27827,no-resolve
   - IP-ASN,27822,no-resolve
   - IP-ASN,27797,no-resolve
@@ -461,9 +462,7 @@ payload:
   - IP-ASN,27934,no-resolve
   - IP-ASN,27907,no-resolve
   - IP-ASN,27894,no-resolve
-  - IP-ASN,27883,no-resolve
   - IP-ASN,27875,no-resolve
-  - IP-ASN,27865,no-resolve
   - IP-ASN,27830,no-resolve
   - IP-ASN,27770,no-resolve
   - IP-ASN,27674,no-resolve
@@ -1067,6 +1066,7 @@ payload:
   - IP-ASN,10671,no-resolve
   - IP-ASN,10452,no-resolve
   - IP-ASN,10277,no-resolve
+  - IP-ASN,27883,no-resolve
   - IP-ASN,274236,no-resolve
   - IP-ASN,274127,no-resolve
   - IP-ASN,274101,no-resolve
