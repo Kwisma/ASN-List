@@ -1,5 +1,5 @@
 # TR 的 ASN 信息
-# 最后更新： CST 2025-12-28 00:55:02
+# 最后更新： CST 2025-12-29 00:54:48
 # ASN: 813
 # 由 Kwisma 制作，保留所有权利。
 
@@ -7,11 +7,11 @@ payload:
   - IP-ASN,6823,no-resolve
   - IP-ASN,57152,no-resolve
   - IP-ASN,208972,no-resolve
-  - IP-ASN,44620,no-resolve
   - IP-ASN,12735,no-resolve
+  - IP-ASN,44620,no-resolve
   - IP-ASN,9121,no-resolve
-  - IP-ASN,204457,no-resolve
   - IP-ASN,34984,no-resolve
+  - IP-ASN,204457,no-resolve
   - IP-ASN,202365,no-resolve
   - IP-ASN,6205,no-resolve
   - IP-ASN,21245,no-resolve
@@ -73,7 +73,10 @@ payload:
   - IP-ASN,47883,no-resolve
   - IP-ASN,44558,no-resolve
   - IP-ASN,43356,no-resolve
+  - IP-ASN,42083,no-resolve
   - IP-ASN,33830,no-resolve
+  - IP-ASN,216199,no-resolve
+  - IP-ASN,216192,no-resolve
   - IP-ASN,213642,no-resolve
   - IP-ASN,213282,no-resolve
   - IP-ASN,208594,no-resolve
@@ -98,8 +101,6 @@ payload:
   - IP-ASN,50264,no-resolve
   - IP-ASN,49029,no-resolve
   - IP-ASN,44565,no-resolve
-  - IP-ASN,42083,no-resolve
-  - IP-ASN,41155,no-resolve
   - IP-ASN,41077,no-resolve
   - IP-ASN,39095,no-resolve
   - IP-ASN,35079,no-resolve
@@ -108,8 +109,6 @@ payload:
   - IP-ASN,29434,no-resolve
   - IP-ASN,28746,no-resolve
   - IP-ASN,216422,no-resolve
-  - IP-ASN,216199,no-resolve
-  - IP-ASN,216192,no-resolve
   - IP-ASN,215391,no-resolve
   - IP-ASN,215238,no-resolve
   - IP-ASN,214466,no-resolve
@@ -169,9 +168,11 @@ payload:
   - IP-ASN,51695,no-resolve
   - IP-ASN,51683,no-resolve
   - IP-ASN,51625,no-resolve
+  - IP-ASN,51533,no-resolve
   - IP-ASN,51435,no-resolve
   - IP-ASN,51206,no-resolve
   - IP-ASN,51174,no-resolve
+  - IP-ASN,50528,no-resolve
   - IP-ASN,50135,no-resolve
   - IP-ASN,50055,no-resolve
   - IP-ASN,49861,no-resolve
@@ -193,6 +194,7 @@ payload:
   - IP-ASN,42287,no-resolve
   - IP-ASN,41902,no-resolve
   - IP-ASN,41735,no-resolve
+  - IP-ASN,41155,no-resolve
   - IP-ASN,39841,no-resolve
   - IP-ASN,39172,no-resolve
   - IP-ASN,35367,no-resolve
@@ -406,12 +408,10 @@ payload:
   - IP-ASN,51575,no-resolve
   - IP-ASN,51566,no-resolve
   - IP-ASN,51557,no-resolve
-  - IP-ASN,51533,no-resolve
   - IP-ASN,51476,no-resolve
   - IP-ASN,51361,no-resolve
   - IP-ASN,50913,no-resolve
   - IP-ASN,50565,no-resolve
-  - IP-ASN,50528,no-resolve
   - IP-ASN,50111,no-resolve
   - IP-ASN,50090,no-resolve
   - IP-ASN,49887,no-resolve

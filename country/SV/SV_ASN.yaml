@@ -1,14 +1,14 @@
 # SV 的 ASN 信息
-# 最后更新： CST 2025-12-28 00:55:24
+# 最后更新： CST 2025-12-29 00:55:07
 # ASN: 38
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,264635,no-resolve
+  - IP-ASN,265780,no-resolve
   - IP-ASN,263783,no-resolve
   - IP-ASN,16592,no-resolve
   - IP-ASN,27708,no-resolve
-  - IP-ASN,265780,no-resolve
   - IP-ASN,262199,no-resolve
   - IP-ASN,262179,no-resolve
   - IP-ASN,16906,no-resolve
@@ -32,6 +32,7 @@ payload:
   - IP-ASN,27773,no-resolve
   - IP-ASN,274006,no-resolve
   - IP-ASN,273859,no-resolve
+  - IP-ASN,273827,no-resolve
   - IP-ASN,269769,no-resolve
   - IP-ASN,267860,no-resolve
   - IP-ASN,267768,no-resolve
@@ -41,4 +42,3 @@ payload:
   - IP-ASN,265650,no-resolve
   - IP-ASN,264662,no-resolve
   - IP-ASN,17079,no-resolve
-  - IP-ASN,273827,no-resolve
