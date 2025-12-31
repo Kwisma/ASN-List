@@ -1,6 +1,6 @@
 # AL 的 ASN 信息
-# 最后更新： CST 2025-12-31 00:57:24
-# ASN: 120
+# 最后更新： CST 2026-01-01 00:56:43
+# ASN: 121
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -15,8 +15,8 @@ payload:
   - IP-ASN,33983,no-resolve
   - IP-ASN,47394,no-resolve
   - IP-ASN,213683,no-resolve
-  - IP-ASN,48014,no-resolve
   - IP-ASN,21246,no-resolve
+  - IP-ASN,48014,no-resolve
   - IP-ASN,197706,no-resolve
   - IP-ASN,21183,no-resolve
   - IP-ASN,207876,no-resolve
@@ -26,11 +26,11 @@ payload:
   - IP-ASN,47588,no-resolve
   - IP-ASN,39611,no-resolve
   - IP-ASN,35444,no-resolve
+  - IP-ASN,8661,no-resolve
   - IP-ASN,57961,no-resolve
   - IP-ASN,56468,no-resolve
   - IP-ASN,33924,no-resolve
   - IP-ASN,203063,no-resolve
-  - IP-ASN,8661,no-resolve
   - IP-ASN,60352,no-resolve
   - IP-ASN,48265,no-resolve
   - IP-ASN,211468,no-resolve
@@ -46,12 +46,14 @@ payload:
   - IP-ASN,56782,no-resolve
   - IP-ASN,5576,no-resolve
   - IP-ASN,5414,no-resolve
+  - IP-ASN,50091,no-resolve
   - IP-ASN,29238,no-resolve
   - IP-ASN,216312,no-resolve
   - IP-ASN,216280,no-resolve
   - IP-ASN,215946,no-resolve
   - IP-ASN,215883,no-resolve
   - IP-ASN,215773,no-resolve
+  - IP-ASN,214345,no-resolve
   - IP-ASN,213900,no-resolve
   - IP-ASN,211356,no-resolve
   - IP-ASN,211080,no-resolve
@@ -68,7 +70,6 @@ payload:
   - IP-ASN,199276,no-resolve
   - IP-ASN,6843,no-resolve
   - IP-ASN,50616,no-resolve
-  - IP-ASN,50091,no-resolve
   - IP-ASN,43272,no-resolve
   - IP-ASN,42409,no-resolve
   - IP-ASN,39237,no-resolve
@@ -80,7 +81,6 @@ payload:
   - IP-ASN,215885,no-resolve
   - IP-ASN,215707,no-resolve
   - IP-ASN,215025,no-resolve
-  - IP-ASN,214345,no-resolve
   - IP-ASN,213612,no-resolve
   - IP-ASN,213363,no-resolve
   - IP-ASN,213295,no-resolve
@@ -123,4 +123,5 @@ payload:
   - IP-ASN,197445,no-resolve
   - IP-ASN,196838,no-resolve
   - IP-ASN,12783,no-resolve
+  - IP-ASN,31130,no-resolve
   - IP-ASN,214469,no-resolve
