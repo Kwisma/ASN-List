@@ -1,6 +1,6 @@
 # VE 的 ASN 信息
-# 最后更新： CST 2026-01-05 00:55:28
-# ASN: 195
+# 最后更新： CST 2026-01-06 01:02:34
+# ASN: 194
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -33,6 +33,7 @@ payload:
   - IP-ASN,21980,no-resolve
   - IP-ASN,28012,no-resolve
   - IP-ASN,27957,no-resolve
+  - IP-ASN,272864,no-resolve
   - IP-ASN,10293,no-resolve
   - IP-ASN,7965,no-resolve
   - IP-ASN,52285,no-resolve
@@ -45,10 +46,8 @@ payload:
   - IP-ASN,273173,no-resolve
   - IP-ASN,273154,no-resolve
   - IP-ASN,273093,no-resolve
-  - IP-ASN,273007,no-resolve
   - IP-ASN,272955,no-resolve
   - IP-ASN,272907,no-resolve
-  - IP-ASN,272864,no-resolve
   - IP-ASN,272118,no-resolve
   - IP-ASN,271939,no-resolve
   - IP-ASN,271855,no-resolve
@@ -76,6 +75,7 @@ payload:
   - IP-ASN,273069,no-resolve
   - IP-ASN,273011,no-resolve
   - IP-ASN,273010,no-resolve
+  - IP-ASN,273007,no-resolve
   - IP-ASN,272874,no-resolve
   - IP-ASN,272871,no-resolve
   - IP-ASN,272814,no-resolve
@@ -187,7 +187,6 @@ payload:
   - IP-ASN,264660,no-resolve
   - IP-ASN,263701,no-resolve
   - IP-ASN,262203,no-resolve
-  - IP-ASN,26194,no-resolve
   - IP-ASN,23007,no-resolve
   - IP-ASN,22726,no-resolve
   - IP-ASN,22313,no-resolve
