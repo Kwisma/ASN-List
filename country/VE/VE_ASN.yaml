@@ -1,6 +1,6 @@
 # VE 的 ASN 信息
-# 最后更新： CST 2026-01-13 00:59:08
-# ASN: 194
+# 最后更新： CST 2026-01-14 01:02:26
+# ASN: 195
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -13,8 +13,8 @@ payload:
   - IP-ASN,8048,no-resolve
   - IP-ASN,27717,no-resolve
   - IP-ASN,269832,no-resolve
-  - IP-ASN,8053,no-resolve
   - IP-ASN,269730,no-resolve
+  - IP-ASN,8053,no-resolve
   - IP-ASN,269946,no-resolve
   - IP-ASN,264628,no-resolve
   - IP-ASN,6306,no-resolve
@@ -159,6 +159,7 @@ payload:
   - IP-ASN,271920,no-resolve
   - IP-ASN,271917,no-resolve
   - IP-ASN,271884,no-resolve
+  - IP-ASN,271875,no-resolve
   - IP-ASN,271812,no-resolve
   - IP-ASN,271793,no-resolve
   - IP-ASN,269984,no-resolve

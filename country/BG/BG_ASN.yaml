@@ -1,6 +1,6 @@
 # BG 的 ASN 信息
-# 最后更新： CST 2026-01-13 00:58:57
-# ASN: 671
+# 最后更新： CST 2026-01-14 01:02:18
+# ASN: 670
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -18,10 +18,10 @@ payload:
   - IP-ASN,59711,no-resolve
   - IP-ASN,43205,no-resolve
   - IP-ASN,199790,no-resolve
+  - IP-ASN,59900,no-resolve
   - IP-ASN,42459,no-resolve
   - IP-ASN,12615,no-resolve
   - IP-ASN,50020,no-resolve
-  - IP-ASN,59900,no-resolve
   - IP-ASN,31029,no-resolve
   - IP-ASN,8860,no-resolve
   - IP-ASN,29687,no-resolve
@@ -53,8 +53,8 @@ payload:
   - IP-ASN,49176,no-resolve
   - IP-ASN,203380,no-resolve
   - IP-ASN,206383,no-resolve
-  - IP-ASN,61071,no-resolve
   - IP-ASN,203391,no-resolve
+  - IP-ASN,61071,no-resolve
   - IP-ASN,213039,no-resolve
   - IP-ASN,203182,no-resolve
   - IP-ASN,13172,no-resolve
@@ -146,8 +146,6 @@ payload:
   - IP-ASN,59582,no-resolve
   - IP-ASN,47748,no-resolve
   - IP-ASN,41019,no-resolve
-  - IP-ASN,216145,no-resolve
-  - IP-ASN,213640,no-resolve
   - IP-ASN,212605,no-resolve
   - IP-ASN,207691,no-resolve
   - IP-ASN,199221,no-resolve
@@ -336,8 +334,10 @@ payload:
   - IP-ASN,25147,no-resolve
   - IP-ASN,25076,no-resolve
   - IP-ASN,24693,no-resolve
+  - IP-ASN,216145,no-resolve
   - IP-ASN,215941,no-resolve
   - IP-ASN,215888,no-resolve
+  - IP-ASN,213640,no-resolve
   - IP-ASN,213357,no-resolve
   - IP-ASN,213093,no-resolve
   - IP-ASN,213090,no-resolve
@@ -670,7 +670,6 @@ payload:
   - IP-ASN,59872,no-resolve
   - IP-ASN,43426,no-resolve
   - IP-ASN,42372,no-resolve
-  - IP-ASN,34565,no-resolve
   - IP-ASN,215122,no-resolve
   - IP-ASN,209577,no-resolve
   - IP-ASN,200301,no-resolve
