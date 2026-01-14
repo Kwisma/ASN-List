@@ -1,6 +1,6 @@
 # IL 的 ASN 信息
-# 最后更新： CST 2026-01-14 01:02:25
-# ASN: 315
+# 最后更新： CST 2026-01-15 01:01:09
+# ASN: 312
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -47,8 +47,8 @@ payload:
   - IP-ASN,25046,no-resolve
   - IP-ASN,21350,no-resolve
   - IP-ASN,213038,no-resolve
+  - IP-ASN,207106,no-resolve
   - IP-ASN,205303,no-resolve
-  - IP-ASN,198256,no-resolve
   - IP-ASN,8894,no-resolve
   - IP-ASN,58182,no-resolve
   - IP-ASN,56804,no-resolve
@@ -73,12 +73,12 @@ payload:
   - IP-ASN,214863,no-resolve
   - IP-ASN,214523,no-resolve
   - IP-ASN,210560,no-resolve
-  - IP-ASN,207106,no-resolve
   - IP-ASN,204257,no-resolve
   - IP-ASN,202597,no-resolve
   - IP-ASN,201076,no-resolve
   - IP-ASN,199393,no-resolve
   - IP-ASN,198492,no-resolve
+  - IP-ASN,198256,no-resolve
   - IP-ASN,16061,no-resolve
   - IP-ASN,13093,no-resolve
   - IP-ASN,12988,no-resolve
@@ -207,11 +207,8 @@ payload:
   - IP-ASN,43739,no-resolve
   - IP-ASN,43514,no-resolve
   - IP-ASN,43194,no-resolve
-  - IP-ASN,43181,no-resolve
-  - IP-ASN,43165,no-resolve
   - IP-ASN,42793,no-resolve
   - IP-ASN,42647,no-resolve
-  - IP-ASN,42243,no-resolve
   - IP-ASN,41927,no-resolve
   - IP-ASN,41924,no-resolve
   - IP-ASN,41923,no-resolve
