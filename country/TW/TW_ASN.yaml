@@ -1,12 +1,12 @@
 # TW 的 ASN 信息
-# 最后更新： CST 2026-01-17 00:59:40
-# ASN: 288
+# 最后更新： CST 2026-01-18 00:55:17
+# ASN: 289
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,205329,no-resolve
-  - IP-ASN,9505,no-resolve
   - IP-ASN,134823,no-resolve
+  - IP-ASN,9505,no-resolve
   - IP-ASN,3462,no-resolve
   - IP-ASN,9924,no-resolve
   - IP-ASN,17408,no-resolve
@@ -45,15 +45,16 @@ payload:
   - IP-ASN,10135,no-resolve
   - IP-ASN,9922,no-resolve
   - IP-ASN,150766,no-resolve
+  - IP-ASN,131634,no-resolve
   - IP-ASN,9915,no-resolve
   - IP-ASN,7481,no-resolve
-  - IP-ASN,131634,no-resolve
   - IP-ASN,131627,no-resolve
   - IP-ASN,131273,no-resolve
   - IP-ASN,38841,no-resolve
   - IP-ASN,18182,no-resolve
   - IP-ASN,17809,no-resolve
   - IP-ASN,17718,no-resolve
+  - IP-ASN,152626,no-resolve
   - IP-ASN,150771,no-resolve
   - IP-ASN,150755,no-resolve
   - IP-ASN,131666,no-resolve
@@ -61,17 +62,16 @@ payload:
   - IP-ASN,212358,no-resolve
   - IP-ASN,18424,no-resolve
   - IP-ASN,17415,no-resolve
+  - IP-ASN,151188,no-resolve
   - IP-ASN,131643,no-resolve
   - IP-ASN,55789,no-resolve
   - IP-ASN,38856,no-resolve
   - IP-ASN,38852,no-resolve
   - IP-ASN,18428,no-resolve
   - IP-ASN,152615,no-resolve
-  - IP-ASN,151188,no-resolve
   - IP-ASN,131645,no-resolve
   - IP-ASN,7536,no-resolve
   - IP-ASN,7532,no-resolve
-  - IP-ASN,152626,no-resolve
   - IP-ASN,152619,no-resolve
   - IP-ASN,150770,no-resolve
   - IP-ASN,131618,no-resolve
@@ -255,6 +255,7 @@ payload:
   - IP-ASN,63896,no-resolve
   - IP-ASN,57429,no-resolve
   - IP-ASN,38839,no-resolve
+  - IP-ASN,216198,no-resolve
   - IP-ASN,216123,no-resolve
   - IP-ASN,215993,no-resolve
   - IP-ASN,215934,no-resolve
