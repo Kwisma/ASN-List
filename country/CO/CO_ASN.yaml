@@ -1,5 +1,5 @@
 # CO 的 ASN 信息
-# 最后更新： CST 2026-01-18 00:55:16
+# 最后更新： CST 2026-01-19 00:56:07
 # ASN: 386
 # 由 Kwisma 制作，保留所有权利。
 
@@ -108,6 +108,7 @@ payload:
   - IP-ASN,52335,no-resolve
   - IP-ASN,52258,no-resolve
   - IP-ASN,52247,no-resolve
+  - IP-ASN,28039,no-resolve
   - IP-ASN,27753,no-resolve
   - IP-ASN,27731,no-resolve
   - IP-ASN,27695,no-resolve
@@ -129,7 +130,6 @@ payload:
   - IP-ASN,273221,no-resolve
   - IP-ASN,273138,no-resolve
   - IP-ASN,273134,no-resolve
-  - IP-ASN,273132,no-resolve
   - IP-ASN,273099,no-resolve
   - IP-ASN,273082,no-resolve
   - IP-ASN,273080,no-resolve
@@ -207,11 +207,11 @@ payload:
   - IP-ASN,52434,no-resolve
   - IP-ASN,52256,no-resolve
   - IP-ASN,28085,no-resolve
-  - IP-ASN,28039,no-resolve
   - IP-ASN,27921,no-resolve
   - IP-ASN,27864,no-resolve
   - IP-ASN,27831,no-resolve
   - IP-ASN,27805,no-resolve
+  - IP-ASN,274249,no-resolve
   - IP-ASN,274237,no-resolve
   - IP-ASN,274226,no-resolve
   - IP-ASN,274208,no-resolve
@@ -242,6 +242,7 @@ payload:
   - IP-ASN,273172,no-resolve
   - IP-ASN,273153,no-resolve
   - IP-ASN,273145,no-resolve
+  - IP-ASN,273132,no-resolve
   - IP-ASN,273131,no-resolve
   - IP-ASN,273122,no-resolve
   - IP-ASN,273102,no-resolve
@@ -324,7 +325,6 @@ payload:
   - IP-ASN,262158,no-resolve
   - IP-ASN,22368,no-resolve
   - IP-ASN,10620,no-resolve
-  - IP-ASN,274249,no-resolve
   - IP-ASN,274211,no-resolve
   - IP-ASN,274200,no-resolve
   - IP-ASN,274187,no-resolve
