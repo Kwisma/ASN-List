@@ -1,9 +1,10 @@
 # EC 的 ASN 信息
-# 最后更新： CST 2026-01-22 01:08:20
+# 最后更新： CST 2026-01-23 01:03:54
 # ASN: 220
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
+  - IP-ASN,265629,no-resolve
   - IP-ASN,27947,no-resolve
   - IP-ASN,22724,no-resolve
   - IP-ASN,19114,no-resolve
@@ -28,7 +29,6 @@ payload:
   - IP-ASN,267756,no-resolve
   - IP-ASN,265762,no-resolve
   - IP-ASN,265724,no-resolve
-  - IP-ASN,265629,no-resolve
   - IP-ASN,19582,no-resolve
   - IP-ASN,52274,no-resolve
   - IP-ASN,52238,no-resolve
