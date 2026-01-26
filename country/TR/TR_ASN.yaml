@@ -1,11 +1,11 @@
 # TR 的 ASN 信息
-# 最后更新： CST 2026-01-26 00:56:35
+# 最后更新： CST 2026-01-27 01:04:00
 # ASN: 821
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,57152,no-resolve
   - IP-ASN,6823,no-resolve
+  - IP-ASN,57152,no-resolve
   - IP-ASN,208972,no-resolve
   - IP-ASN,44620,no-resolve
   - IP-ASN,9121,no-resolve
@@ -30,18 +30,17 @@ payload:
   - IP-ASN,44547,no-resolve
   - IP-ASN,60446,no-resolve
   - IP-ASN,43260,no-resolve
-  - IP-ASN,51559,no-resolve
   - IP-ASN,201178,no-resolve
+  - IP-ASN,51559,no-resolve
   - IP-ASN,25145,no-resolve
-  - IP-ASN,47123,no-resolve
   - IP-ASN,214941,no-resolve
+  - IP-ASN,47123,no-resolve
   - IP-ASN,34296,no-resolve
   - IP-ASN,9021,no-resolve
   - IP-ASN,39582,no-resolve
   - IP-ASN,29399,no-resolve
   - IP-ASN,209604,no-resolve
   - IP-ASN,47524,no-resolve
-  - IP-ASN,208487,no-resolve
   - IP-ASN,200334,no-resolve
   - IP-ASN,62425,no-resolve
   - IP-ASN,60707,no-resolve
@@ -55,6 +54,7 @@ payload:
   - IP-ASN,212219,no-resolve
   - IP-ASN,210538,no-resolve
   - IP-ASN,209474,no-resolve
+  - IP-ASN,206849,no-resolve
   - IP-ASN,8685,no-resolve
   - IP-ASN,62095,no-resolve
   - IP-ASN,62077,no-resolve
@@ -79,7 +79,6 @@ payload:
   - IP-ASN,216199,no-resolve
   - IP-ASN,211804,no-resolve
   - IP-ASN,208594,no-resolve
-  - IP-ASN,206849,no-resolve
   - IP-ASN,204240,no-resolve
   - IP-ASN,202561,no-resolve
   - IP-ASN,201863,no-resolve
@@ -88,6 +87,7 @@ payload:
   - IP-ASN,12444,no-resolve
   - IP-ASN,60946,no-resolve
   - IP-ASN,60847,no-resolve
+  - IP-ASN,60647,no-resolve
   - IP-ASN,52093,no-resolve
   - IP-ASN,51814,no-resolve
   - IP-ASN,51321,no-resolve
@@ -150,7 +150,6 @@ payload:
   - IP-ASN,61418,no-resolve
   - IP-ASN,61347,no-resolve
   - IP-ASN,60993,no-resolve
-  - IP-ASN,60647,no-resolve
   - IP-ASN,60607,no-resolve
   - IP-ASN,60093,no-resolve
   - IP-ASN,60056,no-resolve
@@ -673,6 +672,7 @@ payload:
   - IP-ASN,208901,no-resolve
   - IP-ASN,20864,no-resolve
   - IP-ASN,208624,no-resolve
+  - IP-ASN,208487,no-resolve
   - IP-ASN,208359,no-resolve
   - IP-ASN,208198,no-resolve
   - IP-ASN,208138,no-resolve

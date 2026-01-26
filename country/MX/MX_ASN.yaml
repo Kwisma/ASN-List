@@ -1,5 +1,5 @@
 # MX 的 ASN 信息
-# 最后更新： CST 2026-01-26 00:56:40
+# 最后更新： CST 2026-01-27 01:04:06
 # ASN: 512
 # 由 Kwisma 制作，保留所有权利。
 
@@ -39,13 +39,13 @@ payload:
   - IP-ASN,28500,no-resolve
   - IP-ASN,28498,no-resolve
   - IP-ASN,270207,no-resolve
-  - IP-ASN,265622,no-resolve
   - IP-ASN,22884,no-resolve
   - IP-ASN,22011,no-resolve
   - IP-ASN,28569,no-resolve
   - IP-ASN,28499,no-resolve
   - IP-ASN,28438,no-resolve
   - IP-ASN,28419,no-resolve
+  - IP-ASN,265622,no-resolve
   - IP-ASN,265592,no-resolve
   - IP-ASN,265550,no-resolve
   - IP-ASN,265509,no-resolve
@@ -75,8 +75,6 @@ payload:
   - IP-ASN,28432,no-resolve
   - IP-ASN,28431,no-resolve
   - IP-ASN,28423,no-resolve
-  - IP-ASN,272403,no-resolve
-  - IP-ASN,270217,no-resolve
   - IP-ASN,270215,no-resolve
   - IP-ASN,270118,no-resolve
   - IP-ASN,270111,no-resolve
@@ -117,8 +115,10 @@ payload:
   - IP-ASN,273299,no-resolve
   - IP-ASN,273259,no-resolve
   - IP-ASN,273255,no-resolve
+  - IP-ASN,272403,no-resolve
   - IP-ASN,272323,no-resolve
   - IP-ASN,270236,no-resolve
+  - IP-ASN,270217,no-resolve
   - IP-ASN,270189,no-resolve
   - IP-ASN,270179,no-resolve
   - IP-ASN,270175,no-resolve
@@ -235,6 +235,7 @@ payload:
   - IP-ASN,270147,no-resolve
   - IP-ASN,270145,no-resolve
   - IP-ASN,270143,no-resolve
+  - IP-ASN,270142,no-resolve
   - IP-ASN,270138,no-resolve
   - IP-ASN,270129,no-resolve
   - IP-ASN,270128,no-resolve
@@ -406,7 +407,6 @@ payload:
   - IP-ASN,270150,no-resolve
   - IP-ASN,270149,no-resolve
   - IP-ASN,270146,no-resolve
-  - IP-ASN,270142,no-resolve
   - IP-ASN,270141,no-resolve
   - IP-ASN,270139,no-resolve
   - IP-ASN,270136,no-resolve
