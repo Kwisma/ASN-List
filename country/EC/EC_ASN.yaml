@@ -1,16 +1,16 @@
 # EC 的 ASN 信息
-# 最后更新： CST 2026-01-28 01:01:29
+# 最后更新： CST 2026-01-29 01:09:00
 # ASN: 219
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,265629,no-resolve
   - IP-ASN,27947,no-resolve
+  - IP-ASN,22724,no-resolve
   - IP-ASN,19114,no-resolve
   - IP-ASN,263238,no-resolve
   - IP-ASN,61468,no-resolve
   - IP-ASN,23031,no-resolve
-  - IP-ASN,22724,no-resolve
   - IP-ASN,267699,no-resolve
   - IP-ASN,23487,no-resolve
   - IP-ASN,14522,no-resolve
@@ -45,6 +45,7 @@ payload:
   - IP-ASN,271795,no-resolve
   - IP-ASN,270009,no-resolve
   - IP-ASN,269936,no-resolve
+  - IP-ASN,269853,no-resolve
   - IP-ASN,269838,no-resolve
   - IP-ASN,267931,no-resolve
   - IP-ASN,266839,no-resolve
@@ -52,7 +53,7 @@ payload:
   - IP-ASN,265657,no-resolve
   - IP-ASN,264851,no-resolve
   - IP-ASN,264788,no-resolve
-  - IP-ASN,52458,no-resolve
+  - IP-ASN,263792,no-resolve
   - IP-ASN,52377,no-resolve
   - IP-ASN,52345,no-resolve
   - IP-ASN,52331,no-resolve
@@ -97,7 +98,6 @@ payload:
   - IP-ASN,269992,no-resolve
   - IP-ASN,269955,no-resolve
   - IP-ASN,269935,no-resolve
-  - IP-ASN,269853,no-resolve
   - IP-ASN,269852,no-resolve
   - IP-ASN,269825,no-resolve
   - IP-ASN,269806,no-resolve
@@ -127,7 +127,6 @@ payload:
   - IP-ASN,264824,no-resolve
   - IP-ASN,264801,no-resolve
   - IP-ASN,264746,no-resolve
-  - IP-ASN,263792,no-resolve
   - IP-ASN,263245,no-resolve
   - IP-ASN,263243,no-resolve
   - IP-ASN,262257,no-resolve
@@ -135,6 +134,7 @@ payload:
   - IP-ASN,262169,no-resolve
   - IP-ASN,7315,no-resolve
   - IP-ASN,64110,no-resolve
+  - IP-ASN,52458,no-resolve
   - IP-ASN,52417,no-resolve
   - IP-ASN,52343,no-resolve
   - IP-ASN,52257,no-resolve
