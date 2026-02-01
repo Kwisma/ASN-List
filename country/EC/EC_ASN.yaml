@@ -1,5 +1,5 @@
 # EC 的 ASN 信息
-# 最后更新： CST 2026-02-01 01:00:03
+# 最后更新： CST 2026-02-02 01:02:27
 # ASN: 219
 # 由 Kwisma 制作，保留所有权利。
 
@@ -44,9 +44,11 @@ payload:
   - IP-ASN,271840,no-resolve
   - IP-ASN,271795,no-resolve
   - IP-ASN,270009,no-resolve
+  - IP-ASN,269955,no-resolve
   - IP-ASN,269936,no-resolve
   - IP-ASN,269853,no-resolve
   - IP-ASN,269838,no-resolve
+  - IP-ASN,269805,no-resolve
   - IP-ASN,267931,no-resolve
   - IP-ASN,266904,no-resolve
   - IP-ASN,266839,no-resolve
@@ -56,7 +58,6 @@ payload:
   - IP-ASN,264788,no-resolve
   - IP-ASN,263792,no-resolve
   - IP-ASN,52458,no-resolve
-  - IP-ASN,52377,no-resolve
   - IP-ASN,52345,no-resolve
   - IP-ASN,52331,no-resolve
   - IP-ASN,28097,no-resolve
@@ -67,6 +68,7 @@ payload:
   - IP-ASN,27919,no-resolve
   - IP-ASN,27902,no-resolve
   - IP-ASN,27784,no-resolve
+  - IP-ASN,27738,no-resolve
   - IP-ASN,27668,no-resolve
   - IP-ASN,274144,no-resolve
   - IP-ASN,274063,no-resolve
@@ -94,17 +96,16 @@ payload:
   - IP-ASN,271929,no-resolve
   - IP-ASN,271923,no-resolve
   - IP-ASN,271882,no-resolve
+  - IP-ASN,271874,no-resolve
   - IP-ASN,271822,no-resolve
   - IP-ASN,271785,no-resolve
   - IP-ASN,270095,no-resolve
   - IP-ASN,270016,no-resolve
   - IP-ASN,269992,no-resolve
-  - IP-ASN,269955,no-resolve
   - IP-ASN,269935,no-resolve
   - IP-ASN,269852,no-resolve
   - IP-ASN,269825,no-resolve
   - IP-ASN,269806,no-resolve
-  - IP-ASN,269805,no-resolve
   - IP-ASN,269761,no-resolve
   - IP-ASN,269728,no-resolve
   - IP-ASN,267924,no-resolve
@@ -137,6 +138,7 @@ payload:
   - IP-ASN,7315,no-resolve
   - IP-ASN,64110,no-resolve
   - IP-ASN,52417,no-resolve
+  - IP-ASN,52377,no-resolve
   - IP-ASN,52343,no-resolve
   - IP-ASN,52257,no-resolve
   - IP-ASN,28027,no-resolve
@@ -145,7 +147,6 @@ payload:
   - IP-ASN,27820,no-resolve
   - IP-ASN,27757,no-resolve
   - IP-ASN,27740,no-resolve
-  - IP-ASN,27738,no-resolve
   - IP-ASN,274169,no-resolve
   - IP-ASN,274053,no-resolve
   - IP-ASN,274004,no-resolve
@@ -170,7 +171,6 @@ payload:
   - IP-ASN,272034,no-resolve
   - IP-ASN,271975,no-resolve
   - IP-ASN,271911,no-resolve
-  - IP-ASN,271874,no-resolve
   - IP-ASN,271873,no-resolve
   - IP-ASN,271837,no-resolve
   - IP-ASN,271821,no-resolve
