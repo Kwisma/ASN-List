@@ -1,10 +1,9 @@
 # BE 的 ASN 信息
-# 最后更新： CST 2026-02-02 01:02:25
-# ASN: 294
+# 最后更新： CST 2026-02-03 01:09:22
+# ASN: 293
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,213241,no-resolve
   - IP-ASN,209768,no-resolve
   - IP-ASN,48185,no-resolve
   - IP-ASN,6774,no-resolve
@@ -13,8 +12,8 @@ payload:
   - IP-ASN,8368,no-resolve
   - IP-ASN,212123,no-resolve
   - IP-ASN,31449,no-resolve
-  - IP-ASN,210890,no-resolve
   - IP-ASN,2611,no-resolve
+  - IP-ASN,210890,no-resolve
   - IP-ASN,50083,no-resolve
   - IP-ASN,9031,no-resolve
   - IP-ASN,50309,no-resolve
@@ -51,6 +50,7 @@ payload:
   - IP-ASN,49677,no-resolve
   - IP-ASN,47630,no-resolve
   - IP-ASN,34144,no-resolve
+  - IP-ASN,213241,no-resolve
   - IP-ASN,210233,no-resolve
   - IP-ASN,208725,no-resolve
   - IP-ASN,49935,no-resolve
@@ -281,7 +281,6 @@ payload:
   - IP-ASN,49752,no-resolve
   - IP-ASN,47504,no-resolve
   - IP-ASN,34641,no-resolve
-  - IP-ASN,215990,no-resolve
   - IP-ASN,215956,no-resolve
   - IP-ASN,214508,no-resolve
   - IP-ASN,214161,no-resolve

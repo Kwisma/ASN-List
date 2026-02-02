@@ -1,15 +1,15 @@
 # NC 的 ASN 信息
-# 最后更新： CST 2026-02-02 01:02:36
-# ASN: 15
+# 最后更新： CST 2026-02-03 01:09:35
+# ASN: 14
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,18200,no-resolve
   - IP-ASN,56055,no-resolve
-  - IP-ASN,45345,no-resolve
   - IP-ASN,141695,no-resolve
   - IP-ASN,56089,no-resolve
   - IP-ASN,45461,no-resolve
+  - IP-ASN,45345,no-resolve
   - IP-ASN,17480,no-resolve
   - IP-ASN,147030,no-resolve
   - IP-ASN,141197,no-resolve
@@ -17,5 +17,4 @@ payload:
   - IP-ASN,137243,no-resolve
   - IP-ASN,136402,no-resolve
   - IP-ASN,134405,no-resolve
-  - IP-ASN,131995,no-resolve
   - IP-ASN,131248,no-resolve

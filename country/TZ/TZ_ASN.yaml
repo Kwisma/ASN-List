@@ -1,12 +1,12 @@
 # TZ 的 ASN 信息
-# 最后更新： CST 2026-02-02 01:02:31
+# 最后更新： CST 2026-02-03 01:09:29
 # ASN: 97
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,37035,no-resolve
-  - IP-ASN,327885,no-resolve
   - IP-ASN,33765,no-resolve
+  - IP-ASN,327885,no-resolve
   - IP-ASN,37349,no-resolve
   - IP-ASN,37084,no-resolve
   - IP-ASN,36965,no-resolve
@@ -51,7 +51,6 @@ payload:
   - IP-ASN,328980,no-resolve
   - IP-ASN,328895,no-resolve
   - IP-ASN,328885,no-resolve
-  - IP-ASN,328849,no-resolve
   - IP-ASN,328838,no-resolve
   - IP-ASN,328751,no-resolve
   - IP-ASN,328676,no-resolve
@@ -84,6 +83,7 @@ payload:
   - IP-ASN,329034,no-resolve
   - IP-ASN,329013,no-resolve
   - IP-ASN,328865,no-resolve
+  - IP-ASN,328849,no-resolve
   - IP-ASN,328845,no-resolve
   - IP-ASN,328775,no-resolve
   - IP-ASN,328607,no-resolve
