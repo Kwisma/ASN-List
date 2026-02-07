@@ -1,11 +1,10 @@
 # DO 的 ASN 信息
-# 最后更新： CST 2026-02-07 01:16:40
-# ASN: 183
+# 最后更新： CST 2026-02-08 01:01:43
+# ASN: 182
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,64126,no-resolve
-  - IP-ASN,207036,no-resolve
   - IP-ASN,6400,no-resolve
   - IP-ASN,272112,no-resolve
   - IP-ASN,264821,no-resolve
@@ -14,14 +13,15 @@ payload:
   - IP-ASN,265721,no-resolve
   - IP-ASN,28118,no-resolve
   - IP-ASN,272935,no-resolve
+  - IP-ASN,207036,no-resolve
   - IP-ASN,64134,no-resolve
   - IP-ASN,27887,no-resolve
   - IP-ASN,272962,no-resolve
   - IP-ASN,267845,no-resolve
+  - IP-ASN,271799,no-resolve
   - IP-ASN,274035,no-resolve
   - IP-ASN,273824,no-resolve
   - IP-ASN,272138,no-resolve
-  - IP-ASN,271799,no-resolve
   - IP-ASN,269965,no-resolve
   - IP-ASN,267700,no-resolve
   - IP-ASN,52412,no-resolve
@@ -33,7 +33,6 @@ payload:
   - IP-ASN,262221,no-resolve
   - IP-ASN,27847,no-resolve
   - IP-ASN,274048,no-resolve
-  - IP-ASN,273937,no-resolve
   - IP-ASN,273861,no-resolve
   - IP-ASN,273113,no-resolve
   - IP-ASN,272083,no-resolve
@@ -42,7 +41,6 @@ payload:
   - IP-ASN,271968,no-resolve
   - IP-ASN,271945,no-resolve
   - IP-ASN,271942,no-resolve
-  - IP-ASN,267846,no-resolve
   - IP-ASN,267705,no-resolve
   - IP-ASN,263748,no-resolve
   - IP-ASN,263212,no-resolve
@@ -56,6 +54,7 @@ payload:
   - IP-ASN,274027,no-resolve
   - IP-ASN,273961,no-resolve
   - IP-ASN,273948,no-resolve
+  - IP-ASN,273937,no-resolve
   - IP-ASN,273917,no-resolve
   - IP-ASN,273909,no-resolve
   - IP-ASN,273838,no-resolve
@@ -79,10 +78,12 @@ payload:
   - IP-ASN,271982,no-resolve
   - IP-ASN,271978,no-resolve
   - IP-ASN,271930,no-resolve
+  - IP-ASN,271898,no-resolve
   - IP-ASN,271808,no-resolve
   - IP-ASN,271806,no-resolve
   - IP-ASN,269950,no-resolve
   - IP-ASN,267896,no-resolve
+  - IP-ASN,267846,no-resolve
   - IP-ASN,266798,no-resolve
   - IP-ASN,266709,no-resolve
   - IP-ASN,264817,no-resolve
@@ -94,7 +95,6 @@ payload:
   - IP-ASN,262148,no-resolve
   - IP-ASN,52471,no-resolve
   - IP-ASN,46198,no-resolve
-  - IP-ASN,28045,no-resolve
   - IP-ASN,274290,no-resolve
   - IP-ASN,274267,no-resolve
   - IP-ASN,274214,no-resolve
@@ -166,7 +166,6 @@ payload:
   - IP-ASN,271932,no-resolve
   - IP-ASN,271931,no-resolve
   - IP-ASN,271916,no-resolve
-  - IP-ASN,271898,no-resolve
   - IP-ASN,271819,no-resolve
   - IP-ASN,271804,no-resolve
   - IP-ASN,270098,no-resolve

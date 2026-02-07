@@ -1,5 +1,5 @@
 # KE 的 ASN 信息
-# 最后更新： CST 2026-02-07 01:16:37
+# 最后更新： CST 2026-02-08 01:01:42
 # ASN: 203
 # 由 Kwisma 制作，保留所有权利。
 
@@ -15,9 +15,9 @@ payload:
   - IP-ASN,329029,no-resolve
   - IP-ASN,36866,no-resolve
   - IP-ASN,37684,no-resolve
-  - IP-ASN,33771,no-resolve
   - IP-ASN,328490,no-resolve
   - IP-ASN,15399,no-resolve
+  - IP-ASN,33771,no-resolve
   - IP-ASN,37305,no-resolve
   - IP-ASN,36914,no-resolve
   - IP-ASN,328578,no-resolve
@@ -75,13 +75,13 @@ payload:
   - IP-ASN,328296,no-resolve
   - IP-ASN,328162,no-resolve
   - IP-ASN,327906,no-resolve
-  - IP-ASN,329535,no-resolve
   - IP-ASN,329497,no-resolve
   - IP-ASN,329373,no-resolve
   - IP-ASN,328331,no-resolve
   - IP-ASN,37786,no-resolve
   - IP-ASN,329255,no-resolve
   - IP-ASN,329190,no-resolve
+  - IP-ASN,329110,no-resolve
   - IP-ASN,328753,no-resolve
   - IP-ASN,37421,no-resolve
   - IP-ASN,37298,no-resolve
@@ -91,10 +91,10 @@ payload:
   - IP-ASN,329538,no-resolve
   - IP-ASN,329422,no-resolve
   - IP-ASN,329341,no-resolve
-  - IP-ASN,329110,no-resolve
   - IP-ASN,37052,no-resolve
   - IP-ASN,329658,no-resolve
   - IP-ASN,329593,no-resolve
+  - IP-ASN,329535,no-resolve
   - IP-ASN,329278,no-resolve
   - IP-ASN,328987,no-resolve
   - IP-ASN,328132,no-resolve
@@ -119,7 +119,6 @@ payload:
   - IP-ASN,329135,no-resolve
   - IP-ASN,329093,no-resolve
   - IP-ASN,329087,no-resolve
-  - IP-ASN,329044,no-resolve
   - IP-ASN,329026,no-resolve
   - IP-ASN,329021,no-resolve
   - IP-ASN,329002,no-resolve
@@ -184,6 +183,7 @@ payload:
   - IP-ASN,329254,no-resolve
   - IP-ASN,329167,no-resolve
   - IP-ASN,329152,no-resolve
+  - IP-ASN,329044,no-resolve
   - IP-ASN,328978,no-resolve
   - IP-ASN,328944,no-resolve
   - IP-ASN,328906,no-resolve
