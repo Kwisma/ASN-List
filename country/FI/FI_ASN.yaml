@@ -1,12 +1,12 @@
 # FI 的 ASN 信息
-# 最后更新： CST 2026-02-13 01:30:56
+# 最后更新： CST 2026-02-14 01:19:19
 # ASN: 306
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
+  - IP-ASN,214809,no-resolve
   - IP-ASN,41666,no-resolve
   - IP-ASN,6667,no-resolve
-  - IP-ASN,214809,no-resolve
   - IP-ASN,1248,no-resolve
   - IP-ASN,202053,no-resolve
   - IP-ASN,47605,no-resolve
@@ -41,14 +41,13 @@ payload:
   - IP-ASN,29243,no-resolve
   - IP-ASN,8829,no-resolve
   - IP-ASN,8236,no-resolve
-  - IP-ASN,62194,no-resolve
   - IP-ASN,51164,no-resolve
   - IP-ASN,50377,no-resolve
   - IP-ASN,39242,no-resolve
   - IP-ASN,206175,no-resolve
-  - IP-ASN,200656,no-resolve
   - IP-ASN,8145,no-resolve
   - IP-ASN,62254,no-resolve
+  - IP-ASN,62194,no-resolve
   - IP-ASN,5411,no-resolve
   - IP-ASN,51941,no-resolve
   - IP-ASN,51691,no-resolve
@@ -56,7 +55,6 @@ payload:
   - IP-ASN,49866,no-resolve
   - IP-ASN,49283,no-resolve
   - IP-ASN,43024,no-resolve
-  - IP-ASN,39784,no-resolve
   - IP-ASN,39662,no-resolve
   - IP-ASN,39287,no-resolve
   - IP-ASN,39194,no-resolve
@@ -69,6 +67,7 @@ payload:
   - IP-ASN,209875,no-resolve
   - IP-ASN,201991,no-resolve
   - IP-ASN,201750,no-resolve
+  - IP-ASN,200656,no-resolve
   - IP-ASN,198024,no-resolve
   - IP-ASN,198020,no-resolve
   - IP-ASN,1738,no-resolve
@@ -113,6 +112,7 @@ payload:
   - IP-ASN,41701,no-resolve
   - IP-ASN,41561,no-resolve
   - IP-ASN,41242,no-resolve
+  - IP-ASN,39784,no-resolve
   - IP-ASN,375,no-resolve
   - IP-ASN,34387,no-resolve
   - IP-ASN,34263,no-resolve
@@ -147,7 +147,6 @@ payload:
   - IP-ASN,207038,no-resolve
   - IP-ASN,206927,no-resolve
   - IP-ASN,206860,no-resolve
-  - IP-ASN,206125,no-resolve
   - IP-ASN,204609,no-resolve
   - IP-ASN,203609,no-resolve
   - IP-ASN,203602,no-resolve
@@ -248,6 +247,7 @@ payload:
   - IP-ASN,206520,no-resolve
   - IP-ASN,206381,no-resolve
   - IP-ASN,206364,no-resolve
+  - IP-ASN,206125,no-resolve
   - IP-ASN,20571,no-resolve
   - IP-ASN,205709,no-resolve
   - IP-ASN,205449,no-resolve
