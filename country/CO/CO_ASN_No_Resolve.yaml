@@ -1,6 +1,6 @@
 # CO 的 ASN 信息
-# 最后更新： CST 2026-02-19 01:39:25
-# ASN: 392
+# 最后更新： CST 2026-02-20 01:27:06
+# ASN: 391
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -58,6 +58,7 @@ payload:
   - IP-ASN,274010
   - IP-ASN,273218
   - IP-ASN,273204
+  - IP-ASN,272937
   - IP-ASN,272896
   - IP-ASN,272869
   - IP-ASN,272806
@@ -71,6 +72,7 @@ payload:
   - IP-ASN,264803
   - IP-ASN,262928
   - IP-ASN,262220
+  - IP-ASN,61499
   - IP-ASN,61467
   - IP-ASN,61463
   - IP-ASN,52269
@@ -86,8 +88,8 @@ payload:
   - IP-ASN,272987
   - IP-ASN,272977
   - IP-ASN,272958
+  - IP-ASN,272950
   - IP-ASN,272942
-  - IP-ASN,272937
   - IP-ASN,272024
   - IP-ASN,270051
   - IP-ASN,269954
@@ -102,8 +104,6 @@ payload:
   - IP-ASN,266747
   - IP-ASN,263199
   - IP-ASN,21578
-  - IP-ASN,11237
-  - IP-ASN,61499
   - IP-ASN,52467
   - IP-ASN,52335
   - IP-ASN,52258
@@ -196,6 +196,7 @@ payload:
   - IP-ASN,262215
   - IP-ASN,262214
   - IP-ASN,23246
+  - IP-ASN,11237
   - IP-ASN,8163
   - IP-ASN,8026
   - IP-ASN,64140
@@ -222,7 +223,6 @@ payload:
   - IP-ASN,274141
   - IP-ASN,274124
   - IP-ASN,274115
-  - IP-ASN,274059
   - IP-ASN,274054
   - IP-ASN,274044
   - IP-ASN,274017
@@ -253,7 +253,6 @@ payload:
   - IP-ASN,273020
   - IP-ASN,273006
   - IP-ASN,272978
-  - IP-ASN,272950
   - IP-ASN,272930
   - IP-ASN,272929
   - IP-ASN,272884

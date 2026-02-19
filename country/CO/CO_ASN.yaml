@@ -1,6 +1,6 @@
 # CO 的 ASN 信息
-# 最后更新： CST 2026-02-19 01:39:25
-# ASN: 392
+# 最后更新： CST 2026-02-20 01:27:06
+# ASN: 391
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -58,6 +58,7 @@ payload:
   - IP-ASN,274010,no-resolve
   - IP-ASN,273218,no-resolve
   - IP-ASN,273204,no-resolve
+  - IP-ASN,272937,no-resolve
   - IP-ASN,272896,no-resolve
   - IP-ASN,272869,no-resolve
   - IP-ASN,272806,no-resolve
@@ -71,6 +72,7 @@ payload:
   - IP-ASN,264803,no-resolve
   - IP-ASN,262928,no-resolve
   - IP-ASN,262220,no-resolve
+  - IP-ASN,61499,no-resolve
   - IP-ASN,61467,no-resolve
   - IP-ASN,61463,no-resolve
   - IP-ASN,52269,no-resolve
@@ -86,8 +88,8 @@ payload:
   - IP-ASN,272987,no-resolve
   - IP-ASN,272977,no-resolve
   - IP-ASN,272958,no-resolve
+  - IP-ASN,272950,no-resolve
   - IP-ASN,272942,no-resolve
-  - IP-ASN,272937,no-resolve
   - IP-ASN,272024,no-resolve
   - IP-ASN,270051,no-resolve
   - IP-ASN,269954,no-resolve
@@ -102,8 +104,6 @@ payload:
   - IP-ASN,266747,no-resolve
   - IP-ASN,263199,no-resolve
   - IP-ASN,21578,no-resolve
-  - IP-ASN,11237,no-resolve
-  - IP-ASN,61499,no-resolve
   - IP-ASN,52467,no-resolve
   - IP-ASN,52335,no-resolve
   - IP-ASN,52258,no-resolve
@@ -196,6 +196,7 @@ payload:
   - IP-ASN,262215,no-resolve
   - IP-ASN,262214,no-resolve
   - IP-ASN,23246,no-resolve
+  - IP-ASN,11237,no-resolve
   - IP-ASN,8163,no-resolve
   - IP-ASN,8026,no-resolve
   - IP-ASN,64140,no-resolve
@@ -222,7 +223,6 @@ payload:
   - IP-ASN,274141,no-resolve
   - IP-ASN,274124,no-resolve
   - IP-ASN,274115,no-resolve
-  - IP-ASN,274059,no-resolve
   - IP-ASN,274054,no-resolve
   - IP-ASN,274044,no-resolve
   - IP-ASN,274017,no-resolve
@@ -253,7 +253,6 @@ payload:
   - IP-ASN,273020,no-resolve
   - IP-ASN,273006,no-resolve
   - IP-ASN,272978,no-resolve
-  - IP-ASN,272950,no-resolve
   - IP-ASN,272930,no-resolve
   - IP-ASN,272929,no-resolve
   - IP-ASN,272884,no-resolve
