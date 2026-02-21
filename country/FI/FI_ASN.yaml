@@ -1,11 +1,11 @@
 # FI 的 ASN 信息
-# 最后更新： CST 2026-02-21 01:13:06
-# ASN: 306
+# 最后更新： CST 2026-02-22 01:04:13
+# ASN: 305
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,214809,no-resolve
   - IP-ASN,41666,no-resolve
+  - IP-ASN,214809,no-resolve
   - IP-ASN,6667,no-resolve
   - IP-ASN,1248,no-resolve
   - IP-ASN,202053,no-resolve
@@ -303,7 +303,6 @@ payload:
   - IP-ASN,215629,no-resolve
   - IP-ASN,214288,no-resolve
   - IP-ASN,214044,no-resolve
-  - IP-ASN,211696,no-resolve
   - IP-ASN,209091,no-resolve
   - IP-ASN,207880,no-resolve
   - IP-ASN,207306,no-resolve
