@@ -1,5 +1,5 @@
 # EG 的 ASN 信息
-# 最后更新： CST 2026-02-26 01:47:47
+# 最后更新： CST 2026-02-27 01:34:21
 # ASN: 71
 # 由 Kwisma 制作，保留所有权利。
 
@@ -10,13 +10,11 @@ payload:
   - IP-ASN,36992,no-resolve
   - IP-ASN,20928,no-resolve
   - IP-ASN,6879,no-resolve
-  - IP-ASN,6127,no-resolve
   - IP-ASN,31065,no-resolve
   - IP-ASN,25576,no-resolve
   - IP-ASN,8524,no-resolve
+  - IP-ASN,6127,no-resolve
   - IP-ASN,31619,no-resolve
-  - IP-ASN,328308,no-resolve
-  - IP-ASN,328067,no-resolve
   - IP-ASN,2561,no-resolve
   - IP-ASN,25364,no-resolve
   - IP-ASN,37664,no-resolve
@@ -31,9 +29,9 @@ payload:
   - IP-ASN,37003,no-resolve
   - IP-ASN,36990,no-resolve
   - IP-ASN,36978,no-resolve
-  - IP-ASN,36929,no-resolve
   - IP-ASN,36870,no-resolve
   - IP-ASN,33778,no-resolve
+  - IP-ASN,329131,no-resolve
   - IP-ASN,329114,no-resolve
   - IP-ASN,328972,no-resolve
   - IP-ASN,328876,no-resolve
@@ -43,8 +41,10 @@ payload:
   - IP-ASN,328587,no-resolve
   - IP-ASN,328484,no-resolve
   - IP-ASN,328405,no-resolve
+  - IP-ASN,328308,no-resolve
   - IP-ASN,328299,no-resolve
   - IP-ASN,328105,no-resolve
+  - IP-ASN,328067,no-resolve
   - IP-ASN,30995,no-resolve
   - IP-ASN,37444,no-resolve
   - IP-ASN,37348,no-resolve
@@ -54,6 +54,7 @@ payload:
   - IP-ASN,37069,no-resolve
   - IP-ASN,37066,no-resolve
   - IP-ASN,36935,no-resolve
+  - IP-ASN,36929,no-resolve
   - IP-ASN,36906,no-resolve
   - IP-ASN,329520,no-resolve
   - IP-ASN,329431,no-resolve
@@ -62,7 +63,6 @@ payload:
   - IP-ASN,329336,no-resolve
   - IP-ASN,329325,no-resolve
   - IP-ASN,329132,no-resolve
-  - IP-ASN,329131,no-resolve
   - IP-ASN,328927,no-resolve
   - IP-ASN,328762,no-resolve
   - IP-ASN,328654,no-resolve
