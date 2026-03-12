@@ -1,15 +1,15 @@
 # MX 的 ASN 信息
-# 最后更新： CST 2026-03-12 01:29:02
-# ASN: 519
+# 最后更新： CST 2026-03-13 01:42:19
+# ASN: 521
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,28398,no-resolve
   - IP-ASN,28458,no-resolve
-  - IP-ASN,270158,no-resolve
-  - IP-ASN,272403,no-resolve
-  - IP-ASN,28435,no-resolve
   - IP-ASN,17072,no-resolve
+  - IP-ASN,270158,no-resolve
+  - IP-ASN,28435,no-resolve
+  - IP-ASN,272403,no-resolve
   - IP-ASN,11172,no-resolve
   - IP-ASN,18734,no-resolve
   - IP-ASN,8151,no-resolve
@@ -100,6 +100,7 @@ payload:
   - IP-ASN,265594,no-resolve
   - IP-ASN,265574,no-resolve
   - IP-ASN,265566,no-resolve
+  - IP-ASN,265559,no-resolve
   - IP-ASN,265531,no-resolve
   - IP-ASN,265529,no-resolve
   - IP-ASN,265525,no-resolve
@@ -128,14 +129,12 @@ payload:
   - IP-ASN,273285,no-resolve
   - IP-ASN,273263,no-resolve
   - IP-ASN,272377,no-resolve
-  - IP-ASN,270236,no-resolve
   - IP-ASN,270217,no-resolve
   - IP-ASN,270179,no-resolve
   - IP-ASN,270155,no-resolve
   - IP-ASN,270147,no-resolve
   - IP-ASN,270143,no-resolve
   - IP-ASN,270137,no-resolve
-  - IP-ASN,270118,no-resolve
   - IP-ASN,270114,no-resolve
   - IP-ASN,265621,no-resolve
   - IP-ASN,265618,no-resolve
@@ -143,7 +142,6 @@ payload:
   - IP-ASN,265579,no-resolve
   - IP-ASN,265575,no-resolve
   - IP-ASN,265569,no-resolve
-  - IP-ASN,265559,no-resolve
   - IP-ASN,265556,no-resolve
   - IP-ASN,265551,no-resolve
   - IP-ASN,265548,no-resolve
@@ -154,7 +152,6 @@ payload:
   - IP-ASN,265523,no-resolve
   - IP-ASN,265508,no-resolve
   - IP-ASN,265503,no-resolve
-  - IP-ASN,265502,no-resolve
   - IP-ASN,263150,no-resolve
   - IP-ASN,262944,no-resolve
   - IP-ASN,21692,no-resolve
@@ -185,7 +182,6 @@ payload:
   - IP-ASN,28513,no-resolve
   - IP-ASN,28506,no-resolve
   - IP-ASN,28502,no-resolve
-  - IP-ASN,28496,no-resolve
   - IP-ASN,28480,no-resolve
   - IP-ASN,28466,no-resolve
   - IP-ASN,28463,no-resolve
@@ -209,6 +205,7 @@ payload:
   - IP-ASN,273281,no-resolve
   - IP-ASN,273280,no-resolve
   - IP-ASN,273277,no-resolve
+  - IP-ASN,273276,no-resolve
   - IP-ASN,273271,no-resolve
   - IP-ASN,273250,no-resolve
   - IP-ASN,273245,no-resolve
@@ -223,6 +220,7 @@ payload:
   - IP-ASN,272363,no-resolve
   - IP-ASN,272299,no-resolve
   - IP-ASN,2708,no-resolve
+  - IP-ASN,270236,no-resolve
   - IP-ASN,270226,no-resolve
   - IP-ASN,270222,no-resolve
   - IP-ASN,270200,no-resolve
@@ -244,6 +242,7 @@ payload:
   - IP-ASN,270128,no-resolve
   - IP-ASN,270122,no-resolve
   - IP-ASN,270121,no-resolve
+  - IP-ASN,270118,no-resolve
   - IP-ASN,265627,no-resolve
   - IP-ASN,265625,no-resolve
   - IP-ASN,265623,no-resolve
@@ -273,6 +272,7 @@ payload:
   - IP-ASN,265515,no-resolve
   - IP-ASN,265505,no-resolve
   - IP-ASN,265504,no-resolve
+  - IP-ASN,265502,no-resolve
   - IP-ASN,265501,no-resolve
   - IP-ASN,263158,no-resolve
   - IP-ASN,263127,no-resolve
@@ -323,6 +323,7 @@ payload:
   - IP-ASN,28512,no-resolve
   - IP-ASN,28505,no-resolve
   - IP-ASN,28503,no-resolve
+  - IP-ASN,28496,no-resolve
   - IP-ASN,28494,no-resolve
   - IP-ASN,28493,no-resolve
   - IP-ASN,28481,no-resolve
@@ -372,8 +373,8 @@ payload:
   - IP-ASN,273287,no-resolve
   - IP-ASN,273286,no-resolve
   - IP-ASN,273278,no-resolve
-  - IP-ASN,273276,no-resolve
   - IP-ASN,273274,no-resolve
+  - IP-ASN,273273,no-resolve
   - IP-ASN,273270,no-resolve
   - IP-ASN,273269,no-resolve
   - IP-ASN,273266,no-resolve
@@ -476,6 +477,7 @@ payload:
   - IP-ASN,139235,no-resolve
   - IP-ASN,13440,no-resolve
   - IP-ASN,11136,no-resolve
+  - IP-ASN,10847,no-resolve
   - IP-ASN,10560,no-resolve
   - IP-ASN,10479,no-resolve
   - IP-ASN,10436,no-resolve
@@ -483,6 +485,7 @@ payload:
   - IP-ASN,28455,no-resolve
   - IP-ASN,28400,no-resolve
   - IP-ASN,27661,no-resolve
+  - IP-ASN,274403,no-resolve
   - IP-ASN,274399,no-resolve
   - IP-ASN,273282,no-resolve
   - IP-ASN,273264,no-resolve
@@ -518,7 +521,6 @@ payload:
   - IP-ASN,270205,no-resolve
   - IP-ASN,270204,no-resolve
   - IP-ASN,270181,no-resolve
-  - IP-ASN,270178,no-resolve
   - IP-ASN,270177,no-resolve
   - IP-ASN,270171,no-resolve
   - IP-ASN,270170,no-resolve

@@ -1,9 +1,10 @@
 # FI 的 ASN 信息
-# 最后更新： CST 2026-03-12 01:29:07
+# 最后更新： CST 2026-03-13 01:42:25
 # ASN: 305
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
+  - IP-ASN,214809,no-resolve
   - IP-ASN,41666,no-resolve
   - IP-ASN,6667,no-resolve
   - IP-ASN,1248,no-resolve
@@ -29,7 +30,6 @@ payload:
   - IP-ASN,202509,no-resolve
   - IP-ASN,51728,no-resolve
   - IP-ASN,42343,no-resolve
-  - IP-ASN,214809,no-resolve
   - IP-ASN,60354,no-resolve
   - IP-ASN,207003,no-resolve
   - IP-ASN,62022,no-resolve
@@ -38,11 +38,11 @@ payload:
   - IP-ASN,199231,no-resolve
   - IP-ASN,1780,no-resolve
   - IP-ASN,41369,no-resolve
-  - IP-ASN,202858,no-resolve
   - IP-ASN,50377,no-resolve
   - IP-ASN,30798,no-resolve
   - IP-ASN,29432,no-resolve
   - IP-ASN,29243,no-resolve
+  - IP-ASN,202858,no-resolve
   - IP-ASN,8829,no-resolve
   - IP-ASN,8236,no-resolve
   - IP-ASN,51941,no-resolve
