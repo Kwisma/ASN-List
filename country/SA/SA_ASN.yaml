@@ -1,11 +1,11 @@
 # SA 的 ASN 信息
-# 最后更新： CST 2026-03-17 01:42:20
+# 最后更新： CST 2026-03-18 01:45:21
 # ASN: 167
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,39386,no-resolve
   - IP-ASN,48237,no-resolve
+  - IP-ASN,39386,no-resolve
   - IP-ASN,35753,no-resolve
   - IP-ASN,214329,no-resolve
   - IP-ASN,47794,no-resolve
@@ -50,7 +50,6 @@ payload:
   - IP-ASN,60055,no-resolve
   - IP-ASN,60050,no-resolve
   - IP-ASN,59771,no-resolve
-  - IP-ASN,57968,no-resolve
   - IP-ASN,57458,no-resolve
   - IP-ASN,56865,no-resolve
   - IP-ASN,56714,no-resolve
@@ -87,6 +86,7 @@ payload:
   - IP-ASN,209342,no-resolve
   - IP-ASN,205251,no-resolve
   - IP-ASN,204011,no-resolve
+  - IP-ASN,203116,no-resolve
   - IP-ASN,201771,no-resolve
   - IP-ASN,201484,no-resolve
   - IP-ASN,200025,no-resolve
@@ -97,6 +97,7 @@ payload:
   - IP-ASN,60621,no-resolve
   - IP-ASN,58277,no-resolve
   - IP-ASN,58025,no-resolve
+  - IP-ASN,57968,no-resolve
   - IP-ASN,57900,no-resolve
   - IP-ASN,57799,no-resolve
   - IP-ASN,57689,no-resolve
@@ -154,7 +155,6 @@ payload:
   - IP-ASN,206878,no-resolve
   - IP-ASN,206694,no-resolve
   - IP-ASN,205695,no-resolve
-  - IP-ASN,203116,no-resolve
   - IP-ASN,202392,no-resolve
   - IP-ASN,201769,no-resolve
   - IP-ASN,201768,no-resolve
