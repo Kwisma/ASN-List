@@ -1,13 +1,13 @@
 # AL 的 ASN 信息
-# 最后更新： CST 2026-03-20 01:34:58
+# 最后更新： CST 2026-03-21 01:21:00
 # ASN: 122
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,210464,no-resolve
   - IP-ASN,198890,no-resolve
-  - IP-ASN,29170,no-resolve
   - IP-ASN,42313,no-resolve
+  - IP-ASN,29170,no-resolve
   - IP-ASN,35047,no-resolve
   - IP-ASN,198279,no-resolve
   - IP-ASN,50973,no-resolve
@@ -23,9 +23,9 @@ payload:
   - IP-ASN,47588,no-resolve
   - IP-ASN,21183,no-resolve
   - IP-ASN,207876,no-resolve
+  - IP-ASN,205923,no-resolve
   - IP-ASN,60471,no-resolve
   - IP-ASN,39611,no-resolve
-  - IP-ASN,205923,no-resolve
   - IP-ASN,197706,no-resolve
   - IP-ASN,8661,no-resolve
   - IP-ASN,57388,no-resolve
@@ -65,7 +65,6 @@ payload:
   - IP-ASN,209839,no-resolve
   - IP-ASN,209302,no-resolve
   - IP-ASN,208286,no-resolve
-  - IP-ASN,207047,no-resolve
   - IP-ASN,206358,no-resolve
   - IP-ASN,205244,no-resolve
   - IP-ASN,204894,no-resolve
@@ -108,6 +107,7 @@ payload:
   - IP-ASN,207385,no-resolve
   - IP-ASN,207368,no-resolve
   - IP-ASN,207330,no-resolve
+  - IP-ASN,207047,no-resolve
   - IP-ASN,206088,no-resolve
   - IP-ASN,205832,no-resolve
   - IP-ASN,205278,no-resolve
