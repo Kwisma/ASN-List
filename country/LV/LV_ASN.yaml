@@ -1,5 +1,5 @@
 # LV 的 ASN 信息
-# 最后更新： CST 2026-04-01 01:32:56
+# 最后更新： CST 2026-04-02 01:29:17
 # ASN: 249
 # 由 Kwisma 制作，保留所有权利。
 
@@ -30,6 +30,7 @@ payload:
   - IP-ASN,29600,no-resolve
   - IP-ASN,52173,no-resolve
   - IP-ASN,203866,no-resolve
+  - IP-ASN,201269,no-resolve
   - IP-ASN,6747,no-resolve
   - IP-ASN,60066,no-resolve
   - IP-ASN,52048,no-resolve
@@ -39,8 +40,6 @@ payload:
   - IP-ASN,39845,no-resolve
   - IP-ASN,213166,no-resolve
   - IP-ASN,207066,no-resolve
-  - IP-ASN,206902,no-resolve
-  - IP-ASN,201269,no-resolve
   - IP-ASN,15721,no-resolve
   - IP-ASN,9029,no-resolve
   - IP-ASN,61127,no-resolve
@@ -55,6 +54,7 @@ payload:
   - IP-ASN,211381,no-resolve
   - IP-ASN,210886,no-resolve
   - IP-ASN,209895,no-resolve
+  - IP-ASN,206902,no-resolve
   - IP-ASN,206600,no-resolve
   - IP-ASN,205680,no-resolve
   - IP-ASN,203355,no-resolve
@@ -104,7 +104,6 @@ payload:
   - IP-ASN,208995,no-resolve
   - IP-ASN,206541,no-resolve
   - IP-ASN,206362,no-resolve
-  - IP-ASN,205370,no-resolve
   - IP-ASN,20509,no-resolve
   - IP-ASN,204391,no-resolve
   - IP-ASN,204130,no-resolve
@@ -218,6 +217,7 @@ payload:
   - IP-ASN,205625,no-resolve
   - IP-ASN,205568,no-resolve
   - IP-ASN,20548,no-resolve
+  - IP-ASN,205370,no-resolve
   - IP-ASN,205045,no-resolve
   - IP-ASN,204380,no-resolve
   - IP-ASN,203557,no-resolve
