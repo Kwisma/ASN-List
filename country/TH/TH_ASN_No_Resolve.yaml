@@ -1,11 +1,11 @@
 # TH 的 ASN 信息
-# 最后更新： CST 2026-04-02 01:29:13
+# 最后更新： CST 2026-04-03 01:33:30
 # ASN: 473
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,4651
   - IP-ASN,38082
+  - IP-ASN,4651
   - IP-ASN,45430
   - IP-ASN,133504
   - IP-ASN,4621
@@ -13,7 +13,6 @@ payload:
   - IP-ASN,38040
   - IP-ASN,132876
   - IP-ASN,59238
-  - IP-ASN,45758
   - IP-ASN,45796
   - IP-ASN,45458
   - IP-ASN,7470
@@ -23,8 +22,8 @@ payload:
   - IP-ASN,132280
   - IP-ASN,38794
   - IP-ASN,138685
-  - IP-ASN,58430
   - IP-ASN,9931
+  - IP-ASN,58430
   - IP-ASN,4750
   - IP-ASN,149766
   - IP-ASN,55554
@@ -34,6 +33,7 @@ payload:
   - IP-ASN,7693
   - IP-ASN,4652
   - IP-ASN,45265
+  - IP-ASN,45758
   - IP-ASN,138466
   - IP-ASN,23969
   - IP-ASN,23884
@@ -113,6 +113,7 @@ payload:
   - IP-ASN,24060
   - IP-ASN,18256
   - IP-ASN,17887
+  - IP-ASN,153787
   - IP-ASN,152465
   - IP-ASN,147176
   - IP-ASN,140699
@@ -142,7 +143,6 @@ payload:
   - IP-ASN,17479
   - IP-ASN,17478
   - IP-ASN,154088
-  - IP-ASN,153787
   - IP-ASN,153746
   - IP-ASN,153645
   - IP-ASN,152734
@@ -250,6 +250,7 @@ payload:
   - IP-ASN,23883
   - IP-ASN,23687
   - IP-ASN,23683
+  - IP-ASN,216049
   - IP-ASN,215748
   - IP-ASN,18356
   - IP-ASN,18197
@@ -257,6 +258,7 @@ payload:
   - IP-ASN,17827
   - IP-ASN,17565
   - IP-ASN,17468
+  - IP-ASN,154502
   - IP-ASN,154212
   - IP-ASN,153730
   - IP-ASN,153659
@@ -377,7 +379,6 @@ payload:
   - IP-ASN,23891
   - IP-ASN,23644
   - IP-ASN,23602
-  - IP-ASN,216049
   - IP-ASN,202828
   - IP-ASN,199884
   - IP-ASN,18408
@@ -388,7 +389,6 @@ payload:
   - IP-ASN,17556
   - IP-ASN,17552
   - IP-ASN,17475
-  - IP-ASN,154502
   - IP-ASN,154313
   - IP-ASN,154255
   - IP-ASN,154179
