@@ -1,14 +1,14 @@
 # MX 的 ASN 信息
-# 最后更新： CST 2026-04-05 01:08:17
+# 最后更新： CST 2026-04-06 01:09:50
 # ASN: 525
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,28398,no-resolve
   - IP-ASN,28458,no-resolve
-  - IP-ASN,17072,no-resolve
   - IP-ASN,270158,no-resolve
   - IP-ASN,272403,no-resolve
+  - IP-ASN,17072,no-resolve
   - IP-ASN,11172,no-resolve
   - IP-ASN,18734,no-resolve
   - IP-ASN,8151,no-resolve
@@ -35,6 +35,7 @@ payload:
   - IP-ASN,28435,no-resolve
   - IP-ASN,278,no-resolve
   - IP-ASN,265622,no-resolve
+  - IP-ASN,22884,no-resolve
   - IP-ASN,28539,no-resolve
   - IP-ASN,28500,no-resolve
   - IP-ASN,28498,no-resolve
@@ -45,7 +46,6 @@ payload:
   - IP-ASN,265620,no-resolve
   - IP-ASN,265530,no-resolve
   - IP-ASN,265509,no-resolve
-  - IP-ASN,22884,no-resolve
   - IP-ASN,18592,no-resolve
   - IP-ASN,28569,no-resolve
   - IP-ASN,28511,no-resolve
@@ -111,6 +111,7 @@ payload:
   - IP-ASN,7038,no-resolve
   - IP-ASN,6342,no-resolve
   - IP-ASN,3596,no-resolve
+  - IP-ASN,3484,no-resolve
   - IP-ASN,3454,no-resolve
   - IP-ASN,28564,no-resolve
   - IP-ASN,28550,no-resolve
@@ -150,7 +151,6 @@ payload:
   - IP-ASN,265579,no-resolve
   - IP-ASN,265575,no-resolve
   - IP-ASN,265569,no-resolve
-  - IP-ASN,265551,no-resolve
   - IP-ASN,265548,no-resolve
   - IP-ASN,265547,no-resolve
   - IP-ASN,265546,no-resolve
@@ -172,7 +172,6 @@ payload:
   - IP-ASN,8007,no-resolve
   - IP-ASN,6927,no-resolve
   - IP-ASN,3968,no-resolve
-  - IP-ASN,3484,no-resolve
   - IP-ASN,2904,no-resolve
   - IP-ASN,28561,no-resolve
   - IP-ASN,28552,no-resolve
@@ -265,6 +264,7 @@ payload:
   - IP-ASN,265571,no-resolve
   - IP-ASN,265568,no-resolve
   - IP-ASN,265565,no-resolve
+  - IP-ASN,265551,no-resolve
   - IP-ASN,265542,no-resolve
   - IP-ASN,265534,no-resolve
   - IP-ASN,265533,no-resolve
