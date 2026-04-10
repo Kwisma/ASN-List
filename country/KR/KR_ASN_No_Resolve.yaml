@@ -1,18 +1,18 @@
 # KR 的 ASN 信息
-# 最后更新： CST 2026-04-10 01:42:27
-# ASN: 880
+# 最后更新： CST 2026-04-11 01:25:21
+# ASN: 883
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,3786
-  - IP-ASN,4766
   - IP-ASN,9318
+  - IP-ASN,4766
   - IP-ASN,23576
   - IP-ASN,10158
   - IP-ASN,9957
   - IP-ASN,9848
-  - IP-ASN,9457
   - IP-ASN,6619
+  - IP-ASN,9457
   - IP-ASN,149522
   - IP-ASN,9286
   - IP-ASN,138195
@@ -22,8 +22,8 @@ payload:
   - IP-ASN,17579
   - IP-ASN,9270
   - IP-ASN,7562
-  - IP-ASN,210576
   - IP-ASN,210919
+  - IP-ASN,210576
   - IP-ASN,10036
   - IP-ASN,45974
   - IP-ASN,45400
@@ -135,7 +135,6 @@ payload:
   - IP-ASN,18034
   - IP-ASN,17837
   - IP-ASN,17834
-  - IP-ASN,17612
   - IP-ASN,17588
   - IP-ASN,152290
   - IP-ASN,152219
@@ -419,7 +418,6 @@ payload:
   - IP-ASN,17874
   - IP-ASN,17873
   - IP-ASN,17870
-  - IP-ASN,17866
   - IP-ASN,17863
   - IP-ASN,17859
   - IP-ASN,17855
@@ -434,6 +432,7 @@ payload:
   - IP-ASN,17616
   - IP-ASN,17615
   - IP-ASN,17614
+  - IP-ASN,17612
   - IP-ASN,17611
   - IP-ASN,17603
   - IP-ASN,17602
@@ -773,6 +772,7 @@ payload:
   - IP-ASN,17869
   - IP-ASN,17868
   - IP-ASN,17867
+  - IP-ASN,17866
   - IP-ASN,17865
   - IP-ASN,17864
   - IP-ASN,17861
@@ -866,8 +866,11 @@ payload:
   - IP-ASN,10046
   - IP-ASN,10042
   - IP-ASN,10038
+  - IP-ASN,9764
   - IP-ASN,4671
+  - IP-ASN,45991
   - IP-ASN,3559
+  - IP-ASN,215087
   - IP-ASN,214510
   - IP-ASN,214166
   - IP-ASN,212388
