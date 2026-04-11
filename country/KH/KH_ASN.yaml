@@ -1,5 +1,5 @@
 # KH 的 ASN 信息
-# 最后更新： CST 2026-04-11 01:25:40
+# 最后更新： CST 2026-04-12 01:12:53
 # ASN: 100
 # 由 Kwisma 制作，保留所有权利。
 
@@ -24,18 +24,16 @@ payload:
   - IP-ASN,131207,no-resolve
   - IP-ASN,135375,no-resolve
   - IP-ASN,7712,no-resolve
-  - IP-ASN,17981,no-resolve
   - IP-ASN,137551,no-resolve
   - IP-ASN,132599,no-resolve
   - IP-ASN,38209,no-resolve
+  - IP-ASN,17981,no-resolve
   - IP-ASN,154215,no-resolve
   - IP-ASN,151622,no-resolve
-  - IP-ASN,138340,no-resolve
   - IP-ASN,137989,no-resolve
   - IP-ASN,137811,no-resolve
   - IP-ASN,132730,no-resolve
   - IP-ASN,131241,no-resolve
-  - IP-ASN,58465,no-resolve
   - IP-ASN,55928,no-resolve
   - IP-ASN,55769,no-resolve
   - IP-ASN,38600,no-resolve
@@ -45,9 +43,11 @@ payload:
   - IP-ASN,139056,no-resolve
   - IP-ASN,138629,no-resolve
   - IP-ASN,138528,no-resolve
+  - IP-ASN,138340,no-resolve
   - IP-ASN,136998,no-resolve
   - IP-ASN,132080,no-resolve
   - IP-ASN,9900,no-resolve
+  - IP-ASN,58465,no-resolve
   - IP-ASN,58424,no-resolve
   - IP-ASN,154213,no-resolve
   - IP-ASN,153864,no-resolve
@@ -78,7 +78,6 @@ payload:
   - IP-ASN,133588,no-resolve
   - IP-ASN,133200,no-resolve
   - IP-ASN,132590,no-resolve
-  - IP-ASN,131178,no-resolve
   - IP-ASN,55636,no-resolve
   - IP-ASN,45348,no-resolve
   - IP-ASN,202199,no-resolve
@@ -104,3 +103,4 @@ payload:
   - IP-ASN,135664,no-resolve
   - IP-ASN,135286,no-resolve
   - IP-ASN,133416,no-resolve
+  - IP-ASN,131178,no-resolve
