@@ -1,5 +1,5 @@
 # NG 的 ASN 信息
-# 最后更新： CST 2026-04-13 01:12:13
+# 最后更新： CST 2026-04-14 01:39:31
 # ASN: 226
 # 由 Kwisma 制作，保留所有权利。
 
@@ -19,15 +19,15 @@ payload:
   - IP-ASN,37480,no-resolve
   - IP-ASN,328722,no-resolve
   - IP-ASN,37088,no-resolve
-  - IP-ASN,37018,no-resolve
   - IP-ASN,30998,no-resolve
   - IP-ASN,37661,no-resolve
   - IP-ASN,37125,no-resolve
+  - IP-ASN,37018,no-resolve
+  - IP-ASN,328780,no-resolve
   - IP-ASN,37340,no-resolve
   - IP-ASN,37308,no-resolve
   - IP-ASN,37209,no-resolve
   - IP-ASN,36938,no-resolve
-  - IP-ASN,328780,no-resolve
   - IP-ASN,37521,no-resolve
   - IP-ASN,37347,no-resolve
   - IP-ASN,328658,no-resolve
@@ -71,12 +71,12 @@ payload:
   - IP-ASN,328203,no-resolve
   - IP-ASN,329024,no-resolve
   - IP-ASN,37629,no-resolve
-  - IP-ASN,37540,no-resolve
   - IP-ASN,37200,no-resolve
   - IP-ASN,37001,no-resolve
   - IP-ASN,328585,no-resolve
   - IP-ASN,328527,no-resolve
   - IP-ASN,327985,no-resolve
+  - IP-ASN,37540,no-resolve
   - IP-ASN,37452,no-resolve
   - IP-ASN,37249,no-resolve
   - IP-ASN,328999,no-resolve
@@ -84,9 +84,7 @@ payload:
   - IP-ASN,37588,no-resolve
   - IP-ASN,37587,no-resolve
   - IP-ASN,36993,no-resolve
-  - IP-ASN,36979,no-resolve
   - IP-ASN,36872,no-resolve
-  - IP-ASN,329503,no-resolve
   - IP-ASN,329476,no-resolve
   - IP-ASN,329275,no-resolve
   - IP-ASN,329191,no-resolve
@@ -113,10 +111,12 @@ payload:
   - IP-ASN,37058,no-resolve
   - IP-ASN,37056,no-resolve
   - IP-ASN,37004,no-resolve
+  - IP-ASN,36979,no-resolve
   - IP-ASN,36922,no-resolve
   - IP-ASN,329613,no-resolve
   - IP-ASN,329568,no-resolve
   - IP-ASN,329550,no-resolve
+  - IP-ASN,329503,no-resolve
   - IP-ASN,329490,no-resolve
   - IP-ASN,329487,no-resolve
   - IP-ASN,329460,no-resolve
