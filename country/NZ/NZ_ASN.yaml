@@ -1,13 +1,13 @@
 # NZ 的 ASN 信息
-# 最后更新： CST 2026-04-17 01:51:38
+# 最后更新： CST 2026-04-18 01:29:47
 # ASN: 439
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,64073,no-resolve
   - IP-ASN,55850,no-resolve
-  - IP-ASN,9790,no-resolve
   - IP-ASN,4648,no-resolve
+  - IP-ASN,9790,no-resolve
   - IP-ASN,133950,no-resolve
   - IP-ASN,135069,no-resolve
   - IP-ASN,38022,no-resolve
@@ -21,8 +21,8 @@ payload:
   - IP-ASN,132255,no-resolve
   - IP-ASN,56030,no-resolve
   - IP-ASN,45637,no-resolve
-  - IP-ASN,45267,no-resolve
   - IP-ASN,17492,no-resolve
+  - IP-ASN,45267,no-resolve
   - IP-ASN,151336,no-resolve
   - IP-ASN,55785,no-resolve
   - IP-ASN,136964,no-resolve
@@ -37,8 +37,8 @@ payload:
   - IP-ASN,64015,no-resolve
   - IP-ASN,17705,no-resolve
   - IP-ASN,152909,no-resolve
-  - IP-ASN,133075,no-resolve
   - IP-ASN,132268,no-resolve
+  - IP-ASN,133075,no-resolve
   - IP-ASN,23655,no-resolve
   - IP-ASN,9303,no-resolve
   - IP-ASN,45179,no-resolve
@@ -191,6 +191,7 @@ payload:
   - IP-ASN,135142,no-resolve
   - IP-ASN,135047,no-resolve
   - IP-ASN,134845,no-resolve
+  - IP-ASN,134818,no-resolve
   - IP-ASN,134746,no-resolve
   - IP-ASN,134378,no-resolve
   - IP-ASN,134372,no-resolve
@@ -361,7 +362,6 @@ payload:
   - IP-ASN,135023,no-resolve
   - IP-ASN,135021,no-resolve
   - IP-ASN,134988,no-resolve
-  - IP-ASN,134818,no-resolve
   - IP-ASN,134744,no-resolve
   - IP-ASN,134730,no-resolve
   - IP-ASN,134692,no-resolve
