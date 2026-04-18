@@ -1,12 +1,12 @@
 # KH 的 ASN 信息
-# 最后更新： CST 2026-04-18 01:29:59
+# 最后更新： CST 2026-04-19 01:12:25
 # ASN: 101
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,55329
-  - IP-ASN,9902
   - IP-ASN,59318
+  - IP-ASN,9902
   - IP-ASN,139628
   - IP-ASN,24492
   - IP-ASN,38235
@@ -27,6 +27,7 @@ payload:
   - IP-ASN,7712
   - IP-ASN,137551
   - IP-ASN,132599
+  - IP-ASN,38209
   - IP-ASN,154215
   - IP-ASN,151622
   - IP-ASN,138340
@@ -38,13 +39,11 @@ payload:
   - IP-ASN,55769
   - IP-ASN,38600
   - IP-ASN,38286
-  - IP-ASN,38209
   - IP-ASN,152301
   - IP-ASN,140659
   - IP-ASN,139056
   - IP-ASN,138629
   - IP-ASN,138528
-  - IP-ASN,136998
   - IP-ASN,132080
   - IP-ASN,9900
   - IP-ASN,58465
@@ -71,6 +70,7 @@ payload:
   - IP-ASN,137440
   - IP-ASN,137413
   - IP-ASN,137206
+  - IP-ASN,136998
   - IP-ASN,136379
   - IP-ASN,135380
   - IP-ASN,135333
