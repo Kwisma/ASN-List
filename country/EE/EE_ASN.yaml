@@ -1,10 +1,11 @@
 # EE 的 ASN 信息
-# 最后更新： CST 2026-04-24 01:56:41
+# 最后更新： CST 2026-04-25 00:46:37
 # ASN: 175
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,215955,no-resolve
+  - IP-ASN,3920,no-resolve
   - IP-ASN,11967,no-resolve
   - IP-ASN,3204,no-resolve
   - IP-ASN,62005,no-resolve
@@ -17,7 +18,6 @@ payload:
   - IP-ASN,206804,no-resolve
   - IP-ASN,2586,no-resolve
   - IP-ASN,203273,no-resolve
-  - IP-ASN,3920,no-resolve
   - IP-ASN,8240,no-resolve
   - IP-ASN,4128,no-resolve
   - IP-ASN,61189,no-resolve
@@ -34,6 +34,7 @@ payload:
   - IP-ASN,50794,no-resolve
   - IP-ASN,42300,no-resolve
   - IP-ASN,34702,no-resolve
+  - IP-ASN,216253,no-resolve
   - IP-ASN,214132,no-resolve
   - IP-ASN,211494,no-resolve
   - IP-ASN,207568,no-resolve
@@ -46,13 +47,12 @@ payload:
   - IP-ASN,51349,no-resolve
   - IP-ASN,49604,no-resolve
   - IP-ASN,49191,no-resolve
-  - IP-ASN,216253,no-resolve
   - IP-ASN,214693,no-resolve
   - IP-ASN,211156,no-resolve
   - IP-ASN,209554,no-resolve
   - IP-ASN,20948,no-resolve
   - IP-ASN,209153,no-resolve
-  - IP-ASN,202376,no-resolve
+  - IP-ASN,202759,no-resolve
   - IP-ASN,201601,no-resolve
   - IP-ASN,12757,no-resolve
   - IP-ASN,60608,no-resolve
@@ -71,7 +71,7 @@ payload:
   - IP-ASN,207254,no-resolve
   - IP-ASN,205646,no-resolve
   - IP-ASN,204411,no-resolve
-  - IP-ASN,202759,no-resolve
+  - IP-ASN,202376,no-resolve
   - IP-ASN,62406,no-resolve
   - IP-ASN,62024,no-resolve
   - IP-ASN,59725,no-resolve
