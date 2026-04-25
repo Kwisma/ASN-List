@@ -1,11 +1,11 @@
 # NP 的 ASN 信息
-# 最后更新： CST 2026-04-25 00:46:38
+# 最后更新： CST 2026-04-26 00:32:54
 # ASN: 147
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,4007,no-resolve
   - IP-ASN,17501,no-resolve
+  - IP-ASN,4007,no-resolve
   - IP-ASN,45274,no-resolve
   - IP-ASN,45650,no-resolve
   - IP-ASN,141047,no-resolve
@@ -36,7 +36,6 @@ payload:
   - IP-ASN,55427,no-resolve
   - IP-ASN,24504,no-resolve
   - IP-ASN,23647,no-resolve
-  - IP-ASN,154274,no-resolve
   - IP-ASN,154259,no-resolve
   - IP-ASN,154096,no-resolve
   - IP-ASN,153885,no-resolve
@@ -59,7 +58,6 @@ payload:
   - IP-ASN,140072,no-resolve
   - IP-ASN,140050,no-resolve
   - IP-ASN,139701,no-resolve
-  - IP-ASN,139256,no-resolve
   - IP-ASN,139224,no-resolve
   - IP-ASN,138605,no-resolve
   - IP-ASN,138495,no-resolve
@@ -93,6 +91,7 @@ payload:
   - IP-ASN,24474,no-resolve
   - IP-ASN,23672,no-resolve
   - IP-ASN,17412,no-resolve
+  - IP-ASN,154274,no-resolve
   - IP-ASN,154237,no-resolve
   - IP-ASN,154038,no-resolve
   - IP-ASN,153765,no-resolve
@@ -128,6 +127,7 @@ payload:
   - IP-ASN,139902,no-resolve
   - IP-ASN,139741,no-resolve
   - IP-ASN,139261,no-resolve
+  - IP-ASN,139256,no-resolve
   - IP-ASN,139237,no-resolve
   - IP-ASN,139022,no-resolve
   - IP-ASN,138964,no-resolve
