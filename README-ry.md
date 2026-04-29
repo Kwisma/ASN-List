@@ -4,7 +4,10 @@
 country 目录ASN如下：
 
 - ASN-US United States
+- ASN-BR Brazil
+- ASN-CN China
 - ASN-RU Russian Federation
+- ASN-IN India
 - ASN-GB United Kingdom
 - ASN-ID Indonesia
 - ASN-DE Germany
@@ -112,6 +115,8 @@ country 目录ASN如下：
 - ASN-PG Papua New Guinea
 - ASN-LA Lao People's Democratic Republic
 - ASN-BZ Belize
+- ASN-ZW Zimbabwe
+- ASN-MZ Mozambique
 - ASN-CW Curaçao
 - ASN-CM Cameroon
 - ASN-MW Malawi
@@ -252,7 +257,10 @@ country 目录ASN如下：
 <pre><code class="language-javascript">
 rules:
   - RULE-SET,ASNUS,Proxy
+  - RULE-SET,ASNBR,Proxy
+  - RULE-SET,ASNCN,Proxy
   - RULE-SET,ASNRU,Proxy
+  - RULE-SET,ASNIN,Proxy
   - RULE-SET,ASNGB,Proxy
   - RULE-SET,ASNID,Proxy
   - RULE-SET,ASNDE,Proxy
@@ -360,6 +368,8 @@ rules:
   - RULE-SET,ASNPG,Proxy
   - RULE-SET,ASNLA,Proxy
   - RULE-SET,ASNBZ,Proxy
+  - RULE-SET,ASNZW,Proxy
+  - RULE-SET,ASNMZ,Proxy
   - RULE-SET,ASNCW,Proxy
   - RULE-SET,ASNCM,Proxy
   - RULE-SET,ASNMW,Proxy
@@ -503,11 +513,35 @@ rule-providers:
     interval: 86400
     format: yaml
 
+  BRasn:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BR/BR_ASN.yaml"
+    path: ./ruleset/BR_ASN.yaml
+    interval: 86400
+    format: yaml
+
+  CNasn:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CN/CN_ASN.yaml"
+    path: ./ruleset/CN_ASN.yaml
+    interval: 86400
+    format: yaml
+
   RUasn:
     type: http
     behavior: classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/RU/RU_ASN.yaml"
     path: ./ruleset/RU_ASN.yaml
+    interval: 86400
+    format: yaml
+
+  INasn:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/IN/IN_ASN.yaml"
+    path: ./ruleset/IN_ASN.yaml
     interval: 86400
     format: yaml
 
@@ -1364,6 +1398,22 @@ rule-providers:
     behavior: classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BZ/BZ_ASN.yaml"
     path: ./ruleset/BZ_ASN.yaml
+    interval: 86400
+    format: yaml
+
+  ZWasn:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/ZW/ZW_ASN.yaml"
+    path: ./ruleset/ZW_ASN.yaml
+    interval: 86400
+    format: yaml
+
+  MZasn:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MZ/MZ_ASN.yaml"
+    path: ./ruleset/MZ_ASN.yaml
     interval: 86400
     format: yaml
 
@@ -2395,10 +2445,25 @@ rule-providers:
     url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/US/US_ASN.yaml"
     path: ./ruleset/US_ASN.yaml
 
+  BRasn:
+    <<: *classical
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BR/BR_ASN.yaml"
+    path: ./ruleset/BR_ASN.yaml
+
+  CNasn:
+    <<: *classical
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CN/CN_ASN.yaml"
+    path: ./ruleset/CN_ASN.yaml
+
   RUasn:
     <<: *classical
     url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/RU/RU_ASN.yaml"
     path: ./ruleset/RU_ASN.yaml
+
+  INasn:
+    <<: *classical
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IN/IN_ASN.yaml"
+    path: ./ruleset/IN_ASN.yaml
 
   GBasn:
     <<: *classical
@@ -2934,6 +2999,16 @@ rule-providers:
     <<: *classical
     url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BZ/BZ_ASN.yaml"
     path: ./ruleset/BZ_ASN.yaml
+
+  ZWasn:
+    <<: *classical
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ZW/ZW_ASN.yaml"
+    path: ./ruleset/ZW_ASN.yaml
+
+  MZasn:
+    <<: *classical
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MZ/MZ_ASN.yaml"
+    path: ./ruleset/MZ_ASN.yaml
 
   CWasn:
     <<: *classical
@@ -3582,10 +3657,25 @@ rule-providers:
     url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/US/US_IP.yaml"
     path: ./ruleset/US_IP.yaml
 
+  BRcidr:
+    <<: *ipcidr
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BR/BR_IP.yaml"
+    path: ./ruleset/BR_IP.yaml
+
+  CNcidr:
+    <<: *ipcidr
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CN/CN_IP.yaml"
+    path: ./ruleset/CN_IP.yaml
+
   RUcidr:
     <<: *ipcidr
     url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/RU/RU_IP.yaml"
     path: ./ruleset/RU_IP.yaml
+
+  INcidr:
+    <<: *ipcidr
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/IN/IN_IP.yaml"
+    path: ./ruleset/IN_IP.yaml
 
   GBcidr:
     <<: *ipcidr
@@ -4121,6 +4211,16 @@ rule-providers:
     <<: *ipcidr
     url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BZ/BZ_IP.yaml"
     path: ./ruleset/BZ_IP.yaml
+
+  ZWcidr:
+    <<: *ipcidr
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/ZW/ZW_IP.yaml"
+    path: ./ruleset/ZW_IP.yaml
+
+  MZcidr:
+    <<: *ipcidr
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MZ/MZ_IP.yaml"
+    path: ./ruleset/MZ_IP.yaml
 
   CWcidr:
     <<: *ipcidr
