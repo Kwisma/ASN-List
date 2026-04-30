@@ -1,12 +1,12 @@
 # NO 的 ASN 信息
-# 最后更新： CST 2026-04-30 01:18:28
+# 最后更新： CST 2026-05-01 01:10:34
 # ASN: 309
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,50304,no-resolve
-  - IP-ASN,56655,no-resolve
   - IP-ASN,2119,no-resolve
+  - IP-ASN,56655,no-resolve
   - IP-ASN,29479,no-resolve
   - IP-ASN,50272,no-resolve
   - IP-ASN,34087,no-resolve
@@ -35,11 +35,11 @@ payload:
   - IP-ASN,61292,no-resolve
   - IP-ASN,34989,no-resolve
   - IP-ASN,24039,no-resolve
+  - IP-ASN,214639,no-resolve
   - IP-ASN,206557,no-resolve
   - IP-ASN,57660,no-resolve
   - IP-ASN,56828,no-resolve
   - IP-ASN,50270,no-resolve
-  - IP-ASN,214639,no-resolve
   - IP-ASN,21293,no-resolve
   - IP-ASN,211309,no-resolve
   - IP-ASN,210152,no-resolve
@@ -107,7 +107,6 @@ payload:
   - IP-ASN,49193,no-resolve
   - IP-ASN,49082,no-resolve
   - IP-ASN,48863,no-resolve
-  - IP-ASN,48469,no-resolve
   - IP-ASN,47405,no-resolve
   - IP-ASN,44654,no-resolve
   - IP-ASN,43905,no-resolve
@@ -188,6 +187,7 @@ payload:
   - IP-ASN,49455,no-resolve
   - IP-ASN,49409,no-resolve
   - IP-ASN,49214,no-resolve
+  - IP-ASN,48469,no-resolve
   - IP-ASN,48335,no-resolve
   - IP-ASN,48144,no-resolve
   - IP-ASN,44763,no-resolve
