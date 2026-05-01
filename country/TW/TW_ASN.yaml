@@ -1,5 +1,5 @@
 # TW 的 ASN 信息
-# 最后更新： CST 2026-05-01 01:10:34
+# 最后更新： CST 2026-05-02 00:46:28
 # ASN: 303
 # 由 Kwisma 制作，保留所有权利。
 
@@ -19,9 +19,9 @@ payload:
   - IP-ASN,208223,no-resolve
   - IP-ASN,203843,no-resolve
   - IP-ASN,18044,no-resolve
-  - IP-ASN,17709,no-resolve
   - IP-ASN,10133,no-resolve
   - IP-ASN,9416,no-resolve
+  - IP-ASN,17709,no-resolve
   - IP-ASN,7539,no-resolve
   - IP-ASN,131642,no-resolve
   - IP-ASN,204934,no-resolve
@@ -31,14 +31,15 @@ payload:
   - IP-ASN,9678,no-resolve
   - IP-ASN,134094,no-resolve
   - IP-ASN,131596,no-resolve
+  - IP-ASN,9244,no-resolve
   - IP-ASN,150768,no-resolve
   - IP-ASN,150766,no-resolve
-  - IP-ASN,9244,no-resolve
   - IP-ASN,131584,no-resolve
   - IP-ASN,63900,no-resolve
   - IP-ASN,152622,no-resolve
   - IP-ASN,131659,no-resolve
   - IP-ASN,10135,no-resolve
+  - IP-ASN,216198,no-resolve
   - IP-ASN,7483,no-resolve
   - IP-ASN,38851,no-resolve
   - IP-ASN,18422,no-resolve
@@ -100,7 +101,7 @@ payload:
   - IP-ASN,63902,no-resolve
   - IP-ASN,38853,no-resolve
   - IP-ASN,18183,no-resolve
-  - IP-ASN,131636,no-resolve
+  - IP-ASN,18180,no-resolve
   - IP-ASN,131605,no-resolve
   - IP-ASN,131599,no-resolve
   - IP-ASN,9916,no-resolve
@@ -112,9 +113,9 @@ payload:
   - IP-ASN,24158,no-resolve
   - IP-ASN,24155,no-resolve
   - IP-ASN,18181,no-resolve
-  - IP-ASN,18180,no-resolve
   - IP-ASN,18042,no-resolve
   - IP-ASN,17713,no-resolve
+  - IP-ASN,131636,no-resolve
   - IP-ASN,9923,no-resolve
   - IP-ASN,9919,no-resolve
   - IP-ASN,9918,no-resolve
@@ -230,6 +231,7 @@ payload:
   - IP-ASN,152617,no-resolve
   - IP-ASN,152616,no-resolve
   - IP-ASN,152613,no-resolve
+  - IP-ASN,152612,no-resolve
   - IP-ASN,150756,no-resolve
   - IP-ASN,149791,no-resolve
   - IP-ASN,142061,no-resolve
@@ -261,7 +263,6 @@ payload:
   - IP-ASN,63896,no-resolve
   - IP-ASN,57429,no-resolve
   - IP-ASN,216432,no-resolve
-  - IP-ASN,216198,no-resolve
   - IP-ASN,216123,no-resolve
   - IP-ASN,215993,no-resolve
   - IP-ASN,215934,no-resolve
@@ -299,7 +300,6 @@ payload:
   - IP-ASN,201943,no-resolve
   - IP-ASN,199203,no-resolve
   - IP-ASN,198954,no-resolve
-  - IP-ASN,152612,no-resolve
   - IP-ASN,149423,no-resolve
   - IP-ASN,133375,no-resolve
   - IP-ASN,131668,no-resolve
