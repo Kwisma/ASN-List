@@ -1,12 +1,12 @@
 # IS 的 ASN 信息
-# 最后更新： CST 2026-05-02 00:46:35
+# 最后更新： CST 2026-05-03 00:40:24
 # ASN: 72
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,12969,no-resolve
-  - IP-ASN,6677,no-resolve
   - IP-ASN,44735,no-resolve
+  - IP-ASN,6677,no-resolve
   - IP-ASN,56704,no-resolve
   - IP-ASN,25509,no-resolve
   - IP-ASN,35834,no-resolve
@@ -32,6 +32,7 @@ payload:
   - IP-ASN,50613,no-resolve
   - IP-ASN,44644,no-resolve
   - IP-ASN,39532,no-resolve
+  - IP-ASN,31441,no-resolve
   - IP-ASN,25244,no-resolve
   - IP-ASN,215823,no-resolve
   - IP-ASN,214144,no-resolve
@@ -55,7 +56,6 @@ payload:
   - IP-ASN,44925,no-resolve
   - IP-ASN,44515,no-resolve
   - IP-ASN,34678,no-resolve
-  - IP-ASN,31441,no-resolve
   - IP-ASN,31236,no-resolve
   - IP-ASN,29348,no-resolve
   - IP-ASN,216293,no-resolve
