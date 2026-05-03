@@ -34,6 +34,8 @@ country 目录ASN如下：
 - ASN-BG Bulgaria
 - ASN-AT Austria
 - ASN-NZ New Zealand
+- ASN-MX Mexico
+- ASN-CZ Czech Republic
 - ASN-SG Singapore
 - ASN-PH Philippines
 - ASN-TH Thailand
@@ -285,6 +287,8 @@ rules:
   - RULE-SET,ASNBG,Proxy
   - RULE-SET,ASNAT,Proxy
   - RULE-SET,ASNNZ,Proxy
+  - RULE-SET,ASNMX,Proxy
+  - RULE-SET,ASNCZ,Proxy
   - RULE-SET,ASNSG,Proxy
   - RULE-SET,ASNPH,Proxy
   - RULE-SET,ASNTH,Proxy
@@ -746,6 +750,22 @@ rule-providers:
     behavior: classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/NZ/NZ_ASN.yaml"
     path: ./ruleset/NZ_ASN.yaml
+    interval: 86400
+    format: yaml
+
+  MXasn:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/MX/MX_ASN.yaml"
+    path: ./ruleset/MX_ASN.yaml
+    interval: 86400
+    format: yaml
+
+  CZasn:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CZ/CZ_ASN.yaml"
+    path: ./ruleset/CZ_ASN.yaml
     interval: 86400
     format: yaml
 
@@ -2575,6 +2595,16 @@ rule-providers:
     url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NZ/NZ_ASN.yaml"
     path: ./ruleset/NZ_ASN.yaml
 
+  MXasn:
+    <<: *classical
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MX/MX_ASN.yaml"
+    path: ./ruleset/MX_ASN.yaml
+
+  CZasn:
+    <<: *classical
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CZ/CZ_ASN.yaml"
+    path: ./ruleset/CZ_ASN.yaml
+
   SGasn:
     <<: *classical
     url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/SG/SG_ASN.yaml"
@@ -3776,6 +3806,16 @@ rule-providers:
     <<: *ipcidr
     url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/NZ/NZ_IP.yaml"
     path: ./ruleset/NZ_IP.yaml
+
+  MXcidr:
+    <<: *ipcidr
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/MX/MX_IP.yaml"
+    path: ./ruleset/MX_IP.yaml
+
+  CZcidr:
+    <<: *ipcidr
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CZ/CZ_IP.yaml"
+    path: ./ruleset/CZ_IP.yaml
 
   SGcidr:
     <<: *ipcidr
