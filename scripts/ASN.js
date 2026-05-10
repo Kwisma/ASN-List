@@ -219,22 +219,22 @@ async function saveLatestASN(name, directory = "country") {
         const asnName = $(asn).find("td:nth-child(2)").text().trim();
         if (asnName === "ASN") {
           fs.appendFileSync(
-            files.asnList,
+            files.asnResolveList,
             `IP-ASN,${asnNumber},no-resolve\n`,
             "utf8",
           );
           fs.appendFileSync(
-            files.asnResolveList,
+            files.asnList,
             `IP-ASN,${asnNumber}\n`,
             "utf8",
           );
           fs.appendFileSync(
-            files.asnYaml,
+            files.asnResolveYaml,
             `  - IP-ASN,${asnNumber},no-resolve\n`,
             "utf8",
           );
           fs.appendFileSync(
-            files.asnResolveYaml,
+            files.asnYaml,
             `  - IP-ASN,${asnNumber}\n`,
             "utf8",
           );
@@ -276,22 +276,22 @@ async function saveLatestASN(name, directory = "country") {
           .trim();
         if (asnNumber) {
           fs.appendFileSync(
-            files.asnList,
+            files.asnResolveList,
             `IP-ASN,${asnNumber},no-resolve\n`,
             "utf8",
           );
           fs.appendFileSync(
-            files.asnResolveList,
+            files.asnList,
             `IP-ASN,${asnNumber}\n`,
             "utf8",
           );
           fs.appendFileSync(
-            files.asnYaml,
+            files.asnResolveYaml,
             `  - IP-ASN,${asnNumber},no-resolve\n`,
             "utf8",
           );
           fs.appendFileSync(
-            files.asnResolveYaml,
+            files.asnYaml,
             `  - IP-ASN,${asnNumber}\n`,
             "utf8",
           );
