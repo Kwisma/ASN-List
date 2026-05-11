@@ -1,14 +1,14 @@
 # VN 的 ASN 信息
-# 最后更新： CST 2026-05-11 00:44:19
+# 最后更新： CST 2026-05-12 01:50:59
 # ASN: 543
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,18403,no-resolve
-  - IP-ASN,45899,no-resolve
   - IP-ASN,7552,no-resolve
-  - IP-ASN,45903,no-resolve
+  - IP-ASN,45899,no-resolve
   - IP-ASN,45896,no-resolve
+  - IP-ASN,45903,no-resolve
   - IP-ASN,63741,no-resolve
   - IP-ASN,24088,no-resolve
   - IP-ASN,24173,no-resolve
@@ -133,6 +133,7 @@ payload:
   - IP-ASN,7643,no-resolve
   - IP-ASN,63766,no-resolve
   - IP-ASN,63753,no-resolve
+  - IP-ASN,63752,no-resolve
   - IP-ASN,63747,no-resolve
   - IP-ASN,63744,no-resolve
   - IP-ASN,63742,no-resolve
@@ -278,7 +279,6 @@ payload:
   - IP-ASN,63763,no-resolve
   - IP-ASN,63759,no-resolve
   - IP-ASN,63756,no-resolve
-  - IP-ASN,63752,no-resolve
   - IP-ASN,63746,no-resolve
   - IP-ASN,63740,no-resolve
   - IP-ASN,63734,no-resolve
