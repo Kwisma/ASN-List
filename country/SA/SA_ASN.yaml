@@ -1,11 +1,11 @@
 # SA 的 ASN 信息
-# 最后更新： CST 2026-05-16 01:23:52
+# 最后更新： CST 2026-05-17 00:47:00
 # ASN: 171
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,39386
   - IP-ASN,48237
+  - IP-ASN,39386
   - IP-ASN,35753
   - IP-ASN,214329
   - IP-ASN,47794
@@ -35,7 +35,6 @@ payload:
   - IP-ASN,51975
   - IP-ASN,49257
   - IP-ASN,48937
-  - IP-ASN,44577
   - IP-ASN,42428
   - IP-ASN,42333
   - IP-ASN,39228
@@ -58,12 +57,12 @@ payload:
   - IP-ASN,56865
   - IP-ASN,56714
   - IP-ASN,50517
-  - IP-ASN,49833
   - IP-ASN,49474
   - IP-ASN,48932
   - IP-ASN,48840
   - IP-ASN,47907
   - IP-ASN,44689
+  - IP-ASN,44577
   - IP-ASN,43987
   - IP-ASN,43977
   - IP-ASN,43775
@@ -106,6 +105,7 @@ payload:
   - IP-ASN,57689
   - IP-ASN,51670
   - IP-ASN,50880
+  - IP-ASN,49833
   - IP-ASN,49317
   - IP-ASN,48204
   - IP-ASN,47344
