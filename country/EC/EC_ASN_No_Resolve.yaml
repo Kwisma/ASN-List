@@ -1,13 +1,13 @@
 # EC 的 ASN 信息
-# 最后更新： CST 2026-05-17 00:46:59
-# ASN: 226
+# 最后更新： CST 2026-05-18 00:47:01
+# ASN: 224
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,27947,no-resolve
   - IP-ASN,19114,no-resolve
-  - IP-ASN,22724,no-resolve
   - IP-ASN,263238,no-resolve
+  - IP-ASN,22724,no-resolve
   - IP-ASN,61468,no-resolve
   - IP-ASN,23031,no-resolve
   - IP-ASN,23487,no-resolve
@@ -22,6 +22,7 @@ payload:
   - IP-ASN,264744,no-resolve
   - IP-ASN,52238,no-resolve
   - IP-ASN,27814,no-resolve
+  - IP-ASN,273883,no-resolve
   - IP-ASN,273142,no-resolve
   - IP-ASN,273141,no-resolve
   - IP-ASN,272883,no-resolve
@@ -35,7 +36,6 @@ payload:
   - IP-ASN,28097,no-resolve
   - IP-ASN,27668,no-resolve
   - IP-ASN,274106,no-resolve
-  - IP-ASN,273883,no-resolve
   - IP-ASN,273177,no-resolve
   - IP-ASN,273035,no-resolve
   - IP-ASN,272823,no-resolve
@@ -85,7 +85,6 @@ payload:
   - IP-ASN,273068,no-resolve
   - IP-ASN,273034,no-resolve
   - IP-ASN,272998,no-resolve
-  - IP-ASN,272939,no-resolve
   - IP-ASN,272914,no-resolve
   - IP-ASN,272889,no-resolve
   - IP-ASN,272877,no-resolve
@@ -133,7 +132,6 @@ payload:
   - IP-ASN,265787,no-resolve
   - IP-ASN,265775,no-resolve
   - IP-ASN,265734,no-resolve
-  - IP-ASN,265711,no-resolve
   - IP-ASN,265632,no-resolve
   - IP-ASN,264801,no-resolve
   - IP-ASN,264746,no-resolve
@@ -171,13 +169,13 @@ payload:
   - IP-ASN,273098,no-resolve
   - IP-ASN,273003,no-resolve
   - IP-ASN,272954,no-resolve
+  - IP-ASN,272939,no-resolve
   - IP-ASN,272936,no-resolve
   - IP-ASN,272827,no-resolve
   - IP-ASN,272819,no-resolve
   - IP-ASN,272147,no-resolve
   - IP-ASN,272140,no-resolve
   - IP-ASN,272121,no-resolve
-  - IP-ASN,272074,no-resolve
   - IP-ASN,272067,no-resolve
   - IP-ASN,272034,no-resolve
   - IP-ASN,271941,no-resolve
@@ -203,6 +201,7 @@ payload:
   - IP-ASN,266672,no-resolve
   - IP-ASN,265815,no-resolve
   - IP-ASN,265799,no-resolve
+  - IP-ASN,265711,no-resolve
   - IP-ASN,264826,no-resolve
   - IP-ASN,264668,no-resolve
   - IP-ASN,263738,no-resolve
@@ -225,7 +224,6 @@ payload:
   - IP-ASN,272966,no-resolve
   - IP-ASN,272890,no-resolve
   - IP-ASN,272811,no-resolve
-  - IP-ASN,272808,no-resolve
   - IP-ASN,272101,no-resolve
   - IP-ASN,271977,no-resolve
   - IP-ASN,266679,no-resolve
