@@ -1,11 +1,11 @@
 # TZ 的 ASN 信息
-# 最后更新： CST 2026-05-18 00:47:04
+# 最后更新： CST 2026-05-19 01:53:51
 # ASN: 99
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,37035,no-resolve
   - IP-ASN,327885,no-resolve
+  - IP-ASN,37035,no-resolve
   - IP-ASN,33765,no-resolve
   - IP-ASN,37349,no-resolve
   - IP-ASN,36965,no-resolve
@@ -14,6 +14,7 @@ payload:
   - IP-ASN,37133,no-resolve
   - IP-ASN,36908,no-resolve
   - IP-ASN,36909,no-resolve
+  - IP-ASN,328514,no-resolve
   - IP-ASN,327795,no-resolve
   - IP-ASN,37182,no-resolve
   - IP-ASN,37013,no-resolve
@@ -21,7 +22,6 @@ payload:
   - IP-ASN,36930,no-resolve
   - IP-ASN,328950,no-resolve
   - IP-ASN,32860,no-resolve
-  - IP-ASN,328514,no-resolve
   - IP-ASN,327728,no-resolve
   - IP-ASN,327714,no-resolve
   - IP-ASN,37496,no-resolve
@@ -33,6 +33,7 @@ payload:
   - IP-ASN,329529,no-resolve
   - IP-ASN,329393,no-resolve
   - IP-ASN,328805,no-resolve
+  - IP-ASN,328783,no-resolve
   - IP-ASN,328700,no-resolve
   - IP-ASN,328478,no-resolve
   - IP-ASN,328075,no-resolve
@@ -42,6 +43,7 @@ payload:
   - IP-ASN,37045,no-resolve
   - IP-ASN,329677,no-resolve
   - IP-ASN,329627,no-resolve
+  - IP-ASN,329495,no-resolve
   - IP-ASN,329488,no-resolve
   - IP-ASN,329420,no-resolve
   - IP-ASN,329413,no-resolve
@@ -54,7 +56,6 @@ payload:
   - IP-ASN,328885,no-resolve
   - IP-ASN,328845,no-resolve
   - IP-ASN,328838,no-resolve
-  - IP-ASN,328783,no-resolve
   - IP-ASN,328751,no-resolve
   - IP-ASN,328676,no-resolve
   - IP-ASN,328557,no-resolve
@@ -79,7 +80,6 @@ payload:
   - IP-ASN,329603,no-resolve
   - IP-ASN,329548,no-resolve
   - IP-ASN,329524,no-resolve
-  - IP-ASN,329495,no-resolve
   - IP-ASN,329450,no-resolve
   - IP-ASN,329448,no-resolve
   - IP-ASN,329322,no-resolve
