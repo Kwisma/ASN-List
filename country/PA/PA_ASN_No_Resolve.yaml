@@ -1,5 +1,5 @@
 # PA 的 ASN 信息
-# 最后更新： CST 2026-05-19 01:53:50
+# 最后更新： CST 2026-05-20 01:58:49
 # ASN: 96
 # 由 Kwisma 制作，保留所有权利。
 
@@ -28,6 +28,7 @@ payload:
   - IP-ASN,52245,no-resolve
   - IP-ASN,3551,no-resolve
   - IP-ASN,28316,no-resolve
+  - IP-ASN,28061,no-resolve
   - IP-ASN,27930,no-resolve
   - IP-ASN,27928,no-resolve
   - IP-ASN,27915,no-resolve
@@ -38,7 +39,6 @@ payload:
   - IP-ASN,52284,no-resolve
   - IP-ASN,48721,no-resolve
   - IP-ASN,36331,no-resolve
-  - IP-ASN,28061,no-resolve
   - IP-ASN,27936,no-resolve
   - IP-ASN,27922,no-resolve
   - IP-ASN,27873,no-resolve
@@ -48,11 +48,9 @@ payload:
   - IP-ASN,27687,no-resolve
   - IP-ASN,274135,no-resolve
   - IP-ASN,273888,no-resolve
-  - IP-ASN,272109,no-resolve
   - IP-ASN,270078,no-resolve
   - IP-ASN,269864,no-resolve
   - IP-ASN,269758,no-resolve
-  - IP-ASN,269736,no-resolve
   - IP-ASN,266797,no-resolve
   - IP-ASN,266695,no-resolve
   - IP-ASN,265654,no-resolve
@@ -82,8 +80,10 @@ payload:
   - IP-ASN,27649,no-resolve
   - IP-ASN,273907,no-resolve
   - IP-ASN,273135,no-resolve
+  - IP-ASN,272109,no-resolve
   - IP-ASN,272096,no-resolve
   - IP-ASN,269985,no-resolve
+  - IP-ASN,269736,no-resolve
   - IP-ASN,266828,no-resolve
   - IP-ASN,266811,no-resolve
   - IP-ASN,266692,no-resolve
