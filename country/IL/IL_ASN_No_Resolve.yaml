@@ -1,6 +1,6 @@
 # IL 的 ASN 信息
-# 最后更新： CST 2026-05-26 01:30:08
-# ASN: 325
+# 最后更新： CST 2026-05-27 02:17:49
+# ASN: 326
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -34,12 +34,12 @@ payload:
   - IP-ASN,42925,no-resolve
   - IP-ASN,20645,no-resolve
   - IP-ASN,41714,no-resolve
-  - IP-ASN,30866,no-resolve
   - IP-ASN,204528,no-resolve
   - IP-ASN,199391,no-resolve
   - IP-ASN,33802,no-resolve
   - IP-ASN,16158,no-resolve
   - IP-ASN,49484,no-resolve
+  - IP-ASN,30866,no-resolve
   - IP-ASN,61149,no-resolve
   - IP-ASN,5486,no-resolve
   - IP-ASN,42475,no-resolve
@@ -77,11 +77,9 @@ payload:
   - IP-ASN,207667,no-resolve
   - IP-ASN,203110,no-resolve
   - IP-ASN,202597,no-resolve
-  - IP-ASN,202102,no-resolve
   - IP-ASN,201833,no-resolve
   - IP-ASN,201076,no-resolve
   - IP-ASN,198256,no-resolve
-  - IP-ASN,16061,no-resolve
   - IP-ASN,13093,no-resolve
   - IP-ASN,12988,no-resolve
   - IP-ASN,12736,no-resolve
@@ -97,6 +95,7 @@ payload:
   - IP-ASN,51825,no-resolve
   - IP-ASN,51385,no-resolve
   - IP-ASN,50995,no-resolve
+  - IP-ASN,50454,no-resolve
   - IP-ASN,50079,no-resolve
   - IP-ASN,49771,no-resolve
   - IP-ASN,47770,no-resolve
@@ -153,6 +152,7 @@ payload:
   - IP-ASN,204814,no-resolve
   - IP-ASN,202447,no-resolve
   - IP-ASN,202226,no-resolve
+  - IP-ASN,202102,no-resolve
   - IP-ASN,201415,no-resolve
   - IP-ASN,200742,no-resolve
   - IP-ASN,200433,no-resolve
@@ -169,6 +169,7 @@ payload:
   - IP-ASN,197538,no-resolve
   - IP-ASN,16370,no-resolve
   - IP-ASN,16116,no-resolve
+  - IP-ASN,16061,no-resolve
   - IP-ASN,15976,no-resolve
   - IP-ASN,15823,no-resolve
   - IP-ASN,15643,no-resolve
@@ -193,7 +194,6 @@ payload:
   - IP-ASN,51617,no-resolve
   - IP-ASN,50865,no-resolve
   - IP-ASN,50744,no-resolve
-  - IP-ASN,50454,no-resolve
   - IP-ASN,50440,no-resolve
   - IP-ASN,50365,no-resolve
   - IP-ASN,50318,no-resolve
@@ -329,3 +329,4 @@ payload:
   - IP-ASN,212529,no-resolve
   - IP-ASN,206020,no-resolve
   - IP-ASN,202301,no-resolve
+  - IP-ASN,199879,no-resolve

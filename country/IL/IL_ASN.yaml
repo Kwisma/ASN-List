@@ -1,6 +1,6 @@
 # IL 的 ASN 信息
-# 最后更新： CST 2026-05-26 01:30:08
-# ASN: 325
+# 最后更新： CST 2026-05-27 02:17:49
+# ASN: 326
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -34,12 +34,12 @@ payload:
   - IP-ASN,42925
   - IP-ASN,20645
   - IP-ASN,41714
-  - IP-ASN,30866
   - IP-ASN,204528
   - IP-ASN,199391
   - IP-ASN,33802
   - IP-ASN,16158
   - IP-ASN,49484
+  - IP-ASN,30866
   - IP-ASN,61149
   - IP-ASN,5486
   - IP-ASN,42475
@@ -77,11 +77,9 @@ payload:
   - IP-ASN,207667
   - IP-ASN,203110
   - IP-ASN,202597
-  - IP-ASN,202102
   - IP-ASN,201833
   - IP-ASN,201076
   - IP-ASN,198256
-  - IP-ASN,16061
   - IP-ASN,13093
   - IP-ASN,12988
   - IP-ASN,12736
@@ -97,6 +95,7 @@ payload:
   - IP-ASN,51825
   - IP-ASN,51385
   - IP-ASN,50995
+  - IP-ASN,50454
   - IP-ASN,50079
   - IP-ASN,49771
   - IP-ASN,47770
@@ -153,6 +152,7 @@ payload:
   - IP-ASN,204814
   - IP-ASN,202447
   - IP-ASN,202226
+  - IP-ASN,202102
   - IP-ASN,201415
   - IP-ASN,200742
   - IP-ASN,200433
@@ -169,6 +169,7 @@ payload:
   - IP-ASN,197538
   - IP-ASN,16370
   - IP-ASN,16116
+  - IP-ASN,16061
   - IP-ASN,15976
   - IP-ASN,15823
   - IP-ASN,15643
@@ -193,7 +194,6 @@ payload:
   - IP-ASN,51617
   - IP-ASN,50865
   - IP-ASN,50744
-  - IP-ASN,50454
   - IP-ASN,50440
   - IP-ASN,50365
   - IP-ASN,50318
@@ -329,3 +329,4 @@ payload:
   - IP-ASN,212529
   - IP-ASN,206020
   - IP-ASN,202301
+  - IP-ASN,199879

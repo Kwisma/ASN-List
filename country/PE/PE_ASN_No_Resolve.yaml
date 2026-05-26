@@ -1,6 +1,6 @@
 # PE 的 ASN 信息
-# 最后更新： CST 2026-05-26 01:30:10
-# ASN: 185
+# 最后更新： CST 2026-05-27 02:17:52
+# ASN: 187
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -10,8 +10,8 @@ payload:
   - IP-ASN,262253,no-resolve
   - IP-ASN,273976,no-resolve
   - IP-ASN,6147,no-resolve
-  - IP-ASN,273067,no-resolve
   - IP-ASN,3132,no-resolve
+  - IP-ASN,273067,no-resolve
   - IP-ASN,273133,no-resolve
   - IP-ASN,12252,no-resolve
   - IP-ASN,27843,no-resolve
@@ -30,11 +30,11 @@ payload:
   - IP-ASN,267831,no-resolve
   - IP-ASN,263229,no-resolve
   - IP-ASN,262182,no-resolve
+  - IP-ASN,272848,no-resolve
   - IP-ASN,272106,no-resolve
   - IP-ASN,269862,no-resolve
   - IP-ASN,266732,no-resolve
   - IP-ASN,273026,no-resolve
-  - IP-ASN,272848,no-resolve
   - IP-ASN,272004,no-resolve
   - IP-ASN,271868,no-resolve
   - IP-ASN,266716,no-resolve
@@ -66,6 +66,7 @@ payload:
   - IP-ASN,274087,no-resolve
   - IP-ASN,273913,no-resolve
   - IP-ASN,273882,no-resolve
+  - IP-ASN,273084,no-resolve
   - IP-ASN,272838,no-resolve
   - IP-ASN,271862,no-resolve
   - IP-ASN,271857,no-resolve
@@ -75,6 +76,7 @@ payload:
   - IP-ASN,269913,no-resolve
   - IP-ASN,267898,no-resolve
   - IP-ASN,267871,no-resolve
+  - IP-ASN,266859,no-resolve
   - IP-ASN,266823,no-resolve
   - IP-ASN,263224,no-resolve
   - IP-ASN,262168,no-resolve
@@ -94,7 +96,6 @@ payload:
   - IP-ASN,273209,no-resolve
   - IP-ASN,273193,no-resolve
   - IP-ASN,273101,no-resolve
-  - IP-ASN,273084,no-resolve
   - IP-ASN,273018,no-resolve
   - IP-ASN,272830,no-resolve
   - IP-ASN,272141,no-resolve
@@ -110,7 +111,6 @@ payload:
   - IP-ASN,269751,no-resolve
   - IP-ASN,267815,no-resolve
   - IP-ASN,267743,no-resolve
-  - IP-ASN,266859,no-resolve
   - IP-ASN,266722,no-resolve
   - IP-ASN,265869,no-resolve
   - IP-ASN,263692,no-resolve
@@ -181,7 +181,9 @@ payload:
   - IP-ASN,274297,no-resolve
   - IP-ASN,274174,no-resolve
   - IP-ASN,273977,no-resolve
+  - IP-ASN,273959,no-resolve
   - IP-ASN,273906,no-resolve
+  - IP-ASN,273868,no-resolve
   - IP-ASN,273118,no-resolve
   - IP-ASN,273117,no-resolve
   - IP-ASN,273053,no-resolve
