@@ -1,5 +1,5 @@
 # EE 的 ASN 信息
-# 最后更新： CST 2026-06-03 03:38:11
+# 最后更新： CST 2026-06-04 03:43:16
 # ASN: 179
 # 由 Kwisma 制作，保留所有权利。
 
@@ -23,8 +23,8 @@ payload:
   - IP-ASN,3221,no-resolve
   - IP-ASN,204671,no-resolve
   - IP-ASN,43937,no-resolve
-  - IP-ASN,48539,no-resolve
   - IP-ASN,61307,no-resolve
+  - IP-ASN,48539,no-resolve
   - IP-ASN,215955,no-resolve
   - IP-ASN,208367,no-resolve
   - IP-ASN,39823,no-resolve
@@ -32,6 +32,7 @@ payload:
   - IP-ASN,202413,no-resolve
   - IP-ASN,62248,no-resolve
   - IP-ASN,60415,no-resolve
+  - IP-ASN,57196,no-resolve
   - IP-ASN,50794,no-resolve
   - IP-ASN,42300,no-resolve
   - IP-ASN,34702,no-resolve
@@ -43,7 +44,6 @@ payload:
   - IP-ASN,199800,no-resolve
   - IP-ASN,198068,no-resolve
   - IP-ASN,57201,no-resolve
-  - IP-ASN,57196,no-resolve
   - IP-ASN,51504,no-resolve
   - IP-ASN,51349,no-resolve
   - IP-ASN,49604,no-resolve
@@ -58,9 +58,7 @@ payload:
   - IP-ASN,201601,no-resolve
   - IP-ASN,197974,no-resolve
   - IP-ASN,12757,no-resolve
-  - IP-ASN,62406,no-resolve
   - IP-ASN,60608,no-resolve
-  - IP-ASN,44794,no-resolve
   - IP-ASN,43993,no-resolve
   - IP-ASN,42012,no-resolve
   - IP-ASN,3927,no-resolve
@@ -78,10 +76,12 @@ payload:
   - IP-ASN,202376,no-resolve
   - IP-ASN,198379,no-resolve
   - IP-ASN,16255,no-resolve
+  - IP-ASN,62406,no-resolve
   - IP-ASN,62024,no-resolve
   - IP-ASN,59725,no-resolve
   - IP-ASN,57873,no-resolve
   - IP-ASN,47736,no-resolve
+  - IP-ASN,44794,no-resolve
   - IP-ASN,43958,no-resolve
   - IP-ASN,43682,no-resolve
   - IP-ASN,42016,no-resolve
@@ -139,6 +139,7 @@ payload:
   - IP-ASN,31081,no-resolve
   - IP-ASN,2876,no-resolve
   - IP-ASN,24984,no-resolve
+  - IP-ASN,214647,no-resolve
   - IP-ASN,213410,no-resolve
   - IP-ASN,213267,no-resolve
   - IP-ASN,212649,no-resolve
@@ -168,7 +169,6 @@ payload:
   - IP-ASN,198632,no-resolve
   - IP-ASN,198006,no-resolve
   - IP-ASN,197611,no-resolve
-  - IP-ASN,197354,no-resolve
   - IP-ASN,196785,no-resolve
   - IP-ASN,196743,no-resolve
   - IP-ASN,57934,no-resolve
