@@ -1,13 +1,13 @@
 # EE 的 ASN 信息
-# 最后更新： CST 2026-06-05 02:10:28
+# 最后更新： CST 2026-06-06 01:49:23
 # ASN: 180
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
+  - IP-ASN,11967,no-resolve
   - IP-ASN,3130,no-resolve
   - IP-ASN,3920,no-resolve
   - IP-ASN,3204,no-resolve
-  - IP-ASN,11967,no-resolve
   - IP-ASN,62005,no-resolve
   - IP-ASN,214790,no-resolve
   - IP-ASN,3249,no-resolve
@@ -39,6 +39,7 @@ payload:
   - IP-ASN,216253,no-resolve
   - IP-ASN,214132,no-resolve
   - IP-ASN,211494,no-resolve
+  - IP-ASN,211156,no-resolve
   - IP-ASN,207568,no-resolve
   - IP-ASN,202759,no-resolve
   - IP-ASN,199800,no-resolve
@@ -50,7 +51,6 @@ payload:
   - IP-ASN,49191,no-resolve
   - IP-ASN,214919,no-resolve
   - IP-ASN,214693,no-resolve
-  - IP-ASN,211156,no-resolve
   - IP-ASN,209554,no-resolve
   - IP-ASN,20948,no-resolve
   - IP-ASN,209153,no-resolve
