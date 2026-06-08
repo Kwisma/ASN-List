@@ -1,5 +1,5 @@
 # DO 的 ASN 信息
-# 最后更新： CST 2026-06-08 01:06:38
+# 最后更新： CST 2026-06-09 02:20:18
 # ASN: 189
 # 由 Kwisma 制作，保留所有权利。
 
@@ -9,15 +9,16 @@ payload:
   - IP-ASN,6400,no-resolve
   - IP-ASN,272112,no-resolve
   - IP-ASN,272935,no-resolve
-  - IP-ASN,28118,no-resolve
   - IP-ASN,269931,no-resolve
+  - IP-ASN,28118,no-resolve
   - IP-ASN,265721,no-resolve
   - IP-ASN,264821,no-resolve
-  - IP-ASN,27887,no-resolve
   - IP-ASN,272882,no-resolve
+  - IP-ASN,27887,no-resolve
   - IP-ASN,272962,no-resolve
   - IP-ASN,267845,no-resolve
   - IP-ASN,64134,no-resolve
+  - IP-ASN,271935,no-resolve
   - IP-ASN,272073,no-resolve
   - IP-ASN,267700,no-resolve
   - IP-ASN,273824,no-resolve
@@ -30,9 +31,9 @@ payload:
   - IP-ASN,272082,no-resolve
   - IP-ASN,272027,no-resolve
   - IP-ASN,271945,no-resolve
-  - IP-ASN,271935,no-resolve
   - IP-ASN,271799,no-resolve
   - IP-ASN,269965,no-resolve
+  - IP-ASN,267705,no-resolve
   - IP-ASN,266734,no-resolve
   - IP-ASN,265695,no-resolve
   - IP-ASN,263689,no-resolve
@@ -52,7 +53,6 @@ payload:
   - IP-ASN,271965,no-resolve
   - IP-ASN,271942,no-resolve
   - IP-ASN,267846,no-resolve
-  - IP-ASN,267705,no-resolve
   - IP-ASN,266709,no-resolve
   - IP-ASN,263748,no-resolve
   - IP-ASN,263212,no-resolve
@@ -62,10 +62,13 @@ payload:
   - IP-ASN,274328,no-resolve
   - IP-ASN,274304,no-resolve
   - IP-ASN,274290,no-resolve
+  - IP-ASN,274214,no-resolve
+  - IP-ASN,274170,no-resolve
   - IP-ASN,274159,no-resolve
   - IP-ASN,274123,no-resolve
   - IP-ASN,274107,no-resolve
   - IP-ASN,274093,no-resolve
+  - IP-ASN,274069,no-resolve
   - IP-ASN,274048,no-resolve
   - IP-ASN,274027,no-resolve
   - IP-ASN,273982,no-resolve
@@ -106,11 +109,9 @@ payload:
   - IP-ASN,274324,no-resolve
   - IP-ASN,274267,no-resolve
   - IP-ASN,274266,no-resolve
-  - IP-ASN,274214,no-resolve
   - IP-ASN,274204,no-resolve
   - IP-ASN,274192,no-resolve
   - IP-ASN,274190,no-resolve
-  - IP-ASN,274170,no-resolve
   - IP-ASN,274168,no-resolve
   - IP-ASN,274167,no-resolve
   - IP-ASN,274157,no-resolve
@@ -124,7 +125,6 @@ payload:
   - IP-ASN,274078,no-resolve
   - IP-ASN,274072,no-resolve
   - IP-ASN,274070,no-resolve
-  - IP-ASN,274069,no-resolve
   - IP-ASN,274068,no-resolve
   - IP-ASN,274052,no-resolve
   - IP-ASN,274040,no-resolve
