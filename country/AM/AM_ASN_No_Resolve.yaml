@@ -1,12 +1,12 @@
 # AM 的 ASN 信息
-# 最后更新： CST 2026-06-10 01:54:35
+# 最后更新： CST 2026-06-11 02:26:21
 # ASN: 127
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,12297,no-resolve
-  - IP-ASN,49800,no-resolve
   - IP-ASN,8932,no-resolve
+  - IP-ASN,49800,no-resolve
   - IP-ASN,43733,no-resolve
   - IP-ASN,214729,no-resolve
   - IP-ASN,215102,no-resolve
@@ -41,7 +41,6 @@ payload:
   - IP-ASN,201363,no-resolve
   - IP-ASN,201063,no-resolve
   - IP-ASN,199062,no-resolve
-  - IP-ASN,197189,no-resolve
   - IP-ASN,8226,no-resolve
   - IP-ASN,57491,no-resolve
   - IP-ASN,56974,no-resolve
@@ -86,6 +85,7 @@ payload:
   - IP-ASN,199698,no-resolve
   - IP-ASN,198441,no-resolve
   - IP-ASN,197497,no-resolve
+  - IP-ASN,197189,no-resolve
   - IP-ASN,6682,no-resolve
   - IP-ASN,57849,no-resolve
   - IP-ASN,57206,no-resolve
