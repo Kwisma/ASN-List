@@ -1,15 +1,15 @@
 # ZW 的 ASN 信息
-# 最后更新： CST 2026-06-16 03:39:55
-# ASN: 27
+# 最后更新： CST 2026-06-17 03:29:48
+# ASN: 28
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
+  - IP-ASN,37204,no-resolve
   - IP-ASN,37183,no-resolve
   - IP-ASN,329006,no-resolve
-  - IP-ASN,37204,no-resolve
   - IP-ASN,328269,no-resolve
-  - IP-ASN,37568,no-resolve
   - IP-ASN,37184,no-resolve
+  - IP-ASN,37568,no-resolve
   - IP-ASN,37332,no-resolve
   - IP-ASN,329540,no-resolve
   - IP-ASN,37344,no-resolve
@@ -31,3 +31,4 @@ payload:
   - IP-ASN,328230,no-resolve
   - IP-ASN,327971,no-resolve
   - IP-ASN,327863,no-resolve
+  - IP-ASN,21144,no-resolve
