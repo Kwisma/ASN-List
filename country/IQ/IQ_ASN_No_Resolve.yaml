@@ -1,6 +1,6 @@
 # IQ 的 ASN 信息
-# 最后更新： CST 2026-06-19 02:23:27
-# ASN: 150
+# 最后更新： CST 2026-06-20 01:49:17
+# ASN: 151
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -32,6 +32,7 @@ payload:
   - IP-ASN,51018,no-resolve
   - IP-ASN,49571,no-resolve
   - IP-ASN,215597,no-resolve
+  - IP-ASN,212280,no-resolve
   - IP-ASN,212088,no-resolve
   - IP-ASN,211908,no-resolve
   - IP-ASN,211513,no-resolve
@@ -40,7 +41,6 @@ payload:
   - IP-ASN,48407,no-resolve
   - IP-ASN,41032,no-resolve
   - IP-ASN,212692,no-resolve
-  - IP-ASN,212280,no-resolve
   - IP-ASN,210022,no-resolve
   - IP-ASN,207138,no-resolve
   - IP-ASN,206206,no-resolve
@@ -73,8 +73,11 @@ payload:
   - IP-ASN,49110,no-resolve
   - IP-ASN,34929,no-resolve
   - IP-ASN,3194,no-resolve
+  - IP-ASN,216346,no-resolve
+  - IP-ASN,212392,no-resolve
   - IP-ASN,211534,no-resolve
   - IP-ASN,211413,no-resolve
+  - IP-ASN,210509,no-resolve
   - IP-ASN,210016,no-resolve
   - IP-ASN,209193,no-resolve
   - IP-ASN,208866,no-resolve
@@ -105,7 +108,6 @@ payload:
   - IP-ASN,34515,no-resolve
   - IP-ASN,216461,no-resolve
   - IP-ASN,216399,no-resolve
-  - IP-ASN,216346,no-resolve
   - IP-ASN,215917,no-resolve
   - IP-ASN,215839,no-resolve
   - IP-ASN,215668,no-resolve
@@ -118,7 +120,6 @@ payload:
   - IP-ASN,211888,no-resolve
   - IP-ASN,211841,no-resolve
   - IP-ASN,211732,no-resolve
-  - IP-ASN,210509,no-resolve
   - IP-ASN,210402,no-resolve
   - IP-ASN,210194,no-resolve
   - IP-ASN,210095,no-resolve
