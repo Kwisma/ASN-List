@@ -1,6 +1,6 @@
 # JP 的 ASN 信息
-# 最后更新： CST 2026-06-23 03:19:37
-# ASN: 745
+# 最后更新： CST 2026-06-24 01:46:10
+# ASN: 746
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -39,7 +39,6 @@ payload:
   - IP-ASN,17686,no-resolve
   - IP-ASN,131948,no-resolve
   - IP-ASN,138384,no-resolve
-  - IP-ASN,10000,no-resolve
   - IP-ASN,9607,no-resolve
   - IP-ASN,9595,no-resolve
   - IP-ASN,7506,no-resolve
@@ -52,6 +51,7 @@ payload:
   - IP-ASN,138968,no-resolve
   - IP-ASN,9824,no-resolve
   - IP-ASN,4694,no-resolve
+  - IP-ASN,10000,no-resolve
   - IP-ASN,7524,no-resolve
   - IP-ASN,18260,no-resolve
   - IP-ASN,18081,no-resolve
@@ -148,7 +148,6 @@ payload:
   - IP-ASN,23661,no-resolve
   - IP-ASN,23624,no-resolve
   - IP-ASN,18125,no-resolve
-  - IP-ASN,18068,no-resolve
   - IP-ASN,131161,no-resolve
   - IP-ASN,9615,no-resolve
   - IP-ASN,9355,no-resolve
@@ -159,6 +158,7 @@ payload:
   - IP-ASN,23641,no-resolve
   - IP-ASN,23630,no-resolve
   - IP-ASN,23627,no-resolve
+  - IP-ASN,18068,no-resolve
   - IP-ASN,17931,no-resolve
   - IP-ASN,131921,no-resolve
   - IP-ASN,131160,no-resolve
@@ -167,7 +167,6 @@ payload:
   - IP-ASN,4675,no-resolve
   - IP-ASN,45687,no-resolve
   - IP-ASN,38639,no-resolve
-  - IP-ASN,38074,no-resolve
   - IP-ASN,24251,no-resolve
   - IP-ASN,23822,no-resolve
   - IP-ASN,23777,no-resolve
@@ -175,6 +174,7 @@ payload:
   - IP-ASN,131933,no-resolve
   - IP-ASN,131911,no-resolve
   - IP-ASN,63997,no-resolve
+  - IP-ASN,38074,no-resolve
   - IP-ASN,24289,no-resolve
   - IP-ASN,23820,no-resolve
   - IP-ASN,23775,no-resolve
@@ -256,10 +256,10 @@ payload:
   - IP-ASN,9609,no-resolve
   - IP-ASN,58791,no-resolve
   - IP-ASN,4673,no-resolve
+  - IP-ASN,38656,no-resolve
   - IP-ASN,10013,no-resolve
   - IP-ASN,63782,no-resolve
   - IP-ASN,59123,no-resolve
-  - IP-ASN,38656,no-resolve
   - IP-ASN,24295,no-resolve
   - IP-ASN,18092,no-resolve
   - IP-ASN,10026,no-resolve
@@ -585,6 +585,7 @@ payload:
   - IP-ASN,4729,no-resolve
   - IP-ASN,4721,no-resolve
   - IP-ASN,4717,no-resolve
+  - IP-ASN,4695,no-resolve
   - IP-ASN,4690,no-resolve
   - IP-ASN,4686,no-resolve
   - IP-ASN,4677,no-resolve
