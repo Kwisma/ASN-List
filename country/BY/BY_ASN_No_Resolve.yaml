@@ -1,11 +1,11 @@
 # BY 的 ASN 信息
-# 最后更新： CST 2026-06-26 02:04:35
+# 最后更新： CST 2026-06-27 01:31:13
 # ASN: 106
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,60280,no-resolve
   - IP-ASN,6697,no-resolve
+  - IP-ASN,60280,no-resolve
   - IP-ASN,12406,no-resolve
   - IP-ASN,60330,no-resolve
   - IP-ASN,60337,no-resolve
@@ -17,10 +17,9 @@ payload:
   - IP-ASN,31143,no-resolve
   - IP-ASN,208407,no-resolve
   - IP-ASN,205820,no-resolve
-  - IP-ASN,202387,no-resolve
   - IP-ASN,33973,no-resolve
   - IP-ASN,21305,no-resolve
-  - IP-ASN,62197,no-resolve
+  - IP-ASN,202387,no-resolve
   - IP-ASN,60744,no-resolve
   - IP-ASN,60611,no-resolve
   - IP-ASN,60591,no-resolve
@@ -44,6 +43,7 @@ payload:
   - IP-ASN,199561,no-resolve
   - IP-ASN,62351,no-resolve
   - IP-ASN,62208,no-resolve
+  - IP-ASN,62197,no-resolve
   - IP-ASN,62170,no-resolve
   - IP-ASN,61235,no-resolve
   - IP-ASN,60857,no-resolve

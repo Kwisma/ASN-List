@@ -1,6 +1,6 @@
 # VN 的 ASN 信息
-# 最后更新： CST 2026-06-26 02:04:18
-# ASN: 547
+# 最后更新： CST 2026-06-27 01:31:00
+# ASN: 548
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -54,7 +54,9 @@ payload:
   - IP-ASN,63736,no-resolve
   - IP-ASN,63733,no-resolve
   - IP-ASN,56159,no-resolve
+  - IP-ASN,56156,no-resolve
   - IP-ASN,56150,no-resolve
+  - IP-ASN,56141,no-resolve
   - IP-ASN,55318,no-resolve
   - IP-ASN,55313,no-resolve
   - IP-ASN,45546,no-resolve
@@ -66,6 +68,7 @@ payload:
   - IP-ASN,140822,no-resolve
   - IP-ASN,135964,no-resolve
   - IP-ASN,135952,no-resolve
+  - IP-ASN,135944,no-resolve
   - IP-ASN,135943,no-resolve
   - IP-ASN,135932,no-resolve
   - IP-ASN,135912,no-resolve
@@ -83,9 +86,7 @@ payload:
   - IP-ASN,63755,no-resolve
   - IP-ASN,63754,no-resolve
   - IP-ASN,63749,no-resolve
-  - IP-ASN,56156,no-resolve
   - IP-ASN,56155,no-resolve
-  - IP-ASN,56141,no-resolve
   - IP-ASN,55311,no-resolve
   - IP-ASN,55306,no-resolve
   - IP-ASN,45901,no-resolve
@@ -110,7 +111,6 @@ payload:
   - IP-ASN,140745,no-resolve
   - IP-ASN,135990,no-resolve
   - IP-ASN,135988,no-resolve
-  - IP-ASN,135944,no-resolve
   - IP-ASN,135942,no-resolve
   - IP-ASN,135935,no-resolve
   - IP-ASN,135925,no-resolve
@@ -235,6 +235,7 @@ payload:
   - IP-ASN,131425,no-resolve
   - IP-ASN,131419,no-resolve
   - IP-ASN,131415,no-resolve
+  - IP-ASN,131414,no-resolve
   - IP-ASN,131409,no-resolve
   - IP-ASN,131405,no-resolve
   - IP-ASN,131403,no-resolve
@@ -342,6 +343,7 @@ payload:
   - IP-ASN,153022,no-resolve
   - IP-ASN,153017,no-resolve
   - IP-ASN,153016,no-resolve
+  - IP-ASN,153005,no-resolve
   - IP-ASN,153003,no-resolve
   - IP-ASN,152993,no-resolve
   - IP-ASN,152990,no-resolve
@@ -517,7 +519,6 @@ payload:
   - IP-ASN,131426,no-resolve
   - IP-ASN,131422,no-resolve
   - IP-ASN,131417,no-resolve
-  - IP-ASN,131414,no-resolve
   - IP-ASN,131411,no-resolve
   - IP-ASN,131410,no-resolve
   - IP-ASN,131407,no-resolve
