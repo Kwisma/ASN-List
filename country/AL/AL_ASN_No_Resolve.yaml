@@ -1,13 +1,12 @@
 # AL 的 ASN 信息
-# 最后更新： CST 2026-06-30 02:05:17
+# 最后更新： CST 2026-07-01 01:48:27
 # ASN: 124
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,210464,no-resolve
   - IP-ASN,198890,no-resolve
-  - IP-ASN,42313,no-resolve
   - IP-ASN,29170,no-resolve
+  - IP-ASN,42313,no-resolve
   - IP-ASN,35047,no-resolve
   - IP-ASN,198279,no-resolve
   - IP-ASN,50973,no-resolve
@@ -19,6 +18,7 @@ payload:
   - IP-ASN,213683,no-resolve
   - IP-ASN,57961,no-resolve
   - IP-ASN,21246,no-resolve
+  - IP-ASN,210464,no-resolve
   - IP-ASN,205923,no-resolve
   - IP-ASN,56468,no-resolve
   - IP-ASN,47588,no-resolve
