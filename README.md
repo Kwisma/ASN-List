@@ -3,6 +3,12 @@
 实时更新的 ASN 和 IP 数据库。
 data 目录ASN如下：
 
+- ASN-Facebook
+- ASN-Fastly
+- ASN-Netflix
+- ASN-Telegram
+- ASN-Twitter
+- ASN-Tor
 - ASN-Google
 - ASN-Amazon
 - ASN-Cloudflare
@@ -22,6 +28,12 @@ data 目录ASN如下：
 
 <pre><code class="language-javascript">
 rules:
+  - RULE-SET,ASNFacebook,Proxy
+  - RULE-SET,ASNFastly,Proxy
+  - RULE-SET,ASNNetflix,Proxy
+  - RULE-SET,ASNTelegram,Proxy
+  - RULE-SET,ASNTwitter,Proxy
+  - RULE-SET,ASNTor,Proxy
   - RULE-SET,ASNGoogle,Proxy
   - RULE-SET,ASNAmazon,Proxy
   - RULE-SET,ASNCloudflare,Proxy
@@ -36,6 +48,54 @@ rules:
 
 <pre><code class="language-javascript">
 rule-providers:
+
+  Facebookasn:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Facebook/Facebook_ASN.yaml"
+    path: ./ruleset/Facebook_ASN.yaml
+    interval: 86400
+    format: yaml
+
+  Fastlyasn:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Fastly/Fastly_ASN.yaml"
+    path: ./ruleset/Fastly_ASN.yaml
+    interval: 86400
+    format: yaml
+
+  Netflixasn:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Netflix/Netflix_ASN.yaml"
+    path: ./ruleset/Netflix_ASN.yaml
+    interval: 86400
+    format: yaml
+
+  Telegramasn:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Telegram/Telegram_ASN.yaml"
+    path: ./ruleset/Telegram_ASN.yaml
+    interval: 86400
+    format: yaml
+
+  Twitterasn:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Twitter/Twitter_ASN.yaml"
+    path: ./ruleset/Twitter_ASN.yaml
+    interval: 86400
+    format: yaml
+
+  Torasn:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Tor/Tor_ASN.yaml"
+    path: ./ruleset/Tor_ASN.yaml
+    interval: 86400
+    format: yaml
 
   Googleasn:
     type: http
@@ -100,6 +160,36 @@ rule-providers:
 <pre><code class="language-javascript">
 rule-providers:
 
+  Facebookasn:
+    <<: *classical
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Facebook/Facebook_ASN.yaml"
+    path: ./ruleset/Facebook_ASN.yaml
+
+  Fastlyasn:
+    <<: *classical
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Fastly/Fastly_ASN.yaml"
+    path: ./ruleset/Fastly_ASN.yaml
+
+  Netflixasn:
+    <<: *classical
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Netflix/Netflix_ASN.yaml"
+    path: ./ruleset/Netflix_ASN.yaml
+
+  Telegramasn:
+    <<: *classical
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Telegram/Telegram_ASN.yaml"
+    path: ./ruleset/Telegram_ASN.yaml
+
+  Twitterasn:
+    <<: *classical
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Twitter/Twitter_ASN.yaml"
+    path: ./ruleset/Twitter_ASN.yaml
+
+  Torasn:
+    <<: *classical
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Tor/Tor_ASN.yaml"
+    path: ./ruleset/Tor_ASN.yaml
+
   Googleasn:
     <<: *classical
     url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Google/Google_ASN.yaml"
@@ -141,6 +231,36 @@ rule-providers:
 
 <pre><code class="language-javascript">
 rule-providers:
+
+  Facebookcidr:
+    <<: *ipcidr
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Facebook/Facebook_IP.yaml"
+    path: ./ruleset/Facebook_IP.yaml
+
+  Fastlycidr:
+    <<: *ipcidr
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Fastly/Fastly_IP.yaml"
+    path: ./ruleset/Fastly_IP.yaml
+
+  Netflixcidr:
+    <<: *ipcidr
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Netflix/Netflix_IP.yaml"
+    path: ./ruleset/Netflix_IP.yaml
+
+  Telegramcidr:
+    <<: *ipcidr
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Telegram/Telegram_IP.yaml"
+    path: ./ruleset/Telegram_IP.yaml
+
+  Twittercidr:
+    <<: *ipcidr
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Twitter/Twitter_IP.yaml"
+    path: ./ruleset/Twitter_IP.yaml
+
+  Torcidr:
+    <<: *ipcidr
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/data/Tor/Tor_IP.yaml"
+    path: ./ruleset/Tor_IP.yaml
 
   Googlecidr:
     <<: *ipcidr
