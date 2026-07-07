@@ -1,6 +1,6 @@
 # JP 的 ASN 信息
-# 最后更新： CST 2026-07-07 02:51:51
-# ASN: 745
+# 最后更新： CST 2026-07-08 02:38:14
+# ASN: 746
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -24,8 +24,8 @@ payload:
   - IP-ASN,4713
   - IP-ASN,2519
   - IP-ASN,54415
-  - IP-ASN,55900
   - IP-ASN,7679
+  - IP-ASN,55900
   - IP-ASN,9370
   - IP-ASN,38631
   - IP-ASN,10010
@@ -69,7 +69,6 @@ payload:
   - IP-ASN,17685
   - IP-ASN,139076
   - IP-ASN,131931
-  - IP-ASN,131923
   - IP-ASN,9622
   - IP-ASN,9371
   - IP-ASN,7660
@@ -78,10 +77,11 @@ payload:
   - IP-ASN,3258
   - IP-ASN,24271
   - IP-ASN,23780
+  - IP-ASN,131923
+  - IP-ASN,10004
   - IP-ASN,9351
   - IP-ASN,24279
   - IP-ASN,17958
-  - IP-ASN,10004
   - IP-ASN,7682
   - IP-ASN,4693
   - IP-ASN,18278
@@ -95,14 +95,14 @@ payload:
   - IP-ASN,9365
   - IP-ASN,7668
   - IP-ASN,2514
-  - IP-ASN,23824
   - IP-ASN,23778
   - IP-ASN,18121
   - IP-ASN,17683
+  - IP-ASN,150363
   - IP-ASN,24255
   - IP-ASN,24253
+  - IP-ASN,23824
   - IP-ASN,18274
-  - IP-ASN,150363
   - IP-ASN,37922
   - IP-ASN,55888
   - IP-ASN,24259
@@ -309,7 +309,6 @@ payload:
   - IP-ASN,45680
   - IP-ASN,38638
   - IP-ASN,37900
-  - IP-ASN,37893
   - IP-ASN,24287
   - IP-ASN,23634
   - IP-ASN,17944
@@ -348,6 +347,7 @@ payload:
   - IP-ASN,38651
   - IP-ASN,38636
   - IP-ASN,38215
+  - IP-ASN,37893
   - IP-ASN,37891
   - IP-ASN,24229
   - IP-ASN,23817
@@ -708,6 +708,7 @@ payload:
   - IP-ASN,139255
   - IP-ASN,138652
   - IP-ASN,134827
+  - IP-ASN,133780
   - IP-ASN,133458
   - IP-ASN,133405
   - IP-ASN,133180
