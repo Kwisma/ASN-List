@@ -1,11 +1,11 @@
 # BY 的 ASN 信息
-# 最后更新： CST 2026-08-01 02:05:59
+# 最后更新： CST 2026-08-02 01:49:55
 # ASN: 108
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,60280,no-resolve
   - IP-ASN,6697,no-resolve
+  - IP-ASN,60280,no-resolve
   - IP-ASN,12406,no-resolve
   - IP-ASN,60330,no-resolve
   - IP-ASN,60337,no-resolve
@@ -17,9 +17,9 @@ payload:
   - IP-ASN,31143,no-resolve
   - IP-ASN,208407,no-resolve
   - IP-ASN,205820,no-resolve
-  - IP-ASN,202387,no-resolve
   - IP-ASN,33973,no-resolve
   - IP-ASN,21305,no-resolve
+  - IP-ASN,202387,no-resolve
   - IP-ASN,62197,no-resolve
   - IP-ASN,60744,no-resolve
   - IP-ASN,60611,no-resolve
@@ -31,6 +31,8 @@ payload:
   - IP-ASN,50438,no-resolve
   - IP-ASN,50176,no-resolve
   - IP-ASN,49711,no-resolve
+  - IP-ASN,49526,no-resolve
+  - IP-ASN,49091,no-resolve
   - IP-ASN,44397,no-resolve
   - IP-ASN,44288,no-resolve
   - IP-ASN,41245,no-resolve
@@ -38,7 +40,6 @@ payload:
   - IP-ASN,215100,no-resolve
   - IP-ASN,212619,no-resolve
   - IP-ASN,212172,no-resolve
-  - IP-ASN,211976,no-resolve
   - IP-ASN,211487,no-resolve
   - IP-ASN,21062,no-resolve
   - IP-ASN,207587,no-resolve
@@ -73,9 +74,7 @@ payload:
   - IP-ASN,50205,no-resolve
   - IP-ASN,50155,no-resolve
   - IP-ASN,49682,no-resolve
-  - IP-ASN,49526,no-resolve
   - IP-ASN,49243,no-resolve
-  - IP-ASN,49091,no-resolve
   - IP-ASN,48340,no-resolve
   - IP-ASN,48107,no-resolve
   - IP-ASN,44272,no-resolve
@@ -94,6 +93,7 @@ payload:
   - IP-ASN,215119,no-resolve
   - IP-ASN,213664,no-resolve
   - IP-ASN,212108,no-resolve
+  - IP-ASN,211976,no-resolve
   - IP-ASN,211263,no-resolve
   - IP-ASN,211089,no-resolve
   - IP-ASN,210871,no-resolve
