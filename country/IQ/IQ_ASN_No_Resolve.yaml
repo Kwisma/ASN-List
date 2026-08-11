@@ -1,12 +1,12 @@
 # IQ 的 ASN 信息
-# 最后更新： CST 2026-08-11 01:28:55
+# 最后更新： CST 2026-08-12 01:32:16
 # ASN: 149
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,21277,no-resolve
-  - IP-ASN,207811,no-resolve
   - IP-ASN,212250,no-resolve
+  - IP-ASN,207811,no-resolve
   - IP-ASN,44217,no-resolve
   - IP-ASN,210021,no-resolve
   - IP-ASN,208293,no-resolve
@@ -17,11 +17,12 @@ payload:
   - IP-ASN,39216,no-resolve
   - IP-ASN,50597,no-resolve
   - IP-ASN,57324,no-resolve
-  - IP-ASN,59588,no-resolve
   - IP-ASN,51684,no-resolve
   - IP-ASN,205254,no-resolve
+  - IP-ASN,59588,no-resolve
   - IP-ASN,212573,no-resolve
   - IP-ASN,205906,no-resolve
+  - IP-ASN,201749,no-resolve
   - IP-ASN,200485,no-resolve
   - IP-ASN,200178,no-resolve
   - IP-ASN,57588,no-resolve
@@ -32,19 +33,21 @@ payload:
   - IP-ASN,215597,no-resolve
   - IP-ASN,212088,no-resolve
   - IP-ASN,211513,no-resolve
+  - IP-ASN,211090,no-resolve
   - IP-ASN,206206,no-resolve
-  - IP-ASN,201749,no-resolve
+  - IP-ASN,197882,no-resolve
+  - IP-ASN,197305,no-resolve
   - IP-ASN,60815,no-resolve
   - IP-ASN,41032,no-resolve
   - IP-ASN,3194,no-resolve
   - IP-ASN,211908,no-resolve
-  - IP-ASN,211090,no-resolve
   - IP-ASN,210513,no-resolve
   - IP-ASN,207138,no-resolve
-  - IP-ASN,197882,no-resolve
-  - IP-ASN,197305,no-resolve
+  - IP-ASN,198169,no-resolve
+  - IP-ASN,52059,no-resolve
   - IP-ASN,213098,no-resolve
   - IP-ASN,212692,no-resolve
+  - IP-ASN,212525,no-resolve
   - IP-ASN,212392,no-resolve
   - IP-ASN,212280,no-resolve
   - IP-ASN,211970,no-resolve
@@ -56,18 +59,16 @@ payload:
   - IP-ASN,207097,no-resolve
   - IP-ASN,205800,no-resolve
   - IP-ASN,204798,no-resolve
-  - IP-ASN,198169,no-resolve
   - IP-ASN,62419,no-resolve
   - IP-ASN,62223,no-resolve
   - IP-ASN,61271,no-resolve
   - IP-ASN,57958,no-resolve
   - IP-ASN,57761,no-resolve
-  - IP-ASN,52059,no-resolve
   - IP-ASN,51539,no-resolve
   - IP-ASN,51020,no-resolve
   - IP-ASN,34929,no-resolve
-  - IP-ASN,212525,no-resolve
   - IP-ASN,211888,no-resolve
+  - IP-ASN,211413,no-resolve
   - IP-ASN,210016,no-resolve
   - IP-ASN,209193,no-resolve
   - IP-ASN,208859,no-resolve
@@ -114,7 +115,6 @@ payload:
   - IP-ASN,211841,no-resolve
   - IP-ASN,211732,no-resolve
   - IP-ASN,211534,no-resolve
-  - IP-ASN,211413,no-resolve
   - IP-ASN,210509,no-resolve
   - IP-ASN,210402,no-resolve
   - IP-ASN,210194,no-resolve
