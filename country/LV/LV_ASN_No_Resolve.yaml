@@ -1,5 +1,5 @@
 # LV 的 ASN 信息
-# 最后更新： CST 2026-08-21 01:09:30
+# 最后更新： CST 2026-08-22 01:06:31
 # ASN: 254
 # 由 Kwisma 制作，保留所有权利。
 
@@ -41,7 +41,9 @@ payload:
   - IP-ASN,39845,no-resolve
   - IP-ASN,207066,no-resolve
   - IP-ASN,203866,no-resolve
+  - IP-ASN,199529,no-resolve
   - IP-ASN,15721,no-resolve
+  - IP-ASN,61277,no-resolve
   - IP-ASN,61127,no-resolve
   - IP-ASN,52048,no-resolve
   - IP-ASN,51338,no-resolve
@@ -54,13 +56,11 @@ payload:
   - IP-ASN,202221,no-resolve
   - IP-ASN,201861,no-resolve
   - IP-ASN,201269,no-resolve
-  - IP-ASN,199529,no-resolve
   - IP-ASN,16062,no-resolve
   - IP-ASN,12509,no-resolve
   - IP-ASN,9029,no-resolve
   - IP-ASN,8605,no-resolve
   - IP-ASN,62436,no-resolve
-  - IP-ASN,61277,no-resolve
   - IP-ASN,59967,no-resolve
   - IP-ASN,59615,no-resolve
   - IP-ASN,57223,no-resolve
@@ -83,6 +83,8 @@ payload:
   - IP-ASN,24972,no-resolve
   - IP-ASN,215712,no-resolve
   - IP-ASN,215537,no-resolve
+  - IP-ASN,215324,no-resolve
+  - IP-ASN,214507,no-resolve
   - IP-ASN,213164,no-resolve
   - IP-ASN,212132,no-resolve
   - IP-ASN,211838,no-resolve
@@ -100,7 +102,9 @@ payload:
   - IP-ASN,203355,no-resolve
   - IP-ASN,202071,no-resolve
   - IP-ASN,201897,no-resolve
+  - IP-ASN,201716,no-resolve
   - IP-ASN,199558,no-resolve
+  - IP-ASN,199034,no-resolve
   - IP-ASN,199029,no-resolve
   - IP-ASN,197870,no-resolve
   - IP-ASN,197616,no-resolve
@@ -183,8 +187,6 @@ payload:
   - IP-ASN,216464,no-resolve
   - IP-ASN,215702,no-resolve
   - IP-ASN,215329,no-resolve
-  - IP-ASN,215324,no-resolve
-  - IP-ASN,214507,no-resolve
   - IP-ASN,214360,no-resolve
   - IP-ASN,213934,no-resolve
   - IP-ASN,213601,no-resolve
@@ -227,7 +229,6 @@ payload:
   - IP-ASN,202589,no-resolve
   - IP-ASN,202555,no-resolve
   - IP-ASN,202280,no-resolve
-  - IP-ASN,201716,no-resolve
   - IP-ASN,201673,no-resolve
   - IP-ASN,201574,no-resolve
   - IP-ASN,201547,no-resolve
@@ -235,7 +236,6 @@ payload:
   - IP-ASN,199663,no-resolve
   - IP-ASN,199577,no-resolve
   - IP-ASN,199300,no-resolve
-  - IP-ASN,199034,no-resolve
   - IP-ASN,199031,no-resolve
   - IP-ASN,198924,no-resolve
   - IP-ASN,198620,no-resolve
