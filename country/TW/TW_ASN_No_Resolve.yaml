@@ -1,5 +1,5 @@
 # TW 的 ASN 信息
-# 最后更新： CST 2026-08-22 01:06:29
+# 最后更新： CST 2026-08-23 00:56:40
 # ASN: 306
 # 由 Kwisma 制作，保留所有权利。
 
@@ -14,10 +14,10 @@ payload:
   - IP-ASN,18041,no-resolve
   - IP-ASN,45250,no-resolve
   - IP-ASN,4780,no-resolve
-  - IP-ASN,18046,no-resolve
   - IP-ASN,9264,no-resolve
-  - IP-ASN,208223,no-resolve
+  - IP-ASN,18046,no-resolve
   - IP-ASN,142005,no-resolve
+  - IP-ASN,208223,no-resolve
   - IP-ASN,203843,no-resolve
   - IP-ASN,151188,no-resolve
   - IP-ASN,18044,no-resolve
@@ -43,9 +43,9 @@ payload:
   - IP-ASN,7483,no-resolve
   - IP-ASN,38856,no-resolve
   - IP-ASN,17415,no-resolve
+  - IP-ASN,150768,no-resolve
   - IP-ASN,131659,no-resolve
   - IP-ASN,152619,no-resolve
-  - IP-ASN,150768,no-resolve
   - IP-ASN,150755,no-resolve
   - IP-ASN,131584,no-resolve
   - IP-ASN,10135,no-resolve
@@ -53,11 +53,11 @@ payload:
   - IP-ASN,18428,no-resolve
   - IP-ASN,152615,no-resolve
   - IP-ASN,150771,no-resolve
-  - IP-ASN,131634,no-resolve
   - IP-ASN,38851,no-resolve
   - IP-ASN,38254,no-resolve
   - IP-ASN,18422,no-resolve
   - IP-ASN,18182,no-resolve
+  - IP-ASN,131634,no-resolve
   - IP-ASN,9922,no-resolve
   - IP-ASN,9681,no-resolve
   - IP-ASN,7656,no-resolve
@@ -93,12 +93,10 @@ payload:
   - IP-ASN,18042,no-resolve
   - IP-ASN,1659,no-resolve
   - IP-ASN,136462,no-resolve
-  - IP-ASN,131644,no-resolve
   - IP-ASN,131638,no-resolve
   - IP-ASN,131618,no-resolve
   - IP-ASN,9676,no-resolve
   - IP-ASN,18183,no-resolve
-  - IP-ASN,18180,no-resolve
   - IP-ASN,17716,no-resolve
   - IP-ASN,131599,no-resolve
   - IP-ASN,63902,no-resolve
@@ -108,6 +106,7 @@ payload:
   - IP-ASN,24158,no-resolve
   - IP-ASN,24155,no-resolve
   - IP-ASN,18181,no-resolve
+  - IP-ASN,18180,no-resolve
   - IP-ASN,131646,no-resolve
   - IP-ASN,131636,no-resolve
   - IP-ASN,9919,no-resolve
@@ -245,6 +244,7 @@ payload:
   - IP-ASN,131652,no-resolve
   - IP-ASN,131650,no-resolve
   - IP-ASN,131649,no-resolve
+  - IP-ASN,131644,no-resolve
   - IP-ASN,131639,no-resolve
   - IP-ASN,131637,no-resolve
   - IP-ASN,131635,no-resolve
