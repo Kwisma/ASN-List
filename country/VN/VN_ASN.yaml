@@ -1,13 +1,13 @@
 # VN 的 ASN 信息
-# 最后更新： CST 2026-08-29 09:02:03
+# 最后更新： CST 2026-08-30 03:51:31
 # ASN: 548
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
   - IP-ASN,18403
   - IP-ASN,45899
-  - IP-ASN,45903
   - IP-ASN,45896
+  - IP-ASN,45903
   - IP-ASN,63741
   - IP-ASN,7552
   - IP-ASN,24173
@@ -57,6 +57,7 @@ payload:
   - IP-ASN,56141
   - IP-ASN,55318
   - IP-ASN,55313
+  - IP-ASN,45546
   - IP-ASN,45544
   - IP-ASN,24085
   - IP-ASN,150866
@@ -90,7 +91,6 @@ payload:
   - IP-ASN,45902
   - IP-ASN,45901
   - IP-ASN,45552
-  - IP-ASN,45546
   - IP-ASN,45541
   - IP-ASN,38734
   - IP-ASN,38730
@@ -100,7 +100,7 @@ payload:
   - IP-ASN,23902
   - IP-ASN,206586
   - IP-ASN,154406
-  - IP-ASN,154247
+  - IP-ASN,154003
   - IP-ASN,153013
   - IP-ASN,152994
   - IP-ASN,152940
@@ -168,8 +168,8 @@ payload:
   - IP-ASN,24089
   - IP-ASN,24086
   - IP-ASN,23999
+  - IP-ASN,154247
   - IP-ASN,154144
-  - IP-ASN,154003
   - IP-ASN,153941
   - IP-ASN,153780
   - IP-ASN,153651

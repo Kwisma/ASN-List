@@ -1,6 +1,6 @@
 # RS 的 ASN 信息
-# 最后更新： CST 2026-08-29 09:02:17
-# ASN: 163
+# 最后更新： CST 2026-08-30 03:52:31
+# ASN: 164
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
@@ -10,8 +10,8 @@ payload:
   - IP-ASN,8400,no-resolve
   - IP-ASN,31042,no-resolve
   - IP-ASN,9125,no-resolve
-  - IP-ASN,203752,no-resolve
   - IP-ASN,41897,no-resolve
+  - IP-ASN,203752,no-resolve
   - IP-ASN,205620,no-resolve
   - IP-ASN,47479,no-resolve
   - IP-ASN,39311,no-resolve
@@ -160,6 +160,7 @@ payload:
   - IP-ASN,200287,no-resolve
   - IP-ASN,199493,no-resolve
   - IP-ASN,198961,no-resolve
+  - IP-ASN,198753,no-resolve
   - IP-ASN,198474,no-resolve
   - IP-ASN,198237,no-resolve
   - IP-ASN,196886,no-resolve
