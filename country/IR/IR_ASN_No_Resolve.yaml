@@ -1,14 +1,14 @@
 # IR 的 ASN 信息
-# 最后更新： CST 2026-09-04 03:47:41
+# 最后更新： CST 2026-09-05 03:38:49
 # ASN: 602
 # 由 Kwisma 制作，保留所有权利。
 
 payload:
-  - IP-ASN,214145,no-resolve
   - IP-ASN,49666,no-resolve
   - IP-ASN,42337,no-resolve
   - IP-ASN,58224,no-resolve
   - IP-ASN,43754,no-resolve
+  - IP-ASN,214145,no-resolve
   - IP-ASN,6736,no-resolve
   - IP-ASN,49100,no-resolve
   - IP-ASN,25184,no-resolve
@@ -68,6 +68,7 @@ payload:
   - IP-ASN,202391,no-resolve
   - IP-ASN,200436,no-resolve
   - IP-ASN,62367,no-resolve
+  - IP-ASN,62039,no-resolve
   - IP-ASN,60627,no-resolve
   - IP-ASN,60248,no-resolve
   - IP-ASN,57218,no-resolve
@@ -93,7 +94,6 @@ payload:
   - IP-ASN,201691,no-resolve
   - IP-ASN,198154,no-resolve
   - IP-ASN,62173,no-resolve
-  - IP-ASN,62039,no-resolve
   - IP-ASN,61386,no-resolve
   - IP-ASN,61239,no-resolve
   - IP-ASN,60423,no-resolve
@@ -286,6 +286,7 @@ payload:
   - IP-ASN,200324,no-resolve
   - IP-ASN,200312,no-resolve
   - IP-ASN,200252,no-resolve
+  - IP-ASN,198926,no-resolve
   - IP-ASN,16286,no-resolve
   - IP-ASN,12660,no-resolve
   - IP-ASN,64458,no-resolve
@@ -414,7 +415,6 @@ payload:
   - IP-ASN,29577,no-resolve
   - IP-ASN,29077,no-resolve
   - IP-ASN,25264,no-resolve
-  - IP-ASN,219472,no-resolve
   - IP-ASN,219466,no-resolve
   - IP-ASN,219162,no-resolve
   - IP-ASN,219142,no-resolve
@@ -457,6 +457,7 @@ payload:
   - IP-ASN,213644,no-resolve
   - IP-ASN,213551,no-resolve
   - IP-ASN,213531,no-resolve
+  - IP-ASN,213406,no-resolve
   - IP-ASN,213222,no-resolve
   - IP-ASN,212939,no-resolve
   - IP-ASN,212907,no-resolve
@@ -578,7 +579,6 @@ payload:
   - IP-ASN,199849,no-resolve
   - IP-ASN,199633,no-resolve
   - IP-ASN,199495,no-resolve
-  - IP-ASN,198926,no-resolve
   - IP-ASN,198569,no-resolve
   - IP-ASN,198357,no-resolve
   - IP-ASN,198341,no-resolve
