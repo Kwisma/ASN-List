@@ -5,6 +5,7 @@ country 目录ASN如下：
 
 - ASN-US United States
 - ASN-BR Brazil
+- ASN-CN China
 - ASN-RU Russian Federation
 - ASN-IN India
 - ASN-GB United Kingdom
@@ -257,6 +258,7 @@ country 目录ASN如下：
 rules:
   - RULE-SET,ASNUS,Proxy
   - RULE-SET,ASNBR,Proxy
+  - RULE-SET,ASNCN,Proxy
   - RULE-SET,ASNRU,Proxy
   - RULE-SET,ASNIN,Proxy
   - RULE-SET,ASNGB,Proxy
@@ -516,6 +518,14 @@ rule-providers:
     behavior: classical
     url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/BR/BR_ASN.yaml"
     path: ./ruleset/BR_ASN.yaml
+    interval: 86400
+    format: yaml
+
+  CNasn:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CN/CN_ASN.yaml"
+    path: ./ruleset/CN_ASN.yaml
     interval: 86400
     format: yaml
 
@@ -2440,6 +2450,11 @@ rule-providers:
     url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BR/BR_ASN.yaml"
     path: ./ruleset/BR_ASN.yaml
 
+  CNasn:
+    <<: *classical
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CN/CN_ASN.yaml"
+    path: ./ruleset/CN_ASN.yaml
+
   RUasn:
     <<: *classical
     url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/RU/RU_ASN.yaml"
@@ -3646,6 +3661,11 @@ rule-providers:
     <<: *ipcidr
     url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/BR/BR_IP.yaml"
     path: ./ruleset/BR_IP.yaml
+
+  CNcidr:
+    <<: *ipcidr
+    url: "https://jsd.onmicrosoft.cn/gh/Kwisma/ASN-List@main/country/CN/CN_IP.yaml"
+    path: ./ruleset/CN_IP.yaml
 
   RUcidr:
     <<: *ipcidr
