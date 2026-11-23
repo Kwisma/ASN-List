@@ -28,19 +28,19 @@ data 目录ASN如下：
 
 <pre><code class="language-javascript">
 rules:
-  - RULE-SET,ASNFacebook,Proxy
-  - RULE-SET,ASNFastly,Proxy
-  - RULE-SET,ASNNetflix,Proxy
-  - RULE-SET,ASNTelegram,Proxy
-  - RULE-SET,ASNTwitter,Proxy
-  - RULE-SET,ASNTor,Proxy
-  - RULE-SET,ASNGoogle,Proxy
-  - RULE-SET,ASNAmazon,Proxy
-  - RULE-SET,ASNCloudflare,Proxy
-  - RULE-SET,ASNMicrosoft,Proxy
-  - RULE-SET,ASNAlibaba,Proxy
-  - RULE-SET,ASNLeaseweb,Proxy
-  - RULE-SET,ASNTencent,Proxy
+  - RULE-SET,Facebookasn,Proxy
+  - RULE-SET,Fastlyasn,Proxy
+  - RULE-SET,Netflixasn,Proxy
+  - RULE-SET,Telegramasn,Proxy
+  - RULE-SET,Twitterasn,Proxy
+  - RULE-SET,Torasn,Proxy
+  - RULE-SET,Googleasn,Proxy
+  - RULE-SET,Amazonasn,Proxy
+  - RULE-SET,Cloudflareasn,Proxy
+  - RULE-SET,Microsoftasn,Proxy
+  - RULE-SET,Alibabaasn,Direct
+  - RULE-SET,Leasewebasn,Proxy
+  - RULE-SET,Tencentasn,Direct
 
 </code></pre>
 
